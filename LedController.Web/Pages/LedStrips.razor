@@ -1,0 +1,150 @@
+﻿@page "/ledstrips"
+
+@using MudBlazor.Extensions
+@using LedController.Domain.Models
+@using LedController.Shared.Extensions
+@using LedController.WebPortal.Domain.Managers
+@using LedController.WebPortal.Domain.Services
+@using LedController.WebPortal.Web.Dialogs
+@using MudBlazor
+
+@using Animation = LedController.Domain.Models.Animation
+
+@inject IDialogService _dialogService
+@inject ILedstripManager _ledstripManager
+@inject IAnimationService _animationService
+@inject NavigationManager _navigationManager
+
+
+@*
+    TODO List
+
+    * TODO: Add controller based ledstrips.
+
+*@
+<div class="row">
+    <MudButtonGroup Color="Color.Primary" Variant="Variant.Outlined">
+
+        <MudIconButton Icon="Add">
+            <MudMenu>
+                <MudMenuItem>
+                     <MudButton Variant="Variant.Text" Color="MudBlazor.Color.Success" @onclick="async () => await CreateLedstripAsync()">New</MudButton>
+                </MudMenuItem>
+            </MudMenu>
+        </MudIconButton>
+
+    </MudButtonGroup>
+
+</div>
+
+
+@foreach (Ledstrip ledstrip in Ledstrips)
+{
+
+    <div class="col-md-3">
+        <MudCard>
+            <MudCardHeader>
+                <CardHeaderActions>
+                    <MudIconButton Icon="@Icons.Material.Filled.Settings" Color="Color.Default" onclick="OpenEditControllerDialog(controller)" />
+                </CardHeaderActions>
+                @*TODO: Add image of controller *@
+            </MudCardHeader>
+            <MudCardContent>
+                <MudText></MudText>
+                <MudText Typo="Typo.h5">Name: @ledstrip.Name</MudText>
+                <MudText Typo="Typo.body2">Controller: @ledstrip.Controller.Name</MudText>
+                <MudText Typo="Typo.body2">Leds : @ledstrip.PixelCount</MudText>
+                <MudText Typo="Typo.body2">Status</MudText>
+                @*TODO: implement status that can as following Disconnected Connected Playing*@
+            </MudCardContent>
+
+            <MudCardActions>
+                <MudButton @onclick="() =>EditLedstrip(ledstrip)" Variant="Variant.Filled" Color="Color.Info">Edit</MudButton>
+                <MudButton @onclick="async () => await RemoveLedstripAsync(ledstrip)" Variant="Variant.Filled" Color="Color.Error">Remove</MudButton>
+            </MudCardActions>
+        </MudCard>
+
+    </div>
+}
+
+
+
+
+
+@code {
+
+    /// <summary>
+    /// The ledstrips that we want to show.
+    /// </summary>
+    IEnumerable<Ledstrip> Ledstrips { get; set; } = new List<Ledstrip>();
+
+
+    /// <summary>
+    /// Method invoked when the component is ready to start, having received its
+    /// initial parameters from its parent in the render tree.
+    /// Override this method if you will perform an asynchronous operation and
+    /// want the component to refresh when that operation is completed.
+    /// </summary>
+    /// <returns>A <see cref="T:System.Threading.Tasks.Task" /> representing any asynchronous operation.</returns>
+    protected override async Task OnInitializedAsync()
+    {
+        Ledstrips = await _ledstripManager.GetAsync().AsEnumerableAsync();
+
+        await base.OnInitializedAsync();
+    }
+
+
+
+    /// <summary>
+    /// Shows the edit ledstrip dialog to edit the ledstrip.
+    /// </summary>
+    /// <param name="ledstrip">The ledstrip that we want to edit.</param>
+    /// <returns></returns>
+    private void EditLedstrip(Ledstrip ledstrip)
+    {
+        DialogParameters parameters = new DialogParameters();
+        parameters.Add("Ledstrip", ledstrip);
+
+        _dialogService.Show<EditLedstripDialog>("Edit", parameters);
+    }
+
+
+    /// <summary>
+    /// Asks the user if we want to remove the ledstrip and then remove it.
+    /// </summary>
+    /// <param name="ledstrip">The ledstrip we want to remove.</param>
+    /// <returns></returns>
+    private async Task RemoveLedstripAsync(Ledstrip ledstrip)
+    {
+        bool result = await _dialogService.ShowMessageBox("Remove",
+            "Are you sure you would like to remove this ledstrip.",
+            noText: "No") ?? false;
+
+        // Checking if we want to delete if not then exit.
+        if (result == false) return;
+
+        // TODO:  stop ledstrip.
+
+
+        // Removes the ledstrip.
+        await _ledstripManager.Remove(ledstrip);
+
+    }
+
+
+    /// <summary>
+    /// Creates a new ledstrip by showing a dialog to create a new one.
+    /// </summary>
+    /// <returns></returns>
+    private async Task CreateLedstripAsync()
+	{
+		IDialogReference dialog = _dialogService.Show<EditLedstripDialog>();
+
+        // Waiting for the dialog to close to show the new ledstrip.
+		await dialog.Result;
+		StateHasChanged();
+
+	}
+
+
+}

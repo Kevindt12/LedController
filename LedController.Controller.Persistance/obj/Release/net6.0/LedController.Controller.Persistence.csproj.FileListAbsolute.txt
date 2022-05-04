@@ -1,0 +1,17 @@
+D:\Projects\LedController_net5\LedController.Controller.Persistance\bin\Release\net6.0\LedController.Controller.Persistence.deps.json
+D:\Projects\LedController_net5\LedController.Controller.Persistance\bin\Release\net6.0\LedController.Controller.Persistence.dll
+D:\Projects\LedController_net5\LedController.Controller.Persistance\bin\Release\net6.0\LedController.Controller.Persistence.pdb
+D:\Projects\LedController_net5\LedController.Controller.Persistance\bin\Release\net6.0\LedController.Domain.dll
+D:\Projects\LedController_net5\LedController.Controller.Persistance\bin\Release\net6.0\LedController.Shared.dll
+D:\Projects\LedController_net5\LedController.Controller.Persistance\bin\Release\net6.0\LedController.Domain.pdb
+D:\Projects\LedController_net5\LedController.Controller.Persistance\bin\Release\net6.0\LedController.Shared.pdb
+D:\Projects\LedController_net5\LedController.Controller.Persistance\obj\Release\net6.0\LedController.Controller.Persistence.csproj.AssemblyReference.cache
+D:\Projects\LedController_net5\LedController.Controller.Persistance\obj\Release\net6.0\LedController.Controller.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\LedController_net5\LedController.Controller.Persistance\obj\Release\net6.0\LedController.Controller.Persistence.AssemblyInfoInputs.cache
+D:\Projects\LedController_net5\LedController.Controller.Persistance\obj\Release\net6.0\LedController.Controller.Persistence.AssemblyInfo.cs
+D:\Projects\LedController_net5\LedController.Controller.Persistance\obj\Release\net6.0\LedController.Controller.Persistence.csproj.CoreCompileInputs.cache
+D:\Projects\LedController_net5\LedController.Controller.Persistance\obj\Release\net6.0\LedController.Controller.Persistence.csproj.CopyComplete
+D:\Projects\LedController_net5\LedController.Controller.Persistance\obj\Release\net6.0\LedController.Controller.Persistence.dll
+D:\Projects\LedController_net5\LedController.Controller.Persistance\obj\Release\net6.0\refint\LedController.Controller.Persistence.dll
+D:\Projects\LedController_net5\LedController.Controller.Persistance\obj\Release\net6.0\LedController.Controller.Persistence.pdb
+D:\Projects\LedController_net5\LedController.Controller.Persistance\obj\Release\net6.0\ref\LedController.Controller.Persistence.dll

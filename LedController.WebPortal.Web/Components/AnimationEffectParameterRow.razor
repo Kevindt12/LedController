@@ -1,0 +1,62 @@
+﻿@using MudBlazor
+@using MudBlazor.Utilities
+
+@using LedController.Domain.Models
+@using LedController.WebPortal.Web.Extensions
+
+@using Color = System.Drawing.Color
+
+
+
+<MudGrid>
+
+    @* Effect parameter name *@
+    <MudItem xs="2">
+        <MudText Class="pa-4"
+                 Inline="true"
+                 Typo="Typo.h5">Name: @ParameterValue.EffectParameter.Name</MudText>
+    </MudItem>
+    
+    @* Effect parameter description *@
+    <MudItem xs="5">
+        <MudText Class="pa-4"
+                 Inline="true"
+                 Typo="Typo.h5">Description: @ParameterValue.EffectParameter.Description</MudText>
+    </MudItem>
+    
+    @* Parameter type name *@
+    <MudItem xs="2">
+        <MudText Class="pa-4"
+                 Inline="true"
+                 Typo="Typo.h5">Type: @ParameterValue.EffectParameter.ParameterType.Name</MudText>
+    </MudItem>
+    
+    @* Parameter value *@
+    <MudItem xs="3">
+        <EffectParameterValueField ParameterType="ParameterValue.EffectParameter.ParameterType" 
+                                   Value="ParameterValue.Value" ValueChanged="OnParameterValueChanged"/>
+    </MudItem>
+
+</MudGrid>
+
+@code {
+
+    /// <summary>
+    /// The parameter value that have.
+    /// </summary>
+    [Parameter]
+    public AnimationEffectParameterValue ParameterValue { get; set; } = default!;
+
+    /// <summary>
+    /// The binding parameter.
+    /// </summary>
+    [Parameter]
+    public EventCallback<AnimationEffectParameterValue> ParameterValueChanged { get; set; }
+	private async Task OnParameterValueChanged(object? value)
+	{
+		ParameterValue.Value = value;
+		await ParameterValueChanged.InvokeAsync(ParameterValue);
+	}
+
+
+}

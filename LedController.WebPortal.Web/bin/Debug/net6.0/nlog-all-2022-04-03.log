@@ -1,0 +1,153 @@
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/04/03 19:08:02.352 - [DEBUG]: Hosting starting 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/03 19:08:02.421 - [DEBUG]: Starting the discovery service. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/03 19:08:02.421 - [DEBUG]: Creating a new UDP client to be used for broadcasting the server information. This wil happen on UDP port 8472. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/03 19:08:02.437 - [DEBUG]: The discovery service has started. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[9 - .NET ThreadPool Worker] 
+      2022/04/03 19:08:02.437 - [TRACE]: Start sending message to controllers to be discovered. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/03 19:08:02.545 - [INFO]: Now listening on: http://localhost:5097 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/03 19:08:02.545 - [INFO]: Application started. Press Ctrl+C to shut down. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/03 19:08:02.545 - [INFO]: Hosting environment: Development 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/03 19:08:02.545 - [INFO]: Content root path: D:\Projects\LedController_net5\LedController.WebPortal.Web\ 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/04/03 19:08:02.545 - [DEBUG]: Hosting started 
+ 
+LedController.WebPortal.Web.Pages.Index[6 - .NET ThreadPool Worker] 
+      2022/04/03 19:08:05.388 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Pages.Index[12 - .NET ThreadPool Worker] 
+      2022/04/03 19:08:07.111 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Pages.SpiBusesPage[9 - .NET ThreadPool Worker] 
+      2022/04/03 19:08:23.812 - [INFO]: Opening the spi buses page, and loading the spi buses from the application. 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[14 - .NET ThreadPool Worker] 
+      2022/04/03 19:08:25.419 - [DEBUG]: Starting effect editor for Test Effect. 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[15 - .NET ThreadPool Worker] 
+      2022/04/03 19:08:25.433 - [DEBUG]: Starting monaco editor for effect Test Effect. 
+ 
+LedController.WebPortal.Web.Pages.SpiBusesPage[12 - .NET ThreadPool Worker] 
+      2022/04/03 19:08:27.761 - [INFO]: Opening the spi buses page, and loading the spi buses from the application. 
+ 
+LedController.WebPortal.Web.Pages.LedstripsPage[12 - .NET ThreadPool Worker] 
+      2022/04/03 19:08:28.346 - [INFO]: Loading ledstrips page. 
+ 
+LedController.WebPortal.Web.Pages.ControllersPage[14 - .NET ThreadPool Worker] 
+      2022/04/03 19:08:29.402 - [INFO]: Opening controllers page. 
+ 
+LedController.WebPortal.Web.Pages.LedstripsPage[15 - .NET ThreadPool Worker] 
+      2022/04/03 19:08:29.943 - [INFO]: Loading ledstrips page. 
+ 
+LedController.WebPortal.Web.Pages.SpiBusesPage[6 - .NET ThreadPool Worker] 
+      2022/04/03 19:08:30.815 - [INFO]: Opening the spi buses page, and loading the spi buses from the application. 
+ 
+LedController.WebPortal.Web.Pages.LedstripsPage[12 - .NET ThreadPool Worker] 
+      2022/04/03 19:08:32.312 - [INFO]: Loading ledstrips page. 
+ 
+LedController.WebPortal.Web.Pages.ControllersPage[6 - .NET ThreadPool Worker] 
+      2022/04/03 19:08:32.887 - [INFO]: Opening controllers page. 
+ 
+LedController.WebPortal.Web.Pages.SpiBusesPage[12 - .NET ThreadPool Worker] 
+      2022/04/03 19:08:36.094 - [INFO]: Opening the spi buses page, and loading the spi buses from the application. 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[12 - .NET ThreadPool Worker] 
+      2022/04/03 19:08:37.481 - [DEBUG]: Starting effect editor for Test Effect. 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[13 - .NET ThreadPool Worker] 
+      2022/04/03 19:08:37.492 - [DEBUG]: Starting monaco editor for effect Test Effect. 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[14 - .NET ThreadPool Worker] 
+      2022/04/03 19:08:38.564 - [DEBUG]: Starting effect editor for Test Effect. 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[14 - .NET ThreadPool Worker] 
+      2022/04/03 19:08:38.574 - [DEBUG]: Starting monaco editor for effect Test Effect. 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/04/03 19:11:11.025 - [DEBUG]: Hosting starting 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/03 19:11:11.061 - [DEBUG]: Starting the discovery service. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/03 19:11:11.061 - [DEBUG]: Creating a new UDP client to be used for broadcasting the server information. This wil happen on UDP port 8472. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/03 19:11:11.074 - [DEBUG]: The discovery service has started. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[10 - .NET ThreadPool Worker] 
+      2022/04/03 19:11:11.074 - [TRACE]: Start sending message to controllers to be discovered. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/03 19:11:11.164 - [INFO]: Now listening on: http://localhost:5097 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/03 19:11:11.164 - [INFO]: Application started. Press Ctrl+C to shut down. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/03 19:11:11.164 - [INFO]: Hosting environment: Development 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/03 19:11:11.164 - [INFO]: Content root path: D:\Projects\LedController_net5\LedController.WebPortal.Web\ 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/04/03 19:11:11.164 - [DEBUG]: Hosting started 
+ 
+LedController.WebPortal.Web.Pages.Index[13 - .NET ThreadPool Worker] 
+      2022/04/03 19:11:13.324 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Pages.Index[6 - .NET ThreadPool Worker] 
+      2022/04/03 19:11:14.479 - [INFO]: Opening the index page. 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/04/03 19:14:29.167 - [DEBUG]: Hosting starting 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/03 19:14:29.205 - [DEBUG]: Starting the discovery service. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/03 19:14:29.205 - [DEBUG]: Creating a new UDP client to be used for broadcasting the server information. This wil happen on UDP port 8472. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/03 19:14:29.223 - [DEBUG]: The discovery service has started. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[6 - .NET ThreadPool Worker] 
+      2022/04/03 19:14:29.223 - [TRACE]: Start sending message to controllers to be discovered. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/03 19:14:29.319 - [INFO]: Now listening on: http://localhost:5097 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/03 19:14:29.319 - [INFO]: Application started. Press Ctrl+C to shut down. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/03 19:14:29.319 - [INFO]: Hosting environment: Development 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/03 19:14:29.319 - [INFO]: Content root path: D:\Projects\LedController_net5\LedController.WebPortal.Web\ 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/04/03 19:14:29.319 - [DEBUG]: Hosting started 
+ 
+LedController.WebPortal.Web.Pages.Index[15 - .NET ThreadPool Worker] 
+      2022/04/03 19:14:31.762 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Pages.Index[10 - .NET ThreadPool Worker] 
+      2022/04/03 19:14:33.323 - [INFO]: Opening the index page. 
+ 

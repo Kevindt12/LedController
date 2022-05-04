@@ -1,0 +1,1037 @@
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/04/04 13:05:50.224 - [DEBUG]: Hosting starting 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/04 13:05:50.284 - [DEBUG]: Starting the discovery service. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/04 13:05:50.284 - [DEBUG]: Creating a new UDP client to be used for broadcasting the server information. This wil happen on UDP port 8472. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/04 13:05:50.419 - [DEBUG]: The discovery service has started. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[9 - .NET ThreadPool Worker] 
+      2022/04/04 13:05:50.419 - [TRACE]: Start sending message to controllers to be discovered. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/04 13:05:50.539 - [INFO]: Now listening on: http://localhost:5097 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/04 13:05:50.539 - [INFO]: Application started. Press Ctrl+C to shut down. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/04 13:05:50.539 - [INFO]: Hosting environment: Development 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/04 13:05:50.539 - [INFO]: Content root path: D:\Projects\LedController_net5\LedController.WebPortal.Web\ 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/04/04 13:05:50.539 - [DEBUG]: Hosting started 
+ 
+LedController.WebPortal.Web.Pages.Index[14 - .NET ThreadPool Worker] 
+      2022/04/04 13:05:53.788 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Pages.Index[6 - .NET ThreadPool Worker] 
+      2022/04/04 13:05:55.593 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[9 - .NET ThreadPool Worker] 
+      2022/04/04 13:06:00.370 - [DEBUG]: Starting effect editor for Test Effect. 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[9 - .NET ThreadPool Worker] 
+      2022/04/04 13:06:00.424 - [DEBUG]: Starting monaco editor for effect Test Effect. 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[14 - .NET ThreadPool Worker] 
+      2022/04/04 13:06:03.703 - [DEBUG]: Starting effect editor for gagadfgsdfhg. 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[9 - .NET ThreadPool Worker] 
+      2022/04/04 13:06:03.711 - [DEBUG]: Starting monaco editor for effect gagadfgsdfhg. 
+ 
+Microsoft.AspNetCore.Components.Server.Circuits.RemoteRenderer[9 - .NET ThreadPool Worker] 
+      2022/04/04 13:10:34.235 - [WARN]: Unhandled exception rendering component: The type 'LedController.WebPortal.Web.Dialogs.CreateAnimationDialog' declares a parameter matching the name 'Animation' that is not public. Parameters must be public. 
+ System.InvalidOperationException: The type 'LedController.WebPortal.Web.Dialogs.CreateAnimationDialog' declares a parameter matching the name 'Animation' that is not public. Parameters must be public.
+   at Microsoft.AspNetCore.Components.Reflection.ComponentProperties.WritersForType..ctor(Type targetType)
+   at Microsoft.AspNetCore.Components.Reflection.ComponentProperties.SetProperties(ParameterView& parameters, Object target)
+   at Microsoft.AspNetCore.Components.ComponentBase.SetParametersAsync(ParameterView parameters)
+   at Microsoft.AspNetCore.Components.Rendering.ComponentState.SupplyCombinedParameters(ParameterView directAndCascadingParameters)
+Microsoft.AspNetCore.Components.Server.Circuits.CircuitHost[9 - .NET ThreadPool Worker] 
+      2022/04/04 13:10:34.289 - [ERROR]: Unhandled exception in circuit 'vvV7Q5vGwX2VpmV__XRMBxeV54dWafQUKLZAaMRv5MU'. 
+ System.InvalidOperationException: The type 'LedController.WebPortal.Web.Dialogs.CreateAnimationDialog' declares a parameter matching the name 'Animation' that is not public. Parameters must be public.
+   at Microsoft.AspNetCore.Components.Reflection.ComponentProperties.WritersForType..ctor(Type targetType)
+   at Microsoft.AspNetCore.Components.Reflection.ComponentProperties.SetProperties(ParameterView& parameters, Object target)
+   at Microsoft.AspNetCore.Components.ComponentBase.SetParametersAsync(ParameterView parameters)
+   at Microsoft.AspNetCore.Components.Rendering.ComponentState.SupplyCombinedParameters(ParameterView directAndCascadingParameters)
+Microsoft.AspNetCore.Components.Server.Circuits.RemoteRenderer[9 - .NET ThreadPool Worker] 
+      2022/04/04 13:10:34.289 - [WARN]: Unhandled exception rendering component: Cannot access a disposed object. 
+ System.ObjectDisposedException: Cannot access a disposed object.
+   at Microsoft.AspNetCore.Components.RenderTree.ArrayBuilder`1.ThrowObjectDisposedException()
+   at Microsoft.AspNetCore.Components.RenderTree.ArrayBuilder`1.GrowBuffer(Int32 desiredCapacity)
+   at Microsoft.AspNetCore.Components.RenderTree.ArrayBuilder`1.Append(T[] source, Int32 startIndex, Int32 length)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.InsertNewFrame(DiffContext& diffContext, Int32 newFrameIndex)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.InsertNewFrame(DiffContext& diffContext, Int32 newFrameIndex)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.InsertNewFrame(DiffContext& diffContext, Int32 newFrameIndex)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.AppendDiffEntriesForRange(DiffContext& diffContext, Int32 oldStartIndex, Int32 oldEndIndexExcl, Int32 newStartIndex, Int32 newEndIndexExcl)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.ComputeDiff(Renderer renderer, RenderBatchBuilder batchBuilder, Int32 componentId, ArrayRange`1 oldTree, ArrayRange`1 newTree)
+   at Microsoft.AspNetCore.Components.Rendering.ComponentState.RenderIntoBatch(RenderBatchBuilder batchBuilder, RenderFragment renderFragment, Exception& renderFragmentException)
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.ProcessRenderQueue()
+Microsoft.AspNetCore.Components.Server.Circuits.CircuitHost[9 - .NET ThreadPool Worker] 
+      2022/04/04 13:10:34.289 - [ERROR]: Unhandled exception in circuit 'vvV7Q5vGwX2VpmV__XRMBxeV54dWafQUKLZAaMRv5MU'. 
+ System.ObjectDisposedException: Cannot access a disposed object.
+   at Microsoft.AspNetCore.Components.RenderTree.ArrayBuilder`1.ThrowObjectDisposedException()
+   at Microsoft.AspNetCore.Components.RenderTree.ArrayBuilder`1.GrowBuffer(Int32 desiredCapacity)
+   at Microsoft.AspNetCore.Components.RenderTree.ArrayBuilder`1.Append(T[] source, Int32 startIndex, Int32 length)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.InsertNewFrame(DiffContext& diffContext, Int32 newFrameIndex)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.InsertNewFrame(DiffContext& diffContext, Int32 newFrameIndex)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.InsertNewFrame(DiffContext& diffContext, Int32 newFrameIndex)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.AppendDiffEntriesForRange(DiffContext& diffContext, Int32 oldStartIndex, Int32 oldEndIndexExcl, Int32 newStartIndex, Int32 newEndIndexExcl)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.ComputeDiff(Renderer renderer, RenderBatchBuilder batchBuilder, Int32 componentId, ArrayRange`1 oldTree, ArrayRange`1 newTree)
+   at Microsoft.AspNetCore.Components.Rendering.ComponentState.RenderIntoBatch(RenderBatchBuilder batchBuilder, RenderFragment renderFragment, Exception& renderFragmentException)
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.ProcessRenderQueue()
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/04/04 13:13:56.151 - [DEBUG]: Hosting starting 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/04 13:13:56.183 - [DEBUG]: Starting the discovery service. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/04 13:13:56.183 - [DEBUG]: Creating a new UDP client to be used for broadcasting the server information. This wil happen on UDP port 8472. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/04 13:13:56.195 - [DEBUG]: The discovery service has started. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[9 - .NET ThreadPool Worker] 
+      2022/04/04 13:13:56.195 - [TRACE]: Start sending message to controllers to be discovered. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/04 13:13:56.259 - [INFO]: Now listening on: http://localhost:5097 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/04 13:13:56.259 - [INFO]: Application started. Press Ctrl+C to shut down. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/04 13:13:56.259 - [INFO]: Hosting environment: Development 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/04 13:13:56.259 - [INFO]: Content root path: D:\Projects\LedController_net5\LedController.WebPortal.Web\ 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/04/04 13:13:56.259 - [DEBUG]: Hosting started 
+ 
+LedController.WebPortal.Web.Pages.Index[6 - .NET ThreadPool Worker] 
+      2022/04/04 13:13:58.392 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Pages.Index[12 - .NET ThreadPool Worker] 
+      2022/04/04 13:13:59.809 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Dialogs.CreateAnimationDialog[6 - .NET ThreadPool Worker] 
+      2022/04/04 13:14:07.651 - [INFO]: Opening create animation dialog. 
+ 
+LedController.WebPortal.Web.Dialogs.CreateAnimationDialog[17 - .NET ThreadPool Worker] 
+      2022/04/04 13:14:13.972 - [INFO]: Cancel edit animation dialog. 
+ 
+LedController.WebPortal.Web.Dialogs.CreateAnimationDialog[12 - .NET ThreadPool Worker] 
+      2022/04/04 13:15:05.867 - [INFO]: Opening create animation dialog. 
+ 
+LedController.WebPortal.Web.Dialogs.CreateAnimationDialog[9 - .NET ThreadPool Worker] 
+      2022/04/04 13:15:10.935 - [INFO]: Creating new animation. 
+ 
+Microsoft.AspNetCore.Components.Server.Circuits.RemoteRenderer[9 - .NET ThreadPool Worker] 
+      2022/04/04 13:15:11.162 - [WARN]: Unhandled exception rendering component: An error occurred while saving the entity changes. See the inner exception for details. 
+ Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 19: 'NOT NULL constraint failed: Animations.IsStatic'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at LedController.WebPortal.Persistence.Sqlite.Services.Repository.SaveChangesAsync(CancellationToken token) in D:\Projects\LedController_net5\LedController.Portal.Persistance.Sqlite\Services\Repository.cs:line 43
+   at LedController.WebPortal.Web.Dialogs.CreateAnimationDialog.CreateAnimationAsync() in D:\Projects\LedController_net5\LedController.WebPortal.Web\Dialogs\CreateAnimationDialog.razor:line 85
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at MudBlazor.MudBaseButton.OnClickHandler(MouseEventArgs ev)
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.GetErrorHandledTask(Task taskToHandle, ComponentState owningComponentState)
+Microsoft.AspNetCore.Components.Server.Circuits.CircuitHost[9 - .NET ThreadPool Worker] 
+      2022/04/04 13:15:11.209 - [ERROR]: Unhandled exception in circuit 'TuKv5FTxJQ_4HU3rs4VkCm3YNQObhKTNFmwC9rXmjJY'. 
+ Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 19: 'NOT NULL constraint failed: Animations.IsStatic'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at LedController.WebPortal.Persistence.Sqlite.Services.Repository.SaveChangesAsync(CancellationToken token) in D:\Projects\LedController_net5\LedController.Portal.Persistance.Sqlite\Services\Repository.cs:line 43
+   at LedController.WebPortal.Web.Dialogs.CreateAnimationDialog.CreateAnimationAsync() in D:\Projects\LedController_net5\LedController.WebPortal.Web\Dialogs\CreateAnimationDialog.razor:line 85
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at MudBlazor.MudBaseButton.OnClickHandler(MouseEventArgs ev)
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.GetErrorHandledTask(Task taskToHandle, ComponentState owningComponentState)
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/04/04 18:13:28.142 - [DEBUG]: Hosting starting 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/04 18:13:28.199 - [DEBUG]: Starting the discovery service. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/04 18:13:28.199 - [DEBUG]: Creating a new UDP client to be used for broadcasting the server information. This wil happen on UDP port 8472. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/04 18:13:28.217 - [DEBUG]: The discovery service has started. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[15 - .NET ThreadPool Worker] 
+      2022/04/04 18:13:28.217 - [TRACE]: Start sending message to controllers to be discovered. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/04 18:13:28.326 - [INFO]: Now listening on: http://localhost:5097 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/04 18:13:28.326 - [INFO]: Application started. Press Ctrl+C to shut down. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/04 18:13:28.326 - [INFO]: Hosting environment: Development 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/04 18:13:28.326 - [INFO]: Content root path: D:\Projects\LedController_net5\LedController.WebPortal.Web\ 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/04/04 18:13:28.326 - [DEBUG]: Hosting started 
+ 
+LedController.WebPortal.Web.Pages.Index[10 - .NET ThreadPool Worker] 
+      2022/04/04 18:13:31.307 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Pages.Index[30 - .NET ThreadPool Worker] 
+      2022/04/04 18:13:33.783 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Pages.ControllersPage[30 - .NET ThreadPool Worker] 
+      2022/04/04 18:13:38.886 - [INFO]: Opening controllers page. 
+ 
+LedController.WebPortal.Web.Pages.LedstripsPage[22 - .NET ThreadPool Worker] 
+      2022/04/04 18:13:40.233 - [INFO]: Loading ledstrips page. 
+ 
+LedController.WebPortal.Web.Pages.SpiBusesPage[15 - .NET ThreadPool Worker] 
+      2022/04/04 18:13:40.824 - [INFO]: Opening the spi buses page, and loading the spi buses from the application. 
+ 
+Microsoft.AspNetCore.Components.Server.Circuits.RemoteRenderer[19 - .NET ThreadPool Worker] 
+      2022/04/04 18:13:41.417 - [WARN]: Unhandled exception rendering component: Unable to create a map expression from AnimationEffectParameterEntity.EffectParameter (LedController.WebPortal.Persistence.Sqlite.Entities.EffectParameterEntity) to EffectParameter.EffectParameter (LedController.Domain.Models.EffectParameter)
+
+Mapping types:
+AnimationEffectParameterEntity -> AnimationEffectParameterValue
+LedController.WebPortal.Persistence.Sqlite.Entities.AnimationEffectParameterEntity -> LedController.Domain.Models.AnimationEffectParameterValue
+
+Type Map configuration:
+AnimationEffectParameterEntity -> AnimationEffectParameterValue
+LedController.WebPortal.Persistence.Sqlite.Entities.AnimationEffectParameterEntity -> LedController.Domain.Models.AnimationEffectParameterValue
+
+Destination Member:
+EffectParameter
+ 
+ AutoMapper.AutoMapperMappingException: Unable to create a map expression from AnimationEffectParameterEntity.EffectParameter (LedController.WebPortal.Persistence.Sqlite.Entities.EffectParameterEntity) to EffectParameter.EffectParameter (LedController.Domain.Models.EffectParameter)
+
+Mapping types:
+AnimationEffectParameterEntity -> AnimationEffectParameterValue
+LedController.WebPortal.Persistence.Sqlite.Entities.AnimationEffectParameterEntity -> LedController.Domain.Models.AnimationEffectParameterValue
+
+Type Map configuration:
+AnimationEffectParameterEntity -> AnimationEffectParameterValue
+LedController.WebPortal.Persistence.Sqlite.Entities.AnimationEffectParameterEntity -> LedController.Domain.Models.AnimationEffectParameterValue
+
+Destination Member:
+EffectParameter
+
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+   at System.Lazy`1.ExecutionAndPublication(LazyHelper executionAndPublication, Boolean useDefaultConstructor)
+   at System.Lazy`1.CreateValue()
+   at System.Lazy`1.get_Value()
+   at LedController.WebPortal.Persistence.Sqlite.Stores.StoreBase`2.GetAsync() in D:\Projects\LedController_net5\LedController.Portal.Persistance.Sqlite\Stores\StoreBase.cs:line 35
+   at LedController.WebPortal.Core.Managers.ManagerBase`2.GetAsync() in D:\Projects\LedController_net5\LedController.Portal.Core\Managers\ManagerBase.cs:line 37
+   at LedController.WebPortal.Web.Pages.AnimationsPage.OnInitializedAsync() in D:\Projects\LedController_net5\LedController.WebPortal.Web\Pages\AnimationsPage.razor:line 65
+   at Microsoft.AspNetCore.Components.ComponentBase.RunInitAndSetParametersAsync()
+Microsoft.AspNetCore.Components.Server.Circuits.CircuitHost[19 - .NET ThreadPool Worker] 
+      2022/04/04 18:13:41.511 - [ERROR]: Unhandled exception in circuit 'lQuLBlJMkV9I9YRj9RaJzzeeMhr5cBfGv8yW2gG5h5w'. 
+ AutoMapper.AutoMapperMappingException: Unable to create a map expression from AnimationEffectParameterEntity.EffectParameter (LedController.WebPortal.Persistence.Sqlite.Entities.EffectParameterEntity) to EffectParameter.EffectParameter (LedController.Domain.Models.EffectParameter)
+
+Mapping types:
+AnimationEffectParameterEntity -> AnimationEffectParameterValue
+LedController.WebPortal.Persistence.Sqlite.Entities.AnimationEffectParameterEntity -> LedController.Domain.Models.AnimationEffectParameterValue
+
+Type Map configuration:
+AnimationEffectParameterEntity -> AnimationEffectParameterValue
+LedController.WebPortal.Persistence.Sqlite.Entities.AnimationEffectParameterEntity -> LedController.Domain.Models.AnimationEffectParameterValue
+
+Destination Member:
+EffectParameter
+
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+   at System.Lazy`1.ExecutionAndPublication(LazyHelper executionAndPublication, Boolean useDefaultConstructor)
+   at System.Lazy`1.CreateValue()
+   at System.Lazy`1.get_Value()
+   at LedController.WebPortal.Persistence.Sqlite.Stores.StoreBase`2.GetAsync() in D:\Projects\LedController_net5\LedController.Portal.Persistance.Sqlite\Stores\StoreBase.cs:line 35
+   at LedController.WebPortal.Core.Managers.ManagerBase`2.GetAsync() in D:\Projects\LedController_net5\LedController.Portal.Core\Managers\ManagerBase.cs:line 37
+   at LedController.WebPortal.Web.Pages.AnimationsPage.OnInitializedAsync() in D:\Projects\LedController_net5\LedController.WebPortal.Web\Pages\AnimationsPage.razor:line 65
+   at Microsoft.AspNetCore.Components.ComponentBase.RunInitAndSetParametersAsync()
+Microsoft.AspNetCore.Components.Server.Circuits.RemoteRenderer[19 - .NET ThreadPool Worker] 
+      2022/04/04 18:13:41.526 - [WARN]: Unhandled exception rendering component: Cannot access a disposed object. 
+ System.ObjectDisposedException: Cannot access a disposed object.
+   at Microsoft.AspNetCore.Components.RenderTree.ArrayBuilder`1.ThrowObjectDisposedException()
+   at Microsoft.AspNetCore.Components.RenderTree.ArrayBuilder`1.GrowBuffer(Int32 desiredCapacity)
+   at Microsoft.AspNetCore.Components.RenderTree.ArrayBuilder`1.Append(T[] source, Int32 startIndex, Int32 length)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.InsertNewFrame(DiffContext& diffContext, Int32 newFrameIndex)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.AppendDiffEntriesForFramesWithSameSequence(DiffContext& diffContext, Int32 oldFrameIndex, Int32 newFrameIndex)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.AppendDiffEntriesForRange(DiffContext& diffContext, Int32 oldStartIndex, Int32 oldEndIndexExcl, Int32 newStartIndex, Int32 newEndIndexExcl)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.AppendDiffEntriesForFramesWithSameSequence(DiffContext& diffContext, Int32 oldFrameIndex, Int32 newFrameIndex)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.AppendDiffEntriesForRange(DiffContext& diffContext, Int32 oldStartIndex, Int32 oldEndIndexExcl, Int32 newStartIndex, Int32 newEndIndexExcl)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.AppendDiffEntriesForFramesWithSameSequence(DiffContext& diffContext, Int32 oldFrameIndex, Int32 newFrameIndex)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.AppendDiffEntriesForRange(DiffContext& diffContext, Int32 oldStartIndex, Int32 oldEndIndexExcl, Int32 newStartIndex, Int32 newEndIndexExcl)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.AppendDiffEntriesForFramesWithSameSequence(DiffContext& diffContext, Int32 oldFrameIndex, Int32 newFrameIndex)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.AppendDiffEntriesForRange(DiffContext& diffContext, Int32 oldStartIndex, Int32 oldEndIndexExcl, Int32 newStartIndex, Int32 newEndIndexExcl)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.AppendDiffEntriesForFramesWithSameSequence(DiffContext& diffContext, Int32 oldFrameIndex, Int32 newFrameIndex)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.AppendDiffEntriesForRange(DiffContext& diffContext, Int32 oldStartIndex, Int32 oldEndIndexExcl, Int32 newStartIndex, Int32 newEndIndexExcl)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.ComputeDiff(Renderer renderer, RenderBatchBuilder batchBuilder, Int32 componentId, ArrayRange`1 oldTree, ArrayRange`1 newTree)
+   at Microsoft.AspNetCore.Components.Rendering.ComponentState.RenderIntoBatch(RenderBatchBuilder batchBuilder, RenderFragment renderFragment, Exception& renderFragmentException)
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.ProcessRenderQueue()
+Microsoft.AspNetCore.Components.Server.Circuits.CircuitHost[19 - .NET ThreadPool Worker] 
+      2022/04/04 18:13:41.526 - [ERROR]: Unhandled exception in circuit 'lQuLBlJMkV9I9YRj9RaJzzeeMhr5cBfGv8yW2gG5h5w'. 
+ System.ObjectDisposedException: Cannot access a disposed object.
+   at Microsoft.AspNetCore.Components.RenderTree.ArrayBuilder`1.ThrowObjectDisposedException()
+   at Microsoft.AspNetCore.Components.RenderTree.ArrayBuilder`1.GrowBuffer(Int32 desiredCapacity)
+   at Microsoft.AspNetCore.Components.RenderTree.ArrayBuilder`1.Append(T[] source, Int32 startIndex, Int32 length)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.InsertNewFrame(DiffContext& diffContext, Int32 newFrameIndex)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.AppendDiffEntriesForFramesWithSameSequence(DiffContext& diffContext, Int32 oldFrameIndex, Int32 newFrameIndex)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.AppendDiffEntriesForRange(DiffContext& diffContext, Int32 oldStartIndex, Int32 oldEndIndexExcl, Int32 newStartIndex, Int32 newEndIndexExcl)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.AppendDiffEntriesForFramesWithSameSequence(DiffContext& diffContext, Int32 oldFrameIndex, Int32 newFrameIndex)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.AppendDiffEntriesForRange(DiffContext& diffContext, Int32 oldStartIndex, Int32 oldEndIndexExcl, Int32 newStartIndex, Int32 newEndIndexExcl)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.AppendDiffEntriesForFramesWithSameSequence(DiffContext& diffContext, Int32 oldFrameIndex, Int32 newFrameIndex)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.AppendDiffEntriesForRange(DiffContext& diffContext, Int32 oldStartIndex, Int32 oldEndIndexExcl, Int32 newStartIndex, Int32 newEndIndexExcl)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.AppendDiffEntriesForFramesWithSameSequence(DiffContext& diffContext, Int32 oldFrameIndex, Int32 newFrameIndex)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.AppendDiffEntriesForRange(DiffContext& diffContext, Int32 oldStartIndex, Int32 oldEndIndexExcl, Int32 newStartIndex, Int32 newEndIndexExcl)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.AppendDiffEntriesForFramesWithSameSequence(DiffContext& diffContext, Int32 oldFrameIndex, Int32 newFrameIndex)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.AppendDiffEntriesForRange(DiffContext& diffContext, Int32 oldStartIndex, Int32 oldEndIndexExcl, Int32 newStartIndex, Int32 newEndIndexExcl)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.ComputeDiff(Renderer renderer, RenderBatchBuilder batchBuilder, Int32 componentId, ArrayRange`1 oldTree, ArrayRange`1 newTree)
+   at Microsoft.AspNetCore.Components.Rendering.ComponentState.RenderIntoBatch(RenderBatchBuilder batchBuilder, RenderFragment renderFragment, Exception& renderFragmentException)
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.ProcessRenderQueue()
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/04/04 18:25:50.759 - [DEBUG]: Hosting starting 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/04 18:25:50.808 - [DEBUG]: Starting the discovery service. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/04 18:25:50.808 - [DEBUG]: Creating a new UDP client to be used for broadcasting the server information. This wil happen on UDP port 8472. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/04 18:25:50.831 - [DEBUG]: The discovery service has started. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[6 - .NET ThreadPool Worker] 
+      2022/04/04 18:25:50.831 - [TRACE]: Start sending message to controllers to be discovered. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/04 18:25:50.997 - [INFO]: Now listening on: http://localhost:5097 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/04 18:25:50.997 - [INFO]: Application started. Press Ctrl+C to shut down. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/04 18:25:50.997 - [INFO]: Hosting environment: Development 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/04 18:25:50.997 - [INFO]: Content root path: D:\Projects\LedController_net5\LedController.WebPortal.Web\ 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/04/04 18:25:51.006 - [DEBUG]: Hosting started 
+ 
+LedController.WebPortal.Web.Pages.Index[6 - .NET ThreadPool Worker] 
+      2022/04/04 18:25:54.217 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Pages.Index[9 - .NET ThreadPool Worker] 
+      2022/04/04 18:25:56.551 - [INFO]: Opening the index page. 
+ 
+Microsoft.AspNetCore.Components.Server.Circuits.RemoteRenderer[10 - .NET ThreadPool Worker] 
+      2022/04/04 18:26:04.092 - [WARN]: Unhandled exception rendering component: Unable to create a map expression from AnimationEffectParameterEntity.EffectParameter (LedController.WebPortal.Persistence.Sqlite.Entities.EffectParameterEntity) to EffectParameter.EffectParameter (LedController.Domain.Models.EffectParameter)
+
+Mapping types:
+AnimationEffectParameterEntity -> AnimationEffectParameterValue
+LedController.WebPortal.Persistence.Sqlite.Entities.AnimationEffectParameterEntity -> LedController.Domain.Models.AnimationEffectParameterValue
+
+Type Map configuration:
+AnimationEffectParameterEntity -> AnimationEffectParameterValue
+LedController.WebPortal.Persistence.Sqlite.Entities.AnimationEffectParameterEntity -> LedController.Domain.Models.AnimationEffectParameterValue
+
+Destination Member:
+EffectParameter
+ 
+ AutoMapper.AutoMapperMappingException: Unable to create a map expression from AnimationEffectParameterEntity.EffectParameter (LedController.WebPortal.Persistence.Sqlite.Entities.EffectParameterEntity) to EffectParameter.EffectParameter (LedController.Domain.Models.EffectParameter)
+
+Mapping types:
+AnimationEffectParameterEntity -> AnimationEffectParameterValue
+LedController.WebPortal.Persistence.Sqlite.Entities.AnimationEffectParameterEntity -> LedController.Domain.Models.AnimationEffectParameterValue
+
+Type Map configuration:
+AnimationEffectParameterEntity -> AnimationEffectParameterValue
+LedController.WebPortal.Persistence.Sqlite.Entities.AnimationEffectParameterEntity -> LedController.Domain.Models.AnimationEffectParameterValue
+
+Destination Member:
+EffectParameter
+
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+   at System.Lazy`1.ExecutionAndPublication(LazyHelper executionAndPublication, Boolean useDefaultConstructor)
+   at System.Lazy`1.CreateValue()
+   at System.Lazy`1.get_Value()
+   at LedController.WebPortal.Persistence.Sqlite.Stores.StoreBase`2.GetAsync() in D:\Projects\LedController_net5\LedController.Portal.Persistance.Sqlite\Stores\StoreBase.cs:line 35
+   at LedController.WebPortal.Core.Managers.ManagerBase`2.GetAsync() in D:\Projects\LedController_net5\LedController.Portal.Core\Managers\ManagerBase.cs:line 37
+   at LedController.WebPortal.Web.Pages.AnimationsPage.OnInitializedAsync() in D:\Projects\LedController_net5\LedController.WebPortal.Web\Pages\AnimationsPage.razor:line 75
+   at Microsoft.AspNetCore.Components.ComponentBase.RunInitAndSetParametersAsync()
+Microsoft.AspNetCore.Components.Server.Circuits.CircuitHost[10 - .NET ThreadPool Worker] 
+      2022/04/04 18:26:04.178 - [ERROR]: Unhandled exception in circuit 'n2zfZsrFSESP7pgZqHtjetoELJ26LqbE1ijtonf_P58'. 
+ AutoMapper.AutoMapperMappingException: Unable to create a map expression from AnimationEffectParameterEntity.EffectParameter (LedController.WebPortal.Persistence.Sqlite.Entities.EffectParameterEntity) to EffectParameter.EffectParameter (LedController.Domain.Models.EffectParameter)
+
+Mapping types:
+AnimationEffectParameterEntity -> AnimationEffectParameterValue
+LedController.WebPortal.Persistence.Sqlite.Entities.AnimationEffectParameterEntity -> LedController.Domain.Models.AnimationEffectParameterValue
+
+Type Map configuration:
+AnimationEffectParameterEntity -> AnimationEffectParameterValue
+LedController.WebPortal.Persistence.Sqlite.Entities.AnimationEffectParameterEntity -> LedController.Domain.Models.AnimationEffectParameterValue
+
+Destination Member:
+EffectParameter
+
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+   at System.Lazy`1.ExecutionAndPublication(LazyHelper executionAndPublication, Boolean useDefaultConstructor)
+   at System.Lazy`1.CreateValue()
+   at System.Lazy`1.get_Value()
+   at LedController.WebPortal.Persistence.Sqlite.Stores.StoreBase`2.GetAsync() in D:\Projects\LedController_net5\LedController.Portal.Persistance.Sqlite\Stores\StoreBase.cs:line 35
+   at LedController.WebPortal.Core.Managers.ManagerBase`2.GetAsync() in D:\Projects\LedController_net5\LedController.Portal.Core\Managers\ManagerBase.cs:line 37
+   at LedController.WebPortal.Web.Pages.AnimationsPage.OnInitializedAsync() in D:\Projects\LedController_net5\LedController.WebPortal.Web\Pages\AnimationsPage.razor:line 75
+   at Microsoft.AspNetCore.Components.ComponentBase.RunInitAndSetParametersAsync()
+Microsoft.AspNetCore.Components.Server.Circuits.RemoteRenderer[10 - .NET ThreadPool Worker] 
+      2022/04/04 18:26:04.178 - [WARN]: Unhandled exception rendering component: Cannot access a disposed object. 
+ System.ObjectDisposedException: Cannot access a disposed object.
+   at Microsoft.AspNetCore.Components.RenderTree.ArrayBuilder`1.ThrowObjectDisposedException()
+   at Microsoft.AspNetCore.Components.RenderTree.ArrayBuilder`1.GrowBuffer(Int32 desiredCapacity)
+   at Microsoft.AspNetCore.Components.RenderTree.ArrayBuilder`1.Append(T[] source, Int32 startIndex, Int32 length)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.InsertNewFrame(DiffContext& diffContext, Int32 newFrameIndex)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.AppendDiffEntriesForFramesWithSameSequence(DiffContext& diffContext, Int32 oldFrameIndex, Int32 newFrameIndex)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.AppendDiffEntriesForRange(DiffContext& diffContext, Int32 oldStartIndex, Int32 oldEndIndexExcl, Int32 newStartIndex, Int32 newEndIndexExcl)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.AppendDiffEntriesForFramesWithSameSequence(DiffContext& diffContext, Int32 oldFrameIndex, Int32 newFrameIndex)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.AppendDiffEntriesForRange(DiffContext& diffContext, Int32 oldStartIndex, Int32 oldEndIndexExcl, Int32 newStartIndex, Int32 newEndIndexExcl)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.AppendDiffEntriesForFramesWithSameSequence(DiffContext& diffContext, Int32 oldFrameIndex, Int32 newFrameIndex)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.AppendDiffEntriesForRange(DiffContext& diffContext, Int32 oldStartIndex, Int32 oldEndIndexExcl, Int32 newStartIndex, Int32 newEndIndexExcl)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.AppendDiffEntriesForFramesWithSameSequence(DiffContext& diffContext, Int32 oldFrameIndex, Int32 newFrameIndex)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.AppendDiffEntriesForRange(DiffContext& diffContext, Int32 oldStartIndex, Int32 oldEndIndexExcl, Int32 newStartIndex, Int32 newEndIndexExcl)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.AppendDiffEntriesForFramesWithSameSequence(DiffContext& diffContext, Int32 oldFrameIndex, Int32 newFrameIndex)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.AppendDiffEntriesForRange(DiffContext& diffContext, Int32 oldStartIndex, Int32 oldEndIndexExcl, Int32 newStartIndex, Int32 newEndIndexExcl)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.ComputeDiff(Renderer renderer, RenderBatchBuilder batchBuilder, Int32 componentId, ArrayRange`1 oldTree, ArrayRange`1 newTree)
+   at Microsoft.AspNetCore.Components.Rendering.ComponentState.RenderIntoBatch(RenderBatchBuilder batchBuilder, RenderFragment renderFragment, Exception& renderFragmentException)
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.ProcessRenderQueue()
+Microsoft.AspNetCore.Components.Server.Circuits.CircuitHost[10 - .NET ThreadPool Worker] 
+      2022/04/04 18:26:04.178 - [ERROR]: Unhandled exception in circuit 'n2zfZsrFSESP7pgZqHtjetoELJ26LqbE1ijtonf_P58'. 
+ System.ObjectDisposedException: Cannot access a disposed object.
+   at Microsoft.AspNetCore.Components.RenderTree.ArrayBuilder`1.ThrowObjectDisposedException()
+   at Microsoft.AspNetCore.Components.RenderTree.ArrayBuilder`1.GrowBuffer(Int32 desiredCapacity)
+   at Microsoft.AspNetCore.Components.RenderTree.ArrayBuilder`1.Append(T[] source, Int32 startIndex, Int32 length)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.InsertNewFrame(DiffContext& diffContext, Int32 newFrameIndex)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.AppendDiffEntriesForFramesWithSameSequence(DiffContext& diffContext, Int32 oldFrameIndex, Int32 newFrameIndex)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.AppendDiffEntriesForRange(DiffContext& diffContext, Int32 oldStartIndex, Int32 oldEndIndexExcl, Int32 newStartIndex, Int32 newEndIndexExcl)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.AppendDiffEntriesForFramesWithSameSequence(DiffContext& diffContext, Int32 oldFrameIndex, Int32 newFrameIndex)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.AppendDiffEntriesForRange(DiffContext& diffContext, Int32 oldStartIndex, Int32 oldEndIndexExcl, Int32 newStartIndex, Int32 newEndIndexExcl)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.AppendDiffEntriesForFramesWithSameSequence(DiffContext& diffContext, Int32 oldFrameIndex, Int32 newFrameIndex)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.AppendDiffEntriesForRange(DiffContext& diffContext, Int32 oldStartIndex, Int32 oldEndIndexExcl, Int32 newStartIndex, Int32 newEndIndexExcl)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.AppendDiffEntriesForFramesWithSameSequence(DiffContext& diffContext, Int32 oldFrameIndex, Int32 newFrameIndex)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.AppendDiffEntriesForRange(DiffContext& diffContext, Int32 oldStartIndex, Int32 oldEndIndexExcl, Int32 newStartIndex, Int32 newEndIndexExcl)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.AppendDiffEntriesForFramesWithSameSequence(DiffContext& diffContext, Int32 oldFrameIndex, Int32 newFrameIndex)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.AppendDiffEntriesForRange(DiffContext& diffContext, Int32 oldStartIndex, Int32 oldEndIndexExcl, Int32 newStartIndex, Int32 newEndIndexExcl)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.ComputeDiff(Renderer renderer, RenderBatchBuilder batchBuilder, Int32 componentId, ArrayRange`1 oldTree, ArrayRange`1 newTree)
+   at Microsoft.AspNetCore.Components.Rendering.ComponentState.RenderIntoBatch(RenderBatchBuilder batchBuilder, RenderFragment renderFragment, Exception& renderFragmentException)
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.ProcessRenderQueue()
+Microsoft.AspNetCore.Components.Server.Circuits.RemoteRenderer[6 - .NET ThreadPool Worker] 
+      2022/04/04 18:26:27.639 - [WARN]: Unhandled exception rendering component: Unable to create a map expression from AnimationEffectParameterEntity.EffectParameter (LedController.WebPortal.Persistence.Sqlite.Entities.EffectParameterEntity) to EffectParameter.EffectParameter (LedController.Domain.Models.EffectParameter)
+
+Mapping types:
+AnimationEffectParameterEntity -> AnimationEffectParameterValue
+LedController.WebPortal.Persistence.Sqlite.Entities.AnimationEffectParameterEntity -> LedController.Domain.Models.AnimationEffectParameterValue
+
+Type Map configuration:
+AnimationEffectParameterEntity -> AnimationEffectParameterValue
+LedController.WebPortal.Persistence.Sqlite.Entities.AnimationEffectParameterEntity -> LedController.Domain.Models.AnimationEffectParameterValue
+
+Destination Member:
+EffectParameter
+ 
+ AutoMapper.AutoMapperMappingException: Unable to create a map expression from AnimationEffectParameterEntity.EffectParameter (LedController.WebPortal.Persistence.Sqlite.Entities.EffectParameterEntity) to EffectParameter.EffectParameter (LedController.Domain.Models.EffectParameter)
+
+Mapping types:
+AnimationEffectParameterEntity -> AnimationEffectParameterValue
+LedController.WebPortal.Persistence.Sqlite.Entities.AnimationEffectParameterEntity -> LedController.Domain.Models.AnimationEffectParameterValue
+
+Type Map configuration:
+AnimationEffectParameterEntity -> AnimationEffectParameterValue
+LedController.WebPortal.Persistence.Sqlite.Entities.AnimationEffectParameterEntity -> LedController.Domain.Models.AnimationEffectParameterValue
+
+Destination Member:
+EffectParameter
+
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+--- End of stack trace from previous location ---
+   at System.LazyHelper.ThrowException()
+   at System.Lazy`1.CreateValue()
+   at System.Lazy`1.get_Value()
+   at LedController.WebPortal.Persistence.Sqlite.Stores.StoreBase`2.GetAsync() in D:\Projects\LedController_net5\LedController.Portal.Persistance.Sqlite\Stores\StoreBase.cs:line 35
+   at LedController.WebPortal.Core.Managers.ManagerBase`2.GetAsync() in D:\Projects\LedController_net5\LedController.Portal.Core\Managers\ManagerBase.cs:line 37
+   at LedController.WebPortal.Web.Pages.AnimationsPage.OnInitializedAsync()
+   at Microsoft.AspNetCore.Components.ComponentBase.RunInitAndSetParametersAsync()
+Microsoft.AspNetCore.Components.Server.Circuits.CircuitHost[6 - .NET ThreadPool Worker] 
+      2022/04/04 18:26:27.646 - [ERROR]: Unhandled exception in circuit 'NBejiQduqWo4m6lmkYIKcle_KYDpCrFC74xsHulfMpQ'. 
+ AutoMapper.AutoMapperMappingException: Unable to create a map expression from AnimationEffectParameterEntity.EffectParameter (LedController.WebPortal.Persistence.Sqlite.Entities.EffectParameterEntity) to EffectParameter.EffectParameter (LedController.Domain.Models.EffectParameter)
+
+Mapping types:
+AnimationEffectParameterEntity -> AnimationEffectParameterValue
+LedController.WebPortal.Persistence.Sqlite.Entities.AnimationEffectParameterEntity -> LedController.Domain.Models.AnimationEffectParameterValue
+
+Type Map configuration:
+AnimationEffectParameterEntity -> AnimationEffectParameterValue
+LedController.WebPortal.Persistence.Sqlite.Entities.AnimationEffectParameterEntity -> LedController.Domain.Models.AnimationEffectParameterValue
+
+Destination Member:
+EffectParameter
+
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+--- End of stack trace from previous location ---
+   at System.LazyHelper.ThrowException()
+   at System.Lazy`1.CreateValue()
+   at System.Lazy`1.get_Value()
+   at LedController.WebPortal.Persistence.Sqlite.Stores.StoreBase`2.GetAsync() in D:\Projects\LedController_net5\LedController.Portal.Persistance.Sqlite\Stores\StoreBase.cs:line 35
+   at LedController.WebPortal.Core.Managers.ManagerBase`2.GetAsync() in D:\Projects\LedController_net5\LedController.Portal.Core\Managers\ManagerBase.cs:line 37
+   at LedController.WebPortal.Web.Pages.AnimationsPage.OnInitializedAsync()
+   at Microsoft.AspNetCore.Components.ComponentBase.RunInitAndSetParametersAsync()
+Microsoft.AspNetCore.Components.Server.Circuits.RemoteRenderer[6 - .NET ThreadPool Worker] 
+      2022/04/04 18:26:27.646 - [WARN]: Unhandled exception rendering component: Cannot access a disposed object. 
+ System.ObjectDisposedException: Cannot access a disposed object.
+   at Microsoft.AspNetCore.Components.RenderTree.ArrayBuilder`1.ThrowObjectDisposedException()
+   at Microsoft.AspNetCore.Components.RenderTree.ArrayBuilder`1.GrowBuffer(Int32 desiredCapacity)
+   at Microsoft.AspNetCore.Components.RenderTree.ArrayBuilder`1.Append(T[] source, Int32 startIndex, Int32 length)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.InsertNewFrame(DiffContext& diffContext, Int32 newFrameIndex)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.AppendDiffEntriesForFramesWithSameSequence(DiffContext& diffContext, Int32 oldFrameIndex, Int32 newFrameIndex)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.AppendDiffEntriesForRange(DiffContext& diffContext, Int32 oldStartIndex, Int32 oldEndIndexExcl, Int32 newStartIndex, Int32 newEndIndexExcl)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.AppendDiffEntriesForFramesWithSameSequence(DiffContext& diffContext, Int32 oldFrameIndex, Int32 newFrameIndex)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.AppendDiffEntriesForRange(DiffContext& diffContext, Int32 oldStartIndex, Int32 oldEndIndexExcl, Int32 newStartIndex, Int32 newEndIndexExcl)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.AppendDiffEntriesForFramesWithSameSequence(DiffContext& diffContext, Int32 oldFrameIndex, Int32 newFrameIndex)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.AppendDiffEntriesForRange(DiffContext& diffContext, Int32 oldStartIndex, Int32 oldEndIndexExcl, Int32 newStartIndex, Int32 newEndIndexExcl)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.AppendDiffEntriesForFramesWithSameSequence(DiffContext& diffContext, Int32 oldFrameIndex, Int32 newFrameIndex)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.AppendDiffEntriesForRange(DiffContext& diffContext, Int32 oldStartIndex, Int32 oldEndIndexExcl, Int32 newStartIndex, Int32 newEndIndexExcl)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.AppendDiffEntriesForFramesWithSameSequence(DiffContext& diffContext, Int32 oldFrameIndex, Int32 newFrameIndex)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.AppendDiffEntriesForRange(DiffContext& diffContext, Int32 oldStartIndex, Int32 oldEndIndexExcl, Int32 newStartIndex, Int32 newEndIndexExcl)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.ComputeDiff(Renderer renderer, RenderBatchBuilder batchBuilder, Int32 componentId, ArrayRange`1 oldTree, ArrayRange`1 newTree)
+   at Microsoft.AspNetCore.Components.Rendering.ComponentState.RenderIntoBatch(RenderBatchBuilder batchBuilder, RenderFragment renderFragment, Exception& renderFragmentException)
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.ProcessRenderQueue()
+Microsoft.AspNetCore.Components.Server.Circuits.CircuitHost[6 - .NET ThreadPool Worker] 
+      2022/04/04 18:26:27.646 - [ERROR]: Unhandled exception in circuit 'NBejiQduqWo4m6lmkYIKcle_KYDpCrFC74xsHulfMpQ'. 
+ System.ObjectDisposedException: Cannot access a disposed object.
+   at Microsoft.AspNetCore.Components.RenderTree.ArrayBuilder`1.ThrowObjectDisposedException()
+   at Microsoft.AspNetCore.Components.RenderTree.ArrayBuilder`1.GrowBuffer(Int32 desiredCapacity)
+   at Microsoft.AspNetCore.Components.RenderTree.ArrayBuilder`1.Append(T[] source, Int32 startIndex, Int32 length)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.InsertNewFrame(DiffContext& diffContext, Int32 newFrameIndex)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.AppendDiffEntriesForFramesWithSameSequence(DiffContext& diffContext, Int32 oldFrameIndex, Int32 newFrameIndex)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.AppendDiffEntriesForRange(DiffContext& diffContext, Int32 oldStartIndex, Int32 oldEndIndexExcl, Int32 newStartIndex, Int32 newEndIndexExcl)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.AppendDiffEntriesForFramesWithSameSequence(DiffContext& diffContext, Int32 oldFrameIndex, Int32 newFrameIndex)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.AppendDiffEntriesForRange(DiffContext& diffContext, Int32 oldStartIndex, Int32 oldEndIndexExcl, Int32 newStartIndex, Int32 newEndIndexExcl)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.AppendDiffEntriesForFramesWithSameSequence(DiffContext& diffContext, Int32 oldFrameIndex, Int32 newFrameIndex)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.AppendDiffEntriesForRange(DiffContext& diffContext, Int32 oldStartIndex, Int32 oldEndIndexExcl, Int32 newStartIndex, Int32 newEndIndexExcl)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.AppendDiffEntriesForFramesWithSameSequence(DiffContext& diffContext, Int32 oldFrameIndex, Int32 newFrameIndex)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.AppendDiffEntriesForRange(DiffContext& diffContext, Int32 oldStartIndex, Int32 oldEndIndexExcl, Int32 newStartIndex, Int32 newEndIndexExcl)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.AppendDiffEntriesForFramesWithSameSequence(DiffContext& diffContext, Int32 oldFrameIndex, Int32 newFrameIndex)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.AppendDiffEntriesForRange(DiffContext& diffContext, Int32 oldStartIndex, Int32 oldEndIndexExcl, Int32 newStartIndex, Int32 newEndIndexExcl)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.ComputeDiff(Renderer renderer, RenderBatchBuilder batchBuilder, Int32 componentId, ArrayRange`1 oldTree, ArrayRange`1 newTree)
+   at Microsoft.AspNetCore.Components.Rendering.ComponentState.RenderIntoBatch(RenderBatchBuilder batchBuilder, RenderFragment renderFragment, Exception& renderFragmentException)
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.ProcessRenderQueue()
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/04/04 18:28:17.165 - [DEBUG]: Hosting starting 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/04 18:28:17.210 - [DEBUG]: Starting the discovery service. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/04 18:28:17.210 - [DEBUG]: Creating a new UDP client to be used for broadcasting the server information. This wil happen on UDP port 8472. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/04 18:28:17.227 - [DEBUG]: The discovery service has started. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[9 - .NET ThreadPool Worker] 
+      2022/04/04 18:28:17.227 - [TRACE]: Start sending message to controllers to be discovered. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/04 18:28:17.336 - [INFO]: Now listening on: http://localhost:5097 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/04 18:28:17.336 - [INFO]: Application started. Press Ctrl+C to shut down. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/04 18:28:17.336 - [INFO]: Hosting environment: Development 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/04 18:28:17.336 - [INFO]: Content root path: D:\Projects\LedController_net5\LedController.WebPortal.Web\ 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/04/04 18:28:17.336 - [DEBUG]: Hosting started 
+ 
+LedController.WebPortal.Web.Pages.Index[14 - .NET ThreadPool Worker] 
+      2022/04/04 18:28:20.096 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Pages.Index[6 - .NET ThreadPool Worker] 
+      2022/04/04 18:28:22.269 - [INFO]: Opening the index page. 
+ 
+Microsoft.AspNetCore.Components.Server.Circuits.RemoteRenderer[9 - .NET ThreadPool Worker] 
+      2022/04/04 18:28:23.611 - [WARN]: Unhandled exception rendering component: Unable to create a map expression from AnimationEffectParameterEntity.EffectParameter (LedController.WebPortal.Persistence.Sqlite.Entities.EffectParameterEntity) to EffectParameter.EffectParameter (LedController.Domain.Models.EffectParameter)
+
+Mapping types:
+AnimationEffectParameterEntity -> AnimationEffectParameterValue
+LedController.WebPortal.Persistence.Sqlite.Entities.AnimationEffectParameterEntity -> LedController.Domain.Models.AnimationEffectParameterValue
+
+Type Map configuration:
+AnimationEffectParameterEntity -> AnimationEffectParameterValue
+LedController.WebPortal.Persistence.Sqlite.Entities.AnimationEffectParameterEntity -> LedController.Domain.Models.AnimationEffectParameterValue
+
+Destination Member:
+EffectParameter
+ 
+ AutoMapper.AutoMapperMappingException: Unable to create a map expression from AnimationEffectParameterEntity.EffectParameter (LedController.WebPortal.Persistence.Sqlite.Entities.EffectParameterEntity) to EffectParameter.EffectParameter (LedController.Domain.Models.EffectParameter)
+
+Mapping types:
+AnimationEffectParameterEntity -> AnimationEffectParameterValue
+LedController.WebPortal.Persistence.Sqlite.Entities.AnimationEffectParameterEntity -> LedController.Domain.Models.AnimationEffectParameterValue
+
+Type Map configuration:
+AnimationEffectParameterEntity -> AnimationEffectParameterValue
+LedController.WebPortal.Persistence.Sqlite.Entities.AnimationEffectParameterEntity -> LedController.Domain.Models.AnimationEffectParameterValue
+
+Destination Member:
+EffectParameter
+
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+   at System.Lazy`1.ExecutionAndPublication(LazyHelper executionAndPublication, Boolean useDefaultConstructor)
+   at System.Lazy`1.CreateValue()
+   at System.Lazy`1.get_Value()
+   at LedController.WebPortal.Persistence.Sqlite.Stores.StoreBase`2.GetAsync() in D:\Projects\LedController_net5\LedController.Portal.Persistance.Sqlite\Stores\StoreBase.cs:line 35
+   at LedController.WebPortal.Core.Managers.ManagerBase`2.GetAsync() in D:\Projects\LedController_net5\LedController.Portal.Core\Managers\ManagerBase.cs:line 37
+   at LedController.WebPortal.Web.Pages.AnimationsPage.OnInitializedAsync() in D:\Projects\LedController_net5\LedController.WebPortal.Web\Pages\AnimationsPage.razor:line 75
+   at Microsoft.AspNetCore.Components.ComponentBase.RunInitAndSetParametersAsync()
+Microsoft.AspNetCore.Components.Server.Circuits.CircuitHost[9 - .NET ThreadPool Worker] 
+      2022/04/04 18:28:23.673 - [ERROR]: Unhandled exception in circuit '7oPVVdGXkgIIC8rRHgKKqmOOsgL1GJ9XodH_Od84248'. 
+ AutoMapper.AutoMapperMappingException: Unable to create a map expression from AnimationEffectParameterEntity.EffectParameter (LedController.WebPortal.Persistence.Sqlite.Entities.EffectParameterEntity) to EffectParameter.EffectParameter (LedController.Domain.Models.EffectParameter)
+
+Mapping types:
+AnimationEffectParameterEntity -> AnimationEffectParameterValue
+LedController.WebPortal.Persistence.Sqlite.Entities.AnimationEffectParameterEntity -> LedController.Domain.Models.AnimationEffectParameterValue
+
+Type Map configuration:
+AnimationEffectParameterEntity -> AnimationEffectParameterValue
+LedController.WebPortal.Persistence.Sqlite.Entities.AnimationEffectParameterEntity -> LedController.Domain.Models.AnimationEffectParameterValue
+
+Destination Member:
+EffectParameter
+
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+   at System.Lazy`1.ExecutionAndPublication(LazyHelper executionAndPublication, Boolean useDefaultConstructor)
+   at System.Lazy`1.CreateValue()
+   at System.Lazy`1.get_Value()
+   at LedController.WebPortal.Persistence.Sqlite.Stores.StoreBase`2.GetAsync() in D:\Projects\LedController_net5\LedController.Portal.Persistance.Sqlite\Stores\StoreBase.cs:line 35
+   at LedController.WebPortal.Core.Managers.ManagerBase`2.GetAsync() in D:\Projects\LedController_net5\LedController.Portal.Core\Managers\ManagerBase.cs:line 37
+   at LedController.WebPortal.Web.Pages.AnimationsPage.OnInitializedAsync() in D:\Projects\LedController_net5\LedController.WebPortal.Web\Pages\AnimationsPage.razor:line 75
+   at Microsoft.AspNetCore.Components.ComponentBase.RunInitAndSetParametersAsync()
+Microsoft.AspNetCore.Components.Server.Circuits.RemoteRenderer[9 - .NET ThreadPool Worker] 
+      2022/04/04 18:28:23.691 - [WARN]: Unhandled exception rendering component: Cannot access a disposed object. 
+ System.ObjectDisposedException: Cannot access a disposed object.
+   at Microsoft.AspNetCore.Components.RenderTree.ArrayBuilder`1.ThrowObjectDisposedException()
+   at Microsoft.AspNetCore.Components.RenderTree.ArrayBuilder`1.GrowBuffer(Int32 desiredCapacity)
+   at Microsoft.AspNetCore.Components.RenderTree.ArrayBuilder`1.Append(T[] source, Int32 startIndex, Int32 length)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.InsertNewFrame(DiffContext& diffContext, Int32 newFrameIndex)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.AppendDiffEntriesForFramesWithSameSequence(DiffContext& diffContext, Int32 oldFrameIndex, Int32 newFrameIndex)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.AppendDiffEntriesForRange(DiffContext& diffContext, Int32 oldStartIndex, Int32 oldEndIndexExcl, Int32 newStartIndex, Int32 newEndIndexExcl)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.AppendDiffEntriesForFramesWithSameSequence(DiffContext& diffContext, Int32 oldFrameIndex, Int32 newFrameIndex)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.AppendDiffEntriesForRange(DiffContext& diffContext, Int32 oldStartIndex, Int32 oldEndIndexExcl, Int32 newStartIndex, Int32 newEndIndexExcl)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.AppendDiffEntriesForFramesWithSameSequence(DiffContext& diffContext, Int32 oldFrameIndex, Int32 newFrameIndex)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.AppendDiffEntriesForRange(DiffContext& diffContext, Int32 oldStartIndex, Int32 oldEndIndexExcl, Int32 newStartIndex, Int32 newEndIndexExcl)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.AppendDiffEntriesForFramesWithSameSequence(DiffContext& diffContext, Int32 oldFrameIndex, Int32 newFrameIndex)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.AppendDiffEntriesForRange(DiffContext& diffContext, Int32 oldStartIndex, Int32 oldEndIndexExcl, Int32 newStartIndex, Int32 newEndIndexExcl)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.AppendDiffEntriesForFramesWithSameSequence(DiffContext& diffContext, Int32 oldFrameIndex, Int32 newFrameIndex)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.AppendDiffEntriesForRange(DiffContext& diffContext, Int32 oldStartIndex, Int32 oldEndIndexExcl, Int32 newStartIndex, Int32 newEndIndexExcl)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.ComputeDiff(Renderer renderer, RenderBatchBuilder batchBuilder, Int32 componentId, ArrayRange`1 oldTree, ArrayRange`1 newTree)
+   at Microsoft.AspNetCore.Components.Rendering.ComponentState.RenderIntoBatch(RenderBatchBuilder batchBuilder, RenderFragment renderFragment, Exception& renderFragmentException)
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.ProcessRenderQueue()
+Microsoft.AspNetCore.Components.Server.Circuits.CircuitHost[9 - .NET ThreadPool Worker] 
+      2022/04/04 18:28:23.691 - [ERROR]: Unhandled exception in circuit '7oPVVdGXkgIIC8rRHgKKqmOOsgL1GJ9XodH_Od84248'. 
+ System.ObjectDisposedException: Cannot access a disposed object.
+   at Microsoft.AspNetCore.Components.RenderTree.ArrayBuilder`1.ThrowObjectDisposedException()
+   at Microsoft.AspNetCore.Components.RenderTree.ArrayBuilder`1.GrowBuffer(Int32 desiredCapacity)
+   at Microsoft.AspNetCore.Components.RenderTree.ArrayBuilder`1.Append(T[] source, Int32 startIndex, Int32 length)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.InsertNewFrame(DiffContext& diffContext, Int32 newFrameIndex)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.AppendDiffEntriesForFramesWithSameSequence(DiffContext& diffContext, Int32 oldFrameIndex, Int32 newFrameIndex)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.AppendDiffEntriesForRange(DiffContext& diffContext, Int32 oldStartIndex, Int32 oldEndIndexExcl, Int32 newStartIndex, Int32 newEndIndexExcl)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.AppendDiffEntriesForFramesWithSameSequence(DiffContext& diffContext, Int32 oldFrameIndex, Int32 newFrameIndex)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.AppendDiffEntriesForRange(DiffContext& diffContext, Int32 oldStartIndex, Int32 oldEndIndexExcl, Int32 newStartIndex, Int32 newEndIndexExcl)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.AppendDiffEntriesForFramesWithSameSequence(DiffContext& diffContext, Int32 oldFrameIndex, Int32 newFrameIndex)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.AppendDiffEntriesForRange(DiffContext& diffContext, Int32 oldStartIndex, Int32 oldEndIndexExcl, Int32 newStartIndex, Int32 newEndIndexExcl)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.AppendDiffEntriesForFramesWithSameSequence(DiffContext& diffContext, Int32 oldFrameIndex, Int32 newFrameIndex)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.AppendDiffEntriesForRange(DiffContext& diffContext, Int32 oldStartIndex, Int32 oldEndIndexExcl, Int32 newStartIndex, Int32 newEndIndexExcl)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.AppendDiffEntriesForFramesWithSameSequence(DiffContext& diffContext, Int32 oldFrameIndex, Int32 newFrameIndex)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.AppendDiffEntriesForRange(DiffContext& diffContext, Int32 oldStartIndex, Int32 oldEndIndexExcl, Int32 newStartIndex, Int32 newEndIndexExcl)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.ComputeDiff(Renderer renderer, RenderBatchBuilder batchBuilder, Int32 componentId, ArrayRange`1 oldTree, ArrayRange`1 newTree)
+   at Microsoft.AspNetCore.Components.Rendering.ComponentState.RenderIntoBatch(RenderBatchBuilder batchBuilder, RenderFragment renderFragment, Exception& renderFragmentException)
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.ProcessRenderQueue()
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/04/04 18:31:41.273 - [DEBUG]: Hosting starting 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/04 18:31:41.322 - [DEBUG]: Starting the discovery service. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/04 18:31:41.322 - [DEBUG]: Creating a new UDP client to be used for broadcasting the server information. This wil happen on UDP port 8472. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/04 18:31:41.359 - [DEBUG]: The discovery service has started. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[6 - .NET ThreadPool Worker] 
+      2022/04/04 18:31:41.359 - [TRACE]: Start sending message to controllers to be discovered. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/04 18:31:41.496 - [INFO]: Now listening on: http://localhost:5097 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/04 18:31:41.496 - [INFO]: Application started. Press Ctrl+C to shut down. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/04 18:31:41.496 - [INFO]: Hosting environment: Development 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/04 18:31:41.496 - [INFO]: Content root path: D:\Projects\LedController_net5\LedController.WebPortal.Web\ 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/04/04 18:31:41.496 - [DEBUG]: Hosting started 
+ 
+LedController.WebPortal.Web.Pages.Index[9 - .NET ThreadPool Worker] 
+      2022/04/04 18:31:44.862 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Pages.Index[6 - .NET ThreadPool Worker] 
+      2022/04/04 18:31:47.058 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Pages.SpiBusesPage[22 - .NET ThreadPool Worker] 
+      2022/04/04 18:31:52.370 - [INFO]: Opening the spi buses page, and loading the spi buses from the application. 
+ 
+LedController.WebPortal.Web.Pages.LedstripsPage[24 - .NET ThreadPool Worker] 
+      2022/04/04 18:31:52.827 - [INFO]: Loading ledstrips page. 
+ 
+LedController.WebPortal.Web.Pages.ControllersPage[13 - .NET ThreadPool Worker] 
+      2022/04/04 18:31:53.142 - [INFO]: Opening controllers page. 
+ 
+LedController.WebPortal.Web.Pages.Index[9 - .NET ThreadPool Worker] 
+      2022/04/04 18:31:53.954 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Pages.ControllersPage[20 - .NET ThreadPool Worker] 
+      2022/04/04 18:31:55.064 - [INFO]: Opening controllers page. 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/04/04 19:55:16.563 - [DEBUG]: Hosting starting 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/04 19:55:16.602 - [DEBUG]: Starting the discovery service. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/04 19:55:16.602 - [DEBUG]: Creating a new UDP client to be used for broadcasting the server information. This wil happen on UDP port 8472. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/04 19:55:16.617 - [DEBUG]: The discovery service has started. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[6 - .NET ThreadPool Worker] 
+      2022/04/04 19:55:16.617 - [TRACE]: Start sending message to controllers to be discovered. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/04 19:55:16.699 - [INFO]: Now listening on: http://localhost:5097 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/04 19:55:16.699 - [INFO]: Application started. Press Ctrl+C to shut down. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/04 19:55:16.699 - [INFO]: Hosting environment: Development 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/04 19:55:16.699 - [INFO]: Content root path: D:\Projects\LedController_net5\LedController.WebPortal.Web\ 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/04/04 19:55:16.699 - [DEBUG]: Hosting started 
+ 
+LedController.WebPortal.Web.Pages.Index[6 - .NET ThreadPool Worker] 
+      2022/04/04 19:55:19.631 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Pages.Index[33 - .NET ThreadPool Worker] 
+      2022/04/04 19:55:22.502 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Pages.SpiBusesPage[9 - .NET ThreadPool Worker] 
+      2022/04/04 19:55:28.320 - [INFO]: Opening the spi buses page, and loading the spi buses from the application. 
+ 
+LedController.WebPortal.Web.Pages.SpiBusesPage[4 - .NET ThreadPool Worker] 
+      2022/04/04 19:55:29.437 - [INFO]: Opening the edit spi bus dialog. None Selected. 
+ 
+LedController.WebPortal.Web.Pages.ControllersPage[21 - .NET ThreadPool Worker] 
+      2022/04/04 19:55:39.584 - [INFO]: Opening controllers page. 
+ 
+LedController.WebPortal.Web.Dialogs.EditControllerDialog[17 - .NET ThreadPool Worker] 
+      2022/04/04 19:55:40.212 - [DEBUG]: Checking if we have a controller by the edit controller dialog. 
+ 
+LedController.WebPortal.Web.Dialogs.EditControllerDialog[17 - .NET ThreadPool Worker] 
+      2022/04/04 19:55:40.212 - [DEBUG]: Checking if we have a controller by the edit controller dialog. 
+ 
+LedController.WebPortal.Web.Dialogs.EditControllerDialog[16 - .NET ThreadPool Worker] 
+      2022/04/04 19:55:46.181 - [INFO]: Saving new controller Controller 1940900190. 
+ 
+LedController.WebPortal.Core.Managers.ControllerManager[16 - .NET ThreadPool Worker] 
+      2022/04/04 19:55:46.181 - [INFO]: Adding new controller. 
+ 
+LedController.WebPortal.Web.Pages.ControllersPage[4 - .NET ThreadPool Worker] 
+      2022/04/04 19:55:50.474 - [INFO]: Opening controllers page. 
+ 
+LedController.WebPortal.Web.Pages.ControllersPage[9 - .NET ThreadPool Worker] 
+      2022/04/04 19:55:51.514 - [INFO]: Opening controllers page. 
+ 
+LedController.WebPortal.Web.Dialogs.EditControllerDialog[6 - .NET ThreadPool Worker] 
+      2022/04/04 20:07:38.043 - [DEBUG]: Checking if we have a controller by the edit controller dialog. 
+ 
+LedController.WebPortal.Web.Dialogs.EditControllerDialog[6 - .NET ThreadPool Worker] 
+      2022/04/04 20:07:38.043 - [DEBUG]: Checking if we have a controller by the edit controller dialog. 
+ 
+LedController.WebPortal.Web.Dialogs.EditControllerDialog[9 - .NET ThreadPool Worker] 
+      2022/04/04 20:07:43.037 - [INFO]: Updating controller Controller 1940900190 Tes Edt. 
+ 
+LedController.WebPortal.Web.Pages.ControllersPage[6 - .NET ThreadPool Worker] 
+      2022/04/04 20:07:46.103 - [INFO]: Opening controllers page. 
+ 
+LedController.WebPortal.Web.Pages.ControllersPage[4 - .NET ThreadPool Worker] 
+      2022/04/04 20:07:46.996 - [INFO]: Opening controllers page. 
+ 
+LedController.WebPortal.Web.Dialogs.EditControllerDialog[9 - .NET ThreadPool Worker] 
+      2022/04/04 20:07:47.961 - [DEBUG]: Checking if we have a controller by the edit controller dialog. 
+ 
+LedController.WebPortal.Web.Dialogs.EditControllerDialog[9 - .NET ThreadPool Worker] 
+      2022/04/04 20:07:47.961 - [DEBUG]: Checking if we have a controller by the edit controller dialog. 
+ 
+LedController.WebPortal.Web.Dialogs.EditControllerDialog[4 - .NET ThreadPool Worker] 
+      2022/04/04 20:07:50.813 - [INFO]: Updating controller Controller 1940900190. 
+ 
+LedController.WebPortal.Web.Dialogs.EditControllerDialog[57 - .NET ThreadPool Worker] 
+      2022/04/04 20:07:55.518 - [DEBUG]: Checking if we have a controller by the edit controller dialog. 
+ 
+LedController.WebPortal.Web.Dialogs.EditControllerDialog[57 - .NET ThreadPool Worker] 
+      2022/04/04 20:07:55.518 - [DEBUG]: Checking if we have a controller by the edit controller dialog. 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/04/04 20:09:01.846 - [DEBUG]: Hosting starting 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/04 20:09:01.884 - [DEBUG]: Starting the discovery service. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/04 20:09:01.884 - [DEBUG]: Creating a new UDP client to be used for broadcasting the server information. This wil happen on UDP port 8472. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/04 20:09:01.897 - [DEBUG]: The discovery service has started. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[10 - .NET ThreadPool Worker] 
+      2022/04/04 20:09:01.897 - [TRACE]: Start sending message to controllers to be discovered. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/04 20:09:02.242 - [INFO]: Now listening on: http://localhost:5097 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/04 20:09:02.242 - [INFO]: Application started. Press Ctrl+C to shut down. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/04 20:09:02.242 - [INFO]: Hosting environment: Development 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/04 20:09:02.242 - [INFO]: Content root path: D:\Projects\LedController_net5\LedController.WebPortal.Web\ 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/04/04 20:09:02.242 - [DEBUG]: Hosting started 
+ 
+LedController.WebPortal.Web.Pages.Index[9 - .NET ThreadPool Worker] 
+      2022/04/04 20:09:04.550 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Pages.Index[6 - .NET ThreadPool Worker] 
+      2022/04/04 20:09:06.520 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Pages.ControllersPage[6 - .NET ThreadPool Worker] 
+      2022/04/04 20:09:07.559 - [INFO]: Opening controllers page. 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/04/04 20:13:13.541 - [DEBUG]: Hosting starting 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/04 20:13:13.596 - [DEBUG]: Starting the discovery service. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/04 20:13:13.596 - [DEBUG]: Creating a new UDP client to be used for broadcasting the server information. This wil happen on UDP port 8472. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/04 20:13:13.612 - [DEBUG]: The discovery service has started. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[6 - .NET ThreadPool Worker] 
+      2022/04/04 20:13:13.612 - [TRACE]: Start sending message to controllers to be discovered. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/04 20:13:13.709 - [INFO]: Now listening on: http://localhost:5097 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/04 20:13:13.709 - [INFO]: Application started. Press Ctrl+C to shut down. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/04 20:13:13.709 - [INFO]: Hosting environment: Development 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/04 20:13:13.709 - [INFO]: Content root path: D:\Projects\LedController_net5\LedController.WebPortal.Web\ 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/04/04 20:13:13.709 - [DEBUG]: Hosting started 
+ 
+LedController.WebPortal.Web.Pages.Index[15 - .NET ThreadPool Worker] 
+      2022/04/04 20:13:16.701 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Pages.Index[13 - .NET ThreadPool Worker] 
+      2022/04/04 20:13:18.629 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Pages.ControllersPage[13 - .NET ThreadPool Worker] 
+      2022/04/04 20:13:22.205 - [INFO]: Opening controllers page. 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/04/04 20:19:09.592 - [DEBUG]: Hosting starting 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/04 20:19:09.629 - [DEBUG]: Starting the discovery service. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/04 20:19:09.629 - [DEBUG]: Creating a new UDP client to be used for broadcasting the server information. This wil happen on UDP port 8472. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/04 20:19:09.643 - [DEBUG]: The discovery service has started. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[9 - .NET ThreadPool Worker] 
+      2022/04/04 20:19:09.643 - [TRACE]: Start sending message to controllers to be discovered. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/04 20:19:09.725 - [INFO]: Now listening on: http://localhost:5097 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/04 20:19:09.725 - [INFO]: Application started. Press Ctrl+C to shut down. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/04 20:19:09.725 - [INFO]: Hosting environment: Development 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/04 20:19:09.725 - [INFO]: Content root path: D:\Projects\LedController_net5\LedController.WebPortal.Web\ 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/04/04 20:19:09.725 - [DEBUG]: Hosting started 
+ 
+LedController.WebPortal.Web.Pages.Index[9 - .NET ThreadPool Worker] 
+      2022/04/04 20:19:11.974 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Pages.Index[9 - .NET ThreadPool Worker] 
+      2022/04/04 20:19:13.081 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Pages.ControllersPage[6 - .NET ThreadPool Worker] 
+      2022/04/04 20:19:42.715 - [INFO]: Opening controllers page. 
+ 
+LedController.WebPortal.Web.Dialogs.EditControllerDialog[13 - .NET ThreadPool Worker] 
+      2022/04/04 20:19:49.654 - [DEBUG]: Checking if we have a controller by the edit controller dialog. 
+ 
+LedController.WebPortal.Web.Dialogs.EditControllerDialog[13 - .NET ThreadPool Worker] 
+      2022/04/04 20:19:49.654 - [DEBUG]: Checking if we have a controller by the edit controller dialog. 
+ 
+LedController.WebPortal.Web.Pages.ControllersPage[10 - .NET ThreadPool Worker] 
+      2022/04/04 20:20:57.576 - [INFO]: Opening controllers page. 
+ 
+LedController.WebPortal.Web.Pages.ControllersPage[6 - .NET ThreadPool Worker] 
+      2022/04/04 20:20:58.577 - [INFO]: Opening controllers page. 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/04/04 20:24:17.565 - [DEBUG]: Hosting starting 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/04 20:24:17.637 - [DEBUG]: Starting the discovery service. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/04 20:24:17.637 - [DEBUG]: Creating a new UDP client to be used for broadcasting the server information. This wil happen on UDP port 8472. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/04 20:24:17.665 - [DEBUG]: The discovery service has started. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[12 - .NET ThreadPool Worker] 
+      2022/04/04 20:24:17.665 - [TRACE]: Start sending message to controllers to be discovered. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/04 20:24:17.881 - [INFO]: Now listening on: http://localhost:5097 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/04 20:24:17.881 - [INFO]: Application started. Press Ctrl+C to shut down. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/04 20:24:17.881 - [INFO]: Hosting environment: Development 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/04 20:24:17.881 - [INFO]: Content root path: D:\Projects\LedController_net5\LedController.WebPortal.Web\ 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/04/04 20:24:17.881 - [DEBUG]: Hosting started 
+ 
+LedController.WebPortal.Web.Pages.Index[6 - .NET ThreadPool Worker] 
+      2022/04/04 20:24:21.452 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Pages.Index[12 - .NET ThreadPool Worker] 
+      2022/04/04 20:24:24.238 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Pages.ControllersPage[12 - .NET ThreadPool Worker] 
+      2022/04/04 20:24:25.599 - [INFO]: Opening controllers page. 
+ 
+LedController.WebPortal.Web.Dialogs.EditControllerDialog[6 - .NET ThreadPool Worker] 
+      2022/04/04 20:24:29.176 - [DEBUG]: Checking if we have a controller by the edit controller dialog. 
+ 
+LedController.WebPortal.Web.Dialogs.EditControllerDialog[6 - .NET ThreadPool Worker] 
+      2022/04/04 20:24:29.178 - [DEBUG]: Checking if we have a controller by the edit controller dialog. 
+ 
+LedController.WebPortal.Web.Dialogs.EditControllerDialog[6 - .NET ThreadPool Worker] 
+      2022/04/04 20:24:31.798 - [DEBUG]: Checking if we have a controller by the edit controller dialog. 
+ 
+LedController.WebPortal.Web.Dialogs.EditControllerDialog[6 - .NET ThreadPool Worker] 
+      2022/04/04 20:24:31.798 - [DEBUG]: Checking if we have a controller by the edit controller dialog. 
+ 
+LedController.WebPortal.Web.Dialogs.EditControllerDialog[12 - .NET ThreadPool Worker] 
+      2022/04/04 20:24:34.367 - [DEBUG]: Checking if we have a controller by the edit controller dialog. 
+ 
+LedController.WebPortal.Web.Dialogs.EditControllerDialog[12 - .NET ThreadPool Worker] 
+      2022/04/04 20:24:34.367 - [DEBUG]: Checking if we have a controller by the edit controller dialog. 
+ 
+LedController.WebPortal.Web.Dialogs.EditControllerDialog[6 - .NET ThreadPool Worker] 
+      2022/04/04 20:24:45.188 - [DEBUG]: Checking if we have a controller by the edit controller dialog. 
+ 
+LedController.WebPortal.Web.Dialogs.EditControllerDialog[6 - .NET ThreadPool Worker] 
+      2022/04/04 20:24:45.188 - [DEBUG]: Checking if we have a controller by the edit controller dialog. 
+ 

@@ -1,0 +1,635 @@
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/04/07 21:59:38.101 - [DEBUG]: Hosting starting 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/07 21:59:38.154 - [DEBUG]: Starting the discovery service. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/07 21:59:38.154 - [DEBUG]: Creating a new UDP client to be used for broadcasting the server information. This wil happen on UDP port 8472. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/07 21:59:38.166 - [DEBUG]: The discovery service has started. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[9 - .NET ThreadPool Worker] 
+      2022/04/07 21:59:38.166 - [TRACE]: Start sending message to controllers to be discovered. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/07 21:59:38.256 - [INFO]: Now listening on: http://localhost:5097 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/07 21:59:38.256 - [INFO]: Application started. Press Ctrl+C to shut down. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/07 21:59:38.256 - [INFO]: Hosting environment: Development 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/07 21:59:38.256 - [INFO]: Content root path: D:\Projects\LedController_net5\LedController.WebPortal.Web\ 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/04/07 21:59:38.256 - [DEBUG]: Hosting started 
+ 
+LedController.WebPortal.Web.Pages.Index[6 - .NET ThreadPool Worker] 
+      2022/04/07 21:59:40.657 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Pages.Index[9 - .NET ThreadPool Worker] 
+      2022/04/07 21:59:42.322 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Pages.EffectsEditorPage[12 - .NET ThreadPool Worker] 
+      2022/04/07 22:00:08.484 - [INFO]: Loading effects page. 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[12 - .NET ThreadPool Worker] 
+      2022/04/07 22:00:09.007 - [DEBUG]: Starting effect editor for Test Effect. 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[15 - .NET ThreadPool Worker] 
+      2022/04/07 22:00:09.109 - [DEBUG]: Starting monaco editor for effect Test Effect. 
+ 
+LedController.WebPortal.Web.Pages.EffectsEditorPage[12 - .NET ThreadPool Worker] 
+      2022/04/07 22:01:08.660 - [INFO]: Loading effects page. 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[12 - .NET ThreadPool Worker] 
+      2022/04/07 22:01:08.664 - [DEBUG]: Starting effect editor for Test Effect. 
+ 
+LedController.WebPortal.Web.Pages.EffectsEditorPage[6 - .NET ThreadPool Worker] 
+      2022/04/07 22:01:09.611 - [INFO]: Loading effects page. 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[6 - .NET ThreadPool Worker] 
+      2022/04/07 22:01:09.611 - [DEBUG]: Starting effect editor for Test Effect. 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[9 - .NET ThreadPool Worker] 
+      2022/04/07 22:01:09.640 - [DEBUG]: Starting monaco editor for effect Test Effect. 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/04/07 22:01:25.605 - [DEBUG]: Hosting starting 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/07 22:01:25.639 - [DEBUG]: Starting the discovery service. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/07 22:01:25.639 - [DEBUG]: Creating a new UDP client to be used for broadcasting the server information. This wil happen on UDP port 8472. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/07 22:01:25.650 - [DEBUG]: The discovery service has started. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[15 - .NET ThreadPool Worker] 
+      2022/04/07 22:01:25.650 - [TRACE]: Start sending message to controllers to be discovered. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/07 22:01:25.721 - [INFO]: Now listening on: http://localhost:5097 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/07 22:01:25.725 - [INFO]: Application started. Press Ctrl+C to shut down. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/07 22:01:25.725 - [INFO]: Hosting environment: Development 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/07 22:01:25.725 - [INFO]: Content root path: D:\Projects\LedController_net5\LedController.WebPortal.Web\ 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/04/07 22:01:25.725 - [DEBUG]: Hosting started 
+ 
+LedController.WebPortal.Web.Pages.Index[12 - .NET ThreadPool Worker] 
+      2022/04/07 22:01:28.478 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Pages.Index[6 - .NET ThreadPool Worker] 
+      2022/04/07 22:01:30.161 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Pages.EffectsEditorPage[9 - .NET ThreadPool Worker] 
+      2022/04/07 22:01:46.184 - [INFO]: Loading effects page. 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[9 - .NET ThreadPool Worker] 
+      2022/04/07 22:01:46.255 - [DEBUG]: Starting effect editor for Test Effect. 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[17 - .NET ThreadPool Worker] 
+      2022/04/07 22:01:46.296 - [DEBUG]: Starting monaco editor for effect Test Effect. 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[12 - .NET ThreadPool Worker] 
+      2022/04/07 22:02:28.375 - [DEBUG]: Starting monaco editor for effect Test Effect. 
+ 
+LedController.WebPortal.Web.Pages.EffectsEditorPage[9 - .NET ThreadPool Worker] 
+      2022/04/07 22:02:52.378 - [INFO]: Loading effects page. 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[9 - .NET ThreadPool Worker] 
+      2022/04/07 22:02:52.381 - [DEBUG]: Starting effect editor for Test Effect. 
+ 
+LedController.WebPortal.Web.Pages.EffectsEditorPage[6 - .NET ThreadPool Worker] 
+      2022/04/07 22:02:53.220 - [INFO]: Loading effects page. 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[6 - .NET ThreadPool Worker] 
+      2022/04/07 22:02:53.224 - [DEBUG]: Starting effect editor for Test Effect. 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[15 - .NET ThreadPool Worker] 
+      2022/04/07 22:02:53.251 - [DEBUG]: Starting monaco editor for effect Test Effect. 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/04/07 22:03:08.752 - [DEBUG]: Hosting starting 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/07 22:03:08.786 - [DEBUG]: Starting the discovery service. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/07 22:03:08.786 - [DEBUG]: Creating a new UDP client to be used for broadcasting the server information. This wil happen on UDP port 8472. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/07 22:03:08.786 - [DEBUG]: The discovery service has started. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[9 - .NET ThreadPool Worker] 
+      2022/04/07 22:03:08.786 - [TRACE]: Start sending message to controllers to be discovered. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/07 22:03:08.861 - [INFO]: Now listening on: http://localhost:5097 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/07 22:03:08.864 - [INFO]: Application started. Press Ctrl+C to shut down. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/07 22:03:08.864 - [INFO]: Hosting environment: Development 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/07 22:03:08.864 - [INFO]: Content root path: D:\Projects\LedController_net5\LedController.WebPortal.Web\ 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/04/07 22:03:08.864 - [DEBUG]: Hosting started 
+ 
+LedController.WebPortal.Web.Pages.Index[6 - .NET ThreadPool Worker] 
+      2022/04/07 22:03:11.235 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Pages.Index[6 - .NET ThreadPool Worker] 
+      2022/04/07 22:03:12.973 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Pages.EffectsEditorPage[6 - .NET ThreadPool Worker] 
+      2022/04/07 22:03:14.650 - [INFO]: Loading effects page. 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[6 - .NET ThreadPool Worker] 
+      2022/04/07 22:03:14.711 - [DEBUG]: Starting effect editor for Test Effect. 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[6 - .NET ThreadPool Worker] 
+      2022/04/07 22:03:14.753 - [DEBUG]: Starting monaco editor for effect Test Effect. 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/04/07 22:05:17.651 - [DEBUG]: Hosting starting 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/07 22:05:17.685 - [DEBUG]: Starting the discovery service. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/07 22:05:17.685 - [DEBUG]: Creating a new UDP client to be used for broadcasting the server information. This wil happen on UDP port 8472. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/07 22:05:17.696 - [DEBUG]: The discovery service has started. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[13 - .NET ThreadPool Worker] 
+      2022/04/07 22:05:17.696 - [TRACE]: Start sending message to controllers to be discovered. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/07 22:05:17.761 - [INFO]: Now listening on: http://localhost:5097 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/07 22:05:17.761 - [INFO]: Application started. Press Ctrl+C to shut down. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/07 22:05:17.761 - [INFO]: Hosting environment: Development 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/07 22:05:17.761 - [INFO]: Content root path: D:\Projects\LedController_net5\LedController.WebPortal.Web\ 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/04/07 22:05:17.761 - [DEBUG]: Hosting started 
+ 
+LedController.WebPortal.Web.Pages.Index[14 - .NET ThreadPool Worker] 
+      2022/04/07 22:05:20.704 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Pages.Index[14 - .NET ThreadPool Worker] 
+      2022/04/07 22:05:22.410 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Pages.EffectsEditorPage[17 - .NET ThreadPool Worker] 
+      2022/04/07 22:05:25.123 - [INFO]: Loading effects page. 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[17 - .NET ThreadPool Worker] 
+      2022/04/07 22:05:25.209 - [DEBUG]: Starting effect editor for Test Effect. 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[6 - .NET ThreadPool Worker] 
+      2022/04/07 22:05:25.253 - [DEBUG]: Starting monaco editor for effect Test Effect. 
+ 
+LedController.WebPortal.Web.Pages.AnimationsPage[13 - .NET ThreadPool Worker] 
+      2022/04/07 22:06:17.462 - [INFO]: Adding animation effect from animation Test Animation. 
+ 
+Microsoft.AspNetCore.Components.Server.Circuits.RemoteRenderer[13 - .NET ThreadPool Worker] 
+      2022/04/07 22:06:17.761 - [WARN]: Unhandled exception rendering component: An error occurred while saving the entity changes. See the inner exception for details. 
+ Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 19: 'FOREIGN KEY constraint failed'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at LedController.WebPortal.Persistence.Sqlite.Services.Repository.SaveChangesAsync(CancellationToken token) in D:\Projects\LedController_net5\LedController.Portal.Persistance.Sqlite\Services\Repository.cs:line 43
+   at LedController.WebPortal.Web.Pages.AnimationsPage.OnAnimationEffectAddition(AnimationEffect animationEffect) in D:\Projects\LedController_net5\LedController.WebPortal.Web\Pages\AnimationsPage.razor:line 229
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at LedController.WebPortal.Web.Components.AnimationEffectRow.<BuildRenderTree>b__0_14() in D:\Projects\LedController_net5\LedController.WebPortal.Web\Components\AnimationEffectRow.razor:line 50
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at MudBlazor.MudBaseButton.OnClickHandler(MouseEventArgs ev)
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.GetErrorHandledTask(Task taskToHandle, ComponentState owningComponentState)
+Microsoft.AspNetCore.Components.Server.Circuits.CircuitHost[13 - .NET ThreadPool Worker] 
+      2022/04/07 22:06:17.825 - [ERROR]: Unhandled exception in circuit 'WxGreaHOpZSM22ZXJBIwnTE-ptcyyY6GLhSE2FpUT6o'. 
+ Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 19: 'FOREIGN KEY constraint failed'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at LedController.WebPortal.Persistence.Sqlite.Services.Repository.SaveChangesAsync(CancellationToken token) in D:\Projects\LedController_net5\LedController.Portal.Persistance.Sqlite\Services\Repository.cs:line 43
+   at LedController.WebPortal.Web.Pages.AnimationsPage.OnAnimationEffectAddition(AnimationEffect animationEffect) in D:\Projects\LedController_net5\LedController.WebPortal.Web\Pages\AnimationsPage.razor:line 229
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at LedController.WebPortal.Web.Components.AnimationEffectRow.<BuildRenderTree>b__0_14() in D:\Projects\LedController_net5\LedController.WebPortal.Web\Components\AnimationEffectRow.razor:line 50
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at MudBlazor.MudBaseButton.OnClickHandler(MouseEventArgs ev)
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.GetErrorHandledTask(Task taskToHandle, ComponentState owningComponentState)
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/04/07 22:22:53.933 - [DEBUG]: Hosting starting 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/07 22:22:53.967 - [DEBUG]: Starting the discovery service. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/07 22:22:53.967 - [DEBUG]: Creating a new UDP client to be used for broadcasting the server information. This wil happen on UDP port 8472. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/07 22:22:53.978 - [DEBUG]: The discovery service has started. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[10 - .NET ThreadPool Worker] 
+      2022/04/07 22:22:53.978 - [TRACE]: Start sending message to controllers to be discovered. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/07 22:22:54.046 - [INFO]: Now listening on: http://localhost:5097 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/07 22:22:54.046 - [INFO]: Application started. Press Ctrl+C to shut down. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/07 22:22:54.046 - [INFO]: Hosting environment: Development 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/07 22:22:54.046 - [INFO]: Content root path: D:\Projects\LedController_net5\LedController.WebPortal.Web\ 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/04/07 22:22:54.046 - [DEBUG]: Hosting started 
+ 
+LedController.WebPortal.Web.Pages.Index[6 - .NET ThreadPool Worker] 
+      2022/04/07 22:22:56.337 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Pages.Index[13 - .NET ThreadPool Worker] 
+      2022/04/07 22:22:57.994 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Pages.EffectsEditorPage[14 - .NET ThreadPool Worker] 
+      2022/04/07 22:23:01.186 - [INFO]: Loading effects page. 
+ 
+LedController.WebPortal.Web.Pages.EffectsEditorPage[19 - .NET ThreadPool Worker] 
+      2022/04/07 22:23:02.381 - [INFO]: Showing effect dialog. 
+ 
+LedController.WebPortal.Web.Dialogs.EffectFormDialog[9 - .NET ThreadPool Worker] 
+      2022/04/07 22:23:08.224 - [INFO]: Creating a new effect with name Test Effect. 
+ 
+LedController.WebPortal.Core.Factories.EffectFactory[9 - .NET ThreadPool Worker] 
+      2022/04/07 22:23:08.224 - [DEBUG]: Creating a new effect. 
+ 
+LedController.WebPortal.Web.Dialogs.EffectFormDialog[9 - .NET ThreadPool Worker] 
+      2022/04/07 22:23:08.430 - [INFO]: Effect has been saved. 
+ 
+LedController.WebPortal.Web.Pages.EffectsEditorPage[9 - .NET ThreadPool Worker] 
+      2022/04/07 22:23:08.430 - [INFO]: Reloading effects page. 
+ 
+Microsoft.AspNetCore.Components.Server.Circuits.RemoteRenderer[9 - .NET ThreadPool Worker] 
+      2022/04/07 22:23:40.881 - [WARN]: Unhandled exception rendering component: Object reference not set to an instance of an object. 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at LedController.WebPortal.Web.Pages.EffectsEditorPage.ShowEffectFormDialogAsync() in D:\Projects\LedController_net5\LedController.WebPortal.Web\Pages\EffectsEditorPage.razor:line 80
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at MudBlazor.MudBaseButton.OnClickHandler(MouseEventArgs ev)
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.GetErrorHandledTask(Task taskToHandle, ComponentState owningComponentState)
+Microsoft.AspNetCore.Components.Server.Circuits.CircuitHost[9 - .NET ThreadPool Worker] 
+      2022/04/07 22:23:40.915 - [ERROR]: Unhandled exception in circuit 'c_LU4BJ9ryW5GqxSEs9g_7SVmESjtLmY0h57F9Ax7ho'. 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at LedController.WebPortal.Web.Pages.EffectsEditorPage.ShowEffectFormDialogAsync() in D:\Projects\LedController_net5\LedController.WebPortal.Web\Pages\EffectsEditorPage.razor:line 80
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at MudBlazor.MudBaseButton.OnClickHandler(MouseEventArgs ev)
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.GetErrorHandledTask(Task taskToHandle, ComponentState owningComponentState)
+LedController.WebPortal.Web.Pages.EffectsEditorPage[17 - .NET ThreadPool Worker] 
+      2022/04/07 22:23:44.437 - [INFO]: Loading effects page. 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[17 - .NET ThreadPool Worker] 
+      2022/04/07 22:23:44.465 - [DEBUG]: Starting effect editor for Test Effect. 
+ 
+LedController.WebPortal.Web.Pages.EffectsEditorPage[32 - .NET ThreadPool Worker] 
+      2022/04/07 22:23:45.293 - [INFO]: Loading effects page. 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[32 - .NET ThreadPool Worker] 
+      2022/04/07 22:23:45.293 - [DEBUG]: Starting effect editor for Test Effect. 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[26 - .NET ThreadPool Worker] 
+      2022/04/07 22:23:45.404 - [DEBUG]: Starting monaco editor for effect Test Effect. 
+ 
+LedController.WebPortal.Web.Pages.EffectsEditorPage[29 - .NET ThreadPool Worker] 
+      2022/04/07 22:24:24.251 - [INFO]: Loading effects page. 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[29 - .NET ThreadPool Worker] 
+      2022/04/07 22:24:24.251 - [DEBUG]: Starting effect editor for Test Effect. 
+ 
+LedController.WebPortal.Web.Pages.EffectsEditorPage[9 - .NET ThreadPool Worker] 
+      2022/04/07 22:24:25.073 - [INFO]: Loading effects page. 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[9 - .NET ThreadPool Worker] 
+      2022/04/07 22:24:25.073 - [DEBUG]: Starting effect editor for Test Effect. 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[9 - .NET ThreadPool Worker] 
+      2022/04/07 22:24:25.107 - [DEBUG]: Starting monaco editor for effect Test Effect. 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/04/07 22:30:53.100 - [DEBUG]: Hosting starting 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/07 22:30:53.142 - [DEBUG]: Starting the discovery service. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/07 22:30:53.142 - [DEBUG]: Creating a new UDP client to be used for broadcasting the server information. This wil happen on UDP port 8472. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/07 22:30:53.158 - [DEBUG]: The discovery service has started. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[10 - .NET ThreadPool Worker] 
+      2022/04/07 22:30:53.158 - [TRACE]: Start sending message to controllers to be discovered. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/07 22:30:53.252 - [INFO]: Now listening on: http://localhost:5097 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/07 22:30:53.256 - [INFO]: Application started. Press Ctrl+C to shut down. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/07 22:30:53.256 - [INFO]: Hosting environment: Development 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/07 22:30:53.256 - [INFO]: Content root path: D:\Projects\LedController_net5\LedController.WebPortal.Web\ 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/04/07 22:30:53.256 - [DEBUG]: Hosting started 
+ 
+LedController.WebPortal.Web.Pages.Index[9 - .NET ThreadPool Worker] 
+      2022/04/07 22:30:55.697 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Pages.Index[13 - .NET ThreadPool Worker] 
+      2022/04/07 22:30:57.396 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Pages.EffectsEditorPage[9 - .NET ThreadPool Worker] 
+      2022/04/07 22:30:58.625 - [INFO]: Loading effects page. 
+ 
+LedController.WebPortal.Web.Pages.EffectsEditorPage[15 - .NET ThreadPool Worker] 
+      2022/04/07 22:31:00.204 - [INFO]: Showing effect dialog. 
+ 
+LedController.WebPortal.Web.Dialogs.EffectFormDialog[17 - .NET ThreadPool Worker] 
+      2022/04/07 22:31:06.105 - [INFO]: Creating a new effect with name Test Effect. 
+ 
+LedController.WebPortal.Core.Factories.EffectFactory[17 - .NET ThreadPool Worker] 
+      2022/04/07 22:31:06.105 - [DEBUG]: Creating a new effect. 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/04/07 22:35:35.431 - [DEBUG]: Hosting starting 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/07 22:35:35.478 - [DEBUG]: Starting the discovery service. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/07 22:35:35.478 - [DEBUG]: Creating a new UDP client to be used for broadcasting the server information. This wil happen on UDP port 8472. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/07 22:35:35.493 - [DEBUG]: The discovery service has started. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[10 - .NET ThreadPool Worker] 
+      2022/04/07 22:35:35.493 - [TRACE]: Start sending message to controllers to be discovered. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/07 22:35:35.571 - [INFO]: Now listening on: http://localhost:5097 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/07 22:35:35.571 - [INFO]: Application started. Press Ctrl+C to shut down. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/07 22:35:35.571 - [INFO]: Hosting environment: Development 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/07 22:35:35.571 - [INFO]: Content root path: D:\Projects\LedController_net5\LedController.WebPortal.Web\ 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/04/07 22:35:35.571 - [DEBUG]: Hosting started 
+ 
+LedController.WebPortal.Web.Pages.Index[9 - .NET ThreadPool Worker] 
+      2022/04/07 22:35:37.846 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Pages.Index[17 - .NET ThreadPool Worker] 
+      2022/04/07 22:35:39.402 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Pages.EffectsEditorPage[18 - .NET ThreadPool Worker] 
+      2022/04/07 22:35:57.715 - [INFO]: Loading effects page. 
+ 
+LedController.WebPortal.Web.Pages.EffectsEditorPage[9 - .NET ThreadPool Worker] 
+      2022/04/07 22:35:58.516 - [INFO]: Showing effect dialog. 
+ 
+LedController.WebPortal.Web.Dialogs.EffectFormDialog[9 - .NET ThreadPool Worker] 
+      2022/04/07 22:36:02.652 - [INFO]: Creating a new effect with name Test Effect. 
+ 
+LedController.WebPortal.Core.Factories.EffectFactory[9 - .NET ThreadPool Worker] 
+      2022/04/07 22:36:02.652 - [DEBUG]: Creating a new effect. 
+ 
+LedController.WebPortal.Web.Dialogs.EffectFormDialog[9 - .NET ThreadPool Worker] 
+      2022/04/07 22:36:02.861 - [INFO]: Effect has been saved. 
+ 
+LedController.WebPortal.Web.Pages.EffectsEditorPage[9 - .NET ThreadPool Worker] 
+      2022/04/07 22:36:02.865 - [INFO]: Reloading effects page. 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[9 - .NET ThreadPool Worker] 
+      2022/04/07 22:36:02.907 - [DEBUG]: Starting effect editor for Test Effect. 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[9 - .NET ThreadPool Worker] 
+      2022/04/07 22:36:02.941 - [DEBUG]: Starting monaco editor for effect Test Effect. 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/04/07 22:38:55.190 - [DEBUG]: Hosting starting 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/07 22:38:55.230 - [DEBUG]: Starting the discovery service. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/07 22:38:55.230 - [DEBUG]: Creating a new UDP client to be used for broadcasting the server information. This wil happen on UDP port 8472. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/07 22:38:55.243 - [DEBUG]: The discovery service has started. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[9 - .NET ThreadPool Worker] 
+      2022/04/07 22:38:55.243 - [TRACE]: Start sending message to controllers to be discovered. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/07 22:38:55.306 - [INFO]: Now listening on: http://localhost:5097 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/07 22:38:55.306 - [INFO]: Application started. Press Ctrl+C to shut down. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/07 22:38:55.306 - [INFO]: Hosting environment: Development 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/07 22:38:55.306 - [INFO]: Content root path: D:\Projects\LedController_net5\LedController.WebPortal.Web\ 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/04/07 22:38:55.306 - [DEBUG]: Hosting started 
+ 
+LedController.WebPortal.Web.Pages.Index[6 - .NET ThreadPool Worker] 
+      2022/04/07 22:38:57.470 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Pages.Index[10 - .NET ThreadPool Worker] 
+      2022/04/07 22:38:58.980 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Pages.EffectsEditorPage[9 - .NET ThreadPool Worker] 
+      2022/04/07 22:39:01.181 - [INFO]: Loading effects page. 
+ 
+LedController.WebPortal.Web.Pages.EffectsEditorPage[9 - .NET ThreadPool Worker] 
+      2022/04/07 22:39:02.532 - [INFO]: Showing effect dialog. 
+ 
+LedController.WebPortal.Web.Dialogs.EffectFormDialog[9 - .NET ThreadPool Worker] 
+      2022/04/07 22:39:07.798 - [INFO]: Creating a new effect with name Test Effect. 
+ 
+LedController.WebPortal.Core.Factories.EffectFactory[9 - .NET ThreadPool Worker] 
+      2022/04/07 22:39:07.798 - [DEBUG]: Creating a new effect. 
+ 
+LedController.WebPortal.Web.Dialogs.EffectFormDialog[9 - .NET ThreadPool Worker] 
+      2022/04/07 22:39:07.999 - [INFO]: Effect has been saved. 
+ 
+LedController.WebPortal.Web.Pages.EffectsEditorPage[9 - .NET ThreadPool Worker] 
+      2022/04/07 22:39:07.999 - [INFO]: Reloading effects page. 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[9 - .NET ThreadPool Worker] 
+      2022/04/07 22:39:08.048 - [DEBUG]: Starting effect editor for Test Effect. 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[10 - .NET ThreadPool Worker] 
+      2022/04/07 22:39:08.081 - [DEBUG]: Starting monaco editor for effect Test Effect. 
+ 
+LedController.WebPortal.Web.Pages.EffectsEditorPage[9 - .NET ThreadPool Worker] 
+      2022/04/07 22:39:58.447 - [INFO]: Loading effects page. 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[9 - .NET ThreadPool Worker] 
+      2022/04/07 22:39:58.447 - [DEBUG]: Starting effect editor for Test Effect. 
+ 
+LedController.WebPortal.Web.Pages.EffectsEditorPage[6 - .NET ThreadPool Worker] 
+      2022/04/07 22:39:59.256 - [INFO]: Loading effects page. 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[6 - .NET ThreadPool Worker] 
+      2022/04/07 22:39:59.256 - [DEBUG]: Starting effect editor for Test Effect. 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[24 - .NET ThreadPool Worker] 
+      2022/04/07 22:39:59.286 - [DEBUG]: Starting monaco editor for effect Test Effect. 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/04/07 22:41:04.861 - [DEBUG]: Hosting starting 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/07 22:41:04.896 - [DEBUG]: Starting the discovery service. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/07 22:41:04.896 - [DEBUG]: Creating a new UDP client to be used for broadcasting the server information. This wil happen on UDP port 8472. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/07 22:41:04.896 - [DEBUG]: The discovery service has started. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[9 - .NET ThreadPool Worker] 
+      2022/04/07 22:41:04.896 - [TRACE]: Start sending message to controllers to be discovered. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/07 22:41:04.978 - [INFO]: Now listening on: http://localhost:5097 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/07 22:41:04.978 - [INFO]: Application started. Press Ctrl+C to shut down. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/07 22:41:04.978 - [INFO]: Hosting environment: Development 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/07 22:41:04.978 - [INFO]: Content root path: D:\Projects\LedController_net5\LedController.WebPortal.Web\ 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/04/07 22:41:04.978 - [DEBUG]: Hosting started 
+ 
+LedController.WebPortal.Web.Pages.Index[9 - .NET ThreadPool Worker] 
+      2022/04/07 22:41:07.373 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Pages.Index[18 - .NET ThreadPool Worker] 
+      2022/04/07 22:41:08.891 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Pages.EffectsEditorPage[12 - .NET ThreadPool Worker] 
+      2022/04/07 22:41:09.781 - [INFO]: Loading effects page. 
+ 
+LedController.WebPortal.Web.Pages.EffectsEditorPage[18 - .NET ThreadPool Worker] 
+      2022/04/07 22:41:11.337 - [INFO]: Showing effect dialog. 
+ 
+LedController.WebPortal.Web.Dialogs.EffectFormDialog[6 - .NET ThreadPool Worker] 
+      2022/04/07 22:41:14.592 - [INFO]: Creating a new effect with name Test Effect. 
+ 
+LedController.WebPortal.Core.Factories.EffectFactory[6 - .NET ThreadPool Worker] 
+      2022/04/07 22:41:14.592 - [DEBUG]: Creating a new effect. 
+ 
+LedController.WebPortal.Web.Dialogs.EffectFormDialog[6 - .NET ThreadPool Worker] 
+      2022/04/07 22:41:14.800 - [INFO]: Effect has been saved. 
+ 
+LedController.WebPortal.Web.Pages.EffectsEditorPage[6 - .NET ThreadPool Worker] 
+      2022/04/07 22:41:14.804 - [INFO]: Reloading effects page. 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[6 - .NET ThreadPool Worker] 
+      2022/04/07 22:41:14.844 - [DEBUG]: Starting effect editor for Test Effect. 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[12 - .NET ThreadPool Worker] 
+      2022/04/07 22:41:14.878 - [DEBUG]: Starting monaco editor for effect Test Effect. 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[23 - .NET ThreadPool Worker] 
+      2022/04/07 22:46:34.181 - [DEBUG]: Adding a new effect parameter for Test Effect. 
+ 
+LedController.WebPortal.Core.Factories.EffectFactory[23 - .NET ThreadPool Worker] 
+      2022/04/07 22:46:34.207 - [DEBUG]: Creating new Effect parameter all values are valid. 
+ 
+LedController.WebPortal.Web.Pages.SpiBusesPage[6 - .NET ThreadPool Worker] 
+      2022/04/07 22:49:11.152 - [INFO]: Opening the spi buses page, and loading the spi buses from the application. 
+ 
+LedController.WebPortal.Web.Pages.EffectsEditorPage[34 - .NET ThreadPool Worker] 
+      2022/04/07 22:49:11.835 - [INFO]: Loading effects page. 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[34 - .NET ThreadPool Worker] 
+      2022/04/07 22:49:11.835 - [DEBUG]: Starting effect editor for Test Effect. 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[12 - .NET ThreadPool Worker] 
+      2022/04/07 22:49:11.879 - [DEBUG]: Starting monaco editor for effect Test Effect. 
+ 

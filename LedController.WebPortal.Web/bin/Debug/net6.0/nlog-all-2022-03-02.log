@@ -1,0 +1,601 @@
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/03/02 00:11:37.549 - [DEBUG]: Hosting starting 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/02 00:11:37.828 - [INFO]: Now listening on: http://localhost:5097 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/02 00:11:37.828 - [INFO]: Application started. Press Ctrl+C to shut down. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/02 00:11:37.828 - [INFO]: Hosting environment: Development 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/02 00:11:37.828 - [INFO]: Content root path: D:\Projects\LedController_net5\LedController.WebPortal.Web\ 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/03/02 00:11:37.828 - [DEBUG]: Hosting started 
+ 
+LedController.WebPortal.Web.Pages.ControllersPage[6 - .NET ThreadPool Worker] 
+      2022/03/02 00:12:08.618 - [INFO]: Opening controllers page. 
+ 
+LedController.WebPortal.Web.Pages.ControllersPage[14 - .NET ThreadPool Worker] 
+      2022/03/02 00:12:13.550 - [INFO]: Opening controllers page. 
+ 
+LedController.WebPortal.Web.Pages.ControllersPage[14 - .NET ThreadPool Worker] 
+      2022/03/02 00:12:17.721 - [INFO]: Opening controllers page. 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/03/02 00:33:48.809 - [DEBUG]: Hosting starting 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/02 00:33:49.020 - [INFO]: Now listening on: http://localhost:5097 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/02 00:33:49.027 - [INFO]: Application started. Press Ctrl+C to shut down. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/02 00:33:49.027 - [INFO]: Hosting environment: Development 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/02 00:33:49.027 - [INFO]: Content root path: D:\Projects\LedController_net5\LedController.WebPortal.Web\ 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/03/02 00:33:49.027 - [DEBUG]: Hosting started 
+ 
+Microsoft.AspNetCore.Components.Server.Circuits.RemoteRenderer[27 - .NET ThreadPool Worker] 
+      2022/03/02 00:36:20.771 - [WARN]: Unhandled exception rendering component: Error mapping types.
+
+Mapping types:
+SpiBusEntity -> SpiBus
+LedController.WebPortal.Persistence.Sqlite.Entities.SpiBusEntity -> LedController.Domain.Models.SpiBus
+
+Type Map configuration:
+SpiBusEntity -> SpiBus
+LedController.WebPortal.Persistence.Sqlite.Entities.SpiBusEntity -> LedController.Domain.Models.SpiBus
+
+Destination Member:
+Controller
+ 
+ AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+SpiBusEntity -> SpiBus
+LedController.WebPortal.Persistence.Sqlite.Entities.SpiBusEntity -> LedController.Domain.Models.SpiBus
+
+Type Map configuration:
+SpiBusEntity -> SpiBus
+LedController.WebPortal.Persistence.Sqlite.Entities.SpiBusEntity -> LedController.Domain.Models.SpiBus
+
+Destination Member:
+Controller
+
+ ---> AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+ControllerEntity -> Controller
+LedController.WebPortal.Persistence.Sqlite.Entities.ControllerEntity -> LedController.Domain.Models.Controller
+
+Type Map configuration:
+ControllerEntity -> Controller
+LedController.WebPortal.Persistence.Sqlite.Entities.ControllerEntity -> LedController.Domain.Models.Controller
+
+Destination Member:
+EndPoint.Port
+
+ ---> System.ArgumentException: System.Net.IPEndPoint needs to have a constructor with 0 args or only optional args. Validate your configuration for details. (Parameter 'type')
+   at lambda_method96(Closure , ControllerEntity , Controller , ResolutionContext )
+   --- End of inner exception stack trace ---
+   at lambda_method96(Closure , ControllerEntity , Controller , ResolutionContext )
+   at lambda_method95(Closure , Object , SpiBus , ResolutionContext )
+   --- End of inner exception stack trace ---
+   at lambda_method95(Closure , Object , SpiBus , ResolutionContext )
+   at LedController.WebPortal.Persistence.Sqlite.Stores.StoreBase`2.GetAsync(CancellationToken token)+MoveNext() in D:\Projects\LedController_net5\LedController.Portal.Persistance.Sqlite\Stores\StoreBase.cs:line 35
+   at LedController.WebPortal.Persistence.Sqlite.Stores.StoreBase`2.GetAsync(CancellationToken token)+MoveNext() in D:\Projects\LedController_net5\LedController.Portal.Persistance.Sqlite\Stores\StoreBase.cs:line 33
+   at LedController.WebPortal.Persistence.Sqlite.Stores.StoreBase`2.GetAsync(CancellationToken token)+System.Threading.Tasks.Sources.IValueTaskSource<System.Boolean>.GetResult()
+   at LedController.Shared.Extensions.AsyncEnumerableExtensions.AsEnumerableAsync[T](IAsyncEnumerable`1 enumerable, CancellationToken token) in D:\Projects\LedController_net5\LedController.Shared\Extensions\AsyncEnumerableExtensions.cs:line 18
+   at LedController.Shared.Extensions.AsyncEnumerableExtensions.AsEnumerableAsync[T](IAsyncEnumerable`1 enumerable, CancellationToken token) in D:\Projects\LedController_net5\LedController.Shared\Extensions\AsyncEnumerableExtensions.cs:line 18
+   at LedController.WebPortal.Web.Dialogs.EditLedstripDialog.OnInitializedAsync()
+   at Microsoft.AspNetCore.Components.ComponentBase.RunInitAndSetParametersAsync()
+Microsoft.AspNetCore.Components.Server.Circuits.CircuitHost[27 - .NET ThreadPool Worker] 
+      2022/03/02 00:36:20.988 - [ERROR]: Unhandled exception in circuit 'faVedReaiqI_OKyhzEA7Hcskd_R13xyyLMuNfcmwOiI'. 
+ AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+SpiBusEntity -> SpiBus
+LedController.WebPortal.Persistence.Sqlite.Entities.SpiBusEntity -> LedController.Domain.Models.SpiBus
+
+Type Map configuration:
+SpiBusEntity -> SpiBus
+LedController.WebPortal.Persistence.Sqlite.Entities.SpiBusEntity -> LedController.Domain.Models.SpiBus
+
+Destination Member:
+Controller
+
+ ---> AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+ControllerEntity -> Controller
+LedController.WebPortal.Persistence.Sqlite.Entities.ControllerEntity -> LedController.Domain.Models.Controller
+
+Type Map configuration:
+ControllerEntity -> Controller
+LedController.WebPortal.Persistence.Sqlite.Entities.ControllerEntity -> LedController.Domain.Models.Controller
+
+Destination Member:
+EndPoint.Port
+
+ ---> System.ArgumentException: System.Net.IPEndPoint needs to have a constructor with 0 args or only optional args. Validate your configuration for details. (Parameter 'type')
+   at lambda_method96(Closure , ControllerEntity , Controller , ResolutionContext )
+   --- End of inner exception stack trace ---
+   at lambda_method96(Closure , ControllerEntity , Controller , ResolutionContext )
+   at lambda_method95(Closure , Object , SpiBus , ResolutionContext )
+   --- End of inner exception stack trace ---
+   at lambda_method95(Closure , Object , SpiBus , ResolutionContext )
+   at LedController.WebPortal.Persistence.Sqlite.Stores.StoreBase`2.GetAsync(CancellationToken token)+MoveNext() in D:\Projects\LedController_net5\LedController.Portal.Persistance.Sqlite\Stores\StoreBase.cs:line 35
+   at LedController.WebPortal.Persistence.Sqlite.Stores.StoreBase`2.GetAsync(CancellationToken token)+MoveNext() in D:\Projects\LedController_net5\LedController.Portal.Persistance.Sqlite\Stores\StoreBase.cs:line 33
+   at LedController.WebPortal.Persistence.Sqlite.Stores.StoreBase`2.GetAsync(CancellationToken token)+System.Threading.Tasks.Sources.IValueTaskSource<System.Boolean>.GetResult()
+   at LedController.Shared.Extensions.AsyncEnumerableExtensions.AsEnumerableAsync[T](IAsyncEnumerable`1 enumerable, CancellationToken token) in D:\Projects\LedController_net5\LedController.Shared\Extensions\AsyncEnumerableExtensions.cs:line 18
+   at LedController.Shared.Extensions.AsyncEnumerableExtensions.AsEnumerableAsync[T](IAsyncEnumerable`1 enumerable, CancellationToken token) in D:\Projects\LedController_net5\LedController.Shared\Extensions\AsyncEnumerableExtensions.cs:line 18
+   at LedController.WebPortal.Web.Dialogs.EditLedstripDialog.OnInitializedAsync()
+   at Microsoft.AspNetCore.Components.ComponentBase.RunInitAndSetParametersAsync()
+Microsoft.AspNetCore.Components.Server.Circuits.RemoteRenderer[27 - .NET ThreadPool Worker] 
+      2022/03/02 00:36:21.008 - [WARN]: Unhandled exception rendering component: Cannot access a disposed object. 
+ System.ObjectDisposedException: Cannot access a disposed object.
+   at Microsoft.AspNetCore.Components.RenderTree.ArrayBuilder`1.ThrowObjectDisposedException()
+   at Microsoft.AspNetCore.Components.RenderTree.ArrayBuilder`1.GrowBuffer(Int32 desiredCapacity)
+   at Microsoft.AspNetCore.Components.RenderTree.ArrayBuilder`1.Append(T[] source, Int32 startIndex, Int32 length)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.InsertNewFrame(DiffContext& diffContext, Int32 newFrameIndex)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.InsertNewFrame(DiffContext& diffContext, Int32 newFrameIndex)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.InsertNewFrame(DiffContext& diffContext, Int32 newFrameIndex)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.AppendDiffEntriesForRange(DiffContext& diffContext, Int32 oldStartIndex, Int32 oldEndIndexExcl, Int32 newStartIndex, Int32 newEndIndexExcl)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.ComputeDiff(Renderer renderer, RenderBatchBuilder batchBuilder, Int32 componentId, ArrayRange`1 oldTree, ArrayRange`1 newTree)
+   at Microsoft.AspNetCore.Components.Rendering.ComponentState.RenderIntoBatch(RenderBatchBuilder batchBuilder, RenderFragment renderFragment, Exception& renderFragmentException)
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.ProcessRenderQueue()
+Microsoft.AspNetCore.Components.Server.Circuits.CircuitHost[27 - .NET ThreadPool Worker] 
+      2022/03/02 00:36:21.008 - [ERROR]: Unhandled exception in circuit 'faVedReaiqI_OKyhzEA7Hcskd_R13xyyLMuNfcmwOiI'. 
+ System.ObjectDisposedException: Cannot access a disposed object.
+   at Microsoft.AspNetCore.Components.RenderTree.ArrayBuilder`1.ThrowObjectDisposedException()
+   at Microsoft.AspNetCore.Components.RenderTree.ArrayBuilder`1.GrowBuffer(Int32 desiredCapacity)
+   at Microsoft.AspNetCore.Components.RenderTree.ArrayBuilder`1.Append(T[] source, Int32 startIndex, Int32 length)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.InsertNewFrame(DiffContext& diffContext, Int32 newFrameIndex)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.InsertNewFrame(DiffContext& diffContext, Int32 newFrameIndex)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.InsertNewFrame(DiffContext& diffContext, Int32 newFrameIndex)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.AppendDiffEntriesForRange(DiffContext& diffContext, Int32 oldStartIndex, Int32 oldEndIndexExcl, Int32 newStartIndex, Int32 newEndIndexExcl)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.ComputeDiff(Renderer renderer, RenderBatchBuilder batchBuilder, Int32 componentId, ArrayRange`1 oldTree, ArrayRange`1 newTree)
+   at Microsoft.AspNetCore.Components.Rendering.ComponentState.RenderIntoBatch(RenderBatchBuilder batchBuilder, RenderFragment renderFragment, Exception& renderFragmentException)
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.ProcessRenderQueue()
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/03/02 01:18:59.340 - [DEBUG]: Hosting starting 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/02 01:18:59.543 - [INFO]: Now listening on: http://localhost:5097 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/02 01:18:59.543 - [INFO]: Application started. Press Ctrl+C to shut down. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/02 01:18:59.543 - [INFO]: Hosting environment: Development 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/02 01:18:59.543 - [INFO]: Content root path: D:\Projects\LedController_net5\LedController.WebPortal.Web\ 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/03/02 01:18:59.543 - [DEBUG]: Hosting started 
+ 
+Microsoft.AspNetCore.Components.Server.Circuits.RemoteRenderer[20 - .NET ThreadPool Worker] 
+      2022/03/02 01:19:44.263 - [WARN]: Unhandled exception rendering component: An exception was thrown while attempting to evaluate a LINQ query parameter expression. See the inner exception for more information. To show additional information call 'DbContextOptionsBuilder.EnableSensitiveDataLogging'. 
+ System.InvalidOperationException: An exception was thrown while attempting to evaluate a LINQ query parameter expression. See the inner exception for more information. To show additional information call 'DbContextOptionsBuilder.EnableSensitiveDataLogging'.
+ ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at lambda_method122(Closure )
+   at Microsoft.EntityFrameworkCore.Query.Internal.ParameterExtractingExpressionVisitor.GetValue(Expression expression, String& parameterName)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Query.Internal.ParameterExtractingExpressionVisitor.GetValue(Expression expression, String& parameterName)
+   at Microsoft.EntityFrameworkCore.Query.Internal.ParameterExtractingExpressionVisitor.Evaluate(Expression expression, Boolean generateParameter)
+   at Microsoft.EntityFrameworkCore.Query.Internal.ParameterExtractingExpressionVisitor.Visit(Expression expression)
+   at System.Linq.Expressions.ExpressionVisitor.VisitBinary(BinaryExpression node)
+   at Microsoft.EntityFrameworkCore.Query.Internal.ParameterExtractingExpressionVisitor.VisitBinary(BinaryExpression binaryExpression)
+   at Microsoft.EntityFrameworkCore.Query.Internal.ParameterExtractingExpressionVisitor.Visit(Expression expression)
+   at System.Linq.Expressions.ExpressionVisitor.VisitLambda[T](Expression`1 node)
+   at Microsoft.EntityFrameworkCore.Query.Internal.ParameterExtractingExpressionVisitor.Visit(Expression expression)
+   at System.Linq.Expressions.ExpressionVisitor.VisitUnary(UnaryExpression node)
+   at Microsoft.EntityFrameworkCore.Query.Internal.ParameterExtractingExpressionVisitor.Visit(Expression expression)
+   at System.Dynamic.Utils.ExpressionVisitorUtils.VisitArguments(ExpressionVisitor visitor, IArgumentProvider nodes)
+   at System.Linq.Expressions.ExpressionVisitor.VisitMethodCall(MethodCallExpression node)
+   at Microsoft.EntityFrameworkCore.Query.Internal.ParameterExtractingExpressionVisitor.Visit(Expression expression)
+   at Microsoft.EntityFrameworkCore.Query.Internal.ParameterExtractingExpressionVisitor.ExtractParameters(Expression expression, Boolean clearEvaluatedValues)
+   at Microsoft.EntityFrameworkCore.Query.Internal.ParameterExtractingExpressionVisitor.ExtractParameters(Expression expression)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.ExtractParameters(Expression query, IParameterValues parameterValues, IDiagnosticsLogger`1 logger, Boolean parameterize, Boolean generateContextAccessors)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.Execute[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.Execute[TResult](Expression expression)
+   at System.Linq.Queryable.SingleOrDefault[TSource](IQueryable`1 source, Expression`1 predicate)
+   at LedController.WebPortal.Persistence.Sqlite.Stores.LedstripStore.MapRelations(LedstripEntity entity, Ledstrip model) in D:\Projects\LedController_net5\LedController.Portal.Persistance.Sqlite\Stores\LedstripStore.cs:line 24
+   at LedController.WebPortal.Persistence.Sqlite.Stores.StoreBase`2.Add(TModel item) in D:\Projects\LedController_net5\LedController.Portal.Persistance.Sqlite\Stores\StoreBase.cs:line 47
+   at LedController.WebPortal.Core.Managers.ManagerBase`2.Add(TModel item, CancellationToken token) in D:\Projects\LedController_net5\LedController.Portal.Core\Managers\ManagerBase.cs:line 51
+   at LedController.WebPortal.Web.Dialogs.EditLedstripDialog.SubmitAsync() in D:\Projects\LedController_net5\LedController.WebPortal.Web\Dialogs\EditLedstripDialog.razor:line 104
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at MudBlazor.MudBaseButton.OnClickHandler(MouseEventArgs ev)
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.GetErrorHandledTask(Task taskToHandle, ComponentState owningComponentState)
+Microsoft.AspNetCore.Components.Server.Circuits.CircuitHost[20 - .NET ThreadPool Worker] 
+      2022/03/02 01:19:44.331 - [ERROR]: Unhandled exception in circuit 'xvfuyzTfexeByJopWkpMCCZAyYPqq9xddZprlXYfNnM'. 
+ System.InvalidOperationException: An exception was thrown while attempting to evaluate a LINQ query parameter expression. See the inner exception for more information. To show additional information call 'DbContextOptionsBuilder.EnableSensitiveDataLogging'.
+ ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at lambda_method122(Closure )
+   at Microsoft.EntityFrameworkCore.Query.Internal.ParameterExtractingExpressionVisitor.GetValue(Expression expression, String& parameterName)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Query.Internal.ParameterExtractingExpressionVisitor.GetValue(Expression expression, String& parameterName)
+   at Microsoft.EntityFrameworkCore.Query.Internal.ParameterExtractingExpressionVisitor.Evaluate(Expression expression, Boolean generateParameter)
+   at Microsoft.EntityFrameworkCore.Query.Internal.ParameterExtractingExpressionVisitor.Visit(Expression expression)
+   at System.Linq.Expressions.ExpressionVisitor.VisitBinary(BinaryExpression node)
+   at Microsoft.EntityFrameworkCore.Query.Internal.ParameterExtractingExpressionVisitor.VisitBinary(BinaryExpression binaryExpression)
+   at Microsoft.EntityFrameworkCore.Query.Internal.ParameterExtractingExpressionVisitor.Visit(Expression expression)
+   at System.Linq.Expressions.ExpressionVisitor.VisitLambda[T](Expression`1 node)
+   at Microsoft.EntityFrameworkCore.Query.Internal.ParameterExtractingExpressionVisitor.Visit(Expression expression)
+   at System.Linq.Expressions.ExpressionVisitor.VisitUnary(UnaryExpression node)
+   at Microsoft.EntityFrameworkCore.Query.Internal.ParameterExtractingExpressionVisitor.Visit(Expression expression)
+   at System.Dynamic.Utils.ExpressionVisitorUtils.VisitArguments(ExpressionVisitor visitor, IArgumentProvider nodes)
+   at System.Linq.Expressions.ExpressionVisitor.VisitMethodCall(MethodCallExpression node)
+   at Microsoft.EntityFrameworkCore.Query.Internal.ParameterExtractingExpressionVisitor.Visit(Expression expression)
+   at Microsoft.EntityFrameworkCore.Query.Internal.ParameterExtractingExpressionVisitor.ExtractParameters(Expression expression, Boolean clearEvaluatedValues)
+   at Microsoft.EntityFrameworkCore.Query.Internal.ParameterExtractingExpressionVisitor.ExtractParameters(Expression expression)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.ExtractParameters(Expression query, IParameterValues parameterValues, IDiagnosticsLogger`1 logger, Boolean parameterize, Boolean generateContextAccessors)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.Execute[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.Execute[TResult](Expression expression)
+   at System.Linq.Queryable.SingleOrDefault[TSource](IQueryable`1 source, Expression`1 predicate)
+   at LedController.WebPortal.Persistence.Sqlite.Stores.LedstripStore.MapRelations(LedstripEntity entity, Ledstrip model) in D:\Projects\LedController_net5\LedController.Portal.Persistance.Sqlite\Stores\LedstripStore.cs:line 24
+   at LedController.WebPortal.Persistence.Sqlite.Stores.StoreBase`2.Add(TModel item) in D:\Projects\LedController_net5\LedController.Portal.Persistance.Sqlite\Stores\StoreBase.cs:line 47
+   at LedController.WebPortal.Core.Managers.ManagerBase`2.Add(TModel item, CancellationToken token) in D:\Projects\LedController_net5\LedController.Portal.Core\Managers\ManagerBase.cs:line 51
+   at LedController.WebPortal.Web.Dialogs.EditLedstripDialog.SubmitAsync() in D:\Projects\LedController_net5\LedController.WebPortal.Web\Dialogs\EditLedstripDialog.razor:line 104
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at MudBlazor.MudBaseButton.OnClickHandler(MouseEventArgs ev)
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.GetErrorHandledTask(Task taskToHandle, ComponentState owningComponentState)
+Microsoft.AspNetCore.Components.Server.Circuits.RemoteRenderer[36 - .NET ThreadPool Worker] 
+      2022/03/02 01:29:37.002 - [WARN]: Unhandled exception rendering component: Unable to track an entity of type 'LedstripEntity' because its primary key property 'Id' is null. 
+ System.InvalidOperationException: Unable to track an entity of type 'LedstripEntity' because its primary key property 'Id' is null.
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.NullableKeyIdentityMap`1.Add(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.StartTracking(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetEntityState(EntityState oldState, EntityState newState, Boolean acceptChanges, Boolean modifyProperties)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetEntityState(EntityState entityState, Boolean acceptChanges, Boolean modifyProperties, Nullable`1 forceStateWhenUnknownKey)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityGraphAttacher.PaintAction(EntityEntryGraphNode`1 node)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityEntryGraphIterator.TraverseGraph[TState](EntityEntryGraphNode`1 node, Func`2 handleNode)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityGraphAttacher.AttachGraph(InternalEntityEntry rootEntry, EntityState targetState, EntityState storeGeneratedWithKeySetTargetState, Boolean forceStateWhenUnknownKey)
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.SetEntityState(InternalEntityEntry entry, EntityState entityState)
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.Add(TEntity entity)
+   at LedController.WebPortal.Persistence.Sqlite.Stores.StoreBase`2.Add(TModel item)
+   at LedController.WebPortal.Core.Managers.ManagerBase`2.Add(TModel item, CancellationToken token) in D:\Projects\LedController_net5\LedController.Portal.Core\Managers\ManagerBase.cs:line 51
+   at LedController.WebPortal.Web.Dialogs.EditLedstripDialog.SubmitAsync() in D:\Projects\LedController_net5\LedController.WebPortal.Web\Dialogs\EditLedstripDialog.razor:line 104
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at MudBlazor.MudBaseButton.OnClickHandler(MouseEventArgs ev)
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.GetErrorHandledTask(Task taskToHandle, ComponentState owningComponentState)
+Microsoft.AspNetCore.Components.Server.Circuits.CircuitHost[36 - .NET ThreadPool Worker] 
+      2022/03/02 01:29:37.002 - [ERROR]: Unhandled exception in circuit '8efzHMfIlw8dXD55Vi4ntSTWDNFXSh_vOoCOmKRVljw'. 
+ System.InvalidOperationException: Unable to track an entity of type 'LedstripEntity' because its primary key property 'Id' is null.
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.NullableKeyIdentityMap`1.Add(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.StartTracking(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetEntityState(EntityState oldState, EntityState newState, Boolean acceptChanges, Boolean modifyProperties)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetEntityState(EntityState entityState, Boolean acceptChanges, Boolean modifyProperties, Nullable`1 forceStateWhenUnknownKey)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityGraphAttacher.PaintAction(EntityEntryGraphNode`1 node)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityEntryGraphIterator.TraverseGraph[TState](EntityEntryGraphNode`1 node, Func`2 handleNode)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityGraphAttacher.AttachGraph(InternalEntityEntry rootEntry, EntityState targetState, EntityState storeGeneratedWithKeySetTargetState, Boolean forceStateWhenUnknownKey)
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.SetEntityState(InternalEntityEntry entry, EntityState entityState)
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.Add(TEntity entity)
+   at LedController.WebPortal.Persistence.Sqlite.Stores.StoreBase`2.Add(TModel item)
+   at LedController.WebPortal.Core.Managers.ManagerBase`2.Add(TModel item, CancellationToken token) in D:\Projects\LedController_net5\LedController.Portal.Core\Managers\ManagerBase.cs:line 51
+   at LedController.WebPortal.Web.Dialogs.EditLedstripDialog.SubmitAsync() in D:\Projects\LedController_net5\LedController.WebPortal.Web\Dialogs\EditLedstripDialog.razor:line 104
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at MudBlazor.MudBaseButton.OnClickHandler(MouseEventArgs ev)
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.GetErrorHandledTask(Task taskToHandle, ComponentState owningComponentState)
+Microsoft.AspNetCore.Components.Server.Circuits.RemoteRenderer[43 - .NET ThreadPool Worker] 
+      2022/03/02 01:37:36.648 - [WARN]: Unhandled exception rendering component: An error occurred while saving the entity changes. See the inner exception for details. 
+ Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 19: 'NOT NULL constraint failed: Controllers.Name'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at LedController.WebPortal.Persistence.Sqlite.Services.Repository.SaveChangesAsync(CancellationToken token)
+   at LedController.WebPortal.Web.Dialogs.EditLedstripDialog.SubmitAsync() in D:\Projects\LedController_net5\LedController.WebPortal.Web\Dialogs\EditLedstripDialog.razor:line 104
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at MudBlazor.MudBaseButton.OnClickHandler(MouseEventArgs ev)
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.GetErrorHandledTask(Task taskToHandle, ComponentState owningComponentState)
+Microsoft.AspNetCore.Components.Server.Circuits.CircuitHost[43 - .NET ThreadPool Worker] 
+      2022/03/02 01:37:36.648 - [ERROR]: Unhandled exception in circuit 'YN7kf-grDheT741uezE-1QKM9dIRwXW7gxbnRrZjpvs'. 
+ Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 19: 'NOT NULL constraint failed: Controllers.Name'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at LedController.WebPortal.Persistence.Sqlite.Services.Repository.SaveChangesAsync(CancellationToken token)
+   at LedController.WebPortal.Web.Dialogs.EditLedstripDialog.SubmitAsync() in D:\Projects\LedController_net5\LedController.WebPortal.Web\Dialogs\EditLedstripDialog.razor:line 104
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at MudBlazor.MudBaseButton.OnClickHandler(MouseEventArgs ev)
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.GetErrorHandledTask(Task taskToHandle, ComponentState owningComponentState)
+Microsoft.AspNetCore.Components.Server.Circuits.RemoteRenderer[12 - .NET ThreadPool Worker] 
+      2022/03/02 01:45:11.465 - [WARN]: Unhandled exception rendering component: The instance of entity type 'SpiBusEntity' cannot be tracked because another instance with the same key value for {'Id'} is already being tracked. When attaching existing entities, ensure that only one entity instance with a given key value is attached. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see the conflicting key values. 
+ System.InvalidOperationException: The instance of entity type 'SpiBusEntity' cannot be tracked because another instance with the same key value for {'Id'} is already being tracked. When attaching existing entities, ensure that only one entity instance with a given key value is attached. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see the conflicting key values.
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.ThrowIdentityConflict(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.Add(TKey key, InternalEntityEntry entry, Boolean updateDuplicate)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.Add(TKey key, InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.NullableKeyIdentityMap`1.Add(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.StartTracking(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetEntityState(EntityState oldState, EntityState newState, Boolean acceptChanges, Boolean modifyProperties)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetEntityState(EntityState entityState, Boolean acceptChanges, Boolean modifyProperties, Nullable`1 forceStateWhenUnknownKey)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityGraphAttacher.PaintAction(EntityEntryGraphNode`1 node)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityEntryGraphIterator.TraverseGraph[TState](EntityEntryGraphNode`1 node, Func`2 handleNode)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityEntryGraphIterator.TraverseGraph[TState](EntityEntryGraphNode`1 node, Func`2 handleNode)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityGraphAttacher.AttachGraph(InternalEntityEntry rootEntry, EntityState targetState, EntityState storeGeneratedWithKeySetTargetState, Boolean forceStateWhenUnknownKey)
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.SetEntityState(InternalEntityEntry entry, EntityState entityState)
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.Add(TEntity entity)
+   at LedController.WebPortal.Persistence.Sqlite.Stores.StoreBase`2.Add(TModel item)
+   at LedController.WebPortal.Core.Managers.ManagerBase`2.Add(TModel item, CancellationToken token) in D:\Projects\LedController_net5\LedController.Portal.Core\Managers\ManagerBase.cs:line 51
+   at LedController.WebPortal.Web.Dialogs.EditLedstripDialog.SubmitAsync() in D:\Projects\LedController_net5\LedController.WebPortal.Web\Dialogs\EditLedstripDialog.razor:line 104
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at MudBlazor.MudBaseButton.OnClickHandler(MouseEventArgs ev)
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.GetErrorHandledTask(Task taskToHandle, ComponentState owningComponentState)
+Microsoft.AspNetCore.Components.Server.Circuits.CircuitHost[12 - .NET ThreadPool Worker] 
+      2022/03/02 01:45:11.465 - [ERROR]: Unhandled exception in circuit 'a23kwg1ztFSvemBcPUO6_nWy4VIVKcXb2N6gic8aTxc'. 
+ System.InvalidOperationException: The instance of entity type 'SpiBusEntity' cannot be tracked because another instance with the same key value for {'Id'} is already being tracked. When attaching existing entities, ensure that only one entity instance with a given key value is attached. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see the conflicting key values.
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.ThrowIdentityConflict(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.Add(TKey key, InternalEntityEntry entry, Boolean updateDuplicate)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.Add(TKey key, InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.NullableKeyIdentityMap`1.Add(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.StartTracking(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetEntityState(EntityState oldState, EntityState newState, Boolean acceptChanges, Boolean modifyProperties)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetEntityState(EntityState entityState, Boolean acceptChanges, Boolean modifyProperties, Nullable`1 forceStateWhenUnknownKey)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityGraphAttacher.PaintAction(EntityEntryGraphNode`1 node)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityEntryGraphIterator.TraverseGraph[TState](EntityEntryGraphNode`1 node, Func`2 handleNode)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityEntryGraphIterator.TraverseGraph[TState](EntityEntryGraphNode`1 node, Func`2 handleNode)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityGraphAttacher.AttachGraph(InternalEntityEntry rootEntry, EntityState targetState, EntityState storeGeneratedWithKeySetTargetState, Boolean forceStateWhenUnknownKey)
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.SetEntityState(InternalEntityEntry entry, EntityState entityState)
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.Add(TEntity entity)
+   at LedController.WebPortal.Persistence.Sqlite.Stores.StoreBase`2.Add(TModel item)
+   at LedController.WebPortal.Core.Managers.ManagerBase`2.Add(TModel item, CancellationToken token) in D:\Projects\LedController_net5\LedController.Portal.Core\Managers\ManagerBase.cs:line 51
+   at LedController.WebPortal.Web.Dialogs.EditLedstripDialog.SubmitAsync() in D:\Projects\LedController_net5\LedController.WebPortal.Web\Dialogs\EditLedstripDialog.razor:line 104
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at MudBlazor.MudBaseButton.OnClickHandler(MouseEventArgs ev)
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.GetErrorHandledTask(Task taskToHandle, ComponentState owningComponentState)
+Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher[84 - .NET ThreadPool Worker] 
+      2022/03/02 01:45:16.118 - [ERROR]: Failed to invoke hub method 'ConnectCircuit'. 
+ System.ObjectDisposedException: Cannot access a disposed object.
+   at Microsoft.AspNetCore.Components.Server.Circuits.CircuitHost.SetCircuitUser(ClaimsPrincipal user)
+   at Microsoft.AspNetCore.Components.Server.ComponentHub.ConnectCircuit(String circuitIdSecret)
+   at lambda_method11(Closure , Object )
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.ExecuteMethod(ObjectMethodExecutor methodExecutor, Hub hub, Object[] arguments)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.<Invoke>g__ExecuteInvocation|16_0(DefaultHubDispatcher`1 dispatcher, ObjectMethodExecutor methodExecutor, THub hub, Object[] arguments, AsyncServiceScope scope, IHubActivator`1 hubActivator, HubConnectionContext connection, HubMethodInvocationMessage hubMethodInvocationMessage, Boolean isStreamCall)
+Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher[12 - .NET ThreadPool Worker] 
+      2022/03/02 01:45:16.118 - [ERROR]: Failed to invoke hub method 'ConnectCircuit'. 
+ System.ObjectDisposedException: Cannot access a disposed object.
+   at Microsoft.AspNetCore.Components.Server.Circuits.CircuitHost.SetCircuitUser(ClaimsPrincipal user)
+   at Microsoft.AspNetCore.Components.Server.ComponentHub.ConnectCircuit(String circuitIdSecret)
+   at lambda_method11(Closure , Object )
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.ExecuteMethod(ObjectMethodExecutor methodExecutor, Hub hub, Object[] arguments)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.<Invoke>g__ExecuteInvocation|16_0(DefaultHubDispatcher`1 dispatcher, ObjectMethodExecutor methodExecutor, THub hub, Object[] arguments, AsyncServiceScope scope, IHubActivator`1 hubActivator, HubConnectionContext connection, HubMethodInvocationMessage hubMethodInvocationMessage, Boolean isStreamCall)
+Microsoft.AspNetCore.Components.Server.Circuits.RemoteRenderer[105 - .NET ThreadPool Worker] 
+      2022/03/02 01:45:53.659 - [WARN]: Unhandled exception rendering component: The instance of entity type 'SpiBusEntity' cannot be tracked because another instance with the same key value for {'Id'} is already being tracked. When attaching existing entities, ensure that only one entity instance with a given key value is attached. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see the conflicting key values. 
+ System.InvalidOperationException: The instance of entity type 'SpiBusEntity' cannot be tracked because another instance with the same key value for {'Id'} is already being tracked. When attaching existing entities, ensure that only one entity instance with a given key value is attached. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see the conflicting key values.
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.ThrowIdentityConflict(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.Add(TKey key, InternalEntityEntry entry, Boolean updateDuplicate)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.Add(TKey key, InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.NullableKeyIdentityMap`1.Add(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.StartTracking(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetEntityState(EntityState oldState, EntityState newState, Boolean acceptChanges, Boolean modifyProperties)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetEntityState(EntityState entityState, Boolean acceptChanges, Boolean modifyProperties, Nullable`1 forceStateWhenUnknownKey)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityGraphAttacher.PaintAction(EntityEntryGraphNode`1 node)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityEntryGraphIterator.TraverseGraph[TState](EntityEntryGraphNode`1 node, Func`2 handleNode)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityEntryGraphIterator.TraverseGraph[TState](EntityEntryGraphNode`1 node, Func`2 handleNode)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityGraphAttacher.AttachGraph(InternalEntityEntry rootEntry, EntityState targetState, EntityState storeGeneratedWithKeySetTargetState, Boolean forceStateWhenUnknownKey)
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.SetEntityState(InternalEntityEntry entry, EntityState entityState)
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.Add(TEntity entity)
+   at LedController.WebPortal.Persistence.Sqlite.Stores.StoreBase`2.Add(TModel item)
+   at LedController.WebPortal.Core.Managers.ManagerBase`2.Add(TModel item, CancellationToken token) in D:\Projects\LedController_net5\LedController.Portal.Core\Managers\ManagerBase.cs:line 51
+   at LedController.WebPortal.Web.Dialogs.EditLedstripDialog.SubmitAsync() in D:\Projects\LedController_net5\LedController.WebPortal.Web\Dialogs\EditLedstripDialog.razor:line 104
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at MudBlazor.MudBaseButton.OnClickHandler(MouseEventArgs ev)
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.GetErrorHandledTask(Task taskToHandle, ComponentState owningComponentState)
+Microsoft.AspNetCore.Components.Server.Circuits.CircuitHost[105 - .NET ThreadPool Worker] 
+      2022/03/02 01:45:53.659 - [ERROR]: Unhandled exception in circuit 'sejY9bCFLQ8OWIYVvj-JhZ_9VLmjXCoH_y6xaG0wzqw'. 
+ System.InvalidOperationException: The instance of entity type 'SpiBusEntity' cannot be tracked because another instance with the same key value for {'Id'} is already being tracked. When attaching existing entities, ensure that only one entity instance with a given key value is attached. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see the conflicting key values.
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.ThrowIdentityConflict(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.Add(TKey key, InternalEntityEntry entry, Boolean updateDuplicate)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.Add(TKey key, InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.NullableKeyIdentityMap`1.Add(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.StartTracking(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetEntityState(EntityState oldState, EntityState newState, Boolean acceptChanges, Boolean modifyProperties)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetEntityState(EntityState entityState, Boolean acceptChanges, Boolean modifyProperties, Nullable`1 forceStateWhenUnknownKey)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityGraphAttacher.PaintAction(EntityEntryGraphNode`1 node)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityEntryGraphIterator.TraverseGraph[TState](EntityEntryGraphNode`1 node, Func`2 handleNode)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityEntryGraphIterator.TraverseGraph[TState](EntityEntryGraphNode`1 node, Func`2 handleNode)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityGraphAttacher.AttachGraph(InternalEntityEntry rootEntry, EntityState targetState, EntityState storeGeneratedWithKeySetTargetState, Boolean forceStateWhenUnknownKey)
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.SetEntityState(InternalEntityEntry entry, EntityState entityState)
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.Add(TEntity entity)
+   at LedController.WebPortal.Persistence.Sqlite.Stores.StoreBase`2.Add(TModel item)
+   at LedController.WebPortal.Core.Managers.ManagerBase`2.Add(TModel item, CancellationToken token) in D:\Projects\LedController_net5\LedController.Portal.Core\Managers\ManagerBase.cs:line 51
+   at LedController.WebPortal.Web.Dialogs.EditLedstripDialog.SubmitAsync() in D:\Projects\LedController_net5\LedController.WebPortal.Web\Dialogs\EditLedstripDialog.razor:line 104
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at MudBlazor.MudBaseButton.OnClickHandler(MouseEventArgs ev)
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.GetErrorHandledTask(Task taskToHandle, ComponentState owningComponentState)
+Microsoft.AspNetCore.Components.Server.Circuits.RemoteRenderer[87 - .NET ThreadPool Worker] 
+      2022/03/02 01:46:11.139 - [WARN]: Unhandled exception rendering component: The instance of entity type 'SpiBusEntity' cannot be tracked because another instance with the same key value for {'Id'} is already being tracked. When attaching existing entities, ensure that only one entity instance with a given key value is attached. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see the conflicting key values. 
+ System.InvalidOperationException: The instance of entity type 'SpiBusEntity' cannot be tracked because another instance with the same key value for {'Id'} is already being tracked. When attaching existing entities, ensure that only one entity instance with a given key value is attached. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see the conflicting key values.
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.ThrowIdentityConflict(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.Add(TKey key, InternalEntityEntry entry, Boolean updateDuplicate)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.Add(TKey key, InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.NullableKeyIdentityMap`1.Add(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.StartTracking(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetEntityState(EntityState oldState, EntityState newState, Boolean acceptChanges, Boolean modifyProperties)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetEntityState(EntityState entityState, Boolean acceptChanges, Boolean modifyProperties, Nullable`1 forceStateWhenUnknownKey)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityGraphAttacher.PaintAction(EntityEntryGraphNode`1 node)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityEntryGraphIterator.TraverseGraph[TState](EntityEntryGraphNode`1 node, Func`2 handleNode)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityEntryGraphIterator.TraverseGraph[TState](EntityEntryGraphNode`1 node, Func`2 handleNode)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityGraphAttacher.AttachGraph(InternalEntityEntry rootEntry, EntityState targetState, EntityState storeGeneratedWithKeySetTargetState, Boolean forceStateWhenUnknownKey)
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.SetEntityState(InternalEntityEntry entry, EntityState entityState)
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.Add(TEntity entity)
+   at LedController.WebPortal.Persistence.Sqlite.Stores.StoreBase`2.Add(TModel item)
+   at LedController.WebPortal.Core.Managers.ManagerBase`2.Add(TModel item, CancellationToken token) in D:\Projects\LedController_net5\LedController.Portal.Core\Managers\ManagerBase.cs:line 51
+   at LedController.WebPortal.Web.Dialogs.EditLedstripDialog.SubmitAsync() in D:\Projects\LedController_net5\LedController.WebPortal.Web\Dialogs\EditLedstripDialog.razor:line 104
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at MudBlazor.MudBaseButton.OnClickHandler(MouseEventArgs ev)
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.GetErrorHandledTask(Task taskToHandle, ComponentState owningComponentState)
+Microsoft.AspNetCore.Components.Server.Circuits.CircuitHost[87 - .NET ThreadPool Worker] 
+      2022/03/02 01:46:11.139 - [ERROR]: Unhandled exception in circuit 'DljTCrmyDN7-39ID8v-aIUTsDiDfUYE-Kc9efjpMFm8'. 
+ System.InvalidOperationException: The instance of entity type 'SpiBusEntity' cannot be tracked because another instance with the same key value for {'Id'} is already being tracked. When attaching existing entities, ensure that only one entity instance with a given key value is attached. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see the conflicting key values.
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.ThrowIdentityConflict(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.Add(TKey key, InternalEntityEntry entry, Boolean updateDuplicate)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.Add(TKey key, InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.NullableKeyIdentityMap`1.Add(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.StartTracking(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetEntityState(EntityState oldState, EntityState newState, Boolean acceptChanges, Boolean modifyProperties)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetEntityState(EntityState entityState, Boolean acceptChanges, Boolean modifyProperties, Nullable`1 forceStateWhenUnknownKey)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityGraphAttacher.PaintAction(EntityEntryGraphNode`1 node)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityEntryGraphIterator.TraverseGraph[TState](EntityEntryGraphNode`1 node, Func`2 handleNode)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityEntryGraphIterator.TraverseGraph[TState](EntityEntryGraphNode`1 node, Func`2 handleNode)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityGraphAttacher.AttachGraph(InternalEntityEntry rootEntry, EntityState targetState, EntityState storeGeneratedWithKeySetTargetState, Boolean forceStateWhenUnknownKey)
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.SetEntityState(InternalEntityEntry entry, EntityState entityState)
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.Add(TEntity entity)
+   at LedController.WebPortal.Persistence.Sqlite.Stores.StoreBase`2.Add(TModel item)
+   at LedController.WebPortal.Core.Managers.ManagerBase`2.Add(TModel item, CancellationToken token) in D:\Projects\LedController_net5\LedController.Portal.Core\Managers\ManagerBase.cs:line 51
+   at LedController.WebPortal.Web.Dialogs.EditLedstripDialog.SubmitAsync() in D:\Projects\LedController_net5\LedController.WebPortal.Web\Dialogs\EditLedstripDialog.razor:line 104
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at MudBlazor.MudBaseButton.OnClickHandler(MouseEventArgs ev)
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.GetErrorHandledTask(Task taskToHandle, ComponentState owningComponentState)
+Microsoft.AspNetCore.Components.Server.Circuits.RemoteRenderer[120 - .NET ThreadPool Worker] 
+      2022/03/02 01:48:58.350 - [WARN]: Unhandled exception rendering component: The instance of entity type 'SpiBusEntity' cannot be tracked because another instance with the same key value for {'Id'} is already being tracked. When attaching existing entities, ensure that only one entity instance with a given key value is attached. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see the conflicting key values. 
+ System.InvalidOperationException: The instance of entity type 'SpiBusEntity' cannot be tracked because another instance with the same key value for {'Id'} is already being tracked. When attaching existing entities, ensure that only one entity instance with a given key value is attached. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see the conflicting key values.
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.ThrowIdentityConflict(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.Add(TKey key, InternalEntityEntry entry, Boolean updateDuplicate)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.Add(TKey key, InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.NullableKeyIdentityMap`1.Add(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.StartTracking(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetEntityState(EntityState oldState, EntityState newState, Boolean acceptChanges, Boolean modifyProperties)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetEntityState(EntityState entityState, Boolean acceptChanges, Boolean modifyProperties, Nullable`1 forceStateWhenUnknownKey)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityGraphAttacher.PaintAction(EntityEntryGraphNode`1 node)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityEntryGraphIterator.TraverseGraph[TState](EntityEntryGraphNode`1 node, Func`2 handleNode)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityEntryGraphIterator.TraverseGraph[TState](EntityEntryGraphNode`1 node, Func`2 handleNode)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityGraphAttacher.AttachGraph(InternalEntityEntry rootEntry, EntityState targetState, EntityState storeGeneratedWithKeySetTargetState, Boolean forceStateWhenUnknownKey)
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.SetEntityState(InternalEntityEntry entry, EntityState entityState)
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.Add(TEntity entity)
+   at LedController.WebPortal.Persistence.Sqlite.Stores.StoreBase`2.Add(TModel item)
+   at LedController.WebPortal.Core.Managers.ManagerBase`2.Add(TModel item, CancellationToken token) in D:\Projects\LedController_net5\LedController.Portal.Core\Managers\ManagerBase.cs:line 51
+   at LedController.WebPortal.Web.Dialogs.EditLedstripDialog.SubmitAsync() in D:\Projects\LedController_net5\LedController.WebPortal.Web\Dialogs\EditLedstripDialog.razor:line 104
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at MudBlazor.MudBaseButton.OnClickHandler(MouseEventArgs ev)
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.GetErrorHandledTask(Task taskToHandle, ComponentState owningComponentState)
+Microsoft.AspNetCore.Components.Server.Circuits.CircuitHost[120 - .NET ThreadPool Worker] 
+      2022/03/02 01:48:58.352 - [ERROR]: Unhandled exception in circuit '89D6x9zOnV8GEPAaB0Ig_YBGuQYIzjY0loBV1Q4Rb0M'. 
+ System.InvalidOperationException: The instance of entity type 'SpiBusEntity' cannot be tracked because another instance with the same key value for {'Id'} is already being tracked. When attaching existing entities, ensure that only one entity instance with a given key value is attached. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see the conflicting key values.
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.ThrowIdentityConflict(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.Add(TKey key, InternalEntityEntry entry, Boolean updateDuplicate)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.Add(TKey key, InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.NullableKeyIdentityMap`1.Add(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.StartTracking(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetEntityState(EntityState oldState, EntityState newState, Boolean acceptChanges, Boolean modifyProperties)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetEntityState(EntityState entityState, Boolean acceptChanges, Boolean modifyProperties, Nullable`1 forceStateWhenUnknownKey)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityGraphAttacher.PaintAction(EntityEntryGraphNode`1 node)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityEntryGraphIterator.TraverseGraph[TState](EntityEntryGraphNode`1 node, Func`2 handleNode)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityEntryGraphIterator.TraverseGraph[TState](EntityEntryGraphNode`1 node, Func`2 handleNode)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityGraphAttacher.AttachGraph(InternalEntityEntry rootEntry, EntityState targetState, EntityState storeGeneratedWithKeySetTargetState, Boolean forceStateWhenUnknownKey)
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.SetEntityState(InternalEntityEntry entry, EntityState entityState)
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.Add(TEntity entity)
+   at LedController.WebPortal.Persistence.Sqlite.Stores.StoreBase`2.Add(TModel item)
+   at LedController.WebPortal.Core.Managers.ManagerBase`2.Add(TModel item, CancellationToken token) in D:\Projects\LedController_net5\LedController.Portal.Core\Managers\ManagerBase.cs:line 51
+   at LedController.WebPortal.Web.Dialogs.EditLedstripDialog.SubmitAsync() in D:\Projects\LedController_net5\LedController.WebPortal.Web\Dialogs\EditLedstripDialog.razor:line 104
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at MudBlazor.MudBaseButton.OnClickHandler(MouseEventArgs ev)
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.GetErrorHandledTask(Task taskToHandle, ComponentState owningComponentState)
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/03/02 02:28:27.441 - [DEBUG]: Hosting starting 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/02 02:28:27.635 - [INFO]: Now listening on: http://localhost:5097 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/02 02:28:27.635 - [INFO]: Application started. Press Ctrl+C to shut down. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/02 02:28:27.635 - [INFO]: Hosting environment: Development 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/02 02:28:27.635 - [INFO]: Content root path: D:\Projects\LedController_net5\LedController.WebPortal.Web\ 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/03/02 02:28:27.635 - [DEBUG]: Hosting started 
+ 
+Microsoft.AspNetCore.Components.Server.Circuits.RemoteRenderer[9 - .NET ThreadPool Worker] 
+      2022/03/02 02:33:19.340 - [WARN]: Unhandled exception rendering component: Unable to track an entity of type 'LedstripEntity' because its primary key property 'Id' is null. 
+ System.InvalidOperationException: Unable to track an entity of type 'LedstripEntity' because its primary key property 'Id' is null.
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.NullableKeyIdentityMap`1.Add(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.StartTracking(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetEntityState(EntityState oldState, EntityState newState, Boolean acceptChanges, Boolean modifyProperties)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetEntityState(EntityState entityState, Boolean acceptChanges, Boolean modifyProperties, Nullable`1 forceStateWhenUnknownKey)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityGraphAttacher.PaintAction(EntityEntryGraphNode`1 node)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityEntryGraphIterator.TraverseGraph[TState](EntityEntryGraphNode`1 node, Func`2 handleNode)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityGraphAttacher.AttachGraph(InternalEntityEntry rootEntry, EntityState targetState, EntityState storeGeneratedWithKeySetTargetState, Boolean forceStateWhenUnknownKey)
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.SetEntityState(InternalEntityEntry entry, EntityState entityState)
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.Attach(TEntity entity)
+   at LedController.WebPortal.Persistence.Sqlite.Stores.StoreBase`2.Add(TModel item) in D:\Projects\LedController_net5\LedController.Portal.Persistance.Sqlite\Stores\StoreBase.cs:line 47
+   at LedController.WebPortal.Core.Managers.ManagerBase`2.Add(TModel item, CancellationToken token) in D:\Projects\LedController_net5\LedController.Portal.Core\Managers\ManagerBase.cs:line 51
+   at LedController.WebPortal.Web.Dialogs.EditLedstripDialog.SubmitAsync() in D:\Projects\LedController_net5\LedController.WebPortal.Web\Dialogs\EditLedstripDialog.razor:line 104
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at MudBlazor.MudBaseButton.OnClickHandler(MouseEventArgs ev)
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.GetErrorHandledTask(Task taskToHandle, ComponentState owningComponentState)
+Microsoft.AspNetCore.Components.Server.Circuits.CircuitHost[9 - .NET ThreadPool Worker] 
+      2022/03/02 02:33:19.406 - [ERROR]: Unhandled exception in circuit 'CYzAW1j6bx3ZolV-xotkuYNk7LFTjZiYuLOkxoxWKWc'. 
+ System.InvalidOperationException: Unable to track an entity of type 'LedstripEntity' because its primary key property 'Id' is null.
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.NullableKeyIdentityMap`1.Add(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.StartTracking(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetEntityState(EntityState oldState, EntityState newState, Boolean acceptChanges, Boolean modifyProperties)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetEntityState(EntityState entityState, Boolean acceptChanges, Boolean modifyProperties, Nullable`1 forceStateWhenUnknownKey)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityGraphAttacher.PaintAction(EntityEntryGraphNode`1 node)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityEntryGraphIterator.TraverseGraph[TState](EntityEntryGraphNode`1 node, Func`2 handleNode)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityGraphAttacher.AttachGraph(InternalEntityEntry rootEntry, EntityState targetState, EntityState storeGeneratedWithKeySetTargetState, Boolean forceStateWhenUnknownKey)
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.SetEntityState(InternalEntityEntry entry, EntityState entityState)
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.Attach(TEntity entity)
+   at LedController.WebPortal.Persistence.Sqlite.Stores.StoreBase`2.Add(TModel item) in D:\Projects\LedController_net5\LedController.Portal.Persistance.Sqlite\Stores\StoreBase.cs:line 47
+   at LedController.WebPortal.Core.Managers.ManagerBase`2.Add(TModel item, CancellationToken token) in D:\Projects\LedController_net5\LedController.Portal.Core\Managers\ManagerBase.cs:line 51
+   at LedController.WebPortal.Web.Dialogs.EditLedstripDialog.SubmitAsync() in D:\Projects\LedController_net5\LedController.WebPortal.Web\Dialogs\EditLedstripDialog.razor:line 104
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at MudBlazor.MudBaseButton.OnClickHandler(MouseEventArgs ev)
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.GetErrorHandledTask(Task taskToHandle, ComponentState owningComponentState)

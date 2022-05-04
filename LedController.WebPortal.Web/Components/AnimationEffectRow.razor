@@ -1,0 +1,318 @@
+﻿@using System
+@using LedController.Shared.Extensions
+@using System.Linq
+@using LedController.Domain.Models
+@using LedController.WebPortal.Domain.Managers
+@using LedController.WebPortal.Web.Extensions
+@using MudBlazor
+@using UnitsNet
+@using UnitsNet.Units
+@using Animation = LedController.Domain.Models.Animation
+
+@inject ILogger<AnimationEffectRow> _logger
+@inject IDialogService _dialogService
+@inject IEffectManager _effectManager
+@inject IAnimationManager _animationManager
+@inject ISnackbar _snackbar
+
+
+<MudGrid>
+
+    @* Effect *@
+    <MudItem xs="4" >
+        <MudSelect T="Effect"
+                   @bind-Value="SelectedEffect"
+                   Label="Effect" >
+            @foreach (Effect effect in Effects)
+            {
+	            <MudSelectItem Value="effect" >@effect.Name</MudSelectItem>
+            }
+        </MudSelect>
+    </MudItem>
+
+    @* Duration *@
+    <MudItem xs="2" >
+        <MudTimePicker Label="Duration"
+                       @bind-Time="Duration"
+                       AutoClose="true"
+                       PickerVariant="PickerVariant.Dialog"
+                       Disabled="_timePickerDisabled" >
+        </MudTimePicker>
+    </MudItem>
+    <MudItem xs="1" >
+        <MudCheckBox T="bool"
+                     Label="Infinite"
+                     @bind-Value="Infinite"
+                     CheckedChanged="OnInfiniteCheckboxChanged"/>
+    </MudItem>
+    @*f => AnimationEffect.Frequency = Frequency.From(f, _selectedFrequencyUnit)*@
+    @* Frequency *@
+    <MudItem xs="2" >
+        <MudNumericField T="double"
+                         @bind-Value="Frequency"
+                         Label="Speed" >
+        </MudNumericField>
+    </MudItem>
+    <MudItem xs="2" >
+        <MudSelect T="FrequencyUnit"
+                   @bind-Value="FrequencyUnit"
+                   Label="SpeedUnit" >
+            @foreach (FrequencyUnit frequencyUnit in Enum.GetValues(typeof(FrequencyUnit)))
+            {
+	            <MudSelectItem Value="frequencyUnit" >@frequencyUnit</MudSelectItem>
+            }
+        </MudSelect>
+    </MudItem>
+
+    @* Add or remove depending on if this is a empty row or a existing row.*@
+    @if (_isNew)
+    {
+	    <MudItem xs="1" >
+            <MudIconButton Icon="@Icons.Filled.Add"
+                           OnClick="AddAnimationEffectAsync"/>
+        </MudItem>
+    }
+    else if (_changesMade)
+    {
+	    <MudItem xs="1" >
+            <MudIconButton Icon="@Icons.Filled.SaveAlt"
+                           OnClick="UpdateAnimationEffectAsync"/>
+        </MudItem>
+    }
+    else
+    {
+	    <MudItem xs="1" >
+            <MudIconButton Icon="@Icons.Filled.Remove"
+                           OnClick="RemoveAnimationEffectAsync"/>
+        </MudItem>
+    }
+</MudGrid>
+
+
+@code {
+
+	/// <summary>
+	/// A bool indicating that we disabled the time picker. Because we are now in infinite mode.
+	/// </summary>
+	private bool _timePickerDisabled = false;
+
+	/// <summary>
+	/// Flag indicating that this row is a new row.
+	/// </summary>
+	private bool _isNew = false;
+
+	/// <summary>
+	/// Flag indicating that we made changes and want to save.
+	/// </summary>
+	private bool _changesMade = false;
+	
+
+
+	private Effect? _selectedEffect;
+	private TimeSpan? _duration;
+	private bool _infinite;
+	private double _frequency;
+	private FrequencyUnit _selectedFrequencyUnit = FrequencyUnit.BeatPerMinute;
+
+
+	/// <summary>
+	/// The effect that we have selected.
+	/// </summary>
+	public Effect? SelectedEffect
+	{
+		get => AnimationEffect?.Effect ?? _selectedEffect;
+		set
+		{
+			if (AnimationEffect != null)
+			{
+				AnimationEffect.Effect = value;
+				_changesMade = true;
+			}
+			_selectedEffect = value;
+		}
+	}
+
+	/// <summary>
+	/// The duration of the effect.
+	/// </summary>
+	public TimeSpan? Duration
+	{
+		get => AnimationEffect?.Duration ?? _duration ?? TimeSpan.Zero;
+		set
+		{
+			if (AnimationEffect != null)
+			{
+				AnimationEffect.Duration = value;
+				_changesMade = true;
+			}
+			_duration = value;
+		}
+	}
+
+	/// <summary>
+	/// If we want this effect to be infinite.
+	/// </summary>
+	public bool Infinite
+	{
+		get => _infinite;
+		set
+		{
+			if (AnimationEffect != null && _infinite)
+			{
+				AnimationEffect.Duration = null;
+				_changesMade = true;
+			}
+			_infinite = value;
+		}
+	}
+
+
+	/// <summary>
+	/// The frequency
+	/// </summary>
+	public double Frequency
+	{
+		get => AnimationEffect?.Frequency.As(_selectedFrequencyUnit) ?? _frequency;
+		set
+		{
+			if (AnimationEffect != null)
+			{
+				AnimationEffect.Frequency = new Frequency(value, _selectedFrequencyUnit);
+				_changesMade = true;
+			}
+			_frequency = value;
+		}
+	}
+
+
+	public FrequencyUnit FrequencyUnit
+	{
+		get => _selectedFrequencyUnit;
+		set
+		{
+			if (value != _selectedFrequencyUnit && AnimationEffect != null)
+			{
+				AnimationEffect.Frequency = new Frequency(AnimationEffect.Frequency.As(_selectedFrequencyUnit), value);
+				_changesMade = true;
+			}
+			_selectedFrequencyUnit = value;
+		}
+	}
+
+
+	/// <summary>
+	/// The effects that we know of for the dropdown list.
+	/// </summary>
+	public IEnumerable<Effect> Effects { get; set; } = new List<Effect>();
+
+
+	/// <summary>
+	/// The annimation that we want ot add the effect to.
+	/// </summary>
+	[Parameter]
+	public Animation Animation { get; set; } = default!;
+
+	/// <summary>
+	/// The animation effect that is this row.
+	/// </summary>
+	[Parameter]
+	public AnimationEffect? AnimationEffect { get; set; }
+
+
+
+	/// <inheritdoc />
+	protected override async Task OnParametersSetAsync()
+	{
+	// Initialize a new effect if none exist and set the state of the page to new.
+		if (AnimationEffect == null)
+		{
+			AnimationEffect = new AnimationEffect();
+			_isNew = true;
+		}
+
+		Effects = await _effectManager.GetAsync().AsEnumerableAsync();
+		await base.OnParametersSetAsync();
+	}
+
+
+	/// <summary>
+	/// When we set this effect as infinite.
+	/// </summary>
+	/// <param name="infinite"> </param>
+	protected virtual async Task OnInfiniteCheckboxChanged(bool infinite)
+	{
+	    // Disable the text field.
+		_timePickerDisabled = infinite;
+	}
+
+
+	/// <summary>
+	/// Resets the current row.
+	/// </summary>
+	private void Reset()
+	{
+		_selectedEffect = null;
+		_duration = TimeSpan.Zero;
+		_frequency = 0;
+		_infinite = false;
+		_selectedFrequencyUnit = FrequencyUnit.BeatPerMinute;
+		_isNew = true;
+		StateHasChanged();
+	}
+
+
+	/// <summary>
+	/// When we want to add a effect to animation.
+	/// </summary>
+	protected async Task AddAnimationEffectAsync()
+	{
+		_logger.LogInformation($"Adding new animation effect to animation {Animation.Id}.");
+		if (_selectedEffect == null)
+		{
+			_snackbar.Add("The effect has not been selected!", Severity.Error);
+			return;
+		}
+
+		// Adding the animation effect.
+		await _animationManager.CreateAnimationEffectAsync(Animation, _selectedEffect!, Duration, new Frequency(_frequency, _selectedFrequencyUnit));
+		_logger.LogInformation($"Animation effect has been created.");
+
+		// Informing the user and resetting the ui
+		_snackbar.AddSuccess($"Animation effect has been saved!");
+		Reset();
+
+	}
+
+
+	protected async Task UpdateAnimationEffectAsync()
+	{
+		_logger.LogInformation($"Updating animation effect {AnimationEffect!.Id}");
+
+		await _animationManager.UpdateAnimationEffectAsync(AnimationEffect!, _selectedEffect!);
+		_logger.LogInformation($"Animation effect saved.");
+
+
+		_snackbar.AddSuccess($"Animation effect has been saved!");
+		StateHasChanged();
+
+	}
+
+
+	protected async Task RemoveAnimationEffectAsync()
+	{
+		// Asking the user if we really would like to delete this effect from the animation.
+		if (!await _dialogService.ShowMessageBox($"Delete Animation Effect?",
+			$"Are you sure you would like to delete this animation effect?",
+			cancelText: "Cancel") ?? true) return;
+
+		_logger.LogInformation($"Removing animation effect {AnimationEffect!.Id}");
+
+		await _animationManager.RemoveAnimationEffectAsync(Animation, AnimationEffect!);
+		_logger.LogInformation($"Animation effect has been deleted.");
+
+		_snackbar.AddSuccess($"Animation effect has been removed!");
+		Reset();
+	}
+
+
+}

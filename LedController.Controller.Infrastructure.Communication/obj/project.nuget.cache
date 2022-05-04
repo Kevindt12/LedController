@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "dTMaaQ0Z4t9T4/dxGIlZRREBGaA8em2nEvm4wUgmf7aVWv3s9OHvD/UU91VxoL5Sm+Wwy2XPj+gYUzfx07Pg9w==",
+  "success": true,
+  "projectFilePath": "D:\\Projects\\LedController_net5\\LedController.Controller.Infrastructure.Communication\\LedController.Controller.Infrastructure.Communication.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\kdteu\\.nuget\\packages\\unitsnet\\4.126.0\\unitsnet.4.126.0.nupkg.sha512"
+  ],
+  "logs": []
+}

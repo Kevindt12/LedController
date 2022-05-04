@@ -1,0 +1,100 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = LedController.WebPortal.Web
+build_property.RootNamespace = LedController.WebPortal.Web
+build_property.ProjectDir = D:\Projects\LedController_net5\LedController.Web\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\Projects\LedController_net5\LedController.Web
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/Projects/LedController_net5/LedController.Web/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projects/LedController_net5/LedController.Web/Components/Dialog.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xEaWFsb2cucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projects/LedController_net5/LedController.Web/Components/DynamicEffectField.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xEeW5hbWljRWZmZWN0RmllbGQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projects/LedController_net5/LedController.Web/Components/EffectEditor.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xFZmZlY3RFZGl0b3IucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projects/LedController_net5/LedController.Web/Dialogs/ControllerAnimationSynchronizationDialog.razor]
+build_metadata.AdditionalFiles.TargetPath = RGlhbG9nc1xDb250cm9sbGVyQW5pbWF0aW9uU3luY2hyb25pemF0aW9uRGlhbG9nLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projects/LedController_net5/LedController.Web/Dialogs/ControllerEffectSynchronizationDialog.razor]
+build_metadata.AdditionalFiles.TargetPath = RGlhbG9nc1xDb250cm9sbGVyRWZmZWN0U3luY2hyb25pemF0aW9uRGlhbG9nLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projects/LedController_net5/LedController.Web/Dialogs/CreateAnimationDialog.razor]
+build_metadata.AdditionalFiles.TargetPath = RGlhbG9nc1xDcmVhdGVBbmltYXRpb25EaWFsb2cucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projects/LedController_net5/LedController.Web/Dialogs/EditControllerDialog.razor]
+build_metadata.AdditionalFiles.TargetPath = RGlhbG9nc1xFZGl0Q29udHJvbGxlckRpYWxvZy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projects/LedController_net5/LedController.Web/Dialogs/EditLedstripDialog.razor]
+build_metadata.AdditionalFiles.TargetPath = RGlhbG9nc1xFZGl0TGVkc3RyaXBEaWFsb2cucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projects/LedController_net5/LedController.Web/Dialogs/EditSpiBusDialog.razor]
+build_metadata.AdditionalFiles.TargetPath = RGlhbG9nc1xFZGl0U3BpQnVzRGlhbG9nLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projects/LedController_net5/LedController.Web/Pages/Animations.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQW5pbWF0aW9ucy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projects/LedController_net5/LedController.Web/Pages/Controllers.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29udHJvbGxlcnMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projects/LedController_net5/LedController.Web/Pages/EffectFileEditor.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRWZmZWN0RmlsZUVkaXRvci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projects/LedController_net5/LedController.Web/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projects/LedController_net5/LedController.Web/Pages/LedStrips.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTGVkU3RyaXBzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projects/LedController_net5/LedController.Web/Pages/SpiBuses.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3BpQnVzZXMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projects/LedController_net5/LedController.Web/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projects/LedController_net5/LedController.Web/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-9yxbzlfr7k
+
+[D:/Projects/LedController_net5/LedController.Web/Shared/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-bf9ixri411
+
+[D:/Projects/LedController_net5/LedController.Web/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Projects/LedController_net5/LedController.Web/Pages/_Host.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0hvc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 

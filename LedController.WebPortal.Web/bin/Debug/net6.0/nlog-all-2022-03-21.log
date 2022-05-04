@@ -1,0 +1,220 @@
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/03/21 23:35:17.672 - [DEBUG]: Hosting starting 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/03/21 23:35:17.704 - [DEBUG]: Starting the discovery service. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/03/21 23:35:17.704 - [DEBUG]: Creating a new UDP client to be used for broadcasting the server information. This wil happen on UDP port 0. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/03/21 23:35:17.723 - [DEBUG]: The discovery service has started. 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[10 - .NET ThreadPool Worker] 
+      2022/03/21 23:35:17.759 - [ERROR]: BackgroundService failed 
+ System.ArgumentOutOfRangeException: Specified argument was out of the range of valid values. (Parameter 'period')
+   at System.Threading.PeriodicTimer..ctor(TimeSpan period)
+   at LedController.WebPortal.Core.Services.DiscoveryService.ExecuteAsync(CancellationToken stoppingToken) in D:\Projects\LedController_net5\LedController.Portal.Core\Services\DiscoveryService.cs:line 226
+   at Microsoft.Extensions.Hosting.Internal.Host.TryExecuteBackgroundServiceAsync(BackgroundService backgroundService)
+Microsoft.Extensions.Hosting.Internal.Host[10 - .NET ThreadPool Worker] 
+      2022/03/21 23:35:17.823 - [FATAL]: The HostOptions.BackgroundServiceExceptionBehavior is configured to StopHost. A BackgroundService has thrown an unhandled exception, and the IHost instance is stopping. To avoid this behavior, configure this to Ignore; however the BackgroundService will not be restarted. 
+ System.ArgumentOutOfRangeException: Specified argument was out of the range of valid values. (Parameter 'period')
+   at System.Threading.PeriodicTimer..ctor(TimeSpan period)
+   at LedController.WebPortal.Core.Services.DiscoveryService.ExecuteAsync(CancellationToken stoppingToken) in D:\Projects\LedController_net5\LedController.Portal.Core\Services\DiscoveryService.cs:line 226
+   at Microsoft.Extensions.Hosting.Internal.Host.TryExecuteBackgroundServiceAsync(BackgroundService backgroundService)
+Microsoft.Hosting.Lifetime[10 - .NET ThreadPool Worker] 
+      2022/03/21 23:35:17.823 - [INFO]: Application is shutting down... 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/03/21 23:41:33.175 - [DEBUG]: Hosting starting 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/03/21 23:41:33.212 - [DEBUG]: Starting the discovery service. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/03/21 23:41:33.212 - [DEBUG]: Creating a new UDP client to be used for broadcasting the server information. This wil happen on UDP port 8472. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/03/21 23:41:33.226 - [DEBUG]: The discovery service has started. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[6 - .NET ThreadPool Worker] 
+      2022/03/21 23:41:33.226 - [TRACE]: Start sending message to controllers to be discovered. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/21 23:41:33.297 - [INFO]: Now listening on: http://localhost:5097 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/21 23:41:33.297 - [INFO]: Application started. Press Ctrl+C to shut down. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/21 23:41:33.297 - [INFO]: Hosting environment: Development 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/21 23:41:33.297 - [INFO]: Content root path: D:\Projects\LedController_net5\LedController.WebPortal.Web\ 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/03/21 23:41:33.297 - [DEBUG]: Hosting started 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/03/21 23:45:20.457 - [DEBUG]: Hosting starting 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/03/21 23:45:20.492 - [DEBUG]: Starting the discovery service. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/03/21 23:45:20.492 - [DEBUG]: Creating a new UDP client to be used for broadcasting the server information. This wil happen on UDP port 8472. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/03/21 23:45:20.492 - [DEBUG]: The discovery service has started. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[9 - .NET ThreadPool Worker] 
+      2022/03/21 23:45:20.492 - [TRACE]: Start sending message to controllers to be discovered. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/21 23:45:20.578 - [INFO]: Now listening on: http://localhost:5097 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/21 23:45:20.578 - [INFO]: Application started. Press Ctrl+C to shut down. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/21 23:45:20.578 - [INFO]: Hosting environment: Development 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/21 23:45:20.578 - [INFO]: Content root path: D:\Projects\LedController_net5\LedController.WebPortal.Web\ 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/03/21 23:45:20.583 - [DEBUG]: Hosting started 
+ 
+Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware[9 - .NET ThreadPool Worker] 
+      2022/03/21 23:45:23.243 - [ERROR]: An unhandled exception has occurred while executing the request. 
+ Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'no such column: l.ControllerEntityId'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements(Stopwatch timer)+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements(Stopwatch timer)+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at LedController.Shared.Extensions.AsyncEnumerableExtensions.AsEnumerableAsync[T](IAsyncEnumerable`1 enumerable, CancellationToken token) in D:\Projects\LedController_net5\LedController.Shared\Extensions\AsyncEnumerableExtensions.cs:line 18
+   at LedController.Shared.Extensions.AsyncEnumerableExtensions.AsEnumerableAsync[T](IAsyncEnumerable`1 enumerable, CancellationToken token) in D:\Projects\LedController_net5\LedController.Shared\Extensions\AsyncEnumerableExtensions.cs:line 18
+   at LedController.WebPortal.Web.Pages.Index.OnInitializedAsync() in D:\Projects\LedController_net5\LedController.WebPortal.Web\Pages\Index.razor:line 78
+   at Microsoft.AspNetCore.Components.ComponentBase.RunInitAndSetParametersAsync()
+   at Microsoft.AspNetCore.Components.Rendering.HtmlRenderer.HandleException(Exception exception)
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.HandleExceptionViaErrorBoundary(Exception error, ComponentState errorSourceOrNull)
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.AddToPendingTasks(Task task, ComponentState owningComponentState)
+   at Microsoft.AspNetCore.Components.Rendering.ComponentState.SupplyCombinedParameters(ParameterView directAndCascadingParameters)
+   at Microsoft.AspNetCore.Components.Rendering.ComponentState.SetDirectParameters(ParameterView parameters)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.InitializeNewComponentFrame(DiffContext& diffContext, Int32 frameIndex)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.InitializeNewSubtree(DiffContext& diffContext, Int32 frameIndex)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.InsertNewFrame(DiffContext& diffContext, Int32 newFrameIndex)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.AppendDiffEntriesForRange(DiffContext& diffContext, Int32 oldStartIndex, Int32 oldEndIndexExcl, Int32 newStartIndex, Int32 newEndIndexExcl)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.ComputeDiff(Renderer renderer, RenderBatchBuilder batchBuilder, Int32 componentId, ArrayRange`1 oldTree, ArrayRange`1 newTree)
+   at Microsoft.AspNetCore.Components.Rendering.ComponentState.RenderIntoBatch(RenderBatchBuilder batchBuilder, RenderFragment renderFragment, Exception& renderFragmentException)
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.ProcessRenderQueue()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Components.Rendering.HtmlRenderer.HandleException(Exception exception)
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.ProcessRenderQueue()
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.ProcessPendingRender()
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.AddToRenderQueue(Int32 componentId, RenderFragment renderFragment)
+   at Microsoft.AspNetCore.Components.ComponentBase.StateHasChanged()
+   at Microsoft.AspNetCore.Components.ComponentBase.CallOnParametersSetAsync()
+   at Microsoft.AspNetCore.Components.ComponentBase.RunInitAndSetParametersAsync()
+   at Microsoft.AspNetCore.Components.Rendering.HtmlRenderer.HandleException(Exception exception)
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.HandleExceptionViaErrorBoundary(Exception error, ComponentState errorSourceOrNull)
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.AddToPendingTasks(Task task, ComponentState owningComponentState)
+   at Microsoft.AspNetCore.Components.Rendering.ComponentState.SupplyCombinedParameters(ParameterView directAndCascadingParameters)
+   at Microsoft.AspNetCore.Components.Rendering.ComponentState.SetDirectParameters(ParameterView parameters)
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.RenderRootComponentAsync(Int32 componentId, ParameterView initialParameters)
+   at Microsoft.AspNetCore.Components.Rendering.HtmlRenderer.CreateInitialRenderAsync(Type componentType, ParameterView initialParameters)
+   at Microsoft.AspNetCore.Components.Rendering.HtmlRenderer.RenderComponentAsync(Type componentType, ParameterView initialParameters)
+   at Microsoft.AspNetCore.Components.Rendering.RendererSynchronizationContext.<>c__11`1.<<InvokeAsync>b__11_0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.StaticComponentRenderer.PrerenderComponentAsync(ParameterView parameters, HttpContext httpContext, Type componentType)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ComponentRenderer.PrerenderedServerComponentAsync(HttpContext context, ServerComponentInvocationSequence invocationId, Type type, ParameterView parametersCollection)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ComponentRenderer.RenderComponentAsync(ViewContext viewContext, Type componentType, RenderMode renderMode, Object parameters)
+   at Microsoft.AspNetCore.Mvc.TagHelpers.ComponentTagHelper.ProcessAsync(TagHelperContext context, TagHelperOutput output)
+   at Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperRunner.<RunAsync>g__Awaited|0_0(Task task, TagHelperExecutionContext executionContext, Int32 i, Int32 count)
+   at LedController.WebPortal.Web.Pages.Pages__Host.ExecuteAsync() in D:\Projects\LedController_net5\LedController.WebPortal.Web\Pages\_Host.cshtml:line 8
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/03/21 23:46:40.633 - [DEBUG]: Hosting starting 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/03/21 23:46:40.686 - [DEBUG]: Starting the discovery service. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/03/21 23:46:40.686 - [DEBUG]: Creating a new UDP client to be used for broadcasting the server information. This wil happen on UDP port 8472. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/03/21 23:46:40.702 - [DEBUG]: The discovery service has started. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[6 - .NET ThreadPool Worker] 
+      2022/03/21 23:46:40.702 - [TRACE]: Start sending message to controllers to be discovered. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/21 23:46:40.780 - [INFO]: Now listening on: http://localhost:5097 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/21 23:46:40.780 - [INFO]: Application started. Press Ctrl+C to shut down. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/21 23:46:40.780 - [INFO]: Hosting environment: Development 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/21 23:46:40.780 - [INFO]: Content root path: D:\Projects\LedController_net5\LedController.WebPortal.Web\ 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/03/21 23:46:40.780 - [DEBUG]: Hosting started 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/03/21 23:50:16.214 - [DEBUG]: Hosting starting 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/03/21 23:50:16.248 - [DEBUG]: Starting the discovery service. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/03/21 23:50:16.248 - [DEBUG]: Creating a new UDP client to be used for broadcasting the server information. This wil happen on UDP port 8472. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/03/21 23:50:16.260 - [DEBUG]: The discovery service has started. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[13 - .NET ThreadPool Worker] 
+      2022/03/21 23:50:16.260 - [TRACE]: Start sending message to controllers to be discovered. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/21 23:50:16.331 - [INFO]: Now listening on: http://localhost:5097 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/21 23:50:16.334 - [INFO]: Application started. Press Ctrl+C to shut down. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/21 23:50:16.334 - [INFO]: Hosting environment: Development 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/21 23:50:16.334 - [INFO]: Content root path: D:\Projects\LedController_net5\LedController.WebPortal.Web\ 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/03/21 23:50:16.334 - [DEBUG]: Hosting started 
+ 

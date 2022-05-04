@@ -1,0 +1,125 @@
+﻿@page "/Spibuses"
+
+@using LedController.Domain.Models
+@using LedController.Shared.Extensions
+
+@using LedController.WebPortal.Domain.Managers
+@using LedController.WebPortal.Domain.Models
+@using LedController.WebPortal.Web.Dialogs
+@using MudBlazor
+
+
+@inject ILogger<SpiBusesPage> _logger
+@inject IDialogService _dialogService
+@inject ISnackbar _snackbar
+
+@inject ISpiBusManager _spiBusManager
+@inject IControllerManager _controllerManager
+@inject NavigationManager _navigationManager
+
+
+
+
+
+
+@if (SpiBuses.Any())
+{
+    <MudButtonGroup Class="float-end">
+        <MudButton Variant="Variant.Filled" Color="Color.Primary" ButtonType="ButtonType.Button" @onclick="() => ShowSpiBusFormDialog()">Add</MudButton>
+    </MudButtonGroup>
+
+    <MudGrid>
+        @foreach (SpiBus spiBus in SpiBuses)
+    {
+        <MudItem xs="3">
+            <MudCard>
+                <MudCardHeader>
+                    <CardHeaderActions>
+                        <MudIconButton Class="pa-4" Icon="@Icons.Material.Filled.Settings" Color="Color.Default" @onclick="() => ShowSpiBusFormDialog(spiBus)" />
+                    </CardHeaderActions>
+                </MudCardHeader>
+                <MudCardContent>
+                    <MudText Class="pa-4" Typo="Typo.h5">Name : @spiBus.Name</MudText>
+                    <MudText Class="pa-4" Typo="Typo.body2">Controller : @Controllers.Single(x => x.SpiBuses.Contains(spiBus)).Name</MudText>
+                    <MudText Class="pa-4" Typo="Typo.body2">Bus Id : @spiBus.BusId</MudText>
+                    <MudText Class="pa-4" Typo="Typo.body2">CS : @spiBus.ChipSelectId</MudText>
+                </MudCardContent>
+            </MudCard>
+        </MudItem>
+    }
+    </MudGrid>
+}
+else
+{
+    <EmptyPage PageName="Spi Buses" AddItemAction="async () => await ShowSpiBusFormDialog()"></EmptyPage>
+}
+
+
+
+
+@code {
+
+    /// <summary>
+    ///  The spi buses in the application.
+    /// </summary>
+    public IEnumerable<SpiBus> SpiBuses { get; set; } = new List<SpiBus>();
+
+
+    /// <summary>
+    /// The controllers in the application.
+    /// </summary>
+    public IEnumerable<Controller> Controllers { get; set; } = new List<Controller>();
+
+
+    /// <summary>
+    /// Method invoked when the component is ready to start, having received its
+    /// initial parametersBase from its parent in the render tree.
+    /// Override this method if you will perform an asynchronous operation and
+    /// want the component to refresh when that operation is completed.
+    /// </summary>
+    /// <returns>A <see cref="T:System.Threading.Tasks.Task" /> representing any asynchronous operation.</returns>
+    protected override async Task OnInitializedAsync()
+    {
+        _logger.LogInformation($"Opening the spi buses page, and loading the spi buses from the application.");
+        SpiBuses = await _spiBusManager.GetAsync().AsEnumerableAsync();
+        Controllers = await _controllerManager.GetAsync().AsEnumerableAsync();
+
+        await base.OnInitializedAsync();
+    }
+
+
+    /// <summary>
+    /// Opens a dialog to edit the spi bus that is selected or create a new one.
+    /// </summary>
+    /// <param name="spiBus"></param>
+    /// <returns></returns>
+    protected virtual async Task ShowSpiBusFormDialog(SpiBus? spiBus = null)
+    {
+        _logger.LogInformation($"Opening the edit spi bus dialog. {spiBus?.Name ?? "None Selected"}.");
+
+        DialogParameters parameters = new DialogParameters
+        {
+            { "SpiBus", spiBus }
+        };
+
+        DialogOptions options = new DialogOptions()
+            {
+                CloseButton = true,
+                MaxWidth = MaxWidth.Medium,
+                FullWidth = true
+            };
+
+        // Opening the dialog and waiting for it to close.
+        DialogResult result = await _dialogService.Show<SpiBusFormDialog>(spiBus is null ? $"New" : $"Edit", parameters, options).Result;
+
+        if (!result.Cancelled)
+        {
+            _logger.LogInformation($"Closing spi bus form. Reloading spi buses page.");
+            _navigationManager.NavigateTo("SpiBuses", true);
+
+        }
+    }
+
+
+
+}

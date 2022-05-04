@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <_PublishTargetUrl>D:\Projects\LedController_net5\LedController.Controller.Service\bin\Release\net6.0\publish\</_PublishTargetUrl>
+    <History>True|2022-05-04T18:35:55.3147295Z;True|2022-04-24T21:52:13.5372092+02:00;True|2022-04-24T21:46:12.1933111+02:00;True|2022-04-24T21:42:23.3153612+02:00;True|2022-04-24T21:32:06.5330927+02:00;True|2022-04-24T21:29:08.4879861+02:00;False|2022-04-24T21:23:13.9467891+02:00;True|2022-04-23T17:15:42.3742594+02:00;True|2022-04-16T23:15:48.8896123+02:00;</History>
+  </PropertyGroup>
+</Project>

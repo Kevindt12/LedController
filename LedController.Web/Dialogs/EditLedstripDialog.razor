@@ -1,0 +1,104 @@
+﻿@using LedController.Domain.Models
+@using Microsoft.AspNetCore.Components
+@using MudBlazor
+@using LedController.Domain.Enums
+@using System.Net
+
+@* TODO list
+	
+ * TODO: Add Spi bus selection for the controller that we editing it on.
+
+*@
+
+@*Edit ledstrip dialog*@
+<MudDialog>
+    <DialogContent>
+        <MudText Typo="Typo.h4">Details</MudText>
+		
+        @*Form*@
+        <EditForm Model="@Model" T="EditControllerForm" OnValidSubmit="SubmitAsync">
+            <DataAnnotationsValidator />
+            <MudHidden @bind-value="Model.Id"></MudHidden>
+            <MudTextField T="string" Label="Name" Required="true" RequiredError="A name is needed" @bind-value="Model.Name" />
+            <MudNumericField T="int" Label="Pixel Count" Required="true" @bind-value="Model.PixelCount" />
+            <MudSelect T="LedstripProtocol" Label="Chip Type" AnchorOrigin="Origin.BottomCenter" @bind-value="Model.PixelType">
+                <MudSelectItem Value="@LedstripProtocol.Custom">Custom</MudSelectItem>
+                <MudSelectItem Value="@LedstripProtocol.NeoPixel">NeoPixel</MudSelectItem>
+            </MudSelect>
+        </EditForm>
+
+        <MudDivider />
+    </DialogContent>
+	
+	@*Button actions*@
+    <DialogActions>
+        <MudButton Color="Color.Primary" OnClick="SubmitAsync">Save</MudButton>
+    </DialogActions>
+
+</MudDialog>
+
+
+
+@code {
+
+
+	/// <summary>
+	/// Dialog instance.
+	/// </summary>
+	[CascadingParameter]
+	MudDialogInstance MudDialog { get; set; }
+
+	/// <summary>
+	/// The current led strip that we are editing.
+	/// </summary>
+	public Ledstrip Ledstrip { get; set; }
+
+
+	/// <summary>
+	/// Form model.
+	/// </summary>
+	protected EditLedstripForm Model { get; set; }
+
+
+	/// <summary>
+	/// The form model that we are using and then converting into the normal model.
+	/// </summary>
+	protected record EditLedstripForm
+	{
+		/// <summary>
+		/// The id of the ledstrip
+		/// </summary>
+		public string Id { get; set; }
+
+		public string Name { get; set; }
+
+		public int PixelCount { get; set; }
+
+		public LedstripProtocol? PixelType { get; set; }
+
+	}
+
+
+
+	protected record SpiBusSettings
+	{
+
+
+
+	}
+
+
+
+	private void SubmitAsync()
+	{
+		throw new NotImplementedException();
+	}
+
+
+	private void DeleteAsync()
+	{
+		throw new NotImplementedException();
+	}
+
+
+}

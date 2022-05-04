@@ -1,0 +1,782 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Projects\\LedController_net5\\LedController.WebPortal.Web\\LedController.WebPortal.Web.csproj": {}
+  },
+  "projects": {
+    "D:\\Projects\\LedController_net5\\LedController.Domain\\LedController.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projects\\LedController_net5\\LedController.Domain\\LedController.Domain.csproj",
+        "projectName": "LedController.Domain",
+        "projectPath": "D:\\Projects\\LedController_net5\\LedController.Domain\\LedController.Domain.csproj",
+        "packagesPath": "C:\\Users\\kdteu\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\LedController_net5\\LedController.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "E:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\kdteu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Projects\\LedController_net5\\LedController.Shared\\LedController.Shared.csproj": {
+                "projectPath": "D:\\Projects\\LedController_net5\\LedController.Shared\\LedController.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Toolkit": {
+              "target": "Package",
+              "version": "[7.1.2, )"
+            },
+            "Microsoft.Toolkit.Diagnostics": {
+              "target": "Package",
+              "version": "[7.1.2, )"
+            },
+            "UnitsNet": {
+              "target": "Package",
+              "version": "[4.126.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Projects\\LedController_net5\\LedController.Portal.Core\\LedController.WebPortal.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projects\\LedController_net5\\LedController.Portal.Core\\LedController.WebPortal.Core.csproj",
+        "projectName": "LedController.WebPortal.Core",
+        "projectPath": "D:\\Projects\\LedController_net5\\LedController.Portal.Core\\LedController.WebPortal.Core.csproj",
+        "packagesPath": "C:\\Users\\kdteu\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\LedController_net5\\LedController.Portal.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "E:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\kdteu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Projects\\LedController_net5\\LedController.Portal.Domain\\LedController.WebPortal.Domain.csproj": {
+                "projectPath": "D:\\Projects\\LedController_net5\\LedController.Portal.Domain\\LedController.WebPortal.Domain.csproj"
+              },
+              "D:\\Projects\\LedController_net5\\LedController.Portal.Infrastucture\\LedController.WebPortal.Infrastructure.csproj": {
+                "projectPath": "D:\\Projects\\LedController_net5\\LedController.Portal.Infrastucture\\LedController.WebPortal.Infrastructure.csproj"
+              },
+              "D:\\Projects\\LedController_net5\\LedController.Portal.Persistance\\LedController.WebPortal.Persistence.csproj": {
+                "projectPath": "D:\\Projects\\LedController_net5\\LedController.Portal.Persistance\\LedController.WebPortal.Persistence.csproj"
+              },
+              "D:\\Projects\\LedController_net5\\LedController.Shared\\LedController.Shared.csproj": {
+                "projectPath": "D:\\Projects\\LedController_net5\\LedController.Shared\\LedController.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Grpc.Core.Api": {
+              "target": "Package",
+              "version": "[2.45.0, )"
+            },
+            "LamarCompiler": {
+              "target": "Package",
+              "version": "[6.1.1, )"
+            },
+            "Lokad.ILPack": {
+              "target": "Package",
+              "version": "[0.1.7, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "System.CodeDom": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "UnitsNet": {
+              "target": "Package",
+              "version": "[4.126.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Projects\\LedController_net5\\LedController.Portal.Domain\\LedController.WebPortal.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projects\\LedController_net5\\LedController.Portal.Domain\\LedController.WebPortal.Domain.csproj",
+        "projectName": "LedController.WebPortal.Domain",
+        "projectPath": "D:\\Projects\\LedController_net5\\LedController.Portal.Domain\\LedController.WebPortal.Domain.csproj",
+        "packagesPath": "C:\\Users\\kdteu\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\LedController_net5\\LedController.Portal.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "E:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\kdteu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Projects\\LedController_net5\\LedController.Domain\\LedController.Domain.csproj": {
+                "projectPath": "D:\\Projects\\LedController_net5\\LedController.Domain\\LedController.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Extensions.Hosting.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "UnitsNet": {
+              "target": "Package",
+              "version": "[4.126.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Projects\\LedController_net5\\LedController.Portal.Infrastructure.Connections\\LedController.WebPortal.Infrastructure.Connections.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projects\\LedController_net5\\LedController.Portal.Infrastructure.Connections\\LedController.WebPortal.Infrastructure.Connections.csproj",
+        "projectName": "LedController.WebPortal.Infrastructure.Connections",
+        "projectPath": "D:\\Projects\\LedController_net5\\LedController.Portal.Infrastructure.Connections\\LedController.WebPortal.Infrastructure.Connections.csproj",
+        "packagesPath": "C:\\Users\\kdteu\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\LedController_net5\\LedController.Portal.Infrastructure.Connections\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "E:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\kdteu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Projects\\LedController_net5\\LedController.Portal.Infrastucture\\LedController.WebPortal.Infrastructure.csproj": {
+                "projectPath": "D:\\Projects\\LedController_net5\\LedController.Portal.Infrastucture\\LedController.WebPortal.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Google.Protobuf": {
+              "target": "Package",
+              "version": "[3.19.4, )"
+            },
+            "Grpc": {
+              "target": "Package",
+              "version": "[2.43.0, )"
+            },
+            "Grpc.AspNetCore": {
+              "target": "Package",
+              "version": "[2.42.0, )"
+            },
+            "Grpc.Core.Api": {
+              "target": "Package",
+              "version": "[2.43.0, )"
+            },
+            "Grpc.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.43.0, )"
+            },
+            "UnitsNet": {
+              "target": "Package",
+              "version": "[4.126.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Projects\\LedController_net5\\LedController.Portal.Infrastucture\\LedController.WebPortal.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projects\\LedController_net5\\LedController.Portal.Infrastucture\\LedController.WebPortal.Infrastructure.csproj",
+        "projectName": "LedController.WebPortal.Infrastructure",
+        "projectPath": "D:\\Projects\\LedController_net5\\LedController.Portal.Infrastucture\\LedController.WebPortal.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\kdteu\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\LedController_net5\\LedController.Portal.Infrastucture\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "E:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\kdteu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Projects\\LedController_net5\\LedController.Portal.Domain\\LedController.WebPortal.Domain.csproj": {
+                "projectPath": "D:\\Projects\\LedController_net5\\LedController.Portal.Domain\\LedController.WebPortal.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "UnitsNet": {
+              "target": "Package",
+              "version": "[4.126.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Projects\\LedController_net5\\LedController.Portal.Persistance.Sqlite\\LedController.WebPortal.Persistence.Sqlite.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projects\\LedController_net5\\LedController.Portal.Persistance.Sqlite\\LedController.WebPortal.Persistence.Sqlite.csproj",
+        "projectName": "LedController.WebPortal.Persistence.Sqlite",
+        "projectPath": "D:\\Projects\\LedController_net5\\LedController.Portal.Persistance.Sqlite\\LedController.WebPortal.Persistence.Sqlite.csproj",
+        "packagesPath": "C:\\Users\\kdteu\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\LedController_net5\\LedController.Portal.Persistance.Sqlite\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "E:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\kdteu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Projects\\LedController_net5\\LedController.Domain\\LedController.Domain.csproj": {
+                "projectPath": "D:\\Projects\\LedController_net5\\LedController.Domain\\LedController.Domain.csproj"
+              },
+              "D:\\Projects\\LedController_net5\\LedController.Portal.Persistance\\LedController.WebPortal.Persistence.csproj": {
+                "projectPath": "D:\\Projects\\LedController_net5\\LedController.Portal.Persistance\\LedController.WebPortal.Persistence.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[11.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "UnitsNet": {
+              "target": "Package",
+              "version": "[4.126.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Projects\\LedController_net5\\LedController.Portal.Persistance\\LedController.WebPortal.Persistence.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projects\\LedController_net5\\LedController.Portal.Persistance\\LedController.WebPortal.Persistence.csproj",
+        "projectName": "LedController.WebPortal.Persistence",
+        "projectPath": "D:\\Projects\\LedController_net5\\LedController.Portal.Persistance\\LedController.WebPortal.Persistence.csproj",
+        "packagesPath": "C:\\Users\\kdteu\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\LedController_net5\\LedController.Portal.Persistance\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "E:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\kdteu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Projects\\LedController_net5\\LedController.Portal.Domain\\LedController.WebPortal.Domain.csproj": {
+                "projectPath": "D:\\Projects\\LedController_net5\\LedController.Portal.Domain\\LedController.WebPortal.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "UnitsNet": {
+              "target": "Package",
+              "version": "[4.126.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Projects\\LedController_net5\\LedController.Shared\\LedController.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projects\\LedController_net5\\LedController.Shared\\LedController.Shared.csproj",
+        "projectName": "LedController.Shared",
+        "projectPath": "D:\\Projects\\LedController_net5\\LedController.Shared\\LedController.Shared.csproj",
+        "packagesPath": "C:\\Users\\kdteu\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\LedController_net5\\LedController.Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "E:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\kdteu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[11.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.Options.ConfigurationExtensions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "UnitsNet": {
+              "target": "Package",
+              "version": "[4.126.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Projects\\LedController_net5\\LedController.WebPortal.Web\\LedController.WebPortal.Web.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projects\\LedController_net5\\LedController.WebPortal.Web\\LedController.WebPortal.Web.csproj",
+        "projectName": "LedController.WebPortal.Web",
+        "projectPath": "D:\\Projects\\LedController_net5\\LedController.WebPortal.Web\\LedController.WebPortal.Web.csproj",
+        "packagesPath": "C:\\Users\\kdteu\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\LedController_net5\\LedController.WebPortal.Web\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "E:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\kdteu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Projects\\LedController_net5\\LedController.Portal.Core\\LedController.WebPortal.Core.csproj": {
+                "projectPath": "D:\\Projects\\LedController_net5\\LedController.Portal.Core\\LedController.WebPortal.Core.csproj"
+              },
+              "D:\\Projects\\LedController_net5\\LedController.Portal.Domain\\LedController.WebPortal.Domain.csproj": {
+                "projectPath": "D:\\Projects\\LedController_net5\\LedController.Portal.Domain\\LedController.WebPortal.Domain.csproj"
+              },
+              "D:\\Projects\\LedController_net5\\LedController.Portal.Infrastructure.Connections\\LedController.WebPortal.Infrastructure.Connections.csproj": {
+                "projectPath": "D:\\Projects\\LedController_net5\\LedController.Portal.Infrastructure.Connections\\LedController.WebPortal.Infrastructure.Connections.csproj"
+              },
+              "D:\\Projects\\LedController_net5\\LedController.Portal.Persistance.Sqlite\\LedController.WebPortal.Persistence.Sqlite.csproj": {
+                "projectPath": "D:\\Projects\\LedController_net5\\LedController.Portal.Persistance.Sqlite\\LedController.WebPortal.Persistence.Sqlite.csproj"
+              },
+              "D:\\Projects\\LedController_net5\\LedController.Shared\\LedController.Shared.csproj": {
+                "projectPath": "D:\\Projects\\LedController_net5\\LedController.Shared\\LedController.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.0.0, )"
+            },
+            "BlazorMonaco": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "Blazored.FluentValidation": {
+              "target": "Package",
+              "version": "[2.0.3, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[10.4.0, )"
+            },
+            "FluentValidation.DependencyInjectionExtensions": {
+              "target": "Package",
+              "version": "[10.4.0, )"
+            },
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "MudBlazor": {
+              "target": "Package",
+              "version": "[6.0.7, )"
+            },
+            "NLog": {
+              "target": "Package",
+              "version": "[4.7.13, )"
+            },
+            "NLog.Extensions.Logging": {
+              "target": "Package",
+              "version": "[1.7.4, )"
+            },
+            "UnitsNet": {
+              "target": "Package",
+              "version": "[4.126.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

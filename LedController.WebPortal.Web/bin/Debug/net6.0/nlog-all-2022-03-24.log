@@ -1,0 +1,112 @@
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/03/24 22:33:58.399 - [DEBUG]: Hosting starting 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/03/24 22:33:58.445 - [DEBUG]: Starting the discovery service. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/03/24 22:33:58.445 - [DEBUG]: Creating a new UDP client to be used for broadcasting the server information. This wil happen on UDP port 8472. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/03/24 22:33:58.461 - [DEBUG]: The discovery service has started. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[9 - .NET ThreadPool Worker] 
+      2022/03/24 22:33:58.461 - [TRACE]: Start sending message to controllers to be discovered. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/24 22:33:58.585 - [INFO]: Now listening on: http://localhost:5097 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/24 22:33:58.585 - [INFO]: Application started. Press Ctrl+C to shut down. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/24 22:33:58.585 - [INFO]: Hosting environment: Development 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/24 22:33:58.585 - [INFO]: Content root path: D:\Projects\LedController_net5\LedController.WebPortal.Web\ 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/03/24 22:33:58.585 - [DEBUG]: Hosting started 
+ 
+LedController.WebPortal.Web.Pages.Index[6 - .NET ThreadPool Worker] 
+      2022/03/24 22:34:01.642 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Pages.Index[15 - .NET ThreadPool Worker] 
+      2022/03/24 22:34:03.752 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Pages.ControllersPage[6 - .NET ThreadPool Worker] 
+      2022/03/24 22:34:12.368 - [INFO]: Opening controllers page. 
+ 
+LedController.WebPortal.Web.Pages.LedstripsPage[6 - .NET ThreadPool Worker] 
+      2022/03/24 22:34:14.078 - [INFO]: Loading ledstrips page. 
+ 
+LedController.WebPortal.Web.Pages.LedstripsPage[14 - .NET ThreadPool Worker] 
+      2022/03/24 22:34:15.142 - [INFO]: Opening the edit ledstrip dialog. None Selected 
+ 
+LedController.WebPortal.Web.Dialogs.EditLedstripDialog[14 - .NET ThreadPool Worker] 
+      2022/03/24 22:34:15.160 - [INFO]: Opening edit ledstrip dialog. Editing a existing ledstrip. 
+ 
+LedController.WebPortal.Core.Managers.ControllerManager[9 - .NET ThreadPool Worker] 
+      2022/03/24 22:34:24.720 - [DEBUG]: Getting controller by spi bus Test 
+ 
+LedController.WebPortal.Web.Dialogs.EditLedstripDialog[9 - .NET ThreadPool Worker] 
+      2022/03/24 22:34:24.803 - [INFO]: Saved ledstrip. 
+ 
+LedController.WebPortal.Web.Pages.LedstripsPage[9 - .NET ThreadPool Worker] 
+      2022/03/24 22:34:24.803 - [DEBUG]: Dialog saved item. Reloading ledstrips page. 
+ 
+LedController.WebPortal.Web.Pages.LedstripsPage[9 - .NET ThreadPool Worker] 
+      2022/03/24 22:34:34.966 - [INFO]: Loading ledstrips page. 
+ 
+LedController.WebPortal.Web.Pages.LedstripsPage[6 - .NET ThreadPool Worker] 
+      2022/03/24 22:34:35.806 - [INFO]: Loading ledstrips page. 
+ 
+LedController.WebPortal.Web.Pages.ControllersPage[6 - .NET ThreadPool Worker] 
+      2022/03/24 22:34:39.120 - [INFO]: Opening controllers page. 
+ 
+LedController.WebPortal.Web.Pages.LedstripsPage[9 - .NET ThreadPool Worker] 
+      2022/03/24 22:34:39.724 - [INFO]: Loading ledstrips page. 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[9 - .NET ThreadPool Worker] 
+      2022/03/24 22:35:45.566 - [DEBUG]: Starting effect editor for . 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[34 - .NET ThreadPool Worker] 
+      2022/03/24 22:35:45.618 - [DEBUG]: Starting monaco editor for effect . 
+ 
+Microsoft.AspNetCore.Components.Server.Circuits.RemoteRenderer[34 - .NET ThreadPool Worker] 
+      2022/03/24 22:36:36.054 - [WARN]: Unhandled exception rendering component: Object reference not set to an instance of an object. 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at LedController.WebPortal.Web.Components.EffectEditor.EditorConstructionOptions(MonacoEditor editor) in D:\Projects\LedController_net5\LedController.WebPortal.Web\Components\EffectEditor.razor.cs:line 45
+   at BlazorMonaco.MonacoEditor.OnAfterRenderAsync(Boolean firstRender)
+Microsoft.AspNetCore.Components.Server.Circuits.CircuitHost[34 - .NET ThreadPool Worker] 
+      2022/03/24 22:36:36.139 - [ERROR]: Unhandled exception in circuit 'BQ_54k-rhiDgLbV5c_S-DBtK04ED1fjYKwb3Pfzv-hM'. 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at LedController.WebPortal.Web.Components.EffectEditor.EditorConstructionOptions(MonacoEditor editor) in D:\Projects\LedController_net5\LedController.WebPortal.Web\Components\EffectEditor.razor.cs:line 45
+   at BlazorMonaco.MonacoEditor.OnAfterRenderAsync(Boolean firstRender)
+Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher[45 - .NET ThreadPool Worker] 
+      2022/03/24 22:36:36.169 - [ERROR]: Failed to invoke hub method 'ConnectCircuit'. 
+ System.ObjectDisposedException: Cannot access a disposed object.
+   at Microsoft.AspNetCore.Components.Server.Circuits.CircuitHost.SetCircuitUser(ClaimsPrincipal user)
+   at Microsoft.AspNetCore.Components.Server.ComponentHub.ConnectCircuit(String circuitIdSecret)
+   at lambda_method11(Closure , Object )
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.ExecuteMethod(ObjectMethodExecutor methodExecutor, Hub hub, Object[] arguments)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.<Invoke>g__ExecuteInvocation|16_0(DefaultHubDispatcher`1 dispatcher, ObjectMethodExecutor methodExecutor, THub hub, Object[] arguments, AsyncServiceScope scope, IHubActivator`1 hubActivator, HubConnectionContext connection, HubMethodInvocationMessage hubMethodInvocationMessage, Boolean isStreamCall)
+LedController.WebPortal.Web.Components.EffectEditor[48 - .NET ThreadPool Worker] 
+      2022/03/24 22:36:39.950 - [DEBUG]: Starting effect editor for . 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[37 - .NET ThreadPool Worker] 
+      2022/03/24 22:36:40.995 - [DEBUG]: Starting effect editor for . 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[36 - .NET ThreadPool Worker] 
+      2022/03/24 22:36:41.022 - [DEBUG]: Starting monaco editor for effect . 
+ 
+Microsoft.AspNetCore.Components.Server.Circuits.RemoteRenderer[36 - .NET ThreadPool Worker] 
+      2022/03/24 22:36:45.845 - [WARN]: Unhandled exception rendering component: Object reference not set to an instance of an object. 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at LedController.WebPortal.Web.Components.EffectEditor.EditorConstructionOptions(MonacoEditor editor) in D:\Projects\LedController_net5\LedController.WebPortal.Web\Components\EffectEditor.razor.cs:line 45
+   at BlazorMonaco.MonacoEditor.OnAfterRenderAsync(Boolean firstRender)
+Microsoft.AspNetCore.Components.Server.Circuits.CircuitHost[36 - .NET ThreadPool Worker] 
+      2022/03/24 22:36:45.845 - [ERROR]: Unhandled exception in circuit 'ZqWYmpVevu5V0cVYoC4zqqVK67hbbCqMIoJrIbiw7BU'. 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at LedController.WebPortal.Web.Components.EffectEditor.EditorConstructionOptions(MonacoEditor editor) in D:\Projects\LedController_net5\LedController.WebPortal.Web\Components\EffectEditor.razor.cs:line 45
+   at BlazorMonaco.MonacoEditor.OnAfterRenderAsync(Boolean firstRender)

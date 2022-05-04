@@ -1,0 +1,92 @@
+﻿@using System
+@using System.Linq
+@using LedController.Domain.Models
+@using LedController.Shared.Extensions
+@using LedController.WebPortal.Domain.Managers
+@using LedController.WebPortal.Persistence.Exceptions
+@using LedController.WebPortal.Web.Extensions
+@using MudBlazor
+
+@inject ILogger<AnimationEffectTab> _logger
+@inject ISnackbar _snackbar
+@inject IAnimationManager _animationManager
+@inject IEffectManager _effectManager
+
+
+@* The grid with all the parameters and there values. *@
+<MudGrid>
+    <MudItem Class="pa-4" xs="12" >
+
+        @* The effect parameters. *@
+        <MudTable Items="@AnimationEffectParameterValues" Hover="true" T="AnimationEffectParameterValue" Breakpoint="Breakpoint.Sm" LoadingProgressColor="Color.Info" >
+            <HeaderContent>
+                <MudTh>Name</MudTh>
+                <MudTh>Description</MudTh>
+                <MudTh>Type</MudTh>
+                <MudTh>Value</MudTh>
+            </HeaderContent>
+            <RowTemplate>
+                <MudTd DataLabel="Name" >@context.Name</MudTd>
+                <MudTd DataLabel="Description" >@context..Description</MudTd>
+                <MudTd DataLabel="Type" >@context.EffectParameter.ParameterType.Name</MudTd>
+                <MudTd DataLabel="Value" >
+                    <EffectParameterValueField ParameterType="@context.EffectParameter.ParameterType" @bind-Value="context.Value" />
+                </MudTd>
+            </RowTemplate>
+        </MudTable>
+
+    </MudItem>
+    
+    <MudItem xs="11"/>
+    <MudItem xs="1" >
+        
+        <MudButton Class="pa-4" Variant="Variant.Filled" Color="Color.Primary" OnClick="SaveAnimationEffectParameterValues" >Save</MudButton>
+
+    </MudItem>
+
+</MudGrid>
+
+
+
+
+
+
+
+@code {
+
+
+	/// <summary>
+	/// The animation effect parameter values.
+	/// </summary>
+	[Parameter]
+	public IEnumerable<AnimationEffectParameterValue> AnimationEffectParameterValues { get; set; } = default!;
+
+	public IEnumerable<EffectParameter> EffectParameters { get; set; }
+
+
+	/// <inheritdoc />
+	protected override async Task OnAfterRenderAsync(bool firstRender)
+	{
+		if (firstRender)
+		{
+            EffectParameters = (await _effectManager.
+		}
+
+
+
+		await  base.OnAfterRenderAsync(firstRender);
+	}
+
+
+	protected virtual async Task SaveAnimationEffectParameterValues()
+	{
+
+		_logger.LogInformation($"Saving animation effect parameter values.");
+
+		await _animationManager.UpdateAnimationEffectParameterValuesAsync(AnimationEffectParameterValues);
+		_snackbar.AddSuccess($"Saved parameter values!");
+		_logger.LogInformation($"Animation effect parameter values have been saved.");
+
+	}
+
+}

@@ -1,0 +1,71 @@
+﻿@using MudBlazor
+@using LedController.WebPortal.Web.Extensions
+@using MudBlazor.Utilities
+
+@using Color = System.Drawing.Color
+
+
+
+@if (ParameterType == typeof(int))  
+{
+    <MudNumericField Class="@Class" T="int" Label="Value" Value="@(Value is null ? default : (int)Value)" ValueChanged="value => Value = value"/>
+}
+else if (ParameterType == typeof(float))
+{
+    <MudNumericField Class="@Class" T="float" Value="@(Value is null ? default : (float)Value)" ValueChanged="value => Value = value" Label="Value"/>
+
+}
+else if (ParameterType == typeof(Color))
+{
+    <MudColorPicker Class="@Class" Value="@(Value is null ? Color.Black.ToMudColor() : ((Color)Value).ToMudColor())" ValueChanged="color => Value = color.ToColor()" Label="Value"/>
+}
+else if (ParameterType == typeof(Color[]) || ParameterType == typeof(ICollection<Color>) || ParameterType == typeof(IList<Color>))
+{
+    <MultiColorPicker Class="@Class" Colors="@(Value == null ? (IList<Color>)Value! :  null)"  OnSave="@(colors => Value = colors)" ></MultiColorPicker>
+}
+
+
+
+
+@code {
+
+    /// <summary>
+    /// User class names, separated by space.
+    /// </summary>
+    [Parameter]
+    public string? Class { get; set; }
+
+
+    /// <summary>
+    /// The type of the value that we want to edit.
+    /// </summary>
+    [Parameter]
+    public Type ParameterType { get; set; } = default!;
+
+    /// <summary>
+    /// On changed binding for the value.
+    /// </summary>
+    [Parameter]
+    public EventCallback<object?> ValueChanged { get; set; }
+
+    /// <summary>
+    /// The value of this field.
+    /// </summary>
+    private object? _value;
+
+    /// <summary>
+    /// The value that we have boxed.
+    /// </summary>
+    [Parameter]
+    public object? Value
+    {
+        get => _value;
+        set
+        {
+            if (value == _value) return;
+            _value = value;
+            ValueChanged.InvokeAsync(_value);
+        }
+    }
+
+}

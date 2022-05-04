@@ -1,0 +1,511 @@
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/04/05 13:56:47.193 - [DEBUG]: Hosting starting 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/05 13:56:47.266 - [DEBUG]: Starting the discovery service. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/05 13:56:47.266 - [DEBUG]: Creating a new UDP client to be used for broadcasting the server information. This wil happen on UDP port 8472. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/05 13:56:47.288 - [DEBUG]: The discovery service has started. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[6 - .NET ThreadPool Worker] 
+      2022/04/05 13:56:47.288 - [TRACE]: Start sending message to controllers to be discovered. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/05 13:56:47.764 - [INFO]: Now listening on: http://localhost:5097 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/05 13:56:47.764 - [INFO]: Application started. Press Ctrl+C to shut down. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/05 13:56:47.764 - [INFO]: Hosting environment: Development 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/05 13:56:47.764 - [INFO]: Content root path: D:\Projects\LedController_net5\LedController.WebPortal.Web\ 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/04/05 13:56:47.771 - [DEBUG]: Hosting started 
+ 
+LedController.WebPortal.Web.Pages.Index[6 - .NET ThreadPool Worker] 
+      2022/04/05 13:56:51.924 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Pages.Index[4 - .NET ThreadPool Worker] 
+      2022/04/05 13:56:54.725 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Pages.ControllersPage[4 - .NET ThreadPool Worker] 
+      2022/04/05 13:56:56.108 - [INFO]: Opening controllers page. 
+ 
+LedController.WebPortal.Web.Pages.ControllersPage[6 - .NET ThreadPool Worker] 
+      2022/04/05 13:58:44.955 - [INFO]: Opening controllers page. 
+ 
+LedController.WebPortal.Web.Pages.ControllersPage[4 - .NET ThreadPool Worker] 
+      2022/04/05 13:58:46.715 - [INFO]: Opening controllers page. 
+ 
+LedController.WebPortal.Web.Pages.ControllersPage[4 - .NET ThreadPool Worker] 
+      2022/04/05 13:58:49.347 - [INFO]: Opening the controller form for controller : Controller 1940900190 
+ 
+LedController.WebPortal.Web.Dialogs.EditControllerDialog[4 - .NET ThreadPool Worker] 
+      2022/04/05 13:58:49.366 - [DEBUG]: Checking if we have a controller by the edit controller dialog. 
+ 
+LedController.WebPortal.Web.Dialogs.EditControllerDialog[4 - .NET ThreadPool Worker] 
+      2022/04/05 13:58:49.366 - [DEBUG]: Checking if we have a controller by the edit controller dialog. 
+ 
+LedController.WebPortal.Web.Pages.ControllersPage[6 - .NET ThreadPool Worker] 
+      2022/04/05 13:58:57.217 - [INFO]: Opening the controller form for controller : Controller 1940900190 
+ 
+LedController.WebPortal.Web.Dialogs.EditControllerDialog[6 - .NET ThreadPool Worker] 
+      2022/04/05 13:58:57.217 - [DEBUG]: Checking if we have a controller by the edit controller dialog. 
+ 
+LedController.WebPortal.Web.Dialogs.EditControllerDialog[6 - .NET ThreadPool Worker] 
+      2022/04/05 13:58:57.217 - [DEBUG]: Checking if we have a controller by the edit controller dialog. 
+ 
+LedController.WebPortal.Web.Pages.ControllersPage[9 - .NET ThreadPool Worker] 
+      2022/04/05 13:59:15.234 - [INFO]: Opening the controller form for controller : Controller 1940900190 
+ 
+LedController.WebPortal.Web.Dialogs.EditControllerDialog[9 - .NET ThreadPool Worker] 
+      2022/04/05 13:59:15.234 - [DEBUG]: Checking if we have a controller by the edit controller dialog. 
+ 
+LedController.WebPortal.Web.Dialogs.EditControllerDialog[9 - .NET ThreadPool Worker] 
+      2022/04/05 13:59:15.234 - [DEBUG]: Checking if we have a controller by the edit controller dialog. 
+ 
+LedController.WebPortal.Web.Pages.ControllersPage[4 - .NET ThreadPool Worker] 
+      2022/04/05 13:59:49.374 - [INFO]: Opening the controller form for controller : Controller 1940900190 
+ 
+LedController.WebPortal.Web.Dialogs.EditControllerDialog[4 - .NET ThreadPool Worker] 
+      2022/04/05 13:59:49.374 - [DEBUG]: Checking if we have a controller by the edit controller dialog. 
+ 
+LedController.WebPortal.Web.Dialogs.EditControllerDialog[4 - .NET ThreadPool Worker] 
+      2022/04/05 13:59:56.200 - [DEBUG]: Checking if we have a controller by the edit controller dialog. 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/04/05 14:59:01.121 - [DEBUG]: Hosting starting 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/05 14:59:01.184 - [DEBUG]: Starting the discovery service. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/05 14:59:01.184 - [DEBUG]: Creating a new UDP client to be used for broadcasting the server information. This wil happen on UDP port 8472. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/05 14:59:01.203 - [DEBUG]: The discovery service has started. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[10 - .NET ThreadPool Worker] 
+      2022/04/05 14:59:01.203 - [TRACE]: Start sending message to controllers to be discovered. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/05 14:59:01.328 - [INFO]: Now listening on: http://localhost:5097 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/05 14:59:01.334 - [INFO]: Application started. Press Ctrl+C to shut down. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/05 14:59:01.334 - [INFO]: Hosting environment: Development 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/05 14:59:01.334 - [INFO]: Content root path: D:\Projects\LedController_net5\LedController.WebPortal.Web\ 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/04/05 14:59:01.334 - [DEBUG]: Hosting started 
+ 
+LedController.WebPortal.Web.Pages.Index[13 - .NET ThreadPool Worker] 
+      2022/04/05 14:59:04.591 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Pages.Index[17 - .NET ThreadPool Worker] 
+      2022/04/05 14:59:07.430 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Pages.EffectsEditorPage[9 - .NET ThreadPool Worker] 
+      2022/04/05 14:59:14.157 - [INFO]: Loading effects page. 
+ 
+LedController.WebPortal.Web.Pages.EffectsEditorPage[6 - .NET ThreadPool Worker] 
+      2022/04/05 14:59:17.662 - [INFO]: Showing effect dialog. 
+ 
+LedController.WebPortal.Web.Dialogs.EffectFormDialog[6 - .NET ThreadPool Worker] 
+      2022/04/05 14:59:23.372 - [INFO]: Creating a new effect with name Test Effect. 
+ 
+LedController.WebPortal.Core.Factories.EffectFactory[6 - .NET ThreadPool Worker] 
+      2022/04/05 14:59:23.372 - [DEBUG]: Creating a new effect. 
+ 
+LedController.WebPortal.Web.Dialogs.EffectFormDialog[6 - .NET ThreadPool Worker] 
+      2022/04/05 14:59:23.634 - [INFO]: Effect has been saved. 
+ 
+LedController.WebPortal.Web.Pages.EffectsEditorPage[6 - .NET ThreadPool Worker] 
+      2022/04/05 14:59:23.634 - [INFO]: Reloading effects page. 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[6 - .NET ThreadPool Worker] 
+      2022/04/05 14:59:23.720 - [DEBUG]: Starting effect editor for Test Effect. 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[6 - .NET ThreadPool Worker] 
+      2022/04/05 14:59:23.764 - [DEBUG]: Starting monaco editor for effect Test Effect. 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[13 - .NET ThreadPool Worker] 
+      2022/04/05 14:59:49.099 - [INFO]: Building Test Effect. 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[13 - .NET ThreadPool Worker] 
+      2022/04/05 14:59:52.128 - [INFO]: Build successful for Test Effect. 
+ 
+LedController.WebPortal.Web.Pages.AnimationsPage[13 - .NET ThreadPool Worker] 
+      2022/04/05 15:00:17.990 - [INFO]: Opening animation form dialog. None Selected. 
+ 
+Microsoft.AspNetCore.Components.Server.Circuits.RemoteRenderer[13 - .NET ThreadPool Worker] 
+      2022/04/05 15:00:17.990 - [WARN]: Unhandled exception rendering component: Object of type 'LedController.WebPortal.Web.Dialogs.SpiBusFormDialog' does not have a property matching the name 'Animation'. 
+ System.InvalidOperationException: Object of type 'LedController.WebPortal.Web.Dialogs.SpiBusFormDialog' does not have a property matching the name 'Animation'.
+   at Microsoft.AspNetCore.Components.Reflection.ComponentProperties.ThrowForUnknownIncomingParameterName(Type targetType, String parameterName)
+   at Microsoft.AspNetCore.Components.Reflection.ComponentProperties.SetProperties(ParameterView& parameters, Object target)
+   at Microsoft.AspNetCore.Components.ComponentBase.SetParametersAsync(ParameterView parameters)
+   at Microsoft.AspNetCore.Components.Rendering.ComponentState.SupplyCombinedParameters(ParameterView directAndCascadingParameters)
+Microsoft.AspNetCore.Components.Server.Circuits.CircuitHost[13 - .NET ThreadPool Worker] 
+      2022/04/05 15:00:18.024 - [ERROR]: Unhandled exception in circuit 'GP6FAZ8f_QGzptLAhgfw67g97Wezc_z7mBYb20u6ANU'. 
+ System.InvalidOperationException: Object of type 'LedController.WebPortal.Web.Dialogs.SpiBusFormDialog' does not have a property matching the name 'Animation'.
+   at Microsoft.AspNetCore.Components.Reflection.ComponentProperties.ThrowForUnknownIncomingParameterName(Type targetType, String parameterName)
+   at Microsoft.AspNetCore.Components.Reflection.ComponentProperties.SetProperties(ParameterView& parameters, Object target)
+   at Microsoft.AspNetCore.Components.ComponentBase.SetParametersAsync(ParameterView parameters)
+   at Microsoft.AspNetCore.Components.Rendering.ComponentState.SupplyCombinedParameters(ParameterView directAndCascadingParameters)
+Microsoft.AspNetCore.Components.Server.Circuits.RemoteRenderer[13 - .NET ThreadPool Worker] 
+      2022/04/05 15:00:18.042 - [WARN]: Unhandled exception rendering component: Cannot access a disposed object. 
+ System.ObjectDisposedException: Cannot access a disposed object.
+   at Microsoft.AspNetCore.Components.RenderTree.ArrayBuilder`1.ThrowObjectDisposedException()
+   at Microsoft.AspNetCore.Components.RenderTree.ArrayBuilder`1.GrowBuffer(Int32 desiredCapacity)
+   at Microsoft.AspNetCore.Components.RenderTree.ArrayBuilder`1.Append(T[] source, Int32 startIndex, Int32 length)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.InsertNewFrame(DiffContext& diffContext, Int32 newFrameIndex)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.InsertNewFrame(DiffContext& diffContext, Int32 newFrameIndex)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.InsertNewFrame(DiffContext& diffContext, Int32 newFrameIndex)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.AppendDiffEntriesForRange(DiffContext& diffContext, Int32 oldStartIndex, Int32 oldEndIndexExcl, Int32 newStartIndex, Int32 newEndIndexExcl)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.ComputeDiff(Renderer renderer, RenderBatchBuilder batchBuilder, Int32 componentId, ArrayRange`1 oldTree, ArrayRange`1 newTree)
+   at Microsoft.AspNetCore.Components.Rendering.ComponentState.RenderIntoBatch(RenderBatchBuilder batchBuilder, RenderFragment renderFragment, Exception& renderFragmentException)
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.ProcessRenderQueue()
+Microsoft.AspNetCore.Components.Server.Circuits.CircuitHost[13 - .NET ThreadPool Worker] 
+      2022/04/05 15:00:18.042 - [ERROR]: Unhandled exception in circuit 'GP6FAZ8f_QGzptLAhgfw67g97Wezc_z7mBYb20u6ANU'. 
+ System.ObjectDisposedException: Cannot access a disposed object.
+   at Microsoft.AspNetCore.Components.RenderTree.ArrayBuilder`1.ThrowObjectDisposedException()
+   at Microsoft.AspNetCore.Components.RenderTree.ArrayBuilder`1.GrowBuffer(Int32 desiredCapacity)
+   at Microsoft.AspNetCore.Components.RenderTree.ArrayBuilder`1.Append(T[] source, Int32 startIndex, Int32 length)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.InsertNewFrame(DiffContext& diffContext, Int32 newFrameIndex)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.InsertNewFrame(DiffContext& diffContext, Int32 newFrameIndex)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.InsertNewFrame(DiffContext& diffContext, Int32 newFrameIndex)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.AppendDiffEntriesForRange(DiffContext& diffContext, Int32 oldStartIndex, Int32 oldEndIndexExcl, Int32 newStartIndex, Int32 newEndIndexExcl)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.ComputeDiff(Renderer renderer, RenderBatchBuilder batchBuilder, Int32 componentId, ArrayRange`1 oldTree, ArrayRange`1 newTree)
+   at Microsoft.AspNetCore.Components.Rendering.ComponentState.RenderIntoBatch(RenderBatchBuilder batchBuilder, RenderFragment renderFragment, Exception& renderFragmentException)
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.ProcessRenderQueue()
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/04/05 15:01:11.565 - [DEBUG]: Hosting starting 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/05 15:01:11.620 - [DEBUG]: Starting the discovery service. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/05 15:01:11.620 - [DEBUG]: Creating a new UDP client to be used for broadcasting the server information. This wil happen on UDP port 8472. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/05 15:01:11.638 - [DEBUG]: The discovery service has started. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[6 - .NET ThreadPool Worker] 
+      2022/04/05 15:01:11.638 - [TRACE]: Start sending message to controllers to be discovered. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/05 15:01:11.746 - [INFO]: Now listening on: http://localhost:5097 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/05 15:01:11.746 - [INFO]: Application started. Press Ctrl+C to shut down. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/05 15:01:11.746 - [INFO]: Hosting environment: Development 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/05 15:01:11.746 - [INFO]: Content root path: D:\Projects\LedController_net5\LedController.WebPortal.Web\ 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/04/05 15:01:11.746 - [DEBUG]: Hosting started 
+ 
+LedController.WebPortal.Web.Pages.Index[19 - .NET ThreadPool Worker] 
+      2022/04/05 15:01:14.787 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Pages.Index[10 - .NET ThreadPool Worker] 
+      2022/04/05 15:01:17.271 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Pages.AnimationsPage[10 - .NET ThreadPool Worker] 
+      2022/04/05 15:01:21.391 - [INFO]: Opening animation form dialog. None Selected. 
+ 
+LedController.WebPortal.Web.Dialogs.AnimationFormDialog[10 - .NET ThreadPool Worker] 
+      2022/04/05 15:01:21.415 - [INFO]: Showing animation form dialog. 
+ 
+LedController.WebPortal.Web.Dialogs.AnimationFormDialog[9 - .NET ThreadPool Worker] 
+      2022/04/05 15:01:26.197 - [INFO]: Created animation with name Test Animation. 
+ 
+LedController.WebPortal.Web.Dialogs.AnimationFormDialog[9 - .NET ThreadPool Worker] 
+      2022/04/05 15:01:26.220 - [INFO]: Animation Test Animation saved 
+ 
+LedController.WebPortal.Web.Pages.AnimationsPage[9 - .NET ThreadPool Worker] 
+      2022/04/05 15:01:26.225 - [INFO]: Closing animation form. Reloading animations page. 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/04/05 15:03:49.325 - [DEBUG]: Hosting starting 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/05 15:03:49.375 - [DEBUG]: Starting the discovery service. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/05 15:03:49.375 - [DEBUG]: Creating a new UDP client to be used for broadcasting the server information. This wil happen on UDP port 8472. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/05 15:03:49.392 - [DEBUG]: The discovery service has started. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[6 - .NET ThreadPool Worker] 
+      2022/04/05 15:03:49.392 - [TRACE]: Start sending message to controllers to be discovered. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/05 15:03:49.496 - [INFO]: Now listening on: http://localhost:5097 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/05 15:03:49.496 - [INFO]: Application started. Press Ctrl+C to shut down. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/05 15:03:49.496 - [INFO]: Hosting environment: Development 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/05 15:03:49.496 - [INFO]: Content root path: D:\Projects\LedController_net5\LedController.WebPortal.Web\ 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/04/05 15:03:49.496 - [DEBUG]: Hosting started 
+ 
+LedController.WebPortal.Web.Pages.Index[10 - .NET ThreadPool Worker] 
+      2022/04/05 15:03:52.306 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Pages.Index[15 - .NET ThreadPool Worker] 
+      2022/04/05 15:03:54.646 - [INFO]: Opening the index page. 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/04/05 15:05:33.263 - [DEBUG]: Hosting starting 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/05 15:05:33.317 - [DEBUG]: Starting the discovery service. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/05 15:05:33.319 - [DEBUG]: Creating a new UDP client to be used for broadcasting the server information. This wil happen on UDP port 8472. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/05 15:05:33.336 - [DEBUG]: The discovery service has started. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[9 - .NET ThreadPool Worker] 
+      2022/04/05 15:05:33.336 - [TRACE]: Start sending message to controllers to be discovered. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/05 15:05:33.450 - [INFO]: Now listening on: http://localhost:5097 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/05 15:05:33.450 - [INFO]: Application started. Press Ctrl+C to shut down. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/05 15:05:33.450 - [INFO]: Hosting environment: Development 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/05 15:05:33.450 - [INFO]: Content root path: D:\Projects\LedController_net5\LedController.WebPortal.Web\ 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/04/05 15:05:33.450 - [DEBUG]: Hosting started 
+ 
+LedController.WebPortal.Web.Pages.Index[12 - .NET ThreadPool Worker] 
+      2022/04/05 15:05:36.746 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Pages.Index[19 - .NET ThreadPool Worker] 
+      2022/04/05 15:05:39.042 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Pages.AnimationsPage[6 - .NET ThreadPool Worker] 
+      2022/04/05 15:05:42.856 - [INFO]: Opening animation form dialog. None Selected. 
+ 
+LedController.WebPortal.Web.Dialogs.AnimationFormDialog[6 - .NET ThreadPool Worker] 
+      2022/04/05 15:05:42.874 - [INFO]: Showing animation form dialog. 
+ 
+LedController.WebPortal.Web.Dialogs.AnimationFormDialog[6 - .NET ThreadPool Worker] 
+      2022/04/05 15:05:48.713 - [INFO]: Created animation with name Other Test Animation. 
+ 
+LedController.WebPortal.Web.Dialogs.AnimationFormDialog[6 - .NET ThreadPool Worker] 
+      2022/04/05 15:05:48.735 - [INFO]: Animation Other Test Animation saved 
+ 
+LedController.WebPortal.Web.Pages.AnimationsPage[6 - .NET ThreadPool Worker] 
+      2022/04/05 15:05:48.735 - [INFO]: Closing animation form. Reloading animations page. 
+ 
+LedController.WebPortal.Web.Pages.AnimationsPage[13 - .NET ThreadPool Worker] 
+      2022/04/05 15:07:14.889 - [INFO]: Opening animation form dialog. None Selected. 
+ 
+LedController.WebPortal.Web.Dialogs.AnimationFormDialog[13 - .NET ThreadPool Worker] 
+      2022/04/05 15:07:14.889 - [INFO]: Showing animation form dialog. 
+ 
+LedController.WebPortal.Web.Dialogs.AnimationFormDialog[14 - .NET ThreadPool Worker] 
+      2022/04/05 15:07:18.061 - [INFO]: Created animation with name Again Test. 
+ 
+LedController.WebPortal.Web.Dialogs.AnimationFormDialog[14 - .NET ThreadPool Worker] 
+      2022/04/05 15:07:47.461 - [INFO]: Animation Again Test saved 
+ 
+LedController.WebPortal.Web.Pages.AnimationsPage[14 - .NET ThreadPool Worker] 
+      2022/04/05 15:07:47.461 - [INFO]: Closing animation form. Reloading animations page. 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/04/05 15:13:23.463 - [DEBUG]: Hosting starting 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/05 15:13:23.502 - [DEBUG]: Starting the discovery service. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/05 15:13:23.502 - [DEBUG]: Creating a new UDP client to be used for broadcasting the server information. This wil happen on UDP port 8472. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/05 15:13:23.514 - [DEBUG]: The discovery service has started. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[10 - .NET ThreadPool Worker] 
+      2022/04/05 15:13:23.514 - [TRACE]: Start sending message to controllers to be discovered. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/05 15:13:23.592 - [INFO]: Now listening on: http://localhost:5097 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/05 15:13:23.592 - [INFO]: Application started. Press Ctrl+C to shut down. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/05 15:13:23.592 - [INFO]: Hosting environment: Development 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/05 15:13:23.592 - [INFO]: Content root path: D:\Projects\LedController_net5\LedController.WebPortal.Web\ 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/04/05 15:13:23.592 - [DEBUG]: Hosting started 
+ 
+LedController.WebPortal.Web.Pages.Index[15 - .NET ThreadPool Worker] 
+      2022/04/05 15:13:27.012 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Pages.Index[20 - .NET ThreadPool Worker] 
+      2022/04/05 15:13:29.435 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Pages.AnimationsPage[6 - .NET ThreadPool Worker] 
+      2022/04/05 15:13:35.939 - [INFO]: Opening animation form dialog. None Selected. 
+ 
+LedController.WebPortal.Web.Dialogs.AnimationFormDialog[6 - .NET ThreadPool Worker] 
+      2022/04/05 15:13:35.956 - [INFO]: Showing animation form dialog. 
+ 
+LedController.WebPortal.Web.Dialogs.AnimationFormDialog[27 - .NET ThreadPool Worker] 
+      2022/04/05 15:13:40.778 - [INFO]: Created animation with name Test Animation. 
+ 
+LedController.WebPortal.Web.Dialogs.AnimationFormDialog[27 - .NET ThreadPool Worker] 
+      2022/04/05 15:13:40.807 - [INFO]: Animation Test Animation saved 
+ 
+LedController.WebPortal.Web.Pages.AnimationsPage[27 - .NET ThreadPool Worker] 
+      2022/04/05 15:13:40.807 - [INFO]: Closing animation form. Reloading animations page. 
+ 
+LedController.WebPortal.Web.Pages.AnimationsPage[9 - .NET ThreadPool Worker] 
+      2022/04/05 15:14:52.405 - [INFO]: Opening animation form dialog. None Selected. 
+ 
+LedController.WebPortal.Web.Dialogs.AnimationFormDialog[9 - .NET ThreadPool Worker] 
+      2022/04/05 15:14:52.405 - [INFO]: Showing animation form dialog. 
+ 
+LedController.WebPortal.Web.Dialogs.AnimationFormDialog[15 - .NET ThreadPool Worker] 
+      2022/04/05 15:14:56.872 - [INFO]: Created animation with name Test Again. 
+ 
+LedController.WebPortal.Web.Dialogs.AnimationFormDialog[15 - .NET ThreadPool Worker] 
+      2022/04/05 15:16:16.951 - [INFO]: Animation Test Again saved 
+ 
+LedController.WebPortal.Web.Pages.AnimationsPage[15 - .NET ThreadPool Worker] 
+      2022/04/05 15:16:16.959 - [INFO]: Closing animation form. Reloading animations page. 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/04/05 15:18:28.236 - [DEBUG]: Hosting starting 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/05 15:18:28.293 - [DEBUG]: Starting the discovery service. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/05 15:18:28.293 - [DEBUG]: Creating a new UDP client to be used for broadcasting the server information. This wil happen on UDP port 8472. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/05 15:18:28.314 - [DEBUG]: The discovery service has started. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[6 - .NET ThreadPool Worker] 
+      2022/04/05 15:18:28.314 - [TRACE]: Start sending message to controllers to be discovered. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/05 15:18:28.429 - [INFO]: Now listening on: http://localhost:5097 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/05 15:18:28.429 - [INFO]: Application started. Press Ctrl+C to shut down. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/05 15:18:28.429 - [INFO]: Hosting environment: Development 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/05 15:18:28.429 - [INFO]: Content root path: D:\Projects\LedController_net5\LedController.WebPortal.Web\ 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/04/05 15:18:28.429 - [DEBUG]: Hosting started 
+ 
+LedController.WebPortal.Web.Pages.Index[6 - .NET ThreadPool Worker] 
+      2022/04/05 15:18:31.044 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Pages.Index[14 - .NET ThreadPool Worker] 
+      2022/04/05 15:18:32.522 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Pages.AnimationsPage[10 - .NET ThreadPool Worker] 
+      2022/04/05 15:18:37.083 - [INFO]: Opening animation form dialog. None Selected. 
+ 
+LedController.WebPortal.Web.Dialogs.AnimationFormDialog[10 - .NET ThreadPool Worker] 
+      2022/04/05 15:18:37.099 - [INFO]: Showing animation form dialog. 
+ 
+LedController.WebPortal.Web.Dialogs.AnimationFormDialog[6 - .NET ThreadPool Worker] 
+      2022/04/05 15:18:41.232 - [INFO]: Created animation with name Test Animation. 
+ 
+LedController.WebPortal.Web.Dialogs.AnimationFormDialog[6 - .NET ThreadPool Worker] 
+      2022/04/05 15:18:45.298 - [INFO]: Animation Test Animation saved 
+ 
+LedController.WebPortal.Web.Pages.AnimationsPage[6 - .NET ThreadPool Worker] 
+      2022/04/05 15:18:45.303 - [INFO]: Closing animation form. Reloading animations page. 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/04/05 15:21:16.159 - [DEBUG]: Hosting starting 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/05 15:21:16.215 - [DEBUG]: Starting the discovery service. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/05 15:21:16.215 - [DEBUG]: Creating a new UDP client to be used for broadcasting the server information. This wil happen on UDP port 8472. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/05 15:21:16.237 - [DEBUG]: The discovery service has started. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[9 - .NET ThreadPool Worker] 
+      2022/04/05 15:21:16.237 - [TRACE]: Start sending message to controllers to be discovered. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/05 15:21:16.396 - [INFO]: Now listening on: http://localhost:5097 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/05 15:21:16.396 - [INFO]: Application started. Press Ctrl+C to shut down. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/05 15:21:16.396 - [INFO]: Hosting environment: Development 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/05 15:21:16.396 - [INFO]: Content root path: D:\Projects\LedController_net5\LedController.WebPortal.Web\ 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/04/05 15:21:16.396 - [DEBUG]: Hosting started 
+ 
+LedController.WebPortal.Web.Pages.Index[6 - .NET ThreadPool Worker] 
+      2022/04/05 15:21:19.570 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Pages.Index[13 - .NET ThreadPool Worker] 
+      2022/04/05 15:21:21.825 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Pages.AnimationsPage[9 - .NET ThreadPool Worker] 
+      2022/04/05 15:21:25.383 - [INFO]: Opening animation form dialog. None Selected. 
+ 
+LedController.WebPortal.Web.Dialogs.AnimationFormDialog[9 - .NET ThreadPool Worker] 
+      2022/04/05 15:21:25.401 - [INFO]: Showing animation form dialog. 
+ 
+LedController.WebPortal.Web.Dialogs.AnimationFormDialog[13 - .NET ThreadPool Worker] 
+      2022/04/05 15:21:31.661 - [INFO]: Created animation with name Test Animation. 
+ 
+LedController.WebPortal.Web.Dialogs.AnimationFormDialog[13 - .NET ThreadPool Worker] 
+      2022/04/05 15:21:35.895 - [INFO]: Animation Test Animation saved 
+ 
+LedController.WebPortal.Web.Pages.AnimationsPage[13 - .NET ThreadPool Worker] 
+      2022/04/05 15:21:35.902 - [INFO]: Closing animation form. Reloading animations page. 
+ 

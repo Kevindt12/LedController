@@ -1,0 +1,148 @@
+﻿@page "/animations"
+
+@using LedController.WebPortal.Domain.Managers
+@using LedController.WebPortal.Web.Dialogs
+@using Microsoft.Extensions.Logging
+@using MudBlazor
+
+@using Animation = LedController.Domain.Models.Animation
+
+@inject ILogger<Animations> _logger
+@inject IAnimationManger _animationManager
+@inject IDialogService _dialogService
+@inject NavigationManager _navigationManager
+
+@* Action buttons. *@
+
+<div class="row">
+    <MudButtonGroup Color="Color.Primary" Variant="Variant.Outlined">
+
+        <MudIconButton Icon="Add">
+            <MudMenu>
+                <MudMenuItem>
+                    <MudButton Variant="Variant.Text" Color="MudBlazor.Color.Success" @onclick="async () => await CreateAnimation()">New</MudButton>
+                </MudMenuItem>
+                <MudMenuItem>
+                    <MudButton Variant="Variant.Text" Color="MudBlazor.Color.Success" @onclick="async () => await CopyAnimation()">Create Copy</MudButton>
+                </MudMenuItem>
+            </MudMenu>
+        </MudIconButton>
+
+        <MudIconButton Icon="Trash" Color="Color.Error" @onclick="async () => await RemoveAnimation()" />
+
+    </MudButtonGroup>
+
+</div>
+
+@* The animations. *@
+
+<div class="row">
+    <MudTabs id="tabControl" Outlined="true" Position="Position.Left" Rounded="true" Border="true" ApplyEffectsToContainer="true">
+
+        @* Checking if there are any animations. If not so. Then when us a intro page. *@
+        @if (!AnimationEntries.Any())
+        {
+            <MudTabPanel>
+                Welcome to the animation editor. This is used to create animations with the effectDefinitions that are avalible.
+            </MudTabPanel>
+        }
+
+        @* Creating all the animation panels. *@
+        @foreach (Animation animation in AnimationEntries)
+        {
+            <div class="row">
+            </div>
+            <MudTabPanel Text="@animation.Name" OnClick="() => ChangeSelectedAnimation(animation)">
+                @*<EffectEditor />*@
+            </MudTabPanel>
+        }
+
+        <MudButton Variant="Variant.Text" Color="MudBlazor.Color.Success" @onclick="async () => await CreateAnimation()">Add</MudButton>
+
+    </MudTabs>
+</div>
+
+
+@code {
+
+    ICollection<Animation> AnimationEntries { get; set; } = new List<Animation>();
+
+    Animation SelectedAnimation { get; set; }
+
+
+    /// <summary>
+    /// Method invoked when the component is ready to start, having received its
+    /// initial parameters from its parent in the render tree.
+    /// Override this method if you will perform an asynchronous operation and
+    /// want the component to refresh when that operation is completed.
+    /// </summary>
+    /// <returns>A <see cref="T:System.Threading.Tasks.Task" /> representing any asynchronous operation.</returns>
+    protected override async Task OnInitializedAsync()
+    {
+        await foreach (Animation animation in _animationManager.GetAsync())
+        {
+            AnimationEntries.Add(animation);
+        }
+
+        await base.OnInitializedAsync();
+    }
+
+
+
+    /// <summary>
+    /// Removes a animation from the application.
+    /// </summary>
+    protected virtual async Task RemoveAnimation()
+    {
+        // Ask the user if we are sure that we want to remove this animation.
+        if ((await _dialogService.ShowMessageBox(new MessageBoxOptions()
+            {
+                Title = "Delete Animation",
+                Message = "Are you sure you want to remove this animation?",
+                YesText = "Yes",
+                NoText = "No",
+                CancelText = null
+            })) == false) return;
+
+        _logger.LogInformation($"Removing animation {SelectedAnimation.Name}.");
+
+        // Remove it from the application.
+        await _animationManager.Remove(SelectedAnimation);
+
+        // Remove it from the page.
+        AnimationEntries.Remove(SelectedAnimation);
+
+        // Reload the page.
+        StateHasChanged();
+    }
+
+
+    private async Task CopyAnimation()
+    {
+        DialogResult result = await _dialogService.Show<CreateAnimationDialog>("Copy Animation", new DialogParameters() { ["Animation"] = SelectedAnimation }).Result;
+
+        if (!result.Cancelled)
+        {
+            StateHasChanged();
+        }
+    }
+
+
+    private async Task CreateAnimation()
+    {
+        DialogResult result = await _dialogService.Show<CreateAnimationDialog>("Create Animation").Result;
+
+        if (!result.Cancelled)
+        {
+            StateHasChanged();
+        }
+    }
+
+
+    private void ChangeSelectedAnimation(Animation animation)
+    {
+        SelectedAnimation = animation;
+    }
+
+
+}

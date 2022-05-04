@@ -1,0 +1,555 @@
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/04/21 00:08:12.740 - [DEBUG]: Hosting starting 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/21 00:08:12.866 - [DEBUG]: Starting the discovery service. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/21 00:08:12.866 - [DEBUG]: Creating a new UDP client to be used for broadcasting the server information. This wil happen on UDP port 8472. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[13 - .NET ThreadPool Worker] 
+      2022/04/21 00:08:12.884 - [TRACE]: Start sending message to controllers to be discovered. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/21 00:08:12.884 - [DEBUG]: The discovery service has started. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/21 00:08:13.028 - [INFO]: Now listening on: http://localhost:5097 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/21 00:08:13.028 - [INFO]: Application started. Press Ctrl+C to shut down. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/21 00:08:13.028 - [INFO]: Hosting environment: Development 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/21 00:08:13.028 - [INFO]: Content root path: D:\Projects\LedController_net5\LedController.WebPortal.Web\ 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/04/21 00:08:13.028 - [DEBUG]: Hosting started 
+ 
+LedController.WebPortal.Web.Pages.Index[6 - .NET ThreadPool Worker] 
+      2022/04/21 00:08:15.381 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Pages.Index[13 - .NET ThreadPool Worker] 
+      2022/04/21 00:08:17.022 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Pages.AnimationsPage[13 - .NET ThreadPool Worker] 
+      2022/04/21 00:08:19.181 - [INFO]: Opening the animations page. 
+ 
+LedController.WebPortal.Web.Pages.ControllersPage[6 - .NET ThreadPool Worker] 
+      2022/04/21 00:08:21.209 - [INFO]: Opening controllers page. 
+ 
+LedController.WebPortal.Web.Pages.ControllersPage[12 - .NET ThreadPool Worker] 
+      2022/04/21 00:08:22.812 - [INFO]: Connecting to controller adfadf. 
+ 
+LedController.WebPortal.Core.Services.ControllerService[12 - .NET ThreadPool Worker] 
+      2022/04/21 00:08:22.827 - [INFO]: Connecting to controller 0cad14b4-18d6-4049-9354-458786f472f3. 
+ 
+LedController.WebPortal.Infrastructure.Connections.Services.GrpcControllerConnectionService[12 - .NET ThreadPool Worker] 
+      2022/04/21 00:08:22.827 - [TRACE]: Start connection with adfadf. 
+ 
+LedController.WebPortal.Infrastructure.Connections.Connections.GrpcControllerConnection[12 - .NET ThreadPool Worker] 
+      2022/04/21 00:08:22.881 - [TRACE]: Creating connection with adfadf 
+ 
+Grpc.Net.Client.Internal.GrpcCall[12 - .NET ThreadPool Worker] 
+      2022/04/21 00:08:22.915 - [DEBUG]: Starting gRPC call. Method type: 'Unary', URI: 'http://127.0.0.1:5000/connection.GrpcConnection/Connect'. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[13 - .NET ThreadPool Worker] 
+      2022/04/21 00:08:22.984 - [DEBUG]: Sending message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[13 - .NET ThreadPool Worker] 
+      2022/04/21 00:08:22.984 - [TRACE]: Serialized 'Google.Protobuf.WellKnownTypes.Empty' to 0 byte message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[15 - .NET ThreadPool Worker] 
+      2022/04/21 00:08:22.992 - [TRACE]: Message sent. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[6 - .NET ThreadPool Worker] 
+      2022/04/21 00:08:23.866 - [TRACE]: Response headers received. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[6 - .NET ThreadPool Worker] 
+      2022/04/21 00:08:23.866 - [DEBUG]: Reading message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[6 - .NET ThreadPool Worker] 
+      2022/04/21 00:08:23.866 - [TRACE]: Deserializing 0 byte message to 'Google.Protobuf.WellKnownTypes.Empty'. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[6 - .NET ThreadPool Worker] 
+      2022/04/21 00:08:23.882 - [TRACE]: Received message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[6 - .NET ThreadPool Worker] 
+      2022/04/21 00:08:23.882 - [DEBUG]: Finished gRPC call. 
+ 
+LedController.WebPortal.Infrastructure.Connections.Services.GrpcControllerConnectionService[12 - .NET ThreadPool Worker] 
+      2022/04/21 00:08:23.882 - [TRACE]: Connection with adfadf successful! 
+ 
+LedController.WebPortal.Core.Services.ControllerService[12 - .NET ThreadPool Worker] 
+      2022/04/21 00:08:23.882 - [INFO]: The controller has been connected. 
+ 
+LedController.WebPortal.Web.Pages.ControllersPage[12 - .NET ThreadPool Worker] 
+      2022/04/21 00:08:23.882 - [INFO]: Connection with controller adfadf successful. 
+ 
+LedController.WebPortal.Web.Pages.EffectsEditorPage[6 - .NET ThreadPool Worker] 
+      2022/04/21 00:08:36.616 - [INFO]: Loading effects page. 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[6 - .NET ThreadPool Worker] 
+      2022/04/21 00:08:36.650 - [DEBUG]: Starting effect editor for Test Effect. 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[6 - .NET ThreadPool Worker] 
+      2022/04/21 00:08:36.679 - [DEBUG]: Starting monaco editor for effect Test Effect. 
+ 
+LedController.WebPortal.Web.Dialogs.ControllerEffectSynchronizationDialog[9 - .NET ThreadPool Worker] 
+      2022/04/21 00:08:38.382 - [INFO]: Loading Controller effect synchronization dialog. 
+ 
+LedController.WebPortal.Web.Dialogs.ControllerEffectSynchronizationDialog[6 - .NET ThreadPool Worker] 
+      2022/04/21 00:08:40.226 - [INFO]: Synchronizing effect Test Effect with controlleradfadf. 
+ 
+LedController.WebPortal.Infrastructure.Connections.Services.GrpcControllerConnectionService[6 - .NET ThreadPool Worker] 
+      2022/04/21 00:08:40.241 - [TRACE]: Getting controller connection with adfadf. 
+ 
+LedController.WebPortal.Core.Services.ControllerService[6 - .NET ThreadPool Worker] 
+      2022/04/21 00:08:40.241 - [INFO]: Sending effect assembly to the controller. 
+ 
+LedController.WebPortal.Infrastructure.Connections.Services.FileService[6 - .NET ThreadPool Worker] 
+      2022/04/21 00:08:40.241 - [TRACE]: Starting operation to read effect assembly 00000000-0000-0000-0000-000000000000 from D:\Projects\LedController_net5\LedController.WebPortal.Web\Assemblies\EffectAssembly-00000000-0000-0000-0000-000000000000.dll.dll. 
+ 
+Microsoft.AspNetCore.Components.Server.Circuits.RemoteRenderer[6 - .NET ThreadPool Worker] 
+      2022/04/21 00:08:40.368 - [WARN]: Unhandled exception rendering component: Could not find file 'D:\Projects\LedController_net5\LedController.WebPortal.Web\Assemblies\EffectAssembly-00000000-0000-0000-0000-000000000000.dll.dll'. 
+ System.IO.FileNotFoundException: Could not find file 'D:\Projects\LedController_net5\LedController.WebPortal.Web\Assemblies\EffectAssembly-00000000-0000-0000-0000-000000000000.dll.dll'.
+File name: 'D:\Projects\LedController_net5\LedController.WebPortal.Web\Assemblies\EffectAssembly-00000000-0000-0000-0000-000000000000.dll.dll'
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategy(FileStream fileStream, String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, Int64 preallocationSize)
+   at System.IO.File.Open(String path, FileMode mode, FileAccess access)
+   at LedController.WebPortal.Infrastructure.Connections.Services.FileService.OpenAssemblyAsync(EffectAssembly effectAssembly, CancellationToken token) in D:\Projects\LedController_net5\LedController.Portal.Infrastructure.Connections\Services\FileService.cs:line 56
+   at LedController.WebPortal.Core.Services.ControllerService.SynchronizeEffect(Controller controller, Effect effect, CancellationToken token) in D:\Projects\LedController_net5\LedController.Portal.Core\Services\ControllerService.cs:line 101
+   at LedController.WebPortal.Web.Dialogs.ControllerEffectSynchronizationDialog.SynchronizeEffect(Controller controller) in D:\Projects\LedController_net5\LedController.WebPortal.Web\Dialogs\ControllerEffectSynchronizationDialog.razor:line 90
+   at LedController.WebPortal.Web.Dialogs.ControllerEffectSynchronizationDialog.<>c__DisplayClass0_0.<<BuildRenderTree>b__9>d.MoveNext() in D:\Projects\LedController_net5\LedController.WebPortal.Web\Dialogs\ControllerEffectSynchronizationDialog.razor:line 28
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at MudBlazor.MudBaseButton.OnClickHandler(MouseEventArgs ev)
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.GetErrorHandledTask(Task taskToHandle, ComponentState owningComponentState)
+Microsoft.AspNetCore.Components.Server.Circuits.CircuitHost[6 - .NET ThreadPool Worker] 
+      2022/04/21 00:08:40.414 - [ERROR]: Unhandled exception in circuit 'PZtqWH5AJVu03a5OJtkJP-58_2QaxrcitqV1U8yfOM4'. 
+ System.IO.FileNotFoundException: Could not find file 'D:\Projects\LedController_net5\LedController.WebPortal.Web\Assemblies\EffectAssembly-00000000-0000-0000-0000-000000000000.dll.dll'.
+File name: 'D:\Projects\LedController_net5\LedController.WebPortal.Web\Assemblies\EffectAssembly-00000000-0000-0000-0000-000000000000.dll.dll'
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategy(FileStream fileStream, String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, Int64 preallocationSize)
+   at System.IO.File.Open(String path, FileMode mode, FileAccess access)
+   at LedController.WebPortal.Infrastructure.Connections.Services.FileService.OpenAssemblyAsync(EffectAssembly effectAssembly, CancellationToken token) in D:\Projects\LedController_net5\LedController.Portal.Infrastructure.Connections\Services\FileService.cs:line 56
+   at LedController.WebPortal.Core.Services.ControllerService.SynchronizeEffect(Controller controller, Effect effect, CancellationToken token) in D:\Projects\LedController_net5\LedController.Portal.Core\Services\ControllerService.cs:line 101
+   at LedController.WebPortal.Web.Dialogs.ControllerEffectSynchronizationDialog.SynchronizeEffect(Controller controller) in D:\Projects\LedController_net5\LedController.WebPortal.Web\Dialogs\ControllerEffectSynchronizationDialog.razor:line 90
+   at LedController.WebPortal.Web.Dialogs.ControllerEffectSynchronizationDialog.<>c__DisplayClass0_0.<<BuildRenderTree>b__9>d.MoveNext() in D:\Projects\LedController_net5\LedController.WebPortal.Web\Dialogs\ControllerEffectSynchronizationDialog.razor:line 28
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at MudBlazor.MudBaseButton.OnClickHandler(MouseEventArgs ev)
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.GetErrorHandledTask(Task taskToHandle, ComponentState owningComponentState)
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/04/21 00:14:01.757 - [DEBUG]: Hosting starting 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/21 00:14:01.897 - [DEBUG]: Starting the discovery service. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/21 00:14:01.897 - [DEBUG]: Creating a new UDP client to be used for broadcasting the server information. This wil happen on UDP port 8472. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/21 00:14:01.897 - [DEBUG]: The discovery service has started. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[6 - .NET ThreadPool Worker] 
+      2022/04/21 00:14:01.897 - [TRACE]: Start sending message to controllers to be discovered. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/21 00:14:02.055 - [INFO]: Now listening on: http://localhost:5097 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/21 00:14:02.055 - [INFO]: Application started. Press Ctrl+C to shut down. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/21 00:14:02.055 - [INFO]: Hosting environment: Development 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/21 00:14:02.055 - [INFO]: Content root path: D:\Projects\LedController_net5\LedController.WebPortal.Web\ 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/04/21 00:14:02.055 - [DEBUG]: Hosting started 
+ 
+LedController.WebPortal.Web.Pages.Index[15 - .NET ThreadPool Worker] 
+      2022/04/21 00:14:04.101 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Pages.Index[6 - .NET ThreadPool Worker] 
+      2022/04/21 00:14:05.820 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Pages.EffectsEditorPage[10 - .NET ThreadPool Worker] 
+      2022/04/21 00:14:07.289 - [INFO]: Loading effects page. 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[10 - .NET ThreadPool Worker] 
+      2022/04/21 00:14:07.366 - [DEBUG]: Starting effect editor for Test Effect. 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[9 - .NET ThreadPool Worker] 
+      2022/04/21 00:14:07.410 - [DEBUG]: Starting monaco editor for effect Test Effect. 
+ 
+LedController.WebPortal.Web.Pages.EffectsEditorPage[17 - .NET ThreadPool Worker] 
+      2022/04/21 00:14:09.474 - [INFO]: Showing effect dialog. 
+ 
+LedController.WebPortal.Web.Dialogs.EffectFormDialog[10 - .NET ThreadPool Worker] 
+      2022/04/21 00:14:14.847 - [INFO]: Creating a new effect with name Test Send Effect. 
+ 
+LedController.WebPortal.Core.Factories.EffectFactory[10 - .NET ThreadPool Worker] 
+      2022/04/21 00:14:14.850 - [DEBUG]: Creating a new effect. 
+ 
+LedController.WebPortal.Persistence.Sqlite.Services.Repository[10 - .NET ThreadPool Worker] 
+      2022/04/21 00:14:15.082 - [ERROR]: There was a problem with saving data to the database. But this was not a database problem. 
+ Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 19: 'NOT NULL constraint failed: Effects.FileName'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at LedController.WebPortal.Persistence.Sqlite.Services.Repository.SaveChangesAsync(CancellationToken token) in D:\Projects\LedController_net5\LedController.Portal.Persistance.Sqlite\Services\Repository.cs:line 48
+LedController.WebPortal.Web.Dialogs.EffectFormDialog[10 - .NET ThreadPool Worker] 
+      2022/04/21 00:14:15.151 - [ERROR]: There was a error saving the effect. 
+ Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 19: 'NOT NULL constraint failed: Effects.FileName'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at LedController.WebPortal.Persistence.Sqlite.Services.Repository.SaveChangesAsync(CancellationToken token) in D:\Projects\LedController_net5\LedController.Portal.Persistance.Sqlite\Services\Repository.cs:line 48
+   at LedController.WebPortal.Web.Dialogs.EffectFormDialog.SubmitAsync() in D:\Projects\LedController_net5\LedController.WebPortal.Web\Dialogs\EffectFormDialog.razor:line 89
+Microsoft.AspNetCore.Components.Server.Circuits.RemoteRenderer[10 - .NET ThreadPool Worker] 
+      2022/04/21 00:14:15.194 - [WARN]: Unhandled exception rendering component: An error occurred while saving the entity changes. See the inner exception for details. 
+ Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 19: 'NOT NULL constraint failed: Effects.FileName'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at LedController.WebPortal.Persistence.Sqlite.Services.Repository.SaveChangesAsync(CancellationToken token) in D:\Projects\LedController_net5\LedController.Portal.Persistance.Sqlite\Services\Repository.cs:line 48
+   at LedController.WebPortal.Web.Dialogs.EffectFormDialog.SubmitAsync() in D:\Projects\LedController_net5\LedController.WebPortal.Web\Dialogs\EffectFormDialog.razor:line 89
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at MudBlazor.MudBaseButton.OnClickHandler(MouseEventArgs ev)
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.GetErrorHandledTask(Task taskToHandle, ComponentState owningComponentState)
+Microsoft.AspNetCore.Components.Server.Circuits.CircuitHost[10 - .NET ThreadPool Worker] 
+      2022/04/21 00:14:15.194 - [ERROR]: Unhandled exception in circuit 'MCDTXBibgh_ep6yTdtCb1WWEpVDX1G34w-wTAlGP83s'. 
+ Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 19: 'NOT NULL constraint failed: Effects.FileName'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at LedController.WebPortal.Persistence.Sqlite.Services.Repository.SaveChangesAsync(CancellationToken token) in D:\Projects\LedController_net5\LedController.Portal.Persistance.Sqlite\Services\Repository.cs:line 48
+   at LedController.WebPortal.Web.Dialogs.EffectFormDialog.SubmitAsync() in D:\Projects\LedController_net5\LedController.WebPortal.Web\Dialogs\EffectFormDialog.razor:line 89
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at MudBlazor.MudBaseButton.OnClickHandler(MouseEventArgs ev)
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.GetErrorHandledTask(Task taskToHandle, ComponentState owningComponentState)
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/04/21 00:16:58.958 - [DEBUG]: Hosting starting 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/21 00:16:59.165 - [DEBUG]: Starting the discovery service. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/21 00:16:59.165 - [DEBUG]: Creating a new UDP client to be used for broadcasting the server information. This wil happen on UDP port 8472. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[9 - .NET ThreadPool Worker] 
+      2022/04/21 00:16:59.182 - [TRACE]: Start sending message to controllers to be discovered. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/21 00:16:59.182 - [DEBUG]: The discovery service has started. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/21 00:16:59.450 - [INFO]: Now listening on: http://localhost:5097 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/21 00:16:59.450 - [INFO]: Application started. Press Ctrl+C to shut down. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/21 00:16:59.450 - [INFO]: Hosting environment: Development 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/21 00:16:59.450 - [INFO]: Content root path: D:\Projects\LedController_net5\LedController.WebPortal.Web\ 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/04/21 00:16:59.462 - [DEBUG]: Hosting started 
+ 
+LedController.WebPortal.Web.Pages.Index[6 - .NET ThreadPool Worker] 
+      2022/04/21 00:17:01.460 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Pages.Index[15 - .NET ThreadPool Worker] 
+      2022/04/21 00:17:03.070 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Pages.EffectsEditorPage[9 - .NET ThreadPool Worker] 
+      2022/04/21 00:17:32.507 - [INFO]: Loading effects page. 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[9 - .NET ThreadPool Worker] 
+      2022/04/21 00:17:32.569 - [DEBUG]: Starting effect editor for Test Effect. 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[10 - .NET ThreadPool Worker] 
+      2022/04/21 00:17:32.641 - [DEBUG]: Starting monaco editor for effect Test Effect. 
+ 
+LedController.WebPortal.Web.Pages.ControllersPage[10 - .NET ThreadPool Worker] 
+      2022/04/21 00:17:33.977 - [INFO]: Opening controllers page. 
+ 
+LedController.WebPortal.Web.Pages.ControllersPage[6 - .NET ThreadPool Worker] 
+      2022/04/21 00:17:34.775 - [INFO]: Connecting to controller adfadf. 
+ 
+LedController.WebPortal.Core.Services.ControllerService[6 - .NET ThreadPool Worker] 
+      2022/04/21 00:17:34.790 - [INFO]: Connecting to controller 0cad14b4-18d6-4049-9354-458786f472f3. 
+ 
+LedController.WebPortal.Infrastructure.Connections.Services.GrpcControllerConnectionService[6 - .NET ThreadPool Worker] 
+      2022/04/21 00:17:34.790 - [TRACE]: Start connection with adfadf. 
+ 
+LedController.WebPortal.Infrastructure.Connections.Connections.GrpcControllerConnection[6 - .NET ThreadPool Worker] 
+      2022/04/21 00:17:34.835 - [TRACE]: Creating connection with adfadf 
+ 
+Grpc.Net.Client.Internal.GrpcCall[6 - .NET ThreadPool Worker] 
+      2022/04/21 00:17:34.869 - [DEBUG]: Starting gRPC call. Method type: 'Unary', URI: 'http://127.0.0.1:5000/connection.GrpcConnection/Connect'. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[15 - .NET ThreadPool Worker] 
+      2022/04/21 00:17:34.948 - [DEBUG]: Sending message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[15 - .NET ThreadPool Worker] 
+      2022/04/21 00:17:34.948 - [TRACE]: Serialized 'Google.Protobuf.WellKnownTypes.Empty' to 0 byte message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[9 - .NET ThreadPool Worker] 
+      2022/04/21 00:17:34.960 - [TRACE]: Message sent. 
+ 
+LedController.WebPortal.Web.Pages.EffectsEditorPage[10 - .NET ThreadPool Worker] 
+      2022/04/21 00:17:35.638 - [INFO]: Loading effects page. 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[10 - .NET ThreadPool Worker] 
+      2022/04/21 00:17:35.653 - [DEBUG]: Starting effect editor for Test Effect. 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[13 - .NET ThreadPool Worker] 
+      2022/04/21 00:17:35.667 - [DEBUG]: Starting monaco editor for effect Test Effect. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[6 - .NET ThreadPool Worker] 
+      2022/04/21 00:17:35.893 - [TRACE]: Response headers received. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[6 - .NET ThreadPool Worker] 
+      2022/04/21 00:17:35.902 - [DEBUG]: Reading message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[6 - .NET ThreadPool Worker] 
+      2022/04/21 00:17:35.902 - [TRACE]: Deserializing 0 byte message to 'Google.Protobuf.WellKnownTypes.Empty'. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[6 - .NET ThreadPool Worker] 
+      2022/04/21 00:17:35.902 - [TRACE]: Received message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[6 - .NET ThreadPool Worker] 
+      2022/04/21 00:17:35.902 - [DEBUG]: Finished gRPC call. 
+ 
+LedController.WebPortal.Infrastructure.Connections.Services.GrpcControllerConnectionService[9 - .NET ThreadPool Worker] 
+      2022/04/21 00:17:35.913 - [TRACE]: Connection with adfadf successful! 
+ 
+LedController.WebPortal.Core.Services.ControllerService[9 - .NET ThreadPool Worker] 
+      2022/04/21 00:17:35.913 - [INFO]: The controller has been connected. 
+ 
+LedController.WebPortal.Web.Pages.ControllersPage[9 - .NET ThreadPool Worker] 
+      2022/04/21 00:17:35.913 - [INFO]: Connection with controller adfadf successful. 
+ 
+LedController.WebPortal.Web.Dialogs.ControllerEffectSynchronizationDialog[6 - .NET ThreadPool Worker] 
+      2022/04/21 00:17:37.610 - [INFO]: Loading Controller effect synchronization dialog. 
+ 
+LedController.WebPortal.Web.Dialogs.ControllerEffectSynchronizationDialog[6 - .NET ThreadPool Worker] 
+      2022/04/21 00:17:42.741 - [INFO]: Synchronizing effect Test Effect with controlleradfadf. 
+ 
+LedController.WebPortal.Infrastructure.Connections.Services.GrpcControllerConnectionService[6 - .NET ThreadPool Worker] 
+      2022/04/21 00:17:42.756 - [TRACE]: Getting controller connection with adfadf. 
+ 
+LedController.WebPortal.Core.Services.ControllerService[6 - .NET ThreadPool Worker] 
+      2022/04/21 00:17:42.756 - [INFO]: Sending effect assembly to the controller. 
+ 
+LedController.WebPortal.Infrastructure.Connections.Services.FileService[6 - .NET ThreadPool Worker] 
+      2022/04/21 00:17:42.756 - [TRACE]: Starting operation to read effect assembly b91eeacd-1a7e-414d-9ebd-a126ccc07591 from D:\Projects\LedController_net5\LedController.WebPortal.Web\Assemblies\EffectAssembly-b91eeacd-1a7e-414d-9ebd-a126ccc07591.dll.dll. 
+ 
+Microsoft.AspNetCore.Components.Server.Circuits.RemoteRenderer[6 - .NET ThreadPool Worker] 
+      2022/04/21 00:17:42.878 - [WARN]: Unhandled exception rendering component: Could not find file 'D:\Projects\LedController_net5\LedController.WebPortal.Web\Assemblies\EffectAssembly-b91eeacd-1a7e-414d-9ebd-a126ccc07591.dll.dll'. 
+ System.IO.FileNotFoundException: Could not find file 'D:\Projects\LedController_net5\LedController.WebPortal.Web\Assemblies\EffectAssembly-b91eeacd-1a7e-414d-9ebd-a126ccc07591.dll.dll'.
+File name: 'D:\Projects\LedController_net5\LedController.WebPortal.Web\Assemblies\EffectAssembly-b91eeacd-1a7e-414d-9ebd-a126ccc07591.dll.dll'
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategy(FileStream fileStream, String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, Int64 preallocationSize)
+   at System.IO.File.Open(String path, FileMode mode, FileAccess access)
+   at LedController.WebPortal.Infrastructure.Connections.Services.FileService.OpenAssemblyAsync(EffectAssembly effectAssembly, CancellationToken token) in D:\Projects\LedController_net5\LedController.Portal.Infrastructure.Connections\Services\FileService.cs:line 56
+   at LedController.WebPortal.Core.Services.ControllerService.SynchronizeEffect(Controller controller, Effect effect, CancellationToken token) in D:\Projects\LedController_net5\LedController.Portal.Core\Services\ControllerService.cs:line 101
+   at LedController.WebPortal.Web.Dialogs.ControllerEffectSynchronizationDialog.SynchronizeEffect(Controller controller) in D:\Projects\LedController_net5\LedController.WebPortal.Web\Dialogs\ControllerEffectSynchronizationDialog.razor:line 90
+   at LedController.WebPortal.Web.Dialogs.ControllerEffectSynchronizationDialog.<>c__DisplayClass0_0.<<BuildRenderTree>b__9>d.MoveNext() in D:\Projects\LedController_net5\LedController.WebPortal.Web\Dialogs\ControllerEffectSynchronizationDialog.razor:line 28
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at MudBlazor.MudBaseButton.OnClickHandler(MouseEventArgs ev)
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.GetErrorHandledTask(Task taskToHandle, ComponentState owningComponentState)
+Microsoft.AspNetCore.Components.Server.Circuits.CircuitHost[6 - .NET ThreadPool Worker] 
+      2022/04/21 00:17:42.930 - [ERROR]: Unhandled exception in circuit 'gb_uDk5h8n9IehotVECyRV4ntxOp8km0RICjsvHY554'. 
+ System.IO.FileNotFoundException: Could not find file 'D:\Projects\LedController_net5\LedController.WebPortal.Web\Assemblies\EffectAssembly-b91eeacd-1a7e-414d-9ebd-a126ccc07591.dll.dll'.
+File name: 'D:\Projects\LedController_net5\LedController.WebPortal.Web\Assemblies\EffectAssembly-b91eeacd-1a7e-414d-9ebd-a126ccc07591.dll.dll'
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategy(FileStream fileStream, String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, Int64 preallocationSize)
+   at System.IO.File.Open(String path, FileMode mode, FileAccess access)
+   at LedController.WebPortal.Infrastructure.Connections.Services.FileService.OpenAssemblyAsync(EffectAssembly effectAssembly, CancellationToken token) in D:\Projects\LedController_net5\LedController.Portal.Infrastructure.Connections\Services\FileService.cs:line 56
+   at LedController.WebPortal.Core.Services.ControllerService.SynchronizeEffect(Controller controller, Effect effect, CancellationToken token) in D:\Projects\LedController_net5\LedController.Portal.Core\Services\ControllerService.cs:line 101
+   at LedController.WebPortal.Web.Dialogs.ControllerEffectSynchronizationDialog.SynchronizeEffect(Controller controller) in D:\Projects\LedController_net5\LedController.WebPortal.Web\Dialogs\ControllerEffectSynchronizationDialog.razor:line 90
+   at LedController.WebPortal.Web.Dialogs.ControllerEffectSynchronizationDialog.<>c__DisplayClass0_0.<<BuildRenderTree>b__9>d.MoveNext() in D:\Projects\LedController_net5\LedController.WebPortal.Web\Dialogs\ControllerEffectSynchronizationDialog.razor:line 28
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at MudBlazor.MudBaseButton.OnClickHandler(MouseEventArgs ev)
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.GetErrorHandledTask(Task taskToHandle, ComponentState owningComponentState)
+LedController.WebPortal.Web.Pages.EffectsEditorPage[10 - .NET ThreadPool Worker] 
+      2022/04/21 00:18:10.778 - [INFO]: Loading effects page. 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[10 - .NET ThreadPool Worker] 
+      2022/04/21 00:18:10.788 - [DEBUG]: Starting effect editor for Test Effect. 
+ 
+LedController.WebPortal.Web.Pages.EffectsEditorPage[6 - .NET ThreadPool Worker] 
+      2022/04/21 00:18:11.615 - [INFO]: Loading effects page. 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[6 - .NET ThreadPool Worker] 
+      2022/04/21 00:18:11.635 - [DEBUG]: Starting effect editor for Test Effect. 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[15 - .NET ThreadPool Worker] 
+      2022/04/21 00:18:11.721 - [DEBUG]: Starting monaco editor for effect Test Effect. 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[9 - .NET ThreadPool Worker] 
+      2022/04/21 00:18:14.725 - [INFO]: Building Test Effect. 
+ 
+LedController.WebPortal.Core.Services.EffectService[9 - .NET ThreadPool Worker] 
+      2022/04/21 00:18:14.764 - [TRACE]: Compiling effect Test Effect. 
+ 
+LedController.WebPortal.Core.Services.EffectService[9 - .NET ThreadPool Worker] 
+      2022/04/21 00:18:15.142 - [TRACE]: References added to assembly generator.  
+ 
+LedController.WebPortal.Core.Services.EffectService[9 - .NET ThreadPool Worker] 
+      2022/04/21 00:18:16.601 - [TRACE]: Assembly compiled. 
+ 
+LedController.WebPortal.Core.Services.EffectService[9 - .NET ThreadPool Worker] 
+      2022/04/21 00:18:16.616 - [TRACE]: Saving assembly. 
+ 
+LedController.WebPortal.Infrastructure.Connections.Services.FileService[9 - .NET ThreadPool Worker] 
+      2022/04/21 00:18:16.681 - [TRACE]: Starting operation to save effect assembly b91eeacd-1a7e-414d-9ebd-a126ccc07591 to D:\Projects\LedController_net5\LedController.WebPortal.Web\Assemblies\EffectAssembly-b91eeacd-1a7e-414d-9ebd-a126ccc07591.dll.dll. 
+ 
+LedController.WebPortal.Infrastructure.Connections.Services.FileService[13 - .NET ThreadPool Worker] 
+      2022/04/21 00:18:16.681 - [TRACE]: Done writing file. 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[13 - .NET ThreadPool Worker] 
+      2022/04/21 00:18:16.889 - [INFO]: Build successful for Test Effect. 
+ 
+LedController.WebPortal.Web.Dialogs.ControllerEffectSynchronizationDialog[9 - .NET ThreadPool Worker] 
+      2022/04/21 00:18:19.704 - [INFO]: Loading Controller effect synchronization dialog. 
+ 
+LedController.WebPortal.Web.Dialogs.ControllerEffectSynchronizationDialog[6 - .NET ThreadPool Worker] 
+      2022/04/21 00:18:21.328 - [INFO]: Synchronizing effect Test Effect with controlleradfadf. 
+ 
+LedController.WebPortal.Infrastructure.Connections.Services.GrpcControllerConnectionService[6 - .NET ThreadPool Worker] 
+      2022/04/21 00:18:21.343 - [TRACE]: Getting controller connection with adfadf. 
+ 
+LedController.WebPortal.Core.Services.ControllerService[6 - .NET ThreadPool Worker] 
+      2022/04/21 00:18:21.343 - [INFO]: Sending effect assembly to the controller. 
+ 
+LedController.WebPortal.Infrastructure.Connections.Services.FileService[6 - .NET ThreadPool Worker] 
+      2022/04/21 00:18:21.343 - [TRACE]: Starting operation to read effect assembly b91eeacd-1a7e-414d-9ebd-a126ccc07591 from D:\Projects\LedController_net5\LedController.WebPortal.Web\Assemblies\EffectAssembly-b91eeacd-1a7e-414d-9ebd-a126ccc07591.dll.dll. 
+ 
+LedController.WebPortal.Infrastructure.Connections.Services.FileService[6 - .NET ThreadPool Worker] 
+      2022/04/21 00:18:21.343 - [TRACE]: Done reading from file. Bytes read from file 0 
+ 
+LedController.WebPortal.Infrastructure.Connections.Connections.GrpcControllerConnection[6 - .NET ThreadPool Worker] 
+      2022/04/21 00:18:21.343 - [TRACE]: Uploading effect assembly b91eeacd-1a7e-414d-9ebd-a126ccc07591. MB 0 is going to be send to the controller. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[6 - .NET ThreadPool Worker] 
+      2022/04/21 00:18:21.343 - [DEBUG]: Starting gRPC call. Method type: 'Unary', URI: 'http://127.0.0.1:5000/connection.GrpcConnection/UploadEffectAssembly'. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[9 - .NET ThreadPool Worker] 
+      2022/04/21 00:18:21.343 - [DEBUG]: Sending message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[9 - .NET ThreadPool Worker] 
+      2022/04/21 00:18:21.352 - [TRACE]: Serialized 'LedController.WebPortal.Infrastructure.Connections.Protos.EffectAssembly' to 38 byte message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[15 - .NET ThreadPool Worker] 
+      2022/04/21 00:18:21.352 - [TRACE]: Message sent. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[13 - .NET ThreadPool Worker] 
+      2022/04/21 00:18:27.323 - [TRACE]: Response headers received. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[13 - .NET ThreadPool Worker] 
+      2022/04/21 00:18:27.323 - [DEBUG]: Reading message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[13 - .NET ThreadPool Worker] 
+      2022/04/21 00:18:27.323 - [TRACE]: Deserializing 2 byte message to 'LedController.WebPortal.Infrastructure.Connections.Protos.ResultMessage'. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[13 - .NET ThreadPool Worker] 
+      2022/04/21 00:18:27.323 - [TRACE]: Received message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[13 - .NET ThreadPool Worker] 
+      2022/04/21 00:18:27.323 - [DEBUG]: Finished gRPC call. 
+ 
+LedController.WebPortal.Infrastructure.Connections.Connections.GrpcControllerConnection[10 - .NET ThreadPool Worker] 
+      2022/04/21 00:18:27.323 - [TRACE]: Upload was successful successful 
+ 
+LedController.WebPortal.Core.Services.ControllerService[10 - .NET ThreadPool Worker] 
+      2022/04/21 00:18:27.323 - [INFO]: The effect has been uploaded to the device. 
+ 
+LedController.WebPortal.Web.Dialogs.ControllerEffectSynchronizationDialog[10 - .NET ThreadPool Worker] 
+      2022/04/21 00:18:27.323 - [INFO]: Effect synced with controller. 
+ 

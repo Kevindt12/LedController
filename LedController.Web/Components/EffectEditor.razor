@@ -1,0 +1,20 @@
+﻿
+@using MudBlazor
+@using LedController.WebPortal.Web.Models
+
+
+@foreach (PropertyDescription description in Properties)
+{
+
+	<DynamicEffectField Required="true"
+                        PropertyName="@description.PropertyName"
+                        PropertyType="@description.Type"
+                        Label="@description.DisplayName"
+                        Value="description.Value"/>
+
+}
+
+<hr />
+<MudButton Color="Color.Primary" @onclick="SaveEffectParameters">Save</MudButton>
+
+

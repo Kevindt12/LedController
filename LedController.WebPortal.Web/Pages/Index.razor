@@ -1,0 +1,122 @@
+﻿@page "/"
+
+
+@using MudBlazor
+@using LedController.Domain.Models
+@using LedController.Shared.Extensions
+@using LedController.WebPortal.Domain.Managers
+@using LedController.WebPortal.Domain.Models
+@using LedController.WebPortal.Domain.Services
+@using LedController.WebPortal.Web.Dialogs
+@using Animation = LedController.Domain.Models.Animation
+
+
+@inject ILogger<Index> _logger
+@inject IControllerManager _controllerManager
+@inject IControllerService _controllerService
+@inject IDialogService _dialogService
+
+<MudGrid>
+    
+
+
+@foreach (Controller controller in Controllers)
+{
+    <MudItem xs="12">
+        <MudText Class="pa-4" Typo="Typo.h2">@controller.Name</MudText>
+    <MudDivider />
+    <MudGrid>
+
+
+        @foreach (Ledstrip ledstrip in controller.Ledstrips)
+        {
+            Animation? playingAnimation = _controllerService.GetPlayingAnimationOnLedstripOrDefault(ledstrip);
+            <MudItem xs="3">
+                <MudCard Class="pa-4">
+                    <MudCardContent>
+                        <MudText Class="pa-4" Typo="Typo.h3">@ledstrip.Name</MudText>
+                        <MudText Class="pa-4" Typo="Typo.h5">@(_controllerService.IsControllerConnected(controller) ? "Connected" : "Disconnected")</MudText>
+                        @if (playingAnimation != null)
+                        {
+                            <MudButton Class="pa-4" Color="Color.Primary" Variant="Variant.Filled" @onclick="async () => await OpenPlayAnimationsDialogAsync(ledstrip)">
+                                Playing : @playingAnimation.Name
+                            </MudButton>
+                        }
+                        else
+                        {
+                            <MudButton Class="pa-4" Variant="Variant.Filled" Color="Color.Primary" @onclick="async () => await OpenPlayAnimationsDialogAsync(ledstrip)">
+                                Nothing Playing
+                            </MudButton>
+                        }
+
+                    </MudCardContent>
+                    <MudCardActions>
+                        <MudButton></MudButton>
+
+                    </MudCardActions>
+                </MudCard>
+            </MudItem>
+        }
+
+
+    </MudGrid>
+
+    </MudItem>
+    <MudDivider />
+}
+
+</MudGrid>
+
+@code {
+
+    /// <summary>
+    /// The controllers that we have in the application.
+    /// </summary>
+    public ICollection<Controller> Controllers { get; set; } = new List<Controller>();
+
+
+    /// <inheritdoc />
+    protected override async Task OnInitializedAsync()
+    {
+        _logger.LogInformation($"Opening the index page.");
+
+        await foreach (Controller controller in _controllerManager.GetAsync())
+        {
+            Controllers.Add(controller);
+        }
+
+        await base.OnInitializedAsync();
+    }
+
+    /// <summary>
+    /// Open animations dialog to select an animation to play.
+    /// </summary>
+    /// <param name="ledstrip">The ledstrip that </param>
+    /// <returns></returns>
+    /// <exception cref="ArgumentNullException"></exception>
+    protected virtual async Task OpenPlayAnimationsDialogAsync(Ledstrip ledstrip)
+    {
+        _logger.LogInformation($"Opening the play animation dialog from the index page.");
+        IDialogReference dialog = _dialogService.Show<SelectAnimationDialog>("Animations", parameters: new DialogParameters()
+        {
+            {"Ledstrip", ledstrip}
+        }, options: new DialogOptions() { FullWidth = true });
+
+        DialogResult result = await dialog.Result;
+        if (result.Cancelled)
+        {
+            _logger.LogInformation($"Select animation has been cancelled.");
+            return;
+        }
+
+        Animation animation = result.Data as Animation ?? throw new ArgumentNullException(nameof(result.Data)); 
+        _logger.LogDebug($"Animation {animation.Name} selected.");
+
+        await _controllerService.PlayAnimationOnLedstrip(ledstrip, animation);
+        _logger.LogInformation($"Start playing animation {animation.Name} on ledstrip {ledstrip.Name}.");
+    }
+
+
+
+
+}

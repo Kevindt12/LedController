@@ -1,0 +1,1889 @@
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/04/17 00:21:09.454 - [DEBUG]: Hosting starting 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/17 00:21:09.584 - [DEBUG]: Starting the discovery service. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/17 00:21:09.601 - [DEBUG]: Creating a new UDP client to be used for broadcasting the server information. This wil happen on UDP port 8472. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[6 - .NET ThreadPool Worker] 
+      2022/04/17 00:21:09.618 - [TRACE]: Start sending message to controllers to be discovered. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/17 00:21:09.618 - [DEBUG]: The discovery service has started. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/17 00:21:09.743 - [INFO]: Now listening on: http://localhost:5097 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/17 00:21:09.759 - [INFO]: Application started. Press Ctrl+C to shut down. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/17 00:21:09.759 - [INFO]: Hosting environment: Development 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/17 00:21:09.759 - [INFO]: Content root path: D:\Projects\LedController_net5\LedController.WebPortal.Web\ 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/04/17 00:21:09.759 - [DEBUG]: Hosting started 
+ 
+LedController.WebPortal.Web.Pages.Index[6 - .NET ThreadPool Worker] 
+      2022/04/17 00:21:12.663 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Pages.Index[13 - .NET ThreadPool Worker] 
+      2022/04/17 00:21:14.743 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Pages.ControllersPage[13 - .NET ThreadPool Worker] 
+      2022/04/17 00:21:20.445 - [INFO]: Opening controllers page. 
+ 
+LedController.WebPortal.Web.Pages.ControllersPage[13 - .NET ThreadPool Worker] 
+      2022/04/17 00:21:29.787 - [INFO]: Connecting to controller Controller 1427966868. 
+ 
+LedController.WebPortal.Core.Services.ControllerService[13 - .NET ThreadPool Worker] 
+      2022/04/17 00:21:29.805 - [INFO]: Connecting to controller e429a7c8-43cf-47c0-82f7-c4711091edb6. 
+ 
+LedController.WebPortal.Infrastructure.Connections.Connections.GrpcControllerConnection[13 - .NET ThreadPool Worker] 
+      2022/04/17 00:21:29.851 - [TRACE]: Creating connection with Controller 1427966868 
+ 
+Grpc.Net.Client.Internal.GrpcCall[13 - .NET ThreadPool Worker] 
+      2022/04/17 00:21:29.896 - [DEBUG]: Starting gRPC call. Method type: 'Unary', URI: 'http://10.0.3.75:5000/connection.GrpcConnection/Connect'. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[12 - .NET ThreadPool Worker] 
+      2022/04/17 00:21:30.338 - [DEBUG]: Sending message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[12 - .NET ThreadPool Worker] 
+      2022/04/17 00:21:30.353 - [TRACE]: Serialized 'Google.Protobuf.WellKnownTypes.Empty' to 0 byte message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[6 - .NET ThreadPool Worker] 
+      2022/04/17 00:21:30.353 - [TRACE]: Message sent. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[9 - .NET ThreadPool Worker] 
+      2022/04/17 00:21:31.605 - [TRACE]: Response headers received. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[9 - .NET ThreadPool Worker] 
+      2022/04/17 00:21:31.605 - [DEBUG]: Reading message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[9 - .NET ThreadPool Worker] 
+      2022/04/17 00:21:31.616 - [TRACE]: Deserializing 0 byte message to 'Google.Protobuf.WellKnownTypes.Empty'. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[9 - .NET ThreadPool Worker] 
+      2022/04/17 00:21:31.616 - [TRACE]: Received message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[9 - .NET ThreadPool Worker] 
+      2022/04/17 00:21:31.616 - [DEBUG]: Finished gRPC call. 
+ 
+LedController.WebPortal.Core.Services.ControllerService[12 - .NET ThreadPool Worker] 
+      2022/04/17 00:21:31.616 - [INFO]: The controller has been connected. 
+ 
+LedController.WebPortal.Web.Pages.ControllersPage[12 - .NET ThreadPool Worker] 
+      2022/04/17 00:21:31.616 - [INFO]: Connection with controller Controller 1427966868 successful. 
+ 
+LedController.WebPortal.Web.Pages.LedstripsPage[9 - .NET ThreadPool Worker] 
+      2022/04/17 00:22:16.757 - [INFO]: Loading ledstrips page. 
+ 
+LedController.WebPortal.Web.Pages.LedstripsPage[13 - .NET ThreadPool Worker] 
+      2022/04/17 00:22:23.724 - [INFO]: Testing ledstrip Test ledstrip. 
+ 
+LedController.WebPortal.Infrastructure.Connections.Connections.GrpcControllerConnection[13 - .NET ThreadPool Worker] 
+      2022/04/17 00:22:23.744 - [TRACE]: Sending message to e429a7c8-43cf-47c0-82f7-c4711091edb6, test the strip. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[13 - .NET ThreadPool Worker] 
+      2022/04/17 00:22:23.744 - [DEBUG]: Starting gRPC call. Method type: 'Unary', URI: 'http://10.0.3.75:5000/connection.GrpcConnection/TestLedstrip'. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[9 - .NET ThreadPool Worker] 
+      2022/04/17 00:22:23.744 - [DEBUG]: Sending message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[9 - .NET ThreadPool Worker] 
+      2022/04/17 00:22:23.744 - [TRACE]: Serialized 'LedController.WebPortal.Infrastructure.Connections.Protos.Ledstrip' to 80 byte message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[13 - .NET ThreadPool Worker] 
+      2022/04/17 00:22:23.756 - [TRACE]: Message sent. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[6 - .NET ThreadPool Worker] 
+      2022/04/17 00:22:24.259 - [TRACE]: Response headers received. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[6 - .NET ThreadPool Worker] 
+      2022/04/17 00:22:24.274 - [INFO]: Call failed with gRPC error status. Status code: 'Unknown', Message: 'Exception was thrown by handler.'. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[6 - .NET ThreadPool Worker] 
+      2022/04/17 00:22:24.274 - [DEBUG]: Finished gRPC call. 
+ 
+Microsoft.AspNetCore.Components.Server.Circuits.RemoteRenderer[28 - .NET ThreadPool Worker] 
+      2022/04/17 00:22:24.367 - [WARN]: Unhandled exception rendering component: Status(StatusCode="Unknown", Detail="Exception was thrown by handler.") 
+ Grpc.Core.RpcException: Status(StatusCode="Unknown", Detail="Exception was thrown by handler.")
+   at LedController.WebPortal.Infrastructure.Connections.Connections.GrpcControllerConnection.TestAsync(Ledstrip ledstrip, CancellationToken token) in D:\Projects\LedController_net5\LedController.Portal.Infrastructure.Connections\Connections\GrpcControllerConnection.cs:line 139
+   at LedController.WebPortal.Core.Services.ControllerService.TestLedstripAsync(Ledstrip ledstrip, CancellationToken token) in D:\Projects\LedController_net5\LedController.Portal.Core\Services\ControllerService.cs:line 152
+   at LedController.WebPortal.Web.Pages.LedstripsPage.TestLedstripAsync(Ledstrip ledstrip) in D:\Projects\LedController_net5\LedController.WebPortal.Web\Pages\LedstripsPage.razor:line 139
+   at LedController.WebPortal.Web.Pages.LedstripsPage.<>c__DisplayClass0_1.<<BuildRenderTree>b__19>d.MoveNext() in D:\Projects\LedController_net5\LedController.WebPortal.Web\Pages\LedstripsPage.razor:line 58
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at MudBlazor.MudBaseButton.OnClickHandler(MouseEventArgs ev)
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.GetErrorHandledTask(Task taskToHandle, ComponentState owningComponentState)
+Microsoft.AspNetCore.Components.Server.Circuits.CircuitHost[28 - .NET ThreadPool Worker] 
+      2022/04/17 00:22:24.414 - [ERROR]: Unhandled exception in circuit 'DOm4S3psJo8YgVQdGP34xEP9g1tVCAx-jl6NPOTqhzU'. 
+ Grpc.Core.RpcException: Status(StatusCode="Unknown", Detail="Exception was thrown by handler.")
+   at LedController.WebPortal.Infrastructure.Connections.Connections.GrpcControllerConnection.TestAsync(Ledstrip ledstrip, CancellationToken token) in D:\Projects\LedController_net5\LedController.Portal.Infrastructure.Connections\Connections\GrpcControllerConnection.cs:line 139
+   at LedController.WebPortal.Core.Services.ControllerService.TestLedstripAsync(Ledstrip ledstrip, CancellationToken token) in D:\Projects\LedController_net5\LedController.Portal.Core\Services\ControllerService.cs:line 152
+   at LedController.WebPortal.Web.Pages.LedstripsPage.TestLedstripAsync(Ledstrip ledstrip) in D:\Projects\LedController_net5\LedController.WebPortal.Web\Pages\LedstripsPage.razor:line 139
+   at LedController.WebPortal.Web.Pages.LedstripsPage.<>c__DisplayClass0_1.<<BuildRenderTree>b__19>d.MoveNext() in D:\Projects\LedController_net5\LedController.WebPortal.Web\Pages\LedstripsPage.razor:line 58
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at MudBlazor.MudBaseButton.OnClickHandler(MouseEventArgs ev)
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.GetErrorHandledTask(Task taskToHandle, ComponentState owningComponentState)
+LedController.WebPortal.Web.Pages.SpiBusesPage[9 - .NET ThreadPool Worker] 
+      2022/04/17 00:22:47.085 - [INFO]: Opening the spi buses page, and loading the spi buses from the application. 
+ 
+LedController.WebPortal.Web.Pages.SpiBusesPage[9 - .NET ThreadPool Worker] 
+      2022/04/17 00:22:47.928 - [INFO]: Opening the spi buses page, and loading the spi buses from the application. 
+ 
+LedController.WebPortal.Web.Pages.SpiBusesPage[31 - .NET ThreadPool Worker] 
+      2022/04/17 00:22:48.959 - [INFO]: Opening the edit spi bus dialog. Test Bus. 
+ 
+LedController.WebPortal.Core.Managers.ControllerManager[31 - .NET ThreadPool Worker] 
+      2022/04/17 00:22:49.007 - [DEBUG]: Getting controller by spi bus Test Bus 
+ 
+LedController.WebPortal.Core.Managers.ControllerManager[31 - .NET ThreadPool Worker] 
+      2022/04/17 00:22:49.072 - [DEBUG]: Getting controller by spi bus Test Bus 
+ 
+LedController.WebPortal.Web.Dialogs.SpiBusFormDialog[18 - .NET ThreadPool Worker] 
+      2022/04/17 00:23:18.201 - [INFO]: Saving spi bus Test Bus. 
+ 
+LedController.WebPortal.Web.Dialogs.SpiBusFormDialog[18 - .NET ThreadPool Worker] 
+      2022/04/17 00:23:18.395 - [DEBUG]: Spi bus saved. Adding spi bus to controller. 
+ 
+LedController.WebPortal.Web.Dialogs.SpiBusFormDialog[18 - .NET ThreadPool Worker] 
+      2022/04/17 00:23:18.397 - [DEBUG]: Updating controller to modifiy the spi bus controller selection. 
+ 
+LedController.WebPortal.Web.Dialogs.SpiBusFormDialog[18 - .NET ThreadPool Worker] 
+      2022/04/17 00:23:18.397 - [INFO]: spi buses Has been saved! 
+ 
+LedController.WebPortal.Web.Pages.SpiBusesPage[18 - .NET ThreadPool Worker] 
+      2022/04/17 00:23:18.397 - [INFO]: Closing spi bus form. Reloading spi buses page. 
+ 
+LedController.WebPortal.Web.Pages.SpiBusesPage[24 - .NET ThreadPool Worker] 
+      2022/04/17 00:23:18.417 - [INFO]: Opening the spi buses page, and loading the spi buses from the application. 
+ 
+LedController.WebPortal.Web.Pages.SpiBusesPage[9 - .NET ThreadPool Worker] 
+      2022/04/17 00:23:19.383 - [INFO]: Opening the spi buses page, and loading the spi buses from the application. 
+ 
+LedController.WebPortal.Web.Pages.LedstripsPage[9 - .NET ThreadPool Worker] 
+      2022/04/17 00:23:25.493 - [INFO]: Loading ledstrips page. 
+ 
+LedController.WebPortal.Web.Pages.LedstripsPage[9 - .NET ThreadPool Worker] 
+      2022/04/17 00:23:29.074 - [INFO]: Testing ledstrip Test ledstrip. 
+ 
+LedController.WebPortal.Infrastructure.Connections.Connections.GrpcControllerConnection[9 - .NET ThreadPool Worker] 
+      2022/04/17 00:23:29.089 - [TRACE]: Sending message to e429a7c8-43cf-47c0-82f7-c4711091edb6, test the strip. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[9 - .NET ThreadPool Worker] 
+      2022/04/17 00:23:29.089 - [DEBUG]: Starting gRPC call. Method type: 'Unary', URI: 'http://10.0.3.75:5000/connection.GrpcConnection/TestLedstrip'. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[6 - .NET ThreadPool Worker] 
+      2022/04/17 00:23:29.089 - [DEBUG]: Sending message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[6 - .NET ThreadPool Worker] 
+      2022/04/17 00:23:29.089 - [TRACE]: Serialized 'LedController.WebPortal.Infrastructure.Connections.Protos.Ledstrip' to 78 byte message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[18 - .NET ThreadPool Worker] 
+      2022/04/17 00:23:29.089 - [TRACE]: Message sent. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[6 - .NET ThreadPool Worker] 
+      2022/04/17 00:23:39.877 - [TRACE]: Response headers received. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[6 - .NET ThreadPool Worker] 
+      2022/04/17 00:23:39.892 - [DEBUG]: Reading message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[6 - .NET ThreadPool Worker] 
+      2022/04/17 00:23:39.892 - [TRACE]: Deserializing 2 byte message to 'LedController.WebPortal.Infrastructure.Connections.Protos.ResultMessage'. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[6 - .NET ThreadPool Worker] 
+      2022/04/17 00:23:39.897 - [TRACE]: Received message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[6 - .NET ThreadPool Worker] 
+      2022/04/17 00:23:39.897 - [DEBUG]: Finished gRPC call. 
+ 
+LedController.WebPortal.Infrastructure.Connections.Connections.GrpcControllerConnection[9 - .NET ThreadPool Worker] 
+      2022/04/17 00:23:39.897 - [TRACE]: Test on ledstrip was successful 
+ 
+LedController.WebPortal.Web.Pages.LedstripsPage[9 - .NET ThreadPool Worker] 
+      2022/04/17 00:26:19.680 - [INFO]: Testing ledstrip Test ledstrip. 
+ 
+LedController.WebPortal.Infrastructure.Connections.Connections.GrpcControllerConnection[9 - .NET ThreadPool Worker] 
+      2022/04/17 00:26:19.695 - [TRACE]: Sending message to e429a7c8-43cf-47c0-82f7-c4711091edb6, test the strip. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[9 - .NET ThreadPool Worker] 
+      2022/04/17 00:26:19.695 - [DEBUG]: Starting gRPC call. Method type: 'Unary', URI: 'http://10.0.3.75:5000/connection.GrpcConnection/TestLedstrip'. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[9 - .NET ThreadPool Worker] 
+      2022/04/17 00:26:19.901 - [DEBUG]: Sending message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[9 - .NET ThreadPool Worker] 
+      2022/04/17 00:26:19.901 - [TRACE]: Serialized 'LedController.WebPortal.Infrastructure.Connections.Protos.Ledstrip' to 78 byte message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[18 - .NET ThreadPool Worker] 
+      2022/04/17 00:26:19.901 - [TRACE]: Message sent. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[6 - .NET ThreadPool Worker] 
+      2022/04/17 00:26:25.911 - [TRACE]: Response headers received. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[6 - .NET ThreadPool Worker] 
+      2022/04/17 00:26:25.926 - [DEBUG]: Reading message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[6 - .NET ThreadPool Worker] 
+      2022/04/17 00:26:25.926 - [TRACE]: Deserializing 2 byte message to 'LedController.WebPortal.Infrastructure.Connections.Protos.ResultMessage'. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[6 - .NET ThreadPool Worker] 
+      2022/04/17 00:26:25.926 - [TRACE]: Received message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[6 - .NET ThreadPool Worker] 
+      2022/04/17 00:26:25.926 - [DEBUG]: Finished gRPC call. 
+ 
+LedController.WebPortal.Infrastructure.Connections.Connections.GrpcControllerConnection[9 - .NET ThreadPool Worker] 
+      2022/04/17 00:26:25.926 - [TRACE]: Test on ledstrip was successful 
+ 
+LedController.WebPortal.Web.Pages.LedstripsPage[6 - .NET ThreadPool Worker] 
+      2022/04/17 00:26:34.863 - [INFO]: Testing ledstrip Test ledstrip. 
+ 
+LedController.WebPortal.Infrastructure.Connections.Connections.GrpcControllerConnection[6 - .NET ThreadPool Worker] 
+      2022/04/17 00:26:34.878 - [TRACE]: Sending message to e429a7c8-43cf-47c0-82f7-c4711091edb6, test the strip. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[6 - .NET ThreadPool Worker] 
+      2022/04/17 00:26:34.878 - [DEBUG]: Starting gRPC call. Method type: 'Unary', URI: 'http://10.0.3.75:5000/connection.GrpcConnection/TestLedstrip'. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[9 - .NET ThreadPool Worker] 
+      2022/04/17 00:26:34.878 - [DEBUG]: Sending message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[9 - .NET ThreadPool Worker] 
+      2022/04/17 00:26:34.878 - [TRACE]: Serialized 'LedController.WebPortal.Infrastructure.Connections.Protos.Ledstrip' to 78 byte message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[18 - .NET ThreadPool Worker] 
+      2022/04/17 00:26:34.878 - [TRACE]: Message sent. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[18 - .NET ThreadPool Worker] 
+      2022/04/17 00:26:41.062 - [TRACE]: Response headers received. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[18 - .NET ThreadPool Worker] 
+      2022/04/17 00:26:41.076 - [DEBUG]: Reading message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[18 - .NET ThreadPool Worker] 
+      2022/04/17 00:26:41.076 - [TRACE]: Deserializing 2 byte message to 'LedController.WebPortal.Infrastructure.Connections.Protos.ResultMessage'. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[18 - .NET ThreadPool Worker] 
+      2022/04/17 00:26:41.076 - [TRACE]: Received message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[18 - .NET ThreadPool Worker] 
+      2022/04/17 00:26:41.076 - [DEBUG]: Finished gRPC call. 
+ 
+LedController.WebPortal.Infrastructure.Connections.Connections.GrpcControllerConnection[9 - .NET ThreadPool Worker] 
+      2022/04/17 00:26:41.076 - [TRACE]: Test on ledstrip was successful 
+ 
+LedController.WebPortal.Web.Pages.LedstripsPage[18 - .NET ThreadPool Worker] 
+      2022/04/17 00:28:32.733 - [INFO]: Opening the edit ledstrip dialog. Test ledstrip 
+ 
+LedController.WebPortal.Web.Dialogs.LedstripFormDialog[18 - .NET ThreadPool Worker] 
+      2022/04/17 00:28:32.742 - [INFO]: Opening edit ledstrip dialog. Editing a existing ledstrip. 
+ 
+LedController.WebPortal.Web.Pages.SpiBusesPage[6 - .NET ThreadPool Worker] 
+      2022/04/17 00:28:47.114 - [INFO]: Opening the spi buses page, and loading the spi buses from the application. 
+ 
+LedController.WebPortal.Web.Pages.SpiBusesPage[41 - .NET ThreadPool Worker] 
+      2022/04/17 00:28:48.038 - [INFO]: Opening the edit spi bus dialog. Test Bus. 
+ 
+LedController.WebPortal.Core.Managers.ControllerManager[41 - .NET ThreadPool Worker] 
+      2022/04/17 00:28:48.053 - [DEBUG]: Getting controller by spi bus Test Bus 
+ 
+LedController.WebPortal.Core.Managers.ControllerManager[41 - .NET ThreadPool Worker] 
+      2022/04/17 00:28:48.053 - [DEBUG]: Getting controller by spi bus Test Bus 
+ 
+LedController.WebPortal.Web.Dialogs.SpiBusFormDialog[6 - .NET ThreadPool Worker] 
+      2022/04/17 00:29:05.019 - [INFO]: Saving spi bus Test Bus. 
+ 
+LedController.WebPortal.Web.Dialogs.SpiBusFormDialog[6 - .NET ThreadPool Worker] 
+      2022/04/17 00:29:05.038 - [DEBUG]: Spi bus saved. Adding spi bus to controller. 
+ 
+LedController.WebPortal.Web.Dialogs.SpiBusFormDialog[6 - .NET ThreadPool Worker] 
+      2022/04/17 00:29:05.038 - [DEBUG]: Updating controller to modifiy the spi bus controller selection. 
+ 
+LedController.WebPortal.Web.Dialogs.SpiBusFormDialog[6 - .NET ThreadPool Worker] 
+      2022/04/17 00:29:05.038 - [INFO]: spi buses Has been saved! 
+ 
+LedController.WebPortal.Web.Pages.SpiBusesPage[6 - .NET ThreadPool Worker] 
+      2022/04/17 00:29:05.038 - [INFO]: Closing spi bus form. Reloading spi buses page. 
+ 
+LedController.WebPortal.Web.Pages.SpiBusesPage[6 - .NET ThreadPool Worker] 
+      2022/04/17 00:29:05.054 - [INFO]: Opening the spi buses page, and loading the spi buses from the application. 
+ 
+LedController.WebPortal.Web.Pages.SpiBusesPage[18 - .NET ThreadPool Worker] 
+      2022/04/17 00:29:05.933 - [INFO]: Opening the spi buses page, and loading the spi buses from the application. 
+ 
+LedController.WebPortal.Web.Pages.LedstripsPage[18 - .NET ThreadPool Worker] 
+      2022/04/17 00:29:06.371 - [INFO]: Loading ledstrips page. 
+ 
+LedController.WebPortal.Web.Pages.LedstripsPage[6 - .NET ThreadPool Worker] 
+      2022/04/17 00:29:07.454 - [INFO]: Opening the edit ledstrip dialog. Test ledstrip 
+ 
+LedController.WebPortal.Web.Dialogs.LedstripFormDialog[6 - .NET ThreadPool Worker] 
+      2022/04/17 00:29:07.469 - [INFO]: Opening edit ledstrip dialog. Editing a existing ledstrip. 
+ 
+LedController.WebPortal.Core.Managers.ControllerManager[18 - .NET ThreadPool Worker] 
+      2022/04/17 00:29:10.918 - [DEBUG]: Getting controller by spi bus Test Bus 
+ 
+LedController.WebPortal.Web.Dialogs.LedstripFormDialog[18 - .NET ThreadPool Worker] 
+      2022/04/17 00:29:11.002 - [ERROR]: There was a problem with removing a ledstrip. 
+ System.InvalidOperationException: The instance of entity type 'LedstripEntity' cannot be tracked because another instance with the same key value for {'Id'} is already being tracked. When attaching existing entities, ensure that only one entity instance with a given key value is attached. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see the conflicting key values.
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.ThrowIdentityConflict(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.Add(TKey key, InternalEntityEntry entry, Boolean updateDuplicate)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.Add(TKey key, InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.Add(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.StartTracking(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetEntityState(EntityState oldState, EntityState newState, Boolean acceptChanges, Boolean modifyProperties)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetEntityState(EntityState entityState, Boolean acceptChanges, Boolean modifyProperties, Nullable`1 forceStateWhenUnknownKey)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityGraphAttacher.PaintAction(EntityEntryGraphNode`1 node)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityEntryGraphIterator.TraverseGraph[TState](EntityEntryGraphNode`1 node, Func`2 handleNode)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityEntryGraphIterator.TraverseGraph[TState](EntityEntryGraphNode`1 node, Func`2 handleNode)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityGraphAttacher.AttachGraph(InternalEntityEntry rootEntry, EntityState targetState, EntityState storeGeneratedWithKeySetTargetState, Boolean forceStateWhenUnknownKey)
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.SetEntityState(InternalEntityEntry entry, EntityState entityState)
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.Update(TEntity entity)
+   at LedController.WebPortal.Persistence.Sqlite.Stores.StoreBase`2.Update(TModel item) in D:\Projects\LedController_net5\LedController.Portal.Persistance.Sqlite\Stores\StoreBase.cs:line 57
+   at LedController.WebPortal.Core.Managers.ManagerBase`2.Update(TModel item, CancellationToken token) in D:\Projects\LedController_net5\LedController.Portal.Core\Managers\ManagerBase.cs:line 60
+   at LedController.WebPortal.Web.Dialogs.LedstripFormDialog.SubmitAsync() in D:\Projects\LedController_net5\LedController.WebPortal.Web\Dialogs\LedstripFormDialog.razor:line 143
+LedController.WebPortal.Web.Pages.LedstripsPage[18 - .NET ThreadPool Worker] 
+      2022/04/17 00:29:11.030 - [DEBUG]: Ledstrip dialog closed reloading ledstrips page. 
+ 
+Microsoft.AspNetCore.Components.Server.Circuits.RemoteRenderer[18 - .NET ThreadPool Worker] 
+      2022/04/17 00:29:11.030 - [WARN]: Unhandled exception rendering component: The instance of entity type 'LedstripEntity' cannot be tracked because another instance with the same key value for {'Id'} is already being tracked. When attaching existing entities, ensure that only one entity instance with a given key value is attached. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see the conflicting key values. 
+ System.InvalidOperationException: The instance of entity type 'LedstripEntity' cannot be tracked because another instance with the same key value for {'Id'} is already being tracked. When attaching existing entities, ensure that only one entity instance with a given key value is attached. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see the conflicting key values.
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.ThrowIdentityConflict(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.Add(TKey key, InternalEntityEntry entry, Boolean updateDuplicate)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.Add(TKey key, InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.Add(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.StartTracking(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetEntityState(EntityState oldState, EntityState newState, Boolean acceptChanges, Boolean modifyProperties)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetEntityState(EntityState entityState, Boolean acceptChanges, Boolean modifyProperties, Nullable`1 forceStateWhenUnknownKey)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityGraphAttacher.PaintAction(EntityEntryGraphNode`1 node)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityEntryGraphIterator.TraverseGraph[TState](EntityEntryGraphNode`1 node, Func`2 handleNode)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityEntryGraphIterator.TraverseGraph[TState](EntityEntryGraphNode`1 node, Func`2 handleNode)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityGraphAttacher.AttachGraph(InternalEntityEntry rootEntry, EntityState targetState, EntityState storeGeneratedWithKeySetTargetState, Boolean forceStateWhenUnknownKey)
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.SetEntityState(InternalEntityEntry entry, EntityState entityState)
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.Update(TEntity entity)
+   at LedController.WebPortal.Persistence.Sqlite.Stores.StoreBase`2.Update(TModel item) in D:\Projects\LedController_net5\LedController.Portal.Persistance.Sqlite\Stores\StoreBase.cs:line 57
+   at LedController.WebPortal.Core.Managers.ManagerBase`2.Update(TModel item, CancellationToken token) in D:\Projects\LedController_net5\LedController.Portal.Core\Managers\ManagerBase.cs:line 60
+   at LedController.WebPortal.Web.Dialogs.LedstripFormDialog.SubmitAsync() in D:\Projects\LedController_net5\LedController.WebPortal.Web\Dialogs\LedstripFormDialog.razor:line 143
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at MudBlazor.MudBaseButton.OnClickHandler(MouseEventArgs ev)
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.GetErrorHandledTask(Task taskToHandle, ComponentState owningComponentState)
+Microsoft.AspNetCore.Components.Server.Circuits.CircuitHost[18 - .NET ThreadPool Worker] 
+      2022/04/17 00:29:11.037 - [ERROR]: Unhandled exception in circuit '0vw1vD3QTlZ_9aAUcqJP1UbyVeTuts2q4hc_OO2hO7w'. 
+ System.InvalidOperationException: The instance of entity type 'LedstripEntity' cannot be tracked because another instance with the same key value for {'Id'} is already being tracked. When attaching existing entities, ensure that only one entity instance with a given key value is attached. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see the conflicting key values.
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.ThrowIdentityConflict(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.Add(TKey key, InternalEntityEntry entry, Boolean updateDuplicate)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.Add(TKey key, InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.Add(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.StartTracking(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetEntityState(EntityState oldState, EntityState newState, Boolean acceptChanges, Boolean modifyProperties)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetEntityState(EntityState entityState, Boolean acceptChanges, Boolean modifyProperties, Nullable`1 forceStateWhenUnknownKey)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityGraphAttacher.PaintAction(EntityEntryGraphNode`1 node)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityEntryGraphIterator.TraverseGraph[TState](EntityEntryGraphNode`1 node, Func`2 handleNode)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityEntryGraphIterator.TraverseGraph[TState](EntityEntryGraphNode`1 node, Func`2 handleNode)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityGraphAttacher.AttachGraph(InternalEntityEntry rootEntry, EntityState targetState, EntityState storeGeneratedWithKeySetTargetState, Boolean forceStateWhenUnknownKey)
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.SetEntityState(InternalEntityEntry entry, EntityState entityState)
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.Update(TEntity entity)
+   at LedController.WebPortal.Persistence.Sqlite.Stores.StoreBase`2.Update(TModel item) in D:\Projects\LedController_net5\LedController.Portal.Persistance.Sqlite\Stores\StoreBase.cs:line 57
+   at LedController.WebPortal.Core.Managers.ManagerBase`2.Update(TModel item, CancellationToken token) in D:\Projects\LedController_net5\LedController.Portal.Core\Managers\ManagerBase.cs:line 60
+   at LedController.WebPortal.Web.Dialogs.LedstripFormDialog.SubmitAsync() in D:\Projects\LedController_net5\LedController.WebPortal.Web\Dialogs\LedstripFormDialog.razor:line 143
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at MudBlazor.MudBaseButton.OnClickHandler(MouseEventArgs ev)
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.GetErrorHandledTask(Task taskToHandle, ComponentState owningComponentState)
+LedController.WebPortal.Web.Pages.LedstripsPage[18 - .NET ThreadPool Worker] 
+      2022/04/17 00:29:11.037 - [INFO]: Loading ledstrips page. 
+ 
+LedController.WebPortal.Web.Pages.LedstripsPage[6 - .NET ThreadPool Worker] 
+      2022/04/17 00:29:11.735 - [INFO]: Loading ledstrips page. 
+ 
+LedController.WebPortal.Web.Pages.LedstripsPage[6 - .NET ThreadPool Worker] 
+      2022/04/17 00:29:32.433 - [INFO]: Opening the edit ledstrip dialog. Test ledstrip 
+ 
+LedController.WebPortal.Web.Dialogs.LedstripFormDialog[6 - .NET ThreadPool Worker] 
+      2022/04/17 00:29:32.448 - [INFO]: Opening edit ledstrip dialog. Editing a existing ledstrip. 
+ 
+LedController.WebPortal.Web.Dialogs.LedstripFormDialog[9 - .NET ThreadPool Worker] 
+      2022/04/17 00:29:36.225 - [ERROR]: There was a problem with removing a ledstrip. 
+ System.InvalidOperationException: The instance of entity type 'LedstripEntity' cannot be tracked because another instance with the same key value for {'Id'} is already being tracked. When attaching existing entities, ensure that only one entity instance with a given key value is attached. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see the conflicting key values.
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.ThrowIdentityConflict(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.Add(TKey key, InternalEntityEntry entry, Boolean updateDuplicate)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.Add(TKey key, InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.Add(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.StartTracking(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetEntityState(EntityState oldState, EntityState newState, Boolean acceptChanges, Boolean modifyProperties)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetEntityState(EntityState entityState, Boolean acceptChanges, Boolean modifyProperties, Nullable`1 forceStateWhenUnknownKey)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityGraphAttacher.PaintAction(EntityEntryGraphNode`1 node)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityEntryGraphIterator.TraverseGraph[TState](EntityEntryGraphNode`1 node, Func`2 handleNode)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityGraphAttacher.AttachGraph(InternalEntityEntry rootEntry, EntityState targetState, EntityState storeGeneratedWithKeySetTargetState, Boolean forceStateWhenUnknownKey)
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.SetEntityState(InternalEntityEntry entry, EntityState entityState)
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.Update(TEntity entity)
+   at LedController.WebPortal.Persistence.Sqlite.Stores.StoreBase`2.Update(TModel item) in D:\Projects\LedController_net5\LedController.Portal.Persistance.Sqlite\Stores\StoreBase.cs:line 57
+   at LedController.WebPortal.Core.Managers.ManagerBase`2.Update(TModel item, CancellationToken token) in D:\Projects\LedController_net5\LedController.Portal.Core\Managers\ManagerBase.cs:line 60
+   at LedController.WebPortal.Web.Dialogs.LedstripFormDialog.SubmitAsync() in D:\Projects\LedController_net5\LedController.WebPortal.Web\Dialogs\LedstripFormDialog.razor:line 138
+LedController.WebPortal.Web.Pages.LedstripsPage[9 - .NET ThreadPool Worker] 
+      2022/04/17 00:29:36.261 - [DEBUG]: Ledstrip dialog closed reloading ledstrips page. 
+ 
+Microsoft.AspNetCore.Components.Server.Circuits.RemoteRenderer[9 - .NET ThreadPool Worker] 
+      2022/04/17 00:29:36.261 - [WARN]: Unhandled exception rendering component: The instance of entity type 'LedstripEntity' cannot be tracked because another instance with the same key value for {'Id'} is already being tracked. When attaching existing entities, ensure that only one entity instance with a given key value is attached. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see the conflicting key values. 
+ System.InvalidOperationException: The instance of entity type 'LedstripEntity' cannot be tracked because another instance with the same key value for {'Id'} is already being tracked. When attaching existing entities, ensure that only one entity instance with a given key value is attached. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see the conflicting key values.
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.ThrowIdentityConflict(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.Add(TKey key, InternalEntityEntry entry, Boolean updateDuplicate)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.Add(TKey key, InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.Add(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.StartTracking(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetEntityState(EntityState oldState, EntityState newState, Boolean acceptChanges, Boolean modifyProperties)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetEntityState(EntityState entityState, Boolean acceptChanges, Boolean modifyProperties, Nullable`1 forceStateWhenUnknownKey)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityGraphAttacher.PaintAction(EntityEntryGraphNode`1 node)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityEntryGraphIterator.TraverseGraph[TState](EntityEntryGraphNode`1 node, Func`2 handleNode)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityGraphAttacher.AttachGraph(InternalEntityEntry rootEntry, EntityState targetState, EntityState storeGeneratedWithKeySetTargetState, Boolean forceStateWhenUnknownKey)
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.SetEntityState(InternalEntityEntry entry, EntityState entityState)
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.Update(TEntity entity)
+   at LedController.WebPortal.Persistence.Sqlite.Stores.StoreBase`2.Update(TModel item) in D:\Projects\LedController_net5\LedController.Portal.Persistance.Sqlite\Stores\StoreBase.cs:line 57
+   at LedController.WebPortal.Core.Managers.ManagerBase`2.Update(TModel item, CancellationToken token) in D:\Projects\LedController_net5\LedController.Portal.Core\Managers\ManagerBase.cs:line 60
+   at LedController.WebPortal.Web.Dialogs.LedstripFormDialog.SubmitAsync() in D:\Projects\LedController_net5\LedController.WebPortal.Web\Dialogs\LedstripFormDialog.razor:line 138
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at MudBlazor.MudBaseButton.OnClickHandler(MouseEventArgs ev)
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.GetErrorHandledTask(Task taskToHandle, ComponentState owningComponentState)
+Microsoft.AspNetCore.Components.Server.Circuits.CircuitHost[9 - .NET ThreadPool Worker] 
+      2022/04/17 00:29:36.275 - [ERROR]: Unhandled exception in circuit 'u7KFL_eLuDq7cGZ05XlxYshzbAoRP9sN61J2v_N_Pfw'. 
+ System.InvalidOperationException: The instance of entity type 'LedstripEntity' cannot be tracked because another instance with the same key value for {'Id'} is already being tracked. When attaching existing entities, ensure that only one entity instance with a given key value is attached. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see the conflicting key values.
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.ThrowIdentityConflict(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.Add(TKey key, InternalEntityEntry entry, Boolean updateDuplicate)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.Add(TKey key, InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.Add(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.StartTracking(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetEntityState(EntityState oldState, EntityState newState, Boolean acceptChanges, Boolean modifyProperties)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetEntityState(EntityState entityState, Boolean acceptChanges, Boolean modifyProperties, Nullable`1 forceStateWhenUnknownKey)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityGraphAttacher.PaintAction(EntityEntryGraphNode`1 node)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityEntryGraphIterator.TraverseGraph[TState](EntityEntryGraphNode`1 node, Func`2 handleNode)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityGraphAttacher.AttachGraph(InternalEntityEntry rootEntry, EntityState targetState, EntityState storeGeneratedWithKeySetTargetState, Boolean forceStateWhenUnknownKey)
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.SetEntityState(InternalEntityEntry entry, EntityState entityState)
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.Update(TEntity entity)
+   at LedController.WebPortal.Persistence.Sqlite.Stores.StoreBase`2.Update(TModel item) in D:\Projects\LedController_net5\LedController.Portal.Persistance.Sqlite\Stores\StoreBase.cs:line 57
+   at LedController.WebPortal.Core.Managers.ManagerBase`2.Update(TModel item, CancellationToken token) in D:\Projects\LedController_net5\LedController.Portal.Core\Managers\ManagerBase.cs:line 60
+   at LedController.WebPortal.Web.Dialogs.LedstripFormDialog.SubmitAsync() in D:\Projects\LedController_net5\LedController.WebPortal.Web\Dialogs\LedstripFormDialog.razor:line 138
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at MudBlazor.MudBaseButton.OnClickHandler(MouseEventArgs ev)
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.GetErrorHandledTask(Task taskToHandle, ComponentState owningComponentState)
+LedController.WebPortal.Web.Pages.LedstripsPage[58 - .NET ThreadPool Worker] 
+      2022/04/17 00:29:36.275 - [INFO]: Loading ledstrips page. 
+ 
+LedController.WebPortal.Web.Pages.LedstripsPage[37 - .NET ThreadPool Worker] 
+      2022/04/17 00:29:37.007 - [INFO]: Loading ledstrips page. 
+ 
+LedController.WebPortal.Web.Pages.LedstripsPage[9 - .NET ThreadPool Worker] 
+      2022/04/17 00:29:40.768 - [INFO]: Loading ledstrips page. 
+ 
+LedController.WebPortal.Web.Pages.LedstripsPage[40 - .NET ThreadPool Worker] 
+      2022/04/17 00:29:41.445 - [INFO]: Loading ledstrips page. 
+ 
+LedController.WebPortal.Web.Pages.LedstripsPage[9 - .NET ThreadPool Worker] 
+      2022/04/17 00:29:43.838 - [INFO]: Opening the edit ledstrip dialog. Test ledstrip 
+ 
+LedController.WebPortal.Web.Dialogs.LedstripFormDialog[9 - .NET ThreadPool Worker] 
+      2022/04/17 00:29:43.838 - [INFO]: Opening edit ledstrip dialog. Editing a existing ledstrip. 
+ 
+LedController.WebPortal.Web.Dialogs.LedstripFormDialog[9 - .NET ThreadPool Worker] 
+      2022/04/17 00:29:45.876 - [INFO]: Removing ledstrip from application. 
+ 
+LedController.WebPortal.Web.Dialogs.LedstripFormDialog[9 - .NET ThreadPool Worker] 
+      2022/04/17 00:29:45.924 - [ERROR]: There was a problem with removing a ledstrip. 
+ System.InvalidOperationException: The instance of entity type 'LedstripEntity' cannot be tracked because another instance with the same key value for {'Id'} is already being tracked. When attaching existing entities, ensure that only one entity instance with a given key value is attached. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see the conflicting key values.
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.ThrowIdentityConflict(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.Add(TKey key, InternalEntityEntry entry, Boolean updateDuplicate)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.Add(TKey key, InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.Add(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.StartTracking(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetEntityState(EntityState oldState, EntityState newState, Boolean acceptChanges, Boolean modifyProperties)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetEntityState(EntityState entityState, Boolean acceptChanges, Boolean modifyProperties, Nullable`1 forceStateWhenUnknownKey)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityGraphAttacher.PaintAction(EntityEntryGraphNode`1 node)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityEntryGraphIterator.TraverseGraph[TState](EntityEntryGraphNode`1 node, Func`2 handleNode)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityGraphAttacher.AttachGraph(InternalEntityEntry rootEntry, EntityState targetState, EntityState storeGeneratedWithKeySetTargetState, Boolean forceStateWhenUnknownKey)
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.SetEntityState(InternalEntityEntry entry, EntityState entityState)
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.Remove(TEntity entity)
+   at LedController.WebPortal.Persistence.Sqlite.Stores.StoreBase`2.Remove(TModel item) in D:\Projects\LedController_net5\LedController.Portal.Persistance.Sqlite\Stores\StoreBase.cs:line 63
+   at LedController.WebPortal.Core.Managers.ManagerBase`2.Remove(TModel item, CancellationToken token) in D:\Projects\LedController_net5\LedController.Portal.Core\Managers\ManagerBase.cs:line 69
+   at LedController.WebPortal.Web.Dialogs.LedstripFormDialog.RemoveLedstripAsync() in D:\Projects\LedController_net5\LedController.WebPortal.Web\Dialogs\LedstripFormDialog.razor:line 192
+LedController.WebPortal.Web.Pages.LedstripsPage[9 - .NET ThreadPool Worker] 
+      2022/04/17 00:29:45.948 - [DEBUG]: Ledstrip dialog closed reloading ledstrips page. 
+ 
+LedController.WebPortal.Web.Pages.LedstripsPage[57 - .NET ThreadPool Worker] 
+      2022/04/17 00:29:45.979 - [INFO]: Loading ledstrips page. 
+ 
+Microsoft.AspNetCore.Components.Server.Circuits.RemoteRenderer[9 - .NET ThreadPool Worker] 
+      2022/04/17 00:29:45.979 - [WARN]: Unhandled exception rendering component: The instance of entity type 'LedstripEntity' cannot be tracked because another instance with the same key value for {'Id'} is already being tracked. When attaching existing entities, ensure that only one entity instance with a given key value is attached. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see the conflicting key values. 
+ System.InvalidOperationException: The instance of entity type 'LedstripEntity' cannot be tracked because another instance with the same key value for {'Id'} is already being tracked. When attaching existing entities, ensure that only one entity instance with a given key value is attached. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see the conflicting key values.
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.ThrowIdentityConflict(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.Add(TKey key, InternalEntityEntry entry, Boolean updateDuplicate)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.Add(TKey key, InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.Add(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.StartTracking(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetEntityState(EntityState oldState, EntityState newState, Boolean acceptChanges, Boolean modifyProperties)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetEntityState(EntityState entityState, Boolean acceptChanges, Boolean modifyProperties, Nullable`1 forceStateWhenUnknownKey)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityGraphAttacher.PaintAction(EntityEntryGraphNode`1 node)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityEntryGraphIterator.TraverseGraph[TState](EntityEntryGraphNode`1 node, Func`2 handleNode)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityGraphAttacher.AttachGraph(InternalEntityEntry rootEntry, EntityState targetState, EntityState storeGeneratedWithKeySetTargetState, Boolean forceStateWhenUnknownKey)
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.SetEntityState(InternalEntityEntry entry, EntityState entityState)
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.Remove(TEntity entity)
+   at LedController.WebPortal.Persistence.Sqlite.Stores.StoreBase`2.Remove(TModel item) in D:\Projects\LedController_net5\LedController.Portal.Persistance.Sqlite\Stores\StoreBase.cs:line 63
+   at LedController.WebPortal.Core.Managers.ManagerBase`2.Remove(TModel item, CancellationToken token) in D:\Projects\LedController_net5\LedController.Portal.Core\Managers\ManagerBase.cs:line 69
+   at LedController.WebPortal.Web.Dialogs.LedstripFormDialog.RemoveLedstripAsync() in D:\Projects\LedController_net5\LedController.WebPortal.Web\Dialogs\LedstripFormDialog.razor:line 192
+   at LedController.WebPortal.Web.Dialogs.LedstripFormDialog.<BuildRenderTree>b__0_14() in D:\Projects\LedController_net5\LedController.WebPortal.Web\Dialogs\LedstripFormDialog.razor:line 58
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at MudBlazor.MudBaseButton.OnClickHandler(MouseEventArgs ev)
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.GetErrorHandledTask(Task taskToHandle, ComponentState owningComponentState)
+Microsoft.AspNetCore.Components.Server.Circuits.CircuitHost[9 - .NET ThreadPool Worker] 
+      2022/04/17 00:29:45.979 - [ERROR]: Unhandled exception in circuit 'iNyTJCNPNQAe3MDpzY9vYQJ6D9BaXwnoE_kJi5EkaMA'. 
+ System.InvalidOperationException: The instance of entity type 'LedstripEntity' cannot be tracked because another instance with the same key value for {'Id'} is already being tracked. When attaching existing entities, ensure that only one entity instance with a given key value is attached. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see the conflicting key values.
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.ThrowIdentityConflict(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.Add(TKey key, InternalEntityEntry entry, Boolean updateDuplicate)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.Add(TKey key, InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.Add(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.StartTracking(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetEntityState(EntityState oldState, EntityState newState, Boolean acceptChanges, Boolean modifyProperties)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetEntityState(EntityState entityState, Boolean acceptChanges, Boolean modifyProperties, Nullable`1 forceStateWhenUnknownKey)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityGraphAttacher.PaintAction(EntityEntryGraphNode`1 node)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityEntryGraphIterator.TraverseGraph[TState](EntityEntryGraphNode`1 node, Func`2 handleNode)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityGraphAttacher.AttachGraph(InternalEntityEntry rootEntry, EntityState targetState, EntityState storeGeneratedWithKeySetTargetState, Boolean forceStateWhenUnknownKey)
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.SetEntityState(InternalEntityEntry entry, EntityState entityState)
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.Remove(TEntity entity)
+   at LedController.WebPortal.Persistence.Sqlite.Stores.StoreBase`2.Remove(TModel item) in D:\Projects\LedController_net5\LedController.Portal.Persistance.Sqlite\Stores\StoreBase.cs:line 63
+   at LedController.WebPortal.Core.Managers.ManagerBase`2.Remove(TModel item, CancellationToken token) in D:\Projects\LedController_net5\LedController.Portal.Core\Managers\ManagerBase.cs:line 69
+   at LedController.WebPortal.Web.Dialogs.LedstripFormDialog.RemoveLedstripAsync() in D:\Projects\LedController_net5\LedController.WebPortal.Web\Dialogs\LedstripFormDialog.razor:line 192
+   at LedController.WebPortal.Web.Dialogs.LedstripFormDialog.<BuildRenderTree>b__0_14() in D:\Projects\LedController_net5\LedController.WebPortal.Web\Dialogs\LedstripFormDialog.razor:line 58
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at MudBlazor.MudBaseButton.OnClickHandler(MouseEventArgs ev)
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.GetErrorHandledTask(Task taskToHandle, ComponentState owningComponentState)
+LedController.WebPortal.Web.Pages.LedstripsPage[9 - .NET ThreadPool Worker] 
+      2022/04/17 00:29:46.632 - [INFO]: Loading ledstrips page. 
+ 
+LedController.WebPortal.Web.Pages.LedstripsPage[40 - .NET ThreadPool Worker] 
+      2022/04/17 00:29:48.136 - [INFO]: Loading ledstrips page. 
+ 
+LedController.WebPortal.Web.Pages.LedstripsPage[9 - .NET ThreadPool Worker] 
+      2022/04/17 00:29:48.874 - [INFO]: Loading ledstrips page. 
+ 
+LedController.WebPortal.Web.Pages.LedstripsPage[6 - .NET ThreadPool Worker] 
+      2022/04/17 00:29:51.371 - [INFO]: Opening the edit ledstrip dialog. None Selected 
+ 
+LedController.WebPortal.Web.Dialogs.LedstripFormDialog[6 - .NET ThreadPool Worker] 
+      2022/04/17 00:29:51.387 - [INFO]: Opening edit ledstrip dialog. Editing a existing ledstrip. 
+ 
+LedController.WebPortal.Core.Managers.ControllerManager[9 - .NET ThreadPool Worker] 
+      2022/04/17 00:30:09.156 - [DEBUG]: Getting controller by spi bus Test Bus 
+ 
+LedController.WebPortal.Web.Dialogs.LedstripFormDialog[9 - .NET ThreadPool Worker] 
+      2022/04/17 00:30:11.205 - [INFO]: Saved ledstrip. 
+ 
+LedController.WebPortal.Web.Pages.LedstripsPage[9 - .NET ThreadPool Worker] 
+      2022/04/17 00:30:11.205 - [DEBUG]: Ledstrip dialog closed reloading ledstrips page. 
+ 
+LedController.WebPortal.Web.Pages.LedstripsPage[9 - .NET ThreadPool Worker] 
+      2022/04/17 00:30:11.212 - [INFO]: Loading ledstrips page. 
+ 
+LedController.WebPortal.Web.Pages.LedstripsPage[9 - .NET ThreadPool Worker] 
+      2022/04/17 00:30:11.920 - [INFO]: Loading ledstrips page. 
+ 
+LedController.WebPortal.Web.Pages.LedstripsPage[6 - .NET ThreadPool Worker] 
+      2022/04/17 00:30:31.579 - [INFO]: Opening the edit ledstrip dialog. Test Ledstrip with count 
+ 
+LedController.WebPortal.Web.Dialogs.LedstripFormDialog[6 - .NET ThreadPool Worker] 
+      2022/04/17 00:30:31.593 - [INFO]: Opening edit ledstrip dialog. Editing a existing ledstrip. 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/04/17 00:35:13.015 - [DEBUG]: Hosting starting 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/17 00:35:13.147 - [DEBUG]: Starting the discovery service. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/17 00:35:13.147 - [DEBUG]: Creating a new UDP client to be used for broadcasting the server information. This wil happen on UDP port 8472. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/17 00:35:13.164 - [DEBUG]: The discovery service has started. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[10 - .NET ThreadPool Worker] 
+      2022/04/17 00:35:13.164 - [TRACE]: Start sending message to controllers to be discovered. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/17 00:35:13.307 - [INFO]: Now listening on: http://localhost:5097 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/17 00:35:13.307 - [INFO]: Application started. Press Ctrl+C to shut down. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/17 00:35:13.307 - [INFO]: Hosting environment: Development 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/17 00:35:13.307 - [INFO]: Content root path: D:\Projects\LedController_net5\LedController.WebPortal.Web\ 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/04/17 00:35:13.307 - [DEBUG]: Hosting started 
+ 
+LedController.WebPortal.Web.Pages.Index[6 - .NET ThreadPool Worker] 
+      2022/04/17 00:35:15.945 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Pages.Index[9 - .NET ThreadPool Worker] 
+      2022/04/17 00:35:17.900 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Pages.LedstripsPage[14 - .NET ThreadPool Worker] 
+      2022/04/17 00:35:23.257 - [INFO]: Loading ledstrips page. 
+ 
+LedController.WebPortal.Web.Pages.ControllersPage[17 - .NET ThreadPool Worker] 
+      2022/04/17 00:35:27.884 - [INFO]: Opening controllers page. 
+ 
+LedController.WebPortal.Web.Pages.ControllersPage[6 - .NET ThreadPool Worker] 
+      2022/04/17 00:35:29.270 - [INFO]: Connecting to controller Controller 1427966868. 
+ 
+LedController.WebPortal.Core.Services.ControllerService[6 - .NET ThreadPool Worker] 
+      2022/04/17 00:35:29.273 - [INFO]: Connecting to controller e429a7c8-43cf-47c0-82f7-c4711091edb6. 
+ 
+LedController.WebPortal.Infrastructure.Connections.Connections.GrpcControllerConnection[6 - .NET ThreadPool Worker] 
+      2022/04/17 00:35:29.323 - [TRACE]: Creating connection with Controller 1427966868 
+ 
+Grpc.Net.Client.Internal.GrpcCall[6 - .NET ThreadPool Worker] 
+      2022/04/17 00:35:29.369 - [DEBUG]: Starting gRPC call. Method type: 'Unary', URI: 'http://10.0.3.75:5000/connection.GrpcConnection/Connect'. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[9 - .NET ThreadPool Worker] 
+      2022/04/17 00:35:29.608 - [DEBUG]: Sending message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[9 - .NET ThreadPool Worker] 
+      2022/04/17 00:35:29.608 - [TRACE]: Serialized 'Google.Protobuf.WellKnownTypes.Empty' to 0 byte message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[13 - .NET ThreadPool Worker] 
+      2022/04/17 00:35:29.617 - [TRACE]: Message sent. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[10 - .NET ThreadPool Worker] 
+      2022/04/17 00:35:29.647 - [TRACE]: Response headers received. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[10 - .NET ThreadPool Worker] 
+      2022/04/17 00:35:29.647 - [DEBUG]: Reading message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[10 - .NET ThreadPool Worker] 
+      2022/04/17 00:35:29.647 - [TRACE]: Deserializing 0 byte message to 'Google.Protobuf.WellKnownTypes.Empty'. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[10 - .NET ThreadPool Worker] 
+      2022/04/17 00:35:29.665 - [TRACE]: Received message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[10 - .NET ThreadPool Worker] 
+      2022/04/17 00:35:29.665 - [DEBUG]: Finished gRPC call. 
+ 
+LedController.WebPortal.Core.Services.ControllerService[6 - .NET ThreadPool Worker] 
+      2022/04/17 00:35:29.665 - [INFO]: The controller has been connected. 
+ 
+LedController.WebPortal.Web.Pages.ControllersPage[6 - .NET ThreadPool Worker] 
+      2022/04/17 00:35:29.665 - [INFO]: Connection with controller Controller 1427966868 successful. 
+ 
+LedController.WebPortal.Web.Pages.LedstripsPage[6 - .NET ThreadPool Worker] 
+      2022/04/17 00:35:32.656 - [INFO]: Loading ledstrips page. 
+ 
+LedController.WebPortal.Web.Pages.LedstripsPage[21 - .NET ThreadPool Worker] 
+      2022/04/17 00:35:34.063 - [INFO]: Testing ledstrip Test ledstrip. 
+ 
+LedController.WebPortal.Infrastructure.Connections.Connections.GrpcControllerConnection[21 - .NET ThreadPool Worker] 
+      2022/04/17 00:35:34.072 - [TRACE]: Sending message to e429a7c8-43cf-47c0-82f7-c4711091edb6, test the strip. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[21 - .NET ThreadPool Worker] 
+      2022/04/17 00:35:34.072 - [DEBUG]: Starting gRPC call. Method type: 'Unary', URI: 'http://10.0.3.75:5000/connection.GrpcConnection/TestLedstrip'. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[9 - .NET ThreadPool Worker] 
+      2022/04/17 00:35:34.072 - [DEBUG]: Sending message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[9 - .NET ThreadPool Worker] 
+      2022/04/17 00:35:34.072 - [TRACE]: Serialized 'LedController.WebPortal.Infrastructure.Connections.Protos.Ledstrip' to 80 byte message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[10 - .NET ThreadPool Worker] 
+      2022/04/17 00:35:34.084 - [TRACE]: Message sent. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[6 - .NET ThreadPool Worker] 
+      2022/04/17 00:35:40.539 - [TRACE]: Response headers received. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[6 - .NET ThreadPool Worker] 
+      2022/04/17 00:35:40.554 - [DEBUG]: Reading message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[6 - .NET ThreadPool Worker] 
+      2022/04/17 00:35:40.554 - [TRACE]: Deserializing 2 byte message to 'LedController.WebPortal.Infrastructure.Connections.Protos.ResultMessage'. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[6 - .NET ThreadPool Worker] 
+      2022/04/17 00:35:40.554 - [TRACE]: Received message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[6 - .NET ThreadPool Worker] 
+      2022/04/17 00:35:40.554 - [DEBUG]: Finished gRPC call. 
+ 
+LedController.WebPortal.Infrastructure.Connections.Connections.GrpcControllerConnection[14 - .NET ThreadPool Worker] 
+      2022/04/17 00:35:40.554 - [TRACE]: Test on ledstrip was successful 
+ 
+LedController.WebPortal.Web.Pages.LedstripsPage[9 - .NET ThreadPool Worker] 
+      2022/04/17 00:36:16.261 - [INFO]: Testing ledstrip Test ledstrip. 
+ 
+LedController.WebPortal.Infrastructure.Connections.Connections.GrpcControllerConnection[9 - .NET ThreadPool Worker] 
+      2022/04/17 00:36:16.277 - [TRACE]: Sending message to e429a7c8-43cf-47c0-82f7-c4711091edb6, test the strip. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[9 - .NET ThreadPool Worker] 
+      2022/04/17 00:36:16.277 - [DEBUG]: Starting gRPC call. Method type: 'Unary', URI: 'http://10.0.3.75:5000/connection.GrpcConnection/TestLedstrip'. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[13 - .NET ThreadPool Worker] 
+      2022/04/17 00:36:16.277 - [DEBUG]: Sending message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[13 - .NET ThreadPool Worker] 
+      2022/04/17 00:36:16.277 - [TRACE]: Serialized 'LedController.WebPortal.Infrastructure.Connections.Protos.Ledstrip' to 80 byte message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[6 - .NET ThreadPool Worker] 
+      2022/04/17 00:36:16.277 - [TRACE]: Message sent. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[15 - .NET ThreadPool Worker] 
+      2022/04/17 00:36:22.691 - [TRACE]: Response headers received. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[15 - .NET ThreadPool Worker] 
+      2022/04/17 00:36:22.706 - [DEBUG]: Reading message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[15 - .NET ThreadPool Worker] 
+      2022/04/17 00:36:22.706 - [TRACE]: Deserializing 2 byte message to 'LedController.WebPortal.Infrastructure.Connections.Protos.ResultMessage'. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[15 - .NET ThreadPool Worker] 
+      2022/04/17 00:36:22.706 - [TRACE]: Received message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[15 - .NET ThreadPool Worker] 
+      2022/04/17 00:36:22.706 - [DEBUG]: Finished gRPC call. 
+ 
+LedController.WebPortal.Infrastructure.Connections.Connections.GrpcControllerConnection[24 - .NET ThreadPool Worker] 
+      2022/04/17 00:36:22.706 - [TRACE]: Test on ledstrip was successful 
+ 
+LedController.WebPortal.Web.Pages.LedstripsPage[10 - .NET ThreadPool Worker] 
+      2022/04/17 00:36:42.086 - [INFO]: Testing ledstrip Test ledstrip. 
+ 
+LedController.WebPortal.Infrastructure.Connections.Connections.GrpcControllerConnection[10 - .NET ThreadPool Worker] 
+      2022/04/17 00:36:42.101 - [TRACE]: Sending message to e429a7c8-43cf-47c0-82f7-c4711091edb6, test the strip. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[10 - .NET ThreadPool Worker] 
+      2022/04/17 00:36:42.101 - [DEBUG]: Starting gRPC call. Method type: 'Unary', URI: 'http://10.0.3.75:5000/connection.GrpcConnection/TestLedstrip'. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[6 - .NET ThreadPool Worker] 
+      2022/04/17 00:36:42.101 - [DEBUG]: Sending message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[6 - .NET ThreadPool Worker] 
+      2022/04/17 00:36:42.101 - [TRACE]: Serialized 'LedController.WebPortal.Infrastructure.Connections.Protos.Ledstrip' to 80 byte message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[9 - .NET ThreadPool Worker] 
+      2022/04/17 00:36:42.101 - [TRACE]: Message sent. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[10 - .NET ThreadPool Worker] 
+      2022/04/17 00:36:48.502 - [TRACE]: Response headers received. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[10 - .NET ThreadPool Worker] 
+      2022/04/17 00:36:48.517 - [DEBUG]: Reading message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[10 - .NET ThreadPool Worker] 
+      2022/04/17 00:36:48.517 - [TRACE]: Deserializing 2 byte message to 'LedController.WebPortal.Infrastructure.Connections.Protos.ResultMessage'. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[10 - .NET ThreadPool Worker] 
+      2022/04/17 00:36:48.517 - [TRACE]: Received message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[10 - .NET ThreadPool Worker] 
+      2022/04/17 00:36:48.517 - [DEBUG]: Finished gRPC call. 
+ 
+LedController.WebPortal.Infrastructure.Connections.Connections.GrpcControllerConnection[6 - .NET ThreadPool Worker] 
+      2022/04/17 00:36:48.517 - [TRACE]: Test on ledstrip was successful 
+ 
+LedController.WebPortal.Web.Pages.LedstripsPage[9 - .NET ThreadPool Worker] 
+      2022/04/17 00:37:13.833 - [INFO]: Testing ledstrip Test ledstrip. 
+ 
+LedController.WebPortal.Infrastructure.Connections.Connections.GrpcControllerConnection[9 - .NET ThreadPool Worker] 
+      2022/04/17 00:37:13.851 - [TRACE]: Sending message to e429a7c8-43cf-47c0-82f7-c4711091edb6, test the strip. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[9 - .NET ThreadPool Worker] 
+      2022/04/17 00:37:13.851 - [DEBUG]: Starting gRPC call. Method type: 'Unary', URI: 'http://10.0.3.75:5000/connection.GrpcConnection/TestLedstrip'. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[15 - .NET ThreadPool Worker] 
+      2022/04/17 00:37:13.851 - [DEBUG]: Sending message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[15 - .NET ThreadPool Worker] 
+      2022/04/17 00:37:13.851 - [TRACE]: Serialized 'LedController.WebPortal.Infrastructure.Connections.Protos.Ledstrip' to 80 byte message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[6 - .NET ThreadPool Worker] 
+      2022/04/17 00:37:13.851 - [TRACE]: Message sent. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[9 - .NET ThreadPool Worker] 
+      2022/04/17 00:37:20.042 - [TRACE]: Response headers received. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[9 - .NET ThreadPool Worker] 
+      2022/04/17 00:37:20.057 - [DEBUG]: Reading message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[9 - .NET ThreadPool Worker] 
+      2022/04/17 00:37:20.057 - [TRACE]: Deserializing 2 byte message to 'LedController.WebPortal.Infrastructure.Connections.Protos.ResultMessage'. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[9 - .NET ThreadPool Worker] 
+      2022/04/17 00:37:20.057 - [TRACE]: Received message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[9 - .NET ThreadPool Worker] 
+      2022/04/17 00:37:20.057 - [DEBUG]: Finished gRPC call. 
+ 
+LedController.WebPortal.Infrastructure.Connections.Connections.GrpcControllerConnection[13 - .NET ThreadPool Worker] 
+      2022/04/17 00:37:20.057 - [TRACE]: Test on ledstrip was successful 
+ 
+LedController.WebPortal.Web.Pages.LedstripsPage[13 - .NET ThreadPool Worker] 
+      2022/04/17 00:37:35.258 - [INFO]: Testing ledstrip Test ledstrip. 
+ 
+LedController.WebPortal.Infrastructure.Connections.Connections.GrpcControllerConnection[13 - .NET ThreadPool Worker] 
+      2022/04/17 00:37:35.273 - [TRACE]: Sending message to e429a7c8-43cf-47c0-82f7-c4711091edb6, test the strip. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[13 - .NET ThreadPool Worker] 
+      2022/04/17 00:37:35.273 - [DEBUG]: Starting gRPC call. Method type: 'Unary', URI: 'http://10.0.3.75:5000/connection.GrpcConnection/TestLedstrip'. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[9 - .NET ThreadPool Worker] 
+      2022/04/17 00:37:35.273 - [DEBUG]: Sending message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[9 - .NET ThreadPool Worker] 
+      2022/04/17 00:37:35.273 - [TRACE]: Serialized 'LedController.WebPortal.Infrastructure.Connections.Protos.Ledstrip' to 80 byte message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[26 - .NET ThreadPool Worker] 
+      2022/04/17 00:37:35.273 - [TRACE]: Message sent. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[13 - .NET ThreadPool Worker] 
+      2022/04/17 00:37:41.342 - [TRACE]: Response headers received. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[13 - .NET ThreadPool Worker] 
+      2022/04/17 00:37:41.357 - [DEBUG]: Reading message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[13 - .NET ThreadPool Worker] 
+      2022/04/17 00:37:41.357 - [TRACE]: Deserializing 2 byte message to 'LedController.WebPortal.Infrastructure.Connections.Protos.ResultMessage'. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[13 - .NET ThreadPool Worker] 
+      2022/04/17 00:37:41.357 - [TRACE]: Received message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[13 - .NET ThreadPool Worker] 
+      2022/04/17 00:37:41.357 - [DEBUG]: Finished gRPC call. 
+ 
+LedController.WebPortal.Infrastructure.Connections.Connections.GrpcControllerConnection[6 - .NET ThreadPool Worker] 
+      2022/04/17 00:37:41.357 - [TRACE]: Test on ledstrip was successful 
+ 
+LedController.WebPortal.Web.Pages.SpiBusesPage[6 - .NET ThreadPool Worker] 
+      2022/04/17 00:44:27.320 - [INFO]: Opening the spi buses page, and loading the spi buses from the application. 
+ 
+LedController.WebPortal.Web.Pages.SpiBusesPage[45 - .NET ThreadPool Worker] 
+      2022/04/17 00:44:30.633 - [INFO]: Opening the edit spi bus dialog. Test Bus. 
+ 
+LedController.WebPortal.Core.Managers.ControllerManager[45 - .NET ThreadPool Worker] 
+      2022/04/17 00:44:30.663 - [DEBUG]: Getting controller by spi bus Test Bus 
+ 
+LedController.WebPortal.Core.Managers.ControllerManager[45 - .NET ThreadPool Worker] 
+      2022/04/17 00:44:30.727 - [DEBUG]: Getting controller by spi bus Test Bus 
+ 
+LedController.WebPortal.Web.Dialogs.SpiBusFormDialog[6 - .NET ThreadPool Worker] 
+      2022/04/17 00:46:02.341 - [INFO]: Saving spi bus Test Bus. 
+ 
+LedController.WebPortal.Web.Dialogs.SpiBusFormDialog[6 - .NET ThreadPool Worker] 
+      2022/04/17 00:46:02.508 - [DEBUG]: Spi bus saved. Adding spi bus to controller. 
+ 
+LedController.WebPortal.Web.Dialogs.SpiBusFormDialog[6 - .NET ThreadPool Worker] 
+      2022/04/17 00:46:02.508 - [DEBUG]: Updating controller to modifiy the spi bus controller selection. 
+ 
+LedController.WebPortal.Web.Dialogs.SpiBusFormDialog[6 - .NET ThreadPool Worker] 
+      2022/04/17 00:46:02.508 - [INFO]: spi buses Has been saved! 
+ 
+LedController.WebPortal.Web.Pages.SpiBusesPage[6 - .NET ThreadPool Worker] 
+      2022/04/17 00:46:02.508 - [INFO]: Closing spi bus form. Reloading spi buses page. 
+ 
+LedController.WebPortal.Web.Pages.SpiBusesPage[13 - .NET ThreadPool Worker] 
+      2022/04/17 00:46:02.545 - [INFO]: Opening the spi buses page, and loading the spi buses from the application. 
+ 
+LedController.WebPortal.Web.Pages.SpiBusesPage[6 - .NET ThreadPool Worker] 
+      2022/04/17 00:46:03.425 - [INFO]: Opening the spi buses page, and loading the spi buses from the application. 
+ 
+LedController.WebPortal.Web.Pages.LedstripsPage[9 - .NET ThreadPool Worker] 
+      2022/04/17 00:46:05.473 - [INFO]: Loading ledstrips page. 
+ 
+LedController.WebPortal.Web.Pages.LedstripsPage[13 - .NET ThreadPool Worker] 
+      2022/04/17 00:46:07.466 - [INFO]: Testing ledstrip Test ledstrip. 
+ 
+LedController.WebPortal.Infrastructure.Connections.Connections.GrpcControllerConnection[13 - .NET ThreadPool Worker] 
+      2022/04/17 00:46:07.481 - [TRACE]: Sending message to e429a7c8-43cf-47c0-82f7-c4711091edb6, test the strip. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[13 - .NET ThreadPool Worker] 
+      2022/04/17 00:46:07.481 - [DEBUG]: Starting gRPC call. Method type: 'Unary', URI: 'http://10.0.3.75:5000/connection.GrpcConnection/TestLedstrip'. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[13 - .NET ThreadPool Worker] 
+      2022/04/17 00:46:07.749 - [DEBUG]: Sending message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[13 - .NET ThreadPool Worker] 
+      2022/04/17 00:46:07.749 - [TRACE]: Serialized 'LedController.WebPortal.Infrastructure.Connections.Protos.Ledstrip' to 80 byte message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[6 - .NET ThreadPool Worker] 
+      2022/04/17 00:46:07.749 - [TRACE]: Message sent. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[6 - .NET ThreadPool Worker] 
+      2022/04/17 00:46:13.755 - [TRACE]: Response headers received. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[6 - .NET ThreadPool Worker] 
+      2022/04/17 00:46:13.772 - [DEBUG]: Reading message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[6 - .NET ThreadPool Worker] 
+      2022/04/17 00:46:13.772 - [TRACE]: Deserializing 2 byte message to 'LedController.WebPortal.Infrastructure.Connections.Protos.ResultMessage'. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[6 - .NET ThreadPool Worker] 
+      2022/04/17 00:46:13.772 - [TRACE]: Received message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[6 - .NET ThreadPool Worker] 
+      2022/04/17 00:46:13.772 - [DEBUG]: Finished gRPC call. 
+ 
+LedController.WebPortal.Infrastructure.Connections.Connections.GrpcControllerConnection[42 - .NET ThreadPool Worker] 
+      2022/04/17 00:46:13.772 - [TRACE]: Test on ledstrip was successful 
+ 
+LedController.WebPortal.Web.Pages.LedstripsPage[9 - .NET ThreadPool Worker] 
+      2022/04/17 00:46:28.536 - [INFO]: Testing ledstrip Test ledstrip. 
+ 
+LedController.WebPortal.Infrastructure.Connections.Connections.GrpcControllerConnection[9 - .NET ThreadPool Worker] 
+      2022/04/17 00:46:28.554 - [TRACE]: Sending message to e429a7c8-43cf-47c0-82f7-c4711091edb6, test the strip. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[9 - .NET ThreadPool Worker] 
+      2022/04/17 00:46:28.554 - [DEBUG]: Starting gRPC call. Method type: 'Unary', URI: 'http://10.0.3.75:5000/connection.GrpcConnection/TestLedstrip'. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[6 - .NET ThreadPool Worker] 
+      2022/04/17 00:46:28.554 - [DEBUG]: Sending message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[6 - .NET ThreadPool Worker] 
+      2022/04/17 00:46:28.554 - [TRACE]: Serialized 'LedController.WebPortal.Infrastructure.Connections.Protos.Ledstrip' to 80 byte message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[42 - .NET ThreadPool Worker] 
+      2022/04/17 00:46:28.554 - [TRACE]: Message sent. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[9 - .NET ThreadPool Worker] 
+      2022/04/17 00:46:34.645 - [TRACE]: Response headers received. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[9 - .NET ThreadPool Worker] 
+      2022/04/17 00:46:34.660 - [DEBUG]: Reading message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[9 - .NET ThreadPool Worker] 
+      2022/04/17 00:46:34.660 - [TRACE]: Deserializing 2 byte message to 'LedController.WebPortal.Infrastructure.Connections.Protos.ResultMessage'. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[9 - .NET ThreadPool Worker] 
+      2022/04/17 00:46:34.660 - [TRACE]: Received message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[9 - .NET ThreadPool Worker] 
+      2022/04/17 00:46:34.660 - [DEBUG]: Finished gRPC call. 
+ 
+LedController.WebPortal.Infrastructure.Connections.Connections.GrpcControllerConnection[6 - .NET ThreadPool Worker] 
+      2022/04/17 00:46:34.660 - [TRACE]: Test on ledstrip was successful 
+ 
+LedController.WebPortal.Web.Pages.LedstripsPage[13 - .NET ThreadPool Worker] 
+      2022/04/17 00:47:20.335 - [INFO]: Testing ledstrip Test ledstrip. 
+ 
+LedController.WebPortal.Infrastructure.Connections.Connections.GrpcControllerConnection[13 - .NET ThreadPool Worker] 
+      2022/04/17 00:47:20.354 - [TRACE]: Sending message to e429a7c8-43cf-47c0-82f7-c4711091edb6, test the strip. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[13 - .NET ThreadPool Worker] 
+      2022/04/17 00:47:20.354 - [DEBUG]: Starting gRPC call. Method type: 'Unary', URI: 'http://10.0.3.75:5000/connection.GrpcConnection/TestLedstrip'. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[30 - .NET ThreadPool Worker] 
+      2022/04/17 00:47:20.354 - [DEBUG]: Sending message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[30 - .NET ThreadPool Worker] 
+      2022/04/17 00:47:20.354 - [TRACE]: Serialized 'LedController.WebPortal.Infrastructure.Connections.Protos.Ledstrip' to 80 byte message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[30 - .NET ThreadPool Worker] 
+      2022/04/17 00:47:20.354 - [TRACE]: Message sent. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[30 - .NET ThreadPool Worker] 
+      2022/04/17 00:47:26.665 - [TRACE]: Response headers received. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[30 - .NET ThreadPool Worker] 
+      2022/04/17 00:47:26.680 - [DEBUG]: Reading message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[30 - .NET ThreadPool Worker] 
+      2022/04/17 00:47:26.680 - [TRACE]: Deserializing 2 byte message to 'LedController.WebPortal.Infrastructure.Connections.Protos.ResultMessage'. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[30 - .NET ThreadPool Worker] 
+      2022/04/17 00:47:26.680 - [TRACE]: Received message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[30 - .NET ThreadPool Worker] 
+      2022/04/17 00:47:26.680 - [DEBUG]: Finished gRPC call. 
+ 
+LedController.WebPortal.Infrastructure.Connections.Connections.GrpcControllerConnection[9 - .NET ThreadPool Worker] 
+      2022/04/17 00:47:26.680 - [TRACE]: Test on ledstrip was successful 
+ 
+LedController.WebPortal.Web.Pages.LedstripsPage[9 - .NET ThreadPool Worker] 
+      2022/04/17 00:51:38.171 - [INFO]: Testing ledstrip Test ledstrip. 
+ 
+LedController.WebPortal.Infrastructure.Connections.Connections.GrpcControllerConnection[9 - .NET ThreadPool Worker] 
+      2022/04/17 00:51:38.186 - [TRACE]: Sending message to e429a7c8-43cf-47c0-82f7-c4711091edb6, test the strip. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[9 - .NET ThreadPool Worker] 
+      2022/04/17 00:51:38.186 - [DEBUG]: Starting gRPC call. Method type: 'Unary', URI: 'http://10.0.3.75:5000/connection.GrpcConnection/TestLedstrip'. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[13 - .NET ThreadPool Worker] 
+      2022/04/17 00:51:38.300 - [DEBUG]: Sending message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[13 - .NET ThreadPool Worker] 
+      2022/04/17 00:51:38.300 - [TRACE]: Serialized 'LedController.WebPortal.Infrastructure.Connections.Protos.Ledstrip' to 80 byte message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[6 - .NET ThreadPool Worker] 
+      2022/04/17 00:51:38.303 - [TRACE]: Message sent. 
+ 
+LedController.WebPortal.Web.Pages.LedstripsPage[6 - .NET ThreadPool Worker] 
+      2022/04/17 00:51:40.190 - [INFO]: Testing ledstrip Test ledstrip. 
+ 
+LedController.WebPortal.Infrastructure.Connections.Connections.GrpcControllerConnection[6 - .NET ThreadPool Worker] 
+      2022/04/17 00:51:40.205 - [TRACE]: Sending message to e429a7c8-43cf-47c0-82f7-c4711091edb6, test the strip. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[6 - .NET ThreadPool Worker] 
+      2022/04/17 00:51:40.205 - [DEBUG]: Starting gRPC call. Method type: 'Unary', URI: 'http://10.0.3.75:5000/connection.GrpcConnection/TestLedstrip'. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[13 - .NET ThreadPool Worker] 
+      2022/04/17 00:51:40.205 - [DEBUG]: Sending message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[13 - .NET ThreadPool Worker] 
+      2022/04/17 00:51:40.205 - [TRACE]: Serialized 'LedController.WebPortal.Infrastructure.Connections.Protos.Ledstrip' to 80 byte message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[9 - .NET ThreadPool Worker] 
+      2022/04/17 00:51:40.205 - [TRACE]: Message sent. 
+ 
+LedController.WebPortal.Web.Pages.LedstripsPage[18 - .NET ThreadPool Worker] 
+      2022/04/17 00:51:42.510 - [INFO]: Testing ledstrip Test ledstrip. 
+ 
+LedController.WebPortal.Infrastructure.Connections.Connections.GrpcControllerConnection[18 - .NET ThreadPool Worker] 
+      2022/04/17 00:51:42.525 - [TRACE]: Sending message to e429a7c8-43cf-47c0-82f7-c4711091edb6, test the strip. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[18 - .NET ThreadPool Worker] 
+      2022/04/17 00:51:42.525 - [DEBUG]: Starting gRPC call. Method type: 'Unary', URI: 'http://10.0.3.75:5000/connection.GrpcConnection/TestLedstrip'. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[9 - .NET ThreadPool Worker] 
+      2022/04/17 00:51:42.525 - [DEBUG]: Sending message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[9 - .NET ThreadPool Worker] 
+      2022/04/17 00:51:42.525 - [TRACE]: Serialized 'LedController.WebPortal.Infrastructure.Connections.Protos.Ledstrip' to 80 byte message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[6 - .NET ThreadPool Worker] 
+      2022/04/17 00:51:42.525 - [TRACE]: Message sent. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[13 - .NET ThreadPool Worker] 
+      2022/04/17 00:51:44.323 - [TRACE]: Response headers received. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[13 - .NET ThreadPool Worker] 
+      2022/04/17 00:51:44.338 - [DEBUG]: Reading message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[13 - .NET ThreadPool Worker] 
+      2022/04/17 00:51:44.338 - [TRACE]: Deserializing 2 byte message to 'LedController.WebPortal.Infrastructure.Connections.Protos.ResultMessage'. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[13 - .NET ThreadPool Worker] 
+      2022/04/17 00:51:44.338 - [TRACE]: Received message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[13 - .NET ThreadPool Worker] 
+      2022/04/17 00:51:44.338 - [DEBUG]: Finished gRPC call. 
+ 
+LedController.WebPortal.Infrastructure.Connections.Connections.GrpcControllerConnection[9 - .NET ThreadPool Worker] 
+      2022/04/17 00:51:44.338 - [TRACE]: Test on ledstrip was successful 
+ 
+LedController.WebPortal.Web.Pages.LedstripsPage[6 - .NET ThreadPool Worker] 
+      2022/04/17 00:51:44.407 - [INFO]: Testing ledstrip Test ledstrip. 
+ 
+LedController.WebPortal.Infrastructure.Connections.Connections.GrpcControllerConnection[6 - .NET ThreadPool Worker] 
+      2022/04/17 00:51:44.407 - [TRACE]: Sending message to e429a7c8-43cf-47c0-82f7-c4711091edb6, test the strip. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[6 - .NET ThreadPool Worker] 
+      2022/04/17 00:51:44.407 - [DEBUG]: Starting gRPC call. Method type: 'Unary', URI: 'http://10.0.3.75:5000/connection.GrpcConnection/TestLedstrip'. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[9 - .NET ThreadPool Worker] 
+      2022/04/17 00:51:44.407 - [DEBUG]: Sending message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[9 - .NET ThreadPool Worker] 
+      2022/04/17 00:51:44.407 - [TRACE]: Serialized 'LedController.WebPortal.Infrastructure.Connections.Protos.Ledstrip' to 80 byte message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[13 - .NET ThreadPool Worker] 
+      2022/04/17 00:51:44.407 - [TRACE]: Message sent. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[13 - .NET ThreadPool Worker] 
+      2022/04/17 00:51:46.215 - [TRACE]: Response headers received. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[13 - .NET ThreadPool Worker] 
+      2022/04/17 00:51:46.229 - [DEBUG]: Reading message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[13 - .NET ThreadPool Worker] 
+      2022/04/17 00:51:46.229 - [TRACE]: Deserializing 2 byte message to 'LedController.WebPortal.Infrastructure.Connections.Protos.ResultMessage'. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[13 - .NET ThreadPool Worker] 
+      2022/04/17 00:51:46.229 - [TRACE]: Received message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[13 - .NET ThreadPool Worker] 
+      2022/04/17 00:51:46.229 - [DEBUG]: Finished gRPC call. 
+ 
+LedController.WebPortal.Infrastructure.Connections.Connections.GrpcControllerConnection[17 - .NET ThreadPool Worker] 
+      2022/04/17 00:51:46.229 - [TRACE]: Test on ledstrip was successful 
+ 
+Grpc.Net.Client.Internal.GrpcCall[13 - .NET ThreadPool Worker] 
+      2022/04/17 00:51:48.820 - [TRACE]: Response headers received. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[13 - .NET ThreadPool Worker] 
+      2022/04/17 00:51:48.820 - [DEBUG]: Reading message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[13 - .NET ThreadPool Worker] 
+      2022/04/17 00:51:48.820 - [TRACE]: Deserializing 2 byte message to 'LedController.WebPortal.Infrastructure.Connections.Protos.ResultMessage'. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[13 - .NET ThreadPool Worker] 
+      2022/04/17 00:51:48.820 - [TRACE]: Received message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[13 - .NET ThreadPool Worker] 
+      2022/04/17 00:51:48.820 - [DEBUG]: Finished gRPC call. 
+ 
+LedController.WebPortal.Infrastructure.Connections.Connections.GrpcControllerConnection[6 - .NET ThreadPool Worker] 
+      2022/04/17 00:51:48.820 - [TRACE]: Test on ledstrip was successful 
+ 
+Grpc.Net.Client.Internal.GrpcCall[6 - .NET ThreadPool Worker] 
+      2022/04/17 00:51:50.442 - [TRACE]: Response headers received. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[6 - .NET ThreadPool Worker] 
+      2022/04/17 00:51:50.444 - [DEBUG]: Reading message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[6 - .NET ThreadPool Worker] 
+      2022/04/17 00:51:50.444 - [TRACE]: Deserializing 2 byte message to 'LedController.WebPortal.Infrastructure.Connections.Protos.ResultMessage'. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[6 - .NET ThreadPool Worker] 
+      2022/04/17 00:51:50.444 - [TRACE]: Received message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[6 - .NET ThreadPool Worker] 
+      2022/04/17 00:51:50.444 - [DEBUG]: Finished gRPC call. 
+ 
+LedController.WebPortal.Infrastructure.Connections.Connections.GrpcControllerConnection[13 - .NET ThreadPool Worker] 
+      2022/04/17 00:51:50.444 - [TRACE]: Test on ledstrip was successful 
+ 
+LedController.WebPortal.Web.Pages.LedstripsPage[9 - .NET ThreadPool Worker] 
+      2022/04/17 00:51:54.202 - [INFO]: Testing ledstrip Test ledstrip. 
+ 
+LedController.WebPortal.Infrastructure.Connections.Connections.GrpcControllerConnection[9 - .NET ThreadPool Worker] 
+      2022/04/17 00:51:54.218 - [TRACE]: Sending message to e429a7c8-43cf-47c0-82f7-c4711091edb6, test the strip. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[9 - .NET ThreadPool Worker] 
+      2022/04/17 00:51:54.218 - [DEBUG]: Starting gRPC call. Method type: 'Unary', URI: 'http://10.0.3.75:5000/connection.GrpcConnection/TestLedstrip'. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[6 - .NET ThreadPool Worker] 
+      2022/04/17 00:51:54.218 - [DEBUG]: Sending message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[6 - .NET ThreadPool Worker] 
+      2022/04/17 00:51:54.218 - [TRACE]: Serialized 'LedController.WebPortal.Infrastructure.Connections.Protos.Ledstrip' to 80 byte message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[13 - .NET ThreadPool Worker] 
+      2022/04/17 00:51:54.218 - [TRACE]: Message sent. 
+ 
+LedController.WebPortal.Web.Pages.LedstripsPage[13 - .NET ThreadPool Worker] 
+      2022/04/17 00:51:55.521 - [INFO]: Testing ledstrip Test ledstrip. 
+ 
+LedController.WebPortal.Infrastructure.Connections.Connections.GrpcControllerConnection[13 - .NET ThreadPool Worker] 
+      2022/04/17 00:51:55.539 - [TRACE]: Sending message to e429a7c8-43cf-47c0-82f7-c4711091edb6, test the strip. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[13 - .NET ThreadPool Worker] 
+      2022/04/17 00:51:55.539 - [DEBUG]: Starting gRPC call. Method type: 'Unary', URI: 'http://10.0.3.75:5000/connection.GrpcConnection/TestLedstrip'. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[18 - .NET ThreadPool Worker] 
+      2022/04/17 00:51:55.539 - [DEBUG]: Sending message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[18 - .NET ThreadPool Worker] 
+      2022/04/17 00:51:55.539 - [TRACE]: Serialized 'LedController.WebPortal.Infrastructure.Connections.Protos.Ledstrip' to 80 byte message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[17 - .NET ThreadPool Worker] 
+      2022/04/17 00:51:55.539 - [TRACE]: Message sent. 
+ 
+LedController.WebPortal.Web.Pages.LedstripsPage[13 - .NET ThreadPool Worker] 
+      2022/04/17 00:51:59.165 - [INFO]: Testing ledstrip Test ledstrip. 
+ 
+LedController.WebPortal.Infrastructure.Connections.Connections.GrpcControllerConnection[13 - .NET ThreadPool Worker] 
+      2022/04/17 00:51:59.181 - [TRACE]: Sending message to e429a7c8-43cf-47c0-82f7-c4711091edb6, test the strip. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[13 - .NET ThreadPool Worker] 
+      2022/04/17 00:51:59.181 - [DEBUG]: Starting gRPC call. Method type: 'Unary', URI: 'http://10.0.3.75:5000/connection.GrpcConnection/TestLedstrip'. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[9 - .NET ThreadPool Worker] 
+      2022/04/17 00:51:59.181 - [DEBUG]: Sending message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[9 - .NET ThreadPool Worker] 
+      2022/04/17 00:51:59.181 - [TRACE]: Serialized 'LedController.WebPortal.Infrastructure.Connections.Protos.Ledstrip' to 80 byte message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[17 - .NET ThreadPool Worker] 
+      2022/04/17 00:51:59.181 - [TRACE]: Message sent. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[9 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:00.282 - [TRACE]: Response headers received. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[9 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:00.297 - [DEBUG]: Reading message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[9 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:00.297 - [TRACE]: Deserializing 2 byte message to 'LedController.WebPortal.Infrastructure.Connections.Protos.ResultMessage'. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[9 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:00.297 - [TRACE]: Received message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[9 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:00.297 - [DEBUG]: Finished gRPC call. 
+ 
+LedController.WebPortal.Infrastructure.Connections.Connections.GrpcControllerConnection[6 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:00.297 - [TRACE]: Test on ledstrip was successful 
+ 
+Grpc.Net.Client.Internal.GrpcCall[9 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:01.551 - [TRACE]: Response headers received. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[9 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:01.566 - [DEBUG]: Reading message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[9 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:01.566 - [TRACE]: Deserializing 2 byte message to 'LedController.WebPortal.Infrastructure.Connections.Protos.ResultMessage'. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[9 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:01.566 - [TRACE]: Received message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[9 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:01.566 - [DEBUG]: Finished gRPC call. 
+ 
+LedController.WebPortal.Infrastructure.Connections.Connections.GrpcControllerConnection[6 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:01.566 - [TRACE]: Test on ledstrip was successful 
+ 
+LedController.WebPortal.Web.Pages.LedstripsPage[13 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:01.735 - [INFO]: Testing ledstrip Test ledstrip. 
+ 
+LedController.WebPortal.Infrastructure.Connections.Connections.GrpcControllerConnection[13 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:01.735 - [TRACE]: Sending message to e429a7c8-43cf-47c0-82f7-c4711091edb6, test the strip. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[13 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:01.735 - [DEBUG]: Starting gRPC call. Method type: 'Unary', URI: 'http://10.0.3.75:5000/connection.GrpcConnection/TestLedstrip'. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[6 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:01.735 - [DEBUG]: Sending message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[6 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:01.735 - [TRACE]: Serialized 'LedController.WebPortal.Infrastructure.Connections.Protos.Ledstrip' to 80 byte message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[9 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:01.735 - [TRACE]: Message sent. 
+ 
+LedController.WebPortal.Web.Pages.LedstripsPage[18 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:03.272 - [INFO]: Testing ledstrip Test ledstrip. 
+ 
+LedController.WebPortal.Infrastructure.Connections.Connections.GrpcControllerConnection[18 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:03.287 - [TRACE]: Sending message to e429a7c8-43cf-47c0-82f7-c4711091edb6, test the strip. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[18 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:03.287 - [DEBUG]: Starting gRPC call. Method type: 'Unary', URI: 'http://10.0.3.75:5000/connection.GrpcConnection/TestLedstrip'. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[6 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:03.287 - [DEBUG]: Sending message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[6 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:03.287 - [TRACE]: Serialized 'LedController.WebPortal.Infrastructure.Connections.Protos.Ledstrip' to 80 byte message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[9 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:03.287 - [TRACE]: Message sent. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[6 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:05.611 - [TRACE]: Response headers received. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[6 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:05.626 - [DEBUG]: Reading message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[6 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:05.626 - [TRACE]: Deserializing 2 byte message to 'LedController.WebPortal.Infrastructure.Connections.Protos.ResultMessage'. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[6 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:05.626 - [TRACE]: Received message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[6 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:05.626 - [DEBUG]: Finished gRPC call. 
+ 
+LedController.WebPortal.Infrastructure.Connections.Connections.GrpcControllerConnection[9 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:05.626 - [TRACE]: Test on ledstrip was successful 
+ 
+Grpc.Net.Client.Internal.GrpcCall[13 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:07.758 - [TRACE]: Response headers received. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[13 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:07.773 - [DEBUG]: Reading message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[13 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:07.773 - [TRACE]: Deserializing 2 byte message to 'LedController.WebPortal.Infrastructure.Connections.Protos.ResultMessage'. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[13 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:07.773 - [TRACE]: Received message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[13 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:07.773 - [DEBUG]: Finished gRPC call. 
+ 
+LedController.WebPortal.Infrastructure.Connections.Connections.GrpcControllerConnection[6 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:07.773 - [TRACE]: Test on ledstrip was successful 
+ 
+Grpc.Net.Client.Internal.GrpcCall[17 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:09.302 - [TRACE]: Response headers received. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[17 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:09.317 - [DEBUG]: Reading message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[17 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:09.317 - [TRACE]: Deserializing 2 byte message to 'LedController.WebPortal.Infrastructure.Connections.Protos.ResultMessage'. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[17 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:09.317 - [TRACE]: Received message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[17 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:09.317 - [DEBUG]: Finished gRPC call. 
+ 
+LedController.WebPortal.Infrastructure.Connections.Connections.GrpcControllerConnection[15 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:09.317 - [TRACE]: Test on ledstrip was successful 
+ 
+LedController.WebPortal.Web.Pages.LedstripsPage[53 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:12.423 - [INFO]: Testing ledstrip Test ledstrip. 
+ 
+LedController.WebPortal.Infrastructure.Connections.Connections.GrpcControllerConnection[53 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:12.438 - [TRACE]: Sending message to e429a7c8-43cf-47c0-82f7-c4711091edb6, test the strip. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[53 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:12.438 - [DEBUG]: Starting gRPC call. Method type: 'Unary', URI: 'http://10.0.3.75:5000/connection.GrpcConnection/TestLedstrip'. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[6 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:12.438 - [DEBUG]: Sending message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[6 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:12.438 - [TRACE]: Serialized 'LedController.WebPortal.Infrastructure.Connections.Protos.Ledstrip' to 80 byte message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[13 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:12.438 - [TRACE]: Message sent. 
+ 
+LedController.WebPortal.Web.Pages.LedstripsPage[13 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:13.439 - [INFO]: Testing ledstrip Test ledstrip. 
+ 
+LedController.WebPortal.Infrastructure.Connections.Connections.GrpcControllerConnection[13 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:13.454 - [TRACE]: Sending message to e429a7c8-43cf-47c0-82f7-c4711091edb6, test the strip. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[13 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:13.454 - [DEBUG]: Starting gRPC call. Method type: 'Unary', URI: 'http://10.0.3.75:5000/connection.GrpcConnection/TestLedstrip'. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[6 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:13.454 - [DEBUG]: Sending message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[6 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:13.454 - [TRACE]: Serialized 'LedController.WebPortal.Infrastructure.Connections.Protos.Ledstrip' to 80 byte message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[9 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:13.454 - [TRACE]: Message sent. 
+ 
+LedController.WebPortal.Web.Pages.LedstripsPage[9 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:14.231 - [INFO]: Testing ledstrip Test ledstrip. 
+ 
+LedController.WebPortal.Infrastructure.Connections.Connections.GrpcControllerConnection[9 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:14.246 - [TRACE]: Sending message to e429a7c8-43cf-47c0-82f7-c4711091edb6, test the strip. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[9 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:14.246 - [DEBUG]: Starting gRPC call. Method type: 'Unary', URI: 'http://10.0.3.75:5000/connection.GrpcConnection/TestLedstrip'. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[6 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:14.246 - [DEBUG]: Sending message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[6 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:14.246 - [TRACE]: Serialized 'LedController.WebPortal.Infrastructure.Connections.Protos.Ledstrip' to 80 byte message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[13 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:14.246 - [TRACE]: Message sent. 
+ 
+LedController.WebPortal.Web.Pages.LedstripsPage[6 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:14.844 - [INFO]: Testing ledstrip Test ledstrip. 
+ 
+LedController.WebPortal.Infrastructure.Connections.Connections.GrpcControllerConnection[6 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:14.859 - [TRACE]: Sending message to e429a7c8-43cf-47c0-82f7-c4711091edb6, test the strip. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[6 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:14.859 - [DEBUG]: Starting gRPC call. Method type: 'Unary', URI: 'http://10.0.3.75:5000/connection.GrpcConnection/TestLedstrip'. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[13 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:14.859 - [DEBUG]: Sending message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[13 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:14.859 - [TRACE]: Serialized 'LedController.WebPortal.Infrastructure.Connections.Protos.Ledstrip' to 80 byte message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[9 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:14.859 - [TRACE]: Message sent. 
+ 
+LedController.WebPortal.Web.Pages.LedstripsPage[6 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:15.497 - [INFO]: Testing ledstrip Test ledstrip. 
+ 
+LedController.WebPortal.Infrastructure.Connections.Connections.GrpcControllerConnection[6 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:15.512 - [TRACE]: Sending message to e429a7c8-43cf-47c0-82f7-c4711091edb6, test the strip. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[6 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:15.512 - [DEBUG]: Starting gRPC call. Method type: 'Unary', URI: 'http://10.0.3.75:5000/connection.GrpcConnection/TestLedstrip'. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[13 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:15.512 - [DEBUG]: Sending message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[13 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:15.512 - [TRACE]: Serialized 'LedController.WebPortal.Infrastructure.Connections.Protos.Ledstrip' to 80 byte message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[9 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:15.512 - [TRACE]: Message sent. 
+ 
+LedController.WebPortal.Web.Pages.LedstripsPage[6 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:16.142 - [INFO]: Testing ledstrip Test ledstrip. 
+ 
+LedController.WebPortal.Infrastructure.Connections.Connections.GrpcControllerConnection[6 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:16.157 - [TRACE]: Sending message to e429a7c8-43cf-47c0-82f7-c4711091edb6, test the strip. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[6 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:16.157 - [DEBUG]: Starting gRPC call. Method type: 'Unary', URI: 'http://10.0.3.75:5000/connection.GrpcConnection/TestLedstrip'. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[13 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:16.157 - [DEBUG]: Sending message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[13 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:16.157 - [TRACE]: Serialized 'LedController.WebPortal.Infrastructure.Connections.Protos.Ledstrip' to 80 byte message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[9 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:16.157 - [TRACE]: Message sent. 
+ 
+LedController.WebPortal.Web.Pages.LedstripsPage[13 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:16.769 - [INFO]: Testing ledstrip Test ledstrip. 
+ 
+LedController.WebPortal.Infrastructure.Connections.Connections.GrpcControllerConnection[13 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:16.784 - [TRACE]: Sending message to e429a7c8-43cf-47c0-82f7-c4711091edb6, test the strip. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[13 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:16.784 - [DEBUG]: Starting gRPC call. Method type: 'Unary', URI: 'http://10.0.3.75:5000/connection.GrpcConnection/TestLedstrip'. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[6 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:16.784 - [DEBUG]: Sending message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[6 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:16.784 - [TRACE]: Serialized 'LedController.WebPortal.Infrastructure.Connections.Protos.Ledstrip' to 80 byte message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[9 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:16.788 - [TRACE]: Message sent. 
+ 
+LedController.WebPortal.Web.Pages.LedstripsPage[9 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:18.711 - [INFO]: Testing ledstrip Test ledstrip. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[13 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:18.711 - [TRACE]: Response headers received. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[13 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:18.726 - [DEBUG]: Reading message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[13 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:18.726 - [TRACE]: Deserializing 2 byte message to 'LedController.WebPortal.Infrastructure.Connections.Protos.ResultMessage'. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[13 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:18.726 - [TRACE]: Received message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[13 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:18.726 - [DEBUG]: Finished gRPC call. 
+ 
+LedController.WebPortal.Infrastructure.Connections.Connections.GrpcControllerConnection[9 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:18.726 - [TRACE]: Sending message to e429a7c8-43cf-47c0-82f7-c4711091edb6, test the strip. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[9 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:18.726 - [DEBUG]: Starting gRPC call. Method type: 'Unary', URI: 'http://10.0.3.75:5000/connection.GrpcConnection/TestLedstrip'. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[6 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:18.726 - [DEBUG]: Sending message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[6 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:18.726 - [TRACE]: Serialized 'LedController.WebPortal.Infrastructure.Connections.Protos.Ledstrip' to 80 byte message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[13 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:18.726 - [TRACE]: Message sent. 
+ 
+LedController.WebPortal.Infrastructure.Connections.Connections.GrpcControllerConnection[6 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:18.726 - [TRACE]: Test on ledstrip was successful 
+ 
+Grpc.Net.Client.Internal.GrpcCall[6 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:19.483 - [TRACE]: Response headers received. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[6 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:19.498 - [DEBUG]: Reading message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[6 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:19.498 - [TRACE]: Deserializing 2 byte message to 'LedController.WebPortal.Infrastructure.Connections.Protos.ResultMessage'. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[6 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:19.498 - [TRACE]: Received message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[6 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:19.498 - [DEBUG]: Finished gRPC call. 
+ 
+LedController.WebPortal.Infrastructure.Connections.Connections.GrpcControllerConnection[13 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:19.498 - [TRACE]: Test on ledstrip was successful 
+ 
+LedController.WebPortal.Web.Pages.LedstripsPage[6 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:19.617 - [INFO]: Testing ledstrip Test ledstrip. 
+ 
+LedController.WebPortal.Infrastructure.Connections.Connections.GrpcControllerConnection[6 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:19.617 - [TRACE]: Sending message to e429a7c8-43cf-47c0-82f7-c4711091edb6, test the strip. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[6 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:19.617 - [DEBUG]: Starting gRPC call. Method type: 'Unary', URI: 'http://10.0.3.75:5000/connection.GrpcConnection/TestLedstrip'. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[13 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:19.617 - [DEBUG]: Sending message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[13 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:19.617 - [TRACE]: Serialized 'LedController.WebPortal.Infrastructure.Connections.Protos.Ledstrip' to 80 byte message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[9 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:19.617 - [TRACE]: Message sent. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[9 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:20.264 - [TRACE]: Response headers received. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[9 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:20.279 - [DEBUG]: Reading message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[9 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:20.279 - [TRACE]: Deserializing 2 byte message to 'LedController.WebPortal.Infrastructure.Connections.Protos.ResultMessage'. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[9 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:20.279 - [TRACE]: Received message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[9 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:20.279 - [DEBUG]: Finished gRPC call. 
+ 
+LedController.WebPortal.Infrastructure.Connections.Connections.GrpcControllerConnection[13 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:20.279 - [TRACE]: Test on ledstrip was successful 
+ 
+LedController.WebPortal.Web.Pages.LedstripsPage[13 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:20.329 - [INFO]: Testing ledstrip Test ledstrip. 
+ 
+LedController.WebPortal.Infrastructure.Connections.Connections.GrpcControllerConnection[13 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:20.329 - [TRACE]: Sending message to e429a7c8-43cf-47c0-82f7-c4711091edb6, test the strip. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[13 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:20.329 - [DEBUG]: Starting gRPC call. Method type: 'Unary', URI: 'http://10.0.3.75:5000/connection.GrpcConnection/TestLedstrip'. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[9 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:20.329 - [DEBUG]: Sending message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[9 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:20.329 - [TRACE]: Serialized 'LedController.WebPortal.Infrastructure.Connections.Protos.Ledstrip' to 80 byte message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[6 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:20.329 - [TRACE]: Message sent. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[6 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:20.872 - [TRACE]: Response headers received. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[6 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:20.887 - [DEBUG]: Reading message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[6 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:20.887 - [TRACE]: Deserializing 2 byte message to 'LedController.WebPortal.Infrastructure.Connections.Protos.ResultMessage'. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[6 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:20.887 - [TRACE]: Received message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[6 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:20.887 - [DEBUG]: Finished gRPC call. 
+ 
+LedController.WebPortal.Infrastructure.Connections.Connections.GrpcControllerConnection[17 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:20.887 - [TRACE]: Test on ledstrip was successful 
+ 
+LedController.WebPortal.Web.Pages.LedstripsPage[9 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:21.040 - [INFO]: Testing ledstrip Test ledstrip. 
+ 
+LedController.WebPortal.Infrastructure.Connections.Connections.GrpcControllerConnection[9 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:21.040 - [TRACE]: Sending message to e429a7c8-43cf-47c0-82f7-c4711091edb6, test the strip. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[9 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:21.040 - [DEBUG]: Starting gRPC call. Method type: 'Unary', URI: 'http://10.0.3.75:5000/connection.GrpcConnection/TestLedstrip'. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[6 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:21.040 - [DEBUG]: Sending message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[6 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:21.040 - [TRACE]: Serialized 'LedController.WebPortal.Infrastructure.Connections.Protos.Ledstrip' to 80 byte message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[13 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:21.040 - [TRACE]: Message sent. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[6 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:21.534 - [TRACE]: Response headers received. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[6 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:21.549 - [DEBUG]: Reading message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[6 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:21.549 - [TRACE]: Deserializing 2 byte message to 'LedController.WebPortal.Infrastructure.Connections.Protos.ResultMessage'. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[6 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:21.549 - [TRACE]: Received message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[6 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:21.549 - [DEBUG]: Finished gRPC call. 
+ 
+LedController.WebPortal.Infrastructure.Connections.Connections.GrpcControllerConnection[13 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:21.549 - [TRACE]: Test on ledstrip was successful 
+ 
+LedController.WebPortal.Web.Pages.LedstripsPage[6 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:21.906 - [INFO]: Testing ledstrip Test ledstrip. 
+ 
+LedController.WebPortal.Infrastructure.Connections.Connections.GrpcControllerConnection[6 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:21.906 - [TRACE]: Sending message to e429a7c8-43cf-47c0-82f7-c4711091edb6, test the strip. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[6 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:21.906 - [DEBUG]: Starting gRPC call. Method type: 'Unary', URI: 'http://10.0.3.75:5000/connection.GrpcConnection/TestLedstrip'. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[18 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:21.906 - [DEBUG]: Sending message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[18 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:21.906 - [TRACE]: Serialized 'LedController.WebPortal.Infrastructure.Connections.Protos.Ledstrip' to 80 byte message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[13 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:21.906 - [TRACE]: Message sent. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[6 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:22.172 - [TRACE]: Response headers received. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[6 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:22.172 - [DEBUG]: Reading message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[6 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:22.172 - [TRACE]: Deserializing 2 byte message to 'LedController.WebPortal.Infrastructure.Connections.Protos.ResultMessage'. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[6 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:22.172 - [TRACE]: Received message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[6 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:22.172 - [DEBUG]: Finished gRPC call. 
+ 
+LedController.WebPortal.Infrastructure.Connections.Connections.GrpcControllerConnection[9 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:22.172 - [TRACE]: Test on ledstrip was successful 
+ 
+LedController.WebPortal.Web.Pages.LedstripsPage[9 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:22.665 - [INFO]: Testing ledstrip Test ledstrip. 
+ 
+LedController.WebPortal.Infrastructure.Connections.Connections.GrpcControllerConnection[9 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:22.680 - [TRACE]: Sending message to e429a7c8-43cf-47c0-82f7-c4711091edb6, test the strip. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[9 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:22.680 - [DEBUG]: Starting gRPC call. Method type: 'Unary', URI: 'http://10.0.3.75:5000/connection.GrpcConnection/TestLedstrip'. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[13 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:22.680 - [DEBUG]: Sending message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[13 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:22.680 - [TRACE]: Serialized 'LedController.WebPortal.Infrastructure.Connections.Protos.Ledstrip' to 80 byte message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[6 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:22.680 - [TRACE]: Message sent. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[18 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:22.865 - [TRACE]: Response headers received. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[18 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:22.866 - [DEBUG]: Reading message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[18 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:22.866 - [TRACE]: Deserializing 2 byte message to 'LedController.WebPortal.Infrastructure.Connections.Protos.ResultMessage'. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[18 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:22.866 - [TRACE]: Received message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[18 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:22.866 - [DEBUG]: Finished gRPC call. 
+ 
+LedController.WebPortal.Infrastructure.Connections.Connections.GrpcControllerConnection[13 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:22.866 - [TRACE]: Test on ledstrip was successful 
+ 
+LedController.WebPortal.Web.Pages.LedstripsPage[6 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:23.305 - [INFO]: Testing ledstrip Test ledstrip. 
+ 
+LedController.WebPortal.Infrastructure.Connections.Connections.GrpcControllerConnection[6 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:23.305 - [TRACE]: Sending message to e429a7c8-43cf-47c0-82f7-c4711091edb6, test the strip. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[6 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:23.305 - [DEBUG]: Starting gRPC call. Method type: 'Unary', URI: 'http://10.0.3.75:5000/connection.GrpcConnection/TestLedstrip'. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[18 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:23.305 - [DEBUG]: Sending message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[18 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:23.305 - [TRACE]: Serialized 'LedController.WebPortal.Infrastructure.Connections.Protos.Ledstrip' to 80 byte message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[9 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:23.305 - [TRACE]: Message sent. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[9 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:24.769 - [TRACE]: Response headers received. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[9 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:24.784 - [DEBUG]: Reading message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[9 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:24.784 - [TRACE]: Deserializing 2 byte message to 'LedController.WebPortal.Infrastructure.Connections.Protos.ResultMessage'. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[9 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:24.784 - [TRACE]: Received message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[9 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:24.784 - [DEBUG]: Finished gRPC call. 
+ 
+LedController.WebPortal.Infrastructure.Connections.Connections.GrpcControllerConnection[6 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:24.784 - [TRACE]: Test on ledstrip was successful 
+ 
+LedController.WebPortal.Web.Pages.LedstripsPage[9 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:25.434 - [INFO]: Testing ledstrip Test ledstrip. 
+ 
+LedController.WebPortal.Infrastructure.Connections.Connections.GrpcControllerConnection[9 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:25.449 - [TRACE]: Sending message to e429a7c8-43cf-47c0-82f7-c4711091edb6, test the strip. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[9 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:25.449 - [DEBUG]: Starting gRPC call. Method type: 'Unary', URI: 'http://10.0.3.75:5000/connection.GrpcConnection/TestLedstrip'. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[13 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:25.449 - [DEBUG]: Sending message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[13 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:25.449 - [TRACE]: Serialized 'LedController.WebPortal.Infrastructure.Connections.Protos.Ledstrip' to 80 byte message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[18 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:25.449 - [TRACE]: Message sent. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[9 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:25.634 - [TRACE]: Response headers received. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[9 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:25.634 - [DEBUG]: Reading message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[9 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:25.634 - [TRACE]: Deserializing 2 byte message to 'LedController.WebPortal.Infrastructure.Connections.Protos.ResultMessage'. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[9 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:25.634 - [TRACE]: Received message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[9 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:25.634 - [DEBUG]: Finished gRPC call. 
+ 
+LedController.WebPortal.Infrastructure.Connections.Connections.GrpcControllerConnection[17 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:25.634 - [TRACE]: Test on ledstrip was successful 
+ 
+Grpc.Net.Client.Internal.GrpcCall[6 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:26.331 - [TRACE]: Response headers received. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[6 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:26.346 - [DEBUG]: Reading message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[6 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:26.346 - [TRACE]: Deserializing 2 byte message to 'LedController.WebPortal.Infrastructure.Connections.Protos.ResultMessage'. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[6 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:26.346 - [TRACE]: Received message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[6 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:26.346 - [DEBUG]: Finished gRPC call. 
+ 
+LedController.WebPortal.Infrastructure.Connections.Connections.GrpcControllerConnection[13 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:26.346 - [TRACE]: Test on ledstrip was successful 
+ 
+LedController.WebPortal.Web.Pages.EffectsEditorPage[9 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:26.632 - [INFO]: Loading effects page. 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[9 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:26.741 - [DEBUG]: Starting effect editor for Test Effect. 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[15 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:26.799 - [DEBUG]: Starting monaco editor for effect Test Effect. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[9 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:27.055 - [TRACE]: Response headers received. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[9 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:27.055 - [DEBUG]: Reading message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[9 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:27.055 - [TRACE]: Deserializing 2 byte message to 'LedController.WebPortal.Infrastructure.Connections.Protos.ResultMessage'. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[9 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:27.055 - [TRACE]: Received message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[9 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:27.055 - [DEBUG]: Finished gRPC call. 
+ 
+LedController.WebPortal.Infrastructure.Connections.Connections.GrpcControllerConnection[13 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:27.055 - [TRACE]: Test on ledstrip was successful 
+ 
+Grpc.Net.Client.Internal.GrpcCall[6 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:27.923 - [TRACE]: Response headers received. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[6 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:27.938 - [DEBUG]: Reading message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[6 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:27.938 - [TRACE]: Deserializing 2 byte message to 'LedController.WebPortal.Infrastructure.Connections.Protos.ResultMessage'. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[6 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:27.938 - [TRACE]: Received message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[6 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:27.938 - [DEBUG]: Finished gRPC call. 
+ 
+LedController.WebPortal.Infrastructure.Connections.Connections.GrpcControllerConnection[18 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:27.938 - [TRACE]: Test on ledstrip was successful 
+ 
+Grpc.Net.Client.Internal.GrpcCall[9 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:28.685 - [TRACE]: Response headers received. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[9 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:28.700 - [DEBUG]: Reading message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[9 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:28.700 - [TRACE]: Deserializing 2 byte message to 'LedController.WebPortal.Infrastructure.Connections.Protos.ResultMessage'. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[9 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:28.700 - [TRACE]: Received message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[9 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:28.700 - [DEBUG]: Finished gRPC call. 
+ 
+LedController.WebPortal.Infrastructure.Connections.Connections.GrpcControllerConnection[18 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:28.700 - [TRACE]: Test on ledstrip was successful 
+ 
+Grpc.Net.Client.Internal.GrpcCall[13 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:29.412 - [TRACE]: Response headers received. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[13 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:29.428 - [DEBUG]: Reading message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[13 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:29.428 - [TRACE]: Deserializing 2 byte message to 'LedController.WebPortal.Infrastructure.Connections.Protos.ResultMessage'. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[13 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:29.428 - [TRACE]: Received message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[13 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:29.428 - [DEBUG]: Finished gRPC call. 
+ 
+LedController.WebPortal.Infrastructure.Connections.Connections.GrpcControllerConnection[18 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:29.428 - [TRACE]: Test on ledstrip was successful 
+ 
+Grpc.Net.Client.Internal.GrpcCall[15 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:31.452 - [TRACE]: Response headers received. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[15 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:31.452 - [DEBUG]: Reading message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[15 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:31.452 - [TRACE]: Deserializing 2 byte message to 'LedController.WebPortal.Infrastructure.Connections.Protos.ResultMessage'. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[15 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:31.452 - [TRACE]: Received message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[15 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:31.452 - [DEBUG]: Finished gRPC call. 
+ 
+LedController.WebPortal.Infrastructure.Connections.Connections.GrpcControllerConnection[6 - .NET ThreadPool Worker] 
+      2022/04/17 00:52:31.452 - [TRACE]: Test on ledstrip was successful 
+ 

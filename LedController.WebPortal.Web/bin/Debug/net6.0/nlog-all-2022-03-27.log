@@ -1,0 +1,1710 @@
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/03/27 00:10:09.909 - [DEBUG]: Hosting starting 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/03/27 00:10:09.956 - [DEBUG]: Starting the discovery service. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/03/27 00:10:09.956 - [DEBUG]: Creating a new UDP client to be used for broadcasting the server information. This wil happen on UDP port 8472. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/03/27 00:10:09.973 - [DEBUG]: The discovery service has started. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[6 - .NET ThreadPool Worker] 
+      2022/03/27 00:10:09.973 - [TRACE]: Start sending message to controllers to be discovered. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/27 00:10:10.096 - [INFO]: Now listening on: http://localhost:5097 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/27 00:10:10.096 - [INFO]: Application started. Press Ctrl+C to shut down. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/27 00:10:10.099 - [INFO]: Hosting environment: Development 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/27 00:10:10.099 - [INFO]: Content root path: D:\Projects\LedController_net5\LedController.WebPortal.Web\ 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/03/27 00:10:10.099 - [DEBUG]: Hosting started 
+ 
+LedController.WebPortal.Web.Pages.Index[6 - .NET ThreadPool Worker] 
+      2022/03/27 00:10:12.191 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Pages.Index[15 - .NET ThreadPool Worker] 
+      2022/03/27 00:10:14.012 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[6 - .NET ThreadPool Worker] 
+      2022/03/27 00:10:15.028 - [DEBUG]: Starting effect editor for Test Effect. 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[13 - .NET ThreadPool Worker] 
+      2022/03/27 00:10:15.074 - [DEBUG]: Starting monaco editor for effect Test Effect. 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[21 - .NET ThreadPool Worker] 
+      2022/03/27 00:10:16.499 - [DEBUG]: Starting effect editor for Test Formore. 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[9 - .NET ThreadPool Worker] 
+      2022/03/27 00:10:16.499 - [DEBUG]: Starting monaco editor for effect Test Formore. 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[6 - .NET ThreadPool Worker] 
+      2022/03/27 00:10:17.534 - [DEBUG]: Starting effect editor for Test Again. 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[15 - .NET ThreadPool Worker] 
+      2022/03/27 00:10:17.542 - [DEBUG]: Starting monaco editor for effect Test Again. 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[12 - .NET ThreadPool Worker] 
+      2022/03/27 00:10:18.015 - [DEBUG]: Starting effect editor for Test Formore. 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[17 - .NET ThreadPool Worker] 
+      2022/03/27 00:10:18.024 - [DEBUG]: Starting monaco editor for effect Test Formore. 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[12 - .NET ThreadPool Worker] 
+      2022/03/27 00:10:21.786 - [DEBUG]: Starting effect editor for Test Again. 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[14 - .NET ThreadPool Worker] 
+      2022/03/27 00:10:21.792 - [DEBUG]: Starting monaco editor for effect Test Again. 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[9 - .NET ThreadPool Worker] 
+      2022/03/27 00:10:22.428 - [DEBUG]: Starting effect editor for Test Formore. 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[9 - .NET ThreadPool Worker] 
+      2022/03/27 00:10:22.428 - [DEBUG]: Starting monaco editor for effect Test Formore. 
+ 
+Microsoft.AspNetCore.Components.Server.Circuits.RemoteRenderer[13 - .NET ThreadPool Worker] 
+      2022/03/27 00:10:25.555 - [WARN]: Unhandled exception rendering component: Compilation failures!
+
+CS0116: A namespace cannot directly contain members such as fields, methods or statements
+CS0116: A namespace cannot directly contain members such as fields, methods or statements
+CS1022: Type or namespace definition, or end-of-file expected
+CS1022: Type or namespace definition, or end-of-file expected
+CS0116: A namespace cannot directly contain members such as fields, methods or statements
+CS1022: Type or namespace definition, or end-of-file expected
+CS0116: A namespace cannot directly contain members such as fields, methods or statements
+CS1529: A using clause must precede all other elements defined in the namespace except extern alias declarations
+CS1022: Type or namespace definition, or end-of-file expected
+CS1003: Syntax error, ',' expected
+CS1003: Syntax error, ',' expected
+CS1003: Syntax error, ',' expected
+CS1003: Syntax error, ',' expected
+CS0234: The type or namespace name 'Domain' does not exist in the namespace 'LedController' (are you missing an assembly reference?)
+CS0101: The namespace 'LedController.Effects' already contains a definition for 'EffectParametersImpl'
+CS0234: The type or namespace name 'Domain' does not exist in the namespace 'LedController' (are you missing an assembly reference?)
+CS0234: The type or namespace name 'Domain' does not exist in the namespace 'LedController' (are you missing an assembly reference?)
+CS0234: The type or namespace name 'Domain' does not exist in the namespace 'LedController' (are you missing an assembly reference?)
+CS0115: 'EffectParametersImpl.Setup()': no suitable method found to override
+CS0115: 'EffectParametersImpl.Loop()': no suitable method found to override
+CS0234: The type or namespace name 'Extensions' does not exist in the namespace 'Microsoft' (are you missing an assembly reference?)
+CS0246: The type or namespace name 'Int32' could not be found (are you missing a using directive or an assembly reference?)
+CS0246: The type or namespace name 'Domain' could not be found (are you missing a using directive or an assembly reference?)
+CS0103: The name 'loggerpixelCountparameters' does not exist in the current context
+CS1729: 'Domain.Effects.LoopingEffectBase' does not contain a constructor that takes 1 arguments
+
+Code:
+
+using LedController.Domain.Effects;
+namespace LedController.Effects
+{
+    System;System.Linq;using LedController.Domain.Effects;
+    public class EffectParametersImpl : LedController.Domain.Effects.EffectParametersBase
+    {
+    public EffectParametersImpl(){ }
+    }
+    System;System.Linq;using LedController.Domain.Effects;
+    public class EffectParametersImpl : LedController.Domain.Effects.LoopingEffectBase
+    {
+    public EffectParametersImpl(Microsoft.Extensions.Logging.ILogger loggerSystem.Int32 pixelCountLedController.Domain.Effects.EffectParametersBase parameters): base(loggerpixelCountparameters){ }
+
+    // The code that we run once before we start the animation.
+    public override void Setup() { }
+
+    // The code that we run every frame.
+    public override void Loop() { }
+
+    			
+    }
+}
+
+ 
+ System.InvalidOperationException: Compilation failures!
+
+CS0116: A namespace cannot directly contain members such as fields, methods or statements
+CS0116: A namespace cannot directly contain members such as fields, methods or statements
+CS1022: Type or namespace definition, or end-of-file expected
+CS1022: Type or namespace definition, or end-of-file expected
+CS0116: A namespace cannot directly contain members such as fields, methods or statements
+CS1022: Type or namespace definition, or end-of-file expected
+CS0116: A namespace cannot directly contain members such as fields, methods or statements
+CS1529: A using clause must precede all other elements defined in the namespace except extern alias declarations
+CS1022: Type or namespace definition, or end-of-file expected
+CS1003: Syntax error, ',' expected
+CS1003: Syntax error, ',' expected
+CS1003: Syntax error, ',' expected
+CS1003: Syntax error, ',' expected
+CS0234: The type or namespace name 'Domain' does not exist in the namespace 'LedController' (are you missing an assembly reference?)
+CS0101: The namespace 'LedController.Effects' already contains a definition for 'EffectParametersImpl'
+CS0234: The type or namespace name 'Domain' does not exist in the namespace 'LedController' (are you missing an assembly reference?)
+CS0234: The type or namespace name 'Domain' does not exist in the namespace 'LedController' (are you missing an assembly reference?)
+CS0234: The type or namespace name 'Domain' does not exist in the namespace 'LedController' (are you missing an assembly reference?)
+CS0115: 'EffectParametersImpl.Setup()': no suitable method found to override
+CS0115: 'EffectParametersImpl.Loop()': no suitable method found to override
+CS0234: The type or namespace name 'Extensions' does not exist in the namespace 'Microsoft' (are you missing an assembly reference?)
+CS0246: The type or namespace name 'Int32' could not be found (are you missing a using directive or an assembly reference?)
+CS0246: The type or namespace name 'Domain' could not be found (are you missing a using directive or an assembly reference?)
+CS0103: The name 'loggerpixelCountparameters' does not exist in the current context
+CS1729: 'Domain.Effects.LoopingEffectBase' does not contain a constructor that takes 1 arguments
+
+Code:
+
+using LedController.Domain.Effects;
+namespace LedController.Effects
+{
+    System;System.Linq;using LedController.Domain.Effects;
+    public class EffectParametersImpl : LedController.Domain.Effects.EffectParametersBase
+    {
+    public EffectParametersImpl(){ }
+    }
+    System;System.Linq;using LedController.Domain.Effects;
+    public class EffectParametersImpl : LedController.Domain.Effects.LoopingEffectBase
+    {
+    public EffectParametersImpl(Microsoft.Extensions.Logging.ILogger loggerSystem.Int32 pixelCountLedController.Domain.Effects.EffectParametersBase parameters): base(loggerpixelCountparameters){ }
+
+    // The code that we run once before we start the animation.
+    public override void Setup() { }
+
+    // The code that we run every frame.
+    public override void Loop() { }
+
+    			
+    }
+}
+
+
+   at LamarCompiler.AssemblyGenerator.Generate(String code)
+   at LamarCompiler.AssemblyGenerator.Generate(Action`1 write)
+   at LedController.WebPortal.Core.Services.EffectService.CompileEffectAsync(Effect effect) in D:\Projects\LedController_net5\LedController.Portal.Core\Services\EffectService.cs:line 62
+   at LedController.WebPortal.Web.Components.EffectEditor.BuildEffectAsync() in D:\Projects\LedController_net5\LedController.WebPortal.Web\Components\EffectEditor.razor.cs:line 112
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at MudBlazor.MudBaseButton.OnClickHandler(MouseEventArgs ev)
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.GetErrorHandledTask(Task taskToHandle, ComponentState owningComponentState)
+Microsoft.AspNetCore.Components.Server.Circuits.CircuitHost[13 - .NET ThreadPool Worker] 
+      2022/03/27 00:10:25.609 - [ERROR]: Unhandled exception in circuit 'sZc--FczQVUVpacRed27mXtRhkE6VKOIFZusud38yX0'. 
+ System.InvalidOperationException: Compilation failures!
+
+CS0116: A namespace cannot directly contain members such as fields, methods or statements
+CS0116: A namespace cannot directly contain members such as fields, methods or statements
+CS1022: Type or namespace definition, or end-of-file expected
+CS1022: Type or namespace definition, or end-of-file expected
+CS0116: A namespace cannot directly contain members such as fields, methods or statements
+CS1022: Type or namespace definition, or end-of-file expected
+CS0116: A namespace cannot directly contain members such as fields, methods or statements
+CS1529: A using clause must precede all other elements defined in the namespace except extern alias declarations
+CS1022: Type or namespace definition, or end-of-file expected
+CS1003: Syntax error, ',' expected
+CS1003: Syntax error, ',' expected
+CS1003: Syntax error, ',' expected
+CS1003: Syntax error, ',' expected
+CS0234: The type or namespace name 'Domain' does not exist in the namespace 'LedController' (are you missing an assembly reference?)
+CS0101: The namespace 'LedController.Effects' already contains a definition for 'EffectParametersImpl'
+CS0234: The type or namespace name 'Domain' does not exist in the namespace 'LedController' (are you missing an assembly reference?)
+CS0234: The type or namespace name 'Domain' does not exist in the namespace 'LedController' (are you missing an assembly reference?)
+CS0234: The type or namespace name 'Domain' does not exist in the namespace 'LedController' (are you missing an assembly reference?)
+CS0115: 'EffectParametersImpl.Setup()': no suitable method found to override
+CS0115: 'EffectParametersImpl.Loop()': no suitable method found to override
+CS0234: The type or namespace name 'Extensions' does not exist in the namespace 'Microsoft' (are you missing an assembly reference?)
+CS0246: The type or namespace name 'Int32' could not be found (are you missing a using directive or an assembly reference?)
+CS0246: The type or namespace name 'Domain' could not be found (are you missing a using directive or an assembly reference?)
+CS0103: The name 'loggerpixelCountparameters' does not exist in the current context
+CS1729: 'Domain.Effects.LoopingEffectBase' does not contain a constructor that takes 1 arguments
+
+Code:
+
+using LedController.Domain.Effects;
+namespace LedController.Effects
+{
+    System;System.Linq;using LedController.Domain.Effects;
+    public class EffectParametersImpl : LedController.Domain.Effects.EffectParametersBase
+    {
+    public EffectParametersImpl(){ }
+    }
+    System;System.Linq;using LedController.Domain.Effects;
+    public class EffectParametersImpl : LedController.Domain.Effects.LoopingEffectBase
+    {
+    public EffectParametersImpl(Microsoft.Extensions.Logging.ILogger loggerSystem.Int32 pixelCountLedController.Domain.Effects.EffectParametersBase parameters): base(loggerpixelCountparameters){ }
+
+    // The code that we run once before we start the animation.
+    public override void Setup() { }
+
+    // The code that we run every frame.
+    public override void Loop() { }
+
+    			
+    }
+}
+
+
+   at LamarCompiler.AssemblyGenerator.Generate(String code)
+   at LamarCompiler.AssemblyGenerator.Generate(Action`1 write)
+   at LedController.WebPortal.Core.Services.EffectService.CompileEffectAsync(Effect effect) in D:\Projects\LedController_net5\LedController.Portal.Core\Services\EffectService.cs:line 62
+   at LedController.WebPortal.Web.Components.EffectEditor.BuildEffectAsync() in D:\Projects\LedController_net5\LedController.WebPortal.Web\Components\EffectEditor.razor.cs:line 112
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at MudBlazor.MudBaseButton.OnClickHandler(MouseEventArgs ev)
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.GetErrorHandledTask(Task taskToHandle, ComponentState owningComponentState)
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/03/27 01:27:19.957 - [DEBUG]: Hosting starting 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/03/27 01:27:19.997 - [DEBUG]: Starting the discovery service. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/03/27 01:27:19.997 - [DEBUG]: Creating a new UDP client to be used for broadcasting the server information. This wil happen on UDP port 8472. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/03/27 01:27:20.012 - [DEBUG]: The discovery service has started. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[9 - .NET ThreadPool Worker] 
+      2022/03/27 01:27:20.012 - [TRACE]: Start sending message to controllers to be discovered. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/27 01:27:20.104 - [INFO]: Now listening on: http://localhost:5097 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/27 01:27:20.104 - [INFO]: Application started. Press Ctrl+C to shut down. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/27 01:27:20.104 - [INFO]: Hosting environment: Development 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/27 01:27:20.104 - [INFO]: Content root path: D:\Projects\LedController_net5\LedController.WebPortal.Web\ 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/03/27 01:27:20.104 - [DEBUG]: Hosting started 
+ 
+LedController.WebPortal.Web.Pages.Index[6 - .NET ThreadPool Worker] 
+      2022/03/27 01:27:22.972 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Pages.Index[10 - .NET ThreadPool Worker] 
+      2022/03/27 01:27:24.725 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[6 - .NET ThreadPool Worker] 
+      2022/03/27 01:27:26.515 - [DEBUG]: Starting effect editor for Test Effect. 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[10 - .NET ThreadPool Worker] 
+      2022/03/27 01:27:26.560 - [DEBUG]: Starting monaco editor for effect Test Effect. 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[18 - .NET ThreadPool Worker] 
+      2022/03/27 01:27:27.879 - [DEBUG]: Starting effect editor for Test Formore. 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[18 - .NET ThreadPool Worker] 
+      2022/03/27 01:27:27.884 - [DEBUG]: Starting monaco editor for effect Test Formore. 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/03/27 01:28:11.818 - [DEBUG]: Hosting starting 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/03/27 01:28:11.851 - [DEBUG]: Starting the discovery service. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/03/27 01:28:11.851 - [DEBUG]: Creating a new UDP client to be used for broadcasting the server information. This wil happen on UDP port 8472. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/03/27 01:28:11.851 - [DEBUG]: The discovery service has started. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[9 - .NET ThreadPool Worker] 
+      2022/03/27 01:28:11.851 - [TRACE]: Start sending message to controllers to be discovered. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/27 01:28:11.928 - [INFO]: Now listening on: http://localhost:5097 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/27 01:28:11.928 - [INFO]: Application started. Press Ctrl+C to shut down. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/27 01:28:11.928 - [INFO]: Hosting environment: Development 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/27 01:28:11.928 - [INFO]: Content root path: D:\Projects\LedController_net5\LedController.WebPortal.Web\ 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/03/27 01:28:11.928 - [DEBUG]: Hosting started 
+ 
+LedController.WebPortal.Web.Pages.Index[10 - .NET ThreadPool Worker] 
+      2022/03/27 01:28:14.090 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Pages.Index[9 - .NET ThreadPool Worker] 
+      2022/03/27 01:28:15.956 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[15 - .NET ThreadPool Worker] 
+      2022/03/27 01:28:18.682 - [DEBUG]: Starting effect editor for Test Effect. 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[6 - .NET ThreadPool Worker] 
+      2022/03/27 01:28:18.723 - [DEBUG]: Starting monaco editor for effect Test Effect. 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[15 - .NET ThreadPool Worker] 
+      2022/03/27 01:28:19.780 - [DEBUG]: Starting effect editor for Test Formore. 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[9 - .NET ThreadPool Worker] 
+      2022/03/27 01:28:19.780 - [DEBUG]: Starting monaco editor for effect Test Formore. 
+ 
+Microsoft.AspNetCore.Components.Server.Circuits.RemoteRenderer[9 - .NET ThreadPool Worker] 
+      2022/03/27 01:28:22.401 - [WARN]: Unhandled exception rendering component: Compilation failures!
+
+CS1514: { expected
+CS1513: } expected
+CS1022: Type or namespace definition, or end-of-file expected
+CS0116: A namespace cannot directly contain members such as fields, methods or statements
+CS1022: Type or namespace definition, or end-of-file expected
+CS0116: A namespace cannot directly contain members such as fields, methods or statements
+CS1022: Type or namespace definition, or end-of-file expected
+CS0116: A namespace cannot directly contain members such as fields, methods or statements
+CS1022: Type or namespace definition, or end-of-file expected
+CS0116: A namespace cannot directly contain members such as fields, methods or statements
+CS1022: Type or namespace definition, or end-of-file expected
+CS0116: A namespace cannot directly contain members such as fields, methods or statements
+CS1022: Type or namespace definition, or end-of-file expected
+CS0116: A namespace cannot directly contain members such as fields, methods or statements
+CS1022: Type or namespace definition, or end-of-file expected
+CS0116: A namespace cannot directly contain members such as fields, methods or statements
+CS1022: Type or namespace definition, or end-of-file expected
+CS0116: A namespace cannot directly contain members such as fields, methods or statements
+CS1022: Type or namespace definition, or end-of-file expected
+CS0116: A namespace cannot directly contain members such as fields, methods or statements
+CS1022: Type or namespace definition, or end-of-file expected
+CS1514: { expected
+CS1513: } expected
+CS8803: Top-level statements must precede namespace and type declarations.
+CS1002: ; expected
+CS1002: ; expected
+CS1002: ; expected
+CS1022: Type or namespace definition, or end-of-file expected
+CS1002: ; expected
+CS1022: Type or namespace definition, or end-of-file expected
+CS0234: The type or namespace name 'Domain' does not exist in the namespace 'LedController' (are you missing an assembly reference?)
+CS0116: A namespace cannot directly contain members such as fields, methods or statements
+CS1520: Method must have a return type
+CS0116: A namespace cannot directly contain members such as fields, methods or statements
+CS0116: A namespace cannot directly contain members such as fields, methods or statements
+CS0115: '<invalid-global-code>.Setup()': no suitable method found to override
+CS0115: '<invalid-global-code>.Loop()': no suitable method found to override
+CS0246: The type or namespace name 'ILogger' could not be found (are you missing a using directive or an assembly reference?)
+CS0246: The type or namespace name 'EffectParametersBase' could not be found (are you missing a using directive or an assembly reference?)
+CS8805: Program using top-level statements must be an executable.
+CS1729: 'object' does not contain a constructor that takes 3 arguments
+CS0103: The name 'f22f' does not exist in the current context
+CS0103: The name 'bd' does not exist in the current context
+CS0103: The name 'ce8' does not exist in the current context
+CS0103: The name 'e191c8d8d438' does not exist in the current context
+CS0234: The type or namespace name 'Domain' does not exist in the namespace 'LedController' (are you missing an assembly reference?)
+
+Code:
+
+using LedController.Domain.Effects;
+namespace LedController.Effects
+{
+    public class Generated75d60e52-f22f-4fbd-9ce8-e191c8d8d438 : LedController.Domain.Effects.LoopingEffectBase
+    {
+        public Generated75d60e52-f22f-4fbd-9ce8-e191c8d8d438(ILogger logger, int pixelCount, EffectParametersBase parameters) : base(logger, pixelCount, parameters)
+        {
+        }
+
+
+
+        // The code that we run once before we start the animation.
+        public override void Setup() { }
+
+        // The code that we run every frame.
+        public override void Loop() { }
+
+        			
+    }
+
+    public class GeneratedParameters75d60e52-f22f-4fbd-9ce8-e191c8d8d438 : LedController.Domain.Effects.LoopingEffectBase
+    {
+    }
+
+}
+
+ 
+ System.InvalidOperationException: Compilation failures!
+
+CS1514: { expected
+CS1513: } expected
+CS1022: Type or namespace definition, or end-of-file expected
+CS0116: A namespace cannot directly contain members such as fields, methods or statements
+CS1022: Type or namespace definition, or end-of-file expected
+CS0116: A namespace cannot directly contain members such as fields, methods or statements
+CS1022: Type or namespace definition, or end-of-file expected
+CS0116: A namespace cannot directly contain members such as fields, methods or statements
+CS1022: Type or namespace definition, or end-of-file expected
+CS0116: A namespace cannot directly contain members such as fields, methods or statements
+CS1022: Type or namespace definition, or end-of-file expected
+CS0116: A namespace cannot directly contain members such as fields, methods or statements
+CS1022: Type or namespace definition, or end-of-file expected
+CS0116: A namespace cannot directly contain members such as fields, methods or statements
+CS1022: Type or namespace definition, or end-of-file expected
+CS0116: A namespace cannot directly contain members such as fields, methods or statements
+CS1022: Type or namespace definition, or end-of-file expected
+CS0116: A namespace cannot directly contain members such as fields, methods or statements
+CS1022: Type or namespace definition, or end-of-file expected
+CS0116: A namespace cannot directly contain members such as fields, methods or statements
+CS1022: Type or namespace definition, or end-of-file expected
+CS1514: { expected
+CS1513: } expected
+CS8803: Top-level statements must precede namespace and type declarations.
+CS1002: ; expected
+CS1002: ; expected
+CS1002: ; expected
+CS1022: Type or namespace definition, or end-of-file expected
+CS1002: ; expected
+CS1022: Type or namespace definition, or end-of-file expected
+CS0234: The type or namespace name 'Domain' does not exist in the namespace 'LedController' (are you missing an assembly reference?)
+CS0116: A namespace cannot directly contain members such as fields, methods or statements
+CS1520: Method must have a return type
+CS0116: A namespace cannot directly contain members such as fields, methods or statements
+CS0116: A namespace cannot directly contain members such as fields, methods or statements
+CS0115: '<invalid-global-code>.Setup()': no suitable method found to override
+CS0115: '<invalid-global-code>.Loop()': no suitable method found to override
+CS0246: The type or namespace name 'ILogger' could not be found (are you missing a using directive or an assembly reference?)
+CS0246: The type or namespace name 'EffectParametersBase' could not be found (are you missing a using directive or an assembly reference?)
+CS8805: Program using top-level statements must be an executable.
+CS1729: 'object' does not contain a constructor that takes 3 arguments
+CS0103: The name 'f22f' does not exist in the current context
+CS0103: The name 'bd' does not exist in the current context
+CS0103: The name 'ce8' does not exist in the current context
+CS0103: The name 'e191c8d8d438' does not exist in the current context
+CS0234: The type or namespace name 'Domain' does not exist in the namespace 'LedController' (are you missing an assembly reference?)
+
+Code:
+
+using LedController.Domain.Effects;
+namespace LedController.Effects
+{
+    public class Generated75d60e52-f22f-4fbd-9ce8-e191c8d8d438 : LedController.Domain.Effects.LoopingEffectBase
+    {
+        public Generated75d60e52-f22f-4fbd-9ce8-e191c8d8d438(ILogger logger, int pixelCount, EffectParametersBase parameters) : base(logger, pixelCount, parameters)
+        {
+        }
+
+
+
+        // The code that we run once before we start the animation.
+        public override void Setup() { }
+
+        // The code that we run every frame.
+        public override void Loop() { }
+
+        			
+    }
+
+    public class GeneratedParameters75d60e52-f22f-4fbd-9ce8-e191c8d8d438 : LedController.Domain.Effects.LoopingEffectBase
+    {
+    }
+
+}
+
+
+   at LamarCompiler.AssemblyGenerator.Generate(String code)
+   at LamarCompiler.AssemblyGenerator.Generate(Action`1 write)
+   at LedController.WebPortal.Core.Services.EffectService.CompileEffectAsync(Effect effect) in D:\Projects\LedController_net5\LedController.Portal.Core\Services\EffectService.cs:line 59
+   at LedController.WebPortal.Web.Components.EffectEditor.BuildEffectAsync() in D:\Projects\LedController_net5\LedController.WebPortal.Web\Components\EffectEditor.razor.cs:line 112
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at MudBlazor.MudBaseButton.OnClickHandler(MouseEventArgs ev)
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.GetErrorHandledTask(Task taskToHandle, ComponentState owningComponentState)
+Microsoft.AspNetCore.Components.Server.Circuits.CircuitHost[9 - .NET ThreadPool Worker] 
+      2022/03/27 01:28:22.447 - [ERROR]: Unhandled exception in circuit 'bpIVn98_2STg2DGAEcgYQusQoE8aY8nyUz36pztvPtQ'. 
+ System.InvalidOperationException: Compilation failures!
+
+CS1514: { expected
+CS1513: } expected
+CS1022: Type or namespace definition, or end-of-file expected
+CS0116: A namespace cannot directly contain members such as fields, methods or statements
+CS1022: Type or namespace definition, or end-of-file expected
+CS0116: A namespace cannot directly contain members such as fields, methods or statements
+CS1022: Type or namespace definition, or end-of-file expected
+CS0116: A namespace cannot directly contain members such as fields, methods or statements
+CS1022: Type or namespace definition, or end-of-file expected
+CS0116: A namespace cannot directly contain members such as fields, methods or statements
+CS1022: Type or namespace definition, or end-of-file expected
+CS0116: A namespace cannot directly contain members such as fields, methods or statements
+CS1022: Type or namespace definition, or end-of-file expected
+CS0116: A namespace cannot directly contain members such as fields, methods or statements
+CS1022: Type or namespace definition, or end-of-file expected
+CS0116: A namespace cannot directly contain members such as fields, methods or statements
+CS1022: Type or namespace definition, or end-of-file expected
+CS0116: A namespace cannot directly contain members such as fields, methods or statements
+CS1022: Type or namespace definition, or end-of-file expected
+CS0116: A namespace cannot directly contain members such as fields, methods or statements
+CS1022: Type or namespace definition, or end-of-file expected
+CS1514: { expected
+CS1513: } expected
+CS8803: Top-level statements must precede namespace and type declarations.
+CS1002: ; expected
+CS1002: ; expected
+CS1002: ; expected
+CS1022: Type or namespace definition, or end-of-file expected
+CS1002: ; expected
+CS1022: Type or namespace definition, or end-of-file expected
+CS0234: The type or namespace name 'Domain' does not exist in the namespace 'LedController' (are you missing an assembly reference?)
+CS0116: A namespace cannot directly contain members such as fields, methods or statements
+CS1520: Method must have a return type
+CS0116: A namespace cannot directly contain members such as fields, methods or statements
+CS0116: A namespace cannot directly contain members such as fields, methods or statements
+CS0115: '<invalid-global-code>.Setup()': no suitable method found to override
+CS0115: '<invalid-global-code>.Loop()': no suitable method found to override
+CS0246: The type or namespace name 'ILogger' could not be found (are you missing a using directive or an assembly reference?)
+CS0246: The type or namespace name 'EffectParametersBase' could not be found (are you missing a using directive or an assembly reference?)
+CS8805: Program using top-level statements must be an executable.
+CS1729: 'object' does not contain a constructor that takes 3 arguments
+CS0103: The name 'f22f' does not exist in the current context
+CS0103: The name 'bd' does not exist in the current context
+CS0103: The name 'ce8' does not exist in the current context
+CS0103: The name 'e191c8d8d438' does not exist in the current context
+CS0234: The type or namespace name 'Domain' does not exist in the namespace 'LedController' (are you missing an assembly reference?)
+
+Code:
+
+using LedController.Domain.Effects;
+namespace LedController.Effects
+{
+    public class Generated75d60e52-f22f-4fbd-9ce8-e191c8d8d438 : LedController.Domain.Effects.LoopingEffectBase
+    {
+        public Generated75d60e52-f22f-4fbd-9ce8-e191c8d8d438(ILogger logger, int pixelCount, EffectParametersBase parameters) : base(logger, pixelCount, parameters)
+        {
+        }
+
+
+
+        // The code that we run once before we start the animation.
+        public override void Setup() { }
+
+        // The code that we run every frame.
+        public override void Loop() { }
+
+        			
+    }
+
+    public class GeneratedParameters75d60e52-f22f-4fbd-9ce8-e191c8d8d438 : LedController.Domain.Effects.LoopingEffectBase
+    {
+    }
+
+}
+
+
+   at LamarCompiler.AssemblyGenerator.Generate(String code)
+   at LamarCompiler.AssemblyGenerator.Generate(Action`1 write)
+   at LedController.WebPortal.Core.Services.EffectService.CompileEffectAsync(Effect effect) in D:\Projects\LedController_net5\LedController.Portal.Core\Services\EffectService.cs:line 59
+   at LedController.WebPortal.Web.Components.EffectEditor.BuildEffectAsync() in D:\Projects\LedController_net5\LedController.WebPortal.Web\Components\EffectEditor.razor.cs:line 112
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at MudBlazor.MudBaseButton.OnClickHandler(MouseEventArgs ev)
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.GetErrorHandledTask(Task taskToHandle, ComponentState owningComponentState)
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/03/27 01:37:05.705 - [DEBUG]: Hosting starting 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/03/27 01:37:05.759 - [DEBUG]: Starting the discovery service. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/03/27 01:37:05.759 - [DEBUG]: Creating a new UDP client to be used for broadcasting the server information. This wil happen on UDP port 8472. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/03/27 01:37:05.783 - [DEBUG]: The discovery service has started. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[9 - .NET ThreadPool Worker] 
+      2022/03/27 01:37:05.783 - [TRACE]: Start sending message to controllers to be discovered. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/27 01:37:05.887 - [INFO]: Now listening on: http://localhost:5097 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/27 01:37:05.887 - [INFO]: Application started. Press Ctrl+C to shut down. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/27 01:37:05.887 - [INFO]: Hosting environment: Development 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/27 01:37:05.887 - [INFO]: Content root path: D:\Projects\LedController_net5\LedController.WebPortal.Web\ 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/03/27 01:37:05.887 - [DEBUG]: Hosting started 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/03/27 01:37:45.990 - [DEBUG]: Hosting starting 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/03/27 01:37:46.035 - [DEBUG]: Starting the discovery service. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/03/27 01:37:46.035 - [DEBUG]: Creating a new UDP client to be used for broadcasting the server information. This wil happen on UDP port 8472. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/03/27 01:37:46.049 - [DEBUG]: The discovery service has started. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[9 - .NET ThreadPool Worker] 
+      2022/03/27 01:37:46.049 - [TRACE]: Start sending message to controllers to be discovered. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/27 01:37:46.120 - [INFO]: Now listening on: http://localhost:5097 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/27 01:37:46.120 - [INFO]: Application started. Press Ctrl+C to shut down. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/27 01:37:46.120 - [INFO]: Hosting environment: Development 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/27 01:37:46.120 - [INFO]: Content root path: D:\Projects\LedController_net5\LedController.WebPortal.Web\ 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/03/27 01:37:46.120 - [DEBUG]: Hosting started 
+ 
+LedController.WebPortal.Web.Pages.Index[14 - .NET ThreadPool Worker] 
+      2022/03/27 01:37:48.559 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Pages.Index[12 - .NET ThreadPool Worker] 
+      2022/03/27 01:37:50.467 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[9 - .NET ThreadPool Worker] 
+      2022/03/27 01:37:56.768 - [DEBUG]: Starting effect editor for Test Effect. 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[18 - .NET ThreadPool Worker] 
+      2022/03/27 01:37:56.809 - [DEBUG]: Starting monaco editor for effect Test Effect. 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[12 - .NET ThreadPool Worker] 
+      2022/03/27 01:37:57.976 - [DEBUG]: Starting effect editor for Test Formore. 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[6 - .NET ThreadPool Worker] 
+      2022/03/27 01:37:57.976 - [DEBUG]: Starting monaco editor for effect Test Formore. 
+ 
+Microsoft.AspNetCore.Components.Server.Circuits.RemoteRenderer[17 - .NET ThreadPool Worker] 
+      2022/03/27 01:38:00.463 - [WARN]: Unhandled exception rendering component: Compilation failures!
+
+CS1514: { expected
+CS1513: } expected
+CS1022: Type or namespace definition, or end-of-file expected
+CS0116: A namespace cannot directly contain members such as fields, methods or statements
+CS1022: Type or namespace definition, or end-of-file expected
+CS0116: A namespace cannot directly contain members such as fields, methods or statements
+CS1022: Type or namespace definition, or end-of-file expected
+CS0116: A namespace cannot directly contain members such as fields, methods or statements
+CS1022: Type or namespace definition, or end-of-file expected
+CS0116: A namespace cannot directly contain members such as fields, methods or statements
+CS1022: Type or namespace definition, or end-of-file expected
+CS0116: A namespace cannot directly contain members such as fields, methods or statements
+CS1022: Type or namespace definition, or end-of-file expected
+CS0116: A namespace cannot directly contain members such as fields, methods or statements
+CS1022: Type or namespace definition, or end-of-file expected
+CS0116: A namespace cannot directly contain members such as fields, methods or statements
+CS1022: Type or namespace definition, or end-of-file expected
+CS0116: A namespace cannot directly contain members such as fields, methods or statements
+CS1022: Type or namespace definition, or end-of-file expected
+CS0116: A namespace cannot directly contain members such as fields, methods or statements
+CS1022: Type or namespace definition, or end-of-file expected
+CS1514: { expected
+CS1513: } expected
+CS8803: Top-level statements must precede namespace and type declarations.
+CS1002: ; expected
+CS1002: ; expected
+CS1002: ; expected
+CS1022: Type or namespace definition, or end-of-file expected
+CS1002: ; expected
+CS1022: Type or namespace definition, or end-of-file expected
+CS0234: The type or namespace name 'Domain' does not exist in the namespace 'LedController' (are you missing an assembly reference?)
+CS0234: The type or namespace name 'Extensions' does not exist in the namespace 'Microsoft' (are you missing an assembly reference?)
+CS0116: A namespace cannot directly contain members such as fields, methods or statements
+CS1520: Method must have a return type
+CS0116: A namespace cannot directly contain members such as fields, methods or statements
+CS0116: A namespace cannot directly contain members such as fields, methods or statements
+CS0115: '<invalid-global-code>.Setup()': no suitable method found to override
+CS0115: '<invalid-global-code>.Loop()': no suitable method found to override
+CS0246: The type or namespace name 'ILogger' could not be found (are you missing a using directive or an assembly reference?)
+CS0246: The type or namespace name 'EffectParametersBase' could not be found (are you missing a using directive or an assembly reference?)
+CS8805: Program using top-level statements must be an executable.
+CS1729: 'object' does not contain a constructor that takes 3 arguments
+CS0103: The name 'f22f' does not exist in the current context
+CS0103: The name 'bd' does not exist in the current context
+CS0103: The name 'ce8' does not exist in the current context
+CS0103: The name 'e191c8d8d438' does not exist in the current context
+CS0234: The type or namespace name 'Domain' does not exist in the namespace 'LedController' (are you missing an assembly reference?)
+
+Code:
+
+using LedController.Domain.Effects;
+using Microsoft.Extensions.Logging;
+namespace LedController.Effects
+{
+    public class Generated75d60e52-f22f-4fbd-9ce8-e191c8d8d438 : LedController.Domain.Effects.LoopingEffectBase
+    {
+        public Generated75d60e52-f22f-4fbd-9ce8-e191c8d8d438(ILogger logger, int pixelCount, EffectParametersBase parameters) : base(logger, pixelCount, parameters)
+        {
+        }
+
+
+
+        // The code that we run once before we start the animation.
+        public override void Setup() { }
+
+        // The code that we run every frame.
+        public override void Loop() { }
+
+        			
+    }
+
+    public class GeneratedParameters75d60e52-f22f-4fbd-9ce8-e191c8d8d438 : LedController.Domain.Effects.EffectParametersBase
+    {
+    }
+
+}
+
+ 
+ System.InvalidOperationException: Compilation failures!
+
+CS1514: { expected
+CS1513: } expected
+CS1022: Type or namespace definition, or end-of-file expected
+CS0116: A namespace cannot directly contain members such as fields, methods or statements
+CS1022: Type or namespace definition, or end-of-file expected
+CS0116: A namespace cannot directly contain members such as fields, methods or statements
+CS1022: Type or namespace definition, or end-of-file expected
+CS0116: A namespace cannot directly contain members such as fields, methods or statements
+CS1022: Type or namespace definition, or end-of-file expected
+CS0116: A namespace cannot directly contain members such as fields, methods or statements
+CS1022: Type or namespace definition, or end-of-file expected
+CS0116: A namespace cannot directly contain members such as fields, methods or statements
+CS1022: Type or namespace definition, or end-of-file expected
+CS0116: A namespace cannot directly contain members such as fields, methods or statements
+CS1022: Type or namespace definition, or end-of-file expected
+CS0116: A namespace cannot directly contain members such as fields, methods or statements
+CS1022: Type or namespace definition, or end-of-file expected
+CS0116: A namespace cannot directly contain members such as fields, methods or statements
+CS1022: Type or namespace definition, or end-of-file expected
+CS0116: A namespace cannot directly contain members such as fields, methods or statements
+CS1022: Type or namespace definition, or end-of-file expected
+CS1514: { expected
+CS1513: } expected
+CS8803: Top-level statements must precede namespace and type declarations.
+CS1002: ; expected
+CS1002: ; expected
+CS1002: ; expected
+CS1022: Type or namespace definition, or end-of-file expected
+CS1002: ; expected
+CS1022: Type or namespace definition, or end-of-file expected
+CS0234: The type or namespace name 'Domain' does not exist in the namespace 'LedController' (are you missing an assembly reference?)
+CS0234: The type or namespace name 'Extensions' does not exist in the namespace 'Microsoft' (are you missing an assembly reference?)
+CS0116: A namespace cannot directly contain members such as fields, methods or statements
+CS1520: Method must have a return type
+CS0116: A namespace cannot directly contain members such as fields, methods or statements
+CS0116: A namespace cannot directly contain members such as fields, methods or statements
+CS0115: '<invalid-global-code>.Setup()': no suitable method found to override
+CS0115: '<invalid-global-code>.Loop()': no suitable method found to override
+CS0246: The type or namespace name 'ILogger' could not be found (are you missing a using directive or an assembly reference?)
+CS0246: The type or namespace name 'EffectParametersBase' could not be found (are you missing a using directive or an assembly reference?)
+CS8805: Program using top-level statements must be an executable.
+CS1729: 'object' does not contain a constructor that takes 3 arguments
+CS0103: The name 'f22f' does not exist in the current context
+CS0103: The name 'bd' does not exist in the current context
+CS0103: The name 'ce8' does not exist in the current context
+CS0103: The name 'e191c8d8d438' does not exist in the current context
+CS0234: The type or namespace name 'Domain' does not exist in the namespace 'LedController' (are you missing an assembly reference?)
+
+Code:
+
+using LedController.Domain.Effects;
+using Microsoft.Extensions.Logging;
+namespace LedController.Effects
+{
+    public class Generated75d60e52-f22f-4fbd-9ce8-e191c8d8d438 : LedController.Domain.Effects.LoopingEffectBase
+    {
+        public Generated75d60e52-f22f-4fbd-9ce8-e191c8d8d438(ILogger logger, int pixelCount, EffectParametersBase parameters) : base(logger, pixelCount, parameters)
+        {
+        }
+
+
+
+        // The code that we run once before we start the animation.
+        public override void Setup() { }
+
+        // The code that we run every frame.
+        public override void Loop() { }
+
+        			
+    }
+
+    public class GeneratedParameters75d60e52-f22f-4fbd-9ce8-e191c8d8d438 : LedController.Domain.Effects.EffectParametersBase
+    {
+    }
+
+}
+
+
+   at LamarCompiler.AssemblyGenerator.Generate(String code)
+   at LamarCompiler.AssemblyGenerator.Generate(Action`1 write)
+   at LedController.WebPortal.Core.Services.EffectService.CompileEffectAsync(Effect effect) in D:\Projects\LedController_net5\LedController.Portal.Core\Services\EffectService.cs:line 59
+   at LedController.WebPortal.Web.Components.EffectEditor.BuildEffectAsync() in D:\Projects\LedController_net5\LedController.WebPortal.Web\Components\EffectEditor.razor.cs:line 112
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at MudBlazor.MudBaseButton.OnClickHandler(MouseEventArgs ev)
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.GetErrorHandledTask(Task taskToHandle, ComponentState owningComponentState)
+Microsoft.AspNetCore.Components.Server.Circuits.CircuitHost[17 - .NET ThreadPool Worker] 
+      2022/03/27 01:38:00.494 - [ERROR]: Unhandled exception in circuit 'Yd6zwQv_owPMbS9Xwg0eczsu_QpBPc-EqRSdsXqmEPQ'. 
+ System.InvalidOperationException: Compilation failures!
+
+CS1514: { expected
+CS1513: } expected
+CS1022: Type or namespace definition, or end-of-file expected
+CS0116: A namespace cannot directly contain members such as fields, methods or statements
+CS1022: Type or namespace definition, or end-of-file expected
+CS0116: A namespace cannot directly contain members such as fields, methods or statements
+CS1022: Type or namespace definition, or end-of-file expected
+CS0116: A namespace cannot directly contain members such as fields, methods or statements
+CS1022: Type or namespace definition, or end-of-file expected
+CS0116: A namespace cannot directly contain members such as fields, methods or statements
+CS1022: Type or namespace definition, or end-of-file expected
+CS0116: A namespace cannot directly contain members such as fields, methods or statements
+CS1022: Type or namespace definition, or end-of-file expected
+CS0116: A namespace cannot directly contain members such as fields, methods or statements
+CS1022: Type or namespace definition, or end-of-file expected
+CS0116: A namespace cannot directly contain members such as fields, methods or statements
+CS1022: Type or namespace definition, or end-of-file expected
+CS0116: A namespace cannot directly contain members such as fields, methods or statements
+CS1022: Type or namespace definition, or end-of-file expected
+CS0116: A namespace cannot directly contain members such as fields, methods or statements
+CS1022: Type or namespace definition, or end-of-file expected
+CS1514: { expected
+CS1513: } expected
+CS8803: Top-level statements must precede namespace and type declarations.
+CS1002: ; expected
+CS1002: ; expected
+CS1002: ; expected
+CS1022: Type or namespace definition, or end-of-file expected
+CS1002: ; expected
+CS1022: Type or namespace definition, or end-of-file expected
+CS0234: The type or namespace name 'Domain' does not exist in the namespace 'LedController' (are you missing an assembly reference?)
+CS0234: The type or namespace name 'Extensions' does not exist in the namespace 'Microsoft' (are you missing an assembly reference?)
+CS0116: A namespace cannot directly contain members such as fields, methods or statements
+CS1520: Method must have a return type
+CS0116: A namespace cannot directly contain members such as fields, methods or statements
+CS0116: A namespace cannot directly contain members such as fields, methods or statements
+CS0115: '<invalid-global-code>.Setup()': no suitable method found to override
+CS0115: '<invalid-global-code>.Loop()': no suitable method found to override
+CS0246: The type or namespace name 'ILogger' could not be found (are you missing a using directive or an assembly reference?)
+CS0246: The type or namespace name 'EffectParametersBase' could not be found (are you missing a using directive or an assembly reference?)
+CS8805: Program using top-level statements must be an executable.
+CS1729: 'object' does not contain a constructor that takes 3 arguments
+CS0103: The name 'f22f' does not exist in the current context
+CS0103: The name 'bd' does not exist in the current context
+CS0103: The name 'ce8' does not exist in the current context
+CS0103: The name 'e191c8d8d438' does not exist in the current context
+CS0234: The type or namespace name 'Domain' does not exist in the namespace 'LedController' (are you missing an assembly reference?)
+
+Code:
+
+using LedController.Domain.Effects;
+using Microsoft.Extensions.Logging;
+namespace LedController.Effects
+{
+    public class Generated75d60e52-f22f-4fbd-9ce8-e191c8d8d438 : LedController.Domain.Effects.LoopingEffectBase
+    {
+        public Generated75d60e52-f22f-4fbd-9ce8-e191c8d8d438(ILogger logger, int pixelCount, EffectParametersBase parameters) : base(logger, pixelCount, parameters)
+        {
+        }
+
+
+
+        // The code that we run once before we start the animation.
+        public override void Setup() { }
+
+        // The code that we run every frame.
+        public override void Loop() { }
+
+        			
+    }
+
+    public class GeneratedParameters75d60e52-f22f-4fbd-9ce8-e191c8d8d438 : LedController.Domain.Effects.EffectParametersBase
+    {
+    }
+
+}
+
+
+   at LamarCompiler.AssemblyGenerator.Generate(String code)
+   at LamarCompiler.AssemblyGenerator.Generate(Action`1 write)
+   at LedController.WebPortal.Core.Services.EffectService.CompileEffectAsync(Effect effect) in D:\Projects\LedController_net5\LedController.Portal.Core\Services\EffectService.cs:line 59
+   at LedController.WebPortal.Web.Components.EffectEditor.BuildEffectAsync() in D:\Projects\LedController_net5\LedController.WebPortal.Web\Components\EffectEditor.razor.cs:line 112
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at MudBlazor.MudBaseButton.OnClickHandler(MouseEventArgs ev)
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.GetErrorHandledTask(Task taskToHandle, ComponentState owningComponentState)
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/03/27 01:41:04.083 - [DEBUG]: Hosting starting 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/03/27 01:41:04.223 - [DEBUG]: Starting the discovery service. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/03/27 01:41:04.223 - [DEBUG]: Creating a new UDP client to be used for broadcasting the server information. This wil happen on UDP port 8472. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/03/27 01:41:04.235 - [DEBUG]: The discovery service has started. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[9 - .NET ThreadPool Worker] 
+      2022/03/27 01:41:04.235 - [TRACE]: Start sending message to controllers to be discovered. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/27 01:41:04.302 - [INFO]: Now listening on: http://localhost:5097 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/27 01:41:04.306 - [INFO]: Application started. Press Ctrl+C to shut down. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/27 01:41:04.306 - [INFO]: Hosting environment: Development 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/27 01:41:04.306 - [INFO]: Content root path: D:\Projects\LedController_net5\LedController.WebPortal.Web\ 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/03/27 01:41:04.306 - [DEBUG]: Hosting started 
+ 
+LedController.WebPortal.Web.Pages.Index[9 - .NET ThreadPool Worker] 
+      2022/03/27 01:41:06.228 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Pages.Index[9 - .NET ThreadPool Worker] 
+      2022/03/27 01:41:08.139 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[16 - .NET ThreadPool Worker] 
+      2022/03/27 01:41:09.634 - [DEBUG]: Starting effect editor for Test Effect. 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[16 - .NET ThreadPool Worker] 
+      2022/03/27 01:41:09.678 - [DEBUG]: Starting monaco editor for effect Test Effect. 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[9 - .NET ThreadPool Worker] 
+      2022/03/27 01:41:10.461 - [DEBUG]: Starting effect editor for Test Formore. 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[13 - .NET ThreadPool Worker] 
+      2022/03/27 01:41:10.461 - [DEBUG]: Starting monaco editor for effect Test Formore. 
+ 
+Microsoft.AspNetCore.Components.Server.Circuits.RemoteRenderer[6 - .NET ThreadPool Worker] 
+      2022/03/27 01:41:13.290 - [WARN]: Unhandled exception rendering component: Compilation failures!
+
+CS0234: The type or namespace name 'Domain' does not exist in the namespace 'LedController' (are you missing an assembly reference?)
+CS0234: The type or namespace name 'Extensions' does not exist in the namespace 'Microsoft' (are you missing an assembly reference?)
+CS0234: The type or namespace name 'Domain' does not exist in the namespace 'LedController' (are you missing an assembly reference?)
+CS0234: The type or namespace name 'Domain' does not exist in the namespace 'LedController' (are you missing an assembly reference?)
+CS0115: 'Generated75d60e52f22f4fbd9ce8e191c8d8d438.Setup()': no suitable method found to override
+CS0115: 'Generated75d60e52f22f4fbd9ce8e191c8d8d438.Loop()': no suitable method found to override
+CS0246: The type or namespace name 'ILogger' could not be found (are you missing a using directive or an assembly reference?)
+CS0246: The type or namespace name 'EffectParametersBase' could not be found (are you missing a using directive or an assembly reference?)
+CS1729: 'Domain.Effects.LoopingEffectBase' does not contain a constructor that takes 3 arguments
+
+Code:
+
+using LedController.Domain.Effects;
+using Microsoft.Extensions.Logging;
+namespace LedController.Effects
+{
+    public class Generated75d60e52f22f4fbd9ce8e191c8d8d438 : LedController.Domain.Effects.LoopingEffectBase
+    {
+        public Generated75d60e52f22f4fbd9ce8e191c8d8d438(ILogger logger, int pixelCount, EffectParametersBase parameters) : base(logger, pixelCount, parameters)
+        {
+        }
+
+
+
+        // The code that we run once before we start the animation.
+        public override void Setup() { }
+
+        // The code that we run every frame.
+        public override void Loop() { }
+
+        			
+    }
+
+    public class GeneratedParameters75d60e52f22f4fbd9ce8e191c8d8d438 : LedController.Domain.Effects.EffectParametersBase
+    {
+    }
+
+}
+
+ 
+ System.InvalidOperationException: Compilation failures!
+
+CS0234: The type or namespace name 'Domain' does not exist in the namespace 'LedController' (are you missing an assembly reference?)
+CS0234: The type or namespace name 'Extensions' does not exist in the namespace 'Microsoft' (are you missing an assembly reference?)
+CS0234: The type or namespace name 'Domain' does not exist in the namespace 'LedController' (are you missing an assembly reference?)
+CS0234: The type or namespace name 'Domain' does not exist in the namespace 'LedController' (are you missing an assembly reference?)
+CS0115: 'Generated75d60e52f22f4fbd9ce8e191c8d8d438.Setup()': no suitable method found to override
+CS0115: 'Generated75d60e52f22f4fbd9ce8e191c8d8d438.Loop()': no suitable method found to override
+CS0246: The type or namespace name 'ILogger' could not be found (are you missing a using directive or an assembly reference?)
+CS0246: The type or namespace name 'EffectParametersBase' could not be found (are you missing a using directive or an assembly reference?)
+CS1729: 'Domain.Effects.LoopingEffectBase' does not contain a constructor that takes 3 arguments
+
+Code:
+
+using LedController.Domain.Effects;
+using Microsoft.Extensions.Logging;
+namespace LedController.Effects
+{
+    public class Generated75d60e52f22f4fbd9ce8e191c8d8d438 : LedController.Domain.Effects.LoopingEffectBase
+    {
+        public Generated75d60e52f22f4fbd9ce8e191c8d8d438(ILogger logger, int pixelCount, EffectParametersBase parameters) : base(logger, pixelCount, parameters)
+        {
+        }
+
+
+
+        // The code that we run once before we start the animation.
+        public override void Setup() { }
+
+        // The code that we run every frame.
+        public override void Loop() { }
+
+        			
+    }
+
+    public class GeneratedParameters75d60e52f22f4fbd9ce8e191c8d8d438 : LedController.Domain.Effects.EffectParametersBase
+    {
+    }
+
+}
+
+
+   at LamarCompiler.AssemblyGenerator.Generate(String code)
+   at LamarCompiler.AssemblyGenerator.Generate(Action`1 write)
+   at LedController.WebPortal.Core.Services.EffectService.CompileEffectAsync(Effect effect) in D:\Projects\LedController_net5\LedController.Portal.Core\Services\EffectService.cs:line 59
+   at LedController.WebPortal.Web.Components.EffectEditor.BuildEffectAsync() in D:\Projects\LedController_net5\LedController.WebPortal.Web\Components\EffectEditor.razor.cs:line 112
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at MudBlazor.MudBaseButton.OnClickHandler(MouseEventArgs ev)
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.GetErrorHandledTask(Task taskToHandle, ComponentState owningComponentState)
+Microsoft.AspNetCore.Components.Server.Circuits.CircuitHost[6 - .NET ThreadPool Worker] 
+      2022/03/27 01:41:13.316 - [ERROR]: Unhandled exception in circuit 'NOTeihHh5q2cGMpPALPEDjE3I-qugkVbLkLLv-F1x_w'. 
+ System.InvalidOperationException: Compilation failures!
+
+CS0234: The type or namespace name 'Domain' does not exist in the namespace 'LedController' (are you missing an assembly reference?)
+CS0234: The type or namespace name 'Extensions' does not exist in the namespace 'Microsoft' (are you missing an assembly reference?)
+CS0234: The type or namespace name 'Domain' does not exist in the namespace 'LedController' (are you missing an assembly reference?)
+CS0234: The type or namespace name 'Domain' does not exist in the namespace 'LedController' (are you missing an assembly reference?)
+CS0115: 'Generated75d60e52f22f4fbd9ce8e191c8d8d438.Setup()': no suitable method found to override
+CS0115: 'Generated75d60e52f22f4fbd9ce8e191c8d8d438.Loop()': no suitable method found to override
+CS0246: The type or namespace name 'ILogger' could not be found (are you missing a using directive or an assembly reference?)
+CS0246: The type or namespace name 'EffectParametersBase' could not be found (are you missing a using directive or an assembly reference?)
+CS1729: 'Domain.Effects.LoopingEffectBase' does not contain a constructor that takes 3 arguments
+
+Code:
+
+using LedController.Domain.Effects;
+using Microsoft.Extensions.Logging;
+namespace LedController.Effects
+{
+    public class Generated75d60e52f22f4fbd9ce8e191c8d8d438 : LedController.Domain.Effects.LoopingEffectBase
+    {
+        public Generated75d60e52f22f4fbd9ce8e191c8d8d438(ILogger logger, int pixelCount, EffectParametersBase parameters) : base(logger, pixelCount, parameters)
+        {
+        }
+
+
+
+        // The code that we run once before we start the animation.
+        public override void Setup() { }
+
+        // The code that we run every frame.
+        public override void Loop() { }
+
+        			
+    }
+
+    public class GeneratedParameters75d60e52f22f4fbd9ce8e191c8d8d438 : LedController.Domain.Effects.EffectParametersBase
+    {
+    }
+
+}
+
+
+   at LamarCompiler.AssemblyGenerator.Generate(String code)
+   at LamarCompiler.AssemblyGenerator.Generate(Action`1 write)
+   at LedController.WebPortal.Core.Services.EffectService.CompileEffectAsync(Effect effect) in D:\Projects\LedController_net5\LedController.Portal.Core\Services\EffectService.cs:line 59
+   at LedController.WebPortal.Web.Components.EffectEditor.BuildEffectAsync() in D:\Projects\LedController_net5\LedController.WebPortal.Web\Components\EffectEditor.razor.cs:line 112
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at MudBlazor.MudBaseButton.OnClickHandler(MouseEventArgs ev)
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.GetErrorHandledTask(Task taskToHandle, ComponentState owningComponentState)
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/03/27 01:48:00.186 - [DEBUG]: Hosting starting 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/03/27 01:48:00.221 - [DEBUG]: Starting the discovery service. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/03/27 01:48:00.221 - [DEBUG]: Creating a new UDP client to be used for broadcasting the server information. This wil happen on UDP port 8472. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/03/27 01:48:00.233 - [DEBUG]: The discovery service has started. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[12 - .NET ThreadPool Worker] 
+      2022/03/27 01:48:00.233 - [TRACE]: Start sending message to controllers to be discovered. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/27 01:48:00.417 - [INFO]: Now listening on: http://localhost:5097 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/27 01:48:00.417 - [INFO]: Application started. Press Ctrl+C to shut down. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/27 01:48:00.417 - [INFO]: Hosting environment: Development 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/27 01:48:00.417 - [INFO]: Content root path: D:\Projects\LedController_net5\LedController.WebPortal.Web\ 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/03/27 01:48:00.417 - [DEBUG]: Hosting started 
+ 
+LedController.WebPortal.Web.Pages.Index[15 - .NET ThreadPool Worker] 
+      2022/03/27 01:48:02.880 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Pages.Index[13 - .NET ThreadPool Worker] 
+      2022/03/27 01:48:04.971 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[15 - .NET ThreadPool Worker] 
+      2022/03/27 01:48:05.827 - [DEBUG]: Starting effect editor for Test Effect. 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[6 - .NET ThreadPool Worker] 
+      2022/03/27 01:48:05.869 - [DEBUG]: Starting monaco editor for effect Test Effect. 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[9 - .NET ThreadPool Worker] 
+      2022/03/27 01:48:06.830 - [DEBUG]: Starting effect editor for Test Formore. 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[13 - .NET ThreadPool Worker] 
+      2022/03/27 01:48:06.836 - [DEBUG]: Starting monaco editor for effect Test Formore. 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/03/27 01:50:44.153 - [DEBUG]: Hosting starting 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/03/27 01:50:44.187 - [DEBUG]: Starting the discovery service. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/03/27 01:50:44.187 - [DEBUG]: Creating a new UDP client to be used for broadcasting the server information. This wil happen on UDP port 8472. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/03/27 01:50:44.198 - [DEBUG]: The discovery service has started. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[9 - .NET ThreadPool Worker] 
+      2022/03/27 01:50:44.198 - [TRACE]: Start sending message to controllers to be discovered. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/27 01:50:44.261 - [INFO]: Now listening on: http://localhost:5097 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/27 01:50:44.261 - [INFO]: Application started. Press Ctrl+C to shut down. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/27 01:50:44.261 - [INFO]: Hosting environment: Development 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/27 01:50:44.261 - [INFO]: Content root path: D:\Projects\LedController_net5\LedController.WebPortal.Web\ 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/03/27 01:50:44.261 - [DEBUG]: Hosting started 
+ 
+LedController.WebPortal.Web.Pages.Index[9 - .NET ThreadPool Worker] 
+      2022/03/27 01:50:46.522 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Pages.Index[10 - .NET ThreadPool Worker] 
+      2022/03/27 01:50:52.047 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[16 - .NET ThreadPool Worker] 
+      2022/03/27 01:50:52.702 - [DEBUG]: Starting effect editor for Test Effect. 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[23 - .NET ThreadPool Worker] 
+      2022/03/27 01:50:52.790 - [DEBUG]: Starting monaco editor for effect Test Effect. 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[6 - .NET ThreadPool Worker] 
+      2022/03/27 01:50:53.658 - [DEBUG]: Starting effect editor for Test Formore. 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[6 - .NET ThreadPool Worker] 
+      2022/03/27 01:50:53.663 - [DEBUG]: Starting monaco editor for effect Test Formore. 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/03/27 01:57:07.713 - [DEBUG]: Hosting starting 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/03/27 01:57:07.753 - [DEBUG]: Starting the discovery service. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/03/27 01:57:07.753 - [DEBUG]: Creating a new UDP client to be used for broadcasting the server information. This wil happen on UDP port 8472. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/03/27 01:57:07.769 - [DEBUG]: The discovery service has started. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[9 - .NET ThreadPool Worker] 
+      2022/03/27 01:57:07.769 - [TRACE]: Start sending message to controllers to be discovered. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/27 01:57:07.857 - [INFO]: Now listening on: http://localhost:5097 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/27 01:57:07.857 - [INFO]: Application started. Press Ctrl+C to shut down. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/27 01:57:07.857 - [INFO]: Hosting environment: Development 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/27 01:57:07.857 - [INFO]: Content root path: D:\Projects\LedController_net5\LedController.WebPortal.Web\ 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/03/27 01:57:07.857 - [DEBUG]: Hosting started 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/03/27 01:57:28.895 - [DEBUG]: Hosting starting 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/03/27 01:57:28.954 - [DEBUG]: Starting the discovery service. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/03/27 01:57:28.954 - [DEBUG]: Creating a new UDP client to be used for broadcasting the server information. This wil happen on UDP port 8472. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/03/27 01:57:28.966 - [DEBUG]: The discovery service has started. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[9 - .NET ThreadPool Worker] 
+      2022/03/27 01:57:28.966 - [TRACE]: Start sending message to controllers to be discovered. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/27 01:57:29.030 - [INFO]: Now listening on: http://localhost:5097 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/27 01:57:29.030 - [INFO]: Application started. Press Ctrl+C to shut down. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/27 01:57:29.030 - [INFO]: Hosting environment: Development 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/27 01:57:29.030 - [INFO]: Content root path: D:\Projects\LedController_net5\LedController.WebPortal.Web\ 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/03/27 01:57:29.030 - [DEBUG]: Hosting started 
+ 
+LedController.WebPortal.Web.Pages.Index[14 - .NET ThreadPool Worker] 
+      2022/03/27 01:57:31.691 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Pages.Index[9 - .NET ThreadPool Worker] 
+      2022/03/27 01:57:34.033 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[10 - .NET ThreadPool Worker] 
+      2022/03/27 01:57:35.053 - [DEBUG]: Starting effect editor for Test Effect. 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[6 - .NET ThreadPool Worker] 
+      2022/03/27 01:57:35.130 - [DEBUG]: Starting monaco editor for effect Test Effect. 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[6 - .NET ThreadPool Worker] 
+      2022/03/27 01:57:36.239 - [DEBUG]: Starting effect editor for Test Formore. 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[14 - .NET ThreadPool Worker] 
+      2022/03/27 01:57:36.246 - [DEBUG]: Starting monaco editor for effect Test Formore. 
+ 
+Microsoft.AspNetCore.Components.Server.Circuits.RemoteRenderer[6 - .NET ThreadPool Worker] 
+      2022/03/27 01:57:39.005 - [WARN]: Unhandled exception rendering component: The filename, directory name, or volume label syntax is incorrect. : 'D:\Projects\LedController_net5\LedController.WebPortal.Web;C:\Users\kdteu\Documents\LedControllerFiles;assemblies;8d59d789-88a4-4c92-a01c-91ac93b00196.dll.dll' 
+ System.IO.IOException: The filename, directory name, or volume label syntax is incorrect. : 'D:\Projects\LedController_net5\LedController.WebPortal.Web;C:\Users\kdteu\Documents\LedControllerFiles;assemblies;8d59d789-88a4-4c92-a01c-91ac93b00196.dll.dll'
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategy(FileStream fileStream, String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, Int64 preallocationSize)
+   at System.IO.File.Open(String path, FileMode mode, FileAccess access)
+   at LedController.WebPortal.Infrastructure.Connections.Services.FileService.SaveAssemblyFileAsync(EffectAssembly effectAssembly, ReadOnlyMemory`1 file, CancellationToken token) in D:\Projects\LedController_net5\LedController.Portal.Infrastructure.Connections\Services\FileService.cs:line 37
+   at LedController.WebPortal.Core.Services.EffectService.CompileEffectAsync(Effect effect) in D:\Projects\LedController_net5\LedController.Portal.Core\Services\EffectService.cs:line 97
+   at LedController.WebPortal.Web.Components.EffectEditor.BuildEffectAsync() in D:\Projects\LedController_net5\LedController.WebPortal.Web\Components\EffectEditor.razor.cs:line 112
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at MudBlazor.MudBaseButton.OnClickHandler(MouseEventArgs ev)
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.GetErrorHandledTask(Task taskToHandle, ComponentState owningComponentState)
+Microsoft.AspNetCore.Components.Server.Circuits.CircuitHost[6 - .NET ThreadPool Worker] 
+      2022/03/27 01:57:41.043 - [ERROR]: Unhandled exception in circuit '37nbpqLiLP8CuSh3TnmTy3mq9AMDAWV7n2tdoiBnsgI'. 
+ System.IO.IOException: The filename, directory name, or volume label syntax is incorrect. : 'D:\Projects\LedController_net5\LedController.WebPortal.Web;C:\Users\kdteu\Documents\LedControllerFiles;assemblies;8d59d789-88a4-4c92-a01c-91ac93b00196.dll.dll'
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategy(FileStream fileStream, String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, Int64 preallocationSize)
+   at System.IO.File.Open(String path, FileMode mode, FileAccess access)
+   at LedController.WebPortal.Infrastructure.Connections.Services.FileService.SaveAssemblyFileAsync(EffectAssembly effectAssembly, ReadOnlyMemory`1 file, CancellationToken token) in D:\Projects\LedController_net5\LedController.Portal.Infrastructure.Connections\Services\FileService.cs:line 37
+   at LedController.WebPortal.Core.Services.EffectService.CompileEffectAsync(Effect effect) in D:\Projects\LedController_net5\LedController.Portal.Core\Services\EffectService.cs:line 97
+   at LedController.WebPortal.Web.Components.EffectEditor.BuildEffectAsync() in D:\Projects\LedController_net5\LedController.WebPortal.Web\Components\EffectEditor.razor.cs:line 112
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at MudBlazor.MudBaseButton.OnClickHandler(MouseEventArgs ev)
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.GetErrorHandledTask(Task taskToHandle, ComponentState owningComponentState)
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/03/27 14:45:07.640 - [DEBUG]: Hosting starting 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/03/27 14:45:07.687 - [DEBUG]: Starting the discovery service. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/03/27 14:45:07.687 - [DEBUG]: Creating a new UDP client to be used for broadcasting the server information. This wil happen on UDP port 8472. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/03/27 14:45:07.705 - [DEBUG]: The discovery service has started. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[6 - .NET ThreadPool Worker] 
+      2022/03/27 14:45:07.705 - [TRACE]: Start sending message to controllers to be discovered. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/27 14:45:07.804 - [INFO]: Now listening on: http://localhost:5097 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/27 14:45:07.804 - [INFO]: Application started. Press Ctrl+C to shut down. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/27 14:45:07.804 - [INFO]: Hosting environment: Development 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/27 14:45:07.804 - [INFO]: Content root path: D:\Projects\LedController_net5\LedController.WebPortal.Web\ 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/03/27 14:45:07.804 - [DEBUG]: Hosting started 
+ 
+LedController.WebPortal.Web.Pages.Index[9 - .NET ThreadPool Worker] 
+      2022/03/27 14:45:10.933 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Pages.Index[9 - .NET ThreadPool Worker] 
+      2022/03/27 14:45:12.756 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[6 - .NET ThreadPool Worker] 
+      2022/03/27 14:45:13.528 - [DEBUG]: Starting effect editor for Test Effect. 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[14 - .NET ThreadPool Worker] 
+      2022/03/27 14:45:13.576 - [DEBUG]: Starting monaco editor for effect Test Effect. 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[9 - .NET ThreadPool Worker] 
+      2022/03/27 14:45:15.147 - [DEBUG]: Starting effect editor for Test Formore. 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[6 - .NET ThreadPool Worker] 
+      2022/03/27 14:45:15.147 - [DEBUG]: Starting monaco editor for effect Test Formore. 
+ 
+Microsoft.AspNetCore.Components.Server.Circuits.RemoteRenderer[9 - .NET ThreadPool Worker] 
+      2022/03/27 14:45:19.025 - [WARN]: Unhandled exception rendering component: The filename, directory name, or volume label syntax is incorrect. : 'D:\Projects\LedController_net5\LedController.WebPortal.Web\;C:\Users\kdteu\Documents\LedControllerFiles;7f35905a-5aa4-427e-a603-8aa66253bec7.dll' 
+ System.IO.IOException: The filename, directory name, or volume label syntax is incorrect. : 'D:\Projects\LedController_net5\LedController.WebPortal.Web\;C:\Users\kdteu\Documents\LedControllerFiles;7f35905a-5aa4-427e-a603-8aa66253bec7.dll'
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategy(FileStream fileStream, String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, Int64 preallocationSize)
+   at System.IO.File.Open(String path, FileMode mode)
+   at LedController.WebPortal.Infrastructure.Connections.Services.FileService.SaveAssemblyFileAsync(EffectAssembly effectAssembly, ReadOnlyMemory`1 file, CancellationToken token) in D:\Projects\LedController_net5\LedController.Portal.Infrastructure.Connections\Services\FileService.cs:line 42
+   at LedController.WebPortal.Core.Services.EffectService.CompileEffectAsync(Effect effect) in D:\Projects\LedController_net5\LedController.Portal.Core\Services\EffectService.cs:line 86
+   at LedController.WebPortal.Web.Components.EffectEditor.BuildEffectAsync() in D:\Projects\LedController_net5\LedController.WebPortal.Web\Components\EffectEditor.razor.cs:line 112
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at MudBlazor.MudBaseButton.OnClickHandler(MouseEventArgs ev)
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.GetErrorHandledTask(Task taskToHandle, ComponentState owningComponentState)
+Microsoft.AspNetCore.Components.Server.Circuits.CircuitHost[9 - .NET ThreadPool Worker] 
+      2022/03/27 14:45:19.077 - [ERROR]: Unhandled exception in circuit 'nahCtlDVb-Xq3oES0zb-rqtUWTxprucyRoyDDPGGOJA'. 
+ System.IO.IOException: The filename, directory name, or volume label syntax is incorrect. : 'D:\Projects\LedController_net5\LedController.WebPortal.Web\;C:\Users\kdteu\Documents\LedControllerFiles;7f35905a-5aa4-427e-a603-8aa66253bec7.dll'
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategy(FileStream fileStream, String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, Int64 preallocationSize)
+   at System.IO.File.Open(String path, FileMode mode)
+   at LedController.WebPortal.Infrastructure.Connections.Services.FileService.SaveAssemblyFileAsync(EffectAssembly effectAssembly, ReadOnlyMemory`1 file, CancellationToken token) in D:\Projects\LedController_net5\LedController.Portal.Infrastructure.Connections\Services\FileService.cs:line 42
+   at LedController.WebPortal.Core.Services.EffectService.CompileEffectAsync(Effect effect) in D:\Projects\LedController_net5\LedController.Portal.Core\Services\EffectService.cs:line 86
+   at LedController.WebPortal.Web.Components.EffectEditor.BuildEffectAsync() in D:\Projects\LedController_net5\LedController.WebPortal.Web\Components\EffectEditor.razor.cs:line 112
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at MudBlazor.MudBaseButton.OnClickHandler(MouseEventArgs ev)
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.GetErrorHandledTask(Task taskToHandle, ComponentState owningComponentState)
+LedController.WebPortal.Web.Components.EffectEditor[6 - .NET ThreadPool Worker] 
+      2022/03/27 14:46:11.344 - [DEBUG]: Starting effect editor for Test Effect. 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[9 - .NET ThreadPool Worker] 
+      2022/03/27 14:46:12.482 - [DEBUG]: Starting effect editor for Test Effect. 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[9 - .NET ThreadPool Worker] 
+      2022/03/27 14:46:12.533 - [DEBUG]: Starting monaco editor for effect Test Effect. 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[9 - .NET ThreadPool Worker] 
+      2022/03/27 14:46:13.334 - [DEBUG]: Starting effect editor for Test Formore. 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[6 - .NET ThreadPool Worker] 
+      2022/03/27 14:46:13.334 - [DEBUG]: Starting monaco editor for effect Test Formore. 
+ 
+Microsoft.AspNetCore.Components.Server.Circuits.RemoteRenderer[6 - .NET ThreadPool Worker] 
+      2022/03/27 14:50:28.238 - [WARN]: Unhandled exception rendering component: The filename, directory name, or volume label syntax is incorrect. : 'D:\Projects\LedController_net5\LedController.WebPortal.Web\C:\Users\kdteu\Documents\LedControllerFiles\aabea725-36c0-4ec5-859b-f0e3864ab42d.dll' 
+ System.IO.IOException: The filename, directory name, or volume label syntax is incorrect. : 'D:\Projects\LedController_net5\LedController.WebPortal.Web\C:\Users\kdteu\Documents\LedControllerFiles\aabea725-36c0-4ec5-859b-f0e3864ab42d.dll'
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategy(FileStream fileStream, String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, Int64 preallocationSize)
+   at System.IO.File.Open(String path, FileMode mode)
+   at LedController.WebPortal.Infrastructure.Connections.Services.FileService.SaveAssemblyFileAsync(EffectAssembly effectAssembly, ReadOnlyMemory`1 file, CancellationToken token)
+   at LedController.WebPortal.Core.Services.EffectService.CompileEffectAsync(Effect effect) in D:\Projects\LedController_net5\LedController.Portal.Core\Services\EffectService.cs:line 86
+   at LedController.WebPortal.Web.Components.EffectEditor.BuildEffectAsync() in D:\Projects\LedController_net5\LedController.WebPortal.Web\Components\EffectEditor.razor.cs:line 112
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at MudBlazor.MudBaseButton.OnClickHandler(MouseEventArgs ev)
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.GetErrorHandledTask(Task taskToHandle, ComponentState owningComponentState)
+Microsoft.AspNetCore.Components.Server.Circuits.CircuitHost[6 - .NET ThreadPool Worker] 
+      2022/03/27 14:50:28.241 - [ERROR]: Unhandled exception in circuit '_KsMThjZa9JRqAMBlgK3W1X5oW2PV0PEi1As9b84Mts'. 
+ System.IO.IOException: The filename, directory name, or volume label syntax is incorrect. : 'D:\Projects\LedController_net5\LedController.WebPortal.Web\C:\Users\kdteu\Documents\LedControllerFiles\aabea725-36c0-4ec5-859b-f0e3864ab42d.dll'
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategy(FileStream fileStream, String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, Int64 preallocationSize)
+   at System.IO.File.Open(String path, FileMode mode)
+   at LedController.WebPortal.Infrastructure.Connections.Services.FileService.SaveAssemblyFileAsync(EffectAssembly effectAssembly, ReadOnlyMemory`1 file, CancellationToken token)
+   at LedController.WebPortal.Core.Services.EffectService.CompileEffectAsync(Effect effect) in D:\Projects\LedController_net5\LedController.Portal.Core\Services\EffectService.cs:line 86
+   at LedController.WebPortal.Web.Components.EffectEditor.BuildEffectAsync() in D:\Projects\LedController_net5\LedController.WebPortal.Web\Components\EffectEditor.razor.cs:line 112
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at MudBlazor.MudBaseButton.OnClickHandler(MouseEventArgs ev)
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.GetErrorHandledTask(Task taskToHandle, ComponentState owningComponentState)
+Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher[37 - .NET ThreadPool Worker] 
+      2022/03/27 14:50:28.241 - [ERROR]: Failed to invoke hub method 'ConnectCircuit'. 
+ System.ObjectDisposedException: Cannot access a disposed object.
+   at Microsoft.AspNetCore.Components.Server.Circuits.CircuitHost.SetCircuitUser(ClaimsPrincipal user)
+   at Microsoft.AspNetCore.Components.Server.ComponentHub.ConnectCircuit(String circuitIdSecret)
+   at lambda_method11(Closure , Object )
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.ExecuteMethod(ObjectMethodExecutor methodExecutor, Hub hub, Object[] arguments)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.<Invoke>g__ExecuteInvocation|16_0(DefaultHubDispatcher`1 dispatcher, ObjectMethodExecutor methodExecutor, THub hub, Object[] arguments, AsyncServiceScope scope, IHubActivator`1 hubActivator, HubConnectionContext connection, HubMethodInvocationMessage hubMethodInvocationMessage, Boolean isStreamCall)
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/03/27 14:50:47.321 - [DEBUG]: Hosting starting 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/03/27 14:50:47.359 - [DEBUG]: Starting the discovery service. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/03/27 14:50:47.359 - [DEBUG]: Creating a new UDP client to be used for broadcasting the server information. This wil happen on UDP port 8472. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/03/27 14:50:47.373 - [DEBUG]: The discovery service has started. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[9 - .NET ThreadPool Worker] 
+      2022/03/27 14:50:47.373 - [TRACE]: Start sending message to controllers to be discovered. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/27 14:50:47.450 - [INFO]: Now listening on: http://localhost:5097 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/27 14:50:47.450 - [INFO]: Application started. Press Ctrl+C to shut down. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/27 14:50:47.450 - [INFO]: Hosting environment: Development 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/27 14:50:47.450 - [INFO]: Content root path: D:\Projects\LedController_net5\LedController.WebPortal.Web\ 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/03/27 14:50:47.450 - [DEBUG]: Hosting started 
+ 
+LedController.WebPortal.Web.Pages.Index[15 - .NET ThreadPool Worker] 
+      2022/03/27 14:50:49.451 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Pages.Index[13 - .NET ThreadPool Worker] 
+      2022/03/27 14:50:51.340 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[9 - .NET ThreadPool Worker] 
+      2022/03/27 14:50:52.104 - [DEBUG]: Starting effect editor for Test Effect. 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[16 - .NET ThreadPool Worker] 
+      2022/03/27 14:50:52.142 - [DEBUG]: Starting monaco editor for effect Test Effect. 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[15 - .NET ThreadPool Worker] 
+      2022/03/27 14:50:52.989 - [DEBUG]: Starting effect editor for Test Formore. 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[15 - .NET ThreadPool Worker] 
+      2022/03/27 14:50:52.995 - [DEBUG]: Starting monaco editor for effect Test Formore. 
+ 
+Microsoft.AspNetCore.Components.Server.Circuits.RemoteRenderer[9 - .NET ThreadPool Worker] 
+      2022/03/27 14:51:24.746 - [WARN]: Unhandled exception rendering component: Could not find a part of the path 'D:\Projects\LedController_net5\LedController.WebPortal.Web\Assemblies\36d60d06-c7e5-41bd-aa37-2bf0ea1be925.dll'. 
+ System.IO.DirectoryNotFoundException: Could not find a part of the path 'D:\Projects\LedController_net5\LedController.WebPortal.Web\Assemblies\36d60d06-c7e5-41bd-aa37-2bf0ea1be925.dll'.
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategy(FileStream fileStream, String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, Int64 preallocationSize)
+   at System.IO.File.Open(String path, FileMode mode)
+   at LedController.WebPortal.Infrastructure.Connections.Services.FileService.SaveAssemblyFileAsync(EffectAssembly effectAssembly, ReadOnlyMemory`1 file, CancellationToken token) in D:\Projects\LedController_net5\LedController.Portal.Infrastructure.Connections\Services\FileService.cs:line 42
+   at LedController.WebPortal.Core.Services.EffectService.CompileEffectAsync(Effect effect) in D:\Projects\LedController_net5\LedController.Portal.Core\Services\EffectService.cs:line 86
+   at LedController.WebPortal.Web.Components.EffectEditor.BuildEffectAsync() in D:\Projects\LedController_net5\LedController.WebPortal.Web\Components\EffectEditor.razor.cs:line 112
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at MudBlazor.MudBaseButton.OnClickHandler(MouseEventArgs ev)
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.GetErrorHandledTask(Task taskToHandle, ComponentState owningComponentState)
+Microsoft.AspNetCore.Components.Server.Circuits.CircuitHost[9 - .NET ThreadPool Worker] 
+      2022/03/27 14:51:24.777 - [ERROR]: Unhandled exception in circuit 'zeQgbHYnz9i0qzsLMyVkTO5yULmYUHxhlB98CTlYWxA'. 
+ System.IO.DirectoryNotFoundException: Could not find a part of the path 'D:\Projects\LedController_net5\LedController.WebPortal.Web\Assemblies\36d60d06-c7e5-41bd-aa37-2bf0ea1be925.dll'.
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategy(FileStream fileStream, String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, Int64 preallocationSize)
+   at System.IO.File.Open(String path, FileMode mode)
+   at LedController.WebPortal.Infrastructure.Connections.Services.FileService.SaveAssemblyFileAsync(EffectAssembly effectAssembly, ReadOnlyMemory`1 file, CancellationToken token) in D:\Projects\LedController_net5\LedController.Portal.Infrastructure.Connections\Services\FileService.cs:line 42
+   at LedController.WebPortal.Core.Services.EffectService.CompileEffectAsync(Effect effect) in D:\Projects\LedController_net5\LedController.Portal.Core\Services\EffectService.cs:line 86
+   at LedController.WebPortal.Web.Components.EffectEditor.BuildEffectAsync() in D:\Projects\LedController_net5\LedController.WebPortal.Web\Components\EffectEditor.razor.cs:line 112
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at MudBlazor.MudBaseButton.OnClickHandler(MouseEventArgs ev)
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.GetErrorHandledTask(Task taskToHandle, ComponentState owningComponentState)
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/03/27 15:09:46.292 - [DEBUG]: Hosting starting 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/03/27 15:09:46.331 - [DEBUG]: Starting the discovery service. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/03/27 15:09:46.331 - [DEBUG]: Creating a new UDP client to be used for broadcasting the server information. This wil happen on UDP port 8472. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/03/27 15:09:46.344 - [DEBUG]: The discovery service has started. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[13 - .NET ThreadPool Worker] 
+      2022/03/27 15:09:46.344 - [TRACE]: Start sending message to controllers to be discovered. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/27 15:09:46.417 - [INFO]: Now listening on: http://localhost:5097 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/27 15:09:46.417 - [INFO]: Application started. Press Ctrl+C to shut down. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/27 15:09:46.417 - [INFO]: Hosting environment: Development 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/27 15:09:46.417 - [INFO]: Content root path: D:\Projects\LedController_net5\LedController.WebPortal.Web\ 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/03/27 15:09:46.417 - [DEBUG]: Hosting started 
+ 
+LedController.WebPortal.Web.Pages.Index[9 - .NET ThreadPool Worker] 
+      2022/03/27 15:09:48.614 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Pages.Index[14 - .NET ThreadPool Worker] 
+      2022/03/27 15:09:50.311 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[16 - .NET ThreadPool Worker] 
+      2022/03/27 15:09:51.786 - [DEBUG]: Starting effect editor for Test Effect. 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[9 - .NET ThreadPool Worker] 
+      2022/03/27 15:09:51.824 - [DEBUG]: Starting monaco editor for effect Test Effect. 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[14 - .NET ThreadPool Worker] 
+      2022/03/27 15:09:52.783 - [DEBUG]: Starting effect editor for Test Formore. 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[9 - .NET ThreadPool Worker] 
+      2022/03/27 15:09:52.789 - [DEBUG]: Starting monaco editor for effect Test Formore. 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/03/27 15:10:36.531 - [DEBUG]: Hosting starting 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/03/27 15:10:36.564 - [DEBUG]: Starting the discovery service. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/03/27 15:10:36.564 - [DEBUG]: Creating a new UDP client to be used for broadcasting the server information. This wil happen on UDP port 8472. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/03/27 15:10:36.575 - [DEBUG]: The discovery service has started. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[10 - .NET ThreadPool Worker] 
+      2022/03/27 15:10:36.575 - [TRACE]: Start sending message to controllers to be discovered. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/27 15:10:36.639 - [INFO]: Now listening on: http://localhost:5097 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/27 15:10:36.639 - [INFO]: Application started. Press Ctrl+C to shut down. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/27 15:10:36.639 - [INFO]: Hosting environment: Development 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/27 15:10:36.639 - [INFO]: Content root path: D:\Projects\LedController_net5\LedController.WebPortal.Web\ 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/03/27 15:10:36.639 - [DEBUG]: Hosting started 
+ 
+LedController.WebPortal.Web.Pages.Index[6 - .NET ThreadPool Worker] 
+      2022/03/27 15:10:39.066 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Pages.Index[9 - .NET ThreadPool Worker] 
+      2022/03/27 15:10:41.053 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[9 - .NET ThreadPool Worker] 
+      2022/03/27 15:13:09.828 - [DEBUG]: Starting effect editor for Test Effect. 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[9 - .NET ThreadPool Worker] 
+      2022/03/27 15:13:09.878 - [DEBUG]: Starting monaco editor for effect Test Effect. 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[9 - .NET ThreadPool Worker] 
+      2022/03/27 15:13:10.533 - [DEBUG]: Starting effect editor for Test Formore. 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[27 - .NET ThreadPool Worker] 
+      2022/03/27 15:13:10.540 - [DEBUG]: Starting monaco editor for effect Test Formore. 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/03/27 15:14:50.566 - [DEBUG]: Hosting starting 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/03/27 15:14:50.601 - [DEBUG]: Starting the discovery service. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/03/27 15:14:50.601 - [DEBUG]: Creating a new UDP client to be used for broadcasting the server information. This wil happen on UDP port 8472. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/03/27 15:14:50.601 - [DEBUG]: The discovery service has started. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[6 - .NET ThreadPool Worker] 
+      2022/03/27 15:14:50.601 - [TRACE]: Start sending message to controllers to be discovered. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/27 15:14:50.681 - [INFO]: Now listening on: http://localhost:5097 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/27 15:14:50.681 - [INFO]: Application started. Press Ctrl+C to shut down. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/27 15:14:50.681 - [INFO]: Hosting environment: Development 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/27 15:14:50.681 - [INFO]: Content root path: D:\Projects\LedController_net5\LedController.WebPortal.Web\ 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/03/27 15:14:50.681 - [DEBUG]: Hosting started 
+ 
+LedController.WebPortal.Web.Pages.Index[12 - .NET ThreadPool Worker] 
+      2022/03/27 15:14:52.984 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Pages.Index[6 - .NET ThreadPool Worker] 
+      2022/03/27 15:14:54.933 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[13 - .NET ThreadPool Worker] 
+      2022/03/27 15:14:55.357 - [DEBUG]: Starting effect editor for Test Effect. 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[13 - .NET ThreadPool Worker] 
+      2022/03/27 15:14:55.398 - [DEBUG]: Starting monaco editor for effect Test Effect. 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[9 - .NET ThreadPool Worker] 
+      2022/03/27 15:14:56.295 - [DEBUG]: Starting effect editor for Test Formore. 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[9 - .NET ThreadPool Worker] 
+      2022/03/27 15:14:56.295 - [DEBUG]: Starting monaco editor for effect Test Formore. 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[37 - .NET ThreadPool Worker] 
+      2022/03/27 15:23:47.482 - [DEBUG]: Starting effect editor for Test Effect. 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[36 - .NET ThreadPool Worker] 
+      2022/03/27 15:23:48.296 - [DEBUG]: Starting effect editor for Test Effect. 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[13 - .NET ThreadPool Worker] 
+      2022/03/27 15:23:48.320 - [DEBUG]: Starting monaco editor for effect Test Effect. 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[38 - .NET ThreadPool Worker] 
+      2022/03/27 15:23:49.029 - [DEBUG]: Starting effect editor for Test Formore. 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[38 - .NET ThreadPool Worker] 
+      2022/03/27 15:23:49.029 - [DEBUG]: Starting monaco editor for effect Test Formore. 
+ 

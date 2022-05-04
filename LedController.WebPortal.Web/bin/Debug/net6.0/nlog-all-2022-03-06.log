@@ -1,0 +1,36 @@
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/03/06 16:29:42.342 - [DEBUG]: Hosting starting 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/06 16:29:42.596 - [INFO]: Now listening on: http://localhost:5097 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/06 16:29:42.596 - [INFO]: Application started. Press Ctrl+C to shut down. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/06 16:29:42.596 - [INFO]: Hosting environment: Development 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/06 16:29:42.596 - [INFO]: Content root path: D:\Projects\LedController_net5\LedController.WebPortal.Web\ 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/03/06 16:29:42.603 - [DEBUG]: Hosting started 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/03/06 17:28:25.343 - [DEBUG]: Hosting starting 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/06 17:28:25.458 - [INFO]: Now listening on: http://localhost:5097 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/06 17:28:25.462 - [INFO]: Application started. Press Ctrl+C to shut down. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/06 17:28:25.462 - [INFO]: Hosting environment: Development 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/06 17:28:25.462 - [INFO]: Content root path: D:\Projects\LedController_net5\LedController.WebPortal.Web\ 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/03/06 17:28:25.462 - [DEBUG]: Hosting started 
+ 

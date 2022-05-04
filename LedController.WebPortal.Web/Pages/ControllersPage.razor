@@ -1,0 +1,177 @@
+﻿@page "/controllers"
+
+@using System
+@using System.Linq
+@using Grpc.Core
+
+@using MudBlazor
+
+@using LedController.Domain.Models
+@using LedController.WebPortal.Domain.Managers
+@using LedController.WebPortal.Domain.Services
+@using LedController.WebPortal.Web.Dialogs
+@using LedController.Shared.Extensions
+@using LedController.WebPortal.Domain.Models
+@using LedController.WebPortal.Infrastructure.Exceptions
+
+
+@inject ILogger<ControllersPage> _logger
+@inject IDialogService _dialogService
+@inject ISnackbar _snackbar
+@inject NavigationManager _navigationManager
+
+@inject IAnimationManager _animationManager
+@inject IEffectManager _effectManager
+@inject IControllerManager _controllerManager
+@inject IControllerService _controllerService
+
+
+<PageTitle>Controllers</PageTitle>
+
+
+@if (Controllers.Any())
+{
+    @* The action buttons.*@
+    <MudItem xs="1" Class="row">
+        <MudButton FullWidth="false" Class="pa-4" Variant="Variant.Filled" Color="Color.Primary" ButtonType="ButtonType.Button" @onclick="async () => await ShowControllerFormDialog()">Add</MudButton>
+    </MudItem>
+
+    <MudItem Class="pa-4" xs="12">
+        @foreach (Controller controller in Controllers)
+        {
+            // Checks if the controller is connected.
+            bool isConnected = _controllerService.IsControllerConnected(controller);
+
+            <MudItem Class="pa-4" xs="4">
+                <MudCard>
+                    <MudCardHeader>
+                        <CardHeaderActions>
+                            <MudIconButton Class="pa-4" Icon="@Icons.Material.Filled.Settings" Color="Color.Default" @onclick="async () => await ShowControllerFormDialog(controller)" />
+                        </CardHeaderActions>
+                    </MudCardHeader>
+                    <MudCardContent>
+                        <MudText Class="pa-4" Typo="Typo.h5">@controller.Name</MudText>
+                        <MudText Class="pa-4" Typo="Typo.body2" Color="@(isConnected ? Color.Primary : Color.Error)">@(isConnected ? "Online" : "Offline")</MudText>
+                        <MudText Class="pa-4" Typo="Typo.body2">IP : @controller.EndPoint.Address.ToString()</MudText>
+                        <MudText Class="pa-4" Typo="Typo.body2">Port : @controller.EndPoint.Port</MudText>
+                    </MudCardContent>
+                    <MudCardActions>
+                        @if (!isConnected)
+                        {
+                            <MudButton Class="pa-4" Variant="Variant.Filled" Color="Color.Primary" FullWidth="true" @onclick="async () => await ConnectToControllerAsync(controller)">Connect</MudButton>
+                        }
+                        else
+                        {
+                            <MudButton Class="pa-4" Variant="Variant.Filled" Color="Color.Primary" FullWidth="true" @onclick="async () => await DisconnectControllerAsync(controller)">Disconnect</MudButton>
+
+                        }
+                    </MudCardActions>
+                </MudCard>
+            </MudItem>
+
+
+        }
+    </MudItem>
+
+}
+else
+{
+    <EmptyPage PageName="Controllers" AddItemAction="async () => await ShowControllerFormDialog()"></EmptyPage>
+}
+
+@code {
+
+    /// <summary>
+    /// The controllers that we know of in the application.
+    /// </summary>
+    public IEnumerable<Controller> Controllers { get; set; } = new List<Controller>();
+
+
+    /// <summary>
+    /// When the page is initialized.
+    /// </summary>
+    /// <returns> </returns>
+    protected override async Task OnInitializedAsync()
+    {
+        _logger.LogInformation("Opening controllers page.");
+
+        // Initalizing the controllers.
+        Controllers = await _controllerManager.GetAsync().AsEnumerableAsync();
+
+        await base.OnInitializedAsync();
+    }
+
+
+
+    /// <summary>
+    /// Connect to the controller.
+    /// </summary>
+    /// <param name="controller"> </param>
+    /// <returns> </returns>
+    private async Task ConnectToControllerAsync(Controller controller)
+    {
+        _logger.LogInformation($"Connecting to controller {controller.Name}.");
+
+        try
+        {
+            await _controllerService.ConnectToControllerAsync(controller);
+        }
+        catch (ControllerConnectionException e)
+        {
+            _logger.LogError(e, $"Could not connect to controller {controller.Name}.");
+            _snackbar.Add($"Connection with {controller.Name} failed.", Severity.Error);
+        }
+
+        _logger.LogInformation($"Connection with controller {controller.Name} successful.");
+        _snackbar.Add($"Connection with {controller.Name} successful!!.", Severity.Success);
+
+    }
+
+
+
+    /// <summary>
+    /// Shows the controller form.
+    /// </summary>
+    /// <param name="controller">The controller that we want to edit. If null then it goes into create mode.</param>
+    /// <returns></returns>
+
+    private async Task ShowControllerFormDialog(Controller? controller = null)
+    {
+        _logger.LogInformation($"Opening the controller form for controller : {controller?.Name ?? "None Selected"}");
+
+        // Setting dialog the parameters.
+        DialogParameters parameters = new DialogParameters
+        {
+            {"Controller", controller}
+        };
+
+        // Setting the options for the dialog.
+        DialogOptions options = new DialogOptions
+            {
+                CloseButton = true,
+                MaxWidth = MaxWidth.Medium,
+                FullWidth = true
+            };
+
+        DialogResult result = await _dialogService.Show<ControllerFormDialog>(controller is null ? "Add" : "New", parameters, options).Result;
+
+        if (!result.Cancelled)
+        {
+            _logger.LogInformation($"Controller dialog closed reloading page.");
+            _navigationManager.NavigateTo("Controllers", true);
+        }
+
+    }
+
+
+    private Task DisconnectControllerAsync(Controller controller)
+    {
+        _logger.LogInformation($"Disconnecting from controller {controller.Name}.");
+
+        // TODO: Adding a disconnect for the controller.
+        return _controllerService.DisconnectAsync(controller);
+
+    }
+
+
+}

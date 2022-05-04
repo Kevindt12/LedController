@@ -1,0 +1,372 @@
+2022-04-10 00:11:25.3085 Info Auto loading assembly file: D:\Projects\LedController_net5\LedController.Controller.Service\bin\Debug\net6.0\NLog.Extensions.Logging.dll
+2022-04-10 00:11:25.3216 Info Loading assembly file: D:\Projects\LedController_net5\LedController.Controller.Service\bin\Debug\net6.0\NLog.Extensions.Logging.dll
+2022-04-10 00:11:25.3400 Info NLog.Extensions.Logging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 1.7.4.1610. Product version: 1.7.4+e2bffa9e949fb4760d75aca224e78631c063f087. GlobalAssemblyCache: False
+2022-04-10 00:11:25.3400 Info Auto loading assembly file: D:\Projects\LedController_net5\LedController.Controller.Service\bin\Debug\net6.0\NLog.Extensions.Logging.dll succeeded!
+2022-04-10 00:11:25.3596 Info Message Template Auto Format enabled
+2022-04-10 00:11:25.3679 Info Loading assembly: NLog.Extensions.Logging
+2022-04-10 00:11:25.4141 Info Adding target AsyncTargetWrapper(Name=std-console)
+2022-04-10 00:11:25.4330 Info Adding target AsyncTargetWrapper(Name=std-file)
+2022-04-10 00:11:25.4521 Info Validating config: TargetNames=std-console, std-file, ConfigItems=42
+2022-04-10 00:11:26.2651 Info Reloading NLogLoggingConfiguration...
+2022-04-10 00:11:26.2651 Info Message Template Auto Format enabled
+2022-04-10 00:11:26.2651 Info Loading assembly: NLog.Extensions.Logging
+2022-04-10 00:11:26.2651 Info Adding target AsyncTargetWrapper(Name=std-console)
+2022-04-10 00:11:26.2651 Info Adding target AsyncTargetWrapper(Name=std-file)
+2022-04-10 00:11:26.2730 Info Closing old configuration.
+2022-04-10 00:11:26.2939 Info Validating config: TargetNames=std-console, std-file, ConfigItems=42
+2022-04-10 02:20:42.4839 Info Auto loading assembly file: D:\Projects\LedController_net5\LedController.Controller.Service\bin\Debug\net6.0\NLog.Extensions.Logging.dll
+2022-04-10 02:20:42.5082 Info Loading assembly file: D:\Projects\LedController_net5\LedController.Controller.Service\bin\Debug\net6.0\NLog.Extensions.Logging.dll
+2022-04-10 02:20:42.5265 Info NLog.Extensions.Logging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 1.7.4.1610. Product version: 1.7.4+e2bffa9e949fb4760d75aca224e78631c063f087. GlobalAssemblyCache: False
+2022-04-10 02:20:42.5265 Info Auto loading assembly file: D:\Projects\LedController_net5\LedController.Controller.Service\bin\Debug\net6.0\NLog.Extensions.Logging.dll succeeded!
+2022-04-10 02:20:42.5265 Info Message Template Auto Format enabled
+2022-04-10 02:20:42.5394 Info Loading assembly: NLog.Extensions.Logging
+2022-04-10 02:20:42.5990 Info Adding target AsyncTargetWrapper(Name=std-console)
+2022-04-10 02:20:42.6047 Info Adding target AsyncTargetWrapper(Name=std-file)
+2022-04-10 02:20:42.6229 Info Validating config: TargetNames=std-console, std-file, ConfigItems=42
+2022-04-10 02:20:43.2238 Info Reloading NLogLoggingConfiguration...
+2022-04-10 02:20:43.2396 Info Message Template Auto Format enabled
+2022-04-10 02:20:43.2396 Info Loading assembly: NLog.Extensions.Logging
+2022-04-10 02:20:43.2433 Info Adding target AsyncTargetWrapper(Name=std-console)
+2022-04-10 02:20:43.2433 Info Adding target AsyncTargetWrapper(Name=std-file)
+2022-04-10 02:20:43.2433 Info Closing old configuration.
+2022-04-10 02:20:43.2741 Info Validating config: TargetNames=std-console, std-file, ConfigItems=42
+2022-04-10 02:32:11.6793 Info Auto loading assembly file: D:\Projects\LedController_net5\LedController.Controller.Service\bin\Debug\net6.0\NLog.Extensions.Logging.dll
+2022-04-10 02:32:11.6793 Info Loading assembly file: D:\Projects\LedController_net5\LedController.Controller.Service\bin\Debug\net6.0\NLog.Extensions.Logging.dll
+2022-04-10 02:32:11.7105 Info NLog.Extensions.Logging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 1.7.4.1610. Product version: 1.7.4+e2bffa9e949fb4760d75aca224e78631c063f087. GlobalAssemblyCache: False
+2022-04-10 02:32:11.7105 Info Auto loading assembly file: D:\Projects\LedController_net5\LedController.Controller.Service\bin\Debug\net6.0\NLog.Extensions.Logging.dll succeeded!
+2022-04-10 02:32:11.7105 Info Message Template Auto Format enabled
+2022-04-10 02:32:11.7260 Info Loading assembly: NLog.Extensions.Logging
+2022-04-10 02:32:11.7728 Info Adding target AsyncTargetWrapper(Name=std-console)
+2022-04-10 02:32:11.7728 Info Adding target AsyncTargetWrapper(Name=std-file)
+2022-04-10 02:32:11.7973 Info Validating config: TargetNames=std-console, std-file, ConfigItems=42
+2022-04-10 02:32:12.3312 Info Reloading NLogLoggingConfiguration...
+2022-04-10 02:32:13.3449 Info Message Template Auto Format enabled
+2022-04-10 02:32:13.3449 Info Loading assembly: NLog.Extensions.Logging
+2022-04-10 02:32:13.3449 Info Adding target AsyncTargetWrapper(Name=std-console)
+2022-04-10 02:32:13.3449 Info Adding target AsyncTargetWrapper(Name=std-file)
+2022-04-10 02:32:13.3449 Info Closing old configuration.
+2022-04-10 02:32:13.3709 Info Validating config: TargetNames=std-console, std-file, ConfigItems=42
+2022-04-10 17:21:31.9715 Info Auto loading assembly file: D:\Projects\LedController_net5\LedController.Controller.Service\bin\Debug\net6.0\NLog.Extensions.Logging.dll
+2022-04-10 17:21:31.9834 Info Loading assembly file: D:\Projects\LedController_net5\LedController.Controller.Service\bin\Debug\net6.0\NLog.Extensions.Logging.dll
+2022-04-10 17:21:31.9997 Info NLog.Extensions.Logging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 1.7.4.1610. Product version: 1.7.4+e2bffa9e949fb4760d75aca224e78631c063f087. GlobalAssemblyCache: False
+2022-04-10 17:21:31.9997 Info Auto loading assembly file: D:\Projects\LedController_net5\LedController.Controller.Service\bin\Debug\net6.0\NLog.Extensions.Logging.dll succeeded!
+2022-04-10 17:21:31.9997 Info Message Template Auto Format enabled
+2022-04-10 17:21:32.0106 Info Loading assembly: NLog.Extensions.Logging
+2022-04-10 17:21:32.0552 Info Adding target AsyncTargetWrapper(Name=std-console)
+2022-04-10 17:21:32.0552 Info Adding target AsyncTargetWrapper(Name=std-file)
+2022-04-10 17:21:32.0809 Info Validating config: TargetNames=std-console, std-file, ConfigItems=42
+2022-04-10 17:21:32.7598 Info Reloading NLogLoggingConfiguration...
+2022-04-10 17:21:32.7598 Info Message Template Auto Format enabled
+2022-04-10 17:21:32.7598 Info Loading assembly: NLog.Extensions.Logging
+2022-04-10 17:21:32.7598 Info Adding target AsyncTargetWrapper(Name=std-console)
+2022-04-10 17:21:32.7598 Info Adding target AsyncTargetWrapper(Name=std-file)
+2022-04-10 17:21:32.7598 Info Closing old configuration.
+2022-04-10 17:21:32.7917 Info Validating config: TargetNames=std-console, std-file, ConfigItems=42
+2022-04-10 17:22:30.0831 Info Auto loading assembly file: D:\Projects\LedController_net5\LedController.Controller.Service\bin\Debug\net6.0\NLog.Extensions.Logging.dll
+2022-04-10 17:22:30.1070 Info Loading assembly file: D:\Projects\LedController_net5\LedController.Controller.Service\bin\Debug\net6.0\NLog.Extensions.Logging.dll
+2022-04-10 17:22:30.1218 Info NLog.Extensions.Logging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 1.7.4.1610. Product version: 1.7.4+e2bffa9e949fb4760d75aca224e78631c063f087. GlobalAssemblyCache: False
+2022-04-10 17:22:30.1218 Info Auto loading assembly file: D:\Projects\LedController_net5\LedController.Controller.Service\bin\Debug\net6.0\NLog.Extensions.Logging.dll succeeded!
+2022-04-10 17:22:30.1218 Info Message Template Auto Format enabled
+2022-04-10 17:22:30.1338 Info Loading assembly: NLog.Extensions.Logging
+2022-04-10 17:22:30.1636 Info Adding target AsyncTargetWrapper(Name=std-console)
+2022-04-10 17:22:30.1795 Info Adding target AsyncTargetWrapper(Name=std-file)
+2022-04-10 17:22:30.1948 Info Validating config: TargetNames=std-console, std-file, ConfigItems=42
+2022-04-10 17:22:30.6098 Info Reloading NLogLoggingConfiguration...
+2022-04-10 17:22:30.6269 Info Message Template Auto Format enabled
+2022-04-10 17:22:30.6269 Info Loading assembly: NLog.Extensions.Logging
+2022-04-10 17:22:30.6269 Info Adding target AsyncTargetWrapper(Name=std-console)
+2022-04-10 17:22:30.6329 Info Adding target AsyncTargetWrapper(Name=std-file)
+2022-04-10 17:22:30.6329 Info Closing old configuration.
+2022-04-10 17:22:30.6578 Info Validating config: TargetNames=std-console, std-file, ConfigItems=42
+2022-04-10 17:27:31.6131 Info AppDomain Shutting down. Logger closing...
+2022-04-10 17:27:31.6616 Info Logger has been shut down.
+2022-04-11 21:57:20.2023 Info Auto loading assembly file: D:\Projects\LedController_net5\LedController.Controller.Service\bin\Debug\net6.0\NLog.Extensions.Logging.dll
+2022-04-11 21:57:20.2179 Info Loading assembly file: D:\Projects\LedController_net5\LedController.Controller.Service\bin\Debug\net6.0\NLog.Extensions.Logging.dll
+2022-04-11 21:57:20.2369 Info NLog.Extensions.Logging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 1.7.4.1610. Product version: 1.7.4+e2bffa9e949fb4760d75aca224e78631c063f087. GlobalAssemblyCache: False
+2022-04-11 21:57:20.2369 Info Auto loading assembly file: D:\Projects\LedController_net5\LedController.Controller.Service\bin\Debug\net6.0\NLog.Extensions.Logging.dll succeeded!
+2022-04-11 21:57:20.2431 Info Message Template Auto Format enabled
+2022-04-11 21:57:20.2431 Info Loading assembly: NLog.Extensions.Logging
+2022-04-11 21:57:20.3111 Info Adding target AsyncTargetWrapper(Name=std-console)
+2022-04-11 21:57:20.3196 Info Adding target AsyncTargetWrapper(Name=std-file)
+2022-04-11 21:57:20.3387 Info Validating config: TargetNames=std-console, std-file, ConfigItems=42
+2022-04-11 21:57:21.0747 Info Reloading NLogLoggingConfiguration...
+2022-04-11 21:57:21.0747 Info Message Template Auto Format enabled
+2022-04-11 21:57:21.0747 Info Loading assembly: NLog.Extensions.Logging
+2022-04-11 21:57:21.0747 Info Adding target AsyncTargetWrapper(Name=std-console)
+2022-04-11 21:57:21.0747 Info Adding target AsyncTargetWrapper(Name=std-file)
+2022-04-11 21:57:21.0747 Info Closing old configuration.
+2022-04-11 21:57:21.1017 Info Validating config: TargetNames=std-console, std-file, ConfigItems=42
+2022-04-16 17:44:36.8779 Info Auto loading assembly file: D:\Projects\LedController_net5\LedController.Controller.Service\bin\Debug\net6.0\NLog.Extensions.Logging.dll
+2022-04-16 17:44:36.8891 Info Loading assembly file: D:\Projects\LedController_net5\LedController.Controller.Service\bin\Debug\net6.0\NLog.Extensions.Logging.dll
+2022-04-16 17:44:36.9072 Info NLog.Extensions.Logging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 1.7.4.1610. Product version: 1.7.4+e2bffa9e949fb4760d75aca224e78631c063f087. GlobalAssemblyCache: False
+2022-04-16 17:44:36.9072 Info Auto loading assembly file: D:\Projects\LedController_net5\LedController.Controller.Service\bin\Debug\net6.0\NLog.Extensions.Logging.dll succeeded!
+2022-04-16 17:44:36.9072 Info Message Template Auto Format enabled
+2022-04-16 17:44:36.9210 Info Loading assembly: NLog.Extensions.Logging
+2022-04-16 17:44:36.9684 Info Adding target AsyncTargetWrapper(Name=std-console)
+2022-04-16 17:44:36.9684 Info Adding target AsyncTargetWrapper(Name=std-file)
+2022-04-16 17:44:36.9895 Info Validating config: TargetNames=std-console, std-file, ConfigItems=42
+2022-04-16 17:44:37.8391 Info Reloading NLogLoggingConfiguration...
+2022-04-16 17:44:37.8391 Info Message Template Auto Format enabled
+2022-04-16 17:44:37.8391 Info Loading assembly: NLog.Extensions.Logging
+2022-04-16 17:44:37.8391 Info Adding target AsyncTargetWrapper(Name=std-console)
+2022-04-16 17:44:37.8509 Info Adding target AsyncTargetWrapper(Name=std-file)
+2022-04-16 17:44:37.8509 Info Closing old configuration.
+2022-04-16 17:44:37.9352 Info Validating config: TargetNames=std-console, std-file, ConfigItems=42
+2022-04-16 17:52:20.1813 Info Auto loading assembly file: D:\Projects\LedController_net5\LedController.Controller.Service\bin\Debug\net6.0\NLog.Extensions.Logging.dll
+2022-04-16 17:52:20.2047 Info Loading assembly file: D:\Projects\LedController_net5\LedController.Controller.Service\bin\Debug\net6.0\NLog.Extensions.Logging.dll
+2022-04-16 17:52:20.2228 Info NLog.Extensions.Logging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 1.7.4.1610. Product version: 1.7.4+e2bffa9e949fb4760d75aca224e78631c063f087. GlobalAssemblyCache: False
+2022-04-16 17:52:20.2256 Info Auto loading assembly file: D:\Projects\LedController_net5\LedController.Controller.Service\bin\Debug\net6.0\NLog.Extensions.Logging.dll succeeded!
+2022-04-16 17:52:20.2256 Info Message Template Auto Format enabled
+2022-04-16 17:52:20.2256 Info Loading assembly: NLog.Extensions.Logging
+2022-04-16 17:52:20.2806 Info Adding target AsyncTargetWrapper(Name=std-console)
+2022-04-16 17:52:20.2806 Info Adding target AsyncTargetWrapper(Name=std-file)
+2022-04-16 17:52:20.3016 Info Validating config: TargetNames=std-console, std-file, ConfigItems=42
+2022-04-16 17:52:20.6821 Info Reloading NLogLoggingConfiguration...
+2022-04-16 17:52:20.6821 Info Message Template Auto Format enabled
+2022-04-16 17:52:20.6821 Info Loading assembly: NLog.Extensions.Logging
+2022-04-16 17:52:20.6821 Info Adding target AsyncTargetWrapper(Name=std-console)
+2022-04-16 17:52:20.6821 Info Adding target AsyncTargetWrapper(Name=std-file)
+2022-04-16 17:52:20.6821 Info Closing old configuration.
+2022-04-16 17:52:20.7144 Info Validating config: TargetNames=std-console, std-file, ConfigItems=42
+2022-04-16 18:04:32.7266 Info Auto loading assembly file: D:\Projects\LedController_net5\LedController.Controller.Service\bin\Debug\net6.0\NLog.Extensions.Logging.dll
+2022-04-16 18:04:32.7480 Info Loading assembly file: D:\Projects\LedController_net5\LedController.Controller.Service\bin\Debug\net6.0\NLog.Extensions.Logging.dll
+2022-04-16 18:04:32.7610 Info NLog.Extensions.Logging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 1.7.4.1610. Product version: 1.7.4+e2bffa9e949fb4760d75aca224e78631c063f087. GlobalAssemblyCache: False
+2022-04-16 18:04:32.7610 Info Auto loading assembly file: D:\Projects\LedController_net5\LedController.Controller.Service\bin\Debug\net6.0\NLog.Extensions.Logging.dll succeeded!
+2022-04-16 18:04:32.7610 Info Message Template Auto Format enabled
+2022-04-16 18:04:32.7610 Info Loading assembly: NLog.Extensions.Logging
+2022-04-16 18:04:32.8033 Info Adding target AsyncTargetWrapper(Name=std-console)
+2022-04-16 18:04:32.8216 Info Adding target AsyncTargetWrapper(Name=std-file)
+2022-04-16 18:04:32.8394 Info Validating config: TargetNames=std-console, std-file, ConfigItems=42
+2022-04-16 18:04:33.3177 Info Reloading NLogLoggingConfiguration...
+2022-04-16 18:04:33.3212 Info Message Template Auto Format enabled
+2022-04-16 18:04:33.3212 Info Loading assembly: NLog.Extensions.Logging
+2022-04-16 18:04:33.3212 Info Adding target AsyncTargetWrapper(Name=std-console)
+2022-04-16 18:04:33.3212 Info Adding target AsyncTargetWrapper(Name=std-file)
+2022-04-16 18:04:33.3212 Info Closing old configuration.
+2022-04-16 18:04:33.3525 Info Validating config: TargetNames=std-console, std-file, ConfigItems=42
+2022-04-16 18:24:15.8066 Info Auto loading assembly file: D:\Projects\LedController_net5\LedController.Controller.Service\bin\Debug\net6.0\NLog.Extensions.Logging.dll
+2022-04-16 18:24:15.8202 Info Loading assembly file: D:\Projects\LedController_net5\LedController.Controller.Service\bin\Debug\net6.0\NLog.Extensions.Logging.dll
+2022-04-16 18:24:15.8368 Info NLog.Extensions.Logging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 1.7.4.1610. Product version: 1.7.4+e2bffa9e949fb4760d75aca224e78631c063f087. GlobalAssemblyCache: False
+2022-04-16 18:24:15.8368 Info Auto loading assembly file: D:\Projects\LedController_net5\LedController.Controller.Service\bin\Debug\net6.0\NLog.Extensions.Logging.dll succeeded!
+2022-04-16 18:24:15.8368 Info Message Template Auto Format enabled
+2022-04-16 18:24:15.8521 Info Loading assembly: NLog.Extensions.Logging
+2022-04-16 18:24:15.9043 Info Adding target AsyncTargetWrapper(Name=std-console)
+2022-04-16 18:24:15.9136 Info Adding target AsyncTargetWrapper(Name=std-file)
+2022-04-16 18:24:15.9320 Info Validating config: TargetNames=std-console, std-file, ConfigItems=42
+2022-04-16 18:24:16.6639 Info Reloading NLogLoggingConfiguration...
+2022-04-16 18:24:16.6639 Info Message Template Auto Format enabled
+2022-04-16 18:24:16.6639 Info Loading assembly: NLog.Extensions.Logging
+2022-04-16 18:24:16.6639 Info Adding target AsyncTargetWrapper(Name=std-console)
+2022-04-16 18:24:16.6639 Info Adding target AsyncTargetWrapper(Name=std-file)
+2022-04-16 18:24:16.6639 Info Closing old configuration.
+2022-04-16 18:24:16.6944 Info Validating config: TargetNames=std-console, std-file, ConfigItems=42
+2022-04-16 18:58:31.1963 Info Auto loading assembly file: D:\Projects\LedController_net5\LedController.Controller.Service\bin\Debug\net6.0\NLog.Extensions.Logging.dll
+2022-04-16 18:58:31.1963 Info Loading assembly file: D:\Projects\LedController_net5\LedController.Controller.Service\bin\Debug\net6.0\NLog.Extensions.Logging.dll
+2022-04-16 18:58:31.2234 Info NLog.Extensions.Logging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 1.7.4.1610. Product version: 1.7.4+e2bffa9e949fb4760d75aca224e78631c063f087. GlobalAssemblyCache: False
+2022-04-16 18:58:31.2257 Info Auto loading assembly file: D:\Projects\LedController_net5\LedController.Controller.Service\bin\Debug\net6.0\NLog.Extensions.Logging.dll succeeded!
+2022-04-16 18:58:31.2257 Info Message Template Auto Format enabled
+2022-04-16 18:58:31.2257 Info Loading assembly: NLog.Extensions.Logging
+2022-04-16 18:58:31.2753 Info Adding target AsyncTargetWrapper(Name=std-console)
+2022-04-16 18:58:31.2753 Info Adding target AsyncTargetWrapper(Name=std-file)
+2022-04-16 18:58:31.2955 Info Validating config: TargetNames=std-console, std-file, ConfigItems=42
+2022-04-16 18:58:31.8624 Info Reloading NLogLoggingConfiguration...
+2022-04-16 18:58:31.8624 Info Message Template Auto Format enabled
+2022-04-16 18:58:31.8624 Info Loading assembly: NLog.Extensions.Logging
+2022-04-16 18:58:31.8686 Info Adding target AsyncTargetWrapper(Name=std-console)
+2022-04-16 18:58:31.8686 Info Adding target AsyncTargetWrapper(Name=std-file)
+2022-04-16 18:58:31.8686 Info Closing old configuration.
+2022-04-16 18:58:31.8952 Info Validating config: TargetNames=std-console, std-file, ConfigItems=42
+2022-04-16 23:30:33.6224 Info Auto loading assembly file: D:\Projects\LedController_net5\LedController.Controller.Service\bin\Debug\net6.0\NLog.Extensions.Logging.dll
+2022-04-16 23:30:33.6325 Info Loading assembly file: D:\Projects\LedController_net5\LedController.Controller.Service\bin\Debug\net6.0\NLog.Extensions.Logging.dll
+2022-04-16 23:30:33.6325 Info NLog.Extensions.Logging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 1.7.4.1610. Product version: 1.7.4+e2bffa9e949fb4760d75aca224e78631c063f087. GlobalAssemblyCache: False
+2022-04-16 23:30:33.6485 Info Auto loading assembly file: D:\Projects\LedController_net5\LedController.Controller.Service\bin\Debug\net6.0\NLog.Extensions.Logging.dll succeeded!
+2022-04-16 23:30:33.6485 Info Message Template Auto Format enabled
+2022-04-16 23:30:33.6485 Info Loading assembly: NLog.Extensions.Logging
+2022-04-16 23:30:33.6991 Info Adding target AsyncTargetWrapper(Name=std-console)
+2022-04-16 23:30:33.6991 Info Adding target AsyncTargetWrapper(Name=std-file)
+2022-04-16 23:30:33.7197 Info Validating config: TargetNames=std-console, std-file, ConfigItems=42
+2022-04-16 23:30:34.3072 Info Reloading NLogLoggingConfiguration...
+2022-04-16 23:30:34.3072 Info Message Template Auto Format enabled
+2022-04-16 23:30:34.3072 Info Loading assembly: NLog.Extensions.Logging
+2022-04-16 23:30:34.3072 Info Adding target AsyncTargetWrapper(Name=std-console)
+2022-04-16 23:30:34.3072 Info Adding target AsyncTargetWrapper(Name=std-file)
+2022-04-16 23:30:34.3252 Info Closing old configuration.
+2022-04-16 23:30:34.3481 Info Validating config: TargetNames=std-console, std-file, ConfigItems=42
+2022-04-20 21:55:58.3399 Info Auto loading assembly file: D:\Projects\LedController_net5\LedController.Controller.Service\bin\Debug\net6.0\NLog.Extensions.Logging.dll
+2022-04-20 21:55:58.3399 Info Loading assembly file: D:\Projects\LedController_net5\LedController.Controller.Service\bin\Debug\net6.0\NLog.Extensions.Logging.dll
+2022-04-20 21:55:58.3645 Info NLog.Extensions.Logging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 1.7.4.1610. Product version: 1.7.4+e2bffa9e949fb4760d75aca224e78631c063f087. GlobalAssemblyCache: False
+2022-04-20 21:55:58.3645 Info Auto loading assembly file: D:\Projects\LedController_net5\LedController.Controller.Service\bin\Debug\net6.0\NLog.Extensions.Logging.dll succeeded!
+2022-04-20 21:55:58.3680 Info Message Template Auto Format enabled
+2022-04-20 21:55:58.3680 Info Loading assembly: NLog.Extensions.Logging
+2022-04-20 21:55:58.4148 Info Adding target AsyncTargetWrapper(Name=std-console)
+2022-04-20 21:55:58.4148 Info Adding target AsyncTargetWrapper(Name=std-file)
+2022-04-20 21:55:58.4347 Info Validating config: TargetNames=std-console, std-file, ConfigItems=42
+2022-04-20 21:55:59.1985 Info Reloading NLogLoggingConfiguration...
+2022-04-20 21:55:59.1985 Info Message Template Auto Format enabled
+2022-04-20 21:55:59.1985 Info Loading assembly: NLog.Extensions.Logging
+2022-04-20 21:55:59.1985 Info Adding target AsyncTargetWrapper(Name=std-console)
+2022-04-20 21:55:59.1985 Info Adding target AsyncTargetWrapper(Name=std-file)
+2022-04-20 21:55:59.1985 Info Closing old configuration.
+2022-04-20 21:55:59.2320 Info Validating config: TargetNames=std-console, std-file, ConfigItems=42
+2022-04-20 21:57:00.1987 Info AppDomain Shutting down. Logger closing...
+2022-04-20 21:57:00.2509 Info Logger has been shut down.
+2022-04-20 21:59:11.6516 Info Auto loading assembly file: D:\Projects\LedController_net5\LedController.Controller.Service\bin\Debug\net6.0\NLog.Extensions.Logging.dll
+2022-04-20 21:59:11.6782 Info Loading assembly file: D:\Projects\LedController_net5\LedController.Controller.Service\bin\Debug\net6.0\NLog.Extensions.Logging.dll
+2022-04-20 21:59:11.7000 Info NLog.Extensions.Logging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 1.7.4.1610. Product version: 1.7.4+e2bffa9e949fb4760d75aca224e78631c063f087. GlobalAssemblyCache: False
+2022-04-20 21:59:11.7000 Info Auto loading assembly file: D:\Projects\LedController_net5\LedController.Controller.Service\bin\Debug\net6.0\NLog.Extensions.Logging.dll succeeded!
+2022-04-20 21:59:11.7000 Info Message Template Auto Format enabled
+2022-04-20 21:59:11.7129 Info Loading assembly: NLog.Extensions.Logging
+2022-04-20 21:59:11.7738 Info Adding target AsyncTargetWrapper(Name=std-console)
+2022-04-20 21:59:11.7738 Info Adding target AsyncTargetWrapper(Name=std-file)
+2022-04-20 21:59:11.8054 Info Validating config: TargetNames=std-console, std-file, ConfigItems=42
+2022-04-20 21:59:12.3181 Info Reloading NLogLoggingConfiguration...
+2022-04-20 21:59:12.3199 Info Message Template Auto Format enabled
+2022-04-20 21:59:12.3199 Info Loading assembly: NLog.Extensions.Logging
+2022-04-20 21:59:12.3199 Info Adding target AsyncTargetWrapper(Name=std-console)
+2022-04-20 21:59:12.3199 Info Adding target AsyncTargetWrapper(Name=std-file)
+2022-04-20 21:59:12.3199 Info Closing old configuration.
+2022-04-20 21:59:12.3490 Info Validating config: TargetNames=std-console, std-file, ConfigItems=42
+2022-04-20 22:09:28.8004 Info Reloading NLogLoggingConfiguration...
+2022-04-20 22:09:28.8004 Info Message Template Auto Format enabled
+2022-04-20 22:09:28.8043 Info Loading assembly: NLog.Extensions.Logging
+2022-04-20 22:09:28.8043 Info Adding target AsyncTargetWrapper(Name=std-console)
+2022-04-20 22:09:28.8043 Info Adding target AsyncTargetWrapper(Name=std-file)
+2022-04-20 22:09:28.8043 Info Closing old configuration.
+2022-04-20 22:09:28.8298 Info Validating config: TargetNames=std-console, std-file, ConfigItems=42
+2022-04-20 22:09:29.0966 Info Reloading NLogLoggingConfiguration...
+2022-04-20 22:09:29.0966 Info Message Template Auto Format enabled
+2022-04-20 22:09:29.1004 Info Loading assembly: NLog.Extensions.Logging
+2022-04-20 22:09:29.1004 Info Adding target AsyncTargetWrapper(Name=std-console)
+2022-04-20 22:09:29.1004 Info Adding target AsyncTargetWrapper(Name=std-file)
+2022-04-20 22:09:29.1004 Info Closing old configuration.
+2022-04-20 22:09:29.1004 Info Validating config: TargetNames=std-console, std-file, ConfigItems=42
+2022-04-20 22:09:55.0180 Info AppDomain Shutting down. Logger closing...
+2022-04-20 22:09:55.0409 Info Logger has been shut down.
+2022-04-20 22:10:21.4172 Info Auto loading assembly file: D:\Projects\LedController_net5\LedController.Controller.Service\bin\Debug\net6.0\NLog.Extensions.Logging.dll
+2022-04-20 22:10:21.4391 Info Loading assembly file: D:\Projects\LedController_net5\LedController.Controller.Service\bin\Debug\net6.0\NLog.Extensions.Logging.dll
+2022-04-20 22:10:21.4539 Info NLog.Extensions.Logging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 1.7.4.1610. Product version: 1.7.4+e2bffa9e949fb4760d75aca224e78631c063f087. GlobalAssemblyCache: False
+2022-04-20 22:10:21.4539 Info Auto loading assembly file: D:\Projects\LedController_net5\LedController.Controller.Service\bin\Debug\net6.0\NLog.Extensions.Logging.dll succeeded!
+2022-04-20 22:10:21.4539 Info Message Template Auto Format enabled
+2022-04-20 22:10:21.4644 Info Loading assembly: NLog.Extensions.Logging
+2022-04-20 22:10:21.4923 Info Adding target AsyncTargetWrapper(Name=std-console)
+2022-04-20 22:10:21.5093 Info Adding target AsyncTargetWrapper(Name=std-file)
+2022-04-20 22:10:21.5242 Info Validating config: TargetNames=std-console, std-file, ConfigItems=42
+2022-04-20 22:10:21.8925 Info Reloading NLogLoggingConfiguration...
+2022-04-20 22:10:21.8925 Info Message Template Auto Format enabled
+2022-04-20 22:10:21.8925 Info Loading assembly: NLog.Extensions.Logging
+2022-04-20 22:10:21.8990 Info Adding target AsyncTargetWrapper(Name=std-console)
+2022-04-20 22:10:21.8990 Info Adding target AsyncTargetWrapper(Name=std-file)
+2022-04-20 22:10:21.8990 Info Closing old configuration.
+2022-04-20 22:10:21.9260 Info Validating config: TargetNames=std-console, std-file, ConfigItems=42
+2022-04-20 22:32:23.4353 Info Auto loading assembly file: D:\Projects\LedController_net5\LedController.Controller.Service\bin\Debug\net6.0\NLog.Extensions.Logging.dll
+2022-04-20 22:32:23.4563 Info Loading assembly file: D:\Projects\LedController_net5\LedController.Controller.Service\bin\Debug\net6.0\NLog.Extensions.Logging.dll
+2022-04-20 22:32:23.4715 Info NLog.Extensions.Logging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 1.7.4.1610. Product version: 1.7.4+e2bffa9e949fb4760d75aca224e78631c063f087. GlobalAssemblyCache: False
+2022-04-20 22:32:23.4715 Info Auto loading assembly file: D:\Projects\LedController_net5\LedController.Controller.Service\bin\Debug\net6.0\NLog.Extensions.Logging.dll succeeded!
+2022-04-20 22:32:23.4715 Info Message Template Auto Format enabled
+2022-04-20 22:32:23.4814 Info Loading assembly: NLog.Extensions.Logging
+2022-04-20 22:32:23.5082 Info Adding target AsyncTargetWrapper(Name=std-console)
+2022-04-20 22:32:23.5250 Info Adding target AsyncTargetWrapper(Name=std-file)
+2022-04-20 22:32:23.5409 Info Validating config: TargetNames=std-console, std-file, ConfigItems=42
+2022-04-20 22:32:24.0488 Info Reloading NLogLoggingConfiguration...
+2022-04-20 22:32:24.0645 Info Message Template Auto Format enabled
+2022-04-20 22:32:24.0645 Info Loading assembly: NLog.Extensions.Logging
+2022-04-20 22:32:24.0645 Info Adding target AsyncTargetWrapper(Name=std-console)
+2022-04-20 22:32:24.0703 Info Adding target AsyncTargetWrapper(Name=std-file)
+2022-04-20 22:32:24.0703 Info Closing old configuration.
+2022-04-20 22:32:24.0955 Info Validating config: TargetNames=std-console, std-file, ConfigItems=42
+2022-04-20 23:27:32.5653 Info Auto loading assembly file: D:\Projects\LedController_net5\LedController.Controller.Service\bin\Debug\net6.0\NLog.Extensions.Logging.dll
+2022-04-20 23:27:32.5868 Info Loading assembly file: D:\Projects\LedController_net5\LedController.Controller.Service\bin\Debug\net6.0\NLog.Extensions.Logging.dll
+2022-04-20 23:27:32.6014 Info NLog.Extensions.Logging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 1.7.4.1610. Product version: 1.7.4+e2bffa9e949fb4760d75aca224e78631c063f087. GlobalAssemblyCache: False
+2022-04-20 23:27:32.6014 Info Auto loading assembly file: D:\Projects\LedController_net5\LedController.Controller.Service\bin\Debug\net6.0\NLog.Extensions.Logging.dll succeeded!
+2022-04-20 23:27:32.6014 Info Message Template Auto Format enabled
+2022-04-20 23:27:32.6014 Info Loading assembly: NLog.Extensions.Logging
+2022-04-20 23:27:32.6487 Info Adding target AsyncTargetWrapper(Name=std-console)
+2022-04-20 23:27:32.6487 Info Adding target AsyncTargetWrapper(Name=std-file)
+2022-04-20 23:27:32.6686 Info Validating config: TargetNames=std-console, std-file, ConfigItems=42
+2022-04-20 23:27:33.1574 Info Reloading NLogLoggingConfiguration...
+2022-04-20 23:27:33.1732 Info Message Template Auto Format enabled
+2022-04-20 23:27:33.1732 Info Loading assembly: NLog.Extensions.Logging
+2022-04-20 23:27:33.1732 Info Adding target AsyncTargetWrapper(Name=std-console)
+2022-04-20 23:27:33.1788 Info Adding target AsyncTargetWrapper(Name=std-file)
+2022-04-20 23:27:33.1788 Info Closing old configuration.
+2022-04-20 23:27:33.2018 Info Validating config: TargetNames=std-console, std-file, ConfigItems=42
+2022-04-20 23:32:29.7657 Info Auto loading assembly file: D:\Projects\LedController_net5\LedController.Controller.Service\bin\Debug\net6.0\NLog.Extensions.Logging.dll
+2022-04-20 23:32:29.7881 Info Loading assembly file: D:\Projects\LedController_net5\LedController.Controller.Service\bin\Debug\net6.0\NLog.Extensions.Logging.dll
+2022-04-20 23:32:29.8360 Info NLog.Extensions.Logging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 1.7.4.1610. Product version: 1.7.4+e2bffa9e949fb4760d75aca224e78631c063f087. GlobalAssemblyCache: False
+2022-04-20 23:32:29.8360 Info Auto loading assembly file: D:\Projects\LedController_net5\LedController.Controller.Service\bin\Debug\net6.0\NLog.Extensions.Logging.dll succeeded!
+2022-04-20 23:32:29.8360 Info Message Template Auto Format enabled
+2022-04-20 23:32:29.8360 Info Loading assembly: NLog.Extensions.Logging
+2022-04-20 23:32:29.8839 Info Adding target AsyncTargetWrapper(Name=std-console)
+2022-04-20 23:32:29.8839 Info Adding target AsyncTargetWrapper(Name=std-file)
+2022-04-20 23:32:29.9030 Info Validating config: TargetNames=std-console, std-file, ConfigItems=42
+2022-04-20 23:32:30.3737 Info Reloading NLogLoggingConfiguration...
+2022-04-20 23:32:30.3737 Info Message Template Auto Format enabled
+2022-04-20 23:32:30.3737 Info Loading assembly: NLog.Extensions.Logging
+2022-04-20 23:32:30.3737 Info Adding target AsyncTargetWrapper(Name=std-console)
+2022-04-20 23:32:30.3819 Info Adding target AsyncTargetWrapper(Name=std-file)
+2022-04-20 23:32:30.3819 Info Closing old configuration.
+2022-04-20 23:32:30.4096 Info Validating config: TargetNames=std-console, std-file, ConfigItems=42
+2022-04-20 23:38:04.3648 Info Auto loading assembly file: D:\Projects\LedController_net5\LedController.Controller.Service\bin\Debug\net6.0\NLog.Extensions.Logging.dll
+2022-04-20 23:38:04.3928 Info Loading assembly file: D:\Projects\LedController_net5\LedController.Controller.Service\bin\Debug\net6.0\NLog.Extensions.Logging.dll
+2022-04-20 23:38:04.4113 Info NLog.Extensions.Logging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 1.7.4.1610. Product version: 1.7.4+e2bffa9e949fb4760d75aca224e78631c063f087. GlobalAssemblyCache: False
+2022-04-20 23:38:04.4141 Info Auto loading assembly file: D:\Projects\LedController_net5\LedController.Controller.Service\bin\Debug\net6.0\NLog.Extensions.Logging.dll succeeded!
+2022-04-20 23:38:04.4141 Info Message Template Auto Format enabled
+2022-04-20 23:38:04.4141 Info Loading assembly: NLog.Extensions.Logging
+2022-04-20 23:38:04.4702 Info Adding target AsyncTargetWrapper(Name=std-console)
+2022-04-20 23:38:04.4763 Info Adding target AsyncTargetWrapper(Name=std-file)
+2022-04-20 23:38:04.4939 Info Validating config: TargetNames=std-console, std-file, ConfigItems=42
+2022-04-20 23:38:04.9722 Info Reloading NLogLoggingConfiguration...
+2022-04-20 23:38:04.9753 Info Message Template Auto Format enabled
+2022-04-20 23:38:04.9753 Info Loading assembly: NLog.Extensions.Logging
+2022-04-20 23:38:04.9753 Info Adding target AsyncTargetWrapper(Name=std-console)
+2022-04-20 23:38:04.9753 Info Adding target AsyncTargetWrapper(Name=std-file)
+2022-04-20 23:38:04.9753 Info Closing old configuration.
+2022-04-20 23:38:05.0043 Info Validating config: TargetNames=std-console, std-file, ConfigItems=42
+2022-04-20 23:42:19.7344 Info Auto loading assembly file: D:\Projects\LedController_net5\LedController.Controller.Service\bin\Debug\net6.0\NLog.Extensions.Logging.dll
+2022-04-20 23:42:19.7460 Info Loading assembly file: D:\Projects\LedController_net5\LedController.Controller.Service\bin\Debug\net6.0\NLog.Extensions.Logging.dll
+2022-04-20 23:42:19.7662 Info NLog.Extensions.Logging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 1.7.4.1610. Product version: 1.7.4+e2bffa9e949fb4760d75aca224e78631c063f087. GlobalAssemblyCache: False
+2022-04-20 23:42:19.7662 Info Auto loading assembly file: D:\Projects\LedController_net5\LedController.Controller.Service\bin\Debug\net6.0\NLog.Extensions.Logging.dll succeeded!
+2022-04-20 23:42:19.7662 Info Message Template Auto Format enabled
+2022-04-20 23:42:19.7784 Info Loading assembly: NLog.Extensions.Logging
+2022-04-20 23:42:19.8069 Info Adding target AsyncTargetWrapper(Name=std-console)
+2022-04-20 23:42:19.8246 Info Adding target AsyncTargetWrapper(Name=std-file)
+2022-04-20 23:42:19.8408 Info Validating config: TargetNames=std-console, std-file, ConfigItems=42
+2022-04-20 23:42:20.3627 Info Reloading NLogLoggingConfiguration...
+2022-04-20 23:42:20.3784 Info Message Template Auto Format enabled
+2022-04-20 23:42:20.3784 Info Loading assembly: NLog.Extensions.Logging
+2022-04-20 23:42:20.3821 Info Adding target AsyncTargetWrapper(Name=std-console)
+2022-04-20 23:42:20.3821 Info Adding target AsyncTargetWrapper(Name=std-file)
+2022-04-20 23:42:20.3821 Info Closing old configuration.
+2022-04-20 23:42:20.4082 Info Validating config: TargetNames=std-console, std-file, ConfigItems=42
+2022-04-21 00:08:13.9618 Info Auto loading assembly file: D:\Projects\LedController_net5\LedController.Controller.Service\bin\Debug\net6.0\NLog.Extensions.Logging.dll
+2022-04-21 00:08:13.9618 Info Loading assembly file: D:\Projects\LedController_net5\LedController.Controller.Service\bin\Debug\net6.0\NLog.Extensions.Logging.dll
+2022-04-21 00:08:13.9962 Info NLog.Extensions.Logging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 1.7.4.1610. Product version: 1.7.4+e2bffa9e949fb4760d75aca224e78631c063f087. GlobalAssemblyCache: False
+2022-04-21 00:08:13.9962 Info Auto loading assembly file: D:\Projects\LedController_net5\LedController.Controller.Service\bin\Debug\net6.0\NLog.Extensions.Logging.dll succeeded!
+2022-04-21 00:08:13.9962 Info Message Template Auto Format enabled
+2022-04-21 00:08:14.0083 Info Loading assembly: NLog.Extensions.Logging
+2022-04-21 00:08:14.0380 Info Adding target AsyncTargetWrapper(Name=std-console)
+2022-04-21 00:08:14.0575 Info Adding target AsyncTargetWrapper(Name=std-file)
+2022-04-21 00:08:14.0779 Info Validating config: TargetNames=std-console, std-file, ConfigItems=42
+2022-04-21 00:08:14.7897 Info Reloading NLogLoggingConfiguration...
+2022-04-21 00:08:14.8053 Info Message Template Auto Format enabled
+2022-04-21 00:08:14.8053 Info Loading assembly: NLog.Extensions.Logging
+2022-04-21 00:08:14.8053 Info Adding target AsyncTargetWrapper(Name=std-console)
+2022-04-21 00:08:14.8053 Info Adding target AsyncTargetWrapper(Name=std-file)
+2022-04-21 00:08:14.8053 Info Closing old configuration.
+2022-04-21 00:08:14.8361 Info Validating config: TargetNames=std-console, std-file, ConfigItems=42
+2022-04-21 00:17:12.3274 Info Auto loading assembly file: D:\Projects\LedController_net5\LedController.Controller.Service\bin\Debug\net6.0\NLog.Extensions.Logging.dll
+2022-04-21 00:17:12.3499 Info Loading assembly file: D:\Projects\LedController_net5\LedController.Controller.Service\bin\Debug\net6.0\NLog.Extensions.Logging.dll
+2022-04-21 00:17:12.3637 Info NLog.Extensions.Logging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 1.7.4.1610. Product version: 1.7.4+e2bffa9e949fb4760d75aca224e78631c063f087. GlobalAssemblyCache: False
+2022-04-21 00:17:12.3637 Info Auto loading assembly file: D:\Projects\LedController_net5\LedController.Controller.Service\bin\Debug\net6.0\NLog.Extensions.Logging.dll succeeded!
+2022-04-21 00:17:12.3677 Info Message Template Auto Format enabled
+2022-04-21 00:17:12.3677 Info Loading assembly: NLog.Extensions.Logging
+2022-04-21 00:17:12.4150 Info Adding target AsyncTargetWrapper(Name=std-console)
+2022-04-21 00:17:12.4150 Info Adding target AsyncTargetWrapper(Name=std-file)
+2022-04-21 00:17:12.4370 Info Validating config: TargetNames=std-console, std-file, ConfigItems=42
+2022-04-21 00:17:12.8344 Info Reloading NLogLoggingConfiguration...
+2022-04-21 00:17:12.8377 Info Message Template Auto Format enabled
+2022-04-21 00:17:12.8377 Info Loading assembly: NLog.Extensions.Logging
+2022-04-21 00:17:12.8377 Info Adding target AsyncTargetWrapper(Name=std-console)
+2022-04-21 00:17:12.8377 Info Adding target AsyncTargetWrapper(Name=std-file)
+2022-04-21 00:17:12.8377 Info Closing old configuration.
+2022-04-21 00:17:12.8715 Info Validating config: TargetNames=std-console, std-file, ConfigItems=42

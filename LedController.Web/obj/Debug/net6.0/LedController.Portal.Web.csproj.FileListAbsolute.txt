@@ -1,0 +1,8 @@
+D:\Projects\LedController_net5\LedController.Web\obj\Debug\net6.0\LedController.Portal.Web.csproj.AssemblyReference.cache
+D:\Projects\LedController_net5\LedController.Web\obj\Debug\net6.0\LedController.Portal.Web.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\LedController_net5\LedController.Web\obj\Debug\net6.0\LedController.Portal.Web.AssemblyInfoInputs.cache
+D:\Projects\LedController_net5\LedController.Web\obj\Debug\net6.0\LedController.Portal.Web.AssemblyInfo.cs
+D:\Projects\LedController_net5\LedController.Web\obj\Debug\net6.0\LedController.Portal.Web.csproj.CoreCompileInputs.cache
+D:\Projects\LedController_net5\LedController.Web\obj\Debug\net6.0\LedController.Portal.Web.MvcApplicationPartsAssemblyInfo.cache
+D:\Projects\LedController_net5\LedController.Web\obj\Debug\net6.0\LedController.Portal.Web.RazorAssemblyInfo.cache
+D:\Projects\LedController_net5\LedController.Web\obj\Debug\net6.0\LedController.Portal.Web.RazorAssemblyInfo.cs

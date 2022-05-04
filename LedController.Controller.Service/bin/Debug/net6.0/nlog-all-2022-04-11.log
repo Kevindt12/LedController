@@ -1,0 +1,15 @@
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/11 21:57:21.367 - [INFO]: Now listening on: http://localhost:5229 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/11 21:57:21.390 - [INFO]: Now listening on: https://localhost:7229 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/11 21:57:21.390 - [INFO]: Application started. Press Ctrl+C to shut down. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/11 21:57:21.390 - [INFO]: Hosting environment: Development 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/11 21:57:21.390 - [INFO]: Content root path: D:\Projects\LedController_net5\LedController.Controller.Service\ 
+ 

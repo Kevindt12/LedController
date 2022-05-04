@@ -1,0 +1,33 @@
+﻿@using BlazorMonaco
+
+<h3>EffectDefinitionFileEditor</h3>
+
+
+
+
+
+<MonacoEditor Id="any-id-string" ConstructionOptions="EditorConstructionOptions"/>
+
+@code {
+
+
+
+
+
+	private StandaloneEditorConstructionOptions EditorConstructionOptions(MonacoEditor editor)
+	{
+		return new StandaloneEditorConstructionOptions
+		{
+			AutomaticLayout = true,
+			Language = "c#",
+			Value = "// Test Test" +
+					"" +
+					"// Test Test "
+		};
+	}
+
+
+
+
+
+}

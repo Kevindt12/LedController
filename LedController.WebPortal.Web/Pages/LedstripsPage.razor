@@ -1,0 +1,164 @@
+﻿@page "/ledstrips"
+
+@using LedController.Domain.Models
+@using LedController.Shared.Extensions
+@using LedController.WebPortal.Domain.Managers
+@using LedController.WebPortal.Domain.Models
+@using LedController.WebPortal.Domain.Services
+@using LedController.WebPortal.Infrastructure.Exceptions
+@using LedController.WebPortal.Web.Dialogs
+@using MudBlazor
+
+@inject ILogger<LedstripsPage> _logger
+
+@inject IDialogService _dialogService
+@inject ILedstripManager _ledstripManager
+@inject IControllerManager _controllerManager
+@inject IControllerService _controllerService
+@inject ISnackbar _snackbar
+@inject NavigationManager _navigationManager
+
+
+
+<PageTitle>Ledstrips</PageTitle>
+
+
+@if (Controllers.SelectMany(x => x.Ledstrips).Any())
+{
+    @* The action buttons. *@
+    <MudItem xs="12">
+        <MudButton Class="pa-4" Variant="Variant.Text" Color="MudBlazor.Color.Success" @onclick="async () => await ShowLedstripFormDialog()">New</MudButton>
+    </MudItem>
+
+    @* The controllers that are in the application. *@
+    <MudItem xs="12">
+        @foreach (Controller controller in Controllers)
+        {
+            <MudPaper Elevation="2" Class="pa-4">
+
+                @* Controller name *@
+                <MudText Class="pa-4" Typo="Typo.h5">@controller.Name</MudText>
+                <MudDivider />
+
+                @* Each ledstrip on each controller. *@
+                @foreach (Ledstrip ledstrip in controller.Ledstrips)
+                {
+                    <MudItem xs="3">
+                        <MudPaper Class="pa-4">
+                            <MudCard Class="pa-4">
+                                <MudCardHeader>
+                                    <CardHeaderActions>
+                                        <MudIconButton Class="pa-4" Icon="@Icons.Material.Filled.Settings" Color="Color.Default" @onclick="async () => await ShowLedstripFormDialog(ledstrip)" />
+                                    </CardHeaderActions>
+                                </MudCardHeader>
+                                <MudCardContent>
+                                    <MudText></MudText>
+                                    <MudText Class="pa-4" Typo="Typo.h5">Name: @ledstrip.Name</MudText>
+                                    <MudText Class="pa-4" Typo="Typo.body2">Leds : @ledstrip.PixelCount</MudText>
+                                </MudCardContent>
+                                <MudCardActions>
+                                    <MudButton Disabled="!_controllerService.IsControllerConnected(controller)" Color="Color.Secondary" Class="pa-4" OnClick="async () => await TestLedstripAsync(ledstrip)">Test</MudButton>
+                                </MudCardActions>
+                            </MudCard>
+                        </MudPaper>
+                    </MudItem>
+                }
+            </MudPaper>
+        }
+    </MudItem>
+}
+else
+{
+    <EmptyPage PageName="Ledstrips" AddItemAction="async () => await ShowLedstripFormDialog()"></EmptyPage>
+}
+
+
+
+@code {
+
+    /// <summary>
+    /// The controllers that we have in the application.
+    /// </summary>
+    public IEnumerable<Controller> Controllers { get; set; } = new List<Controller>();
+
+
+    /// <summary>
+    /// Method invoked when the component is ready to start, having received its
+    /// initial parametersBase from its parent in the render tree.
+    /// Override this method if you will perform an asynchronous operation and
+    /// want the component to refresh when that operation is completed.
+    /// </summary>
+    /// <returns>A <see cref="T:System.Threading.Tasks.Task" /> representing any asynchronous operation.</returns>
+    protected override async Task OnInitializedAsync()
+    {
+        _logger.LogInformation($"Loading ledstrips page.");
+
+        // Gets the controllers that we know of. These also hold the ledstrip.
+        Controllers = await _controllerManager.GetAsync().AsEnumerableAsync();
+
+        await base.OnInitializedAsync();
+    }
+
+
+    /// <summary>
+    /// Shows the edit ledstrip dialog.
+    /// </summary>
+    /// <param name="ledstrip">The ledstrip we want to edit. Or none if we want to add a new one.</param>
+    /// <returns></returns>
+    private async Task ShowLedstripFormDialog(Ledstrip? ledstrip = null)
+    {
+        _logger.LogInformation($"Opening the edit ledstrip dialog. {ledstrip?.Name ?? "None Selected"}");
+
+        // Setting the ledstrip options.
+        DialogParameters parameters = new DialogParameters
+        {
+            {"Ledstrip", ledstrip}
+        };
+
+        // Setting the options for the dialog.
+        DialogOptions options = new DialogOptions()
+            {
+                CloseButton = true,
+                MaxWidth = MaxWidth.Medium,
+                FullWidth = true
+            };
+
+        // Opening the dialog.
+        DialogResult result = await _dialogService.Show<LedstripFormDialog>(ledstrip == null ? "Add" : "Edit", parameters, options).Result;
+
+        if (!result.Cancelled)
+        {
+            _logger.LogDebug("Ledstrip dialog closed reloading ledstrips page.");
+            _navigationManager.NavigateTo("Ledstrips", true);
+        }
+    }
+
+
+    private async Task TestLedstripAsync(Ledstrip ledstrip)
+    {
+        _logger.LogInformation($"Testing ledstrip {ledstrip.Name}.");
+
+        try
+        {
+
+            await _controllerService.TestLedstripAsync(ledstrip);
+            _snackbar.Add($"Ledstrip has been tested.", Severity.Success);
+
+
+        }
+        catch (ControllerConnectionException controllerConnectionException)
+        {
+            _logger.LogError($"There was a problem with testing a ledstrip on a controller.");
+            _snackbar.Add($"Could not test ledstrip.", Severity.Error);
+        }
+        catch (Exception exception)
+        {
+            _logger.LogError($"There was a controller problem while testing ledstrip {ledstrip.Id}.");
+            _snackbar.Add($"There was a controller error.", Severity.Error);
+        }
+
+    }
+
+
+}
+

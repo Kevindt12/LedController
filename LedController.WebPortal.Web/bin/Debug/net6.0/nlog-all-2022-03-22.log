@@ -1,0 +1,1125 @@
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/03/22 16:48:32.651 - [DEBUG]: Hosting starting 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/03/22 16:48:32.708 - [DEBUG]: Starting the discovery service. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/03/22 16:48:32.709 - [DEBUG]: Creating a new UDP client to be used for broadcasting the server information. This wil happen on UDP port 8472. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/03/22 16:48:32.726 - [DEBUG]: The discovery service has started. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[6 - .NET ThreadPool Worker] 
+      2022/03/22 16:48:32.726 - [TRACE]: Start sending message to controllers to be discovered. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/22 16:48:32.824 - [INFO]: Now listening on: http://localhost:5097 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/22 16:48:32.824 - [INFO]: Application started. Press Ctrl+C to shut down. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/22 16:48:32.824 - [INFO]: Hosting environment: Development 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/22 16:48:32.824 - [INFO]: Content root path: D:\Projects\LedController_net5\LedController.WebPortal.Web\ 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/03/22 16:48:32.824 - [DEBUG]: Hosting started 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/03/22 23:08:45.977 - [DEBUG]: Hosting starting 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/03/22 23:08:46.035 - [DEBUG]: Starting the discovery service. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/03/22 23:08:46.035 - [DEBUG]: Creating a new UDP client to be used for broadcasting the server information. This wil happen on UDP port 8472. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/03/22 23:08:46.056 - [DEBUG]: The discovery service has started. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[9 - .NET ThreadPool Worker] 
+      2022/03/22 23:08:46.056 - [TRACE]: Start sending message to controllers to be discovered. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/22 23:08:46.181 - [INFO]: Now listening on: http://localhost:5097 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/22 23:08:46.181 - [INFO]: Application started. Press Ctrl+C to shut down. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/22 23:08:46.181 - [INFO]: Hosting environment: Development 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/22 23:08:46.181 - [INFO]: Content root path: D:\Projects\LedController_net5\LedController.WebPortal.Web\ 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/03/22 23:08:46.181 - [DEBUG]: Hosting started 
+ 
+LedController.WebPortal.Web.Pages.LedstripsPage[9 - .NET ThreadPool Worker] 
+      2022/03/22 23:08:56.481 - [INFO]: Loading ledstrips page. 
+ 
+LedController.WebPortal.Web.Dialogs.EditLedstripDialog[6 - .NET ThreadPool Worker] 
+      2022/03/22 23:08:59.110 - [INFO]: Opening edit ledstrip dialog. Editing a existing ledstrip. 
+ 
+Microsoft.AspNetCore.Components.Server.Circuits.RemoteRenderer[6 - .NET ThreadPool Worker] 
+      2022/03/22 23:09:37.824 - [WARN]: Unhandled exception rendering component: Object reference not set to an instance of an object. 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at LedController.WebPortal.Web.Dialogs.EditSpiBusDialog.<BuildRenderTree>b__0_3(RenderTreeBuilder __builder3)
+   at Microsoft.AspNetCore.Components.CascadingValue`1.Render(RenderTreeBuilder builder)
+   at Microsoft.AspNetCore.Components.Rendering.ComponentState.RenderIntoBatch(RenderBatchBuilder batchBuilder, RenderFragment renderFragment, Exception& renderFragmentException)
+Microsoft.AspNetCore.Components.Server.Circuits.CircuitHost[6 - .NET ThreadPool Worker] 
+      2022/03/22 23:09:37.896 - [ERROR]: Unhandled exception in circuit 'BFFpZi4_cVwuLTreyyyQKtEQSVEZ6tcir7RLLr639U4'. 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at LedController.WebPortal.Web.Dialogs.EditSpiBusDialog.<BuildRenderTree>b__0_3(RenderTreeBuilder __builder3)
+   at Microsoft.AspNetCore.Components.CascadingValue`1.Render(RenderTreeBuilder builder)
+   at Microsoft.AspNetCore.Components.Rendering.ComponentState.RenderIntoBatch(RenderBatchBuilder batchBuilder, RenderFragment renderFragment, Exception& renderFragmentException)
+Microsoft.AspNetCore.Components.Server.Circuits.RemoteRenderer[6 - .NET ThreadPool Worker] 
+      2022/03/22 23:09:37.913 - [WARN]: Unhandled exception rendering component: Cannot access a disposed object. 
+ System.ObjectDisposedException: Cannot access a disposed object.
+   at Microsoft.AspNetCore.Components.RenderTree.ArrayBuilder`1.ThrowObjectDisposedException()
+   at Microsoft.AspNetCore.Components.RenderTree.ArrayBuilder`1.GrowBuffer(Int32 desiredCapacity)
+   at Microsoft.AspNetCore.Components.RenderTree.ArrayBuilder`1.Append(T[] source, Int32 startIndex, Int32 length)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.InsertNewFrame(DiffContext& diffContext, Int32 newFrameIndex)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.AppendDiffEntriesForRange(DiffContext& diffContext, Int32 oldStartIndex, Int32 oldEndIndexExcl, Int32 newStartIndex, Int32 newEndIndexExcl)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.ComputeDiff(Renderer renderer, RenderBatchBuilder batchBuilder, Int32 componentId, ArrayRange`1 oldTree, ArrayRange`1 newTree)
+   at Microsoft.AspNetCore.Components.Rendering.ComponentState.RenderIntoBatch(RenderBatchBuilder batchBuilder, RenderFragment renderFragment, Exception& renderFragmentException)
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.ProcessRenderQueue()
+Microsoft.AspNetCore.Components.Server.Circuits.CircuitHost[6 - .NET ThreadPool Worker] 
+      2022/03/22 23:09:37.913 - [ERROR]: Unhandled exception in circuit 'BFFpZi4_cVwuLTreyyyQKtEQSVEZ6tcir7RLLr639U4'. 
+ System.ObjectDisposedException: Cannot access a disposed object.
+   at Microsoft.AspNetCore.Components.RenderTree.ArrayBuilder`1.ThrowObjectDisposedException()
+   at Microsoft.AspNetCore.Components.RenderTree.ArrayBuilder`1.GrowBuffer(Int32 desiredCapacity)
+   at Microsoft.AspNetCore.Components.RenderTree.ArrayBuilder`1.Append(T[] source, Int32 startIndex, Int32 length)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.InsertNewFrame(DiffContext& diffContext, Int32 newFrameIndex)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.AppendDiffEntriesForRange(DiffContext& diffContext, Int32 oldStartIndex, Int32 oldEndIndexExcl, Int32 newStartIndex, Int32 newEndIndexExcl)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.ComputeDiff(Renderer renderer, RenderBatchBuilder batchBuilder, Int32 componentId, ArrayRange`1 oldTree, ArrayRange`1 newTree)
+   at Microsoft.AspNetCore.Components.Rendering.ComponentState.RenderIntoBatch(RenderBatchBuilder batchBuilder, RenderFragment renderFragment, Exception& renderFragmentException)
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.ProcessRenderQueue()
+Microsoft.AspNetCore.Components.Server.Circuits.RemoteRenderer[24 - .NET ThreadPool Worker] 
+      2022/03/22 23:09:46.265 - [WARN]: Unhandled exception rendering component: Object reference not set to an instance of an object. 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at LedController.WebPortal.Web.Dialogs.EditSpiBusDialog.<BuildRenderTree>b__0_3(RenderTreeBuilder __builder3)
+   at Microsoft.AspNetCore.Components.CascadingValue`1.Render(RenderTreeBuilder builder)
+   at Microsoft.AspNetCore.Components.Rendering.ComponentState.RenderIntoBatch(RenderBatchBuilder batchBuilder, RenderFragment renderFragment, Exception& renderFragmentException)
+Microsoft.AspNetCore.Components.Server.Circuits.CircuitHost[24 - .NET ThreadPool Worker] 
+      2022/03/22 23:09:46.265 - [ERROR]: Unhandled exception in circuit 'kgdECTJerkpxZIq37IR0gOd9rydaiJp9b_8juZbEixU'. 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at LedController.WebPortal.Web.Dialogs.EditSpiBusDialog.<BuildRenderTree>b__0_3(RenderTreeBuilder __builder3)
+   at Microsoft.AspNetCore.Components.CascadingValue`1.Render(RenderTreeBuilder builder)
+   at Microsoft.AspNetCore.Components.Rendering.ComponentState.RenderIntoBatch(RenderBatchBuilder batchBuilder, RenderFragment renderFragment, Exception& renderFragmentException)
+Microsoft.AspNetCore.Components.Server.Circuits.RemoteRenderer[24 - .NET ThreadPool Worker] 
+      2022/03/22 23:09:46.265 - [WARN]: Unhandled exception rendering component: Cannot access a disposed object. 
+ System.ObjectDisposedException: Cannot access a disposed object.
+   at Microsoft.AspNetCore.Components.RenderTree.ArrayBuilder`1.ThrowObjectDisposedException()
+   at Microsoft.AspNetCore.Components.RenderTree.ArrayBuilder`1.GrowBuffer(Int32 desiredCapacity)
+   at Microsoft.AspNetCore.Components.RenderTree.ArrayBuilder`1.Append(T[] source, Int32 startIndex, Int32 length)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.InsertNewFrame(DiffContext& diffContext, Int32 newFrameIndex)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.AppendDiffEntriesForRange(DiffContext& diffContext, Int32 oldStartIndex, Int32 oldEndIndexExcl, Int32 newStartIndex, Int32 newEndIndexExcl)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.ComputeDiff(Renderer renderer, RenderBatchBuilder batchBuilder, Int32 componentId, ArrayRange`1 oldTree, ArrayRange`1 newTree)
+   at Microsoft.AspNetCore.Components.Rendering.ComponentState.RenderIntoBatch(RenderBatchBuilder batchBuilder, RenderFragment renderFragment, Exception& renderFragmentException)
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.ProcessRenderQueue()
+Microsoft.AspNetCore.Components.Server.Circuits.CircuitHost[24 - .NET ThreadPool Worker] 
+      2022/03/22 23:09:46.265 - [ERROR]: Unhandled exception in circuit 'kgdECTJerkpxZIq37IR0gOd9rydaiJp9b_8juZbEixU'. 
+ System.ObjectDisposedException: Cannot access a disposed object.
+   at Microsoft.AspNetCore.Components.RenderTree.ArrayBuilder`1.ThrowObjectDisposedException()
+   at Microsoft.AspNetCore.Components.RenderTree.ArrayBuilder`1.GrowBuffer(Int32 desiredCapacity)
+   at Microsoft.AspNetCore.Components.RenderTree.ArrayBuilder`1.Append(T[] source, Int32 startIndex, Int32 length)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.InsertNewFrame(DiffContext& diffContext, Int32 newFrameIndex)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.AppendDiffEntriesForRange(DiffContext& diffContext, Int32 oldStartIndex, Int32 oldEndIndexExcl, Int32 newStartIndex, Int32 newEndIndexExcl)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.ComputeDiff(Renderer renderer, RenderBatchBuilder batchBuilder, Int32 componentId, ArrayRange`1 oldTree, ArrayRange`1 newTree)
+   at Microsoft.AspNetCore.Components.Rendering.ComponentState.RenderIntoBatch(RenderBatchBuilder batchBuilder, RenderFragment renderFragment, Exception& renderFragmentException)
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.ProcessRenderQueue()
+LedController.WebPortal.Web.Pages.LedstripsPage[6 - .NET ThreadPool Worker] 
+      2022/03/22 23:12:06.440 - [INFO]: Loading ledstrips page. 
+ 
+LedController.WebPortal.Web.Pages.LedstripsPage[6 - .NET ThreadPool Worker] 
+      2022/03/22 23:12:07.268 - [INFO]: Loading ledstrips page. 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/03/22 23:13:01.829 - [DEBUG]: Hosting starting 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/03/22 23:13:01.860 - [DEBUG]: Starting the discovery service. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/03/22 23:13:01.860 - [DEBUG]: Creating a new UDP client to be used for broadcasting the server information. This wil happen on UDP port 8472. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/03/22 23:13:01.871 - [DEBUG]: The discovery service has started. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[10 - .NET ThreadPool Worker] 
+      2022/03/22 23:13:01.871 - [TRACE]: Start sending message to controllers to be discovered. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/22 23:13:01.935 - [INFO]: Now listening on: http://localhost:5097 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/22 23:13:01.935 - [INFO]: Application started. Press Ctrl+C to shut down. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/22 23:13:01.935 - [INFO]: Hosting environment: Development 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/22 23:13:01.935 - [INFO]: Content root path: D:\Projects\LedController_net5\LedController.WebPortal.Web\ 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/03/22 23:13:01.935 - [DEBUG]: Hosting started 
+ 
+LedController.WebPortal.Web.Pages.LedstripsPage[9 - .NET ThreadPool Worker] 
+      2022/03/22 23:13:09.271 - [INFO]: Loading ledstrips page. 
+ 
+LedController.WebPortal.Web.Pages.LedstripsPage[9 - .NET ThreadPool Worker] 
+      2022/03/22 23:13:10.924 - [INFO]: Loading ledstrips page. 
+ 
+LedController.WebPortal.Web.Pages.ControllersPage[9 - .NET ThreadPool Worker] 
+      2022/03/22 23:13:11.670 - [INFO]: Opening controllers page. 
+ 
+LedController.WebPortal.Web.Pages.LedstripsPage[10 - .NET ThreadPool Worker] 
+      2022/03/22 23:13:12.467 - [INFO]: Loading ledstrips page. 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/03/22 23:14:14.995 - [DEBUG]: Hosting starting 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/03/22 23:14:15.029 - [DEBUG]: Starting the discovery service. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/03/22 23:14:15.029 - [DEBUG]: Creating a new UDP client to be used for broadcasting the server information. This wil happen on UDP port 8472. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/03/22 23:14:15.041 - [DEBUG]: The discovery service has started. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[13 - .NET ThreadPool Worker] 
+      2022/03/22 23:14:15.041 - [TRACE]: Start sending message to controllers to be discovered. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/22 23:14:15.112 - [INFO]: Now listening on: http://localhost:5097 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/22 23:14:15.115 - [INFO]: Application started. Press Ctrl+C to shut down. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/22 23:14:15.115 - [INFO]: Hosting environment: Development 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/22 23:14:15.115 - [INFO]: Content root path: D:\Projects\LedController_net5\LedController.WebPortal.Web\ 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/03/22 23:14:15.115 - [DEBUG]: Hosting started 
+ 
+LedController.WebPortal.Web.Pages.LedstripsPage[6 - .NET ThreadPool Worker] 
+      2022/03/22 23:15:02.450 - [INFO]: Loading ledstrips page. 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/03/22 23:21:47.817 - [DEBUG]: Hosting starting 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/03/22 23:21:47.851 - [DEBUG]: Starting the discovery service. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/03/22 23:21:47.851 - [DEBUG]: Creating a new UDP client to be used for broadcasting the server information. This wil happen on UDP port 8472. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/03/22 23:21:47.851 - [DEBUG]: The discovery service has started. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[10 - .NET ThreadPool Worker] 
+      2022/03/22 23:21:47.851 - [TRACE]: Start sending message to controllers to be discovered. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/22 23:21:47.929 - [INFO]: Now listening on: http://localhost:5097 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/22 23:21:47.929 - [INFO]: Application started. Press Ctrl+C to shut down. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/22 23:21:47.929 - [INFO]: Hosting environment: Development 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/22 23:21:47.929 - [INFO]: Content root path: D:\Projects\LedController_net5\LedController.WebPortal.Web\ 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/03/22 23:21:47.929 - [DEBUG]: Hosting started 
+ 
+LedController.WebPortal.Web.Pages.LedstripsPage[6 - .NET ThreadPool Worker] 
+      2022/03/22 23:21:57.018 - [INFO]: Loading ledstrips page. 
+ 
+LedController.WebPortal.Web.Pages.LedstripsPage[9 - .NET ThreadPool Worker] 
+      2022/03/22 23:22:12.147 - [INFO]: Loading ledstrips page. 
+ 
+LedController.WebPortal.Web.Pages.LedstripsPage[13 - .NET ThreadPool Worker] 
+      2022/03/22 23:22:42.177 - [INFO]: Loading ledstrips page. 
+ 
+LedController.WebPortal.Web.Pages.LedstripsPage[9 - .NET ThreadPool Worker] 
+      2022/03/22 23:23:29.583 - [INFO]: Loading ledstrips page. 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/03/22 23:24:03.938 - [DEBUG]: Hosting starting 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/03/22 23:24:03.972 - [DEBUG]: Starting the discovery service. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/03/22 23:24:03.972 - [DEBUG]: Creating a new UDP client to be used for broadcasting the server information. This wil happen on UDP port 8472. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/03/22 23:24:03.984 - [DEBUG]: The discovery service has started. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[10 - .NET ThreadPool Worker] 
+      2022/03/22 23:24:03.984 - [TRACE]: Start sending message to controllers to be discovered. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/22 23:24:04.047 - [INFO]: Now listening on: http://localhost:5097 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/22 23:24:04.047 - [INFO]: Application started. Press Ctrl+C to shut down. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/22 23:24:04.047 - [INFO]: Hosting environment: Development 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/22 23:24:04.047 - [INFO]: Content root path: D:\Projects\LedController_net5\LedController.WebPortal.Web\ 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/03/22 23:24:04.047 - [DEBUG]: Hosting started 
+ 
+LedController.WebPortal.Web.Pages.LedstripsPage[18 - .NET ThreadPool Worker] 
+      2022/03/22 23:24:15.204 - [INFO]: Loading ledstrips page. 
+ 
+LedController.WebPortal.Web.Pages.LedstripsPage[9 - .NET ThreadPool Worker] 
+      2022/03/22 23:25:19.041 - [INFO]: Loading ledstrips page. 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/03/22 23:28:16.735 - [DEBUG]: Hosting starting 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/03/22 23:28:16.768 - [DEBUG]: Starting the discovery service. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/03/22 23:28:16.768 - [DEBUG]: Creating a new UDP client to be used for broadcasting the server information. This wil happen on UDP port 8472. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/03/22 23:28:16.781 - [DEBUG]: The discovery service has started. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[9 - .NET ThreadPool Worker] 
+      2022/03/22 23:28:16.781 - [TRACE]: Start sending message to controllers to be discovered. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/22 23:28:16.851 - [INFO]: Now listening on: http://localhost:5097 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/22 23:28:16.851 - [INFO]: Application started. Press Ctrl+C to shut down. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/22 23:28:16.851 - [INFO]: Hosting environment: Development 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/22 23:28:16.851 - [INFO]: Content root path: D:\Projects\LedController_net5\LedController.WebPortal.Web\ 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/03/22 23:28:16.851 - [DEBUG]: Hosting started 
+ 
+LedController.WebPortal.Web.Pages.Index[6 - .NET ThreadPool Worker] 
+      2022/03/22 23:28:19.574 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Pages.Index[6 - .NET ThreadPool Worker] 
+      2022/03/22 23:28:21.506 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Pages.SpiBusesPage[16 - .NET ThreadPool Worker] 
+      2022/03/22 23:28:24.361 - [INFO]: Opening the spi buses page, and loading the spi buses from the application. 
+ 
+LedController.WebPortal.Web.Pages.SpiBusesPage[13 - .NET ThreadPool Worker] 
+      2022/03/22 23:28:32.469 - [INFO]: Opening the edit spi bus dialog. None Selected. 
+ 
+Microsoft.AspNetCore.Components.Server.Circuits.RemoteRenderer[13 - .NET ThreadPool Worker] 
+      2022/03/22 23:28:54.581 - [WARN]: Unhandled exception rendering component: Object reference not set to an instance of an object. 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at LedController.WebPortal.Web.Dialogs.EditSpiBusDialog.<BuildRenderTree>b__0_3(RenderTreeBuilder __builder3)
+   at Microsoft.AspNetCore.Components.CascadingValue`1.Render(RenderTreeBuilder builder)
+   at Microsoft.AspNetCore.Components.Rendering.ComponentState.RenderIntoBatch(RenderBatchBuilder batchBuilder, RenderFragment renderFragment, Exception& renderFragmentException)
+Microsoft.AspNetCore.Components.Server.Circuits.CircuitHost[13 - .NET ThreadPool Worker] 
+      2022/03/22 23:28:54.613 - [ERROR]: Unhandled exception in circuit 'z0D-Qns66I9dRWFl9Q-jIk1YOfgOOCUSBqyiltObUyY'. 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at LedController.WebPortal.Web.Dialogs.EditSpiBusDialog.<BuildRenderTree>b__0_3(RenderTreeBuilder __builder3)
+   at Microsoft.AspNetCore.Components.CascadingValue`1.Render(RenderTreeBuilder builder)
+   at Microsoft.AspNetCore.Components.Rendering.ComponentState.RenderIntoBatch(RenderBatchBuilder batchBuilder, RenderFragment renderFragment, Exception& renderFragmentException)
+Microsoft.AspNetCore.Components.Server.Circuits.RemoteRenderer[13 - .NET ThreadPool Worker] 
+      2022/03/22 23:28:54.631 - [WARN]: Unhandled exception rendering component: Cannot access a disposed object. 
+ System.ObjectDisposedException: Cannot access a disposed object.
+   at Microsoft.AspNetCore.Components.RenderTree.ArrayBuilder`1.ThrowObjectDisposedException()
+   at Microsoft.AspNetCore.Components.RenderTree.ArrayBuilder`1.GrowBuffer(Int32 desiredCapacity)
+   at Microsoft.AspNetCore.Components.RenderTree.ArrayBuilder`1.Append(T[] source, Int32 startIndex, Int32 length)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.InsertNewFrame(DiffContext& diffContext, Int32 newFrameIndex)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.AppendDiffEntriesForRange(DiffContext& diffContext, Int32 oldStartIndex, Int32 oldEndIndexExcl, Int32 newStartIndex, Int32 newEndIndexExcl)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.ComputeDiff(Renderer renderer, RenderBatchBuilder batchBuilder, Int32 componentId, ArrayRange`1 oldTree, ArrayRange`1 newTree)
+   at Microsoft.AspNetCore.Components.Rendering.ComponentState.RenderIntoBatch(RenderBatchBuilder batchBuilder, RenderFragment renderFragment, Exception& renderFragmentException)
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.ProcessRenderQueue()
+Microsoft.AspNetCore.Components.Server.Circuits.CircuitHost[13 - .NET ThreadPool Worker] 
+      2022/03/22 23:28:54.631 - [ERROR]: Unhandled exception in circuit 'z0D-Qns66I9dRWFl9Q-jIk1YOfgOOCUSBqyiltObUyY'. 
+ System.ObjectDisposedException: Cannot access a disposed object.
+   at Microsoft.AspNetCore.Components.RenderTree.ArrayBuilder`1.ThrowObjectDisposedException()
+   at Microsoft.AspNetCore.Components.RenderTree.ArrayBuilder`1.GrowBuffer(Int32 desiredCapacity)
+   at Microsoft.AspNetCore.Components.RenderTree.ArrayBuilder`1.Append(T[] source, Int32 startIndex, Int32 length)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.InsertNewFrame(DiffContext& diffContext, Int32 newFrameIndex)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.AppendDiffEntriesForRange(DiffContext& diffContext, Int32 oldStartIndex, Int32 oldEndIndexExcl, Int32 newStartIndex, Int32 newEndIndexExcl)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.ComputeDiff(Renderer renderer, RenderBatchBuilder batchBuilder, Int32 componentId, ArrayRange`1 oldTree, ArrayRange`1 newTree)
+   at Microsoft.AspNetCore.Components.Rendering.ComponentState.RenderIntoBatch(RenderBatchBuilder batchBuilder, RenderFragment renderFragment, Exception& renderFragmentException)
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.ProcessRenderQueue()
+LedController.WebPortal.Web.Pages.SpiBusesPage[9 - .NET ThreadPool Worker] 
+      2022/03/22 23:28:56.684 - [INFO]: Opening the spi buses page, and loading the spi buses from the application. 
+ 
+LedController.WebPortal.Web.Pages.SpiBusesPage[6 - .NET ThreadPool Worker] 
+      2022/03/22 23:28:57.511 - [INFO]: Opening the spi buses page, and loading the spi buses from the application. 
+ 
+LedController.WebPortal.Web.Pages.SpiBusesPage[9 - .NET ThreadPool Worker] 
+      2022/03/22 23:28:59.191 - [INFO]: Opening the edit spi bus dialog. None Selected. 
+ 
+Microsoft.AspNetCore.Components.Server.Circuits.RemoteRenderer[9 - .NET ThreadPool Worker] 
+      2022/03/22 23:29:11.549 - [WARN]: Unhandled exception rendering component: Object reference not set to an instance of an object. 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at LedController.WebPortal.Web.Dialogs.EditSpiBusDialog.<BuildRenderTree>b__0_3(RenderTreeBuilder __builder3)
+   at Microsoft.AspNetCore.Components.CascadingValue`1.Render(RenderTreeBuilder builder)
+   at Microsoft.AspNetCore.Components.Rendering.ComponentState.RenderIntoBatch(RenderBatchBuilder batchBuilder, RenderFragment renderFragment, Exception& renderFragmentException)
+Microsoft.AspNetCore.Components.Server.Circuits.CircuitHost[9 - .NET ThreadPool Worker] 
+      2022/03/22 23:29:11.549 - [ERROR]: Unhandled exception in circuit 'Lx5blCiQQUldx2KlRyVWK6szOYIiyfhVelhGHMcQDec'. 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at LedController.WebPortal.Web.Dialogs.EditSpiBusDialog.<BuildRenderTree>b__0_3(RenderTreeBuilder __builder3)
+   at Microsoft.AspNetCore.Components.CascadingValue`1.Render(RenderTreeBuilder builder)
+   at Microsoft.AspNetCore.Components.Rendering.ComponentState.RenderIntoBatch(RenderBatchBuilder batchBuilder, RenderFragment renderFragment, Exception& renderFragmentException)
+Microsoft.AspNetCore.Components.Server.Circuits.RemoteRenderer[9 - .NET ThreadPool Worker] 
+      2022/03/22 23:29:11.556 - [WARN]: Unhandled exception rendering component: Cannot access a disposed object. 
+ System.ObjectDisposedException: Cannot access a disposed object.
+   at Microsoft.AspNetCore.Components.RenderTree.ArrayBuilder`1.ThrowObjectDisposedException()
+   at Microsoft.AspNetCore.Components.RenderTree.ArrayBuilder`1.GrowBuffer(Int32 desiredCapacity)
+   at Microsoft.AspNetCore.Components.RenderTree.ArrayBuilder`1.Append(T[] source, Int32 startIndex, Int32 length)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.InsertNewFrame(DiffContext& diffContext, Int32 newFrameIndex)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.AppendDiffEntriesForRange(DiffContext& diffContext, Int32 oldStartIndex, Int32 oldEndIndexExcl, Int32 newStartIndex, Int32 newEndIndexExcl)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.ComputeDiff(Renderer renderer, RenderBatchBuilder batchBuilder, Int32 componentId, ArrayRange`1 oldTree, ArrayRange`1 newTree)
+   at Microsoft.AspNetCore.Components.Rendering.ComponentState.RenderIntoBatch(RenderBatchBuilder batchBuilder, RenderFragment renderFragment, Exception& renderFragmentException)
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.ProcessRenderQueue()
+Microsoft.AspNetCore.Components.Server.Circuits.CircuitHost[9 - .NET ThreadPool Worker] 
+      2022/03/22 23:29:11.556 - [ERROR]: Unhandled exception in circuit 'Lx5blCiQQUldx2KlRyVWK6szOYIiyfhVelhGHMcQDec'. 
+ System.ObjectDisposedException: Cannot access a disposed object.
+   at Microsoft.AspNetCore.Components.RenderTree.ArrayBuilder`1.ThrowObjectDisposedException()
+   at Microsoft.AspNetCore.Components.RenderTree.ArrayBuilder`1.GrowBuffer(Int32 desiredCapacity)
+   at Microsoft.AspNetCore.Components.RenderTree.ArrayBuilder`1.Append(T[] source, Int32 startIndex, Int32 length)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.InsertNewFrame(DiffContext& diffContext, Int32 newFrameIndex)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.AppendDiffEntriesForRange(DiffContext& diffContext, Int32 oldStartIndex, Int32 oldEndIndexExcl, Int32 newStartIndex, Int32 newEndIndexExcl)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.ComputeDiff(Renderer renderer, RenderBatchBuilder batchBuilder, Int32 componentId, ArrayRange`1 oldTree, ArrayRange`1 newTree)
+   at Microsoft.AspNetCore.Components.Rendering.ComponentState.RenderIntoBatch(RenderBatchBuilder batchBuilder, RenderFragment renderFragment, Exception& renderFragmentException)
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.ProcessRenderQueue()
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/03/22 23:30:34.819 - [DEBUG]: Hosting starting 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/03/22 23:30:34.856 - [DEBUG]: Starting the discovery service. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/03/22 23:30:34.856 - [DEBUG]: Creating a new UDP client to be used for broadcasting the server information. This wil happen on UDP port 8472. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/03/22 23:30:34.870 - [DEBUG]: The discovery service has started. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[6 - .NET ThreadPool Worker] 
+      2022/03/22 23:30:34.870 - [TRACE]: Start sending message to controllers to be discovered. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/22 23:30:34.964 - [INFO]: Now listening on: http://localhost:5097 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/22 23:30:34.964 - [INFO]: Application started. Press Ctrl+C to shut down. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/22 23:30:34.964 - [INFO]: Hosting environment: Development 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/22 23:30:34.964 - [INFO]: Content root path: D:\Projects\LedController_net5\LedController.WebPortal.Web\ 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/03/22 23:30:34.964 - [DEBUG]: Hosting started 
+ 
+LedController.WebPortal.Web.Pages.Index[10 - .NET ThreadPool Worker] 
+      2022/03/22 23:30:37.315 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Pages.Index[9 - .NET ThreadPool Worker] 
+      2022/03/22 23:30:38.794 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Pages.SpiBusesPage[9 - .NET ThreadPool Worker] 
+      2022/03/22 23:30:40.398 - [INFO]: Opening the spi buses page, and loading the spi buses from the application. 
+ 
+LedController.WebPortal.Web.Pages.SpiBusesPage[14 - .NET ThreadPool Worker] 
+      2022/03/22 23:30:41.690 - [INFO]: Opening the edit spi bus dialog. None Selected. 
+ 
+Microsoft.AspNetCore.Components.Server.Circuits.RemoteRenderer[14 - .NET ThreadPool Worker] 
+      2022/03/22 23:31:37.483 - [WARN]: Unhandled exception rendering component: Object reference not set to an instance of an object. 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at LedController.WebPortal.Web.Dialogs.EditSpiBusDialog.<BuildRenderTree>b__0_3(RenderTreeBuilder __builder3)
+   at Microsoft.AspNetCore.Components.CascadingValue`1.Render(RenderTreeBuilder builder)
+   at Microsoft.AspNetCore.Components.Rendering.ComponentState.RenderIntoBatch(RenderBatchBuilder batchBuilder, RenderFragment renderFragment, Exception& renderFragmentException)
+Microsoft.AspNetCore.Components.Server.Circuits.CircuitHost[14 - .NET ThreadPool Worker] 
+      2022/03/22 23:31:37.538 - [ERROR]: Unhandled exception in circuit '7p2YSj9AGVot9vICIPdqYXr2iyi8wT8REatygIKWmNg'. 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at LedController.WebPortal.Web.Dialogs.EditSpiBusDialog.<BuildRenderTree>b__0_3(RenderTreeBuilder __builder3)
+   at Microsoft.AspNetCore.Components.CascadingValue`1.Render(RenderTreeBuilder builder)
+   at Microsoft.AspNetCore.Components.Rendering.ComponentState.RenderIntoBatch(RenderBatchBuilder batchBuilder, RenderFragment renderFragment, Exception& renderFragmentException)
+Microsoft.AspNetCore.Components.Server.Circuits.RemoteRenderer[14 - .NET ThreadPool Worker] 
+      2022/03/22 23:31:37.553 - [WARN]: Unhandled exception rendering component: Cannot access a disposed object. 
+ System.ObjectDisposedException: Cannot access a disposed object.
+   at Microsoft.AspNetCore.Components.RenderTree.ArrayBuilder`1.ThrowObjectDisposedException()
+   at Microsoft.AspNetCore.Components.RenderTree.ArrayBuilder`1.GrowBuffer(Int32 desiredCapacity)
+   at Microsoft.AspNetCore.Components.RenderTree.ArrayBuilder`1.Append(T[] source, Int32 startIndex, Int32 length)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.InsertNewFrame(DiffContext& diffContext, Int32 newFrameIndex)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.AppendDiffEntriesForRange(DiffContext& diffContext, Int32 oldStartIndex, Int32 oldEndIndexExcl, Int32 newStartIndex, Int32 newEndIndexExcl)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.ComputeDiff(Renderer renderer, RenderBatchBuilder batchBuilder, Int32 componentId, ArrayRange`1 oldTree, ArrayRange`1 newTree)
+   at Microsoft.AspNetCore.Components.Rendering.ComponentState.RenderIntoBatch(RenderBatchBuilder batchBuilder, RenderFragment renderFragment, Exception& renderFragmentException)
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.ProcessRenderQueue()
+Microsoft.AspNetCore.Components.Server.Circuits.CircuitHost[14 - .NET ThreadPool Worker] 
+      2022/03/22 23:31:37.553 - [ERROR]: Unhandled exception in circuit '7p2YSj9AGVot9vICIPdqYXr2iyi8wT8REatygIKWmNg'. 
+ System.ObjectDisposedException: Cannot access a disposed object.
+   at Microsoft.AspNetCore.Components.RenderTree.ArrayBuilder`1.ThrowObjectDisposedException()
+   at Microsoft.AspNetCore.Components.RenderTree.ArrayBuilder`1.GrowBuffer(Int32 desiredCapacity)
+   at Microsoft.AspNetCore.Components.RenderTree.ArrayBuilder`1.Append(T[] source, Int32 startIndex, Int32 length)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.InsertNewFrame(DiffContext& diffContext, Int32 newFrameIndex)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.AppendDiffEntriesForRange(DiffContext& diffContext, Int32 oldStartIndex, Int32 oldEndIndexExcl, Int32 newStartIndex, Int32 newEndIndexExcl)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.ComputeDiff(Renderer renderer, RenderBatchBuilder batchBuilder, Int32 componentId, ArrayRange`1 oldTree, ArrayRange`1 newTree)
+   at Microsoft.AspNetCore.Components.Rendering.ComponentState.RenderIntoBatch(RenderBatchBuilder batchBuilder, RenderFragment renderFragment, Exception& renderFragmentException)
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.ProcessRenderQueue()
+Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher[21 - .NET ThreadPool Worker] 
+      2022/03/22 23:31:37.553 - [ERROR]: Failed to invoke hub method 'ConnectCircuit'. 
+ System.ObjectDisposedException: Cannot access a disposed object.
+   at Microsoft.AspNetCore.Components.Server.Circuits.CircuitHost.SetCircuitUser(ClaimsPrincipal user)
+   at Microsoft.AspNetCore.Components.Server.ComponentHub.ConnectCircuit(String circuitIdSecret)
+   at lambda_method11(Closure , Object )
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.ExecuteMethod(ObjectMethodExecutor methodExecutor, Hub hub, Object[] arguments)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.<Invoke>g__ExecuteInvocation|16_0(DefaultHubDispatcher`1 dispatcher, ObjectMethodExecutor methodExecutor, THub hub, Object[] arguments, AsyncServiceScope scope, IHubActivator`1 hubActivator, HubConnectionContext connection, HubMethodInvocationMessage hubMethodInvocationMessage, Boolean isStreamCall)
+LedController.WebPortal.Web.Pages.SpiBusesPage[16 - .NET ThreadPool Worker] 
+      2022/03/22 23:33:03.621 - [INFO]: Opening the spi buses page, and loading the spi buses from the application. 
+ 
+LedController.WebPortal.Web.Pages.SpiBusesPage[31 - .NET ThreadPool Worker] 
+      2022/03/22 23:33:04.546 - [INFO]: Opening the spi buses page, and loading the spi buses from the application. 
+ 
+LedController.WebPortal.Web.Pages.SpiBusesPage[28 - .NET ThreadPool Worker] 
+      2022/03/22 23:33:06.155 - [INFO]: Opening the edit spi bus dialog. None Selected. 
+ 
+LedController.WebPortal.Web.Pages.ControllersPage[28 - .NET ThreadPool Worker] 
+      2022/03/22 23:33:33.496 - [INFO]: Opening controllers page. 
+ 
+Microsoft.AspNetCore.Components.Server.Circuits.RemoteRenderer[14 - .NET ThreadPool Worker] 
+      2022/03/22 23:33:43.852 - [WARN]: Unhandled exception rendering component: Object reference not set to an instance of an object. 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at LedController.WebPortal.Web.Dialogs.EditControllerDialog.<BuildRenderTree>b__0_11(RenderTreeBuilder __builder3)
+   at Microsoft.AspNetCore.Components.CascadingValue`1.Render(RenderTreeBuilder builder)
+   at Microsoft.AspNetCore.Components.Rendering.ComponentState.RenderIntoBatch(RenderBatchBuilder batchBuilder, RenderFragment renderFragment, Exception& renderFragmentException)
+Microsoft.AspNetCore.Components.Server.Circuits.CircuitHost[14 - .NET ThreadPool Worker] 
+      2022/03/22 23:33:43.852 - [ERROR]: Unhandled exception in circuit 'DWqXAiLEZWD_CbPyaD67ev8VeDEyBlywVd2RnuSnDCE'. 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at LedController.WebPortal.Web.Dialogs.EditControllerDialog.<BuildRenderTree>b__0_11(RenderTreeBuilder __builder3)
+   at Microsoft.AspNetCore.Components.CascadingValue`1.Render(RenderTreeBuilder builder)
+   at Microsoft.AspNetCore.Components.Rendering.ComponentState.RenderIntoBatch(RenderBatchBuilder batchBuilder, RenderFragment renderFragment, Exception& renderFragmentException)
+Microsoft.AspNetCore.Components.Server.Circuits.RemoteRenderer[14 - .NET ThreadPool Worker] 
+      2022/03/22 23:33:43.852 - [WARN]: Unhandled exception rendering component: Cannot access a disposed object. 
+ System.ObjectDisposedException: Cannot access a disposed object.
+   at Microsoft.AspNetCore.Components.RenderTree.ArrayBuilder`1.ThrowObjectDisposedException()
+   at Microsoft.AspNetCore.Components.RenderTree.ArrayBuilder`1.GrowBuffer(Int32 desiredCapacity)
+   at Microsoft.AspNetCore.Components.RenderTree.ArrayBuilder`1.Append(T[] source, Int32 startIndex, Int32 length)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.InsertNewFrame(DiffContext& diffContext, Int32 newFrameIndex)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.AppendDiffEntriesForRange(DiffContext& diffContext, Int32 oldStartIndex, Int32 oldEndIndexExcl, Int32 newStartIndex, Int32 newEndIndexExcl)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.ComputeDiff(Renderer renderer, RenderBatchBuilder batchBuilder, Int32 componentId, ArrayRange`1 oldTree, ArrayRange`1 newTree)
+   at Microsoft.AspNetCore.Components.Rendering.ComponentState.RenderIntoBatch(RenderBatchBuilder batchBuilder, RenderFragment renderFragment, Exception& renderFragmentException)
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.ProcessRenderQueue()
+Microsoft.AspNetCore.Components.Server.Circuits.CircuitHost[14 - .NET ThreadPool Worker] 
+      2022/03/22 23:33:43.852 - [ERROR]: Unhandled exception in circuit 'DWqXAiLEZWD_CbPyaD67ev8VeDEyBlywVd2RnuSnDCE'. 
+ System.ObjectDisposedException: Cannot access a disposed object.
+   at Microsoft.AspNetCore.Components.RenderTree.ArrayBuilder`1.ThrowObjectDisposedException()
+   at Microsoft.AspNetCore.Components.RenderTree.ArrayBuilder`1.GrowBuffer(Int32 desiredCapacity)
+   at Microsoft.AspNetCore.Components.RenderTree.ArrayBuilder`1.Append(T[] source, Int32 startIndex, Int32 length)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.InsertNewFrame(DiffContext& diffContext, Int32 newFrameIndex)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.AppendDiffEntriesForRange(DiffContext& diffContext, Int32 oldStartIndex, Int32 oldEndIndexExcl, Int32 newStartIndex, Int32 newEndIndexExcl)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.ComputeDiff(Renderer renderer, RenderBatchBuilder batchBuilder, Int32 componentId, ArrayRange`1 oldTree, ArrayRange`1 newTree)
+   at Microsoft.AspNetCore.Components.Rendering.ComponentState.RenderIntoBatch(RenderBatchBuilder batchBuilder, RenderFragment renderFragment, Exception& renderFragmentException)
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.ProcessRenderQueue()
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/03/22 23:35:53.245 - [DEBUG]: Hosting starting 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/03/22 23:35:53.348 - [DEBUG]: Starting the discovery service. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/03/22 23:35:53.348 - [DEBUG]: Creating a new UDP client to be used for broadcasting the server information. This wil happen on UDP port 8472. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/03/22 23:35:53.362 - [DEBUG]: The discovery service has started. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[12 - .NET ThreadPool Worker] 
+      2022/03/22 23:35:53.362 - [TRACE]: Start sending message to controllers to be discovered. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/22 23:35:53.431 - [INFO]: Now listening on: http://localhost:5097 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/22 23:35:53.431 - [INFO]: Application started. Press Ctrl+C to shut down. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/22 23:35:53.431 - [INFO]: Hosting environment: Development 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/22 23:35:53.431 - [INFO]: Content root path: D:\Projects\LedController_net5\LedController.WebPortal.Web\ 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/03/22 23:35:53.431 - [DEBUG]: Hosting started 
+ 
+LedController.WebPortal.Web.Pages.Index[9 - .NET ThreadPool Worker] 
+      2022/03/22 23:35:55.927 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Pages.Index[9 - .NET ThreadPool Worker] 
+      2022/03/22 23:35:57.803 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Pages.ControllersPage[15 - .NET ThreadPool Worker] 
+      2022/03/22 23:35:59.013 - [INFO]: Opening controllers page. 
+ 
+Microsoft.AspNetCore.Components.Server.Circuits.RemoteRenderer[6 - .NET ThreadPool Worker] 
+      2022/03/22 23:36:07.456 - [WARN]: Unhandled exception rendering component: Object reference not set to an instance of an object. 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at LedController.WebPortal.Web.Dialogs.EditControllerDialog.<BuildRenderTree>b__0_11(RenderTreeBuilder __builder3)
+   at Microsoft.AspNetCore.Components.CascadingValue`1.Render(RenderTreeBuilder builder)
+   at Microsoft.AspNetCore.Components.Rendering.ComponentState.RenderIntoBatch(RenderBatchBuilder batchBuilder, RenderFragment renderFragment, Exception& renderFragmentException)
+Microsoft.AspNetCore.Components.Server.Circuits.CircuitHost[6 - .NET ThreadPool Worker] 
+      2022/03/22 23:36:07.487 - [ERROR]: Unhandled exception in circuit 'K05XfSr-_PK_LNUGIrk297ow-roofMcJpZRTNQJ1fBA'. 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at LedController.WebPortal.Web.Dialogs.EditControllerDialog.<BuildRenderTree>b__0_11(RenderTreeBuilder __builder3)
+   at Microsoft.AspNetCore.Components.CascadingValue`1.Render(RenderTreeBuilder builder)
+   at Microsoft.AspNetCore.Components.Rendering.ComponentState.RenderIntoBatch(RenderBatchBuilder batchBuilder, RenderFragment renderFragment, Exception& renderFragmentException)
+Microsoft.AspNetCore.Components.Server.Circuits.RemoteRenderer[6 - .NET ThreadPool Worker] 
+      2022/03/22 23:36:07.502 - [WARN]: Unhandled exception rendering component: Cannot access a disposed object. 
+ System.ObjectDisposedException: Cannot access a disposed object.
+   at Microsoft.AspNetCore.Components.RenderTree.ArrayBuilder`1.ThrowObjectDisposedException()
+   at Microsoft.AspNetCore.Components.RenderTree.ArrayBuilder`1.GrowBuffer(Int32 desiredCapacity)
+   at Microsoft.AspNetCore.Components.RenderTree.ArrayBuilder`1.Append(T[] source, Int32 startIndex, Int32 length)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.InsertNewFrame(DiffContext& diffContext, Int32 newFrameIndex)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.AppendDiffEntriesForRange(DiffContext& diffContext, Int32 oldStartIndex, Int32 oldEndIndexExcl, Int32 newStartIndex, Int32 newEndIndexExcl)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.ComputeDiff(Renderer renderer, RenderBatchBuilder batchBuilder, Int32 componentId, ArrayRange`1 oldTree, ArrayRange`1 newTree)
+   at Microsoft.AspNetCore.Components.Rendering.ComponentState.RenderIntoBatch(RenderBatchBuilder batchBuilder, RenderFragment renderFragment, Exception& renderFragmentException)
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.ProcessRenderQueue()
+Microsoft.AspNetCore.Components.Server.Circuits.CircuitHost[6 - .NET ThreadPool Worker] 
+      2022/03/22 23:36:07.502 - [ERROR]: Unhandled exception in circuit 'K05XfSr-_PK_LNUGIrk297ow-roofMcJpZRTNQJ1fBA'. 
+ System.ObjectDisposedException: Cannot access a disposed object.
+   at Microsoft.AspNetCore.Components.RenderTree.ArrayBuilder`1.ThrowObjectDisposedException()
+   at Microsoft.AspNetCore.Components.RenderTree.ArrayBuilder`1.GrowBuffer(Int32 desiredCapacity)
+   at Microsoft.AspNetCore.Components.RenderTree.ArrayBuilder`1.Append(T[] source, Int32 startIndex, Int32 length)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.InsertNewFrame(DiffContext& diffContext, Int32 newFrameIndex)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.AppendDiffEntriesForRange(DiffContext& diffContext, Int32 oldStartIndex, Int32 oldEndIndexExcl, Int32 newStartIndex, Int32 newEndIndexExcl)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.ComputeDiff(Renderer renderer, RenderBatchBuilder batchBuilder, Int32 componentId, ArrayRange`1 oldTree, ArrayRange`1 newTree)
+   at Microsoft.AspNetCore.Components.Rendering.ComponentState.RenderIntoBatch(RenderBatchBuilder batchBuilder, RenderFragment renderFragment, Exception& renderFragmentException)
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.ProcessRenderQueue()
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/03/22 23:37:55.176 - [DEBUG]: Hosting starting 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/03/22 23:37:55.210 - [DEBUG]: Starting the discovery service. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/03/22 23:37:55.210 - [DEBUG]: Creating a new UDP client to be used for broadcasting the server information. This wil happen on UDP port 8472. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/03/22 23:37:55.210 - [DEBUG]: The discovery service has started. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[13 - .NET ThreadPool Worker] 
+      2022/03/22 23:37:55.210 - [TRACE]: Start sending message to controllers to be discovered. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/22 23:37:55.300 - [INFO]: Now listening on: http://localhost:5097 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/22 23:37:55.305 - [INFO]: Application started. Press Ctrl+C to shut down. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/22 23:37:55.305 - [INFO]: Hosting environment: Development 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/22 23:37:55.305 - [INFO]: Content root path: D:\Projects\LedController_net5\LedController.WebPortal.Web\ 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/03/22 23:37:55.305 - [DEBUG]: Hosting started 
+ 
+LedController.WebPortal.Web.Pages.Index[12 - .NET ThreadPool Worker] 
+      2022/03/22 23:37:57.635 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Pages.Index[15 - .NET ThreadPool Worker] 
+      2022/03/22 23:37:59.078 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Pages.ControllersPage[6 - .NET ThreadPool Worker] 
+      2022/03/22 23:37:59.652 - [INFO]: Opening controllers page. 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/03/22 23:38:39.489 - [DEBUG]: Hosting starting 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/03/22 23:38:39.529 - [DEBUG]: Starting the discovery service. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/03/22 23:38:39.529 - [DEBUG]: Creating a new UDP client to be used for broadcasting the server information. This wil happen on UDP port 8472. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/03/22 23:38:39.542 - [DEBUG]: The discovery service has started. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[9 - .NET ThreadPool Worker] 
+      2022/03/22 23:38:39.542 - [TRACE]: Start sending message to controllers to be discovered. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/22 23:38:39.619 - [INFO]: Now listening on: http://localhost:5097 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/22 23:38:39.619 - [INFO]: Application started. Press Ctrl+C to shut down. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/22 23:38:39.619 - [INFO]: Hosting environment: Development 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/22 23:38:39.619 - [INFO]: Content root path: D:\Projects\LedController_net5\LedController.WebPortal.Web\ 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/03/22 23:38:39.619 - [DEBUG]: Hosting started 
+ 
+LedController.WebPortal.Web.Pages.Index[13 - .NET ThreadPool Worker] 
+      2022/03/22 23:38:42.536 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Pages.Index[9 - .NET ThreadPool Worker] 
+      2022/03/22 23:38:43.982 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Pages.ControllersPage[9 - .NET ThreadPool Worker] 
+      2022/03/22 23:38:45.840 - [INFO]: Opening controllers page. 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/03/22 23:39:29.723 - [DEBUG]: Hosting starting 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/03/22 23:39:29.757 - [DEBUG]: Starting the discovery service. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/03/22 23:39:29.757 - [DEBUG]: Creating a new UDP client to be used for broadcasting the server information. This wil happen on UDP port 8472. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/03/22 23:39:29.757 - [DEBUG]: The discovery service has started. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[12 - .NET ThreadPool Worker] 
+      2022/03/22 23:39:29.757 - [TRACE]: Start sending message to controllers to be discovered. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/22 23:39:29.830 - [INFO]: Now listening on: http://localhost:5097 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/22 23:39:29.830 - [INFO]: Application started. Press Ctrl+C to shut down. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/22 23:39:29.830 - [INFO]: Hosting environment: Development 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/22 23:39:29.834 - [INFO]: Content root path: D:\Projects\LedController_net5\LedController.WebPortal.Web\ 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/03/22 23:39:29.834 - [DEBUG]: Hosting started 
+ 
+LedController.WebPortal.Web.Pages.Index[9 - .NET ThreadPool Worker] 
+      2022/03/22 23:39:32.536 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Pages.Index[6 - .NET ThreadPool Worker] 
+      2022/03/22 23:39:34.005 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Pages.ControllersPage[12 - .NET ThreadPool Worker] 
+      2022/03/22 23:39:34.913 - [INFO]: Opening controllers page. 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/03/22 23:40:49.271 - [DEBUG]: Hosting starting 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/03/22 23:40:49.316 - [DEBUG]: Starting the discovery service. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/03/22 23:40:49.316 - [DEBUG]: Creating a new UDP client to be used for broadcasting the server information. This wil happen on UDP port 8472. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/03/22 23:40:49.332 - [DEBUG]: The discovery service has started. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[12 - .NET ThreadPool Worker] 
+      2022/03/22 23:40:49.332 - [TRACE]: Start sending message to controllers to be discovered. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/22 23:40:49.421 - [INFO]: Now listening on: http://localhost:5097 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/22 23:40:49.421 - [INFO]: Application started. Press Ctrl+C to shut down. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/22 23:40:49.421 - [INFO]: Hosting environment: Development 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/22 23:40:49.421 - [INFO]: Content root path: D:\Projects\LedController_net5\LedController.WebPortal.Web\ 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/03/22 23:40:49.421 - [DEBUG]: Hosting started 
+ 
+LedController.WebPortal.Web.Pages.Index[12 - .NET ThreadPool Worker] 
+      2022/03/22 23:40:53.758 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Pages.Index[6 - .NET ThreadPool Worker] 
+      2022/03/22 23:40:55.165 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Pages.ControllersPage[12 - .NET ThreadPool Worker] 
+      2022/03/22 23:41:02.831 - [INFO]: Opening controllers page. 
+ 
+Microsoft.AspNetCore.Components.Server.Circuits.RemoteRenderer[6 - .NET ThreadPool Worker] 
+      2022/03/22 23:41:20.234 - [WARN]: Unhandled exception rendering component: Object reference not set to an instance of an object. 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at LedController.WebPortal.Web.Dialogs.EditControllerDialog.<BuildRenderTree>b__0_11(RenderTreeBuilder __builder3)
+   at Microsoft.AspNetCore.Components.CascadingValue`1.Render(RenderTreeBuilder builder)
+   at Microsoft.AspNetCore.Components.Rendering.ComponentState.RenderIntoBatch(RenderBatchBuilder batchBuilder, RenderFragment renderFragment, Exception& renderFragmentException)
+Microsoft.AspNetCore.Components.Server.Circuits.CircuitHost[6 - .NET ThreadPool Worker] 
+      2022/03/22 23:41:20.268 - [ERROR]: Unhandled exception in circuit 'AOgioXYQFQsTFxNnjSKuoafryUhPFKvxXH1Ta7guR08'. 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at LedController.WebPortal.Web.Dialogs.EditControllerDialog.<BuildRenderTree>b__0_11(RenderTreeBuilder __builder3)
+   at Microsoft.AspNetCore.Components.CascadingValue`1.Render(RenderTreeBuilder builder)
+   at Microsoft.AspNetCore.Components.Rendering.ComponentState.RenderIntoBatch(RenderBatchBuilder batchBuilder, RenderFragment renderFragment, Exception& renderFragmentException)
+Microsoft.AspNetCore.Components.Server.Circuits.RemoteRenderer[6 - .NET ThreadPool Worker] 
+      2022/03/22 23:41:20.291 - [WARN]: Unhandled exception rendering component: Cannot access a disposed object. 
+ System.ObjectDisposedException: Cannot access a disposed object.
+   at Microsoft.AspNetCore.Components.RenderTree.ArrayBuilder`1.ThrowObjectDisposedException()
+   at Microsoft.AspNetCore.Components.RenderTree.ArrayBuilder`1.GrowBuffer(Int32 desiredCapacity)
+   at Microsoft.AspNetCore.Components.RenderTree.ArrayBuilder`1.Append(T[] source, Int32 startIndex, Int32 length)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.InsertNewFrame(DiffContext& diffContext, Int32 newFrameIndex)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.AppendDiffEntriesForRange(DiffContext& diffContext, Int32 oldStartIndex, Int32 oldEndIndexExcl, Int32 newStartIndex, Int32 newEndIndexExcl)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.ComputeDiff(Renderer renderer, RenderBatchBuilder batchBuilder, Int32 componentId, ArrayRange`1 oldTree, ArrayRange`1 newTree)
+   at Microsoft.AspNetCore.Components.Rendering.ComponentState.RenderIntoBatch(RenderBatchBuilder batchBuilder, RenderFragment renderFragment, Exception& renderFragmentException)
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.ProcessRenderQueue()
+Microsoft.AspNetCore.Components.Server.Circuits.CircuitHost[6 - .NET ThreadPool Worker] 
+      2022/03/22 23:41:20.291 - [ERROR]: Unhandled exception in circuit 'AOgioXYQFQsTFxNnjSKuoafryUhPFKvxXH1Ta7guR08'. 
+ System.ObjectDisposedException: Cannot access a disposed object.
+   at Microsoft.AspNetCore.Components.RenderTree.ArrayBuilder`1.ThrowObjectDisposedException()
+   at Microsoft.AspNetCore.Components.RenderTree.ArrayBuilder`1.GrowBuffer(Int32 desiredCapacity)
+   at Microsoft.AspNetCore.Components.RenderTree.ArrayBuilder`1.Append(T[] source, Int32 startIndex, Int32 length)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.InsertNewFrame(DiffContext& diffContext, Int32 newFrameIndex)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.AppendDiffEntriesForRange(DiffContext& diffContext, Int32 oldStartIndex, Int32 oldEndIndexExcl, Int32 newStartIndex, Int32 newEndIndexExcl)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.ComputeDiff(Renderer renderer, RenderBatchBuilder batchBuilder, Int32 componentId, ArrayRange`1 oldTree, ArrayRange`1 newTree)
+   at Microsoft.AspNetCore.Components.Rendering.ComponentState.RenderIntoBatch(RenderBatchBuilder batchBuilder, RenderFragment renderFragment, Exception& renderFragmentException)
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.ProcessRenderQueue()
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/03/22 23:43:45.787 - [DEBUG]: Hosting starting 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/03/22 23:43:45.822 - [DEBUG]: Starting the discovery service. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/03/22 23:43:45.822 - [DEBUG]: Creating a new UDP client to be used for broadcasting the server information. This wil happen on UDP port 8472. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/03/22 23:43:45.834 - [DEBUG]: The discovery service has started. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[6 - .NET ThreadPool Worker] 
+      2022/03/22 23:43:45.834 - [TRACE]: Start sending message to controllers to be discovered. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/22 23:43:45.900 - [INFO]: Now listening on: http://localhost:5097 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/22 23:43:45.900 - [INFO]: Application started. Press Ctrl+C to shut down. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/22 23:43:45.900 - [INFO]: Hosting environment: Development 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/22 23:43:45.900 - [INFO]: Content root path: D:\Projects\LedController_net5\LedController.WebPortal.Web\ 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/03/22 23:43:45.900 - [DEBUG]: Hosting started 
+ 
+LedController.WebPortal.Web.Pages.Index[10 - .NET ThreadPool Worker] 
+      2022/03/22 23:43:48.909 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Pages.Index[9 - .NET ThreadPool Worker] 
+      2022/03/22 23:43:50.386 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Pages.ControllersPage[9 - .NET ThreadPool Worker] 
+      2022/03/22 23:43:52.720 - [INFO]: Opening controllers page. 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/03/22 23:44:40.420 - [DEBUG]: Hosting starting 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/03/22 23:44:40.458 - [DEBUG]: Starting the discovery service. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/03/22 23:44:40.458 - [DEBUG]: Creating a new UDP client to be used for broadcasting the server information. This wil happen on UDP port 8472. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/03/22 23:44:40.471 - [DEBUG]: The discovery service has started. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[9 - .NET ThreadPool Worker] 
+      2022/03/22 23:44:40.471 - [TRACE]: Start sending message to controllers to be discovered. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/22 23:44:40.540 - [INFO]: Now listening on: http://localhost:5097 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/22 23:44:40.540 - [INFO]: Application started. Press Ctrl+C to shut down. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/22 23:44:40.540 - [INFO]: Hosting environment: Development 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/22 23:44:40.540 - [INFO]: Content root path: D:\Projects\LedController_net5\LedController.WebPortal.Web\ 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/03/22 23:44:40.540 - [DEBUG]: Hosting started 
+ 
+LedController.WebPortal.Web.Pages.Index[9 - .NET ThreadPool Worker] 
+      2022/03/22 23:44:43.342 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Pages.Index[13 - .NET ThreadPool Worker] 
+      2022/03/22 23:44:45.047 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Pages.ControllersPage[16 - .NET ThreadPool Worker] 
+      2022/03/22 23:44:56.903 - [INFO]: Opening controllers page. 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/03/22 23:47:49.708 - [DEBUG]: Hosting starting 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/03/22 23:47:49.744 - [DEBUG]: Starting the discovery service. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/03/22 23:47:49.744 - [DEBUG]: Creating a new UDP client to be used for broadcasting the server information. This wil happen on UDP port 8472. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/03/22 23:47:49.761 - [DEBUG]: The discovery service has started. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[9 - .NET ThreadPool Worker] 
+      2022/03/22 23:47:49.761 - [TRACE]: Start sending message to controllers to be discovered. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/22 23:47:49.836 - [INFO]: Now listening on: http://localhost:5097 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/22 23:47:49.836 - [INFO]: Application started. Press Ctrl+C to shut down. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/22 23:47:49.836 - [INFO]: Hosting environment: Development 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/22 23:47:49.836 - [INFO]: Content root path: D:\Projects\LedController_net5\LedController.WebPortal.Web\ 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/03/22 23:47:49.836 - [DEBUG]: Hosting started 
+ 
+LedController.WebPortal.Web.Pages.Index[9 - .NET ThreadPool Worker] 
+      2022/03/22 23:47:52.471 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Pages.Index[6 - .NET ThreadPool Worker] 
+      2022/03/22 23:47:53.961 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Pages.ControllersPage[10 - .NET ThreadPool Worker] 
+      2022/03/22 23:47:54.677 - [INFO]: Opening controllers page. 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/03/22 23:49:13.646 - [DEBUG]: Hosting starting 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/03/22 23:49:13.678 - [DEBUG]: Starting the discovery service. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/03/22 23:49:13.678 - [DEBUG]: Creating a new UDP client to be used for broadcasting the server information. This wil happen on UDP port 8472. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/03/22 23:49:13.678 - [DEBUG]: The discovery service has started. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[9 - .NET ThreadPool Worker] 
+      2022/03/22 23:49:13.678 - [TRACE]: Start sending message to controllers to be discovered. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/22 23:49:13.766 - [INFO]: Now listening on: http://localhost:5097 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/22 23:49:13.766 - [INFO]: Application started. Press Ctrl+C to shut down. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/22 23:49:13.766 - [INFO]: Hosting environment: Development 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/22 23:49:13.766 - [INFO]: Content root path: D:\Projects\LedController_net5\LedController.WebPortal.Web\ 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/03/22 23:49:13.766 - [DEBUG]: Hosting started 
+ 
+LedController.WebPortal.Web.Pages.Index[6 - .NET ThreadPool Worker] 
+      2022/03/22 23:49:16.578 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Pages.Index[14 - .NET ThreadPool Worker] 
+      2022/03/22 23:49:18.353 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Pages.ControllersPage[13 - .NET ThreadPool Worker] 
+      2022/03/22 23:49:28.442 - [INFO]: Opening controllers page. 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/03/22 23:51:42.701 - [DEBUG]: Hosting starting 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/03/22 23:51:42.734 - [DEBUG]: Starting the discovery service. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/03/22 23:51:42.734 - [DEBUG]: Creating a new UDP client to be used for broadcasting the server information. This wil happen on UDP port 8472. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/03/22 23:51:42.745 - [DEBUG]: The discovery service has started. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[10 - .NET ThreadPool Worker] 
+      2022/03/22 23:51:42.745 - [TRACE]: Start sending message to controllers to be discovered. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/22 23:51:42.811 - [INFO]: Now listening on: http://localhost:5097 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/22 23:51:42.811 - [INFO]: Application started. Press Ctrl+C to shut down. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/22 23:51:42.811 - [INFO]: Hosting environment: Development 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/22 23:51:42.811 - [INFO]: Content root path: D:\Projects\LedController_net5\LedController.WebPortal.Web\ 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/03/22 23:51:42.811 - [DEBUG]: Hosting started 
+ 
+LedController.WebPortal.Web.Pages.Index[6 - .NET ThreadPool Worker] 
+      2022/03/22 23:51:45.366 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Pages.Index[14 - .NET ThreadPool Worker] 
+      2022/03/22 23:51:47.212 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Pages.ControllersPage[9 - .NET ThreadPool Worker] 
+      2022/03/22 23:51:47.970 - [INFO]: Opening controllers page. 
+ 
+LedController.WebPortal.Web.Dialogs.EditControllerDialog[15 - .NET ThreadPool Worker] 
+      2022/03/22 23:51:48.929 - [DEBUG]: Checking if we have a controller by the edit controller dialog. 
+ 
+LedController.WebPortal.Web.Dialogs.EditControllerDialog[15 - .NET ThreadPool Worker] 
+      2022/03/22 23:51:48.929 - [DEBUG]: Checking if we have a controller by the edit controller dialog. 
+ 
+LedController.WebPortal.Web.Dialogs.EditControllerDialog[9 - .NET ThreadPool Worker] 
+      2022/03/22 23:51:53.278 - [DEBUG]: Checking if we have a controller by the edit controller dialog. 
+ 
+LedController.WebPortal.Web.Dialogs.EditControllerDialog[9 - .NET ThreadPool Worker] 
+      2022/03/22 23:51:53.278 - [DEBUG]: Checking if we have a controller by the edit controller dialog. 
+ 
+LedController.WebPortal.Web.Dialogs.EditControllerDialog[9 - .NET ThreadPool Worker] 
+      2022/03/22 23:51:55.781 - [DEBUG]: Checking if we have a controller by the edit controller dialog. 
+ 
+LedController.WebPortal.Web.Dialogs.EditControllerDialog[9 - .NET ThreadPool Worker] 
+      2022/03/22 23:51:55.781 - [DEBUG]: Checking if we have a controller by the edit controller dialog. 
+ 
+LedController.WebPortal.Web.Dialogs.EditControllerDialog[13 - .NET ThreadPool Worker] 
+      2022/03/22 23:51:57.346 - [DEBUG]: Checking if we have a controller by the edit controller dialog. 
+ 
+LedController.WebPortal.Web.Dialogs.EditControllerDialog[13 - .NET ThreadPool Worker] 
+      2022/03/22 23:51:57.346 - [DEBUG]: Checking if we have a controller by the edit controller dialog. 
+ 
+LedController.WebPortal.Web.Dialogs.EditControllerDialog[6 - .NET ThreadPool Worker] 
+      2022/03/22 23:51:59.511 - [DEBUG]: Checking if we have a controller by the edit controller dialog. 
+ 
+LedController.WebPortal.Web.Dialogs.EditControllerDialog[6 - .NET ThreadPool Worker] 
+      2022/03/22 23:51:59.511 - [DEBUG]: Checking if we have a controller by the edit controller dialog. 
+ 
+LedController.WebPortal.Web.Dialogs.EditControllerDialog[6 - .NET ThreadPool Worker] 
+      2022/03/22 23:52:01.143 - [DEBUG]: Checking if we have a controller by the edit controller dialog. 
+ 
+LedController.WebPortal.Web.Dialogs.EditControllerDialog[6 - .NET ThreadPool Worker] 
+      2022/03/22 23:52:01.143 - [DEBUG]: Checking if we have a controller by the edit controller dialog. 
+ 
+LedController.WebPortal.Web.Dialogs.EditControllerDialog[10 - .NET ThreadPool Worker] 
+      2022/03/22 23:52:02.420 - [DEBUG]: Checking if we have a controller by the edit controller dialog. 
+ 
+LedController.WebPortal.Web.Dialogs.EditControllerDialog[10 - .NET ThreadPool Worker] 
+      2022/03/22 23:52:02.420 - [DEBUG]: Checking if we have a controller by the edit controller dialog. 
+ 
+LedController.WebPortal.Web.Pages.ControllersPage[6 - .NET ThreadPool Worker] 
+      2022/03/22 23:52:59.963 - [INFO]: Opening controllers page. 
+ 
+LedController.WebPortal.Web.Pages.ControllersPage[29 - .NET ThreadPool Worker] 
+      2022/03/22 23:53:00.965 - [INFO]: Opening controllers page. 
+ 
+LedController.WebPortal.Web.Dialogs.EditControllerDialog[10 - .NET ThreadPool Worker] 
+      2022/03/22 23:53:02.248 - [DEBUG]: Checking if we have a controller by the edit controller dialog. 
+ 
+LedController.WebPortal.Web.Dialogs.EditControllerDialog[10 - .NET ThreadPool Worker] 
+      2022/03/22 23:53:02.248 - [DEBUG]: Checking if we have a controller by the edit controller dialog. 
+ 
+LedController.WebPortal.Web.Dialogs.EditControllerDialog[9 - .NET ThreadPool Worker] 
+      2022/03/22 23:53:06.109 - [INFO]: Saving new controller Controller 1016953238. 
+ 
+LedController.WebPortal.Core.Managers.ControllerManager[9 - .NET ThreadPool Worker] 
+      2022/03/22 23:53:06.109 - [INFO]: Adding new controller. 
+ 
+LedController.WebPortal.Web.Pages.Index[6 - .NET ThreadPool Worker] 
+      2022/03/22 23:53:10.818 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Pages.ControllersPage[10 - .NET ThreadPool Worker] 
+      2022/03/22 23:53:11.630 - [INFO]: Opening controllers page. 
+ 
+LedController.WebPortal.Web.Pages.Index[6 - .NET ThreadPool Worker] 
+      2022/03/22 23:53:14.064 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Pages.ControllersPage[15 - .NET ThreadPool Worker] 
+      2022/03/22 23:53:14.753 - [INFO]: Opening controllers page. 
+ 
+LedController.WebPortal.Web.Pages.SpiBusesPage[9 - .NET ThreadPool Worker] 
+      2022/03/22 23:55:12.916 - [INFO]: Opening the spi buses page, and loading the spi buses from the application. 
+ 
+LedController.WebPortal.Web.Pages.SpiBusesPage[58 - .NET ThreadPool Worker] 
+      2022/03/22 23:55:13.910 - [INFO]: Opening the edit spi bus dialog. None Selected. 
+ 
+LedController.WebPortal.Web.Dialogs.EditSpiBusDialog[46 - .NET ThreadPool Worker] 
+      2022/03/22 23:55:40.509 - [INFO]: Adding new spi bus. 
+ 
+Microsoft.AspNetCore.Components.Server.Circuits.RemoteRenderer[46 - .NET ThreadPool Worker] 
+      2022/03/22 23:55:40.651 - [WARN]: Unhandled exception rendering component: The instance of entity type 'ControllerEntity' cannot be tracked because another instance with the same key value for {'Id'} is already being tracked. When attaching existing entities, ensure that only one entity instance with a given key value is attached. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see the conflicting key values. 
+ System.InvalidOperationException: The instance of entity type 'ControllerEntity' cannot be tracked because another instance with the same key value for {'Id'} is already being tracked. When attaching existing entities, ensure that only one entity instance with a given key value is attached. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see the conflicting key values.
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.ThrowIdentityConflict(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.Add(TKey key, InternalEntityEntry entry, Boolean updateDuplicate)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.Add(TKey key, InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.Add(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.StartTracking(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetEntityState(EntityState oldState, EntityState newState, Boolean acceptChanges, Boolean modifyProperties)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetEntityState(EntityState entityState, Boolean acceptChanges, Boolean modifyProperties, Nullable`1 forceStateWhenUnknownKey)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityGraphAttacher.PaintAction(EntityEntryGraphNode`1 node)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityEntryGraphIterator.TraverseGraph[TState](EntityEntryGraphNode`1 node, Func`2 handleNode)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityGraphAttacher.AttachGraph(InternalEntityEntry rootEntry, EntityState targetState, EntityState storeGeneratedWithKeySetTargetState, Boolean forceStateWhenUnknownKey)
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.SetEntityState(InternalEntityEntry entry, EntityState entityState)
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.Update(TEntity entity)
+   at LedController.WebPortal.Persistence.Sqlite.Stores.StoreBase`2.Update(TModel item) in D:\Projects\LedController_net5\LedController.Portal.Persistance.Sqlite\Stores\StoreBase.cs:line 57
+   at LedController.WebPortal.Core.Managers.ManagerBase`2.Update(TModel item, CancellationToken token) in D:\Projects\LedController_net5\LedController.Portal.Core\Managers\ManagerBase.cs:line 60
+   at LedController.WebPortal.Web.Dialogs.EditSpiBusDialog.SubmitAsync() in D:\Projects\LedController_net5\LedController.WebPortal.Web\Dialogs\EditSpiBusDialog.razor:line 112
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at MudBlazor.MudBaseButton.OnClickHandler(MouseEventArgs ev)
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.GetErrorHandledTask(Task taskToHandle, ComponentState owningComponentState)
+Microsoft.AspNetCore.Components.Server.Circuits.CircuitHost[46 - .NET ThreadPool Worker] 
+      2022/03/22 23:55:40.700 - [ERROR]: Unhandled exception in circuit 'kF4PHBXS28uWnEvd6vVHV41146-4OMdDyh3Bnrc9zV0'. 
+ System.InvalidOperationException: The instance of entity type 'ControllerEntity' cannot be tracked because another instance with the same key value for {'Id'} is already being tracked. When attaching existing entities, ensure that only one entity instance with a given key value is attached. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see the conflicting key values.
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.ThrowIdentityConflict(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.Add(TKey key, InternalEntityEntry entry, Boolean updateDuplicate)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.Add(TKey key, InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.Add(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.StartTracking(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetEntityState(EntityState oldState, EntityState newState, Boolean acceptChanges, Boolean modifyProperties)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetEntityState(EntityState entityState, Boolean acceptChanges, Boolean modifyProperties, Nullable`1 forceStateWhenUnknownKey)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityGraphAttacher.PaintAction(EntityEntryGraphNode`1 node)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityEntryGraphIterator.TraverseGraph[TState](EntityEntryGraphNode`1 node, Func`2 handleNode)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityGraphAttacher.AttachGraph(InternalEntityEntry rootEntry, EntityState targetState, EntityState storeGeneratedWithKeySetTargetState, Boolean forceStateWhenUnknownKey)
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.SetEntityState(InternalEntityEntry entry, EntityState entityState)
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.Update(TEntity entity)
+   at LedController.WebPortal.Persistence.Sqlite.Stores.StoreBase`2.Update(TModel item) in D:\Projects\LedController_net5\LedController.Portal.Persistance.Sqlite\Stores\StoreBase.cs:line 57
+   at LedController.WebPortal.Core.Managers.ManagerBase`2.Update(TModel item, CancellationToken token) in D:\Projects\LedController_net5\LedController.Portal.Core\Managers\ManagerBase.cs:line 60
+   at LedController.WebPortal.Web.Dialogs.EditSpiBusDialog.SubmitAsync() in D:\Projects\LedController_net5\LedController.WebPortal.Web\Dialogs\EditSpiBusDialog.razor:line 112
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at MudBlazor.MudBaseButton.OnClickHandler(MouseEventArgs ev)
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.GetErrorHandledTask(Task taskToHandle, ComponentState owningComponentState)

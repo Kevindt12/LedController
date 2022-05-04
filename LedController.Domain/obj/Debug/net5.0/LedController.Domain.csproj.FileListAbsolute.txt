@@ -1,0 +1,12 @@
+D:\Projects\LedController_net5\LedController.Domain\bin\Debug\net5.0\LedController.Domain.deps.json
+D:\Projects\LedController_net5\LedController.Domain\bin\Debug\net5.0\LedController.Domain.dll
+D:\Projects\LedController_net5\LedController.Domain\bin\Debug\net5.0\ref\LedController.Domain.dll
+D:\Projects\LedController_net5\LedController.Domain\bin\Debug\net5.0\LedController.Domain.pdb
+D:\Projects\LedController_net5\LedController.Domain\obj\Debug\net5.0\LedController.Domain.csproj.AssemblyReference.cache
+D:\Projects\LedController_net5\LedController.Domain\obj\Debug\net5.0\LedController.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\LedController_net5\LedController.Domain\obj\Debug\net5.0\LedController.Domain.AssemblyInfoInputs.cache
+D:\Projects\LedController_net5\LedController.Domain\obj\Debug\net5.0\LedController.Domain.AssemblyInfo.cs
+D:\Projects\LedController_net5\LedController.Domain\obj\Debug\net5.0\LedController.Domain.csproj.CoreCompileInputs.cache
+D:\Projects\LedController_net5\LedController.Domain\obj\Debug\net5.0\LedController.Domain.dll
+D:\Projects\LedController_net5\LedController.Domain\obj\Debug\net5.0\ref\LedController.Domain.dll
+D:\Projects\LedController_net5\LedController.Domain\obj\Debug\net5.0\LedController.Domain.pdb

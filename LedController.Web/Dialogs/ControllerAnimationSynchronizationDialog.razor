@@ -1,0 +1,98 @@
+﻿@using LedController.Domain.Models
+@using LedController.WebPortal.Domain.Managers
+@using LedController.WebPortal.Domain.Services
+@using MudBlazor
+@using Animation = LedController.Domain.Models.Animation
+@using System.Reflection.Metadata.Ecma335
+
+@inject IAnimationManger _animationManager
+@inject IControllerService _controllerService
+
+
+<h3>Animation Synchronization</h3>
+
+
+<MudTable Items="@Animations" FixedHeader="@true">
+    <HeaderContent>
+        <MudTh>Name</MudTh>
+        <MudTh>Action</MudTh>
+    </HeaderContent>
+    <RowTemplate>
+        <MudTd DataLabel="Name"></MudTd>
+        <MudTd DataLabel="Action">
+            @if (IsAnimationSynchronized(context))
+            {
+	            <MudButton Disabled="true" Color="Color.Dark">No Action Required</MudButton>
+            }
+            else
+            {
+	            <MudButton Disabled="@_processing" @onclick="async () => await SynchronizeAnimation(context)" Variant="Variant.Filled" Color="Color.Primary">
+                    @if (_processing)
+                    {
+	                    <MudProgressCircular Class="ms-n1" Size="Size.Small" Indeterminate="true"/>
+	                    <MudText Class="ms-2">Processing</MudText>
+                    }
+                    else
+                    {
+	                    <MudText>Synchronize</MudText>
+                    }
+                </MudButton>
+            }
+        </MudTd>
+    </RowTemplate>
+</MudTable>
+
+
+
+@code {
+
+
+	public IEnumerable<Animation> Animations { get; set; } = new List<Animation>();
+
+	private bool _processing = false;
+
+
+    [Parameter]
+	public Controller Controller { get; set; }
+
+
+	/// <summary>
+	/// Method invoked when the component is ready to start, having received its
+	/// initial parameters from its parent in the render tree.
+	/// Override this method if you will perform an asynchronous operation and
+	/// want the component to refresh when that operation is completed.
+	/// </summary>
+	/// <returns>A <see cref="T:System.Threading.Tasks.Task" /> representing any asynchronous operation.</returns>
+	protected override async  Task OnInitializedAsync()
+	{
+
+
+
+
+
+		await base.OnInitializedAsync();
+	}
+
+
+	protected virtual bool IsAnimationSynchronized(Animation animation)
+	{
+		IEnumerable<Animation> unSyncedAnimations = _controllerService.GetUnSyncedAnimations(Controller);
+
+
+		return unSyncedAnimations.All(x => x != animation);
+	}
+
+
+	private async Task SynchronizeAnimation(Animation context)
+	{
+		_processing = true;
+
+		await _controllerService.SynchronizeAnimation(Controller, context);
+
+		_processing = false;
+
+		StateHasChanged();
+	}
+
+
+}

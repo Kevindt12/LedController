@@ -1,0 +1,25 @@
+﻿@using MudBlazor
+
+<MudPaper Class="d-flex align-self-center justify-content-center pa-4" Style="Width:600px;">
+    <MudContainer>
+        <MudText Class="pa-4" Typo="Typo.h2">Empty</MudText>
+        <MudDivider />
+        <MudText Class="pa-4" Typo="Typo.h5">There are no items in @PageName</MudText>
+        <MudText Class="pa-4" Typo="Typo.body1">Please click on the add button to add a new item.</MudText>
+        <MudButton @onclick="AddItemAction" ButtonType="ButtonType.Button" Style="Width:80px;" Class="pa-3 ma-4" Variant="Variant.Filled" Color="Color.Primary">Add</MudButton>
+    </MudContainer>
+</MudPaper>
+
+@code {
+
+
+
+    [Parameter]
+    public string PageName { get; set; } = string.Empty;
+
+    [Parameter]
+
+    public EventCallback<MouseEventArgs> AddItemAction { get; set; }
+
+
+}

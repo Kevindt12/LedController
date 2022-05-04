@@ -1,0 +1,154 @@
+﻿@page "/animations"
+@using System
+@using LedController.Shared.Extensions
+@using System.Linq
+@using LedController.Domain.Models
+@using LedController.WebPortal.Domain.Managers
+@using LedController.WebPortal.Persistence.Exceptions
+@using LedController.WebPortal.Web.Dialogs
+@using LedController.WebPortal.Web.Components
+@using MudBlazor
+@using Animation = LedController.Domain.Models.Animation
+
+@inject ILogger<AnimationsPage> _logger
+@inject IAnimationManager _animationManager
+@inject ISnackbar _snackbar
+@inject IEffectManager _effectManager
+@inject IDialogService _dialogService
+@inject NavigationManager _navigationManager
+
+@if (Animations.Any())
+{
+	<MudGrid>
+
+        @* Action buttons. *@
+        <MudItem Class="pa-4" xs="11" >
+            <MudButtonGroup Color="Color.Primary"
+                            Variant="Variant.Filled" >
+
+                <MudButton Color="Color.Success"
+                           @onclick="async () => await ShowAnimationFormDialog()" >New</MudButton>
+
+                <MudMenu Variant="Variant.Filled"
+                         Color="Color.Success"
+                         Icon="@Icons.Material.Filled.ArrowDropDown" >
+                    <MudMenuItem @onclick="async () => await ShowAnimationFormDialog(_selectedAnimation)" >CreateAnimationEffectAsync Copy</MudMenuItem>
+                </MudMenu>
+
+            </MudButtonGroup>
+        </MudItem>
+
+        <MudItem Class="pa-4" xs="12" >
+
+            @* The animations. Tab view. *@
+            <MudTabs Outlined="true"
+                     Position="Position.Left"
+                     Rounded="true"
+                     Border="true"
+                     Class="d-flex" >
+					 
+				@for(int i = 0; i < Animations.Count; i++) 
+                {
+	                Animation animation = Animations[i];
+
+					@* Each animation tab*@
+	                <MudTabPanel Class="pa-4"
+                                 Text="@animation.Name"
+                                 OnClick="() => ChangeSelectedAnimation(animation)" >
+                        <AnimationEditor Animation="animation" />
+                    </MudTabPanel>
+                }
+            </MudTabs>
+
+        </MudItem>
+
+
+    </MudGrid>
+}
+else
+{
+	<EmptyPage PageName="Animations" AddItemAction="async () => await ShowAnimationFormDialog()"/>
+}
+
+
+@code {
+
+
+	/// <summary>
+	/// The selected animation.
+	/// </summary>
+	private Animation _selectedAnimation = default!;
+
+
+	/// <summary>
+	/// The animations in the applications.
+	/// </summary>
+	protected IList<Animation> Animations { get; set; } = new List<Animation>();
+
+
+	/// <summary>
+	/// Method invoked when the component is ready to start, having received its
+	/// initial parametersBase from its parent in the render tree.
+	/// Override this method if you will perform an asynchronous operation and
+	/// want the component to refresh when that operation is completed.
+	/// </summary>
+	/// <returns> A <see cref="T:System.Threading.Tasks.Task" /> representing any asynchronous operation. </returns>
+	protected override async Task OnInitializedAsync()
+	{
+		_logger.LogInformation("Opening the animations page.");
+
+		Animations = (await _animationManager.GetAsync().AsEnumerableAsync()).ToList();
+		_selectedAnimation = Animations.FirstOrDefault() ?? default!;
+
+		await base.OnInitializedAsync();
+	}
+
+	
+
+
+	/// <summary>
+	/// Changing the selected animation.
+	/// </summary>
+	/// <param name="animation"> The animation that we have selected. </param>
+	private void ChangeSelectedAnimation(Animation animation)
+	{
+		_selectedAnimation = animation;
+	}
+
+
+	/// <summary>
+	/// Opens a dialog to edit the spi bus that is selected or create a new one.
+	/// </summary>
+	/// <param name="animation"> </param>
+	/// <returns> </returns>
+	protected virtual async Task ShowAnimationFormDialog(Animation? animation = null)
+	{
+		_logger.LogInformation($"Opening animation form dialog. {animation?.Name ?? "None Selected"}.");
+
+		DialogParameters parameters = new DialogParameters
+		{
+			{
+				"Animation", animation
+			}
+		};
+
+		DialogOptions options = new DialogOptions
+		{
+			CloseButton = true,
+			MaxWidth = MaxWidth.Medium,
+			FullWidth = true
+		};
+
+	// Opening the dialog and waiting for it to close.
+		DialogResult result = await _dialogService.Show<AnimationFormDialog>(animation is null ? "New" : "Copy", parameters, options).Result;
+
+		if (!result.Cancelled)
+		{
+			_logger.LogInformation("Closing animation form. Reloading animations page.");
+			StateHasChanged();
+			_navigationManager.NavigateTo("Animations", true);
+		}
+	}
+	
+
+}

@@ -1,0 +1,5 @@
+D:\Projects\LedController\LedController.Core\bin\Debug\net5.0\LedController.Models.dll
+D:\Projects\LedController\LedController.Core\obj\Debug\net5.0\LedController.Core.csprojAssemblyReference.cache
+D:\Projects\LedController\LedController.Core\obj\Debug\net5.0\LedController.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\LedController\LedController.Core\obj\Debug\net5.0\LedController.Core.AssemblyInfoInputs.cache
+D:\Projects\LedController\LedController.Core\obj\Debug\net5.0\LedController.Core.AssemblyInfo.cs

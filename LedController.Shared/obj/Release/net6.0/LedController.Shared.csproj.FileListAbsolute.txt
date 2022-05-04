@@ -1,0 +1,12 @@
+D:\Projects\LedController_net5\LedController.Shared\bin\Release\net6.0\LedController.Shared.deps.json
+D:\Projects\LedController_net5\LedController.Shared\bin\Release\net6.0\LedController.Shared.dll
+D:\Projects\LedController_net5\LedController.Shared\bin\Release\net6.0\LedController.Shared.pdb
+D:\Projects\LedController_net5\LedController.Shared\obj\Release\net6.0\LedController.Shared.csproj.AssemblyReference.cache
+D:\Projects\LedController_net5\LedController.Shared\obj\Release\net6.0\LedController.Shared.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\LedController_net5\LedController.Shared\obj\Release\net6.0\LedController.Shared.AssemblyInfoInputs.cache
+D:\Projects\LedController_net5\LedController.Shared\obj\Release\net6.0\LedController.Shared.AssemblyInfo.cs
+D:\Projects\LedController_net5\LedController.Shared\obj\Release\net6.0\LedController.Shared.csproj.CoreCompileInputs.cache
+D:\Projects\LedController_net5\LedController.Shared\obj\Release\net6.0\LedController.Shared.dll
+D:\Projects\LedController_net5\LedController.Shared\obj\Release\net6.0\refint\LedController.Shared.dll
+D:\Projects\LedController_net5\LedController.Shared\obj\Release\net6.0\LedController.Shared.pdb
+D:\Projects\LedController_net5\LedController.Shared\obj\Release\net6.0\ref\LedController.Shared.dll

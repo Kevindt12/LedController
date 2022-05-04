@@ -1,0 +1,40 @@
+﻿@using MudBlazor
+@inherits LayoutComponentBase
+
+
+<MudThemeProvider/>
+<MudDialogProvider
+    FullWidth="true"/>
+<MudSnackbarProvider/>
+
+
+<PageTitle>LedController.WebPortal.Web</PageTitle>
+
+<div class="page">
+@*    <MudAppBar Elevation="1">
+        <MudIconButton Icon="@Icons.Material.Filled.Menu" Color="Color.Inherit" Edge="Edge.Start"/>
+        <MudSpacer/>
+    </MudAppBar>*@
+
+    <NavMenu />
+    
+
+    <main >
+        <div class="top-row px-4">
+            <a href="https://docs.microsoft.com/aspnet/" target="_blank">Help</a>
+        </div>
+
+        <article class="content px-4" style="border-right: 200px; height: 100%">
+            @Body
+        </article>
+    </main>
+</div>
+
+
+@code{
+
+    
+
+
+
+}

@@ -1,0 +1,818 @@
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/03/23 18:38:14.924 - [DEBUG]: Hosting starting 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/03/23 18:38:14.974 - [DEBUG]: Starting the discovery service. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/03/23 18:38:14.974 - [DEBUG]: Creating a new UDP client to be used for broadcasting the server information. This wil happen on UDP port 8472. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/03/23 18:38:14.974 - [DEBUG]: The discovery service has started. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[9 - .NET ThreadPool Worker] 
+      2022/03/23 18:38:14.974 - [TRACE]: Start sending message to controllers to be discovered. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/23 18:38:15.079 - [INFO]: Now listening on: http://localhost:5097 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/23 18:38:15.084 - [INFO]: Application started. Press Ctrl+C to shut down. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/23 18:38:15.084 - [INFO]: Hosting environment: Development 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/23 18:38:15.084 - [INFO]: Content root path: D:\Projects\LedController_net5\LedController.WebPortal.Web\ 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/03/23 18:38:15.084 - [DEBUG]: Hosting started 
+ 
+LedController.WebPortal.Web.Pages.Index[9 - .NET ThreadPool Worker] 
+      2022/03/23 18:38:18.854 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Pages.Index[6 - .NET ThreadPool Worker] 
+      2022/03/23 18:38:20.901 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Pages.ControllersPage[6 - .NET ThreadPool Worker] 
+      2022/03/23 18:38:38.777 - [INFO]: Opening controllers page. 
+ 
+LedController.WebPortal.Web.Pages.LedstripsPage[6 - .NET ThreadPool Worker] 
+      2022/03/23 18:38:44.100 - [INFO]: Loading ledstrips page. 
+ 
+LedController.WebPortal.Web.Pages.SpiBusesPage[9 - .NET ThreadPool Worker] 
+      2022/03/23 18:38:45.047 - [INFO]: Opening the spi buses page, and loading the spi buses from the application. 
+ 
+LedController.WebPortal.Web.Pages.LedstripsPage[9 - .NET ThreadPool Worker] 
+      2022/03/23 18:38:46.529 - [INFO]: Loading ledstrips page. 
+ 
+LedController.WebPortal.Web.Pages.LedstripsPage[6 - .NET ThreadPool Worker] 
+      2022/03/23 18:38:47.527 - [INFO]: Opening the edit ledstrip dialog. None Selected 
+ 
+LedController.WebPortal.Web.Dialogs.EditLedstripDialog[6 - .NET ThreadPool Worker] 
+      2022/03/23 18:38:47.542 - [INFO]: Opening edit ledstrip dialog. Editing a existing ledstrip. 
+ 
+LedController.WebPortal.Web.Dialogs.EditLedstripDialog[14 - .NET ThreadPool Worker] 
+      2022/03/23 18:39:01.912 - [INFO]: Saved a new ledstrip. 
+ 
+LedController.WebPortal.Web.Pages.LedstripsPage[14 - .NET ThreadPool Worker] 
+      2022/03/23 18:39:01.912 - [DEBUG]: Dialog saved item. Reloading ledstrips page. 
+ 
+LedController.WebPortal.Web.Pages.SpiBusesPage[6 - .NET ThreadPool Worker] 
+      2022/03/23 18:39:40.595 - [INFO]: Opening the spi buses page, and loading the spi buses from the application. 
+ 
+LedController.WebPortal.Web.Pages.LedstripsPage[29 - .NET ThreadPool Worker] 
+      2022/03/23 18:39:41.185 - [INFO]: Loading ledstrips page. 
+ 
+LedController.WebPortal.Web.Pages.LedstripsPage[29 - .NET ThreadPool Worker] 
+      2022/03/23 18:39:42.661 - [INFO]: Loading ledstrips page. 
+ 
+LedController.WebPortal.Web.Pages.LedstripsPage[10 - .NET ThreadPool Worker] 
+      2022/03/23 18:39:43.451 - [INFO]: Loading ledstrips page. 
+ 
+LedController.WebPortal.Web.Pages.LedstripsPage[13 - .NET ThreadPool Worker] 
+      2022/03/23 18:39:45.177 - [INFO]: Loading ledstrips page. 
+ 
+LedController.WebPortal.Web.Pages.LedstripsPage[9 - .NET ThreadPool Worker] 
+      2022/03/23 18:39:45.821 - [INFO]: Loading ledstrips page. 
+ 
+LedController.WebPortal.Web.Pages.LedstripsPage[9 - .NET ThreadPool Worker] 
+      2022/03/23 18:39:48.363 - [INFO]: Loading ledstrips page. 
+ 
+LedController.WebPortal.Web.Pages.LedstripsPage[6 - .NET ThreadPool Worker] 
+      2022/03/23 18:39:48.961 - [INFO]: Loading ledstrips page. 
+ 
+LedController.WebPortal.Web.Pages.LedstripsPage[13 - .NET ThreadPool Worker] 
+      2022/03/23 18:39:51.390 - [INFO]: Opening the edit ledstrip dialog. None Selected 
+ 
+LedController.WebPortal.Web.Dialogs.EditLedstripDialog[13 - .NET ThreadPool Worker] 
+      2022/03/23 18:39:51.390 - [INFO]: Opening edit ledstrip dialog. Editing a existing ledstrip. 
+ 
+LedController.WebPortal.Web.Dialogs.EditLedstripDialog[9 - .NET ThreadPool Worker] 
+      2022/03/23 18:39:58.966 - [INFO]: Saved a new ledstrip. 
+ 
+LedController.WebPortal.Web.Pages.LedstripsPage[9 - .NET ThreadPool Worker] 
+      2022/03/23 18:39:58.966 - [DEBUG]: Dialog saved item. Reloading ledstrips page. 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/03/23 18:45:07.895 - [DEBUG]: Hosting starting 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/03/23 18:45:07.931 - [DEBUG]: Starting the discovery service. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/03/23 18:45:07.931 - [DEBUG]: Creating a new UDP client to be used for broadcasting the server information. This wil happen on UDP port 8472. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/03/23 18:45:07.931 - [DEBUG]: The discovery service has started. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[14 - .NET ThreadPool Worker] 
+      2022/03/23 18:45:07.931 - [TRACE]: Start sending message to controllers to be discovered. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/23 18:45:08.011 - [INFO]: Now listening on: http://localhost:5097 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/23 18:45:08.011 - [INFO]: Application started. Press Ctrl+C to shut down. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/23 18:45:08.011 - [INFO]: Hosting environment: Development 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/23 18:45:08.011 - [INFO]: Content root path: D:\Projects\LedController_net5\LedController.WebPortal.Web\ 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/03/23 18:45:08.011 - [DEBUG]: Hosting started 
+ 
+LedController.WebPortal.Web.Pages.Index[6 - .NET ThreadPool Worker] 
+      2022/03/23 18:45:10.256 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Pages.Index[9 - .NET ThreadPool Worker] 
+      2022/03/23 18:45:11.722 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Pages.LedstripsPage[9 - .NET ThreadPool Worker] 
+      2022/03/23 18:45:13.550 - [INFO]: Loading ledstrips page. 
+ 
+LedController.WebPortal.Web.Pages.LedstripsPage[9 - .NET ThreadPool Worker] 
+      2022/03/23 18:45:14.631 - [INFO]: Opening the edit ledstrip dialog. None Selected 
+ 
+LedController.WebPortal.Web.Dialogs.EditLedstripDialog[9 - .NET ThreadPool Worker] 
+      2022/03/23 18:45:14.631 - [INFO]: Opening edit ledstrip dialog. Editing a existing ledstrip. 
+ 
+LedController.WebPortal.Web.Dialogs.EditLedstripDialog[6 - .NET ThreadPool Worker] 
+      2022/03/23 18:45:25.220 - [INFO]: Saved a new ledstrip. 
+ 
+LedController.WebPortal.Web.Pages.LedstripsPage[6 - .NET ThreadPool Worker] 
+      2022/03/23 18:45:25.220 - [DEBUG]: Dialog saved item. Reloading ledstrips page. 
+ 
+LedController.WebPortal.Web.Pages.ControllersPage[12 - .NET ThreadPool Worker] 
+      2022/03/23 18:45:28.992 - [INFO]: Opening controllers page. 
+ 
+LedController.WebPortal.Web.Pages.LedstripsPage[15 - .NET ThreadPool Worker] 
+      2022/03/23 18:45:29.635 - [INFO]: Loading ledstrips page. 
+ 
+LedController.WebPortal.Web.Pages.SpiBusesPage[6 - .NET ThreadPool Worker] 
+      2022/03/23 18:45:31.076 - [INFO]: Opening the spi buses page, and loading the spi buses from the application. 
+ 
+LedController.WebPortal.Web.Pages.LedstripsPage[13 - .NET ThreadPool Worker] 
+      2022/03/23 18:45:31.887 - [INFO]: Loading ledstrips page. 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/03/23 18:46:52.106 - [DEBUG]: Hosting starting 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/03/23 18:46:52.139 - [DEBUG]: Starting the discovery service. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/03/23 18:46:52.139 - [DEBUG]: Creating a new UDP client to be used for broadcasting the server information. This wil happen on UDP port 8472. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/03/23 18:46:52.151 - [DEBUG]: The discovery service has started. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[13 - .NET ThreadPool Worker] 
+      2022/03/23 18:46:52.151 - [TRACE]: Start sending message to controllers to be discovered. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/23 18:46:52.216 - [INFO]: Now listening on: http://localhost:5097 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/23 18:46:52.216 - [INFO]: Application started. Press Ctrl+C to shut down. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/23 18:46:52.216 - [INFO]: Hosting environment: Development 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/23 18:46:52.216 - [INFO]: Content root path: D:\Projects\LedController_net5\LedController.WebPortal.Web\ 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/03/23 18:46:52.216 - [DEBUG]: Hosting started 
+ 
+LedController.WebPortal.Web.Pages.Index[6 - .NET ThreadPool Worker] 
+      2022/03/23 18:46:54.776 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Pages.Index[6 - .NET ThreadPool Worker] 
+      2022/03/23 18:46:56.334 - [INFO]: Opening the index page. 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/03/23 18:49:19.833 - [DEBUG]: Hosting starting 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/03/23 18:49:19.877 - [DEBUG]: Starting the discovery service. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/03/23 18:49:19.877 - [DEBUG]: Creating a new UDP client to be used for broadcasting the server information. This wil happen on UDP port 8472. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/03/23 18:49:19.895 - [DEBUG]: The discovery service has started. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[9 - .NET ThreadPool Worker] 
+      2022/03/23 18:49:19.895 - [TRACE]: Start sending message to controllers to be discovered. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/23 18:49:19.985 - [INFO]: Now listening on: http://localhost:5097 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/23 18:49:19.985 - [INFO]: Application started. Press Ctrl+C to shut down. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/23 18:49:19.989 - [INFO]: Hosting environment: Development 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/23 18:49:19.989 - [INFO]: Content root path: D:\Projects\LedController_net5\LedController.WebPortal.Web\ 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/03/23 18:49:19.989 - [DEBUG]: Hosting started 
+ 
+LedController.WebPortal.Web.Pages.Index[14 - .NET ThreadPool Worker] 
+      2022/03/23 18:49:22.033 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Pages.Index[6 - .NET ThreadPool Worker] 
+      2022/03/23 18:49:23.527 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Pages.ControllersPage[15 - .NET ThreadPool Worker] 
+      2022/03/23 18:49:30.201 - [INFO]: Opening controllers page. 
+ 
+LedController.WebPortal.Web.Pages.LedstripsPage[9 - .NET ThreadPool Worker] 
+      2022/03/23 18:49:32.933 - [INFO]: Loading ledstrips page. 
+ 
+LedController.WebPortal.Web.Pages.LedstripsPage[6 - .NET ThreadPool Worker] 
+      2022/03/23 18:49:34.020 - [INFO]: Opening the edit ledstrip dialog. None Selected 
+ 
+LedController.WebPortal.Web.Dialogs.EditLedstripDialog[6 - .NET ThreadPool Worker] 
+      2022/03/23 18:49:34.035 - [INFO]: Opening edit ledstrip dialog. Editing a existing ledstrip. 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/03/23 18:56:32.061 - [DEBUG]: Hosting starting 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/03/23 18:56:32.102 - [DEBUG]: Starting the discovery service. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/03/23 18:56:32.102 - [DEBUG]: Creating a new UDP client to be used for broadcasting the server information. This wil happen on UDP port 8472. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/03/23 18:56:32.117 - [DEBUG]: The discovery service has started. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[9 - .NET ThreadPool Worker] 
+      2022/03/23 18:56:32.117 - [TRACE]: Start sending message to controllers to be discovered. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/23 18:56:32.200 - [INFO]: Now listening on: http://localhost:5097 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/23 18:56:32.200 - [INFO]: Application started. Press Ctrl+C to shut down. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/23 18:56:32.200 - [INFO]: Hosting environment: Development 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/23 18:56:32.200 - [INFO]: Content root path: D:\Projects\LedController_net5\LedController.WebPortal.Web\ 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/03/23 18:56:32.200 - [DEBUG]: Hosting started 
+ 
+LedController.WebPortal.Web.Pages.Index[10 - .NET ThreadPool Worker] 
+      2022/03/23 18:56:35.662 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Pages.Index[9 - .NET ThreadPool Worker] 
+      2022/03/23 18:56:37.272 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Pages.ControllersPage[6 - .NET ThreadPool Worker] 
+      2022/03/23 18:56:39.394 - [INFO]: Opening controllers page. 
+ 
+LedController.WebPortal.Web.Pages.LedstripsPage[6 - .NET ThreadPool Worker] 
+      2022/03/23 18:56:40.013 - [INFO]: Loading ledstrips page. 
+ 
+LedController.WebPortal.Web.Pages.LedstripsPage[10 - .NET ThreadPool Worker] 
+      2022/03/23 18:56:41.033 - [INFO]: Opening the edit ledstrip dialog. None Selected 
+ 
+LedController.WebPortal.Web.Dialogs.EditLedstripDialog[10 - .NET ThreadPool Worker] 
+      2022/03/23 18:56:41.049 - [INFO]: Opening edit ledstrip dialog. Editing a existing ledstrip. 
+ 
+LedController.WebPortal.Web.Dialogs.EditLedstripDialog[14 - .NET ThreadPool Worker] 
+      2022/03/23 18:57:01.004 - [INFO]: Saved a new ledstrip. 
+ 
+LedController.WebPortal.Web.Pages.LedstripsPage[14 - .NET ThreadPool Worker] 
+      2022/03/23 18:57:01.008 - [DEBUG]: Dialog saved item. Reloading ledstrips page. 
+ 
+LedController.WebPortal.Web.Pages.LedstripsPage[6 - .NET ThreadPool Worker] 
+      2022/03/23 18:57:05.396 - [INFO]: Loading ledstrips page. 
+ 
+LedController.WebPortal.Web.Pages.LedstripsPage[10 - .NET ThreadPool Worker] 
+      2022/03/23 18:57:06.174 - [INFO]: Loading ledstrips page. 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/03/23 19:11:53.417 - [DEBUG]: Hosting starting 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/03/23 19:11:53.453 - [DEBUG]: Starting the discovery service. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/03/23 19:11:53.453 - [DEBUG]: Creating a new UDP client to be used for broadcasting the server information. This wil happen on UDP port 8472. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/03/23 19:11:53.464 - [DEBUG]: The discovery service has started. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[12 - .NET ThreadPool Worker] 
+      2022/03/23 19:11:53.464 - [TRACE]: Start sending message to controllers to be discovered. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/23 19:11:53.533 - [INFO]: Now listening on: http://localhost:5097 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/23 19:11:53.536 - [INFO]: Application started. Press Ctrl+C to shut down. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/23 19:11:53.536 - [INFO]: Hosting environment: Development 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/23 19:11:53.536 - [INFO]: Content root path: D:\Projects\LedController_net5\LedController.WebPortal.Web\ 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/03/23 19:11:53.536 - [DEBUG]: Hosting started 
+ 
+LedController.WebPortal.Web.Pages.Index[6 - .NET ThreadPool Worker] 
+      2022/03/23 19:11:55.860 - [INFO]: Opening the index page. 
+ 
+Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware[6 - .NET ThreadPool Worker] 
+      2022/03/23 19:11:56.337 - [ERROR]: An unhandled exception has occurred while executing the request. 
+ Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'no such column: l.ControllerId'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements(Stopwatch timer)+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements(Stopwatch timer)+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at LedController.WebPortal.Web.Pages.Index.OnInitializedAsync() in D:\Projects\LedController_net5\LedController.WebPortal.Web\Pages\Index.razor:line 75
+   at LedController.WebPortal.Web.Pages.Index.OnInitializedAsync() in D:\Projects\LedController_net5\LedController.WebPortal.Web\Pages\Index.razor:line 75
+   at Microsoft.AspNetCore.Components.ComponentBase.RunInitAndSetParametersAsync()
+   at Microsoft.AspNetCore.Components.Rendering.HtmlRenderer.HandleException(Exception exception)
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.HandleExceptionViaErrorBoundary(Exception error, ComponentState errorSourceOrNull)
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.AddToPendingTasks(Task task, ComponentState owningComponentState)
+   at Microsoft.AspNetCore.Components.Rendering.ComponentState.SupplyCombinedParameters(ParameterView directAndCascadingParameters)
+   at Microsoft.AspNetCore.Components.Rendering.ComponentState.SetDirectParameters(ParameterView parameters)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.InitializeNewComponentFrame(DiffContext& diffContext, Int32 frameIndex)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.InitializeNewSubtree(DiffContext& diffContext, Int32 frameIndex)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.InsertNewFrame(DiffContext& diffContext, Int32 newFrameIndex)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.AppendDiffEntriesForRange(DiffContext& diffContext, Int32 oldStartIndex, Int32 oldEndIndexExcl, Int32 newStartIndex, Int32 newEndIndexExcl)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.ComputeDiff(Renderer renderer, RenderBatchBuilder batchBuilder, Int32 componentId, ArrayRange`1 oldTree, ArrayRange`1 newTree)
+   at Microsoft.AspNetCore.Components.Rendering.ComponentState.RenderIntoBatch(RenderBatchBuilder batchBuilder, RenderFragment renderFragment, Exception& renderFragmentException)
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.ProcessRenderQueue()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Components.Rendering.HtmlRenderer.HandleException(Exception exception)
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.ProcessRenderQueue()
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.ProcessPendingRender()
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.AddToRenderQueue(Int32 componentId, RenderFragment renderFragment)
+   at Microsoft.AspNetCore.Components.ComponentBase.StateHasChanged()
+   at Microsoft.AspNetCore.Components.ComponentBase.CallOnParametersSetAsync()
+   at Microsoft.AspNetCore.Components.ComponentBase.RunInitAndSetParametersAsync()
+   at Microsoft.AspNetCore.Components.Rendering.HtmlRenderer.HandleException(Exception exception)
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.HandleExceptionViaErrorBoundary(Exception error, ComponentState errorSourceOrNull)
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.AddToPendingTasks(Task task, ComponentState owningComponentState)
+   at Microsoft.AspNetCore.Components.Rendering.ComponentState.SupplyCombinedParameters(ParameterView directAndCascadingParameters)
+   at Microsoft.AspNetCore.Components.Rendering.ComponentState.SetDirectParameters(ParameterView parameters)
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.RenderRootComponentAsync(Int32 componentId, ParameterView initialParameters)
+   at Microsoft.AspNetCore.Components.Rendering.HtmlRenderer.CreateInitialRenderAsync(Type componentType, ParameterView initialParameters)
+   at Microsoft.AspNetCore.Components.Rendering.HtmlRenderer.RenderComponentAsync(Type componentType, ParameterView initialParameters)
+   at Microsoft.AspNetCore.Components.Rendering.RendererSynchronizationContext.<>c__11`1.<<InvokeAsync>b__11_0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.StaticComponentRenderer.PrerenderComponentAsync(ParameterView parameters, HttpContext httpContext, Type componentType)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ComponentRenderer.PrerenderedServerComponentAsync(HttpContext context, ServerComponentInvocationSequence invocationId, Type type, ParameterView parametersCollection)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ComponentRenderer.RenderComponentAsync(ViewContext viewContext, Type componentType, RenderMode renderMode, Object parameters)
+   at Microsoft.AspNetCore.Mvc.TagHelpers.ComponentTagHelper.ProcessAsync(TagHelperContext context, TagHelperOutput output)
+   at Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperRunner.<RunAsync>g__Awaited|0_0(Task task, TagHelperExecutionContext executionContext, Int32 i, Int32 count)
+   at LedController.WebPortal.Web.Pages.Pages__Host.ExecuteAsync() in D:\Projects\LedController_net5\LedController.WebPortal.Web\Pages\_Host.cshtml:line 8
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/03/23 19:12:28.984 - [DEBUG]: Hosting starting 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/03/23 19:12:29.019 - [DEBUG]: Starting the discovery service. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/03/23 19:12:29.019 - [DEBUG]: Creating a new UDP client to be used for broadcasting the server information. This wil happen on UDP port 8472. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/03/23 19:12:29.031 - [DEBUG]: The discovery service has started. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[12 - .NET ThreadPool Worker] 
+      2022/03/23 19:12:29.031 - [TRACE]: Start sending message to controllers to be discovered. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/23 19:12:29.111 - [INFO]: Now listening on: http://localhost:5097 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/23 19:12:29.115 - [INFO]: Application started. Press Ctrl+C to shut down. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/23 19:12:29.115 - [INFO]: Hosting environment: Development 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/23 19:12:29.115 - [INFO]: Content root path: D:\Projects\LedController_net5\LedController.WebPortal.Web\ 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/03/23 19:12:29.115 - [DEBUG]: Hosting started 
+ 
+LedController.WebPortal.Web.Pages.Index[13 - .NET ThreadPool Worker] 
+      2022/03/23 19:12:31.710 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Pages.Index[12 - .NET ThreadPool Worker] 
+      2022/03/23 19:12:33.393 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Pages.ControllersPage[14 - .NET ThreadPool Worker] 
+      2022/03/23 19:12:37.680 - [INFO]: Opening controllers page. 
+ 
+LedController.WebPortal.Web.Dialogs.EditControllerDialog[9 - .NET ThreadPool Worker] 
+      2022/03/23 19:12:39.263 - [DEBUG]: Checking if we have a controller by the edit controller dialog. 
+ 
+LedController.WebPortal.Web.Dialogs.EditControllerDialog[9 - .NET ThreadPool Worker] 
+      2022/03/23 19:12:39.263 - [DEBUG]: Checking if we have a controller by the edit controller dialog. 
+ 
+LedController.WebPortal.Web.Dialogs.EditControllerDialog[14 - .NET ThreadPool Worker] 
+      2022/03/23 19:12:42.195 - [INFO]: Saving new controller Controller 2074174782. 
+ 
+LedController.WebPortal.Core.Managers.ControllerManager[14 - .NET ThreadPool Worker] 
+      2022/03/23 19:12:42.195 - [INFO]: Adding new controller. 
+ 
+LedController.WebPortal.Web.Pages.SpiBusesPage[9 - .NET ThreadPool Worker] 
+      2022/03/23 19:12:45.050 - [INFO]: Opening the spi buses page, and loading the spi buses from the application. 
+ 
+LedController.WebPortal.Web.Pages.LedstripsPage[6 - .NET ThreadPool Worker] 
+      2022/03/23 19:12:46.149 - [INFO]: Loading ledstrips page. 
+ 
+LedController.WebPortal.Web.Pages.ControllersPage[14 - .NET ThreadPool Worker] 
+      2022/03/23 19:12:46.910 - [INFO]: Opening controllers page. 
+ 
+LedController.WebPortal.Web.Pages.SpiBusesPage[6 - .NET ThreadPool Worker] 
+      2022/03/23 19:12:49.016 - [INFO]: Opening the spi buses page, and loading the spi buses from the application. 
+ 
+LedController.WebPortal.Web.Pages.SpiBusesPage[23 - .NET ThreadPool Worker] 
+      2022/03/23 19:12:50.766 - [INFO]: Opening the edit spi bus dialog. None Selected. 
+ 
+LedController.WebPortal.Web.Dialogs.EditSpiBusDialog[9 - .NET ThreadPool Worker] 
+      2022/03/23 19:12:57.037 - [INFO]: Adding new spi bus. 
+ 
+Microsoft.AspNetCore.Components.Server.Circuits.RemoteRenderer[9 - .NET ThreadPool Worker] 
+      2022/03/23 19:12:57.138 - [WARN]: Unhandled exception rendering component: An error occurred while saving the entity changes. See the inner exception for details. 
+ Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 19: 'FOREIGN KEY constraint failed'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at LedController.WebPortal.Persistence.Sqlite.Services.Repository.SaveChangesAsync(CancellationToken token) in D:\Projects\LedController_net5\LedController.Portal.Persistance.Sqlite\Services\Repository.cs:line 43
+   at LedController.WebPortal.Web.Dialogs.EditSpiBusDialog.SubmitAsync() in D:\Projects\LedController_net5\LedController.WebPortal.Web\Dialogs\EditSpiBusDialog.razor:line 107
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at MudBlazor.MudBaseButton.OnClickHandler(MouseEventArgs ev)
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.GetErrorHandledTask(Task taskToHandle, ComponentState owningComponentState)
+Microsoft.AspNetCore.Components.Server.Circuits.CircuitHost[9 - .NET ThreadPool Worker] 
+      2022/03/23 19:12:57.182 - [ERROR]: Unhandled exception in circuit 'cFQfgeZIduFSdKVer9FAqwB2r0hr1aM-fEwAEk-wLxw'. 
+ Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 19: 'FOREIGN KEY constraint failed'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at LedController.WebPortal.Persistence.Sqlite.Services.Repository.SaveChangesAsync(CancellationToken token) in D:\Projects\LedController_net5\LedController.Portal.Persistance.Sqlite\Services\Repository.cs:line 43
+   at LedController.WebPortal.Web.Dialogs.EditSpiBusDialog.SubmitAsync() in D:\Projects\LedController_net5\LedController.WebPortal.Web\Dialogs\EditSpiBusDialog.razor:line 107
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at MudBlazor.MudBaseButton.OnClickHandler(MouseEventArgs ev)
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.GetErrorHandledTask(Task taskToHandle, ComponentState owningComponentState)
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/03/23 19:16:42.306 - [DEBUG]: Hosting starting 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/03/23 19:16:42.342 - [DEBUG]: Starting the discovery service. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/03/23 19:16:42.342 - [DEBUG]: Creating a new UDP client to be used for broadcasting the server information. This wil happen on UDP port 8472. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/03/23 19:16:42.354 - [DEBUG]: The discovery service has started. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[10 - .NET ThreadPool Worker] 
+      2022/03/23 19:16:42.354 - [TRACE]: Start sending message to controllers to be discovered. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/23 19:16:42.423 - [INFO]: Now listening on: http://localhost:5097 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/23 19:16:42.427 - [INFO]: Application started. Press Ctrl+C to shut down. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/23 19:16:42.427 - [INFO]: Hosting environment: Development 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/23 19:16:42.427 - [INFO]: Content root path: D:\Projects\LedController_net5\LedController.WebPortal.Web\ 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/03/23 19:16:42.427 - [DEBUG]: Hosting started 
+ 
+LedController.WebPortal.Web.Pages.Index[13 - .NET ThreadPool Worker] 
+      2022/03/23 19:16:45.436 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Pages.Index[15 - .NET ThreadPool Worker] 
+      2022/03/23 19:16:47.196 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Pages.ControllersPage[6 - .NET ThreadPool Worker] 
+      2022/03/23 19:16:48.952 - [INFO]: Opening controllers page. 
+ 
+LedController.WebPortal.Web.Dialogs.EditControllerDialog[6 - .NET ThreadPool Worker] 
+      2022/03/23 19:16:53.418 - [DEBUG]: Checking if we have a controller by the edit controller dialog. 
+ 
+LedController.WebPortal.Web.Dialogs.EditControllerDialog[6 - .NET ThreadPool Worker] 
+      2022/03/23 19:16:53.418 - [DEBUG]: Checking if we have a controller by the edit controller dialog. 
+ 
+LedController.WebPortal.Web.Dialogs.EditControllerDialog[9 - .NET ThreadPool Worker] 
+      2022/03/23 19:16:55.094 - [INFO]: Saving new controller Controller 1610665249. 
+ 
+LedController.WebPortal.Core.Managers.ControllerManager[9 - .NET ThreadPool Worker] 
+      2022/03/23 19:16:55.094 - [INFO]: Adding new controller. 
+ 
+LedController.WebPortal.Web.Pages.Index[9 - .NET ThreadPool Worker] 
+      2022/03/23 19:16:56.823 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Pages.ControllersPage[14 - .NET ThreadPool Worker] 
+      2022/03/23 19:16:57.332 - [INFO]: Opening controllers page. 
+ 
+LedController.WebPortal.Web.Pages.SpiBusesPage[6 - .NET ThreadPool Worker] 
+      2022/03/23 19:16:59.159 - [INFO]: Opening the spi buses page, and loading the spi buses from the application. 
+ 
+LedController.WebPortal.Web.Pages.SpiBusesPage[9 - .NET ThreadPool Worker] 
+      2022/03/23 19:16:59.968 - [INFO]: Opening the edit spi bus dialog. None Selected. 
+ 
+LedController.WebPortal.Web.Dialogs.EditSpiBusDialog[10 - .NET ThreadPool Worker] 
+      2022/03/23 19:17:05.544 - [INFO]: Adding new spi bus. 
+ 
+Microsoft.AspNetCore.Components.Server.Circuits.RemoteRenderer[10 - .NET ThreadPool Worker] 
+      2022/03/23 19:17:05.665 - [WARN]: Unhandled exception rendering component: The instance of entity type 'ControllerEntity' cannot be tracked because another instance with the same key value for {'Id'} is already being tracked. When attaching existing entities, ensure that only one entity instance with a given key value is attached. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see the conflicting key values. 
+ System.InvalidOperationException: The instance of entity type 'ControllerEntity' cannot be tracked because another instance with the same key value for {'Id'} is already being tracked. When attaching existing entities, ensure that only one entity instance with a given key value is attached. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see the conflicting key values.
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.ThrowIdentityConflict(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.Add(TKey key, InternalEntityEntry entry, Boolean updateDuplicate)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.Add(TKey key, InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.Add(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.StartTracking(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetEntityState(EntityState oldState, EntityState newState, Boolean acceptChanges, Boolean modifyProperties)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetEntityState(EntityState entityState, Boolean acceptChanges, Boolean modifyProperties, Nullable`1 forceStateWhenUnknownKey)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityGraphAttacher.PaintAction(EntityEntryGraphNode`1 node)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityEntryGraphIterator.TraverseGraph[TState](EntityEntryGraphNode`1 node, Func`2 handleNode)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityGraphAttacher.AttachGraph(InternalEntityEntry rootEntry, EntityState targetState, EntityState storeGeneratedWithKeySetTargetState, Boolean forceStateWhenUnknownKey)
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.SetEntityState(InternalEntityEntry entry, EntityState entityState)
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.Update(TEntity entity)
+   at LedController.WebPortal.Persistence.Sqlite.Stores.StoreBase`2.Update(TModel item) in D:\Projects\LedController_net5\LedController.Portal.Persistance.Sqlite\Stores\StoreBase.cs:line 57
+   at LedController.WebPortal.Core.Managers.ManagerBase`2.Update(TModel item, CancellationToken token) in D:\Projects\LedController_net5\LedController.Portal.Core\Managers\ManagerBase.cs:line 60
+   at LedController.WebPortal.Web.Dialogs.EditSpiBusDialog.SubmitAsync() in D:\Projects\LedController_net5\LedController.WebPortal.Web\Dialogs\EditSpiBusDialog.razor:line 112
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at MudBlazor.MudBaseButton.OnClickHandler(MouseEventArgs ev)
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.GetErrorHandledTask(Task taskToHandle, ComponentState owningComponentState)
+Microsoft.AspNetCore.Components.Server.Circuits.CircuitHost[10 - .NET ThreadPool Worker] 
+      2022/03/23 19:17:05.708 - [ERROR]: Unhandled exception in circuit 'ost8n1CUsgX6y4SzlU7MJ2fpSrr3CcRcvfJ1JJU8imM'. 
+ System.InvalidOperationException: The instance of entity type 'ControllerEntity' cannot be tracked because another instance with the same key value for {'Id'} is already being tracked. When attaching existing entities, ensure that only one entity instance with a given key value is attached. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see the conflicting key values.
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.ThrowIdentityConflict(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.Add(TKey key, InternalEntityEntry entry, Boolean updateDuplicate)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.Add(TKey key, InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.Add(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.StartTracking(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetEntityState(EntityState oldState, EntityState newState, Boolean acceptChanges, Boolean modifyProperties)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetEntityState(EntityState entityState, Boolean acceptChanges, Boolean modifyProperties, Nullable`1 forceStateWhenUnknownKey)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityGraphAttacher.PaintAction(EntityEntryGraphNode`1 node)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityEntryGraphIterator.TraverseGraph[TState](EntityEntryGraphNode`1 node, Func`2 handleNode)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityGraphAttacher.AttachGraph(InternalEntityEntry rootEntry, EntityState targetState, EntityState storeGeneratedWithKeySetTargetState, Boolean forceStateWhenUnknownKey)
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.SetEntityState(InternalEntityEntry entry, EntityState entityState)
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.Update(TEntity entity)
+   at LedController.WebPortal.Persistence.Sqlite.Stores.StoreBase`2.Update(TModel item) in D:\Projects\LedController_net5\LedController.Portal.Persistance.Sqlite\Stores\StoreBase.cs:line 57
+   at LedController.WebPortal.Core.Managers.ManagerBase`2.Update(TModel item, CancellationToken token) in D:\Projects\LedController_net5\LedController.Portal.Core\Managers\ManagerBase.cs:line 60
+   at LedController.WebPortal.Web.Dialogs.EditSpiBusDialog.SubmitAsync() in D:\Projects\LedController_net5\LedController.WebPortal.Web\Dialogs\EditSpiBusDialog.razor:line 112
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at MudBlazor.MudBaseButton.OnClickHandler(MouseEventArgs ev)
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.GetErrorHandledTask(Task taskToHandle, ComponentState owningComponentState)
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/03/23 19:20:19.221 - [DEBUG]: Hosting starting 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/03/23 19:20:19.256 - [DEBUG]: Starting the discovery service. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/03/23 19:20:19.256 - [DEBUG]: Creating a new UDP client to be used for broadcasting the server information. This wil happen on UDP port 8472. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/03/23 19:20:19.256 - [DEBUG]: The discovery service has started. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[9 - .NET ThreadPool Worker] 
+      2022/03/23 19:20:19.256 - [TRACE]: Start sending message to controllers to be discovered. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/23 19:20:19.333 - [INFO]: Now listening on: http://localhost:5097 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/23 19:20:19.333 - [INFO]: Application started. Press Ctrl+C to shut down. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/23 19:20:19.333 - [INFO]: Hosting environment: Development 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/23 19:20:19.333 - [INFO]: Content root path: D:\Projects\LedController_net5\LedController.WebPortal.Web\ 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/03/23 19:20:19.333 - [DEBUG]: Hosting started 
+ 
+LedController.WebPortal.Web.Pages.Index[9 - .NET ThreadPool Worker] 
+      2022/03/23 19:20:20.969 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Pages.Index[9 - .NET ThreadPool Worker] 
+      2022/03/23 19:20:22.471 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Pages.SpiBusesPage[9 - .NET ThreadPool Worker] 
+      2022/03/23 19:20:32.350 - [INFO]: Opening the spi buses page, and loading the spi buses from the application. 
+ 
+LedController.WebPortal.Web.Pages.SpiBusesPage[13 - .NET ThreadPool Worker] 
+      2022/03/23 19:20:35.269 - [INFO]: Opening the edit spi bus dialog. None Selected. 
+ 
+LedController.WebPortal.Web.Dialogs.EditSpiBusDialog[13 - .NET ThreadPool Worker] 
+      2022/03/23 19:20:40.496 - [INFO]: Adding new spi bus. 
+ 
+LedController.WebPortal.Web.Pages.SpiBusesPage[9 - .NET ThreadPool Worker] 
+      2022/03/23 19:20:48.045 - [INFO]: Opening the spi buses page, and loading the spi buses from the application. 
+ 
+LedController.WebPortal.Web.Pages.SpiBusesPage[13 - .NET ThreadPool Worker] 
+      2022/03/23 19:20:48.865 - [INFO]: Opening the spi buses page, and loading the spi buses from the application. 
+ 
+LedController.WebPortal.Web.Pages.LedstripsPage[14 - .NET ThreadPool Worker] 
+      2022/03/23 19:20:56.999 - [INFO]: Loading ledstrips page. 
+ 
+LedController.WebPortal.Web.Pages.LedstripsPage[24 - .NET ThreadPool Worker] 
+      2022/03/23 19:20:58.571 - [INFO]: Opening the edit ledstrip dialog. None Selected 
+ 
+LedController.WebPortal.Web.Dialogs.EditLedstripDialog[24 - .NET ThreadPool Worker] 
+      2022/03/23 19:20:58.571 - [INFO]: Opening edit ledstrip dialog. Editing a existing ledstrip. 
+ 
+LedController.WebPortal.Web.Dialogs.EditLedstripDialog[13 - .NET ThreadPool Worker] 
+      2022/03/23 19:21:10.835 - [INFO]: Saved a new ledstrip. 
+ 
+LedController.WebPortal.Web.Pages.LedstripsPage[13 - .NET ThreadPool Worker] 
+      2022/03/23 19:21:10.835 - [DEBUG]: Dialog saved item. Reloading ledstrips page. 
+ 
+LedController.WebPortal.Web.Pages.ControllersPage[15 - .NET ThreadPool Worker] 
+      2022/03/23 19:21:12.824 - [INFO]: Opening controllers page. 
+ 
+LedController.WebPortal.Web.Pages.LedstripsPage[9 - .NET ThreadPool Worker] 
+      2022/03/23 19:21:13.318 - [INFO]: Loading ledstrips page. 
+ 
+LedController.WebPortal.Web.Pages.SpiBusesPage[9 - .NET ThreadPool Worker] 
+      2022/03/23 19:21:16.333 - [INFO]: Opening the spi buses page, and loading the spi buses from the application. 
+ 
+LedController.WebPortal.Web.Pages.LedstripsPage[9 - .NET ThreadPool Worker] 
+      2022/03/23 19:21:16.845 - [INFO]: Loading ledstrips page. 
+ 
+LedController.WebPortal.Web.Pages.LedstripsPage[6 - .NET ThreadPool Worker] 
+      2022/03/23 19:21:19.032 - [INFO]: Loading ledstrips page. 
+ 
+LedController.WebPortal.Web.Pages.LedstripsPage[9 - .NET ThreadPool Worker] 
+      2022/03/23 19:21:19.800 - [INFO]: Loading ledstrips page. 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/03/23 19:41:03.903 - [DEBUG]: Hosting starting 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/03/23 19:41:03.940 - [DEBUG]: Starting the discovery service. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/03/23 19:41:03.940 - [DEBUG]: Creating a new UDP client to be used for broadcasting the server information. This wil happen on UDP port 8472. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/03/23 19:41:03.953 - [DEBUG]: The discovery service has started. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[9 - .NET ThreadPool Worker] 
+      2022/03/23 19:41:03.953 - [TRACE]: Start sending message to controllers to be discovered. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/23 19:41:04.026 - [INFO]: Now listening on: http://localhost:5097 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/23 19:41:04.026 - [INFO]: Application started. Press Ctrl+C to shut down. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/23 19:41:04.026 - [INFO]: Hosting environment: Development 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/03/23 19:41:04.026 - [INFO]: Content root path: D:\Projects\LedController_net5\LedController.WebPortal.Web\ 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/03/23 19:41:04.026 - [DEBUG]: Hosting started 
+ 
+LedController.WebPortal.Web.Pages.Index[9 - .NET ThreadPool Worker] 
+      2022/03/23 19:41:07.680 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Pages.Index[15 - .NET ThreadPool Worker] 
+      2022/03/23 19:41:09.428 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Pages.SpiBusesPage[9 - .NET ThreadPool Worker] 
+      2022/03/23 19:41:12.757 - [INFO]: Opening the spi buses page, and loading the spi buses from the application. 
+ 
+LedController.WebPortal.Web.Pages.SpiBusesPage[9 - .NET ThreadPool Worker] 
+      2022/03/23 19:41:14.822 - [INFO]: Opening the edit spi bus dialog. None Selected. 
+ 
+LedController.WebPortal.Web.Dialogs.EditSpiBusDialog[6 - .NET ThreadPool Worker] 
+      2022/03/23 19:41:23.439 - [INFO]: Adding new spi bus. 
+ 
+Microsoft.AspNetCore.Components.Server.Circuits.RemoteRenderer[6 - .NET ThreadPool Worker] 
+      2022/03/23 19:41:23.627 - [WARN]: Unhandled exception rendering component: The instance of entity type 'SpiBusEntity' cannot be tracked because another instance with the same key value for {'Id'} is already being tracked. When attaching existing entities, ensure that only one entity instance with a given key value is attached. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see the conflicting key values. 
+ System.InvalidOperationException: The instance of entity type 'SpiBusEntity' cannot be tracked because another instance with the same key value for {'Id'} is already being tracked. When attaching existing entities, ensure that only one entity instance with a given key value is attached. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see the conflicting key values.
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.ThrowIdentityConflict(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.Add(TKey key, InternalEntityEntry entry, Boolean updateDuplicate)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.Add(TKey key, InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.Add(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.StartTracking(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetEntityState(EntityState oldState, EntityState newState, Boolean acceptChanges, Boolean modifyProperties)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetEntityState(EntityState entityState, Boolean acceptChanges, Boolean modifyProperties, Nullable`1 forceStateWhenUnknownKey)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityGraphAttacher.PaintAction(EntityEntryGraphNode`1 node)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityEntryGraphIterator.TraverseGraph[TState](EntityEntryGraphNode`1 node, Func`2 handleNode)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityEntryGraphIterator.TraverseGraph[TState](EntityEntryGraphNode`1 node, Func`2 handleNode)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityGraphAttacher.AttachGraph(InternalEntityEntry rootEntry, EntityState targetState, EntityState storeGeneratedWithKeySetTargetState, Boolean forceStateWhenUnknownKey)
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.SetEntityState(InternalEntityEntry entry, EntityState entityState)
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.Update(TEntity entity)
+   at LedController.WebPortal.Persistence.Sqlite.Stores.StoreBase`2.Update(TModel item) in D:\Projects\LedController_net5\LedController.Portal.Persistance.Sqlite\Stores\StoreBase.cs:line 57
+   at LedController.WebPortal.Core.Managers.SpiBusManager.AttachController(SpiBus spiBus, Controller controller) in D:\Projects\LedController_net5\LedController.Portal.Core\Managers\SpiBusManager.cs:line 34
+   at LedController.WebPortal.Core.Managers.SpiBusManager.AddSpiBusAsync(SpiBus spiBus, Controller controller, CancellationToken token) in D:\Projects\LedController_net5\LedController.Portal.Core\Managers\SpiBusManager.cs:line 24
+   at LedController.WebPortal.Web.Dialogs.EditSpiBusDialog.SubmitAsync() in D:\Projects\LedController_net5\LedController.WebPortal.Web\Dialogs\EditSpiBusDialog.razor:line 107
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at MudBlazor.MudBaseButton.OnClickHandler(MouseEventArgs ev)
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.GetErrorHandledTask(Task taskToHandle, ComponentState owningComponentState)
+Microsoft.AspNetCore.Components.Server.Circuits.CircuitHost[6 - .NET ThreadPool Worker] 
+      2022/03/23 19:41:23.673 - [ERROR]: Unhandled exception in circuit 'IMLGs52EbZMvOfcKu29UW8jOI5D_d1_C_9zp1cVfL20'. 
+ System.InvalidOperationException: The instance of entity type 'SpiBusEntity' cannot be tracked because another instance with the same key value for {'Id'} is already being tracked. When attaching existing entities, ensure that only one entity instance with a given key value is attached. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see the conflicting key values.
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.ThrowIdentityConflict(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.Add(TKey key, InternalEntityEntry entry, Boolean updateDuplicate)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.Add(TKey key, InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.Add(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.StartTracking(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetEntityState(EntityState oldState, EntityState newState, Boolean acceptChanges, Boolean modifyProperties)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetEntityState(EntityState entityState, Boolean acceptChanges, Boolean modifyProperties, Nullable`1 forceStateWhenUnknownKey)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityGraphAttacher.PaintAction(EntityEntryGraphNode`1 node)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityEntryGraphIterator.TraverseGraph[TState](EntityEntryGraphNode`1 node, Func`2 handleNode)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityEntryGraphIterator.TraverseGraph[TState](EntityEntryGraphNode`1 node, Func`2 handleNode)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityGraphAttacher.AttachGraph(InternalEntityEntry rootEntry, EntityState targetState, EntityState storeGeneratedWithKeySetTargetState, Boolean forceStateWhenUnknownKey)
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.SetEntityState(InternalEntityEntry entry, EntityState entityState)
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.Update(TEntity entity)
+   at LedController.WebPortal.Persistence.Sqlite.Stores.StoreBase`2.Update(TModel item) in D:\Projects\LedController_net5\LedController.Portal.Persistance.Sqlite\Stores\StoreBase.cs:line 57
+   at LedController.WebPortal.Core.Managers.SpiBusManager.AttachController(SpiBus spiBus, Controller controller) in D:\Projects\LedController_net5\LedController.Portal.Core\Managers\SpiBusManager.cs:line 34
+   at LedController.WebPortal.Core.Managers.SpiBusManager.AddSpiBusAsync(SpiBus spiBus, Controller controller, CancellationToken token) in D:\Projects\LedController_net5\LedController.Portal.Core\Managers\SpiBusManager.cs:line 24
+   at LedController.WebPortal.Web.Dialogs.EditSpiBusDialog.SubmitAsync() in D:\Projects\LedController_net5\LedController.WebPortal.Web\Dialogs\EditSpiBusDialog.razor:line 107
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at MudBlazor.MudBaseButton.OnClickHandler(MouseEventArgs ev)
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.GetErrorHandledTask(Task taskToHandle, ComponentState owningComponentState)

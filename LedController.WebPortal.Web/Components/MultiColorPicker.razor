@@ -1,0 +1,88 @@
+﻿@using MudBlazor
+@using System.Drawing
+@using LedController.WebPortal.Web.Extensions
+@using Color = System.Drawing.Color
+
+
+@*The field that want to show to click to open the dialog.*@
+<MudTextField T="string" @onclick="@(() => _visible = true)" Class="@Class" ReadOnly="true" Label="Colors" Value="@($"Count : {Colors.Count}")" />
+
+@* THe dialog with the colors.*@
+<MudDialog @bind-IsVisible="_visible">
+    <TitleContent>
+        <MudText Typo="Typo.h6">
+            <MudIcon Icon="@Icons.Material.Filled.Edit" Class="mr-3" /> Colors
+        </MudText>
+    </TitleContent>
+    <DialogContent>
+
+        @* A expansion panel for each color. *@
+        <MudExpansionPanels>
+            @for (int i = 0; i < Colors.Count; i++)
+            {
+                <MudExpansionPanel Text="@($"Color {i}")" MaxHeight="500">
+                    <MudColorPicker PickerVariant="PickerVariant.Static" ValueChanged="color => Colors[i] = color.ToColor()"></MudColorPicker>
+                </MudExpansionPanel>
+            }
+        </MudExpansionPanels>
+
+        @* Add a extra color. *@
+        <MudButton FullWidth="true" Color="MudBlazor.Color.Primary" Variant="Variant.Filled" StartIcon="@Icons.Filled.Add" ButtonType="ButtonType.Button" OnClick="AddColor">Add</MudButton>
+    </DialogContent>
+    <DialogActions>
+        <MudButton Color="MudBlazor.Color.Success" Variant="Variant.Filled" OnClick="OnSaveCallback" Class="px-10">Save</MudButton>
+    </DialogActions>
+</MudDialog>
+
+
+
+
+@code {
+
+    /// <summary>
+    /// The dialog toggle.
+    /// </summary>
+    private bool _visible = false;
+
+    /// <summary>
+    /// When saving the color array.
+    /// </summary>
+    [Parameter]
+    public EventCallback<IList<System.Drawing.Color>> OnSave { get; set; }
+
+    /// <summary>
+    /// A The list of colors that we.
+    /// </summary>
+    [Parameter]
+    public IList<System.Drawing.Color>? Colors { get; set; } = new List<Color>();
+
+    [Parameter]
+    public string Class { get; set; }
+
+
+    /// <summary>
+    /// Add a new color to the array.
+    /// </summary>
+    protected void AddColor()
+    {
+        Colors.Add(Color.Black);
+        StateHasChanged();
+    }
+
+    /// <summary>
+    /// When saving the dialog.
+    /// </summary>
+    /// <returns></returns>
+    protected Task OnSaveCallback()
+    {
+        _visible = false;
+        return OnSave.InvokeAsync(Colors);
+
+    }
+
+
+    
+
+
+
+}

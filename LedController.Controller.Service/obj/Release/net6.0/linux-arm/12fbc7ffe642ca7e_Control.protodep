@@ -1,0 +1,4 @@
+obj\Release\net6.0\linux-arm\Protos/Control.cs \
+obj\Release\net6.0\linux-arm\Protos/ControlGrpc.cs: C:/Users/kdteu/.nuget/packages/grpc.tools/2.45.0/build/native/include/google/protobuf/empty.proto\
+ C:/Users/kdteu/.nuget/packages/grpc.tools/2.45.0/build/native/include/google/protobuf/any.proto\
+ Protos/Control.proto

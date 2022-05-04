@@ -1,0 +1,182 @@
+﻿@using System
+@using System.Linq
+@using System.Net
+@using LedController.Domain.Models
+@using LedController.WebPortal.Domain.Managers
+@using LedController.WebPortal.Domain.Models
+@using LedController.WebPortal.Persistence.Exceptions
+@using MudBlazor
+
+@inject ILogger<ControllerFormDialog> _logger
+@inject IDialogService _dialogService
+@inject ISnackbar _snackbar
+
+@inject IControllerManager _controllerManager
+
+<MudDialog>
+    <DialogContent>
+
+        <MudTextField Class="pa-4"
+                      T="string"
+                      Label="Name"
+                      Required="true"
+                      RequiredError="A name is needed"
+                      @bind-Value="Controller!.Name"/>
+
+        <MudTextField Class="pa-4"
+                      T="string"
+                      Label="Ip Address"
+                      RequiredError="A IP Address is needed"
+                      Required="true"
+                      Mask="RegexMask.IPv4()"
+                      @bind-Value="IpAddressBinding"/>
+
+        <MudNumericField Class="pa-4"
+                         T="int"
+                         Label="Port"
+                         Required="true"
+                         RequiredError="A port is required"
+                         @bind-value="Controller!.EndPoint.Port"/>
+
+    </DialogContent>
+    <DialogActions>
+
+        <MudButton Class="pa-4"
+                   Color="Color.Primary"
+                   OnClick="SubmitAsync" >Save</MudButton>
+
+        @if (!_isNew)
+        {
+	        <MudButton Class="pa-4"
+                       Color="Color.Error"
+                       OnClick="DeleteAsync" >Delete</MudButton>
+        }
+
+    </DialogActions>
+</MudDialog>
+
+
+@code {
+
+	private bool _isNew;
+
+
+	[CascadingParameter]
+	public MudDialogInstance MudDialog { get; set; } = default!;
+
+
+	/// <summary>
+	/// The controller that we are editing or creating.
+	/// </summary>
+	[Parameter]
+	public Controller? Controller { get; set; }
+
+
+	/// <summary>
+	/// Model binding for the IP Address binding. This is because we don't have
+	/// </summary>
+	private string IpAddressBinding
+	{
+		get => Controller?.EndPoint?.Address.ToString() ?? "";
+		set
+		{
+			bool parsed = IPAddress.TryParse(value, out IPAddress? address);
+			Controller!.EndPoint.Address = parsed ? address! : IPAddress.Any;
+		}
+	}
+
+
+	/// <inheritdoc />
+	protected override void OnParametersSet()
+	{
+		_logger.LogInformation($"Opening controller form. Controller: {Controller?.Name ?? "None"} was given as parameter.");
+		if (Controller is null)
+		{
+			_isNew = true;
+			Controller = new Controller();
+		}
+	}
+
+
+	/// <summary>
+	/// Save the controller.
+	/// </summary>
+	/// <returns> </returns>
+	protected async Task SubmitAsync()
+	{
+		try
+		{
+			if (_isNew)
+			{
+				_logger.LogInformation($"Saving new controller {Controller!.Name}.");
+				await _controllerManager.Add(Controller!);
+				_snackbar.Add("Controller has been added.", Severity.Success);
+			}
+			else
+			{
+				_logger.LogInformation($"Updating controller {Controller!.Name}.");
+				await _controllerManager.Update(Controller!);
+				_snackbar.Add("Controller has been updated.", Severity.Success);
+			}
+		}
+		catch (PersistenceException persistenceException)
+		{
+			_logger.LogError(persistenceException, "There was a exception while executing the code for removing a ledstrip. The following database exception occurred.");
+			_logger.LogError(persistenceException.InnerException, "The following inner exception was captured by the database exception.");
+			_snackbar.Add("A error occurred.", Severity.Error);
+
+			MudDialog.Cancel();
+		}
+		catch (Exception ex)
+		{
+			_logger.LogError(ex, "There was a problem with removing a ledstrip.");
+			_snackbar.Add("A error occurred.", Severity.Error);
+
+			MudDialog.Cancel();
+			throw;
+		}
+
+		MudDialog!.Close(Controller);
+	}
+
+
+	/// <summary>
+	/// Deletes this controller.
+	/// </summary>
+	/// <returns> </returns>
+	protected async Task DeleteAsync()
+	{
+	// Checking if we want to delete if not then exit.
+		bool result = await _dialogService.ShowMessageBox("Remove",
+			"Are you sure you would like to delete this controller.",
+			noText: "No") ?? false;
+
+		if (result == false)
+			return;
+
+		try
+		{
+			await _controllerManager.Remove(Controller!);
+			_snackbar.Add("Controller has been removed", Severity.Success);
+			MudDialog.Close();
+		}
+		catch (PersistenceException persistenceException)
+		{
+			_logger.LogError(persistenceException, "There was a exception while executing the code for removing a ledstrip. The following database exception occurred.");
+			_logger.LogError(persistenceException.InnerException, "The following inner exception was captured by the database exception.");
+			_snackbar.Add("A error occurred.", Severity.Error);
+
+			MudDialog.Cancel();
+		}
+		catch (Exception ex)
+		{
+			_logger.LogError(ex, "There was a problem with removing a ledstrip.");
+			_snackbar.Add("A error occurred.", Severity.Error);
+
+			MudDialog.Cancel();
+			throw;
+		}
+	}
+
+
+}

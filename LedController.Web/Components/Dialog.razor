@@ -1,0 +1,80 @@
+﻿@using MudBlazor
+@using LedController.WebPortal.Web.Enums
+
+@* Common dialog with some buttons. *@
+
+<MudDialog>
+    <DialogContent>@ChildContent</DialogContent>
+    <DialogActions>
+        
+        @* Yes *@
+        @if (Buttons == DialogButtons.YesCancel || Buttons == DialogButtons.YesNo || Buttons == DialogButtons.YesNoCancel)
+        {
+	        <MudButton OnClick="() => Submit(SelectedButton.Yes)">Yes</MudButton>
+        }
+        
+        @* Ok *@
+        @if (Buttons == DialogButtons.OkCancel || Buttons == DialogButtons.YesCancel || Buttons == DialogButtons.YesNoCancel)
+        {
+
+	        <MudButton OnClick="() => Submit(SelectedButton.Ok)">Ok</MudButton>
+        }
+        
+        @* No *@
+        @if (Buttons == DialogButtons.YesNo || Buttons == DialogButtons.YesNoCancel)
+        {
+	        <MudButton OnClick="Cancel">No</MudButton>
+
+        }
+        
+        @* Cancel *@
+        @if (Buttons == DialogButtons.OkCancel || Buttons == DialogButtons.YesCancel)
+        {
+	        <MudButton OnClick="Cancel">Cancel</MudButton>
+        }
+
+    </DialogActions>
+</MudDialog>
+
+
+@code {
+
+    // The dialog that we have here.
+    [CascadingParameter] 
+    protected virtual MudDialogInstance MudDialog { get; set; }
+
+    /// <summary>
+    /// The buttons that we want to show.
+    /// </summary>
+    [Parameter]
+    public DialogButtons Buttons { get; set; }
+
+    /// <summary>
+    /// Tje dialog content that we want ot show.
+    /// </summary>
+    [Parameter]
+    public RenderFragment ChildContent { get; set; }
+
+
+    /// <summary>
+    /// Submits the dialog.
+    /// </summary>
+    /// <param name="button">The button that we have selected to close the dialog.</param>
+    protected virtual void Submit(SelectedButton button) => MudDialog.Close(DialogResult.Ok(button == SelectedButton.Ok ? "Ok" : "Yes"));
+
+    /// <summary>
+    /// Submits to cancel the current dialog.
+    /// </summary>
+    protected virtual void Cancel() => MudDialog.Cancel();
+
+
+    /// <summary>
+    /// The dialog buttons.
+    /// </summary>
+    protected enum SelectedButton
+    {
+        Yes,
+
+        Ok
+    }
+}

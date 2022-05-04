@@ -1,0 +1,165 @@
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/04/11 19:28:07.433 - [DEBUG]: Hosting starting 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/11 19:28:07.555 - [DEBUG]: Starting the discovery service. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/11 19:28:07.555 - [DEBUG]: Creating a new UDP client to be used for broadcasting the server information. This wil happen on UDP port 8472. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/11 19:28:07.570 - [DEBUG]: The discovery service has started. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[10 - .NET ThreadPool Worker] 
+      2022/04/11 19:28:07.570 - [TRACE]: Start sending message to controllers to be discovered. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/11 19:28:07.710 - [INFO]: Now listening on: http://localhost:5097 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/11 19:28:07.710 - [INFO]: Application started. Press Ctrl+C to shut down. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/11 19:28:07.710 - [INFO]: Hosting environment: Development 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/11 19:28:07.710 - [INFO]: Content root path: D:\Projects\LedController_net5\LedController.WebPortal.Web\ 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/04/11 19:28:07.710 - [DEBUG]: Hosting started 
+ 
+LedController.WebPortal.Web.Pages.Index[6 - .NET ThreadPool Worker] 
+      2022/04/11 19:28:09.913 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Pages.Index[9 - .NET ThreadPool Worker] 
+      2022/04/11 19:28:11.528 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Pages.ControllersPage[6 - .NET ThreadPool Worker] 
+      2022/04/11 19:30:18.044 - [INFO]: Opening controllers page. 
+ 
+LedController.WebPortal.Web.Pages.LedstripsPage[26 - .NET ThreadPool Worker] 
+      2022/04/11 19:30:19.710 - [INFO]: Loading ledstrips page. 
+ 
+LedController.WebPortal.Web.Pages.SpiBusesPage[9 - .NET ThreadPool Worker] 
+      2022/04/11 19:30:20.539 - [INFO]: Opening the spi buses page, and loading the spi buses from the application. 
+ 
+LedController.WebPortal.Web.Pages.LedstripsPage[9 - .NET ThreadPool Worker] 
+      2022/04/11 19:30:21.142 - [INFO]: Loading ledstrips page. 
+ 
+LedController.WebPortal.Web.Pages.SpiBusesPage[9 - .NET ThreadPool Worker] 
+      2022/04/11 19:30:31.095 - [INFO]: Opening the spi buses page, and loading the spi buses from the application. 
+ 
+LedController.WebPortal.Web.Pages.ControllersPage[13 - .NET ThreadPool Worker] 
+      2022/04/11 19:38:20.480 - [INFO]: Opening controllers page. 
+ 
+LedController.WebPortal.Web.Pages.Index[13 - .NET ThreadPool Worker] 
+      2022/04/11 19:38:22.602 - [INFO]: Opening the index page. 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/04/11 21:56:55.152 - [DEBUG]: Hosting starting 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/11 21:56:55.257 - [DEBUG]: Starting the discovery service. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/11 21:56:55.257 - [DEBUG]: Creating a new UDP client to be used for broadcasting the server information. This wil happen on UDP port 8472. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/11 21:56:55.273 - [DEBUG]: The discovery service has started. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[6 - .NET ThreadPool Worker] 
+      2022/04/11 21:56:55.273 - [TRACE]: Start sending message to controllers to be discovered. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/11 21:56:55.385 - [INFO]: Now listening on: http://localhost:5097 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/11 21:56:55.385 - [INFO]: Application started. Press Ctrl+C to shut down. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/11 21:56:55.385 - [INFO]: Hosting environment: Development 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/11 21:56:55.385 - [INFO]: Content root path: D:\Projects\LedController_net5\LedController.WebPortal.Web\ 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/04/11 21:56:55.385 - [DEBUG]: Hosting started 
+ 
+LedController.WebPortal.Web.Pages.Index[9 - .NET ThreadPool Worker] 
+      2022/04/11 21:56:57.335 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Pages.Index[6 - .NET ThreadPool Worker] 
+      2022/04/11 21:56:58.982 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Pages.Index[6 - .NET ThreadPool Worker] 
+      2022/04/11 21:57:03.604 - [INFO]: Opening the play animation dialog from the index page. 
+ 
+LedController.WebPortal.Web.Pages.ControllersPage[10 - .NET ThreadPool Worker] 
+      2022/04/11 21:57:42.147 - [INFO]: Opening controllers page. 
+ 
+LedController.WebPortal.Web.Pages.ControllersPage[9 - .NET ThreadPool Worker] 
+      2022/04/11 21:57:43.627 - [INFO]: Connecting to controller Controller 1427966868. 
+ 
+LedController.WebPortal.Core.Services.ControllerService[9 - .NET ThreadPool Worker] 
+      2022/04/11 21:57:43.642 - [INFO]: Connecting to controller e429a7c8-43cf-47c0-82f7-c4711091edb6. 
+ 
+LedController.WebPortal.Core.Services.ControllerService[9 - .NET ThreadPool Worker] 
+      2022/04/11 21:57:43.694 - [INFO]: The controller has been connected. 
+ 
+LedController.WebPortal.Web.Pages.Index[10 - .NET ThreadPool Worker] 
+      2022/04/11 21:58:44.925 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Pages.Index[33 - .NET ThreadPool Worker] 
+      2022/04/11 21:58:46.971 - [INFO]: Opening the play animation dialog from the index page. 
+ 
+LedController.WebPortal.Web.Pages.Index[14 - .NET ThreadPool Worker] 
+      2022/04/11 21:58:56.623 - [INFO]: Reloading the index page. 
+ 
+LedController.WebPortal.Web.Pages.ControllersPage[10 - .NET ThreadPool Worker] 
+      2022/04/11 21:59:38.153 - [INFO]: Opening controllers page. 
+ 
+LedController.WebPortal.Web.Pages.LedstripsPage[10 - .NET ThreadPool Worker] 
+      2022/04/11 21:59:39.603 - [INFO]: Loading ledstrips page. 
+ 
+LedController.WebPortal.Web.Pages.LedstripsPage[3 - .NET ThreadPool Worker] 
+      2022/04/11 21:59:50.004 - [INFO]: Opening the edit ledstrip dialog. None Selected 
+ 
+LedController.WebPortal.Web.Dialogs.LedstripFormDialog[3 - .NET ThreadPool Worker] 
+      2022/04/11 21:59:50.022 - [INFO]: Opening edit ledstrip dialog. Editing a existing ledstrip. 
+ 
+LedController.WebPortal.Core.Managers.ControllerManager[6 - .NET ThreadPool Worker] 
+      2022/04/11 22:00:04.574 - [DEBUG]: Getting controller by spi bus Test Bus 
+ 
+LedController.WebPortal.Web.Dialogs.LedstripFormDialog[6 - .NET ThreadPool Worker] 
+      2022/04/11 22:00:04.708 - [INFO]: Saved ledstrip. 
+ 
+LedController.WebPortal.Web.Pages.LedstripsPage[6 - .NET ThreadPool Worker] 
+      2022/04/11 22:00:04.713 - [DEBUG]: Ledstrip dialog closed reloading ledstrips page. 
+ 
+LedController.WebPortal.Web.Pages.LedstripsPage[6 - .NET ThreadPool Worker] 
+      2022/04/11 22:00:04.747 - [INFO]: Loading ledstrips page. 
+ 
+LedController.WebPortal.Web.Pages.LedstripsPage[6 - .NET ThreadPool Worker] 
+      2022/04/11 22:00:05.569 - [INFO]: Loading ledstrips page. 
+ 
+LedController.WebPortal.Web.Pages.LedstripsPage[10 - .NET ThreadPool Worker] 
+      2022/04/11 22:00:14.225 - [INFO]: Opening the edit ledstrip dialog. Test Controller 
+ 
+LedController.WebPortal.Web.Dialogs.LedstripFormDialog[10 - .NET ThreadPool Worker] 
+      2022/04/11 22:00:14.242 - [INFO]: Opening edit ledstrip dialog. Editing a existing ledstrip. 
+ 
+LedController.WebPortal.Web.Dialogs.LedstripFormDialog[9 - .NET ThreadPool Worker] 
+      2022/04/11 22:00:21.147 - [INFO]: Removing ledstrip from application. 
+ 
+LedController.WebPortal.Web.Dialogs.LedstripFormDialog[9 - .NET ThreadPool Worker] 
+      2022/04/11 22:00:21.166 - [INFO]: Ledstrip has been deleted. 
+ 
+LedController.WebPortal.Web.Pages.LedstripsPage[9 - .NET ThreadPool Worker] 
+      2022/04/11 22:00:21.179 - [DEBUG]: Ledstrip dialog closed reloading ledstrips page. 
+ 
+LedController.WebPortal.Web.Pages.LedstripsPage[9 - .NET ThreadPool Worker] 
+      2022/04/11 22:00:21.198 - [INFO]: Loading ledstrips page. 
+ 
+LedController.WebPortal.Web.Pages.LedstripsPage[22 - .NET ThreadPool Worker] 
+      2022/04/11 22:00:21.808 - [INFO]: Loading ledstrips page. 
+ 

@@ -1,0 +1,1056 @@
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/04/13 20:58:07.258 - [DEBUG]: Hosting starting 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/13 20:58:07.397 - [DEBUG]: Starting the discovery service. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/13 20:58:07.397 - [DEBUG]: Creating a new UDP client to be used for broadcasting the server information. This wil happen on UDP port 8472. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[6 - .NET ThreadPool Worker] 
+      2022/04/13 20:58:07.415 - [TRACE]: Start sending message to controllers to be discovered. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/13 20:58:07.415 - [DEBUG]: The discovery service has started. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/13 20:58:07.573 - [INFO]: Now listening on: http://localhost:5097 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/13 20:58:07.587 - [INFO]: Application started. Press Ctrl+C to shut down. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/13 20:58:07.587 - [INFO]: Hosting environment: Development 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/13 20:58:07.587 - [INFO]: Content root path: D:\Projects\LedController_net5\LedController.WebPortal.Web\ 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/04/13 20:58:07.587 - [DEBUG]: Hosting started 
+ 
+LedController.WebPortal.Web.Pages.Index[10 - .NET ThreadPool Worker] 
+      2022/04/13 20:58:10.695 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Pages.Index[10 - .NET ThreadPool Worker] 
+      2022/04/13 20:58:12.445 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Pages.ControllersPage[9 - .NET ThreadPool Worker] 
+      2022/04/13 20:58:25.820 - [INFO]: Opening controllers page. 
+ 
+LedController.WebPortal.Web.Pages.EffectsEditorPage[13 - .NET ThreadPool Worker] 
+      2022/04/13 20:58:30.245 - [INFO]: Loading effects page. 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[13 - .NET ThreadPool Worker] 
+      2022/04/13 20:58:30.321 - [DEBUG]: Starting effect editor for Test Effect. 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[14 - .NET ThreadPool Worker] 
+      2022/04/13 20:58:30.383 - [DEBUG]: Starting monaco editor for effect Test Effect. 
+ 
+LedController.WebPortal.Web.Pages.ControllersPage[6 - .NET ThreadPool Worker] 
+      2022/04/13 20:59:05.563 - [INFO]: Opening controllers page. 
+ 
+LedController.WebPortal.Web.Pages.ControllersPage[10 - .NET ThreadPool Worker] 
+      2022/04/13 20:59:07.003 - [INFO]: Connecting to controller Controller 1427966868. 
+ 
+LedController.WebPortal.Core.Services.ControllerService[10 - .NET ThreadPool Worker] 
+      2022/04/13 20:59:07.003 - [INFO]: Connecting to controller e429a7c8-43cf-47c0-82f7-c4711091edb6. 
+ 
+LedController.WebPortal.Infrastructure.Connections.Connections.GrpcControllerConnection[10 - .NET ThreadPool Worker] 
+      2022/04/13 20:59:07.022 - [TRACE]: Creating connection with Controller 1427966868 
+ 
+LedController.WebPortal.Core.Services.ControllerService[10 - .NET ThreadPool Worker] 
+      2022/04/13 20:59:07.069 - [INFO]: The controller has been connected. 
+ 
+LedController.WebPortal.Web.Pages.EffectsEditorPage[9 - .NET ThreadPool Worker] 
+      2022/04/13 20:59:15.791 - [INFO]: Loading effects page. 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[9 - .NET ThreadPool Worker] 
+      2022/04/13 20:59:15.806 - [DEBUG]: Starting effect editor for Test Effect. 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[15 - .NET ThreadPool Worker] 
+      2022/04/13 20:59:15.819 - [DEBUG]: Starting monaco editor for effect Test Effect. 
+ 
+LedController.WebPortal.Web.Pages.LedstripsPage[6 - .NET ThreadPool Worker] 
+      2022/04/13 20:59:20.069 - [INFO]: Loading ledstrips page. 
+ 
+LedController.WebPortal.Web.Pages.ControllersPage[6 - .NET ThreadPool Worker] 
+      2022/04/13 20:59:21.768 - [INFO]: Opening controllers page. 
+ 
+LedController.WebPortal.Web.Pages.SpiBusesPage[10 - .NET ThreadPool Worker] 
+      2022/04/13 20:59:27.383 - [INFO]: Opening the spi buses page, and loading the spi buses from the application. 
+ 
+LedController.WebPortal.Web.Pages.LedstripsPage[10 - .NET ThreadPool Worker] 
+      2022/04/13 20:59:28.260 - [INFO]: Loading ledstrips page. 
+ 
+LedController.WebPortal.Web.Pages.ControllersPage[26 - .NET ThreadPool Worker] 
+      2022/04/13 20:59:30.044 - [INFO]: Opening controllers page. 
+ 
+LedController.WebPortal.Web.Pages.Index[27 - .NET ThreadPool Worker] 
+      2022/04/13 20:59:30.597 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Pages.Index[9 - .NET ThreadPool Worker] 
+      2022/04/13 20:59:31.846 - [INFO]: Opening the play animation dialog from the index page. 
+ 
+LedController.WebPortal.Core.Managers.ControllerManager[9 - .NET ThreadPool Worker] 
+      2022/04/13 20:59:31.867 - [DEBUG]: Getting controller by spi bus Test Bus 
+ 
+LedController.WebPortal.Web.Pages.Index[6 - .NET ThreadPool Worker] 
+      2022/04/13 21:00:04.221 - [INFO]: Reloading the index page. 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/04/13 21:07:45.370 - [DEBUG]: Hosting starting 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/13 21:07:45.475 - [DEBUG]: Starting the discovery service. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/13 21:07:45.492 - [DEBUG]: Creating a new UDP client to be used for broadcasting the server information. This wil happen on UDP port 8472. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[9 - .NET ThreadPool Worker] 
+      2022/04/13 21:07:45.492 - [TRACE]: Start sending message to controllers to be discovered. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/13 21:07:45.492 - [DEBUG]: The discovery service has started. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/13 21:07:45.633 - [INFO]: Now listening on: http://localhost:5097 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/13 21:07:45.633 - [INFO]: Application started. Press Ctrl+C to shut down. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/13 21:07:45.633 - [INFO]: Hosting environment: Development 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/13 21:07:45.633 - [INFO]: Content root path: D:\Projects\LedController_net5\LedController.WebPortal.Web\ 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/04/13 21:07:45.633 - [DEBUG]: Hosting started 
+ 
+LedController.WebPortal.Web.Pages.Index[14 - .NET ThreadPool Worker] 
+      2022/04/13 21:07:47.851 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Pages.Index[12 - .NET ThreadPool Worker] 
+      2022/04/13 21:07:49.584 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Pages.Index[13 - .NET ThreadPool Worker] 
+      2022/04/13 21:07:54.100 - [INFO]: Opening the play animation dialog from the index page. 
+ 
+LedController.WebPortal.Core.Managers.ControllerManager[13 - .NET ThreadPool Worker] 
+      2022/04/13 21:07:54.132 - [DEBUG]: Getting controller by spi bus Test Bus 
+ 
+LedController.WebPortal.Web.Pages.Index[6 - .NET ThreadPool Worker] 
+      2022/04/13 21:07:57.504 - [INFO]: Select animation has been cancelled. 
+ 
+LedController.WebPortal.Web.Pages.Index[6 - .NET ThreadPool Worker] 
+      2022/04/13 21:07:57.519 - [DEBUG]: Animation Test Animation selected. 
+ 
+Microsoft.AspNetCore.Components.Server.Circuits.RemoteRenderer[6 - .NET ThreadPool Worker] 
+      2022/04/13 21:07:57.651 - [WARN]: Unhandled exception rendering component: We cannot sync a effect with a controller that is not connected. 
+ System.InvalidOperationException: We cannot sync a effect with a controller that is not connected.
+   at LedController.WebPortal.Core.Services.ControllerService.PlayAnimationOnLedstrip(Ledstrip ledstrip, Animation animation, CancellationToken token) in D:\Projects\LedController_net5\LedController.Portal.Core\Services\ControllerService.cs:line 124
+   at LedController.WebPortal.Web.Pages.Index.OpenPlayAnimationsDialogAsync(Ledstrip ledstrip) in D:\Projects\LedController_net5\LedController.WebPortal.Web\Pages\Index.razor:line 106
+   at LedController.WebPortal.Web.Pages.Index.<>c__DisplayClass0_1.<<BuildRenderTree>b__12>d.MoveNext() in D:\Projects\LedController_net5\LedController.WebPortal.Web\Pages\Index.razor:line 48
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at MudBlazor.MudBaseButton.OnClickHandler(MouseEventArgs ev)
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.GetErrorHandledTask(Task taskToHandle, ComponentState owningComponentState)
+Microsoft.AspNetCore.Components.Server.Circuits.CircuitHost[6 - .NET ThreadPool Worker] 
+      2022/04/13 21:07:57.718 - [ERROR]: Unhandled exception in circuit 'LbyZ9PNYX0jBb23SjxJMjPKhVrX10brfz02sC06ixRc'. 
+ System.InvalidOperationException: We cannot sync a effect with a controller that is not connected.
+   at LedController.WebPortal.Core.Services.ControllerService.PlayAnimationOnLedstrip(Ledstrip ledstrip, Animation animation, CancellationToken token) in D:\Projects\LedController_net5\LedController.Portal.Core\Services\ControllerService.cs:line 124
+   at LedController.WebPortal.Web.Pages.Index.OpenPlayAnimationsDialogAsync(Ledstrip ledstrip) in D:\Projects\LedController_net5\LedController.WebPortal.Web\Pages\Index.razor:line 106
+   at LedController.WebPortal.Web.Pages.Index.<>c__DisplayClass0_1.<<BuildRenderTree>b__12>d.MoveNext() in D:\Projects\LedController_net5\LedController.WebPortal.Web\Pages\Index.razor:line 48
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at MudBlazor.MudBaseButton.OnClickHandler(MouseEventArgs ev)
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.GetErrorHandledTask(Task taskToHandle, ComponentState owningComponentState)
+LedController.WebPortal.Web.Pages.Index[9 - .NET ThreadPool Worker] 
+      2022/04/13 21:08:23.718 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Pages.Index[6 - .NET ThreadPool Worker] 
+      2022/04/13 21:08:24.606 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Pages.ControllersPage[15 - .NET ThreadPool Worker] 
+      2022/04/13 21:08:26.584 - [INFO]: Opening controllers page. 
+ 
+LedController.WebPortal.Web.Pages.ControllersPage[25 - .NET ThreadPool Worker] 
+      2022/04/13 21:08:27.820 - [INFO]: Connecting to controller Controller 1427966868. 
+ 
+LedController.WebPortal.Core.Services.ControllerService[25 - .NET ThreadPool Worker] 
+      2022/04/13 21:08:27.835 - [INFO]: Connecting to controller e429a7c8-43cf-47c0-82f7-c4711091edb6. 
+ 
+LedController.WebPortal.Infrastructure.Connections.Connections.GrpcControllerConnection[25 - .NET ThreadPool Worker] 
+      2022/04/13 21:08:27.853 - [TRACE]: Creating connection with Controller 1427966868 
+ 
+LedController.WebPortal.Core.Services.ControllerService[25 - .NET ThreadPool Worker] 
+      2022/04/13 21:08:27.882 - [INFO]: The controller has been connected. 
+ 
+LedController.WebPortal.Web.Pages.Index[15 - .NET ThreadPool Worker] 
+      2022/04/13 21:08:36.753 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Pages.Index[9 - .NET ThreadPool Worker] 
+      2022/04/13 21:08:38.065 - [INFO]: Opening the play animation dialog from the index page. 
+ 
+LedController.WebPortal.Core.Managers.ControllerManager[9 - .NET ThreadPool Worker] 
+      2022/04/13 21:08:38.080 - [DEBUG]: Getting controller by spi bus Test Bus 
+ 
+LedController.WebPortal.Web.Pages.Index[9 - .NET ThreadPool Worker] 
+      2022/04/13 21:08:39.448 - [INFO]: Select animation has been cancelled. 
+ 
+LedController.WebPortal.Web.Pages.Index[9 - .NET ThreadPool Worker] 
+      2022/04/13 21:08:39.464 - [DEBUG]: Animation Test Animation selected. 
+ 
+LedController.WebPortal.Infrastructure.Connections.Connections.GrpcControllerConnection[9 - .NET ThreadPool Worker] 
+      2022/04/13 21:08:39.464 - [TRACE]: Sending message to e429a7c8-43cf-47c0-82f7-c4711091edb6, to play animation 420fb97c-e71f-41d2-9ff9-6e9c5d824336. 
+ 
+Microsoft.AspNetCore.Components.Server.Circuits.RemoteRenderer[9 - .NET ThreadPool Worker] 
+      2022/04/13 21:08:39.588 - [WARN]: Unhandled exception rendering component: Error mapping types.
+
+Mapping types:
+Animation -> Animation
+LedController.Domain.Models.Animation -> LedController.WebPortal.Infrastructure.Connections.Protos.Animation
+
+Type Map configuration:
+Animation -> Animation
+LedController.Domain.Models.Animation -> LedController.WebPortal.Infrastructure.Connections.Protos.Animation
+
+Destination Member:
+Effects
+ 
+ AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+Animation -> Animation
+LedController.Domain.Models.Animation -> LedController.WebPortal.Infrastructure.Connections.Protos.Animation
+
+Type Map configuration:
+Animation -> Animation
+LedController.Domain.Models.Animation -> LedController.WebPortal.Infrastructure.Connections.Protos.Animation
+
+Destination Member:
+Effects
+
+ ---> AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+AnimationEffect -> AnimationEffect
+LedController.Domain.Models.AnimationEffect -> LedController.WebPortal.Infrastructure.Connections.Protos.AnimationEffect
+
+Type Map configuration:
+AnimationEffect -> AnimationEffect
+LedController.Domain.Models.AnimationEffect -> LedController.WebPortal.Infrastructure.Connections.Protos.AnimationEffect
+
+Destination Member:
+Frequency
+
+ ---> AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Frequency -> Int32
+UnitsNet.Frequency -> System.Int32
+
+Destination Member:
+Frequency
+
+   at lambda_method225(Closure , Frequency , Int32 , ResolutionContext )
+   at lambda_method223(Closure , Object , Animation , ResolutionContext )
+   --- End of inner exception stack trace ---
+   at lambda_method223(Closure , Object , Animation , ResolutionContext )
+   --- End of inner exception stack trace ---
+   at lambda_method223(Closure , Object , Animation , ResolutionContext )
+   at LedController.WebPortal.Infrastructure.Connections.Connections.GrpcControllerConnection.PlayAsync(Ledstrip ledstrip, Animation animation, CancellationToken token) in D:\Projects\LedController_net5\LedController.Portal.Infrastructure.Connections\Connections\GrpcControllerConnection.cs:line 90
+   at LedController.WebPortal.Core.Services.ControllerService.PlayAnimationOnLedstrip(Ledstrip ledstrip, Animation animation, CancellationToken token) in D:\Projects\LedController_net5\LedController.Portal.Core\Services\ControllerService.cs:line 127
+   at LedController.WebPortal.Web.Pages.Index.OpenPlayAnimationsDialogAsync(Ledstrip ledstrip) in D:\Projects\LedController_net5\LedController.WebPortal.Web\Pages\Index.razor:line 106
+   at LedController.WebPortal.Web.Pages.Index.<>c__DisplayClass0_1.<<BuildRenderTree>b__12>d.MoveNext() in D:\Projects\LedController_net5\LedController.WebPortal.Web\Pages\Index.razor:line 48
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at MudBlazor.MudBaseButton.OnClickHandler(MouseEventArgs ev)
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.GetErrorHandledTask(Task taskToHandle, ComponentState owningComponentState)
+Microsoft.AspNetCore.Components.Server.Circuits.CircuitHost[9 - .NET ThreadPool Worker] 
+      2022/04/13 21:08:39.601 - [ERROR]: Unhandled exception in circuit 'h6Q__262phsx6_1NvgbN1oFVlAqgyFatEfKajI8FNV8'. 
+ AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+Animation -> Animation
+LedController.Domain.Models.Animation -> LedController.WebPortal.Infrastructure.Connections.Protos.Animation
+
+Type Map configuration:
+Animation -> Animation
+LedController.Domain.Models.Animation -> LedController.WebPortal.Infrastructure.Connections.Protos.Animation
+
+Destination Member:
+Effects
+
+ ---> AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+AnimationEffect -> AnimationEffect
+LedController.Domain.Models.AnimationEffect -> LedController.WebPortal.Infrastructure.Connections.Protos.AnimationEffect
+
+Type Map configuration:
+AnimationEffect -> AnimationEffect
+LedController.Domain.Models.AnimationEffect -> LedController.WebPortal.Infrastructure.Connections.Protos.AnimationEffect
+
+Destination Member:
+Frequency
+
+ ---> AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Frequency -> Int32
+UnitsNet.Frequency -> System.Int32
+
+Destination Member:
+Frequency
+
+   at lambda_method225(Closure , Frequency , Int32 , ResolutionContext )
+   at lambda_method223(Closure , Object , Animation , ResolutionContext )
+   --- End of inner exception stack trace ---
+   at lambda_method223(Closure , Object , Animation , ResolutionContext )
+   --- End of inner exception stack trace ---
+   at lambda_method223(Closure , Object , Animation , ResolutionContext )
+   at LedController.WebPortal.Infrastructure.Connections.Connections.GrpcControllerConnection.PlayAsync(Ledstrip ledstrip, Animation animation, CancellationToken token) in D:\Projects\LedController_net5\LedController.Portal.Infrastructure.Connections\Connections\GrpcControllerConnection.cs:line 90
+   at LedController.WebPortal.Core.Services.ControllerService.PlayAnimationOnLedstrip(Ledstrip ledstrip, Animation animation, CancellationToken token) in D:\Projects\LedController_net5\LedController.Portal.Core\Services\ControllerService.cs:line 127
+   at LedController.WebPortal.Web.Pages.Index.OpenPlayAnimationsDialogAsync(Ledstrip ledstrip) in D:\Projects\LedController_net5\LedController.WebPortal.Web\Pages\Index.razor:line 106
+   at LedController.WebPortal.Web.Pages.Index.<>c__DisplayClass0_1.<<BuildRenderTree>b__12>d.MoveNext() in D:\Projects\LedController_net5\LedController.WebPortal.Web\Pages\Index.razor:line 48
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at MudBlazor.MudBaseButton.OnClickHandler(MouseEventArgs ev)
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.GetErrorHandledTask(Task taskToHandle, ComponentState owningComponentState)
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/04/13 21:12:07.242 - [DEBUG]: Hosting starting 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/13 21:12:07.367 - [DEBUG]: Starting the discovery service. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/13 21:12:07.382 - [DEBUG]: Creating a new UDP client to be used for broadcasting the server information. This wil happen on UDP port 8472. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/13 21:12:07.382 - [DEBUG]: The discovery service has started. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[6 - .NET ThreadPool Worker] 
+      2022/04/13 21:12:07.382 - [TRACE]: Start sending message to controllers to be discovered. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/13 21:12:07.512 - [INFO]: Now listening on: http://localhost:5097 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/13 21:12:07.512 - [INFO]: Application started. Press Ctrl+C to shut down. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/13 21:12:07.512 - [INFO]: Hosting environment: Development 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/13 21:12:07.512 - [INFO]: Content root path: D:\Projects\LedController_net5\LedController.WebPortal.Web\ 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/04/13 21:12:07.512 - [DEBUG]: Hosting started 
+ 
+LedController.WebPortal.Web.Pages.Index[10 - .NET ThreadPool Worker] 
+      2022/04/13 21:12:13.523 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Pages.Index[14 - .NET ThreadPool Worker] 
+      2022/04/13 21:12:15.086 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Pages.ControllersPage[9 - .NET ThreadPool Worker] 
+      2022/04/13 21:12:17.898 - [INFO]: Opening controllers page. 
+ 
+LedController.WebPortal.Web.Pages.ControllersPage[9 - .NET ThreadPool Worker] 
+      2022/04/13 21:12:20.436 - [INFO]: Connecting to controller Controller 1427966868. 
+ 
+LedController.WebPortal.Core.Services.ControllerService[9 - .NET ThreadPool Worker] 
+      2022/04/13 21:12:20.451 - [INFO]: Connecting to controller e429a7c8-43cf-47c0-82f7-c4711091edb6. 
+ 
+LedController.WebPortal.Infrastructure.Connections.Connections.GrpcControllerConnection[9 - .NET ThreadPool Worker] 
+      2022/04/13 21:12:20.459 - [TRACE]: Creating connection with Controller 1427966868 
+ 
+LedController.WebPortal.Core.Services.ControllerService[9 - .NET ThreadPool Worker] 
+      2022/04/13 21:12:20.507 - [INFO]: The controller has been connected. 
+ 
+LedController.WebPortal.Web.Pages.Index[10 - .NET ThreadPool Worker] 
+      2022/04/13 21:12:22.939 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Pages.Index[13 - .NET ThreadPool Worker] 
+      2022/04/13 21:12:23.873 - [INFO]: Opening the play animation dialog from the index page. 
+ 
+LedController.WebPortal.Core.Managers.ControllerManager[13 - .NET ThreadPool Worker] 
+      2022/04/13 21:12:23.892 - [DEBUG]: Getting controller by spi bus Test Bus 
+ 
+LedController.WebPortal.Web.Pages.Index[6 - .NET ThreadPool Worker] 
+      2022/04/13 21:12:27.976 - [INFO]: Select animation has been cancelled. 
+ 
+LedController.WebPortal.Web.Pages.Index[6 - .NET ThreadPool Worker] 
+      2022/04/13 21:12:27.992 - [DEBUG]: Animation Test Animation selected. 
+ 
+LedController.WebPortal.Infrastructure.Connections.Connections.GrpcControllerConnection[6 - .NET ThreadPool Worker] 
+      2022/04/13 21:12:27.992 - [TRACE]: Sending message to e429a7c8-43cf-47c0-82f7-c4711091edb6, to play animation 420fb97c-e71f-41d2-9ff9-6e9c5d824336. 
+ 
+Microsoft.AspNetCore.Components.Server.Circuits.RemoteRenderer[6 - .NET ThreadPool Worker] 
+      2022/04/13 21:12:28.142 - [WARN]: Unhandled exception rendering component: Error mapping types.
+
+Mapping types:
+Animation -> Animation
+LedController.Domain.Models.Animation -> LedController.WebPortal.Infrastructure.Connections.Protos.Animation
+
+Type Map configuration:
+Animation -> Animation
+LedController.Domain.Models.Animation -> LedController.WebPortal.Infrastructure.Connections.Protos.Animation
+
+Destination Member:
+Effects
+ 
+ AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+Animation -> Animation
+LedController.Domain.Models.Animation -> LedController.WebPortal.Infrastructure.Connections.Protos.Animation
+
+Type Map configuration:
+Animation -> Animation
+LedController.Domain.Models.Animation -> LedController.WebPortal.Infrastructure.Connections.Protos.Animation
+
+Destination Member:
+Effects
+
+ ---> AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+AnimationEffect -> AnimationEffect
+LedController.Domain.Models.AnimationEffect -> LedController.WebPortal.Infrastructure.Connections.Protos.AnimationEffect
+
+Type Map configuration:
+AnimationEffect -> AnimationEffect
+LedController.Domain.Models.AnimationEffect -> LedController.WebPortal.Infrastructure.Connections.Protos.AnimationEffect
+
+Destination Member:
+Frequency
+
+ ---> AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Frequency -> Int32
+UnitsNet.Frequency -> System.Int32
+
+Destination Member:
+Frequency
+
+   at lambda_method214(Closure , Frequency , Int32 , ResolutionContext )
+   at lambda_method212(Closure , Object , Animation , ResolutionContext )
+   --- End of inner exception stack trace ---
+   at lambda_method212(Closure , Object , Animation , ResolutionContext )
+   --- End of inner exception stack trace ---
+   at lambda_method212(Closure , Object , Animation , ResolutionContext )
+   at LedController.WebPortal.Infrastructure.Connections.Connections.GrpcControllerConnection.PlayAsync(Ledstrip ledstrip, Animation animation, CancellationToken token) in D:\Projects\LedController_net5\LedController.Portal.Infrastructure.Connections\Connections\GrpcControllerConnection.cs:line 90
+   at LedController.WebPortal.Core.Services.ControllerService.PlayAnimationOnLedstrip(Ledstrip ledstrip, Animation animation, CancellationToken token) in D:\Projects\LedController_net5\LedController.Portal.Core\Services\ControllerService.cs:line 127
+   at LedController.WebPortal.Web.Pages.Index.OpenPlayAnimationsDialogAsync(Ledstrip ledstrip) in D:\Projects\LedController_net5\LedController.WebPortal.Web\Pages\Index.razor:line 106
+   at LedController.WebPortal.Web.Pages.Index.<>c__DisplayClass0_1.<<BuildRenderTree>b__12>d.MoveNext() in D:\Projects\LedController_net5\LedController.WebPortal.Web\Pages\Index.razor:line 48
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at MudBlazor.MudBaseButton.OnClickHandler(MouseEventArgs ev)
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.GetErrorHandledTask(Task taskToHandle, ComponentState owningComponentState)
+Microsoft.AspNetCore.Components.Server.Circuits.CircuitHost[6 - .NET ThreadPool Worker] 
+      2022/04/13 21:12:28.185 - [ERROR]: Unhandled exception in circuit '43Rt8xMNgYUI5qdj7SxYLCiLB7Yrn7DszFMENDKcXQk'. 
+ AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+Animation -> Animation
+LedController.Domain.Models.Animation -> LedController.WebPortal.Infrastructure.Connections.Protos.Animation
+
+Type Map configuration:
+Animation -> Animation
+LedController.Domain.Models.Animation -> LedController.WebPortal.Infrastructure.Connections.Protos.Animation
+
+Destination Member:
+Effects
+
+ ---> AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+AnimationEffect -> AnimationEffect
+LedController.Domain.Models.AnimationEffect -> LedController.WebPortal.Infrastructure.Connections.Protos.AnimationEffect
+
+Type Map configuration:
+AnimationEffect -> AnimationEffect
+LedController.Domain.Models.AnimationEffect -> LedController.WebPortal.Infrastructure.Connections.Protos.AnimationEffect
+
+Destination Member:
+Frequency
+
+ ---> AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+Frequency -> Int32
+UnitsNet.Frequency -> System.Int32
+
+Destination Member:
+Frequency
+
+   at lambda_method214(Closure , Frequency , Int32 , ResolutionContext )
+   at lambda_method212(Closure , Object , Animation , ResolutionContext )
+   --- End of inner exception stack trace ---
+   at lambda_method212(Closure , Object , Animation , ResolutionContext )
+   --- End of inner exception stack trace ---
+   at lambda_method212(Closure , Object , Animation , ResolutionContext )
+   at LedController.WebPortal.Infrastructure.Connections.Connections.GrpcControllerConnection.PlayAsync(Ledstrip ledstrip, Animation animation, CancellationToken token) in D:\Projects\LedController_net5\LedController.Portal.Infrastructure.Connections\Connections\GrpcControllerConnection.cs:line 90
+   at LedController.WebPortal.Core.Services.ControllerService.PlayAnimationOnLedstrip(Ledstrip ledstrip, Animation animation, CancellationToken token) in D:\Projects\LedController_net5\LedController.Portal.Core\Services\ControllerService.cs:line 127
+   at LedController.WebPortal.Web.Pages.Index.OpenPlayAnimationsDialogAsync(Ledstrip ledstrip) in D:\Projects\LedController_net5\LedController.WebPortal.Web\Pages\Index.razor:line 106
+   at LedController.WebPortal.Web.Pages.Index.<>c__DisplayClass0_1.<<BuildRenderTree>b__12>d.MoveNext() in D:\Projects\LedController_net5\LedController.WebPortal.Web\Pages\Index.razor:line 48
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at MudBlazor.MudBaseButton.OnClickHandler(MouseEventArgs ev)
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.GetErrorHandledTask(Task taskToHandle, ComponentState owningComponentState)
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/04/13 21:15:33.858 - [DEBUG]: Hosting starting 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/13 21:15:33.960 - [DEBUG]: Starting the discovery service. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/13 21:15:33.960 - [DEBUG]: Creating a new UDP client to be used for broadcasting the server information. This wil happen on UDP port 8472. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[6 - .NET ThreadPool Worker] 
+      2022/04/13 21:15:33.976 - [TRACE]: Start sending message to controllers to be discovered. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/13 21:15:33.976 - [DEBUG]: The discovery service has started. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/13 21:15:34.116 - [INFO]: Now listening on: http://localhost:5097 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/13 21:15:34.116 - [INFO]: Application started. Press Ctrl+C to shut down. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/13 21:15:34.116 - [INFO]: Hosting environment: Development 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/13 21:15:34.116 - [INFO]: Content root path: D:\Projects\LedController_net5\LedController.WebPortal.Web\ 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/04/13 21:15:34.132 - [DEBUG]: Hosting started 
+ 
+LedController.WebPortal.Web.Pages.Index[10 - .NET ThreadPool Worker] 
+      2022/04/13 21:15:36.413 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Pages.Index[6 - .NET ThreadPool Worker] 
+      2022/04/13 21:15:38.105 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Pages.ControllersPage[18 - .NET ThreadPool Worker] 
+      2022/04/13 21:15:41.491 - [INFO]: Opening controllers page. 
+ 
+LedController.WebPortal.Web.Pages.ControllersPage[10 - .NET ThreadPool Worker] 
+      2022/04/13 21:15:42.266 - [INFO]: Connecting to controller Controller 1427966868. 
+ 
+LedController.WebPortal.Core.Services.ControllerService[10 - .NET ThreadPool Worker] 
+      2022/04/13 21:15:42.266 - [INFO]: Connecting to controller e429a7c8-43cf-47c0-82f7-c4711091edb6. 
+ 
+LedController.WebPortal.Infrastructure.Connections.Connections.GrpcControllerConnection[10 - .NET ThreadPool Worker] 
+      2022/04/13 21:15:42.272 - [TRACE]: Creating connection with Controller 1427966868 
+ 
+LedController.WebPortal.Core.Services.ControllerService[10 - .NET ThreadPool Worker] 
+      2022/04/13 21:15:42.311 - [INFO]: The controller has been connected. 
+ 
+LedController.WebPortal.Web.Pages.Index[9 - .NET ThreadPool Worker] 
+      2022/04/13 21:15:43.339 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Pages.Index[9 - .NET ThreadPool Worker] 
+      2022/04/13 21:15:45.120 - [INFO]: Opening the play animation dialog from the index page. 
+ 
+LedController.WebPortal.Core.Managers.ControllerManager[9 - .NET ThreadPool Worker] 
+      2022/04/13 21:15:45.147 - [DEBUG]: Getting controller by spi bus Test Bus 
+ 
+LedController.WebPortal.Web.Pages.Index[6 - .NET ThreadPool Worker] 
+      2022/04/13 21:15:49.667 - [INFO]: Select animation has been cancelled. 
+ 
+LedController.WebPortal.Web.Pages.Index[6 - .NET ThreadPool Worker] 
+      2022/04/13 21:15:49.681 - [DEBUG]: Animation Test Animation selected. 
+ 
+LedController.WebPortal.Infrastructure.Connections.Connections.GrpcControllerConnection[6 - .NET ThreadPool Worker] 
+      2022/04/13 21:15:49.681 - [TRACE]: Sending message to e429a7c8-43cf-47c0-82f7-c4711091edb6, to play animation 420fb97c-e71f-41d2-9ff9-6e9c5d824336. 
+ 
+Microsoft.AspNetCore.Components.Server.Circuits.RemoteRenderer[6 - .NET ThreadPool Worker] 
+      2022/04/13 21:15:49.828 - [WARN]: Unhandled exception rendering component: Error mapping types.
+
+Mapping types:
+Animation -> Animation
+LedController.Domain.Models.Animation -> LedController.WebPortal.Infrastructure.Connections.Protos.Animation
+
+Type Map configuration:
+Animation -> Animation
+LedController.Domain.Models.Animation -> LedController.WebPortal.Infrastructure.Connections.Protos.Animation
+
+Destination Member:
+Effects
+ 
+ AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+Animation -> Animation
+LedController.Domain.Models.Animation -> LedController.WebPortal.Infrastructure.Connections.Protos.Animation
+
+Type Map configuration:
+Animation -> Animation
+LedController.Domain.Models.Animation -> LedController.WebPortal.Infrastructure.Connections.Protos.Animation
+
+Destination Member:
+Effects
+
+ ---> AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+AnimationEffect -> AnimationEffect
+LedController.Domain.Models.AnimationEffect -> LedController.WebPortal.Infrastructure.Connections.Protos.AnimationEffect
+
+Type Map configuration:
+AnimationEffect -> AnimationEffect
+LedController.Domain.Models.AnimationEffect -> LedController.WebPortal.Infrastructure.Connections.Protos.AnimationEffect
+
+Destination Member:
+Duration
+
+ ---> AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+TimeSpan -> Int64
+System.TimeSpan -> System.Int64
+
+Destination Member:
+Duration
+
+   at lambda_method214(Closure , TimeSpan , Int64 , ResolutionContext )
+   at lambda_method212(Closure , Object , Animation , ResolutionContext )
+   --- End of inner exception stack trace ---
+   at lambda_method212(Closure , Object , Animation , ResolutionContext )
+   --- End of inner exception stack trace ---
+   at lambda_method212(Closure , Object , Animation , ResolutionContext )
+   at LedController.WebPortal.Infrastructure.Connections.Connections.GrpcControllerConnection.PlayAsync(Ledstrip ledstrip, Animation animation, CancellationToken token) in D:\Projects\LedController_net5\LedController.Portal.Infrastructure.Connections\Connections\GrpcControllerConnection.cs:line 90
+   at LedController.WebPortal.Core.Services.ControllerService.PlayAnimationOnLedstrip(Ledstrip ledstrip, Animation animation, CancellationToken token) in D:\Projects\LedController_net5\LedController.Portal.Core\Services\ControllerService.cs:line 127
+   at LedController.WebPortal.Web.Pages.Index.OpenPlayAnimationsDialogAsync(Ledstrip ledstrip) in D:\Projects\LedController_net5\LedController.WebPortal.Web\Pages\Index.razor:line 106
+   at LedController.WebPortal.Web.Pages.Index.<>c__DisplayClass0_1.<<BuildRenderTree>b__12>d.MoveNext() in D:\Projects\LedController_net5\LedController.WebPortal.Web\Pages\Index.razor:line 48
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at MudBlazor.MudBaseButton.OnClickHandler(MouseEventArgs ev)
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.GetErrorHandledTask(Task taskToHandle, ComponentState owningComponentState)
+Microsoft.AspNetCore.Components.Server.Circuits.CircuitHost[6 - .NET ThreadPool Worker] 
+      2022/04/13 21:15:49.870 - [ERROR]: Unhandled exception in circuit 'iLYu1JUhnLcVfseLL5pVWoRPJjEu4-0oBjVdXisMKkA'. 
+ AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+Animation -> Animation
+LedController.Domain.Models.Animation -> LedController.WebPortal.Infrastructure.Connections.Protos.Animation
+
+Type Map configuration:
+Animation -> Animation
+LedController.Domain.Models.Animation -> LedController.WebPortal.Infrastructure.Connections.Protos.Animation
+
+Destination Member:
+Effects
+
+ ---> AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+AnimationEffect -> AnimationEffect
+LedController.Domain.Models.AnimationEffect -> LedController.WebPortal.Infrastructure.Connections.Protos.AnimationEffect
+
+Type Map configuration:
+AnimationEffect -> AnimationEffect
+LedController.Domain.Models.AnimationEffect -> LedController.WebPortal.Infrastructure.Connections.Protos.AnimationEffect
+
+Destination Member:
+Duration
+
+ ---> AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+TimeSpan -> Int64
+System.TimeSpan -> System.Int64
+
+Destination Member:
+Duration
+
+   at lambda_method214(Closure , TimeSpan , Int64 , ResolutionContext )
+   at lambda_method212(Closure , Object , Animation , ResolutionContext )
+   --- End of inner exception stack trace ---
+   at lambda_method212(Closure , Object , Animation , ResolutionContext )
+   --- End of inner exception stack trace ---
+   at lambda_method212(Closure , Object , Animation , ResolutionContext )
+   at LedController.WebPortal.Infrastructure.Connections.Connections.GrpcControllerConnection.PlayAsync(Ledstrip ledstrip, Animation animation, CancellationToken token) in D:\Projects\LedController_net5\LedController.Portal.Infrastructure.Connections\Connections\GrpcControllerConnection.cs:line 90
+   at LedController.WebPortal.Core.Services.ControllerService.PlayAnimationOnLedstrip(Ledstrip ledstrip, Animation animation, CancellationToken token) in D:\Projects\LedController_net5\LedController.Portal.Core\Services\ControllerService.cs:line 127
+   at LedController.WebPortal.Web.Pages.Index.OpenPlayAnimationsDialogAsync(Ledstrip ledstrip) in D:\Projects\LedController_net5\LedController.WebPortal.Web\Pages\Index.razor:line 106
+   at LedController.WebPortal.Web.Pages.Index.<>c__DisplayClass0_1.<<BuildRenderTree>b__12>d.MoveNext() in D:\Projects\LedController_net5\LedController.WebPortal.Web\Pages\Index.razor:line 48
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at MudBlazor.MudBaseButton.OnClickHandler(MouseEventArgs ev)
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.GetErrorHandledTask(Task taskToHandle, ComponentState owningComponentState)
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/04/13 23:03:49.357 - [DEBUG]: Hosting starting 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/13 23:03:49.444 - [DEBUG]: Starting the discovery service. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/13 23:03:49.444 - [DEBUG]: Creating a new UDP client to be used for broadcasting the server information. This wil happen on UDP port 8472. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[9 - .NET ThreadPool Worker] 
+      2022/04/13 23:03:49.464 - [TRACE]: Start sending message to controllers to be discovered. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/13 23:03:49.464 - [DEBUG]: The discovery service has started. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/13 23:03:49.588 - [INFO]: Now listening on: http://localhost:5097 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/13 23:03:49.601 - [INFO]: Application started. Press Ctrl+C to shut down. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/13 23:03:49.601 - [INFO]: Hosting environment: Development 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/13 23:03:49.601 - [INFO]: Content root path: D:\Projects\LedController_net5\LedController.WebPortal.Web\ 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/04/13 23:03:49.601 - [DEBUG]: Hosting started 
+ 
+LedController.WebPortal.Web.Pages.Index[6 - .NET ThreadPool Worker] 
+      2022/04/13 23:03:51.820 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Pages.Index[10 - .NET ThreadPool Worker] 
+      2022/04/13 23:03:53.590 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Pages.ControllersPage[9 - .NET ThreadPool Worker] 
+      2022/04/13 23:03:54.946 - [INFO]: Opening controllers page. 
+ 
+LedController.WebPortal.Web.Pages.ControllersPage[9 - .NET ThreadPool Worker] 
+      2022/04/13 23:03:56.768 - [INFO]: Connecting to controller Controller 1427966868. 
+ 
+LedController.WebPortal.Core.Services.ControllerService[9 - .NET ThreadPool Worker] 
+      2022/04/13 23:03:56.783 - [INFO]: Connecting to controller e429a7c8-43cf-47c0-82f7-c4711091edb6. 
+ 
+LedController.WebPortal.Infrastructure.Connections.Connections.GrpcControllerConnection[9 - .NET ThreadPool Worker] 
+      2022/04/13 23:03:56.788 - [TRACE]: Creating connection with Controller 1427966868 
+ 
+LedController.WebPortal.Core.Services.ControllerService[9 - .NET ThreadPool Worker] 
+      2022/04/13 23:03:56.823 - [INFO]: The controller has been connected. 
+ 
+LedController.WebPortal.Web.Pages.LedstripsPage[10 - .NET ThreadPool Worker] 
+      2022/04/13 23:03:58.512 - [INFO]: Loading ledstrips page. 
+ 
+LedController.WebPortal.Web.Pages.SpiBusesPage[9 - .NET ThreadPool Worker] 
+      2022/04/13 23:03:59.116 - [INFO]: Opening the spi buses page, and loading the spi buses from the application. 
+ 
+LedController.WebPortal.Web.Pages.ControllersPage[9 - .NET ThreadPool Worker] 
+      2022/04/13 23:04:00.546 - [INFO]: Opening controllers page. 
+ 
+LedController.WebPortal.Web.Pages.Index[15 - .NET ThreadPool Worker] 
+      2022/04/13 23:04:00.928 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Pages.Index[18 - .NET ThreadPool Worker] 
+      2022/04/13 23:04:01.928 - [INFO]: Opening the play animation dialog from the index page. 
+ 
+LedController.WebPortal.Core.Managers.ControllerManager[18 - .NET ThreadPool Worker] 
+      2022/04/13 23:04:01.945 - [DEBUG]: Getting controller by spi bus Test Bus 
+ 
+LedController.WebPortal.Web.Pages.Index[13 - .NET ThreadPool Worker] 
+      2022/04/13 23:04:04.367 - [INFO]: Select animation has been cancelled. 
+ 
+LedController.WebPortal.Web.Pages.Index[13 - .NET ThreadPool Worker] 
+      2022/04/13 23:04:04.367 - [DEBUG]: Animation Test Animation selected. 
+ 
+LedController.WebPortal.Infrastructure.Connections.Connections.GrpcControllerConnection[13 - .NET ThreadPool Worker] 
+      2022/04/13 23:04:04.367 - [TRACE]: Sending message to e429a7c8-43cf-47c0-82f7-c4711091edb6, to play animation 420fb97c-e71f-41d2-9ff9-6e9c5d824336. 
+ 
+Microsoft.AspNetCore.Components.Server.Circuits.RemoteRenderer[13 - .NET ThreadPool Worker] 
+      2022/04/13 23:04:04.513 - [WARN]: Unhandled exception rendering component: Error mapping types.
+
+Mapping types:
+Animation -> Animation
+LedController.Domain.Models.Animation -> LedController.WebPortal.Infrastructure.Connections.Protos.Animation
+
+Type Map configuration:
+Animation -> Animation
+LedController.Domain.Models.Animation -> LedController.WebPortal.Infrastructure.Connections.Protos.Animation
+
+Destination Member:
+Effects
+ 
+ AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+Animation -> Animation
+LedController.Domain.Models.Animation -> LedController.WebPortal.Infrastructure.Connections.Protos.Animation
+
+Type Map configuration:
+Animation -> Animation
+LedController.Domain.Models.Animation -> LedController.WebPortal.Infrastructure.Connections.Protos.Animation
+
+Destination Member:
+Effects
+
+ ---> AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+AnimationEffect -> AnimationEffect
+LedController.Domain.Models.AnimationEffect -> LedController.WebPortal.Infrastructure.Connections.Protos.AnimationEffect
+
+Type Map configuration:
+AnimationEffect -> AnimationEffect
+LedController.Domain.Models.AnimationEffect -> LedController.WebPortal.Infrastructure.Connections.Protos.AnimationEffect
+
+Destination Member:
+Duration
+
+ ---> AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+TimeSpan -> Int64
+System.TimeSpan -> System.Int64
+
+Destination Member:
+Duration
+
+   at lambda_method217(Closure , TimeSpan , Int64 , ResolutionContext )
+   at lambda_method215(Closure , Object , Animation , ResolutionContext )
+   --- End of inner exception stack trace ---
+   at lambda_method215(Closure , Object , Animation , ResolutionContext )
+   --- End of inner exception stack trace ---
+   at lambda_method215(Closure , Object , Animation , ResolutionContext )
+   at LedController.WebPortal.Infrastructure.Connections.Connections.GrpcControllerConnection.PlayAsync(Ledstrip ledstrip, Animation animation, CancellationToken token) in D:\Projects\LedController_net5\LedController.Portal.Infrastructure.Connections\Connections\GrpcControllerConnection.cs:line 90
+   at LedController.WebPortal.Core.Services.ControllerService.PlayAnimationOnLedstrip(Ledstrip ledstrip, Animation animation, CancellationToken token) in D:\Projects\LedController_net5\LedController.Portal.Core\Services\ControllerService.cs:line 127
+   at LedController.WebPortal.Web.Pages.Index.OpenPlayAnimationsDialogAsync(Ledstrip ledstrip) in D:\Projects\LedController_net5\LedController.WebPortal.Web\Pages\Index.razor:line 106
+   at LedController.WebPortal.Web.Pages.Index.<>c__DisplayClass0_1.<<BuildRenderTree>b__12>d.MoveNext() in D:\Projects\LedController_net5\LedController.WebPortal.Web\Pages\Index.razor:line 48
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at MudBlazor.MudBaseButton.OnClickHandler(MouseEventArgs ev)
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.GetErrorHandledTask(Task taskToHandle, ComponentState owningComponentState)
+Microsoft.AspNetCore.Components.Server.Circuits.CircuitHost[13 - .NET ThreadPool Worker] 
+      2022/04/13 23:04:04.557 - [ERROR]: Unhandled exception in circuit 'uWdpq1IEbpL2To2dXWwkHeo09NyzBbn1ZTxVZtC9pgo'. 
+ AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+Animation -> Animation
+LedController.Domain.Models.Animation -> LedController.WebPortal.Infrastructure.Connections.Protos.Animation
+
+Type Map configuration:
+Animation -> Animation
+LedController.Domain.Models.Animation -> LedController.WebPortal.Infrastructure.Connections.Protos.Animation
+
+Destination Member:
+Effects
+
+ ---> AutoMapper.AutoMapperMappingException: Error mapping types.
+
+Mapping types:
+AnimationEffect -> AnimationEffect
+LedController.Domain.Models.AnimationEffect -> LedController.WebPortal.Infrastructure.Connections.Protos.AnimationEffect
+
+Type Map configuration:
+AnimationEffect -> AnimationEffect
+LedController.Domain.Models.AnimationEffect -> LedController.WebPortal.Infrastructure.Connections.Protos.AnimationEffect
+
+Destination Member:
+Duration
+
+ ---> AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+TimeSpan -> Int64
+System.TimeSpan -> System.Int64
+
+Destination Member:
+Duration
+
+   at lambda_method217(Closure , TimeSpan , Int64 , ResolutionContext )
+   at lambda_method215(Closure , Object , Animation , ResolutionContext )
+   --- End of inner exception stack trace ---
+   at lambda_method215(Closure , Object , Animation , ResolutionContext )
+   --- End of inner exception stack trace ---
+   at lambda_method215(Closure , Object , Animation , ResolutionContext )
+   at LedController.WebPortal.Infrastructure.Connections.Connections.GrpcControllerConnection.PlayAsync(Ledstrip ledstrip, Animation animation, CancellationToken token) in D:\Projects\LedController_net5\LedController.Portal.Infrastructure.Connections\Connections\GrpcControllerConnection.cs:line 90
+   at LedController.WebPortal.Core.Services.ControllerService.PlayAnimationOnLedstrip(Ledstrip ledstrip, Animation animation, CancellationToken token) in D:\Projects\LedController_net5\LedController.Portal.Core\Services\ControllerService.cs:line 127
+   at LedController.WebPortal.Web.Pages.Index.OpenPlayAnimationsDialogAsync(Ledstrip ledstrip) in D:\Projects\LedController_net5\LedController.WebPortal.Web\Pages\Index.razor:line 106
+   at LedController.WebPortal.Web.Pages.Index.<>c__DisplayClass0_1.<<BuildRenderTree>b__12>d.MoveNext() in D:\Projects\LedController_net5\LedController.WebPortal.Web\Pages\Index.razor:line 48
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at MudBlazor.MudBaseButton.OnClickHandler(MouseEventArgs ev)
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.GetErrorHandledTask(Task taskToHandle, ComponentState owningComponentState)
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/04/13 23:05:14.463 - [DEBUG]: Hosting starting 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/13 23:05:14.569 - [DEBUG]: Starting the discovery service. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/13 23:05:14.569 - [DEBUG]: Creating a new UDP client to be used for broadcasting the server information. This wil happen on UDP port 8472. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[9 - .NET ThreadPool Worker] 
+      2022/04/13 23:05:14.587 - [TRACE]: Start sending message to controllers to be discovered. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/13 23:05:14.587 - [DEBUG]: The discovery service has started. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/13 23:05:14.711 - [INFO]: Now listening on: http://localhost:5097 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/13 23:05:14.726 - [INFO]: Application started. Press Ctrl+C to shut down. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/13 23:05:14.726 - [INFO]: Hosting environment: Development 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/13 23:05:14.726 - [INFO]: Content root path: D:\Projects\LedController_net5\LedController.WebPortal.Web\ 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/04/13 23:05:14.726 - [DEBUG]: Hosting started 
+ 
+LedController.WebPortal.Web.Pages.Index[9 - .NET ThreadPool Worker] 
+      2022/04/13 23:05:17.070 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Pages.Index[13 - .NET ThreadPool Worker] 
+      2022/04/13 23:05:18.785 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Pages.ControllersPage[9 - .NET ThreadPool Worker] 
+      2022/04/13 23:05:20.788 - [INFO]: Opening controllers page. 
+ 
+LedController.WebPortal.Web.Pages.ControllersPage[15 - .NET ThreadPool Worker] 
+      2022/04/13 23:05:21.437 - [INFO]: Connecting to controller Controller 1427966868. 
+ 
+LedController.WebPortal.Core.Services.ControllerService[15 - .NET ThreadPool Worker] 
+      2022/04/13 23:05:21.452 - [INFO]: Connecting to controller e429a7c8-43cf-47c0-82f7-c4711091edb6. 
+ 
+LedController.WebPortal.Infrastructure.Connections.Connections.GrpcControllerConnection[15 - .NET ThreadPool Worker] 
+      2022/04/13 23:05:21.460 - [TRACE]: Creating connection with Controller 1427966868 
+ 
+LedController.WebPortal.Core.Services.ControllerService[15 - .NET ThreadPool Worker] 
+      2022/04/13 23:05:21.507 - [INFO]: The controller has been connected. 
+ 
+LedController.WebPortal.Web.Pages.Index[9 - .NET ThreadPool Worker] 
+      2022/04/13 23:05:22.867 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Pages.Index[6 - .NET ThreadPool Worker] 
+      2022/04/13 23:05:23.710 - [INFO]: Opening the play animation dialog from the index page. 
+ 
+LedController.WebPortal.Core.Managers.ControllerManager[6 - .NET ThreadPool Worker] 
+      2022/04/13 23:05:23.725 - [DEBUG]: Getting controller by spi bus Test Bus 
+ 
+LedController.WebPortal.Web.Pages.Index[12 - .NET ThreadPool Worker] 
+      2022/04/13 23:05:27.964 - [INFO]: Select animation has been cancelled. 
+ 
+LedController.WebPortal.Web.Pages.Index[12 - .NET ThreadPool Worker] 
+      2022/04/13 23:05:27.979 - [DEBUG]: Animation Test Animation selected. 
+ 
+LedController.WebPortal.Infrastructure.Connections.Connections.GrpcControllerConnection[12 - .NET ThreadPool Worker] 
+      2022/04/13 23:05:27.979 - [TRACE]: Sending message to e429a7c8-43cf-47c0-82f7-c4711091edb6, to play animation 420fb97c-e71f-41d2-9ff9-6e9c5d824336. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[12 - .NET ThreadPool Worker] 
+      2022/04/13 23:05:28.031 - [DEBUG]: Starting gRPC call. Method type: 'Unary', URI: 'http://127.0.0.1:5229/connection.GrpcConnection/PlayAnimationOnLedstrip'. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[6 - .NET ThreadPool Worker] 
+      2022/04/13 23:05:30.137 - [ERROR]: Error starting gRPC call. 
+ System.Net.Http.HttpRequestException: No connection could be made because the target machine actively refused it. (127.0.0.1:5229)
+ ---> System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp2ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp2ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at Grpc.Net.Client.Internal.GrpcCall`2.RunCall(HttpRequestMessage request, Nullable`1 timeout)
+Grpc.Net.Client.Internal.GrpcCall[6 - .NET ThreadPool Worker] 
+      2022/04/13 23:05:30.164 - [INFO]: Call failed with gRPC error status. Status code: 'Unavailable', Message: 'Error starting gRPC call. HttpRequestException: No connection could be made because the target machine actively refused it. (127.0.0.1:5229) SocketException: No connection could be made because the target machine actively refused it.'. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[6 - .NET ThreadPool Worker] 
+      2022/04/13 23:05:30.164 - [DEBUG]: Finished gRPC call. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[6 - .NET ThreadPool Worker] 
+      2022/04/13 23:05:30.164 - [DEBUG]: gRPC call canceled. 
+ 
+Microsoft.AspNetCore.Components.Server.Circuits.RemoteRenderer[9 - .NET ThreadPool Worker] 
+      2022/04/13 23:05:30.256 - [WARN]: Unhandled exception rendering component: Status(StatusCode="Unavailable", Detail="Error starting gRPC call. HttpRequestException: No connection could be made because the target machine actively refused it. (127.0.0.1:5229) SocketException: No connection could be made because the target machine actively refused it.", DebugException="System.Net.Http.HttpRequestException: No connection could be made because the target machine actively refused it. (127.0.0.1:5229)
+ ---> System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp2ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp2ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at Grpc.Net.Client.Internal.GrpcCall`2.RunCall(HttpRequestMessage request, Nullable`1 timeout)") 
+ Grpc.Core.RpcException: Status(StatusCode="Unavailable", Detail="Error starting gRPC call. HttpRequestException: No connection could be made because the target machine actively refused it. (127.0.0.1:5229) SocketException: No connection could be made because the target machine actively refused it.", DebugException="System.Net.Http.HttpRequestException: No connection could be made because the target machine actively refused it. (127.0.0.1:5229)
+ ---> System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp2ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp2ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at Grpc.Net.Client.Internal.GrpcCall`2.RunCall(HttpRequestMessage request, Nullable`1 timeout)")
+   at LedController.WebPortal.Infrastructure.Connections.Connections.GrpcControllerConnection.PlayAsync(Ledstrip ledstrip, Animation animation, CancellationToken token) in D:\Projects\LedController_net5\LedController.Portal.Infrastructure.Connections\Connections\GrpcControllerConnection.cs:line 90
+   at LedController.WebPortal.Core.Services.ControllerService.PlayAnimationOnLedstrip(Ledstrip ledstrip, Animation animation, CancellationToken token) in D:\Projects\LedController_net5\LedController.Portal.Core\Services\ControllerService.cs:line 127
+   at LedController.WebPortal.Web.Pages.Index.OpenPlayAnimationsDialogAsync(Ledstrip ledstrip) in D:\Projects\LedController_net5\LedController.WebPortal.Web\Pages\Index.razor:line 106
+   at LedController.WebPortal.Web.Pages.Index.<>c__DisplayClass0_1.<<BuildRenderTree>b__12>d.MoveNext() in D:\Projects\LedController_net5\LedController.WebPortal.Web\Pages\Index.razor:line 48
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at MudBlazor.MudBaseButton.OnClickHandler(MouseEventArgs ev)
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.GetErrorHandledTask(Task taskToHandle, ComponentState owningComponentState)
+Microsoft.AspNetCore.Components.Server.Circuits.CircuitHost[9 - .NET ThreadPool Worker] 
+      2022/04/13 23:05:30.274 - [ERROR]: Unhandled exception in circuit '_XXdjHE7LHtApA-H2HGckeS7TR95t_k54ByMPaDpBSE'. 
+ Grpc.Core.RpcException: Status(StatusCode="Unavailable", Detail="Error starting gRPC call. HttpRequestException: No connection could be made because the target machine actively refused it. (127.0.0.1:5229) SocketException: No connection could be made because the target machine actively refused it.", DebugException="System.Net.Http.HttpRequestException: No connection could be made because the target machine actively refused it. (127.0.0.1:5229)
+ ---> System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp2ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp2ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at Grpc.Net.Client.Internal.GrpcCall`2.RunCall(HttpRequestMessage request, Nullable`1 timeout)")
+   at LedController.WebPortal.Infrastructure.Connections.Connections.GrpcControllerConnection.PlayAsync(Ledstrip ledstrip, Animation animation, CancellationToken token) in D:\Projects\LedController_net5\LedController.Portal.Infrastructure.Connections\Connections\GrpcControllerConnection.cs:line 90
+   at LedController.WebPortal.Core.Services.ControllerService.PlayAnimationOnLedstrip(Ledstrip ledstrip, Animation animation, CancellationToken token) in D:\Projects\LedController_net5\LedController.Portal.Core\Services\ControllerService.cs:line 127
+   at LedController.WebPortal.Web.Pages.Index.OpenPlayAnimationsDialogAsync(Ledstrip ledstrip) in D:\Projects\LedController_net5\LedController.WebPortal.Web\Pages\Index.razor:line 106
+   at LedController.WebPortal.Web.Pages.Index.<>c__DisplayClass0_1.<<BuildRenderTree>b__12>d.MoveNext() in D:\Projects\LedController_net5\LedController.WebPortal.Web\Pages\Index.razor:line 48
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at MudBlazor.MudBaseButton.OnClickHandler(MouseEventArgs ev)
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.GetErrorHandledTask(Task taskToHandle, ComponentState owningComponentState)

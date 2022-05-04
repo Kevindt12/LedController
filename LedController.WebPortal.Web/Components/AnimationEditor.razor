@@ -1,0 +1,78 @@
+﻿@using System
+@using System.Diagnostics.CodeAnalysis
+@using System.Linq
+@using LedController.Domain.Models
+@using LedController.WebPortal.Domain.Managers
+@using LedController.WebPortal.Persistence.Exceptions
+@using LedController.WebPortal.Web.Components
+@using MudBlazor
+
+@inject ILogger<AnimationEditor> _logger
+@inject IAnimationManager _animationManager
+@inject IDialogService _dialogService
+@inject NavigationManager _navigationManager
+@inject ISnackbar _snackbar
+
+
+<MudGrid>
+    <MudItem xs="12" >
+
+        @* Animation tab view.*@
+        <MudTabs Class="pa-4"
+                 Outlined="true"
+                 Position="Position.Top"
+                 Border="true"
+                 ApplyEffectsToContainer="true" >
+
+            @* Index page of the animations.*@
+            <MudTabPanel Text="Index" >
+
+                @* Showing effects that are in the animation. *@
+                <MudGrid>
+                    <MudItem xs="12" >
+                        @for (int i = 0; i < Animation.Effects.Count; i++)
+                        {
+	                        <AnimationEffectRow AnimationEffect="Animation.Effects[i]"
+                                                Animation="Animation"/>
+                        }
+                        <AnimationEffectRow Animation="Animation"/>
+                    </MudItem>
+
+                    @* Showing the delete button *@
+                    <MudItem xs="12" >
+                        <MudGrid>
+
+                            <MudItem xs="11" >
+                                <MudButton Class="pa-4"
+                                           Color="Color.Error"
+                                           Variant="Variant.Filled"
+                                           OnClick="DeleteAnimationAsync" >
+                                    Delete
+                                </MudButton>
+                            </MudItem>
+
+
+                        </MudGrid>
+                    </MudItem>
+                </MudGrid>
+
+            </MudTabPanel>
+
+            @* Adding all the tabs for the effects that we have added. *@
+            @for (int animationEffectIndex = 0; animationEffectIndex < Animation.Effects.Count; animationEffectIndex++)
+            {
+	            AnimationEffect animationEffect = Animation.Effects[animationEffectIndex];
+                                        @* Each effect in the animation. *@
+	            <MudTabPanel Text="@($"Effect {animationEffectIndex}".ToString())" >
+
+                    <AnimationEffectTab AnimationEffectParameterValues="animationEffect.Parameters"/>
+
+                </MudTabPanel>
+            }
+        </MudTabs>
+
+    </MudItem>
+</MudGrid>
+
+
+

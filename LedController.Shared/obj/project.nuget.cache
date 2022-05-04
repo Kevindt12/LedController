@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "dgSpecHash": "Kea4+Ed6mggagjHvp6WdhYmv8kbOhb7ISFxXJBHyuRR+yv8oB5PtIOauwA8Jao+MMzhGyIysNqljzzTiGeVeYw==",
+  "success": true,
+  "projectFilePath": "D:\\Projects\\LedController_net5\\LedController.Shared\\LedController.Shared.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\kdteu\\.nuget\\packages\\automapper\\11.0.0\\automapper.11.0.0.nupkg.sha512",
+    "C:\\Users\\kdteu\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\kdteu\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\6.0.0\\microsoft.extensions.configuration.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\kdteu\\.nuget\\packages\\microsoft.extensions.configuration.binder\\6.0.0\\microsoft.extensions.configuration.binder.6.0.0.nupkg.sha512",
+    "C:\\Users\\kdteu\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\kdteu\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
+    "C:\\Users\\kdteu\\.nuget\\packages\\microsoft.extensions.options.configurationextensions\\6.0.0\\microsoft.extensions.options.configurationextensions.6.0.0.nupkg.sha512",
+    "C:\\Users\\kdteu\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "C:\\Users\\kdteu\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "C:\\Users\\kdteu\\.nuget\\packages\\unitsnet\\4.126.0\\unitsnet.4.126.0.nupkg.sha512"
+  ],
+  "logs": []
+}

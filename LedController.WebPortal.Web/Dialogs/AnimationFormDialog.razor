@@ -1,0 +1,130 @@
+﻿@using MudBlazor
+@using Microsoft.AspNetCore.Components
+@using Animation = LedController.Domain.Models.Animation
+@using Microsoft.Extensions.Logging
+@using LedController.WebPortal.Domain.Managers
+@using LedController.WebPortal.Domain.Services
+@using LedController.WebPortal.Core.Factories
+@using System.Data.Common
+@using LedController.WebPortal.Persistence.Exceptions
+
+@inject ILogger<AnimationFormDialog> _logger
+@inject ISnackbar _snackbar
+@inject IAnimationManager _animationManager
+@inject AnimationFactory _animationFactory
+
+
+<MudDialog>
+    <TitleContent>
+
+        <MudText Typo="Typo.h3">
+            <MudIcon Icon="@Icons.Material.Filled.Edit"
+                     Class="mr-3 mb-n1" />CreateAnimationEffectAsync Animation
+        </MudText>
+
+    </TitleContent>
+    <DialogContent>
+
+        <MudTextField Class="pa-4"
+                      T="string"
+                      @bind-Text="_animationName"
+                      Required="true"
+                      Placeholder="Animation Name" />
+
+    </DialogContent>
+    <DialogActions>
+
+        <MudButton Class="pa-4"
+                   OnClick="Cancel">Cancel</MudButton>
+
+        <MudButton Class="pa-4"
+                   Color="Color.Success"
+                   OnClick="CreateAnimationAsync">Save</MudButton>
+
+    </DialogActions>
+</MudDialog>
+
+
+@code {
+
+    /// <summary>
+    /// The name of the animation.
+    /// </summary>
+    private string? _animationName = string.Empty;
+
+    /// <summary>
+    /// The dialog refinance.
+    /// </summary>
+    [CascadingParameter]
+    public MudDialogInstance? MudDialog { get; set; }
+
+    /// <summary>
+    /// The animation that we watn to send with to use for a copy. If null then we want to a new one.
+    /// </summary>
+    [Parameter]
+    public Animation? Animation { get; set; }
+
+
+    /// <summary>
+    /// Method invoked when the component is ready to start, having received its
+    /// initial parametersBase from its parent in the render tree.
+    /// Override this method if you will perform an asynchronous operation and
+    /// want the component to refresh when that operation is completed.
+    /// </summary>
+    /// <returns>A <see cref="T:System.Threading.Tasks.Task" /> representing any asynchronous operation.</returns>
+    protected override Task OnInitializedAsync()
+    {
+        _logger.LogInformation($"Showing animation form dialog.");
+        if (Animation != null)
+        {
+            _animationName = $"{Animation.Name}-copy";
+        }
+
+        return base.OnInitializedAsync();
+    }
+
+    /// <summary>
+    /// Cancel the current dialog and return that we have canceled.
+    /// </summary>
+    private void Cancel()
+    {
+        _logger.LogInformation($"Cancelling the animation form dialog.");
+        MudDialog!.Cancel();
+    }
+
+    /// <summary>
+    /// Creates a new animation and saves the animation.
+    /// </summary>
+    /// <returns></returns>
+    public async Task CreateAnimationAsync()
+    {
+        if (String.IsNullOrEmpty(_animationName)) return;
+
+        // Using the factory to ceate a animation.
+        Animation newAnimation = Animation == null ? new Animation() : _animationFactory.CopyAnimation(Animation);
+        newAnimation.Name = _animationName;
+
+        try
+        {
+            _logger.LogInformation($"Created animation with name {_animationName}.");
+            await _animationManager.Add(newAnimation);
+        }
+        catch (PersistenceException persistenceException)
+        {
+            _logger.LogError(persistenceException, $"There was a error saving the animation to the database.");
+            _snackbar.Add($"There was a problem saving the animation please check logs.");
+            throw;
+        }
+        catch (Exception e)
+        {
+            _logger.LogError(e, $"There was a error saving the animation.");
+            _snackbar.Add($"There was a problem saving the animation please check logs.");
+            throw;
+        }
+
+        _logger.LogInformation($"Animation {_animationName} saved");
+        _snackbar.Add($"Animation saved", Severity.Success);
+        MudDialog!.Close(newAnimation);
+    }
+
+}

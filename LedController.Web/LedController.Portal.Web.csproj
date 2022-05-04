@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\LedController.Domain\LedController.Domain.csproj" />
+    <ProjectReference Include="..\LedController.Portal.Core\LedController.WebPortal.Core.csproj" />
+    <ProjectReference Include="..\LedController.Portal.Domain\LedController.WebPortal.Domain.csproj" />
+    <ProjectReference Include="..\LedController.Shared\LedController.Shared.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\images\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="BlazorMonaco" Version="2.1.0" />
+    <PackageReference Include="MudBlazor" Version="6.0.5" />
+  </ItemGroup>
+
+</Project>

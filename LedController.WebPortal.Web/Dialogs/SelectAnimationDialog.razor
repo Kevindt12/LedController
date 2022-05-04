@@ -1,0 +1,185 @@
+﻿@using Microsoft.AspNetCore.Components
+@using MudBlazor
+@using LedController.Domain.Enums
+@using LedController.Domain.Models
+@using LedController.WebPortal.Domain.Managers
+@using LedController.WebPortal.Domain.Models
+@using LedController.WebPortal.Domain.Services
+
+@using Animation = LedController.Domain.Models.Animation
+
+@inject ILogger<SelectAnimationDialog> _logger
+@inject IAnimationManager _animationManager
+@inject IControllerManager _controllerManager
+@inject IControllerService _controllerService
+
+
+
+@*Edit ledstrip dialog*@
+<MudDialog>
+	<DialogContent>
+		<MudTable Class="pa-4" T="SelectAnimationModel" Items="Animations">
+			
+			<HeaderContent>
+                <MudTh Class="pa-4">Name</MudTh>
+                <MudTh Class="pa-4">Nr. Effects</MudTh>
+                <MudTh Class="pa-4">Action</MudTh>
+			</HeaderContent>
+			
+            <RowTemplate>
+
+                <MudTd Class="pa-4"
+                       DataLabel="Name">
+                    <MudText>@context.Animation.Name</MudText>
+                </MudTd>
+
+                <MudTd Class="pa-4"
+                       DataLabel="AnimationEffect">
+                    <MudText>@context.Animation.Effects.Count</MudText>
+                </MudTd>
+
+                <MudTd Class="pa-4"
+                       DataLabel="Action">
+
+                    <MudButton FullWidth="true" 
+                               Class="pa-4" Color="Color.Primary" 
+                               Variant="Variant.Filled" 
+                               OnClick="() => SelectAnimation(context.Animation)" 
+                               Disabled="context.IsAvailable">
+
+                        @if (context.IsAvailable)
+                        {
+                            <MudText>Select</MudText>
+                        }
+                        else
+                        {
+                            <MudText>Not Synced</MudText>
+                        }
+                    </MudButton>
+                </MudTd>
+            </RowTemplate>
+
+		</MudTable>
+		<MudDivider/>
+	</DialogContent>
+
+	@*Button actions*@
+	<DialogActions>
+        <MudButton Class="pa-4" 
+                   Color="Color.Primary" 
+                   OnClick="Close">Close</MudButton>
+	</DialogActions>
+
+</MudDialog>
+
+
+
+@code {
+
+
+	/// <summary>
+	/// Dialog instance.
+	/// </summary>
+	[CascadingParameter]
+	MudDialogInstance MudDialog { get; set; } = default!;
+
+	/// <summary>
+	/// The current led strip that we are editing.
+	/// </summary>
+	[Parameter]
+	public Ledstrip Ledstrip { get; set; } = default!;
+
+
+	/// <summary>
+	/// The collection of animations that we want to show.
+	/// </summary>
+	protected ICollection<SelectAnimationModel> Animations { get; set; } = new List<SelectAnimationModel>();
+
+
+	/// <inheritdoc />
+	protected override async Task OnInitializedAsync()
+	{
+		_logger.LogInformation($"Opening select animation dialog");
+	    Controller controller = await _controllerManager.GetControllerBySpiBusAsync(Ledstrip.SpiBus!);
+
+    // Adding the animations to the collection.
+		await foreach (Animation animation in _animationManager.GetAsync())
+		{
+		    bool isAnimationAvailable = await CheckIfAnimationIsAvailableAsync(animation, controller);
+		    _logger.LogTrace($"Checked if animation {animation.Name} is available on controller {controller}. Value {isAnimationAvailable}");
+
+			Animations.Add(new SelectAnimationModel()
+			{
+				Animation = animation,
+				IsAvailable = isAnimationAvailable
+			});
+		}
+
+		await base.OnInitializedAsync();
+	}
+
+
+	/// <summary>
+	/// Close the dialog.
+	/// </summary>
+	protected virtual void Close()
+	{
+	    _logger.LogInformation($"Closing select animation dialog.");
+		MudDialog.Cancel();
+	}
+
+	/// <summary>
+	/// Checks id animation can be played on controller and that the effects are synced.
+	/// </summary>
+	/// <param name="animation">The animation that we want to play/</param>
+	/// <param name="controller">The controller that we want to play it con.</param>
+    /// <param name="token">A token to stop the current operation.</param>
+	/// <returns></returns>
+	protected async Task<bool> CheckIfAnimationIsAvailableAsync(Animation animation, Controller controller, CancellationToken token = default)
+    {
+        IEnumerable<Effect> effectsNeeded = animation.Effects.Select(e => e.Effect).Distinct();
+
+        foreach (Effect neededEffect in effectsNeeded)
+        {
+            if (!controller.SynchronizedEffects.Contains(neededEffect))
+            {
+                _logger.LogDebug($"Animation cannot be played on controller {controller.Name}.");
+                return false;
+            }
+        }
+
+        return true;
+    }
+
+	
+
+	/// <summary>
+	/// Selects the animation that we want to play.
+	/// <param name="animation"> The animation that we want to play.</param>
+	/// </summary>
+	protected virtual void SelectAnimation(Animation animation)
+	{
+	    _logger.LogInformation($"Animation {animation.Name} has been selected.");
+	    MudDialog.Close<Animation>(animation);
+	}
+
+
+	/// <summary>
+	/// The animation model that we use to display the animations.
+	/// </summary>
+	protected class SelectAnimationModel
+	{
+		/// <summary>
+		/// If the animation is available to be played on the ledstrip.
+		/// </summary>
+		public bool IsAvailable { get; init; }
+
+		/// <summary>
+		/// The animation that we want to play.
+		/// </summary>
+		public Animation Animation { get; init; }
+	}
+
+
+
+}

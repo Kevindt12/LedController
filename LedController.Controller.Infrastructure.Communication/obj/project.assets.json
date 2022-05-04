@@ -1,0 +1,113 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "UnitsNet/4.126.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/UnitsNet.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/UnitsNet.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "UnitsNet/4.126.0": {
+      "sha512": "NiYZwLTZbTlsAqmCHJfPd0KPwoasPhSmONERL5u2TTTqyEWLK3LWmDuxCEeMfqcvxyLjt95U1GsgRWN5oY93dA==",
+      "type": "package",
+      "path": "unitsnet/4.126.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/UnitsNet.dll",
+        "lib/net40/UnitsNet.pdb",
+        "lib/net40/UnitsNet.xml",
+        "lib/net47/UnitsNet.dll",
+        "lib/net47/UnitsNet.pdb",
+        "lib/net47/UnitsNet.xml",
+        "lib/netstandard2.0/UnitsNet.dll",
+        "lib/netstandard2.0/UnitsNet.pdb",
+        "lib/netstandard2.0/UnitsNet.xml",
+        "logo-32.png",
+        "unitsnet.4.126.0.nupkg.sha512",
+        "unitsnet.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "UnitsNet >= 4.126.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\kdteu\\.nuget\\packages\\": {},
+    "E:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\Projects\\LedController_net5\\LedController.Controller.Infrastructure.Communication\\LedController.Controller.Infrastructure.Communication.csproj",
+      "projectName": "LedController.Controller.Infrastructure.Communication",
+      "projectPath": "D:\\Projects\\LedController_net5\\LedController.Controller.Infrastructure.Communication\\LedController.Controller.Infrastructure.Communication.csproj",
+      "packagesPath": "C:\\Users\\kdteu\\.nuget\\packages\\",
+      "outputPath": "D:\\Projects\\LedController_net5\\LedController.Controller.Infrastructure.Communication\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "E:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\kdteu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "dependencies": {
+          "UnitsNet": {
+            "target": "Package",
+            "version": "[4.126.0, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

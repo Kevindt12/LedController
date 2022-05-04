@@ -1,0 +1,190 @@
+﻿
+@using MudBlazor
+@using Microsoft.Extensions.Logging
+@using LedController.Domain.Models
+@using Microsoft.VisualBasic.CompilerServices
+@using System.Diagnostics
+@using System.ComponentModel.DataAnnotations
+@using LedController.WebPortal.Domain.Managers
+
+@inject ILogger<EditControllerDialog> _logger
+@inject IControllerManager _controllerManager
+
+<MudDialog>
+    <DialogContent>
+        
+		<MudText Typo="Typo.h4" >Details</MudText>
+        <EditForm Model="@Model" T="EditControllerForm" OnValidSubmit="SubmitAsync">
+            <DataAnnotationsValidator/>
+            <MudHidden @bind-value="Model.Id"></MudHidden>
+            <MudTextField T="string" Label="Name" Required="true" RequiredError="A name is needed" @bind-value="Model.Name"/>
+            <MudTextField T="string" Label="Ip Address" Required="true" @bind-value="Model.IpAddress"/>
+            <MudNumericField T="int" Label="Port" Required="true" @bind-value="Model.Port"/>
+        </EditForm>
+        <MudDivider/>
+        
+        @if (Controller != default)
+        {
+	        <MudText Typo="Typo.h4">Spi Buses</MudText>
+        <MudIconButton Icon="Add" OnClick="AttachSpiBusAsync"/>
+        <MudTable Items="Model.SpiBuses" Hover="true" Breakpoint="Breakpoint.Sm" Loading="@_attachingSpiBus" LoadingProgressColor="Color.Info">
+            <HeaderContent>
+                <MudTh>Name</MudTh>
+                <MudTh>Bus Id</MudTh>
+                <MudTh>CS</MudTh>
+                <MudTh>Action</MudTh>
+            </HeaderContent>
+            <RowTemplate>
+                <MudTd DataLabel="Name">@context.Name</MudTd>
+                <MudTd DataLabel="Bus Id">@context.SpiBus</MudTd>
+                <MudTd DataLabel="CS">@context.ChipSelect</MudTd>
+                <MudTd><MudButton @onclick="async () => await DetachSpiBusAsync(context.Id)" >Detach</MudButton>
+                    <MudButton @onclick="async () => await EditSpiBusAsync(context.Id)">Detach</MudButton></MudTd>
+            </RowTemplate>
+        </MudTable>
+        <MudDivider/>
+
+        <MudText Typo="Typo.h4">Led Strips</MudText>
+        <MudIconButton Icon="Add" OnClick="AttachLedstripAsync"/>
+        <MudTable Items="Model.Ledstrips" Hover="true" Breakpoint="Breakpoint.Sm" Loading="@_attachingLedstrip" LoadingProgressColor="Color.Info">
+            <HeaderContent>
+                <MudTh>Name</MudTh>
+                <MudTh>Spi Bus</MudTh>
+                <MudTh>Action</MudTh>
+            </HeaderContent>
+            <RowTemplate>
+                <MudTd DataLabel="Name">@context.Name</MudTd>
+                <MudTd DataLabel="Bus Id">@context.SpiBus</MudTd>
+            </RowTemplate>
+        </MudTable>
+        <MudDivider/>
+        }
+    </DialogContent>
+    <DialogActions>
+        <MudButton Color="Color.Primary" OnClick="SubmitAsync">Save</MudButton>
+        <MudButton Color="Color.Primary" OnClick="DeleteAsync">Delete</MudButton>
+    </DialogActions>
+</MudDialog>
+
+
+
+@code {
+
+    string[] errors = { };
+    bool success;
+    MudForm form;
+
+	private bool _attachingLedstrip;
+	private bool _attachingSpiBus;
+
+
+    [CascadingParameter]
+    MudDialogInstance MudDialog { get; set; }
+
+	[Parameter]
+	public Controller Controller { get; set; } = default;
+
+
+    protected EditControllerForm Model { get; set; }
+
+
+
+    protected async Task SubmitAsync()
+    {
+
+
+
+    }
+
+
+	protected async Task DeleteAsync()
+	{
+
+	}
+
+
+
+    protected async Task DetachSpiBusAsync(string spiBusId)
+    {
+
+    }
+
+
+    protected async Task DetachLedstripAsync(string ledstripId)
+    {
+
+    }
+
+
+    private async Task AttachSpiBusAsync()
+    {
+
+
+
+    }
+
+
+    private async Task AttachLedstripAsync()
+    {
+        
+    }
+
+
+	#region Models
+
+	protected record EditControllerForm
+	{
+		public string Id { get; set; }
+
+        [Required]
+		public string Name { get; set; }
+
+        [Required]
+		public string IpAddress { get; set; }
+
+        [Required]
+		public int Port { get; set; }
+
+
+		public List<SpiBusModel> SpiBuses { get; set; }
+
+		public List<LedstripModel> Ledstrips { get; set; }
+
+	}
+
+	protected record SpiBusModel
+	{
+
+		public string Id { get; set; }
+
+		public string Name { get; set; }
+
+		public int SpiBus { get; set; }
+
+		public int ChipSelect { get; set; }
+
+
+	}
+
+	protected record LedstripModel
+	{
+
+		public string Id { get; set; }
+
+		public string Name { get; set; }
+
+		public string SpiBus { get; set; }
+
+
+	}
+
+	#endregion
+
+
+	private async Task EditSpiBusAsync(string contextId)
+	{
+		throw new NotImplementedException();
+	}
+
+
+}

@@ -1,0 +1,142 @@
+﻿@using MudBlazor
+@using LedController.Domain.Models
+
+@inject ILogger<EffectParameterRow> _logger
+@inject ISnackbar _snackbar
+
+
+
+@*The main item.*@
+<MudGrid Class="pa-4">
+
+    @* Name *@
+    <MudItem Class="pa-2" xs="2">
+        <MudTextField Class="pa-4"
+                      Required="true"
+                      @bind-Value="EffectParameter!.Name"
+                      Label="Name" />
+    </MudItem>
+
+    @* Description *@
+    <MudItem Class="pa-2" xs="4">
+        <MudTextField Class="pa-4"
+                      Required="true"
+                      @bind-Value="EffectParameter!.Description"
+                      Label="Description" />
+    </MudItem>
+
+    @* Parameter type *@
+    <MudItem Class="pa-2" xs="3">
+        <MudSelect Class="pa-4"
+                   T="Type"
+                   Required="true"
+                   @bind-Value="EffectParameter!.ParameterType"
+                   Label="Property Type">
+            <MudSelectItem T="Type" Value="typeof(int)">Integer</MudSelectItem>
+            <MudSelectItem T="Type" Value="typeof(float)">Float</MudSelectItem>
+            <MudSelectItem T="Type" Value="typeof(System.Drawing.Color)">Color</MudSelectItem>
+            <MudSelectItem T="Type" Value="typeof(System.Drawing.Color[])">Color Array</MudSelectItem>
+        </MudSelect>
+    </MudItem>
+
+    @* Para meter type value *@
+    <MudItem Class="pa-2" xs="2">
+        <EffectParameterValueField ParameterType="EffectParameter!.ParameterType" @bind-Value="EffectParameter.DefaultValue" />
+    </MudItem>
+
+    @* The action buttons. *@
+    <MudItem Class="pa-2" xs="1">
+        @if (_isNew)
+        {
+
+            <MudIconButton Class="pa-4" Icon="@Icons.Material.Filled.Add" Size="Size.Medium" Variant="Variant.Outlined" Color="Color.Primary" OnClick="OnAddEffectParameterAsync"></MudIconButton>
+        }
+        else
+        {
+            <MudIconButton Class="pa-4" Icon="@Icons.Material.Filled.Remove" Size="Size.Medium" Variant="Variant.Outlined" Color="Color.Error" OnClick="@(async () => await RemoveEffectParameter.InvokeAsync(EffectParameter))"></MudIconButton>
+
+        }
+
+    </MudItem>
+</MudGrid>
+
+
+@code {
+
+
+    private bool _isNew = true;
+
+    /// <summary>
+    /// The effect parameter that we have gotten.
+    /// </summary>
+    [Parameter]
+    public EffectParameter? EffectParameter { get; set; } = default;
+
+
+    /// <summary>
+    /// Names that cannot be used.
+    /// </summary>
+    [Parameter]
+    public IEnumerable<string> InvalidParameterNames { get; set; } = default!;
+
+
+    /// <summary>
+    /// The callback that is called when add effect parameter.
+    /// </summary>
+    [Parameter]
+    public EventCallback<EffectParameter> AddEffectParameter { get; set; }
+
+
+    /// <summary>
+    /// The callback to remove an effect parameter.
+    /// </summary>
+    [Parameter]
+    public EventCallback<EffectParameter> RemoveEffectParameter { get; set; }
+
+
+
+    /// <inheritdoc />
+    protected override void OnParametersSet()
+    {
+        if (EffectParameter == null || EffectParameter.Id == Guid.Empty)
+        {
+            _logger.LogDebug($"Creating new effect parameter row.");
+            _isNew = true;
+            EffectParameter = new EffectParameter();
+        }
+        else
+        {
+	        _logger.LogDebug($"Creating new effect parameter row for existing parameter.");
+	        _isNew = false;
+        }
+
+        base.OnParametersSet();
+    }
+
+    /// <summary>
+    /// On add effect parameter button added.
+    /// </summary>
+    /// <returns></returns>
+    protected virtual async Task OnAddEffectParameterAsync()
+    {
+	    _logger.LogDebug($"Effect parameter row add button  clicked.");
+        // Validating name.
+        if (InvalidParameterNames.Contains(EffectParameter!.Name))
+        {
+	        _logger.LogWarning($"Effect parameter cannot be added because {EffectParameter.Name} already exists.");
+	        _snackbar.Add($"Invalid name", Severity.Error);
+            return;
+        }
+
+        await AddEffectParameter.InvokeAsync(EffectParameter);
+    }
+
+
+    public void Reset()
+    {
+	    _logger.LogDebug($"Resetting effect parameter row.");
+        EffectParameter = new EffectParameter();
+        _isNew = true;
+    }
+
+}

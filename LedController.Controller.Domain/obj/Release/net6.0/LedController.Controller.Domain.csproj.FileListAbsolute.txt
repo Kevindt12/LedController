@@ -1,0 +1,17 @@
+D:\Projects\LedController_net5\LedController.Controller.Domain\bin\Release\net6.0\LedController.Controller.Domain.deps.json
+D:\Projects\LedController_net5\LedController.Controller.Domain\bin\Release\net6.0\LedController.Controller.Domain.dll
+D:\Projects\LedController_net5\LedController.Controller.Domain\bin\Release\net6.0\LedController.Controller.Domain.pdb
+D:\Projects\LedController_net5\LedController.Controller.Domain\bin\Release\net6.0\LedController.Domain.dll
+D:\Projects\LedController_net5\LedController.Controller.Domain\bin\Release\net6.0\LedController.Shared.dll
+D:\Projects\LedController_net5\LedController.Controller.Domain\bin\Release\net6.0\LedController.Domain.pdb
+D:\Projects\LedController_net5\LedController.Controller.Domain\bin\Release\net6.0\LedController.Shared.pdb
+D:\Projects\LedController_net5\LedController.Controller.Domain\obj\Release\net6.0\LedController.Controller.Domain.csproj.AssemblyReference.cache
+D:\Projects\LedController_net5\LedController.Controller.Domain\obj\Release\net6.0\LedController.Controller.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\LedController_net5\LedController.Controller.Domain\obj\Release\net6.0\LedController.Controller.Domain.AssemblyInfoInputs.cache
+D:\Projects\LedController_net5\LedController.Controller.Domain\obj\Release\net6.0\LedController.Controller.Domain.AssemblyInfo.cs
+D:\Projects\LedController_net5\LedController.Controller.Domain\obj\Release\net6.0\LedController.Controller.Domain.csproj.CoreCompileInputs.cache
+D:\Projects\LedController_net5\LedController.Controller.Domain\obj\Release\net6.0\LedController.Controller.Domain.csproj.CopyComplete
+D:\Projects\LedController_net5\LedController.Controller.Domain\obj\Release\net6.0\LedController.Controller.Domain.dll
+D:\Projects\LedController_net5\LedController.Controller.Domain\obj\Release\net6.0\refint\LedController.Controller.Domain.dll
+D:\Projects\LedController_net5\LedController.Controller.Domain\obj\Release\net6.0\LedController.Controller.Domain.pdb
+D:\Projects\LedController_net5\LedController.Controller.Domain\obj\Release\net6.0\ref\LedController.Controller.Domain.dll

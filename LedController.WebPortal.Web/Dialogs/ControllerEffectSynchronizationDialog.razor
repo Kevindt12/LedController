@@ -1,0 +1,113 @@
+﻿@using LedController.WebPortal.Domain.Services
+@using LedController.Domain.Models
+@using LedController.Shared.Extensions
+@using LedController.WebPortal.Domain.Managers
+@using LedController.WebPortal.Domain.Models
+@using MudBlazor
+@using SQLitePCL
+
+@inject IControllerService _controllerService
+@inject ISnackbar _snackbar
+@inject IControllerManager _controllerManager
+@inject ILogger<ControllerEffectSynchronizationDialog> _logger
+
+<MudDialog>
+    <DialogContent>
+        <MudTable Items="@Controllers" FixedHeader="@true" Style="min-height: 800px">
+            <HeaderContent>
+                <MudTh>Name</MudTh>
+                <MudTh>Action</MudTh>
+            </HeaderContent>
+            <RowTemplate>
+                <MudTd DataLabel="Name">@context.Name</MudTd>
+                <MudTd DataLabel="Action">
+                    @if (context.SynchronizedEffects.Contains(Effect))
+                    {
+                        <MudButton Disabled="true" Color="Color.Dark">Synchronized</MudButton>
+                    }
+                    else
+                    {
+	                    <MudButton Disabled="@(_processing || !_controllerService.IsControllerConnected(context))" @onclick="async () => await SynchronizeEffect(context)" Variant="Variant.Filled" Color="Color.Primary" >
+                            @if (_processing)
+                            {
+	                            <MudProgressCircular Class="ms-n1" Size="Size.Small" Indeterminate="true"/>
+	                            <MudText Class="ms-2" >Processing</MudText>
+                            }
+                            else
+                            {
+	                            <MudText>Synchronize</MudText>
+                            }
+                        </MudButton>
+                    }
+                </MudTd>
+            </RowTemplate>
+        </MudTable>
+    </DialogContent>
+</MudDialog>
+
+
+@code {
+
+    private bool _processing = false;
+
+    /// <summary>
+    /// The controllers that we know of.
+    /// </summary>
+    public IEnumerable<Controller> Controllers { get; set; } = new List<Controller>();
+
+    /// <summary>
+    /// The effect that we want to sync.
+    /// </summary>
+    [Parameter]
+    public Effect Effect { get; set; } = default!;
+
+
+    /// <summary>
+    /// Method invoked when the component is ready to start, having received its
+    /// initial parametersBase from its parent in the render tree.
+    /// Override this method if you will perform an asynchronous operation and
+    /// want the component to refresh when that operation is completed.
+    /// </summary>
+    /// <returns>A <see cref="T:System.Threading.Tasks.Task" /> representing any asynchronous operation.</returns>
+    protected override async Task OnInitializedAsync()
+    {
+        _logger.LogInformation($"Loading Controller effect synchronization dialog.");
+        Controllers = await _controllerManager.GetAsync().AsEnumerableAsync();
+
+        await base.OnInitializedAsync();
+    }
+
+
+    /// <summary>
+    /// Sync effect with controller.
+    /// </summary>
+    /// <param name="controller"></param>
+    /// <returns></returns>
+    private async Task SynchronizeEffect(Controller controller)
+    {
+        _logger.LogInformation($"Synchronizing effect {Effect.Name} with controller{controller.Name}.");
+        _processing = true;
+
+        try
+        {
+            // Syncing effect with controller.
+            await _controllerService.SynchronizeEffect(controller, Effect);
+            _logger.LogInformation($"Effect synced with controller.");
+        }
+        catch (InvalidOperationException e)
+        {
+            _logger.LogError(e, $"The controller {controller.Name} was not connected.");
+            _snackbar.Add($"Controller is not connected!", Severity.Error);
+        }
+        finally
+        {
+            _processing = false;
+            StateHasChanged();
+
+        }
+
+
+    }
+
+
+}

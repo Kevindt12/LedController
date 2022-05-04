@@ -1,0 +1,1882 @@
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/04/16 00:01:12.517 - [DEBUG]: Hosting starting 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/16 00:01:12.710 - [DEBUG]: Starting the discovery service. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/16 00:01:12.727 - [DEBUG]: Creating a new UDP client to be used for broadcasting the server information. This wil happen on UDP port 8472. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[6 - .NET ThreadPool Worker] 
+      2022/04/16 00:01:12.742 - [TRACE]: Start sending message to controllers to be discovered. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/16 00:01:12.742 - [DEBUG]: The discovery service has started. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/16 00:01:12.933 - [INFO]: Now listening on: http://localhost:5097 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/16 00:01:12.933 - [INFO]: Application started. Press Ctrl+C to shut down. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/16 00:01:12.933 - [INFO]: Hosting environment: Development 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/16 00:01:12.933 - [INFO]: Content root path: D:\Projects\LedController_net5\LedController.WebPortal.Web\ 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/04/16 00:01:12.933 - [DEBUG]: Hosting started 
+ 
+LedController.WebPortal.Web.Pages.Index[6 - .NET ThreadPool Worker] 
+      2022/04/16 00:01:15.352 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Pages.Index[12 - .NET ThreadPool Worker] 
+      2022/04/16 00:01:16.960 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Pages.AnimationsPage[13 - .NET ThreadPool Worker] 
+      2022/04/16 00:01:22.155 - [INFO]: Removing animation effect from animation Test Animation. 
+ 
+LedController.WebPortal.Core.Managers.AnimationManager[13 - .NET ThreadPool Worker] 
+      2022/04/16 00:01:22.170 - [DEBUG]: Remove animationEffect from animation. 
+ 
+LedController.WebPortal.Core.Managers.AnimationManager[13 - .NET ThreadPool Worker] 
+      2022/04/16 00:01:22.372 - [TRACE]: AnimationEffect has been removed from the animation. 
+ 
+LedController.WebPortal.Web.Pages.AnimationsPage[14 - .NET ThreadPool Worker] 
+      2022/04/16 00:01:25.240 - [INFO]: Removing animation effect from animation Test Animation. 
+ 
+LedController.WebPortal.Core.Managers.AnimationManager[14 - .NET ThreadPool Worker] 
+      2022/04/16 00:01:25.257 - [DEBUG]: Remove animationEffect from animation. 
+ 
+LedController.WebPortal.Core.Managers.AnimationManager[14 - .NET ThreadPool Worker] 
+      2022/04/16 00:01:25.257 - [TRACE]: AnimationEffect has been removed from the animation. 
+ 
+LedController.WebPortal.Web.Pages.AnimationsPage[13 - .NET ThreadPool Worker] 
+      2022/04/16 00:02:23.028 - [INFO]: Removing animation effect from animation Test Animation. 
+ 
+LedController.WebPortal.Core.Managers.AnimationManager[13 - .NET ThreadPool Worker] 
+      2022/04/16 00:02:23.043 - [DEBUG]: Remove animationEffect from animation. 
+ 
+LedController.WebPortal.Core.Managers.AnimationManager[13 - .NET ThreadPool Worker] 
+      2022/04/16 00:02:23.043 - [TRACE]: AnimationEffect has been removed from the animation. 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/04/16 00:02:43.391 - [DEBUG]: Hosting starting 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/16 00:02:43.507 - [DEBUG]: Starting the discovery service. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/16 00:02:43.507 - [DEBUG]: Creating a new UDP client to be used for broadcasting the server information. This wil happen on UDP port 8472. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/16 00:02:43.507 - [DEBUG]: The discovery service has started. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[6 - .NET ThreadPool Worker] 
+      2022/04/16 00:02:43.522 - [TRACE]: Start sending message to controllers to be discovered. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/16 00:02:43.647 - [INFO]: Now listening on: http://localhost:5097 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/16 00:02:43.647 - [INFO]: Application started. Press Ctrl+C to shut down. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/16 00:02:43.647 - [INFO]: Hosting environment: Development 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/16 00:02:43.647 - [INFO]: Content root path: D:\Projects\LedController_net5\LedController.WebPortal.Web\ 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/04/16 00:02:43.647 - [DEBUG]: Hosting started 
+ 
+LedController.WebPortal.Web.Pages.Index[6 - .NET ThreadPool Worker] 
+      2022/04/16 00:02:45.647 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Pages.Index[10 - .NET ThreadPool Worker] 
+      2022/04/16 00:02:47.461 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Pages.AnimationsPage[9 - .NET ThreadPool Worker] 
+      2022/04/16 00:02:52.973 - [INFO]: Removing animation effect from animation Test Animation. 
+ 
+LedController.WebPortal.Core.Managers.AnimationManager[9 - .NET ThreadPool Worker] 
+      2022/04/16 00:02:52.988 - [DEBUG]: Remove animationEffect from animation. 
+ 
+LedController.WebPortal.Core.Managers.AnimationManager[9 - .NET ThreadPool Worker] 
+      2022/04/16 00:02:53.195 - [TRACE]: AnimationEffect has been removed from the animation. 
+ 
+LedController.WebPortal.Web.Pages.EffectsEditorPage[10 - .NET ThreadPool Worker] 
+      2022/04/16 00:03:25.759 - [INFO]: Loading effects page. 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[10 - .NET ThreadPool Worker] 
+      2022/04/16 00:03:25.820 - [DEBUG]: Starting effect editor for Test Effect. 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[10 - .NET ThreadPool Worker] 
+      2022/04/16 00:03:25.850 - [DEBUG]: Starting monaco editor for effect Test Effect. 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[6 - .NET ThreadPool Worker] 
+      2022/04/16 00:05:12.749 - [DEBUG]: Starting monaco editor for effect Test Effect. 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[9 - .NET ThreadPool Worker] 
+      2022/04/16 00:05:14.865 - [DEBUG]: Starting monaco editor for effect Test Effect. 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[10 - .NET ThreadPool Worker] 
+      2022/04/16 00:05:16.231 - [DEBUG]: Starting monaco editor for effect Test Effect. 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[9 - .NET ThreadPool Worker] 
+      2022/04/16 00:05:17.584 - [DEBUG]: Starting monaco editor for effect Test Effect. 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[10 - .NET ThreadPool Worker] 
+      2022/04/16 00:05:20.736 - [DEBUG]: Starting monaco editor for effect Test Effect. 
+ 
+Microsoft.AspNetCore.Components.Server.Circuits.RemoteRenderer[4 - .NET ThreadPool Worker] 
+      2022/04/16 00:07:10.621 - [WARN]: Unhandled exception rendering component: Object of type 'BlazorMonaco.MonacoEditor' does not have a property matching the name 'style'. 
+ System.InvalidOperationException: Object of type 'BlazorMonaco.MonacoEditor' does not have a property matching the name 'style'.
+   at Microsoft.AspNetCore.Components.Reflection.ComponentProperties.ThrowForUnknownIncomingParameterName(Type targetType, String parameterName)
+   at Microsoft.AspNetCore.Components.Reflection.ComponentProperties.SetProperties(ParameterView& parameters, Object target)
+   at Microsoft.AspNetCore.Components.ComponentBase.SetParametersAsync(ParameterView parameters)
+   at Microsoft.AspNetCore.Components.Rendering.ComponentState.SupplyCombinedParameters(ParameterView directAndCascadingParameters)
+Microsoft.AspNetCore.Components.Server.Circuits.CircuitHost[4 - .NET ThreadPool Worker] 
+      2022/04/16 00:07:10.718 - [ERROR]: Unhandled exception in circuit '1EezV0UajL21TQyDx9fpQ8u080FwO5N2nXv5hwqhm6U'. 
+ System.InvalidOperationException: Object of type 'BlazorMonaco.MonacoEditor' does not have a property matching the name 'style'.
+   at Microsoft.AspNetCore.Components.Reflection.ComponentProperties.ThrowForUnknownIncomingParameterName(Type targetType, String parameterName)
+   at Microsoft.AspNetCore.Components.Reflection.ComponentProperties.SetProperties(ParameterView& parameters, Object target)
+   at Microsoft.AspNetCore.Components.ComponentBase.SetParametersAsync(ParameterView parameters)
+   at Microsoft.AspNetCore.Components.Rendering.ComponentState.SupplyCombinedParameters(ParameterView directAndCascadingParameters)
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/04/16 00:09:14.332 - [DEBUG]: Hosting starting 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/16 00:09:14.446 - [DEBUG]: Starting the discovery service. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/16 00:09:14.446 - [DEBUG]: Creating a new UDP client to be used for broadcasting the server information. This wil happen on UDP port 8472. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[6 - .NET ThreadPool Worker] 
+      2022/04/16 00:09:14.463 - [TRACE]: Start sending message to controllers to be discovered. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/16 00:09:14.463 - [DEBUG]: The discovery service has started. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/16 00:09:14.600 - [INFO]: Now listening on: http://localhost:5097 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/16 00:09:14.617 - [INFO]: Application started. Press Ctrl+C to shut down. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/16 00:09:14.617 - [INFO]: Hosting environment: Development 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/16 00:09:14.617 - [INFO]: Content root path: D:\Projects\LedController_net5\LedController.WebPortal.Web\ 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/04/16 00:09:14.617 - [DEBUG]: Hosting started 
+ 
+LedController.WebPortal.Web.Pages.Index[6 - .NET ThreadPool Worker] 
+      2022/04/16 00:09:16.882 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Pages.Index[10 - .NET ThreadPool Worker] 
+      2022/04/16 00:09:18.467 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Pages.EffectsEditorPage[6 - .NET ThreadPool Worker] 
+      2022/04/16 00:09:27.556 - [INFO]: Loading effects page. 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[6 - .NET ThreadPool Worker] 
+      2022/04/16 00:09:27.616 - [DEBUG]: Starting effect editor for Test Effect. 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[15 - .NET ThreadPool Worker] 
+      2022/04/16 00:09:27.633 - [DEBUG]: Starting monaco editor for effect Test Effect. 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[10 - .NET ThreadPool Worker] 
+      2022/04/16 00:09:29.952 - [DEBUG]: Starting monaco editor for effect Test Effect. 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/04/16 00:12:35.855 - [DEBUG]: Hosting starting 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/16 00:12:36.023 - [DEBUG]: Starting the discovery service. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/16 00:12:36.023 - [DEBUG]: Creating a new UDP client to be used for broadcasting the server information. This wil happen on UDP port 8472. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[6 - .NET ThreadPool Worker] 
+      2022/04/16 00:12:36.039 - [TRACE]: Start sending message to controllers to be discovered. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/16 00:12:36.039 - [DEBUG]: The discovery service has started. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/16 00:12:36.228 - [INFO]: Now listening on: http://localhost:5097 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/16 00:12:36.228 - [INFO]: Application started. Press Ctrl+C to shut down. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/16 00:12:36.228 - [INFO]: Hosting environment: Development 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/16 00:12:36.228 - [INFO]: Content root path: D:\Projects\LedController_net5\LedController.WebPortal.Web\ 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/04/16 00:12:36.228 - [DEBUG]: Hosting started 
+ 
+LedController.WebPortal.Web.Pages.Index[14 - .NET ThreadPool Worker] 
+      2022/04/16 00:12:38.585 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Pages.Index[9 - .NET ThreadPool Worker] 
+      2022/04/16 00:12:40.210 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Pages.EffectsEditorPage[12 - .NET ThreadPool Worker] 
+      2022/04/16 00:12:41.929 - [INFO]: Loading effects page. 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[12 - .NET ThreadPool Worker] 
+      2022/04/16 00:12:42.007 - [DEBUG]: Starting effect editor for Test Effect. 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[6 - .NET ThreadPool Worker] 
+      2022/04/16 00:12:42.055 - [DEBUG]: Starting monaco editor for effect Test Effect. 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[18 - .NET ThreadPool Worker] 
+      2022/04/16 00:12:45.850 - [DEBUG]: Removing effect parameter: Test at from effect: Test Effect. 
+ 
+LedController.WebPortal.Core.Managers.EffectManager[18 - .NET ThreadPool Worker] 
+      2022/04/16 00:12:45.867 - [DEBUG]: removing parameter to effect Test Effect. 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[9 - .NET ThreadPool Worker] 
+      2022/04/16 00:12:48.652 - [DEBUG]: Removing effect parameter: Tset Super from effect: Test Effect. 
+ 
+LedController.WebPortal.Core.Managers.EffectManager[9 - .NET ThreadPool Worker] 
+      2022/04/16 00:12:48.667 - [DEBUG]: removing parameter to effect Test Effect. 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[13 - .NET ThreadPool Worker] 
+      2022/04/16 00:12:50.176 - [DEBUG]: Removing effect parameter: Test Again from effect: Test Effect. 
+ 
+LedController.WebPortal.Core.Managers.EffectManager[13 - .NET ThreadPool Worker] 
+      2022/04/16 00:12:50.192 - [DEBUG]: removing parameter to effect Test Effect. 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[13 - .NET ThreadPool Worker] 
+      2022/04/16 00:12:51.176 - [DEBUG]: Removing effect parameter: Test sfsa from effect: Test Effect. 
+ 
+LedController.WebPortal.Core.Managers.EffectManager[13 - .NET ThreadPool Worker] 
+      2022/04/16 00:12:51.191 - [DEBUG]: removing parameter to effect Test Effect. 
+ 
+LedController.WebPortal.Web.Pages.EffectsEditorPage[9 - .NET ThreadPool Worker] 
+      2022/04/16 00:13:17.445 - [INFO]: Loading effects page. 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[9 - .NET ThreadPool Worker] 
+      2022/04/16 00:13:17.460 - [DEBUG]: Starting effect editor for Test Effect. 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[9 - .NET ThreadPool Worker] 
+      2022/04/16 00:13:17.506 - [DEBUG]: Starting monaco editor for effect Test Effect. 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[14 - .NET ThreadPool Worker] 
+      2022/04/16 00:13:20.209 - [DEBUG]: Removing effect parameter: Test Again from effect: Test Effect. 
+ 
+LedController.WebPortal.Core.Managers.EffectManager[14 - .NET ThreadPool Worker] 
+      2022/04/16 00:13:20.209 - [DEBUG]: removing parameter to effect Test Effect. 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[9 - .NET ThreadPool Worker] 
+      2022/04/16 00:13:20.829 - [DEBUG]: Removing effect parameter: Tset Super from effect: Test Effect. 
+ 
+LedController.WebPortal.Core.Managers.EffectManager[9 - .NET ThreadPool Worker] 
+      2022/04/16 00:13:20.845 - [DEBUG]: removing parameter to effect Test Effect. 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[6 - .NET ThreadPool Worker] 
+      2022/04/16 00:13:21.498 - [DEBUG]: Removing effect parameter: Test at from effect: Test Effect. 
+ 
+LedController.WebPortal.Core.Managers.EffectManager[6 - .NET ThreadPool Worker] 
+      2022/04/16 00:13:21.514 - [DEBUG]: removing parameter to effect Test Effect. 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[13 - .NET ThreadPool Worker] 
+      2022/04/16 00:13:21.949 - [DEBUG]: Removing effect parameter: Test from effect: Test Effect. 
+ 
+LedController.WebPortal.Core.Managers.EffectManager[13 - .NET ThreadPool Worker] 
+      2022/04/16 00:13:21.965 - [DEBUG]: removing parameter to effect Test Effect. 
+ 
+LedController.WebPortal.Web.Pages.EffectsEditorPage[6 - .NET ThreadPool Worker] 
+      2022/04/16 00:13:24.542 - [INFO]: Loading effects page. 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[6 - .NET ThreadPool Worker] 
+      2022/04/16 00:13:24.557 - [DEBUG]: Starting effect editor for Test Effect. 
+ 
+LedController.WebPortal.Web.Pages.EffectsEditorPage[13 - .NET ThreadPool Worker] 
+      2022/04/16 00:13:25.353 - [INFO]: Loading effects page. 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[13 - .NET ThreadPool Worker] 
+      2022/04/16 00:13:25.368 - [DEBUG]: Starting effect editor for Test Effect. 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[15 - .NET ThreadPool Worker] 
+      2022/04/16 00:13:25.445 - [DEBUG]: Starting monaco editor for effect Test Effect. 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/04/16 00:23:44.481 - [DEBUG]: Hosting starting 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/16 00:23:44.600 - [DEBUG]: Starting the discovery service. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/16 00:23:44.600 - [DEBUG]: Creating a new UDP client to be used for broadcasting the server information. This wil happen on UDP port 8472. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[6 - .NET ThreadPool Worker] 
+      2022/04/16 00:23:44.618 - [TRACE]: Start sending message to controllers to be discovered. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/16 00:23:44.618 - [DEBUG]: The discovery service has started. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/16 00:23:44.761 - [INFO]: Now listening on: http://localhost:5097 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/16 00:23:44.761 - [INFO]: Application started. Press Ctrl+C to shut down. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/16 00:23:44.761 - [INFO]: Hosting environment: Development 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/16 00:23:44.761 - [INFO]: Content root path: D:\Projects\LedController_net5\LedController.WebPortal.Web\ 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/04/16 00:23:44.761 - [DEBUG]: Hosting started 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/04/16 00:24:33.501 - [DEBUG]: Hosting starting 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/16 00:24:33.616 - [DEBUG]: Starting the discovery service. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/16 00:24:33.632 - [DEBUG]: Creating a new UDP client to be used for broadcasting the server information. This wil happen on UDP port 8472. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/16 00:24:33.632 - [DEBUG]: The discovery service has started. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[10 - .NET ThreadPool Worker] 
+      2022/04/16 00:24:33.632 - [TRACE]: Start sending message to controllers to be discovered. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/16 00:24:33.809 - [INFO]: Now listening on: http://localhost:5097 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/16 00:24:33.809 - [INFO]: Application started. Press Ctrl+C to shut down. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/16 00:24:33.809 - [INFO]: Hosting environment: Development 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/16 00:24:33.809 - [INFO]: Content root path: D:\Projects\LedController_net5\LedController.WebPortal.Web\ 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/04/16 00:24:33.809 - [DEBUG]: Hosting started 
+ 
+LedController.WebPortal.Web.Pages.Index[10 - .NET ThreadPool Worker] 
+      2022/04/16 00:24:36.133 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Pages.Index[15 - .NET ThreadPool Worker] 
+      2022/04/16 00:24:38.835 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Pages.EffectsEditorPage[9 - .NET ThreadPool Worker] 
+      2022/04/16 00:24:42.321 - [INFO]: Loading effects page. 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[9 - .NET ThreadPool Worker] 
+      2022/04/16 00:24:42.350 - [DEBUG]: Starting effect editor for Test Effect. 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[6 - .NET ThreadPool Worker] 
+      2022/04/16 00:24:42.368 - [DEBUG]: Starting monaco editor for effect Test Effect. 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[9 - .NET ThreadPool Worker] 
+      2022/04/16 00:24:45.364 - [DEBUG]: Removing effect parameter: Test Again from effect: Test Effect. 
+ 
+LedController.WebPortal.Core.Managers.EffectManager[9 - .NET ThreadPool Worker] 
+      2022/04/16 00:24:45.379 - [DEBUG]: removing parameter to effect Test Effect. 
+ 
+Microsoft.AspNetCore.Components.Server.Circuits.RemoteRenderer[9 - .NET ThreadPool Worker] 
+      2022/04/16 00:24:45.576 - [WARN]: Unhandled exception rendering component: The instance of entity type 'EffectParameterEntity' cannot be tracked because another instance with the same key value for {'Id'} is already being tracked. When attaching existing entities, ensure that only one entity instance with a given key value is attached. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see the conflicting key values. 
+ System.InvalidOperationException: The instance of entity type 'EffectParameterEntity' cannot be tracked because another instance with the same key value for {'Id'} is already being tracked. When attaching existing entities, ensure that only one entity instance with a given key value is attached. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see the conflicting key values.
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.ThrowIdentityConflict(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.Add(TKey key, InternalEntityEntry entry, Boolean updateDuplicate)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.Add(TKey key, InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.Add(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.StartTracking(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetEntityState(EntityState oldState, EntityState newState, Boolean acceptChanges, Boolean modifyProperties)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetEntityState(EntityState entityState, Boolean acceptChanges, Boolean modifyProperties, Nullable`1 forceStateWhenUnknownKey)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityGraphAttacher.PaintAction(EntityEntryGraphNode`1 node)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityEntryGraphIterator.TraverseGraph[TState](EntityEntryGraphNode`1 node, Func`2 handleNode)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityEntryGraphIterator.TraverseGraph[TState](EntityEntryGraphNode`1 node, Func`2 handleNode)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityGraphAttacher.AttachGraph(InternalEntityEntry rootEntry, EntityState targetState, EntityState storeGeneratedWithKeySetTargetState, Boolean forceStateWhenUnknownKey)
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.RemoveRange(IEnumerable`1 entities)
+   at LedController.WebPortal.Persistence.Sqlite.Stores.EffectStore.RemoveEffectParameter(EffectParameter effectParameter) in D:\Projects\LedController_net5\LedController.Portal.Persistance.Sqlite\Stores\EffectStore.cs:line 30
+   at LedController.WebPortal.Core.Managers.EffectManager.RemoveEffectParameterAsync(Effect effect, EffectParameter effectParameter, CancellationToken token) in D:\Projects\LedController_net5\LedController.Portal.Core\Managers\EffectManager.cs:line 69
+   at LedController.WebPortal.Web.Components.EffectEditor.RemoveEffectParameterAsync(EffectParameter parameter) in D:\Projects\LedController_net5\LedController.WebPortal.Web\Components\EffectEditor.razor.cs:line 73
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at LedController.WebPortal.Web.Components.EffectParameterRow.<BuildRenderTree>b__0_15() in D:\Projects\LedController_net5\LedController.WebPortal.Web\Components\EffectParameterRow.razor:line 39
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at MudBlazor.MudBaseButton.OnClickHandler(MouseEventArgs ev)
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.GetErrorHandledTask(Task taskToHandle, ComponentState owningComponentState)
+Microsoft.AspNetCore.Components.Server.Circuits.CircuitHost[9 - .NET ThreadPool Worker] 
+      2022/04/16 00:24:45.633 - [ERROR]: Unhandled exception in circuit '13kSLNrkN0XXDdiQJrUjjpIk-Ot6VMRX59jxC9QCyD4'. 
+ System.InvalidOperationException: The instance of entity type 'EffectParameterEntity' cannot be tracked because another instance with the same key value for {'Id'} is already being tracked. When attaching existing entities, ensure that only one entity instance with a given key value is attached. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see the conflicting key values.
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.ThrowIdentityConflict(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.Add(TKey key, InternalEntityEntry entry, Boolean updateDuplicate)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.Add(TKey key, InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.Add(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.StartTracking(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetEntityState(EntityState oldState, EntityState newState, Boolean acceptChanges, Boolean modifyProperties)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetEntityState(EntityState entityState, Boolean acceptChanges, Boolean modifyProperties, Nullable`1 forceStateWhenUnknownKey)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityGraphAttacher.PaintAction(EntityEntryGraphNode`1 node)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityEntryGraphIterator.TraverseGraph[TState](EntityEntryGraphNode`1 node, Func`2 handleNode)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityEntryGraphIterator.TraverseGraph[TState](EntityEntryGraphNode`1 node, Func`2 handleNode)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityGraphAttacher.AttachGraph(InternalEntityEntry rootEntry, EntityState targetState, EntityState storeGeneratedWithKeySetTargetState, Boolean forceStateWhenUnknownKey)
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.RemoveRange(IEnumerable`1 entities)
+   at LedController.WebPortal.Persistence.Sqlite.Stores.EffectStore.RemoveEffectParameter(EffectParameter effectParameter) in D:\Projects\LedController_net5\LedController.Portal.Persistance.Sqlite\Stores\EffectStore.cs:line 30
+   at LedController.WebPortal.Core.Managers.EffectManager.RemoveEffectParameterAsync(Effect effect, EffectParameter effectParameter, CancellationToken token) in D:\Projects\LedController_net5\LedController.Portal.Core\Managers\EffectManager.cs:line 69
+   at LedController.WebPortal.Web.Components.EffectEditor.RemoveEffectParameterAsync(EffectParameter parameter) in D:\Projects\LedController_net5\LedController.WebPortal.Web\Components\EffectEditor.razor.cs:line 73
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at LedController.WebPortal.Web.Components.EffectParameterRow.<BuildRenderTree>b__0_15() in D:\Projects\LedController_net5\LedController.WebPortal.Web\Components\EffectParameterRow.razor:line 39
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at MudBlazor.MudBaseButton.OnClickHandler(MouseEventArgs ev)
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.GetErrorHandledTask(Task taskToHandle, ComponentState owningComponentState)
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/04/16 00:26:51.748 - [DEBUG]: Hosting starting 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/16 00:26:51.882 - [DEBUG]: Starting the discovery service. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/16 00:26:51.882 - [DEBUG]: Creating a new UDP client to be used for broadcasting the server information. This wil happen on UDP port 8472. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/16 00:26:51.897 - [DEBUG]: The discovery service has started. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[6 - .NET ThreadPool Worker] 
+      2022/04/16 00:26:51.897 - [TRACE]: Start sending message to controllers to be discovered. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/16 00:26:52.023 - [INFO]: Now listening on: http://localhost:5097 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/16 00:26:52.039 - [INFO]: Application started. Press Ctrl+C to shut down. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/16 00:26:52.039 - [INFO]: Hosting environment: Development 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/16 00:26:52.039 - [INFO]: Content root path: D:\Projects\LedController_net5\LedController.WebPortal.Web\ 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/04/16 00:26:52.039 - [DEBUG]: Hosting started 
+ 
+LedController.WebPortal.Web.Pages.Index[9 - .NET ThreadPool Worker] 
+      2022/04/16 00:26:54.475 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Pages.Index[19 - .NET ThreadPool Worker] 
+      2022/04/16 00:26:56.210 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Pages.EffectsEditorPage[9 - .NET ThreadPool Worker] 
+      2022/04/16 00:26:58.242 - [INFO]: Loading effects page. 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[9 - .NET ThreadPool Worker] 
+      2022/04/16 00:26:58.319 - [DEBUG]: Starting effect editor for Test Effect. 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[10 - .NET ThreadPool Worker] 
+      2022/04/16 00:26:58.371 - [DEBUG]: Starting monaco editor for effect Test Effect. 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[9 - .NET ThreadPool Worker] 
+      2022/04/16 00:27:00.983 - [DEBUG]: Removing effect parameter: Test Parameter from effect: Test Effect. 
+ 
+LedController.WebPortal.Core.Managers.EffectManager[9 - .NET ThreadPool Worker] 
+      2022/04/16 00:27:00.999 - [DEBUG]: removing parameter to effect Test Effect. 
+ 
+Microsoft.AspNetCore.Components.Server.Circuits.RemoteRenderer[9 - .NET ThreadPool Worker] 
+      2022/04/16 00:27:01.198 - [WARN]: Unhandled exception rendering component: The instance of entity type 'EffectParameterEntity' cannot be tracked because another instance with the same key value for {'Id'} is already being tracked. When attaching existing entities, ensure that only one entity instance with a given key value is attached. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see the conflicting key values. 
+ System.InvalidOperationException: The instance of entity type 'EffectParameterEntity' cannot be tracked because another instance with the same key value for {'Id'} is already being tracked. When attaching existing entities, ensure that only one entity instance with a given key value is attached. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see the conflicting key values.
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.ThrowIdentityConflict(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.Add(TKey key, InternalEntityEntry entry, Boolean updateDuplicate)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.Add(TKey key, InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.Add(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.StartTracking(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetEntityState(EntityState oldState, EntityState newState, Boolean acceptChanges, Boolean modifyProperties)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetEntityState(EntityState entityState, Boolean acceptChanges, Boolean modifyProperties, Nullable`1 forceStateWhenUnknownKey)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityGraphAttacher.PaintAction(EntityEntryGraphNode`1 node)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityEntryGraphIterator.TraverseGraph[TState](EntityEntryGraphNode`1 node, Func`2 handleNode)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityEntryGraphIterator.TraverseGraph[TState](EntityEntryGraphNode`1 node, Func`2 handleNode)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityGraphAttacher.AttachGraph(InternalEntityEntry rootEntry, EntityState targetState, EntityState storeGeneratedWithKeySetTargetState, Boolean forceStateWhenUnknownKey)
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.RemoveRange(IEnumerable`1 entities)
+   at LedController.WebPortal.Persistence.Sqlite.Stores.EffectStore.RemoveEffectParameter(EffectParameter effectParameter) in D:\Projects\LedController_net5\LedController.Portal.Persistance.Sqlite\Stores\EffectStore.cs:line 30
+   at LedController.WebPortal.Core.Managers.EffectManager.RemoveEffectParameterAsync(Effect effect, EffectParameter effectParameter, CancellationToken token) in D:\Projects\LedController_net5\LedController.Portal.Core\Managers\EffectManager.cs:line 69
+   at LedController.WebPortal.Web.Components.EffectEditor.RemoveEffectParameterAsync(EffectParameter parameter) in D:\Projects\LedController_net5\LedController.WebPortal.Web\Components\EffectEditor.razor.cs:line 73
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at LedController.WebPortal.Web.Components.EffectParameterRow.<BuildRenderTree>b__0_15() in D:\Projects\LedController_net5\LedController.WebPortal.Web\Components\EffectParameterRow.razor:line 39
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at MudBlazor.MudBaseButton.OnClickHandler(MouseEventArgs ev)
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.GetErrorHandledTask(Task taskToHandle, ComponentState owningComponentState)
+Microsoft.AspNetCore.Components.Server.Circuits.CircuitHost[9 - .NET ThreadPool Worker] 
+      2022/04/16 00:27:01.242 - [ERROR]: Unhandled exception in circuit 'ir1rZlHDjVs2ovDpN22pf141GD2SPMQaUoYkBvHu_cM'. 
+ System.InvalidOperationException: The instance of entity type 'EffectParameterEntity' cannot be tracked because another instance with the same key value for {'Id'} is already being tracked. When attaching existing entities, ensure that only one entity instance with a given key value is attached. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see the conflicting key values.
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.ThrowIdentityConflict(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.Add(TKey key, InternalEntityEntry entry, Boolean updateDuplicate)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.Add(TKey key, InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.Add(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.StartTracking(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetEntityState(EntityState oldState, EntityState newState, Boolean acceptChanges, Boolean modifyProperties)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetEntityState(EntityState entityState, Boolean acceptChanges, Boolean modifyProperties, Nullable`1 forceStateWhenUnknownKey)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityGraphAttacher.PaintAction(EntityEntryGraphNode`1 node)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityEntryGraphIterator.TraverseGraph[TState](EntityEntryGraphNode`1 node, Func`2 handleNode)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityEntryGraphIterator.TraverseGraph[TState](EntityEntryGraphNode`1 node, Func`2 handleNode)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityGraphAttacher.AttachGraph(InternalEntityEntry rootEntry, EntityState targetState, EntityState storeGeneratedWithKeySetTargetState, Boolean forceStateWhenUnknownKey)
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.RemoveRange(IEnumerable`1 entities)
+   at LedController.WebPortal.Persistence.Sqlite.Stores.EffectStore.RemoveEffectParameter(EffectParameter effectParameter) in D:\Projects\LedController_net5\LedController.Portal.Persistance.Sqlite\Stores\EffectStore.cs:line 30
+   at LedController.WebPortal.Core.Managers.EffectManager.RemoveEffectParameterAsync(Effect effect, EffectParameter effectParameter, CancellationToken token) in D:\Projects\LedController_net5\LedController.Portal.Core\Managers\EffectManager.cs:line 69
+   at LedController.WebPortal.Web.Components.EffectEditor.RemoveEffectParameterAsync(EffectParameter parameter) in D:\Projects\LedController_net5\LedController.WebPortal.Web\Components\EffectEditor.razor.cs:line 73
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at LedController.WebPortal.Web.Components.EffectParameterRow.<BuildRenderTree>b__0_15() in D:\Projects\LedController_net5\LedController.WebPortal.Web\Components\EffectParameterRow.razor:line 39
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at MudBlazor.MudBaseButton.OnClickHandler(MouseEventArgs ev)
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.GetErrorHandledTask(Task taskToHandle, ComponentState owningComponentState)
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/04/16 00:29:34.543 - [DEBUG]: Hosting starting 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/16 00:29:34.664 - [DEBUG]: Starting the discovery service. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/16 00:29:34.679 - [DEBUG]: Creating a new UDP client to be used for broadcasting the server information. This wil happen on UDP port 8472. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/16 00:29:34.695 - [DEBUG]: The discovery service has started. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[13 - .NET ThreadPool Worker] 
+      2022/04/16 00:29:34.695 - [TRACE]: Start sending message to controllers to be discovered. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/16 00:29:34.835 - [INFO]: Now listening on: http://localhost:5097 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/16 00:29:34.835 - [INFO]: Application started. Press Ctrl+C to shut down. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/16 00:29:34.835 - [INFO]: Hosting environment: Development 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/16 00:29:34.835 - [INFO]: Content root path: D:\Projects\LedController_net5\LedController.WebPortal.Web\ 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/04/16 00:29:34.835 - [DEBUG]: Hosting started 
+ 
+LedController.WebPortal.Web.Pages.Index[4 - .NET ThreadPool Worker] 
+      2022/04/16 00:29:36.930 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Pages.Index[13 - .NET ThreadPool Worker] 
+      2022/04/16 00:29:38.699 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Pages.EffectsEditorPage[4 - .NET ThreadPool Worker] 
+      2022/04/16 00:29:47.976 - [INFO]: Loading effects page. 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[4 - .NET ThreadPool Worker] 
+      2022/04/16 00:29:48.054 - [DEBUG]: Starting effect editor for Test Effect. 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[18 - .NET ThreadPool Worker] 
+      2022/04/16 00:29:48.072 - [DEBUG]: Starting monaco editor for effect Test Effect. 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[15 - .NET ThreadPool Worker] 
+      2022/04/16 00:29:50.656 - [DEBUG]: Removing effect parameter: Test Parameter from effect: Test Effect. 
+ 
+LedController.WebPortal.Core.Managers.EffectManager[15 - .NET ThreadPool Worker] 
+      2022/04/16 00:29:50.672 - [DEBUG]: removing parameter to effect Test Effect. 
+ 
+Microsoft.AspNetCore.Components.Server.Circuits.RemoteRenderer[15 - .NET ThreadPool Worker] 
+      2022/04/16 00:29:50.885 - [WARN]: Unhandled exception rendering component: The instance of entity type 'EffectParameterEntity' cannot be tracked because another instance with the same key value for {'Id'} is already being tracked. When attaching existing entities, ensure that only one entity instance with a given key value is attached. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see the conflicting key values. 
+ System.InvalidOperationException: The instance of entity type 'EffectParameterEntity' cannot be tracked because another instance with the same key value for {'Id'} is already being tracked. When attaching existing entities, ensure that only one entity instance with a given key value is attached. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see the conflicting key values.
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.ThrowIdentityConflict(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.Add(TKey key, InternalEntityEntry entry, Boolean updateDuplicate)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.Add(TKey key, InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.Add(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.StartTracking(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetEntityState(EntityState oldState, EntityState newState, Boolean acceptChanges, Boolean modifyProperties)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetEntityState(EntityState entityState, Boolean acceptChanges, Boolean modifyProperties, Nullable`1 forceStateWhenUnknownKey)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityGraphAttacher.PaintAction(EntityEntryGraphNode`1 node)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityEntryGraphIterator.TraverseGraph[TState](EntityEntryGraphNode`1 node, Func`2 handleNode)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityEntryGraphIterator.TraverseGraph[TState](EntityEntryGraphNode`1 node, Func`2 handleNode)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityGraphAttacher.AttachGraph(InternalEntityEntry rootEntry, EntityState targetState, EntityState storeGeneratedWithKeySetTargetState, Boolean forceStateWhenUnknownKey)
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.RemoveRange(IEnumerable`1 entities)
+   at LedController.WebPortal.Persistence.Sqlite.Stores.EffectStore.RemoveEffectParameterAsync(EffectParameter effectParameter, CancellationToken token) in D:\Projects\LedController_net5\LedController.Portal.Persistance.Sqlite\Stores\EffectStore.cs:line 30
+   at LedController.WebPortal.Core.Managers.EffectManager.RemoveEffectParameterAsync(Effect effect, EffectParameter effectParameter, CancellationToken token) in D:\Projects\LedController_net5\LedController.Portal.Core\Managers\EffectManager.cs:line 69
+   at LedController.WebPortal.Web.Components.EffectEditor.RemoveEffectParameterAsync(EffectParameter parameter) in D:\Projects\LedController_net5\LedController.WebPortal.Web\Components\EffectEditor.razor.cs:line 73
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at LedController.WebPortal.Web.Components.EffectParameterRow.<BuildRenderTree>b__0_15() in D:\Projects\LedController_net5\LedController.WebPortal.Web\Components\EffectParameterRow.razor:line 39
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at MudBlazor.MudBaseButton.OnClickHandler(MouseEventArgs ev)
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.GetErrorHandledTask(Task taskToHandle, ComponentState owningComponentState)
+Microsoft.AspNetCore.Components.Server.Circuits.CircuitHost[15 - .NET ThreadPool Worker] 
+      2022/04/16 00:29:50.933 - [ERROR]: Unhandled exception in circuit 'ZRUOiEtsdfLSIlLJ0Uba5oD6Va4pkHJ_axx_p6Ne7jY'. 
+ System.InvalidOperationException: The instance of entity type 'EffectParameterEntity' cannot be tracked because another instance with the same key value for {'Id'} is already being tracked. When attaching existing entities, ensure that only one entity instance with a given key value is attached. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see the conflicting key values.
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.ThrowIdentityConflict(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.Add(TKey key, InternalEntityEntry entry, Boolean updateDuplicate)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.Add(TKey key, InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.Add(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.StartTracking(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetEntityState(EntityState oldState, EntityState newState, Boolean acceptChanges, Boolean modifyProperties)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetEntityState(EntityState entityState, Boolean acceptChanges, Boolean modifyProperties, Nullable`1 forceStateWhenUnknownKey)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityGraphAttacher.PaintAction(EntityEntryGraphNode`1 node)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityEntryGraphIterator.TraverseGraph[TState](EntityEntryGraphNode`1 node, Func`2 handleNode)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityEntryGraphIterator.TraverseGraph[TState](EntityEntryGraphNode`1 node, Func`2 handleNode)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityGraphAttacher.AttachGraph(InternalEntityEntry rootEntry, EntityState targetState, EntityState storeGeneratedWithKeySetTargetState, Boolean forceStateWhenUnknownKey)
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.RemoveRange(IEnumerable`1 entities)
+   at LedController.WebPortal.Persistence.Sqlite.Stores.EffectStore.RemoveEffectParameterAsync(EffectParameter effectParameter, CancellationToken token) in D:\Projects\LedController_net5\LedController.Portal.Persistance.Sqlite\Stores\EffectStore.cs:line 30
+   at LedController.WebPortal.Core.Managers.EffectManager.RemoveEffectParameterAsync(Effect effect, EffectParameter effectParameter, CancellationToken token) in D:\Projects\LedController_net5\LedController.Portal.Core\Managers\EffectManager.cs:line 69
+   at LedController.WebPortal.Web.Components.EffectEditor.RemoveEffectParameterAsync(EffectParameter parameter) in D:\Projects\LedController_net5\LedController.WebPortal.Web\Components\EffectEditor.razor.cs:line 73
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at LedController.WebPortal.Web.Components.EffectParameterRow.<BuildRenderTree>b__0_15() in D:\Projects\LedController_net5\LedController.WebPortal.Web\Components\EffectParameterRow.razor:line 39
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at MudBlazor.MudBaseButton.OnClickHandler(MouseEventArgs ev)
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.GetErrorHandledTask(Task taskToHandle, ComponentState owningComponentState)
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/04/16 00:30:48.785 - [DEBUG]: Hosting starting 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/16 00:30:48.866 - [DEBUG]: Starting the discovery service. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/16 00:30:48.866 - [DEBUG]: Creating a new UDP client to be used for broadcasting the server information. This wil happen on UDP port 8472. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/16 00:30:48.866 - [DEBUG]: The discovery service has started. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[6 - .NET ThreadPool Worker] 
+      2022/04/16 00:30:48.866 - [TRACE]: Start sending message to controllers to be discovered. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/16 00:30:48.975 - [INFO]: Now listening on: http://localhost:5097 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/16 00:30:48.975 - [INFO]: Application started. Press Ctrl+C to shut down. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/16 00:30:48.975 - [INFO]: Hosting environment: Development 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/16 00:30:48.975 - [INFO]: Content root path: D:\Projects\LedController_net5\LedController.WebPortal.Web\ 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/04/16 00:30:48.975 - [DEBUG]: Hosting started 
+ 
+LedController.WebPortal.Web.Pages.Index[9 - .NET ThreadPool Worker] 
+      2022/04/16 00:30:51.116 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Pages.Index[15 - .NET ThreadPool Worker] 
+      2022/04/16 00:30:52.710 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Pages.EffectsEditorPage[6 - .NET ThreadPool Worker] 
+      2022/04/16 00:30:53.100 - [INFO]: Loading effects page. 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[6 - .NET ThreadPool Worker] 
+      2022/04/16 00:30:53.195 - [DEBUG]: Starting effect editor for Test Effect. 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[6 - .NET ThreadPool Worker] 
+      2022/04/16 00:30:53.249 - [DEBUG]: Starting monaco editor for effect Test Effect. 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[12 - .NET ThreadPool Worker] 
+      2022/04/16 00:30:55.076 - [DEBUG]: Removing effect parameter: Test Parameter from effect: Test Effect. 
+ 
+LedController.WebPortal.Core.Managers.EffectManager[12 - .NET ThreadPool Worker] 
+      2022/04/16 00:30:55.091 - [DEBUG]: removing parameter to effect Test Effect. 
+ 
+Microsoft.AspNetCore.Components.Server.Circuits.RemoteRenderer[12 - .NET ThreadPool Worker] 
+      2022/04/16 00:30:55.306 - [WARN]: Unhandled exception rendering component: The instance of entity type 'EffectParameterEntity' cannot be tracked because another instance with the same key value for {'Id'} is already being tracked. When attaching existing entities, ensure that only one entity instance with a given key value is attached. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see the conflicting key values. 
+ System.InvalidOperationException: The instance of entity type 'EffectParameterEntity' cannot be tracked because another instance with the same key value for {'Id'} is already being tracked. When attaching existing entities, ensure that only one entity instance with a given key value is attached. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see the conflicting key values.
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.ThrowIdentityConflict(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.Add(TKey key, InternalEntityEntry entry, Boolean updateDuplicate)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.Add(TKey key, InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.Add(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.StartTracking(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetEntityState(EntityState oldState, EntityState newState, Boolean acceptChanges, Boolean modifyProperties)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetEntityState(EntityState entityState, Boolean acceptChanges, Boolean modifyProperties, Nullable`1 forceStateWhenUnknownKey)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityGraphAttacher.PaintAction(EntityEntryGraphNode`1 node)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityEntryGraphIterator.TraverseGraph[TState](EntityEntryGraphNode`1 node, Func`2 handleNode)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityEntryGraphIterator.TraverseGraph[TState](EntityEntryGraphNode`1 node, Func`2 handleNode)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityGraphAttacher.AttachGraph(InternalEntityEntry rootEntry, EntityState targetState, EntityState storeGeneratedWithKeySetTargetState, Boolean forceStateWhenUnknownKey)
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.RemoveRange(IEnumerable`1 entities)
+   at LedController.WebPortal.Persistence.Sqlite.Stores.EffectStore.RemoveEffectParameterAsync(EffectParameter effectParameter, CancellationToken token) in D:\Projects\LedController_net5\LedController.Portal.Persistance.Sqlite\Stores\EffectStore.cs:line 32
+   at LedController.WebPortal.Core.Managers.EffectManager.RemoveEffectParameterAsync(Effect effect, EffectParameter effectParameter, CancellationToken token) in D:\Projects\LedController_net5\LedController.Portal.Core\Managers\EffectManager.cs:line 69
+   at LedController.WebPortal.Web.Components.EffectEditor.RemoveEffectParameterAsync(EffectParameter parameter) in D:\Projects\LedController_net5\LedController.WebPortal.Web\Components\EffectEditor.razor.cs:line 73
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at LedController.WebPortal.Web.Components.EffectParameterRow.<BuildRenderTree>b__0_15() in D:\Projects\LedController_net5\LedController.WebPortal.Web\Components\EffectParameterRow.razor:line 39
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at MudBlazor.MudBaseButton.OnClickHandler(MouseEventArgs ev)
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.GetErrorHandledTask(Task taskToHandle, ComponentState owningComponentState)
+Microsoft.AspNetCore.Components.Server.Circuits.CircuitHost[12 - .NET ThreadPool Worker] 
+      2022/04/16 00:30:55.352 - [ERROR]: Unhandled exception in circuit 'LaEPKxbAVzwZa1yZnyalEiONWKDW-3aWew_cwyvAMpk'. 
+ System.InvalidOperationException: The instance of entity type 'EffectParameterEntity' cannot be tracked because another instance with the same key value for {'Id'} is already being tracked. When attaching existing entities, ensure that only one entity instance with a given key value is attached. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see the conflicting key values.
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.ThrowIdentityConflict(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.Add(TKey key, InternalEntityEntry entry, Boolean updateDuplicate)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.Add(TKey key, InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.Add(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.StartTracking(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetEntityState(EntityState oldState, EntityState newState, Boolean acceptChanges, Boolean modifyProperties)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetEntityState(EntityState entityState, Boolean acceptChanges, Boolean modifyProperties, Nullable`1 forceStateWhenUnknownKey)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityGraphAttacher.PaintAction(EntityEntryGraphNode`1 node)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityEntryGraphIterator.TraverseGraph[TState](EntityEntryGraphNode`1 node, Func`2 handleNode)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityEntryGraphIterator.TraverseGraph[TState](EntityEntryGraphNode`1 node, Func`2 handleNode)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityGraphAttacher.AttachGraph(InternalEntityEntry rootEntry, EntityState targetState, EntityState storeGeneratedWithKeySetTargetState, Boolean forceStateWhenUnknownKey)
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.RemoveRange(IEnumerable`1 entities)
+   at LedController.WebPortal.Persistence.Sqlite.Stores.EffectStore.RemoveEffectParameterAsync(EffectParameter effectParameter, CancellationToken token) in D:\Projects\LedController_net5\LedController.Portal.Persistance.Sqlite\Stores\EffectStore.cs:line 32
+   at LedController.WebPortal.Core.Managers.EffectManager.RemoveEffectParameterAsync(Effect effect, EffectParameter effectParameter, CancellationToken token) in D:\Projects\LedController_net5\LedController.Portal.Core\Managers\EffectManager.cs:line 69
+   at LedController.WebPortal.Web.Components.EffectEditor.RemoveEffectParameterAsync(EffectParameter parameter) in D:\Projects\LedController_net5\LedController.WebPortal.Web\Components\EffectEditor.razor.cs:line 73
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at LedController.WebPortal.Web.Components.EffectParameterRow.<BuildRenderTree>b__0_15() in D:\Projects\LedController_net5\LedController.WebPortal.Web\Components\EffectParameterRow.razor:line 39
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at MudBlazor.MudBaseButton.OnClickHandler(MouseEventArgs ev)
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.GetErrorHandledTask(Task taskToHandle, ComponentState owningComponentState)
+LedController.WebPortal.Web.Pages.EffectsEditorPage[9 - .NET ThreadPool Worker] 
+      2022/04/16 00:31:20.129 - [INFO]: Loading effects page. 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[9 - .NET ThreadPool Worker] 
+      2022/04/16 00:31:20.151 - [DEBUG]: Starting effect editor for Test Effect. 
+ 
+LedController.WebPortal.Web.Pages.EffectsEditorPage[12 - .NET ThreadPool Worker] 
+      2022/04/16 00:31:21.246 - [INFO]: Loading effects page. 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[12 - .NET ThreadPool Worker] 
+      2022/04/16 00:31:21.246 - [DEBUG]: Starting effect editor for Test Effect. 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[12 - .NET ThreadPool Worker] 
+      2022/04/16 00:31:21.314 - [DEBUG]: Starting monaco editor for effect Test Effect. 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[6 - .NET ThreadPool Worker] 
+      2022/04/16 00:31:22.964 - [DEBUG]: Removing effect parameter: Test Parameter from effect: Test Effect. 
+ 
+LedController.WebPortal.Core.Managers.EffectManager[6 - .NET ThreadPool Worker] 
+      2022/04/16 00:31:22.979 - [DEBUG]: removing parameter to effect Test Effect. 
+ 
+Microsoft.AspNetCore.Components.Server.Circuits.RemoteRenderer[6 - .NET ThreadPool Worker] 
+      2022/04/16 00:31:23.097 - [WARN]: Unhandled exception rendering component: The instance of entity type 'EffectParameterEntity' cannot be tracked because another instance with the same key value for {'Id'} is already being tracked. When attaching existing entities, ensure that only one entity instance with a given key value is attached. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see the conflicting key values. 
+ System.InvalidOperationException: The instance of entity type 'EffectParameterEntity' cannot be tracked because another instance with the same key value for {'Id'} is already being tracked. When attaching existing entities, ensure that only one entity instance with a given key value is attached. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see the conflicting key values.
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.ThrowIdentityConflict(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.Add(TKey key, InternalEntityEntry entry, Boolean updateDuplicate)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.Add(TKey key, InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.Add(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.StartTracking(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetEntityState(EntityState oldState, EntityState newState, Boolean acceptChanges, Boolean modifyProperties)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetEntityState(EntityState entityState, Boolean acceptChanges, Boolean modifyProperties, Nullable`1 forceStateWhenUnknownKey)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityGraphAttacher.PaintAction(EntityEntryGraphNode`1 node)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityEntryGraphIterator.TraverseGraph[TState](EntityEntryGraphNode`1 node, Func`2 handleNode)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityEntryGraphIterator.TraverseGraph[TState](EntityEntryGraphNode`1 node, Func`2 handleNode)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityGraphAttacher.AttachGraph(InternalEntityEntry rootEntry, EntityState targetState, EntityState storeGeneratedWithKeySetTargetState, Boolean forceStateWhenUnknownKey)
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.RemoveRange(IEnumerable`1 entities)
+   at LedController.WebPortal.Persistence.Sqlite.Stores.EffectStore.RemoveEffectParameterAsync(EffectParameter effectParameter, CancellationToken token) in D:\Projects\LedController_net5\LedController.Portal.Persistance.Sqlite\Stores\EffectStore.cs:line 32
+   at LedController.WebPortal.Core.Managers.EffectManager.RemoveEffectParameterAsync(Effect effect, EffectParameter effectParameter, CancellationToken token) in D:\Projects\LedController_net5\LedController.Portal.Core\Managers\EffectManager.cs:line 69
+   at LedController.WebPortal.Web.Components.EffectEditor.RemoveEffectParameterAsync(EffectParameter parameter) in D:\Projects\LedController_net5\LedController.WebPortal.Web\Components\EffectEditor.razor.cs:line 73
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at LedController.WebPortal.Web.Components.EffectParameterRow.<BuildRenderTree>b__0_15() in D:\Projects\LedController_net5\LedController.WebPortal.Web\Components\EffectParameterRow.razor:line 39
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at MudBlazor.MudBaseButton.OnClickHandler(MouseEventArgs ev)
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.GetErrorHandledTask(Task taskToHandle, ComponentState owningComponentState)
+Microsoft.AspNetCore.Components.Server.Circuits.CircuitHost[6 - .NET ThreadPool Worker] 
+      2022/04/16 00:31:23.101 - [ERROR]: Unhandled exception in circuit 'pa7Iklq7t97RfwhfKIb3XhnSMnx5IivXtCFpU98qNvI'. 
+ System.InvalidOperationException: The instance of entity type 'EffectParameterEntity' cannot be tracked because another instance with the same key value for {'Id'} is already being tracked. When attaching existing entities, ensure that only one entity instance with a given key value is attached. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see the conflicting key values.
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.ThrowIdentityConflict(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.Add(TKey key, InternalEntityEntry entry, Boolean updateDuplicate)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.Add(TKey key, InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.Add(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.StartTracking(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetEntityState(EntityState oldState, EntityState newState, Boolean acceptChanges, Boolean modifyProperties)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetEntityState(EntityState entityState, Boolean acceptChanges, Boolean modifyProperties, Nullable`1 forceStateWhenUnknownKey)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityGraphAttacher.PaintAction(EntityEntryGraphNode`1 node)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityEntryGraphIterator.TraverseGraph[TState](EntityEntryGraphNode`1 node, Func`2 handleNode)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityEntryGraphIterator.TraverseGraph[TState](EntityEntryGraphNode`1 node, Func`2 handleNode)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityGraphAttacher.AttachGraph(InternalEntityEntry rootEntry, EntityState targetState, EntityState storeGeneratedWithKeySetTargetState, Boolean forceStateWhenUnknownKey)
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.RemoveRange(IEnumerable`1 entities)
+   at LedController.WebPortal.Persistence.Sqlite.Stores.EffectStore.RemoveEffectParameterAsync(EffectParameter effectParameter, CancellationToken token) in D:\Projects\LedController_net5\LedController.Portal.Persistance.Sqlite\Stores\EffectStore.cs:line 32
+   at LedController.WebPortal.Core.Managers.EffectManager.RemoveEffectParameterAsync(Effect effect, EffectParameter effectParameter, CancellationToken token) in D:\Projects\LedController_net5\LedController.Portal.Core\Managers\EffectManager.cs:line 69
+   at LedController.WebPortal.Web.Components.EffectEditor.RemoveEffectParameterAsync(EffectParameter parameter) in D:\Projects\LedController_net5\LedController.WebPortal.Web\Components\EffectEditor.razor.cs:line 73
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at LedController.WebPortal.Web.Components.EffectParameterRow.<BuildRenderTree>b__0_15() in D:\Projects\LedController_net5\LedController.WebPortal.Web\Components\EffectParameterRow.razor:line 39
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at MudBlazor.MudBaseButton.OnClickHandler(MouseEventArgs ev)
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.GetErrorHandledTask(Task taskToHandle, ComponentState owningComponentState)
+LedController.WebPortal.Web.Pages.EffectsEditorPage[6 - .NET ThreadPool Worker] 
+      2022/04/16 00:31:40.892 - [INFO]: Loading effects page. 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[6 - .NET ThreadPool Worker] 
+      2022/04/16 00:31:40.913 - [DEBUG]: Starting effect editor for Test Effect. 
+ 
+LedController.WebPortal.Web.Pages.EffectsEditorPage[6 - .NET ThreadPool Worker] 
+      2022/04/16 00:31:41.959 - [INFO]: Loading effects page. 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[6 - .NET ThreadPool Worker] 
+      2022/04/16 00:31:41.975 - [DEBUG]: Starting effect editor for Test Effect. 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[12 - .NET ThreadPool Worker] 
+      2022/04/16 00:31:42.031 - [DEBUG]: Starting monaco editor for effect Test Effect. 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[9 - .NET ThreadPool Worker] 
+      2022/04/16 00:31:44.335 - [DEBUG]: Removing effect parameter: Test from effect: Test Effect. 
+ 
+LedController.WebPortal.Core.Managers.EffectManager[9 - .NET ThreadPool Worker] 
+      2022/04/16 00:31:44.351 - [DEBUG]: removing parameter to effect Test Effect. 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/04/16 00:33:09.781 - [DEBUG]: Hosting starting 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/16 00:33:09.897 - [DEBUG]: Starting the discovery service. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/16 00:33:09.897 - [DEBUG]: Creating a new UDP client to be used for broadcasting the server information. This wil happen on UDP port 8472. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/16 00:33:09.897 - [DEBUG]: The discovery service has started. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[6 - .NET ThreadPool Worker] 
+      2022/04/16 00:33:09.897 - [TRACE]: Start sending message to controllers to be discovered. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/16 00:33:10.024 - [INFO]: Now listening on: http://localhost:5097 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/16 00:33:10.040 - [INFO]: Application started. Press Ctrl+C to shut down. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/16 00:33:10.040 - [INFO]: Hosting environment: Development 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/16 00:33:10.040 - [INFO]: Content root path: D:\Projects\LedController_net5\LedController.WebPortal.Web\ 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/04/16 00:33:10.040 - [DEBUG]: Hosting started 
+ 
+LedController.WebPortal.Web.Pages.Index[9 - .NET ThreadPool Worker] 
+      2022/04/16 00:33:12.741 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Pages.Index[10 - .NET ThreadPool Worker] 
+      2022/04/16 00:33:14.897 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Pages.EffectsEditorPage[6 - .NET ThreadPool Worker] 
+      2022/04/16 00:33:15.305 - [INFO]: Loading effects page. 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[6 - .NET ThreadPool Worker] 
+      2022/04/16 00:33:15.398 - [DEBUG]: Starting effect editor for Test Effect. 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[9 - .NET ThreadPool Worker] 
+      2022/04/16 00:33:15.454 - [DEBUG]: Starting monaco editor for effect Test Effect. 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[9 - .NET ThreadPool Worker] 
+      2022/04/16 00:33:17.960 - [DEBUG]: Removing effect parameter: Test Parameter from effect: Test Effect. 
+ 
+LedController.WebPortal.Core.Managers.EffectManager[9 - .NET ThreadPool Worker] 
+      2022/04/16 00:33:17.977 - [DEBUG]: removing parameter to effect Test Effect. 
+ 
+Microsoft.AspNetCore.Components.Server.Circuits.RemoteRenderer[9 - .NET ThreadPool Worker] 
+      2022/04/16 00:33:51.160 - [WARN]: Unhandled exception rendering component: The instance of entity type 'EffectParameterEntity' cannot be tracked because another instance with the same key value for {'Id'} is already being tracked. When attaching existing entities, ensure that only one entity instance with a given key value is attached. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see the conflicting key values. 
+ System.InvalidOperationException: The instance of entity type 'EffectParameterEntity' cannot be tracked because another instance with the same key value for {'Id'} is already being tracked. When attaching existing entities, ensure that only one entity instance with a given key value is attached. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see the conflicting key values.
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.ThrowIdentityConflict(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.Add(TKey key, InternalEntityEntry entry, Boolean updateDuplicate)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.Add(TKey key, InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.Add(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.StartTracking(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetEntityState(EntityState oldState, EntityState newState, Boolean acceptChanges, Boolean modifyProperties)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetEntityState(EntityState entityState, Boolean acceptChanges, Boolean modifyProperties, Nullable`1 forceStateWhenUnknownKey)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityGraphAttacher.PaintAction(EntityEntryGraphNode`1 node)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityEntryGraphIterator.TraverseGraph[TState](EntityEntryGraphNode`1 node, Func`2 handleNode)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityEntryGraphIterator.TraverseGraph[TState](EntityEntryGraphNode`1 node, Func`2 handleNode)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityGraphAttacher.AttachGraph(InternalEntityEntry rootEntry, EntityState targetState, EntityState storeGeneratedWithKeySetTargetState, Boolean forceStateWhenUnknownKey)
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.RemoveRange(IEnumerable`1 entities)
+   at LedController.WebPortal.Persistence.Sqlite.Stores.EffectStore.RemoveEffectParameterAsync(EffectParameter effectParameter, CancellationToken token) in D:\Projects\LedController_net5\LedController.Portal.Persistance.Sqlite\Stores\EffectStore.cs:line 32
+   at LedController.WebPortal.Core.Managers.EffectManager.RemoveEffectParameterAsync(Effect effect, EffectParameter effectParameter, CancellationToken token) in D:\Projects\LedController_net5\LedController.Portal.Core\Managers\EffectManager.cs:line 69
+   at LedController.WebPortal.Web.Components.EffectEditor.RemoveEffectParameterAsync(EffectParameter parameter) in D:\Projects\LedController_net5\LedController.WebPortal.Web\Components\EffectEditor.razor.cs:line 73
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at LedController.WebPortal.Web.Components.EffectParameterRow.<BuildRenderTree>b__0_15() in D:\Projects\LedController_net5\LedController.WebPortal.Web\Components\EffectParameterRow.razor:line 39
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at MudBlazor.MudBaseButton.OnClickHandler(MouseEventArgs ev)
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.GetErrorHandledTask(Task taskToHandle, ComponentState owningComponentState)
+Microsoft.AspNetCore.Components.Server.Circuits.CircuitHost[9 - .NET ThreadPool Worker] 
+      2022/04/16 00:33:51.227 - [ERROR]: Unhandled exception in circuit 'Ga2615BXVnfCSu9ELWUTkb-kRJavPcv-rv2EqfGQGp4'. 
+ System.InvalidOperationException: The instance of entity type 'EffectParameterEntity' cannot be tracked because another instance with the same key value for {'Id'} is already being tracked. When attaching existing entities, ensure that only one entity instance with a given key value is attached. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see the conflicting key values.
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.ThrowIdentityConflict(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.Add(TKey key, InternalEntityEntry entry, Boolean updateDuplicate)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.Add(TKey key, InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.Add(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.StartTracking(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetEntityState(EntityState oldState, EntityState newState, Boolean acceptChanges, Boolean modifyProperties)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetEntityState(EntityState entityState, Boolean acceptChanges, Boolean modifyProperties, Nullable`1 forceStateWhenUnknownKey)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityGraphAttacher.PaintAction(EntityEntryGraphNode`1 node)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityEntryGraphIterator.TraverseGraph[TState](EntityEntryGraphNode`1 node, Func`2 handleNode)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityEntryGraphIterator.TraverseGraph[TState](EntityEntryGraphNode`1 node, Func`2 handleNode)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityGraphAttacher.AttachGraph(InternalEntityEntry rootEntry, EntityState targetState, EntityState storeGeneratedWithKeySetTargetState, Boolean forceStateWhenUnknownKey)
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.RemoveRange(IEnumerable`1 entities)
+   at LedController.WebPortal.Persistence.Sqlite.Stores.EffectStore.RemoveEffectParameterAsync(EffectParameter effectParameter, CancellationToken token) in D:\Projects\LedController_net5\LedController.Portal.Persistance.Sqlite\Stores\EffectStore.cs:line 32
+   at LedController.WebPortal.Core.Managers.EffectManager.RemoveEffectParameterAsync(Effect effect, EffectParameter effectParameter, CancellationToken token) in D:\Projects\LedController_net5\LedController.Portal.Core\Managers\EffectManager.cs:line 69
+   at LedController.WebPortal.Web.Components.EffectEditor.RemoveEffectParameterAsync(EffectParameter parameter) in D:\Projects\LedController_net5\LedController.WebPortal.Web\Components\EffectEditor.razor.cs:line 73
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at LedController.WebPortal.Web.Components.EffectParameterRow.<BuildRenderTree>b__0_15() in D:\Projects\LedController_net5\LedController.WebPortal.Web\Components\EffectParameterRow.razor:line 39
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at MudBlazor.MudBaseButton.OnClickHandler(MouseEventArgs ev)
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.GetErrorHandledTask(Task taskToHandle, ComponentState owningComponentState)
+Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher[24 - .NET ThreadPool Worker] 
+      2022/04/16 00:33:51.268 - [ERROR]: Failed to invoke hub method 'ConnectCircuit'. 
+ System.ObjectDisposedException: Cannot access a disposed object.
+   at Microsoft.AspNetCore.Components.Server.Circuits.CircuitHost.SetCircuitUser(ClaimsPrincipal user)
+   at Microsoft.AspNetCore.Components.Server.ComponentHub.ConnectCircuit(String circuitIdSecret)
+   at lambda_method11(Closure , Object )
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.ExecuteMethod(ObjectMethodExecutor methodExecutor, Hub hub, Object[] arguments)
+   at Microsoft.AspNetCore.SignalR.Internal.DefaultHubDispatcher`1.<Invoke>g__ExecuteInvocation|16_0(DefaultHubDispatcher`1 dispatcher, ObjectMethodExecutor methodExecutor, THub hub, Object[] arguments, AsyncServiceScope scope, IHubActivator`1 hubActivator, HubConnectionContext connection, HubMethodInvocationMessage hubMethodInvocationMessage, Boolean isStreamCall)
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/04/16 00:38:51.570 - [DEBUG]: Hosting starting 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/16 00:38:51.741 - [DEBUG]: Starting the discovery service. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/16 00:38:51.741 - [DEBUG]: Creating a new UDP client to be used for broadcasting the server information. This wil happen on UDP port 8472. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/16 00:38:51.758 - [DEBUG]: The discovery service has started. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[12 - .NET ThreadPool Worker] 
+      2022/04/16 00:38:51.758 - [TRACE]: Start sending message to controllers to be discovered. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/16 00:38:51.914 - [INFO]: Now listening on: http://localhost:5097 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/16 00:38:51.914 - [INFO]: Application started. Press Ctrl+C to shut down. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/16 00:38:51.914 - [INFO]: Hosting environment: Development 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/16 00:38:51.914 - [INFO]: Content root path: D:\Projects\LedController_net5\LedController.WebPortal.Web\ 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/04/16 00:38:51.914 - [DEBUG]: Hosting started 
+ 
+LedController.WebPortal.Web.Pages.Index[6 - .NET ThreadPool Worker] 
+      2022/04/16 00:38:54.069 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Pages.Index[13 - .NET ThreadPool Worker] 
+      2022/04/16 00:38:55.891 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Pages.EffectsEditorPage[9 - .NET ThreadPool Worker] 
+      2022/04/16 00:38:56.897 - [INFO]: Loading effects page. 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[9 - .NET ThreadPool Worker] 
+      2022/04/16 00:38:56.976 - [DEBUG]: Starting effect editor for Test Effect. 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[12 - .NET ThreadPool Worker] 
+      2022/04/16 00:38:57.024 - [DEBUG]: Starting monaco editor for effect Test Effect. 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[12 - .NET ThreadPool Worker] 
+      2022/04/16 00:38:59.409 - [DEBUG]: Removing effect parameter: Test Parameter from effect: Test Effect. 
+ 
+LedController.WebPortal.Core.Managers.EffectManager[12 - .NET ThreadPool Worker] 
+      2022/04/16 00:38:59.424 - [DEBUG]: removing parameter to effect Test Effect. 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[9 - .NET ThreadPool Worker] 
+      2022/04/16 00:39:23.165 - [DEBUG]: Removing effect parameter: Tset Super from effect: Test Effect. 
+ 
+LedController.WebPortal.Core.Managers.EffectManager[9 - .NET ThreadPool Worker] 
+      2022/04/16 00:39:23.180 - [DEBUG]: removing parameter to effect Test Effect. 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[6 - .NET ThreadPool Worker] 
+      2022/04/16 00:39:23.989 - [DEBUG]: Removing effect parameter: Test Again from effect: Test Effect. 
+ 
+LedController.WebPortal.Core.Managers.EffectManager[6 - .NET ThreadPool Worker] 
+      2022/04/16 00:39:24.004 - [DEBUG]: removing parameter to effect Test Effect. 
+ 
+LedController.WebPortal.Web.Pages.EffectsEditorPage[14 - .NET ThreadPool Worker] 
+      2022/04/16 00:39:25.706 - [INFO]: Loading effects page. 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[14 - .NET ThreadPool Worker] 
+      2022/04/16 00:39:25.726 - [DEBUG]: Starting effect editor for Test Effect. 
+ 
+LedController.WebPortal.Web.Pages.EffectsEditorPage[18 - .NET ThreadPool Worker] 
+      2022/04/16 00:39:26.614 - [INFO]: Loading effects page. 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[18 - .NET ThreadPool Worker] 
+      2022/04/16 00:39:26.633 - [DEBUG]: Starting effect editor for Test Effect. 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[6 - .NET ThreadPool Worker] 
+      2022/04/16 00:39:26.707 - [DEBUG]: Starting monaco editor for effect Test Effect. 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[26 - .NET ThreadPool Worker] 
+      2022/04/16 00:39:31.197 - [DEBUG]: Removing effect parameter: Test at from effect: Test Effect. 
+ 
+LedController.WebPortal.Core.Managers.EffectManager[26 - .NET ThreadPool Worker] 
+      2022/04/16 00:39:31.212 - [DEBUG]: removing parameter to effect Test Effect. 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[9 - .NET ThreadPool Worker] 
+      2022/04/16 00:39:32.354 - [DEBUG]: Removing effect parameter: Test from effect: Test Effect. 
+ 
+LedController.WebPortal.Core.Managers.EffectManager[9 - .NET ThreadPool Worker] 
+      2022/04/16 00:39:32.369 - [DEBUG]: removing parameter to effect Test Effect. 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[12 - .NET ThreadPool Worker] 
+      2022/04/16 00:39:33.066 - [DEBUG]: Removing effect parameter: Test sfsa from effect: Test Effect. 
+ 
+LedController.WebPortal.Core.Managers.EffectManager[12 - .NET ThreadPool Worker] 
+      2022/04/16 00:39:33.081 - [DEBUG]: removing parameter to effect Test Effect. 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[9 - .NET ThreadPool Worker] 
+      2022/04/16 00:39:33.509 - [DEBUG]: Removing effect parameter: Tesafdsfgs from effect: Test Effect. 
+ 
+LedController.WebPortal.Core.Managers.EffectManager[9 - .NET ThreadPool Worker] 
+      2022/04/16 00:39:33.525 - [DEBUG]: removing parameter to effect Test Effect. 
+ 
+LedController.WebPortal.Web.Pages.EffectsEditorPage[14 - .NET ThreadPool Worker] 
+      2022/04/16 00:39:34.901 - [INFO]: Loading effects page. 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[14 - .NET ThreadPool Worker] 
+      2022/04/16 00:39:34.916 - [DEBUG]: Starting effect editor for Test Effect. 
+ 
+LedController.WebPortal.Web.Pages.EffectsEditorPage[13 - .NET ThreadPool Worker] 
+      2022/04/16 00:39:35.554 - [INFO]: Loading effects page. 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[13 - .NET ThreadPool Worker] 
+      2022/04/16 00:39:35.570 - [DEBUG]: Starting effect editor for Test Effect. 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[6 - .NET ThreadPool Worker] 
+      2022/04/16 00:39:35.620 - [DEBUG]: Starting monaco editor for effect Test Effect. 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/04/16 17:42:17.502 - [DEBUG]: Hosting starting 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/16 17:42:17.649 - [DEBUG]: Starting the discovery service. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/16 17:42:17.649 - [DEBUG]: Creating a new UDP client to be used for broadcasting the server information. This wil happen on UDP port 8472. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[6 - .NET ThreadPool Worker] 
+      2022/04/16 17:42:17.666 - [TRACE]: Start sending message to controllers to be discovered. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/16 17:42:17.666 - [DEBUG]: The discovery service has started. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/16 17:42:17.851 - [INFO]: Now listening on: http://localhost:5097 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/16 17:42:17.851 - [INFO]: Application started. Press Ctrl+C to shut down. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/16 17:42:17.851 - [INFO]: Hosting environment: Development 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/16 17:42:17.851 - [INFO]: Content root path: D:\Projects\LedController_net5\LedController.WebPortal.Web\ 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/04/16 17:42:17.851 - [DEBUG]: Hosting started 
+ 
+LedController.WebPortal.Web.Pages.Index[6 - .NET ThreadPool Worker] 
+      2022/04/16 17:42:20.117 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Pages.Index[12 - .NET ThreadPool Worker] 
+      2022/04/16 17:42:22.022 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Pages.ControllersPage[13 - .NET ThreadPool Worker] 
+      2022/04/16 17:44:55.931 - [INFO]: Opening controllers page. 
+ 
+LedController.WebPortal.Web.Pages.Index[6 - .NET ThreadPool Worker] 
+      2022/04/16 17:44:57.185 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Pages.ControllersPage[12 - .NET ThreadPool Worker] 
+      2022/04/16 17:44:57.814 - [INFO]: Opening controllers page. 
+ 
+LedController.WebPortal.Web.Pages.ControllersPage[13 - .NET ThreadPool Worker] 
+      2022/04/16 17:45:00.743 - [INFO]: Connecting to controller Controller 1427966868. 
+ 
+LedController.WebPortal.Core.Services.ControllerService[13 - .NET ThreadPool Worker] 
+      2022/04/16 17:45:00.758 - [INFO]: Connecting to controller e429a7c8-43cf-47c0-82f7-c4711091edb6. 
+ 
+LedController.WebPortal.Infrastructure.Connections.Connections.GrpcControllerConnection[13 - .NET ThreadPool Worker] 
+      2022/04/16 17:45:00.851 - [TRACE]: Creating connection with Controller 1427966868 
+ 
+Grpc.Net.Client.Internal.GrpcCall[13 - .NET ThreadPool Worker] 
+      2022/04/16 17:45:00.892 - [DEBUG]: Starting gRPC call. Method type: 'Unary', URI: 'http://127.0.0.1:5229/connection.GrpcConnection/Connect'. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[12 - .NET ThreadPool Worker] 
+      2022/04/16 17:45:00.967 - [DEBUG]: Sending message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[12 - .NET ThreadPool Worker] 
+      2022/04/16 17:45:00.967 - [TRACE]: Serialized 'Google.Protobuf.WellKnownTypes.Empty' to 0 byte message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[6 - .NET ThreadPool Worker] 
+      2022/04/16 17:45:00.976 - [TRACE]: Message sent. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[9 - .NET ThreadPool Worker] 
+      2022/04/16 17:45:01.061 - [TRACE]: Response headers received. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[9 - .NET ThreadPool Worker] 
+      2022/04/16 17:45:01.061 - [INFO]: Call failed with gRPC error status. Status code: 'Unimplemented', Message: 'Service is unimplemented.'. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[9 - .NET ThreadPool Worker] 
+      2022/04/16 17:45:01.068 - [DEBUG]: Finished gRPC call. 
+ 
+LedController.WebPortal.Infrastructure.Connections.Services.GrpcControllerConnectionService[39 - .NET ThreadPool Worker] 
+      2022/04/16 17:45:01.115 - [ERROR]: Unable to connect to controller Controller 1427966868 
+ Grpc.Core.RpcException: Status(StatusCode="Unimplemented", Detail="Service is unimplemented.")
+   at LedController.WebPortal.Infrastructure.Connections.Connections.GrpcControllerConnection.ConnectAsync() in D:\Projects\LedController_net5\LedController.Portal.Infrastructure.Connections\Connections\GrpcControllerConnection.cs:line 84
+   at LedController.WebPortal.Infrastructure.Connections.Services.GrpcControllerConnectionService.ConnectAsync(Controller controller, CancellationToken token) in D:\Projects\LedController_net5\LedController.Portal.Infrastructure.Connections\Services\ControllerConnectionService.cs:line 46
+LedController.WebPortal.Web.Pages.ControllersPage[39 - .NET ThreadPool Worker] 
+      2022/04/16 17:45:01.225 - [ERROR]: Could not connect to controller Controller 1427966868. 
+ Grpc.Core.RpcException: Status(StatusCode="Unimplemented", Detail="Service is unimplemented.")
+   at LedController.WebPortal.Infrastructure.Connections.Connections.GrpcControllerConnection.ConnectAsync() in D:\Projects\LedController_net5\LedController.Portal.Infrastructure.Connections\Connections\GrpcControllerConnection.cs:line 84
+   at LedController.WebPortal.Infrastructure.Connections.Services.GrpcControllerConnectionService.ConnectAsync(Controller controller, CancellationToken token) in D:\Projects\LedController_net5\LedController.Portal.Infrastructure.Connections\Services\ControllerConnectionService.cs:line 46
+   at LedController.WebPortal.Core.Services.ControllerService.ConnectToControllerAsync(Controller controller, CancellationToken token) in D:\Projects\LedController_net5\LedController.Portal.Core\Services\ControllerService.cs:line 84
+   at LedController.WebPortal.Web.Pages.ControllersPage.ConnectToControllerAsync(Controller controller) in D:\Projects\LedController_net5\LedController.WebPortal.Web\Pages\ControllersPage.razor:line 116
+LedController.WebPortal.Web.Pages.ControllersPage[39 - .NET ThreadPool Worker] 
+      2022/04/16 17:45:01.242 - [INFO]: Connection with controller Controller 1427966868 successful. 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/04/16 17:52:09.515 - [DEBUG]: Hosting starting 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/16 17:52:09.631 - [DEBUG]: Starting the discovery service. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/16 17:52:09.631 - [DEBUG]: Creating a new UDP client to be used for broadcasting the server information. This wil happen on UDP port 8472. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[6 - .NET ThreadPool Worker] 
+      2022/04/16 17:52:09.650 - [TRACE]: Start sending message to controllers to be discovered. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/16 17:52:09.650 - [DEBUG]: The discovery service has started. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/16 17:52:09.772 - [INFO]: Now listening on: http://localhost:5097 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/16 17:52:09.772 - [INFO]: Application started. Press Ctrl+C to shut down. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/16 17:52:09.772 - [INFO]: Hosting environment: Development 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/16 17:52:09.772 - [INFO]: Content root path: D:\Projects\LedController_net5\LedController.WebPortal.Web\ 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/04/16 17:52:09.772 - [DEBUG]: Hosting started 
+ 
+LedController.WebPortal.Web.Pages.Index[12 - .NET ThreadPool Worker] 
+      2022/04/16 17:52:11.787 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Pages.Index[13 - .NET ThreadPool Worker] 
+      2022/04/16 17:52:13.772 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Pages.ControllersPage[6 - .NET ThreadPool Worker] 
+      2022/04/16 17:53:20.898 - [INFO]: Opening controllers page. 
+ 
+LedController.WebPortal.Web.Pages.ControllersPage[17 - .NET ThreadPool Worker] 
+      2022/04/16 17:53:22.775 - [INFO]: Connecting to controller Controller 1427966868. 
+ 
+LedController.WebPortal.Core.Services.ControllerService[17 - .NET ThreadPool Worker] 
+      2022/04/16 17:53:22.791 - [INFO]: Connecting to controller e429a7c8-43cf-47c0-82f7-c4711091edb6. 
+ 
+LedController.WebPortal.Infrastructure.Connections.Connections.GrpcControllerConnection[17 - .NET ThreadPool Worker] 
+      2022/04/16 17:53:22.834 - [TRACE]: Creating connection with Controller 1427966868 
+ 
+Grpc.Net.Client.Internal.GrpcCall[17 - .NET ThreadPool Worker] 
+      2022/04/16 17:53:22.881 - [DEBUG]: Starting gRPC call. Method type: 'Unary', URI: 'http://127.0.0.1:5229/connection.GrpcConnection/Connect'. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[17 - .NET ThreadPool Worker] 
+      2022/04/16 17:53:22.958 - [DEBUG]: Sending message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[17 - .NET ThreadPool Worker] 
+      2022/04/16 17:53:22.960 - [TRACE]: Serialized 'Google.Protobuf.WellKnownTypes.Empty' to 0 byte message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[6 - .NET ThreadPool Worker] 
+      2022/04/16 17:53:22.960 - [TRACE]: Message sent. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[6 - .NET ThreadPool Worker] 
+      2022/04/16 17:53:23.339 - [TRACE]: Response headers received. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[6 - .NET ThreadPool Worker] 
+      2022/04/16 17:53:23.339 - [INFO]: Call failed with gRPC error status. Status code: 'Unknown', Message: 'Exception was thrown by handler.'. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[6 - .NET ThreadPool Worker] 
+      2022/04/16 17:53:23.339 - [DEBUG]: Finished gRPC call. 
+ 
+LedController.WebPortal.Infrastructure.Connections.Services.GrpcControllerConnectionService[17 - .NET ThreadPool Worker] 
+      2022/04/16 17:53:23.396 - [ERROR]: Unable to connect to controller Controller 1427966868 
+ Grpc.Core.RpcException: Status(StatusCode="Unknown", Detail="Exception was thrown by handler.")
+   at LedController.WebPortal.Infrastructure.Connections.Connections.GrpcControllerConnection.ConnectAsync() in D:\Projects\LedController_net5\LedController.Portal.Infrastructure.Connections\Connections\GrpcControllerConnection.cs:line 84
+   at LedController.WebPortal.Infrastructure.Connections.Services.GrpcControllerConnectionService.ConnectAsync(Controller controller, CancellationToken token) in D:\Projects\LedController_net5\LedController.Portal.Infrastructure.Connections\Services\ControllerConnectionService.cs:line 46
+LedController.WebPortal.Web.Pages.ControllersPage[17 - .NET ThreadPool Worker] 
+      2022/04/16 17:53:23.481 - [ERROR]: Could not connect to controller Controller 1427966868. 
+ Grpc.Core.RpcException: Status(StatusCode="Unknown", Detail="Exception was thrown by handler.")
+   at LedController.WebPortal.Infrastructure.Connections.Connections.GrpcControllerConnection.ConnectAsync() in D:\Projects\LedController_net5\LedController.Portal.Infrastructure.Connections\Connections\GrpcControllerConnection.cs:line 84
+   at LedController.WebPortal.Infrastructure.Connections.Services.GrpcControllerConnectionService.ConnectAsync(Controller controller, CancellationToken token) in D:\Projects\LedController_net5\LedController.Portal.Infrastructure.Connections\Services\ControllerConnectionService.cs:line 46
+   at LedController.WebPortal.Core.Services.ControllerService.ConnectToControllerAsync(Controller controller, CancellationToken token) in D:\Projects\LedController_net5\LedController.Portal.Core\Services\ControllerService.cs:line 84
+   at LedController.WebPortal.Web.Pages.ControllersPage.ConnectToControllerAsync(Controller controller) in D:\Projects\LedController_net5\LedController.WebPortal.Web\Pages\ControllersPage.razor:line 116
+LedController.WebPortal.Web.Pages.ControllersPage[17 - .NET ThreadPool Worker] 
+      2022/04/16 17:53:23.500 - [INFO]: Connection with controller Controller 1427966868 successful. 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/04/16 18:04:14.802 - [DEBUG]: Hosting starting 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/16 18:04:14.976 - [DEBUG]: Starting the discovery service. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/16 18:04:14.976 - [DEBUG]: Creating a new UDP client to be used for broadcasting the server information. This wil happen on UDP port 8472. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[10 - .NET ThreadPool Worker] 
+      2022/04/16 18:04:14.994 - [TRACE]: Start sending message to controllers to be discovered. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/16 18:04:14.994 - [DEBUG]: The discovery service has started. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/16 18:04:15.168 - [INFO]: Now listening on: http://localhost:5097 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/16 18:04:15.168 - [INFO]: Application started. Press Ctrl+C to shut down. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/16 18:04:15.168 - [INFO]: Hosting environment: Development 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/16 18:04:15.168 - [INFO]: Content root path: D:\Projects\LedController_net5\LedController.WebPortal.Web\ 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/04/16 18:04:15.168 - [DEBUG]: Hosting started 
+ 
+LedController.WebPortal.Web.Pages.Index[13 - .NET ThreadPool Worker] 
+      2022/04/16 18:04:17.459 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Pages.Index[9 - .NET ThreadPool Worker] 
+      2022/04/16 18:04:19.577 - [INFO]: Opening the index page. 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/04/16 18:24:02.522 - [DEBUG]: Hosting starting 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/16 18:24:02.666 - [DEBUG]: Starting the discovery service. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/16 18:24:02.680 - [DEBUG]: Creating a new UDP client to be used for broadcasting the server information. This wil happen on UDP port 8472. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[6 - .NET ThreadPool Worker] 
+      2022/04/16 18:24:02.680 - [TRACE]: Start sending message to controllers to be discovered. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/16 18:24:02.680 - [DEBUG]: The discovery service has started. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/16 18:24:02.820 - [INFO]: Now listening on: http://localhost:5097 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/16 18:24:02.820 - [INFO]: Application started. Press Ctrl+C to shut down. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/16 18:24:02.820 - [INFO]: Hosting environment: Development 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/16 18:24:02.820 - [INFO]: Content root path: D:\Projects\LedController_net5\LedController.WebPortal.Web\ 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/04/16 18:24:02.820 - [DEBUG]: Hosting started 
+ 
+LedController.WebPortal.Web.Pages.Index[18 - .NET ThreadPool Worker] 
+      2022/04/16 18:24:04.850 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Pages.Index[6 - .NET ThreadPool Worker] 
+      2022/04/16 18:24:06.713 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Pages.ControllersPage[10 - .NET ThreadPool Worker] 
+      2022/04/16 18:24:21.777 - [INFO]: Opening controllers page. 
+ 
+LedController.WebPortal.Web.Pages.ControllersPage[10 - .NET ThreadPool Worker] 
+      2022/04/16 18:24:26.294 - [INFO]: Connecting to controller Controller 1427966868. 
+ 
+LedController.WebPortal.Core.Services.ControllerService[10 - .NET ThreadPool Worker] 
+      2022/04/16 18:24:26.309 - [INFO]: Connecting to controller e429a7c8-43cf-47c0-82f7-c4711091edb6. 
+ 
+LedController.WebPortal.Infrastructure.Connections.Connections.GrpcControllerConnection[10 - .NET ThreadPool Worker] 
+      2022/04/16 18:24:26.353 - [TRACE]: Creating connection with Controller 1427966868 
+ 
+Grpc.Net.Client.Internal.GrpcCall[10 - .NET ThreadPool Worker] 
+      2022/04/16 18:24:26.399 - [DEBUG]: Starting gRPC call. Method type: 'Unary', URI: 'http://127.0.0.1:5229/connection.GrpcConnection/Connect'. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[9 - .NET ThreadPool Worker] 
+      2022/04/16 18:24:26.466 - [DEBUG]: Sending message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[9 - .NET ThreadPool Worker] 
+      2022/04/16 18:24:26.466 - [TRACE]: Serialized 'Google.Protobuf.WellKnownTypes.Empty' to 0 byte message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[10 - .NET ThreadPool Worker] 
+      2022/04/16 18:24:26.475 - [TRACE]: Message sent. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[6 - .NET ThreadPool Worker] 
+      2022/04/16 18:24:26.815 - [TRACE]: Response headers received. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[6 - .NET ThreadPool Worker] 
+      2022/04/16 18:24:26.826 - [DEBUG]: Reading message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[6 - .NET ThreadPool Worker] 
+      2022/04/16 18:24:26.835 - [TRACE]: Deserializing 0 byte message to 'Google.Protobuf.WellKnownTypes.Empty'. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[6 - .NET ThreadPool Worker] 
+      2022/04/16 18:24:26.835 - [TRACE]: Received message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[6 - .NET ThreadPool Worker] 
+      2022/04/16 18:24:26.835 - [DEBUG]: Finished gRPC call. 
+ 
+LedController.WebPortal.Core.Services.ControllerService[17 - .NET ThreadPool Worker] 
+      2022/04/16 18:24:26.835 - [INFO]: The controller has been connected. 
+ 
+LedController.WebPortal.Web.Pages.ControllersPage[17 - .NET ThreadPool Worker] 
+      2022/04/16 18:24:26.835 - [INFO]: Connection with controller Controller 1427966868 successful. 
+ 
+LedController.WebPortal.Web.Pages.ControllersPage[10 - .NET ThreadPool Worker] 
+      2022/04/16 18:26:56.867 - [INFO]: Opening the controller form for controller : Controller 1427966868 
+ 
+LedController.WebPortal.Web.Dialogs.ControllerFormDialog[10 - .NET ThreadPool Worker] 
+      2022/04/16 18:26:56.915 - [DEBUG]: Checking if we have a controller by the edit controller dialog. 
+ 
+LedController.WebPortal.Web.Dialogs.ControllerFormDialog[10 - .NET ThreadPool Worker] 
+      2022/04/16 18:26:56.930 - [DEBUG]: Checking if we have a controller by the edit controller dialog. 
+ 
+LedController.WebPortal.Web.Pages.EffectsEditorPage[9 - .NET ThreadPool Worker] 
+      2022/04/16 18:27:00.257 - [INFO]: Loading effects page. 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[9 - .NET ThreadPool Worker] 
+      2022/04/16 18:27:00.351 - [DEBUG]: Starting effect editor for Test Effect. 
+ 
+LedController.WebPortal.Web.Components.EffectEditor[10 - .NET ThreadPool Worker] 
+      2022/04/16 18:27:00.400 - [DEBUG]: Starting monaco editor for effect Test Effect. 
+ 
+LedController.WebPortal.Web.Pages.ControllersPage[10 - .NET ThreadPool Worker] 
+      2022/04/16 18:27:03.217 - [INFO]: Opening controllers page. 
+ 
+LedController.WebPortal.Web.Pages.Index[10 - .NET ThreadPool Worker] 
+      2022/04/16 18:27:05.223 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Pages.Index[6 - .NET ThreadPool Worker] 
+      2022/04/16 18:27:12.136 - [INFO]: Opening the play animation dialog from the index page. 
+ 
+LedController.WebPortal.Core.Managers.ControllerManager[6 - .NET ThreadPool Worker] 
+      2022/04/16 18:27:12.151 - [DEBUG]: Getting controller by spi bus Test Bus 
+ 
+LedController.WebPortal.Web.Pages.Index[6 - .NET ThreadPool Worker] 
+      2022/04/16 18:27:20.563 - [DEBUG]: Animation Test Animation selected. 
+ 
+LedController.WebPortal.Infrastructure.Connections.Connections.GrpcControllerConnection[6 - .NET ThreadPool Worker] 
+      2022/04/16 18:27:20.578 - [TRACE]: Sending message to e429a7c8-43cf-47c0-82f7-c4711091edb6, to play animation 420fb97c-e71f-41d2-9ff9-6e9c5d824336. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[6 - .NET ThreadPool Worker] 
+      2022/04/16 18:27:20.601 - [DEBUG]: Starting gRPC call. Method type: 'Unary', URI: 'http://127.0.0.1:5229/connection.GrpcConnection/PlayAnimationOnLedstrip'. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[11 - .NET ThreadPool Worker] 
+      2022/04/16 18:27:20.601 - [DEBUG]: Sending message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[11 - .NET ThreadPool Worker] 
+      2022/04/16 18:27:20.622 - [TRACE]: Serialized 'LedController.WebPortal.Infrastructure.Connections.Protos.PlayAnimationOnLedstripMessage' to 1097 byte message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[6 - .NET ThreadPool Worker] 
+      2022/04/16 18:27:20.622 - [TRACE]: Message sent. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[9 - .NET ThreadPool Worker] 
+      2022/04/16 18:27:21.883 - [TRACE]: Response headers received. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[9 - .NET ThreadPool Worker] 
+      2022/04/16 18:27:21.883 - [INFO]: Call failed with gRPC error status. Status code: 'Unknown', Message: 'Exception was thrown by handler.'. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[9 - .NET ThreadPool Worker] 
+      2022/04/16 18:27:21.883 - [DEBUG]: Finished gRPC call. 
+ 
+Microsoft.AspNetCore.Components.Server.Circuits.RemoteRenderer[10 - .NET ThreadPool Worker] 
+      2022/04/16 18:27:21.967 - [WARN]: Unhandled exception rendering component: Status(StatusCode="Unknown", Detail="Exception was thrown by handler.") 
+ Grpc.Core.RpcException: Status(StatusCode="Unknown", Detail="Exception was thrown by handler.")
+   at LedController.WebPortal.Infrastructure.Connections.Connections.GrpcControllerConnection.PlayAsync(Ledstrip ledstrip, Animation animation, CancellationToken token) in D:\Projects\LedController_net5\LedController.Portal.Infrastructure.Connections\Connections\GrpcControllerConnection.cs:line 96
+   at LedController.WebPortal.Core.Services.ControllerService.PlayAnimationOnLedstrip(Ledstrip ledstrip, Animation animation, CancellationToken token) in D:\Projects\LedController_net5\LedController.Portal.Core\Services\ControllerService.cs:line 118
+   at LedController.WebPortal.Web.Pages.Index.OpenPlayAnimationsDialogAsync(Ledstrip ledstrip) in D:\Projects\LedController_net5\LedController.WebPortal.Web\Pages\Index.razor:line 107
+   at LedController.WebPortal.Web.Pages.Index.<>c__DisplayClass0_1.<<BuildRenderTree>b__12>d.MoveNext() in D:\Projects\LedController_net5\LedController.WebPortal.Web\Pages\Index.razor:line 48
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at MudBlazor.MudBaseButton.OnClickHandler(MouseEventArgs ev)
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.GetErrorHandledTask(Task taskToHandle, ComponentState owningComponentState)
+Microsoft.AspNetCore.Components.Server.Circuits.CircuitHost[10 - .NET ThreadPool Worker] 
+      2022/04/16 18:27:22.008 - [ERROR]: Unhandled exception in circuit 'pHa2XDDkke8-akRSySivc7E0f1Y6xwkC0A9t-pkGGQo'. 
+ Grpc.Core.RpcException: Status(StatusCode="Unknown", Detail="Exception was thrown by handler.")
+   at LedController.WebPortal.Infrastructure.Connections.Connections.GrpcControllerConnection.PlayAsync(Ledstrip ledstrip, Animation animation, CancellationToken token) in D:\Projects\LedController_net5\LedController.Portal.Infrastructure.Connections\Connections\GrpcControllerConnection.cs:line 96
+   at LedController.WebPortal.Core.Services.ControllerService.PlayAnimationOnLedstrip(Ledstrip ledstrip, Animation animation, CancellationToken token) in D:\Projects\LedController_net5\LedController.Portal.Core\Services\ControllerService.cs:line 118
+   at LedController.WebPortal.Web.Pages.Index.OpenPlayAnimationsDialogAsync(Ledstrip ledstrip) in D:\Projects\LedController_net5\LedController.WebPortal.Web\Pages\Index.razor:line 107
+   at LedController.WebPortal.Web.Pages.Index.<>c__DisplayClass0_1.<<BuildRenderTree>b__12>d.MoveNext() in D:\Projects\LedController_net5\LedController.WebPortal.Web\Pages\Index.razor:line 48
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at MudBlazor.MudBaseButton.OnClickHandler(MouseEventArgs ev)
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.GetErrorHandledTask(Task taskToHandle, ComponentState owningComponentState)
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/04/16 18:55:47.880 - [DEBUG]: Hosting starting 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/16 18:55:48.007 - [DEBUG]: Starting the discovery service. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/16 18:55:48.007 - [DEBUG]: Creating a new UDP client to be used for broadcasting the server information. This wil happen on UDP port 8472. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/16 18:55:48.022 - [DEBUG]: The discovery service has started. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[10 - .NET ThreadPool Worker] 
+      2022/04/16 18:55:48.022 - [TRACE]: Start sending message to controllers to be discovered. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/16 18:55:48.163 - [INFO]: Now listening on: http://localhost:5097 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/16 18:55:48.163 - [INFO]: Application started. Press Ctrl+C to shut down. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/16 18:55:48.163 - [INFO]: Hosting environment: Development 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/16 18:55:48.163 - [INFO]: Content root path: D:\Projects\LedController_net5\LedController.WebPortal.Web\ 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/04/16 18:55:48.163 - [DEBUG]: Hosting started 
+ 
+LedController.WebPortal.Web.Pages.Index[6 - .NET ThreadPool Worker] 
+      2022/04/16 18:55:50.209 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Pages.Index[10 - .NET ThreadPool Worker] 
+      2022/04/16 18:55:51.918 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Pages.ControllersPage[6 - .NET ThreadPool Worker] 
+      2022/04/16 18:58:57.491 - [INFO]: Opening controllers page. 
+ 
+LedController.WebPortal.Web.Pages.ControllersPage[10 - .NET ThreadPool Worker] 
+      2022/04/16 18:58:58.356 - [INFO]: Connecting to controller Controller 1427966868. 
+ 
+LedController.WebPortal.Core.Services.ControllerService[10 - .NET ThreadPool Worker] 
+      2022/04/16 18:58:58.356 - [INFO]: Connecting to controller e429a7c8-43cf-47c0-82f7-c4711091edb6. 
+ 
+LedController.WebPortal.Infrastructure.Connections.Connections.GrpcControllerConnection[10 - .NET ThreadPool Worker] 
+      2022/04/16 18:58:58.413 - [TRACE]: Creating connection with Controller 1427966868 
+ 
+Grpc.Net.Client.Internal.GrpcCall[10 - .NET ThreadPool Worker] 
+      2022/04/16 18:58:58.449 - [DEBUG]: Starting gRPC call. Method type: 'Unary', URI: 'http://127.0.0.1:5229/connection.GrpcConnection/Connect'. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[23 - .NET ThreadPool Worker] 
+      2022/04/16 18:58:58.521 - [DEBUG]: Sending message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[23 - .NET ThreadPool Worker] 
+      2022/04/16 18:58:58.522 - [TRACE]: Serialized 'Google.Protobuf.WellKnownTypes.Empty' to 0 byte message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[10 - .NET ThreadPool Worker] 
+      2022/04/16 18:58:58.522 - [TRACE]: Message sent. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[6 - .NET ThreadPool Worker] 
+      2022/04/16 18:58:58.859 - [TRACE]: Response headers received. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[6 - .NET ThreadPool Worker] 
+      2022/04/16 18:58:58.869 - [DEBUG]: Reading message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[6 - .NET ThreadPool Worker] 
+      2022/04/16 18:58:58.869 - [TRACE]: Deserializing 0 byte message to 'Google.Protobuf.WellKnownTypes.Empty'. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[6 - .NET ThreadPool Worker] 
+      2022/04/16 18:58:58.869 - [TRACE]: Received message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[6 - .NET ThreadPool Worker] 
+      2022/04/16 18:58:58.869 - [DEBUG]: Finished gRPC call. 
+ 
+LedController.WebPortal.Core.Services.ControllerService[10 - .NET ThreadPool Worker] 
+      2022/04/16 18:58:58.869 - [INFO]: The controller has been connected. 
+ 
+LedController.WebPortal.Web.Pages.ControllersPage[10 - .NET ThreadPool Worker] 
+      2022/04/16 18:58:58.869 - [INFO]: Connection with controller Controller 1427966868 successful. 
+ 
+LedController.WebPortal.Web.Pages.LedstripsPage[6 - .NET ThreadPool Worker] 
+      2022/04/16 18:59:03.539 - [INFO]: Loading ledstrips page. 
+ 
+LedController.WebPortal.Web.Pages.ControllersPage[6 - .NET ThreadPool Worker] 
+      2022/04/16 18:59:08.274 - [INFO]: Opening controllers page. 
+ 
+LedController.WebPortal.Web.Pages.LedstripsPage[10 - .NET ThreadPool Worker] 
+      2022/04/16 18:59:10.293 - [INFO]: Loading ledstrips page. 
+ 
+LedController.WebPortal.Web.Pages.LedstripsPage[23 - .NET ThreadPool Worker] 
+      2022/04/16 18:59:36.489 - [INFO]: Testing ledstrip Test ledstrip. 
+ 
+LedController.WebPortal.Infrastructure.Connections.Connections.GrpcControllerConnection[23 - .NET ThreadPool Worker] 
+      2022/04/16 18:59:36.509 - [TRACE]: Sending message to e429a7c8-43cf-47c0-82f7-c4711091edb6, test the strip. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[23 - .NET ThreadPool Worker] 
+      2022/04/16 18:59:36.509 - [DEBUG]: Starting gRPC call. Method type: 'Unary', URI: 'http://127.0.0.1:5229/connection.GrpcConnection/TestLedstrip'. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[6 - .NET ThreadPool Worker] 
+      2022/04/16 18:59:36.509 - [DEBUG]: Sending message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[6 - .NET ThreadPool Worker] 
+      2022/04/16 18:59:36.524 - [TRACE]: Serialized 'LedController.WebPortal.Infrastructure.Connections.Protos.Ledstrip' to 80 byte message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[10 - .NET ThreadPool Worker] 
+      2022/04/16 18:59:36.524 - [TRACE]: Message sent. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[32 - .NET ThreadPool Worker] 
+      2022/04/16 19:00:12.742 - [TRACE]: Response headers received. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[32 - .NET ThreadPool Worker] 
+      2022/04/16 19:00:12.757 - [INFO]: Call failed with gRPC error status. Status code: 'Unknown', Message: 'Exception was thrown by handler.'. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[32 - .NET ThreadPool Worker] 
+      2022/04/16 19:00:12.757 - [DEBUG]: Finished gRPC call. 
+ 
+Microsoft.AspNetCore.Components.Server.Circuits.RemoteRenderer[35 - .NET ThreadPool Worker] 
+      2022/04/16 19:00:12.852 - [WARN]: Unhandled exception rendering component: Status(StatusCode="Unknown", Detail="Exception was thrown by handler.") 
+ Grpc.Core.RpcException: Status(StatusCode="Unknown", Detail="Exception was thrown by handler.")
+   at LedController.WebPortal.Infrastructure.Connections.Connections.GrpcControllerConnection.TestAsync(Ledstrip ledstrip, CancellationToken token) in D:\Projects\LedController_net5\LedController.Portal.Infrastructure.Connections\Connections\GrpcControllerConnection.cs:line 139
+   at LedController.WebPortal.Core.Services.ControllerService.TestLedstripAsync(Ledstrip ledstrip, CancellationToken token) in D:\Projects\LedController_net5\LedController.Portal.Core\Services\ControllerService.cs:line 152
+   at LedController.WebPortal.Web.Pages.LedstripsPage.TestLedstripAsync(Ledstrip ledstrip)
+   at LedController.WebPortal.Web.Pages.LedstripsPage.<>c__DisplayClass0_1.<<BuildRenderTree>b__19>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at MudBlazor.MudBaseButton.OnClickHandler(MouseEventArgs ev)
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.GetErrorHandledTask(Task taskToHandle, ComponentState owningComponentState)
+Microsoft.AspNetCore.Components.Server.Circuits.CircuitHost[35 - .NET ThreadPool Worker] 
+      2022/04/16 19:00:12.885 - [ERROR]: Unhandled exception in circuit 't8VAqfN2ZDFNg06RxVtx0zq9OAJHaHLCSSRQsI3RSig'. 
+ Grpc.Core.RpcException: Status(StatusCode="Unknown", Detail="Exception was thrown by handler.")
+   at LedController.WebPortal.Infrastructure.Connections.Connections.GrpcControllerConnection.TestAsync(Ledstrip ledstrip, CancellationToken token) in D:\Projects\LedController_net5\LedController.Portal.Infrastructure.Connections\Connections\GrpcControllerConnection.cs:line 139
+   at LedController.WebPortal.Core.Services.ControllerService.TestLedstripAsync(Ledstrip ledstrip, CancellationToken token) in D:\Projects\LedController_net5\LedController.Portal.Core\Services\ControllerService.cs:line 152
+   at LedController.WebPortal.Web.Pages.LedstripsPage.TestLedstripAsync(Ledstrip ledstrip)
+   at LedController.WebPortal.Web.Pages.LedstripsPage.<>c__DisplayClass0_1.<<BuildRenderTree>b__19>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at MudBlazor.MudBaseButton.OnClickHandler(MouseEventArgs ev)
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.GetErrorHandledTask(Task taskToHandle, ComponentState owningComponentState)
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/04/16 23:19:45.846 - [DEBUG]: Hosting starting 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/16 23:19:45.960 - [DEBUG]: Starting the discovery service. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/16 23:19:45.960 - [DEBUG]: Creating a new UDP client to be used for broadcasting the server information. This wil happen on UDP port 8472. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[6 - .NET ThreadPool Worker] 
+      2022/04/16 23:19:45.977 - [TRACE]: Start sending message to controllers to be discovered. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/16 23:19:45.977 - [DEBUG]: The discovery service has started. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/16 23:19:46.150 - [INFO]: Now listening on: http://localhost:5097 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/16 23:19:46.164 - [INFO]: Application started. Press Ctrl+C to shut down. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/16 23:19:46.164 - [INFO]: Hosting environment: Development 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/16 23:19:46.164 - [INFO]: Content root path: D:\Projects\LedController_net5\LedController.WebPortal.Web\ 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/04/16 23:19:46.164 - [DEBUG]: Hosting started 
+ 
+LedController.WebPortal.Web.Pages.Index[9 - .NET ThreadPool Worker] 
+      2022/04/16 23:19:50.898 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Pages.Index[9 - .NET ThreadPool Worker] 
+      2022/04/16 23:19:53.804 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Pages.ControllersPage[14 - .NET ThreadPool Worker] 
+      2022/04/16 23:19:56.383 - [INFO]: Opening controllers page. 
+ 
+LedController.WebPortal.Web.Pages.ControllersPage[18 - .NET ThreadPool Worker] 
+      2022/04/16 23:19:59.189 - [INFO]: Opening the controller form for controller : Controller 1427966868 
+ 
+LedController.WebPortal.Web.Dialogs.ControllerFormDialog[18 - .NET ThreadPool Worker] 
+      2022/04/16 23:19:59.210 - [DEBUG]: Checking if we have a controller by the edit controller dialog. 
+ 
+LedController.WebPortal.Web.Dialogs.ControllerFormDialog[18 - .NET ThreadPool Worker] 
+      2022/04/16 23:19:59.226 - [DEBUG]: Checking if we have a controller by the edit controller dialog. 
+ 
+LedController.WebPortal.Web.Dialogs.ControllerFormDialog[15 - .NET ThreadPool Worker] 
+      2022/04/16 23:20:34.744 - [INFO]: Updating controller Controller 1427966868. 
+ 
+LedController.WebPortal.Web.Pages.ControllersPage[15 - .NET ThreadPool Worker] 
+      2022/04/16 23:20:35.340 - [INFO]: Controller dialog closed reloading page. 
+ 
+LedController.WebPortal.Web.Pages.ControllersPage[6 - .NET ThreadPool Worker] 
+      2022/04/16 23:20:35.382 - [INFO]: Opening controllers page. 
+ 
+LedController.WebPortal.Web.Pages.ControllersPage[23 - .NET ThreadPool Worker] 
+      2022/04/16 23:20:36.789 - [INFO]: Opening controllers page. 
+ 
+LedController.WebPortal.Web.Pages.ControllersPage[34 - .NET ThreadPool Worker] 
+      2022/04/16 23:20:38.579 - [INFO]: Connecting to controller Controller 1427966868. 
+ 
+LedController.WebPortal.Core.Services.ControllerService[34 - .NET ThreadPool Worker] 
+      2022/04/16 23:20:38.579 - [INFO]: Connecting to controller e429a7c8-43cf-47c0-82f7-c4711091edb6. 
+ 
+LedController.WebPortal.Infrastructure.Connections.Connections.GrpcControllerConnection[34 - .NET ThreadPool Worker] 
+      2022/04/16 23:20:40.382 - [TRACE]: Creating connection with Controller 1427966868 
+ 
+Grpc.Net.Client.Internal.GrpcCall[34 - .NET ThreadPool Worker] 
+      2022/04/16 23:20:40.591 - [DEBUG]: Starting gRPC call. Method type: 'Unary', URI: 'http://10.0.3.75:5000/connection.GrpcConnection/Connect'. 
+ 
+LedController.WebPortal.Web.Pages.ControllersPage[9 - .NET ThreadPool Worker] 
+      2022/04/16 23:20:51.631 - [INFO]: Opening controllers page. 
+ 
+LedController.WebPortal.Web.Pages.ControllersPage[9 - .NET ThreadPool Worker] 
+      2022/04/16 23:20:53.077 - [INFO]: Opening controllers page. 
+ 
+LedController.WebPortal.Web.Pages.ControllersPage[9 - .NET ThreadPool Worker] 
+      2022/04/16 23:20:54.125 - [INFO]: Connecting to controller Controller 1427966868. 
+ 
+LedController.WebPortal.Core.Services.ControllerService[9 - .NET ThreadPool Worker] 
+      2022/04/16 23:20:54.140 - [INFO]: Connecting to controller e429a7c8-43cf-47c0-82f7-c4711091edb6. 
+ 
+LedController.WebPortal.Infrastructure.Connections.Connections.GrpcControllerConnection[9 - .NET ThreadPool Worker] 
+      2022/04/16 23:20:54.140 - [TRACE]: Creating connection with Controller 1427966868 
+ 
+Grpc.Net.Client.Internal.GrpcCall[9 - .NET ThreadPool Worker] 
+      2022/04/16 23:20:54.140 - [DEBUG]: Starting gRPC call. Method type: 'Unary', URI: 'http://10.0.3.75:5000/connection.GrpcConnection/Connect'. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[6 - .NET ThreadPool Worker] 
+      2022/04/16 23:21:02.090 - [ERROR]: Error starting gRPC call. 
+ System.Net.Http.HttpRequestException: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond. (10.0.3.75:5000)
+ ---> System.Net.Sockets.SocketException (10060): A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp2ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp2ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at Grpc.Net.Client.Internal.GrpcCall`2.RunCall(HttpRequestMessage request, Nullable`1 timeout)
+Grpc.Net.Client.Internal.GrpcCall[6 - .NET ThreadPool Worker] 
+      2022/04/16 23:21:04.197 - [INFO]: Call failed with gRPC error status. Status code: 'Unavailable', Message: 'Error starting gRPC call. HttpRequestException: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond. (10.0.3.75:5000) SocketException: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.'. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[6 - .NET ThreadPool Worker] 
+      2022/04/16 23:21:04.197 - [DEBUG]: Finished gRPC call. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[6 - .NET ThreadPool Worker] 
+      2022/04/16 23:21:04.212 - [DEBUG]: gRPC call canceled. 
+ 
+LedController.WebPortal.Infrastructure.Connections.Services.GrpcControllerConnectionService[15 - .NET ThreadPool Worker] 
+      2022/04/16 23:21:04.362 - [ERROR]: Unable to connect to controller Controller 1427966868 
+ Grpc.Core.RpcException: Status(StatusCode="Unavailable", Detail="Error starting gRPC call. HttpRequestException: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond. (10.0.3.75:5000) SocketException: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.", DebugException="System.Net.Http.HttpRequestException: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond. (10.0.3.75:5000)
+ ---> System.Net.Sockets.SocketException (10060): A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp2ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp2ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at Grpc.Net.Client.Internal.GrpcCall`2.RunCall(HttpRequestMessage request, Nullable`1 timeout)")
+   at LedController.WebPortal.Infrastructure.Connections.Connections.GrpcControllerConnection.ConnectAsync() in D:\Projects\LedController_net5\LedController.Portal.Infrastructure.Connections\Connections\GrpcControllerConnection.cs:line 84
+   at LedController.WebPortal.Infrastructure.Connections.Services.GrpcControllerConnectionService.ConnectAsync(Controller controller, CancellationToken token) in D:\Projects\LedController_net5\LedController.Portal.Infrastructure.Connections\Services\ControllerConnectionService.cs:line 46
+LedController.WebPortal.Web.Pages.ControllersPage[15 - .NET ThreadPool Worker] 
+      2022/04/16 23:21:04.541 - [ERROR]: Could not connect to controller Controller 1427966868. 
+ Grpc.Core.RpcException: Status(StatusCode="Unavailable", Detail="Error starting gRPC call. HttpRequestException: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond. (10.0.3.75:5000) SocketException: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.", DebugException="System.Net.Http.HttpRequestException: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond. (10.0.3.75:5000)
+ ---> System.Net.Sockets.SocketException (10060): A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp2ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp2ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at Grpc.Net.Client.Internal.GrpcCall`2.RunCall(HttpRequestMessage request, Nullable`1 timeout)")
+   at LedController.WebPortal.Infrastructure.Connections.Connections.GrpcControllerConnection.ConnectAsync() in D:\Projects\LedController_net5\LedController.Portal.Infrastructure.Connections\Connections\GrpcControllerConnection.cs:line 84
+   at LedController.WebPortal.Infrastructure.Connections.Services.GrpcControllerConnectionService.ConnectAsync(Controller controller, CancellationToken token) in D:\Projects\LedController_net5\LedController.Portal.Infrastructure.Connections\Services\ControllerConnectionService.cs:line 46
+   at LedController.WebPortal.Core.Services.ControllerService.ConnectToControllerAsync(Controller controller, CancellationToken token) in D:\Projects\LedController_net5\LedController.Portal.Core\Services\ControllerService.cs:line 84
+   at LedController.WebPortal.Web.Pages.ControllersPage.ConnectToControllerAsync(Controller controller) in D:\Projects\LedController_net5\LedController.WebPortal.Web\Pages\ControllersPage.razor:line 116
+LedController.WebPortal.Web.Pages.ControllersPage[15 - .NET ThreadPool Worker] 
+      2022/04/16 23:21:04.555 - [INFO]: Connection with controller Controller 1427966868 successful. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[6 - .NET ThreadPool Worker] 
+      2022/04/16 23:21:15.173 - [ERROR]: Error starting gRPC call. 
+ System.Net.Http.HttpRequestException: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond. (10.0.3.75:5000)
+ ---> System.Net.Sockets.SocketException (10060): A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp2ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp2ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at Grpc.Net.Client.Internal.GrpcCall`2.RunCall(HttpRequestMessage request, Nullable`1 timeout)
+Grpc.Net.Client.Internal.GrpcCall[6 - .NET ThreadPool Worker] 
+      2022/04/16 23:21:15.173 - [INFO]: Call failed with gRPC error status. Status code: 'Unavailable', Message: 'Error starting gRPC call. HttpRequestException: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond. (10.0.3.75:5000) SocketException: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.'. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[6 - .NET ThreadPool Worker] 
+      2022/04/16 23:21:15.173 - [DEBUG]: Finished gRPC call. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[6 - .NET ThreadPool Worker] 
+      2022/04/16 23:21:15.173 - [DEBUG]: gRPC call canceled. 
+ 
+LedController.WebPortal.Infrastructure.Connections.Services.GrpcControllerConnectionService[9 - .NET ThreadPool Worker] 
+      2022/04/16 23:21:15.209 - [ERROR]: Unable to connect to controller Controller 1427966868 
+ Grpc.Core.RpcException: Status(StatusCode="Unavailable", Detail="Error starting gRPC call. HttpRequestException: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond. (10.0.3.75:5000) SocketException: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.", DebugException="System.Net.Http.HttpRequestException: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond. (10.0.3.75:5000)
+ ---> System.Net.Sockets.SocketException (10060): A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp2ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp2ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at Grpc.Net.Client.Internal.GrpcCall`2.RunCall(HttpRequestMessage request, Nullable`1 timeout)")
+   at LedController.WebPortal.Infrastructure.Connections.Connections.GrpcControllerConnection.ConnectAsync() in D:\Projects\LedController_net5\LedController.Portal.Infrastructure.Connections\Connections\GrpcControllerConnection.cs:line 84
+   at LedController.WebPortal.Infrastructure.Connections.Services.GrpcControllerConnectionService.ConnectAsync(Controller controller, CancellationToken token) in D:\Projects\LedController_net5\LedController.Portal.Infrastructure.Connections\Services\ControllerConnectionService.cs:line 46
+LedController.WebPortal.Web.Pages.ControllersPage[9 - .NET ThreadPool Worker] 
+      2022/04/16 23:21:15.263 - [ERROR]: Could not connect to controller Controller 1427966868. 
+ Grpc.Core.RpcException: Status(StatusCode="Unavailable", Detail="Error starting gRPC call. HttpRequestException: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond. (10.0.3.75:5000) SocketException: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.", DebugException="System.Net.Http.HttpRequestException: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond. (10.0.3.75:5000)
+ ---> System.Net.Sockets.SocketException (10060): A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp2ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp2ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at Grpc.Net.Client.Internal.GrpcCall`2.RunCall(HttpRequestMessage request, Nullable`1 timeout)")
+   at LedController.WebPortal.Infrastructure.Connections.Connections.GrpcControllerConnection.ConnectAsync() in D:\Projects\LedController_net5\LedController.Portal.Infrastructure.Connections\Connections\GrpcControllerConnection.cs:line 84
+   at LedController.WebPortal.Infrastructure.Connections.Services.GrpcControllerConnectionService.ConnectAsync(Controller controller, CancellationToken token) in D:\Projects\LedController_net5\LedController.Portal.Infrastructure.Connections\Services\ControllerConnectionService.cs:line 46
+   at LedController.WebPortal.Core.Services.ControllerService.ConnectToControllerAsync(Controller controller, CancellationToken token) in D:\Projects\LedController_net5\LedController.Portal.Core\Services\ControllerService.cs:line 84
+   at LedController.WebPortal.Web.Pages.ControllersPage.ConnectToControllerAsync(Controller controller) in D:\Projects\LedController_net5\LedController.WebPortal.Web\Pages\ControllersPage.razor:line 116
+LedController.WebPortal.Web.Pages.ControllersPage[9 - .NET ThreadPool Worker] 
+      2022/04/16 23:21:15.263 - [INFO]: Connection with controller Controller 1427966868 successful. 
+ 
+LedController.WebPortal.Web.Pages.ControllersPage[6 - .NET ThreadPool Worker] 
+      2022/04/16 23:23:13.893 - [INFO]: Connecting to controller Controller 1427966868. 
+ 
+LedController.WebPortal.Core.Services.ControllerService[6 - .NET ThreadPool Worker] 
+      2022/04/16 23:23:13.907 - [INFO]: Connecting to controller e429a7c8-43cf-47c0-82f7-c4711091edb6. 
+ 
+LedController.WebPortal.Infrastructure.Connections.Connections.GrpcControllerConnection[6 - .NET ThreadPool Worker] 
+      2022/04/16 23:23:13.907 - [TRACE]: Creating connection with Controller 1427966868 
+ 
+Grpc.Net.Client.Internal.GrpcCall[6 - .NET ThreadPool Worker] 
+      2022/04/16 23:23:13.907 - [DEBUG]: Starting gRPC call. Method type: 'Unary', URI: 'http://10.0.3.75:5000/connection.GrpcConnection/Connect'. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[9 - .NET ThreadPool Worker] 
+      2022/04/16 23:23:16.283 - [ERROR]: Error starting gRPC call. 
+ System.Net.Http.HttpRequestException: No connection could be made because the target machine actively refused it. (10.0.3.75:5000)
+ ---> System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp2ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp2ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at Grpc.Net.Client.Internal.GrpcCall`2.RunCall(HttpRequestMessage request, Nullable`1 timeout)
+Grpc.Net.Client.Internal.GrpcCall[9 - .NET ThreadPool Worker] 
+      2022/04/16 23:23:16.299 - [INFO]: Call failed with gRPC error status. Status code: 'Unavailable', Message: 'Error starting gRPC call. HttpRequestException: No connection could be made because the target machine actively refused it. (10.0.3.75:5000) SocketException: No connection could be made because the target machine actively refused it.'. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[9 - .NET ThreadPool Worker] 
+      2022/04/16 23:23:16.299 - [DEBUG]: Finished gRPC call. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[9 - .NET ThreadPool Worker] 
+      2022/04/16 23:23:16.299 - [DEBUG]: gRPC call canceled. 
+ 
+LedController.WebPortal.Infrastructure.Connections.Services.GrpcControllerConnectionService[6 - .NET ThreadPool Worker] 
+      2022/04/16 23:23:16.321 - [ERROR]: Unable to connect to controller Controller 1427966868 
+ Grpc.Core.RpcException: Status(StatusCode="Unavailable", Detail="Error starting gRPC call. HttpRequestException: No connection could be made because the target machine actively refused it. (10.0.3.75:5000) SocketException: No connection could be made because the target machine actively refused it.", DebugException="System.Net.Http.HttpRequestException: No connection could be made because the target machine actively refused it. (10.0.3.75:5000)
+ ---> System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp2ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp2ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at Grpc.Net.Client.Internal.GrpcCall`2.RunCall(HttpRequestMessage request, Nullable`1 timeout)")
+   at LedController.WebPortal.Infrastructure.Connections.Connections.GrpcControllerConnection.ConnectAsync() in D:\Projects\LedController_net5\LedController.Portal.Infrastructure.Connections\Connections\GrpcControllerConnection.cs:line 84
+   at LedController.WebPortal.Infrastructure.Connections.Services.GrpcControllerConnectionService.ConnectAsync(Controller controller, CancellationToken token) in D:\Projects\LedController_net5\LedController.Portal.Infrastructure.Connections\Services\ControllerConnectionService.cs:line 46
+LedController.WebPortal.Web.Pages.ControllersPage[6 - .NET ThreadPool Worker] 
+      2022/04/16 23:23:16.370 - [ERROR]: Could not connect to controller Controller 1427966868. 
+ Grpc.Core.RpcException: Status(StatusCode="Unavailable", Detail="Error starting gRPC call. HttpRequestException: No connection could be made because the target machine actively refused it. (10.0.3.75:5000) SocketException: No connection could be made because the target machine actively refused it.", DebugException="System.Net.Http.HttpRequestException: No connection could be made because the target machine actively refused it. (10.0.3.75:5000)
+ ---> System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp2ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp2ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at Grpc.Net.Client.Internal.GrpcCall`2.RunCall(HttpRequestMessage request, Nullable`1 timeout)")
+   at LedController.WebPortal.Infrastructure.Connections.Connections.GrpcControllerConnection.ConnectAsync() in D:\Projects\LedController_net5\LedController.Portal.Infrastructure.Connections\Connections\GrpcControllerConnection.cs:line 84
+   at LedController.WebPortal.Infrastructure.Connections.Services.GrpcControllerConnectionService.ConnectAsync(Controller controller, CancellationToken token) in D:\Projects\LedController_net5\LedController.Portal.Infrastructure.Connections\Services\ControllerConnectionService.cs:line 46
+   at LedController.WebPortal.Core.Services.ControllerService.ConnectToControllerAsync(Controller controller, CancellationToken token) in D:\Projects\LedController_net5\LedController.Portal.Core\Services\ControllerService.cs:line 84
+   at LedController.WebPortal.Web.Pages.ControllersPage.ConnectToControllerAsync(Controller controller) in D:\Projects\LedController_net5\LedController.WebPortal.Web\Pages\ControllersPage.razor:line 116
+LedController.WebPortal.Web.Pages.ControllersPage[6 - .NET ThreadPool Worker] 
+      2022/04/16 23:23:16.370 - [INFO]: Connection with controller Controller 1427966868 successful. 
+ 

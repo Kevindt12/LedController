@@ -1,0 +1,143 @@
+﻿@using System
+@using LedController.Shared.Extensions
+@using System.Linq
+@using LedController.Domain.Enums
+@using LedController.Domain.Models
+@using LedController.WebPortal.Domain.Managers
+@using LedController.WebPortal.Domain.Models
+@using MudBlazor
+
+@inject ILogger<SpiBusFormDialog> _logger
+@inject ISnackbar _snackbar
+
+@inject ISpiBusManager _spiBusManager
+@inject IControllerManager _controllerManager
+
+<EditForm Model="@SpiBus" OnValidSubmit="SubmitAsync" >
+    <MudDialog>
+        <DialogContent>
+
+            <DataAnnotationsValidator/>
+
+            @* Name *@
+            <MudTextField Class="pa-4" T="string" Label="Name" Required="true" RequiredError="A name is needed" @bind-value="SpiBus!.Name"/>
+
+            @* The spi bus id and chip selected id. *@
+            <MudNumericField Class="pa-4" T="int" Label="Spi Bus Id" Required="true" @bind-value="SpiBus!.BusId"/>
+            <MudNumericField Class="pa-4" T="int" Label="Chip Select Id" Required="true" @bind-value="SpiBus!.ChipSelectId"/>
+
+            @* Controller selection. *@
+            <MudSelect Class="pa-4" T="Controller" @bind-value="_selectedController" Label="Controller" Required="true" >
+                @foreach (Controller controller in Controllers)
+                {
+	                <MudSelectItem T="Controller" Value="controller" >@controller.Name</MudSelectItem>
+                }
+            </MudSelect>
+
+            @* Spi bus settings. *@
+            <MudNumericField Class="pa-4" T="int" Required="true" Label="Clock Speed" @bind-value="SpiBus!.Settings!.ClockSpeed"/>
+            <MudNumericField Class="pa-4" T="int" Required="true" Label="Data Bit Length" @bind-value="SpiBus!.Settings!.DataBitLength"/>
+            <MudSelect Class="pa-4" T="SpiBusDataFlow" Required="true" Label="Data Flow" AnchorOrigin="Origin.BottomCenter" @bind-value="SpiBus!.Settings!.DataFlow" >
+                <MudSelectItem Value="@SpiBusDataFlow.LsbFirst" >least significant bit first</MudSelectItem>
+                <MudSelectItem Value="@SpiBusDataFlow.MsbFirst" >Most significant bit first</MudSelectItem>
+            </MudSelect>
+            <MudSelect Class="pa-4" T="SpiMode" Required="true" Label="Spi Mode" AnchorOrigin="Origin.BottomCenter" @bind-value="SpiBus!.Settings!.Mode" >
+                <MudSelectItem Value="@SpiMode.Mode0" >Mode 0</MudSelectItem>
+                <MudSelectItem Value="@SpiMode.Mode1" >Mode 1</MudSelectItem>
+                <MudSelectItem Value="@SpiMode.Mode2" >Mode 2</MudSelectItem>
+                <MudSelectItem Value="@SpiMode.Mode3" >Mode 3</MudSelectItem>
+            </MudSelect>
+
+            <MudDivider/>
+        </DialogContent>
+        <DialogActions>
+            <MudButton Class="pa-4" Color="Color.Primary" ButtonType="ButtonType.Submit" >Save</MudButton>
+            @if (!_isNew)
+            {
+	            <MudButton Class="pa-5" Color="Color.Error" OnClick="DeleteAsync" >Delete</MudButton>
+            }
+        </DialogActions>
+    </MudDialog>
+</EditForm>
+
+
+@code {
+
+	private bool _isNew;
+	private Controller? _selectedController;
+
+	[CascadingParameter]
+	MudDialogInstance? MudDialog { get; set; }
+
+	/// <summary>
+	/// The spi bus that we want to add.
+	/// </summary>
+	[Parameter]
+	public SpiBus? SpiBus { get; set; }
+
+	/// <summary>
+	/// The controllers that we know of in the applicaiton.
+	/// </summary>
+	public IEnumerable<Controller> Controllers { get; set; } = new List<Controller>();
+
+
+	/// <inheritdoc />
+	protected override async Task OnInitializedAsync()
+	{
+		_logger.LogInformation("Opening Spi bus ");
+		Controllers = await _controllerManager.GetAsync().AsEnumerableAsync();
+
+		if (SpiBus == default)
+		{
+			_logger.LogDebug("Spi bus is not set. Creating new spi bus.");
+			_isNew = true;
+			SpiBus = new SpiBus();
+		}
+
+		await base.OnInitializedAsync();
+	}
+
+
+	/// <summary>
+	/// Saving the spi buses.
+	/// </summary>
+	/// <returns> </returns>
+	private async Task SubmitAsync()
+	{
+		_logger.LogInformation($"Saving spi bus {SpiBus!.Name}.");
+
+
+	// Adding the spi bus.
+		if (_isNew)
+		{
+			await _spiBusManager.AddAsync(SpiBus!, _selectedController!);
+		}
+		else
+		{
+			await _spiBusManager.UpdateAsync(SpiBus!, _selectedController!);
+		}
+
+		_logger.LogDebug("Spi bus saved. Adding spi bus to controller.");
+
+		_snackbar.Add("Spi bus saved!", Severity.Success);
+		_logger.LogInformation("spi buses Has been saved!");
+		MudDialog!.Close(DialogResult.Ok(SpiBus));
+	}
+
+
+	/// <summary>
+	/// Deletes the spi bus selected.
+	/// </summary>
+	/// <returns> </returns>
+	private async Task DeleteAsync()
+	{
+		_logger.LogInformation($"Deleting spi bus {SpiBus.Name}.");
+		await _spiBusManager.Remove(SpiBus!);
+
+		_snackbar.Add("Spi bus has been deleted.", Severity.Success);
+		_logger.LogInformation("Spi bus has been deleted.");
+		MudDialog!.Close(DialogResult.Ok(true));
+	}
+
+
+}

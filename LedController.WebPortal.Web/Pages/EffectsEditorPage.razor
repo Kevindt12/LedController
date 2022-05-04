@@ -1,0 +1,83 @@
+﻿@page "/effects"
+
+@using MudBlazor
+@using LedController.WebPortal.Web.Components
+@using LedController.Domain.Models
+@using LedController.Shared.Extensions
+@using LedController.WebPortal.Domain.Managers
+@using LedController.WebPortal.Web.Dialogs
+
+@inject ILogger<EffectsEditorPage> _logger
+@inject IDialogService _dialogService
+
+@inject IEffectManager _effectManager
+
+@if (Effects.Any())
+{
+    <MudGrid>
+
+        @*The action buttons.*@
+        <MudItem Class="pa-4" xs="12">
+            <MudButton Class="pa-4" OnClick="ShowEffectFormDialogAsync">@*<MudIcon Icon="@Icons.Filled.Add" />*@Add</MudButton>
+        </MudItem>
+
+        @* The tab view*@
+        <MudItem Class="pa-4" xs="12">
+            <MudTabs  Outlined="true" Position="Position.Left" Rounded="true" Border="true"ApplyEffectsToContainer="true" @ref="_tabs" Class="mt-8" PanelClass="pa-6">
+                @foreach (Effect effect in Effects)
+                {
+                    @* Tab content. *@
+                    <MudTabPanel Class="pa-4" Text="@effect.Name">
+                        <EffectEditor Effect="effect" />
+                    </MudTabPanel>
+                }
+            </MudTabs>
+        </MudItem>
+    </MudGrid>
+}
+else
+{
+    <EmptyPage PageName="Effects" AddItemAction="ShowEffectFormDialogAsync" />
+}
+
+@code {
+
+    private MudTabs? _tabs;
+
+
+    public IEnumerable<Effect> Effects { get; set; } = new List<Effect>();
+        
+
+    /// <inheritdoc />
+    protected override async Task OnInitializedAsync()
+    {
+        _logger.LogInformation($"Loading effects page.");
+
+        Effects = (await _effectManager.GetAsync().AsEnumerableAsync()).ToList();
+
+        await base.OnInitializedAsync();
+    }
+
+
+    public async Task ShowEffectFormDialogAsync()
+    {
+        _logger.LogInformation($"Showing effect dialog.");
+
+        DialogOptions options = new DialogOptions
+            {
+                CloseButton = true,
+                MaxWidth = MaxWidth.Medium,
+                FullWidth = true
+            };
+
+        DialogResult result = await _dialogService.Show<EffectFormDialog>("New Effect", options).Result;
+
+        if (!result.Cancelled)
+        {
+            _logger.LogInformation($"Reloading effects page.");
+            Effects = await _effectManager.GetAsync().AsEnumerableAsync();
+            StateHasChanged();
+        }
+    }
+
+}

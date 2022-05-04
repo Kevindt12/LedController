@@ -1,0 +1,116 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "d7e28a4e-bc1e-4462-bc39-1da1d633e4b1": {
+      "ProjectGuid": "d7e28a4e-bc1e-4462-bc39-1da1d633e4b1",
+      "DisplayName": "LedController.Data",
+      "ColorIndex": 0
+    },
+    "293811ed-91a2-4f37-b8e3-5d782656e453": {
+      "ProjectGuid": "293811ed-91a2-4f37-b8e3-5d782656e453",
+      "DisplayName": "LedController.Core",
+      "ColorIndex": 1
+    },
+    "11be9266-0df3-4bd2-88c8-8b5fbacb2bcf": {
+      "ProjectGuid": "11be9266-0df3-4bd2-88c8-8b5fbacb2bcf",
+      "DisplayName": "LedController.Domain",
+      "ColorIndex": 2
+    },
+    "b25ecff5-75bf-4024-b4a9-6fe79a15e436": {
+      "ProjectGuid": "b25ecff5-75bf-4024-b4a9-6fe79a15e436",
+      "DisplayName": "LedController.Shared",
+      "ColorIndex": 3
+    },
+    "72ee394f-1cde-44b6-95c2-90147f4fd338": {
+      "ProjectGuid": "72ee394f-1cde-44b6-95c2-90147f4fd338",
+      "DisplayName": "LedController.Controller.Domain",
+      "ColorIndex": 4
+    },
+    "b0e5a8e8-93a8-408c-b636-eaf1f26b8d87": {
+      "ProjectGuid": "b0e5a8e8-93a8-408c-b636-eaf1f26b8d87",
+      "DisplayName": "LedController.Controller.Core",
+      "ColorIndex": 5
+    },
+    "e58cb9be-be12-45a4-8986-89c544d1ba45": {
+      "ProjectGuid": "e58cb9be-be12-45a4-8986-89c544d1ba45",
+      "DisplayName": "LedController.Controller.Infrastructure",
+      "ColorIndex": 6
+    },
+    "e4c3d4b6-4819-466a-9792-fd071bda5296": {
+      "ProjectGuid": "e4c3d4b6-4819-466a-9792-fd071bda5296",
+      "DisplayName": "LedController.Controller.Infrastructure.Communication",
+      "ColorIndex": 7
+    },
+    "2f3352d3-172c-4bc5-a6ac-c01734a1468b": {
+      "ProjectGuid": "2f3352d3-172c-4bc5-a6ac-c01734a1468b",
+      "DisplayName": "LedController.Controller.Infrastructure.Device",
+      "ColorIndex": 8
+    },
+    "e4e90721-cf35-4291-87f6-b8063e87dd69": {
+      "ProjectGuid": "e4e90721-cf35-4291-87f6-b8063e87dd69",
+      "DisplayName": "LedController.Controller.Persistence",
+      "ColorIndex": 9
+    },
+    "42529c85-78ed-4f0e-a7c1-7671a1c7ecd2": {
+      "ProjectGuid": "42529c85-78ed-4f0e-a7c1-7671a1c7ecd2",
+      "DisplayName": "LedController.Controller.Persistence.Sqlite",
+      "ColorIndex": 10
+    },
+    "3f874270-99fa-4c17-b968-b300f4fa0eb3": {
+      "ProjectGuid": "3f874270-99fa-4c17-b968-b300f4fa0eb3",
+      "DisplayName": "LedController.WebPortal.Domain",
+      "ColorIndex": 11
+    },
+    "2e86a303-63d8-4c3e-bb2e-85aa74a15325": {
+      "ProjectGuid": "2e86a303-63d8-4c3e-bb2e-85aa74a15325",
+      "DisplayName": "LedController.WebPortal.Core",
+      "ColorIndex": 12
+    },
+    "fee45576-e199-4cf2-8d22-7cf70610c089": {
+      "ProjectGuid": "fee45576-e199-4cf2-8d22-7cf70610c089",
+      "DisplayName": "LedController.WebPortal.Infrastructure",
+      "ColorIndex": 13
+    },
+    "f67c532e-b4f7-4873-a9e0-69521b2a149e": {
+      "ProjectGuid": "f67c532e-b4f7-4873-a9e0-69521b2a149e",
+      "DisplayName": "LedController.WebPortal.Infrastructure.Connections",
+      "ColorIndex": 14
+    },
+    "c843451d-91b7-4f5f-906a-99650645d9f1": {
+      "ProjectGuid": "c843451d-91b7-4f5f-906a-99650645d9f1",
+      "DisplayName": "LedController.WebPortal.Persistence",
+      "ColorIndex": 15
+    },
+    "1bf7bb2d-103e-4599-a2e8-f46be879a117": {
+      "ProjectGuid": "1bf7bb2d-103e-4599-a2e8-f46be879a117",
+      "DisplayName": "LedController.WebPortal.Persistence.Sqlite",
+      "ColorIndex": 0
+    },
+    "4b3f1c51-669d-42a1-9d55-90201354a756": {
+      "ProjectGuid": "4b3f1c51-669d-42a1-9d55-90201354a756",
+      "DisplayName": "LedController.Controller.Service",
+      "ColorIndex": 1
+    },
+    "d8d4667c-70ac-4451-8971-2cdf71b4b116": {
+      "ProjectGuid": "d8d4667c-70ac-4451-8971-2cdf71b4b116",
+      "DisplayName": "LedController.WebPortal.Web",
+      "ColorIndex": 2
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "0d8483ce-2dab-4381-a0ef-4d29137eec8c": {
+      "ProjectGuid": "0d8483ce-2dab-4381-a0ef-4d29137eec8c",
+      "DisplayName": "LedController.WebPortal.Web",
+      "ColorIndex": 3
+    },
+    "92cd1d5f-53cc-4ec6-979a-fcac1c155097": {
+      "ProjectGuid": "92cd1d5f-53cc-4ec6-979a-fcac1c155097",
+      "DisplayName": "LedController.Communication",
+      "ColorIndex": 4
+    }
+  },
+  "NextColorIndex": 5
+}

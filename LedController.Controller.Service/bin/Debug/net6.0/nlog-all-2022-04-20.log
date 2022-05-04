@@ -1,0 +1,674 @@
+Microsoft.AspNetCore.Server.Kestrel[1 - ] 
+      2022/04/20 21:55:59.467 - [WARN]: Overriding address(es) 'http://localhost:5229, https://localhost:7229'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/20 21:55:59.538 - [INFO]: Now listening on: https://0.0.0.0:5000 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/20 21:55:59.538 - [INFO]: Application started. Press Ctrl+C to shut down. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/20 21:55:59.538 - [INFO]: Hosting environment: Development 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/20 21:55:59.538 - [INFO]: Content root path: D:\Projects\LedController_net5\LedController.Controller.Service\ 
+ 
+Grpc.AspNetCore.Server.Model.Internal.ServiceRouteBuilder[1 - ] 
+      2022/04/20 21:59:12.399 - [TRACE]: Discovering gRPC methods for LedController.Controller.Service.Services.ServerConnectionService. 
+ 
+Grpc.AspNetCore.Server.Model.Internal.ServiceRouteBuilder[1 - ] 
+      2022/04/20 21:59:12.440 - [TRACE]: Added gRPC method 'Connect' to service 'connection.GrpcConnection'. Method type: 'Unary', route pattern: '/connection.GrpcConnection/Connect'. 
+ 
+Grpc.AspNetCore.Server.Model.Internal.ServiceRouteBuilder[1 - ] 
+      2022/04/20 21:59:12.440 - [TRACE]: Added gRPC method 'Disconnect' to service 'connection.GrpcConnection'. Method type: 'Unary', route pattern: '/connection.GrpcConnection/Disconnect'. 
+ 
+Grpc.AspNetCore.Server.Model.Internal.ServiceRouteBuilder[1 - ] 
+      2022/04/20 21:59:12.440 - [TRACE]: Added gRPC method 'PlayAnimationOnLedstrip' to service 'connection.GrpcConnection'. Method type: 'Unary', route pattern: '/connection.GrpcConnection/PlayAnimationOnLedstrip'. 
+ 
+Grpc.AspNetCore.Server.Model.Internal.ServiceRouteBuilder[1 - ] 
+      2022/04/20 21:59:12.440 - [TRACE]: Added gRPC method 'StopAnimationOnLedstrip' to service 'connection.GrpcConnection'. Method type: 'Unary', route pattern: '/connection.GrpcConnection/StopAnimationOnLedstrip'. 
+ 
+Grpc.AspNetCore.Server.Model.Internal.ServiceRouteBuilder[1 - ] 
+      2022/04/20 21:59:12.440 - [TRACE]: Added gRPC method 'TestLedstrip' to service 'connection.GrpcConnection'. Method type: 'Unary', route pattern: '/connection.GrpcConnection/TestLedstrip'. 
+ 
+Grpc.AspNetCore.Server.Model.Internal.ServiceRouteBuilder[1 - ] 
+      2022/04/20 21:59:12.440 - [TRACE]: Added gRPC method 'GetPlayingLedstrips' to service 'connection.GrpcConnection'. Method type: 'ServerStreaming', route pattern: '/connection.GrpcConnection/GetPlayingLedstrips'. 
+ 
+Grpc.AspNetCore.Server.Model.Internal.ServiceRouteBuilder[1 - ] 
+      2022/04/20 21:59:12.440 - [TRACE]: Added gRPC method 'UploadEffectAssembly' to service 'connection.GrpcConnection'. Method type: 'Unary', route pattern: '/connection.GrpcConnection/UploadEffectAssembly'. 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/04/20 21:59:12.490 - [DEBUG]: Hosting starting 
+ 
+Microsoft.AspNetCore.Server.Kestrel[1 - ] 
+      2022/04/20 21:59:12.621 - [WARN]: Overriding address(es) 'http://localhost:5229, https://localhost:7229'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/20 21:59:12.681 - [INFO]: Now listening on: https://0.0.0.0:5000 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/20 21:59:12.681 - [INFO]: Application started. Press Ctrl+C to shut down. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/20 21:59:12.681 - [INFO]: Hosting environment: Development 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/20 21:59:12.681 - [INFO]: Content root path: D:\Projects\LedController_net5\LedController.Controller.Service\ 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/04/20 21:59:12.681 - [DEBUG]: Hosting started 
+ 
+Microsoft.Hosting.Lifetime[7 - ] 
+      2022/04/20 22:09:54.887 - [INFO]: Application is shutting down... 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[29 - .NET ThreadPool Worker] 
+      2022/04/20 22:09:54.996 - [DEBUG]: Hosting stopping 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[30 - .NET ThreadPool Worker] 
+      2022/04/20 22:09:54.996 - [DEBUG]: Hosting stopped 
+ 
+Grpc.AspNetCore.Server.Model.Internal.ServiceRouteBuilder[1 - ] 
+      2022/04/20 22:10:21.971 - [TRACE]: Discovering gRPC methods for LedController.Controller.Service.Services.ServerConnectionService. 
+ 
+Grpc.AspNetCore.Server.Model.Internal.ServiceRouteBuilder[1 - ] 
+      2022/04/20 22:10:22.012 - [TRACE]: Added gRPC method 'Connect' to service 'connection.GrpcConnection'. Method type: 'Unary', route pattern: '/connection.GrpcConnection/Connect'. 
+ 
+Grpc.AspNetCore.Server.Model.Internal.ServiceRouteBuilder[1 - ] 
+      2022/04/20 22:10:22.012 - [TRACE]: Added gRPC method 'Disconnect' to service 'connection.GrpcConnection'. Method type: 'Unary', route pattern: '/connection.GrpcConnection/Disconnect'. 
+ 
+Grpc.AspNetCore.Server.Model.Internal.ServiceRouteBuilder[1 - ] 
+      2022/04/20 22:10:22.012 - [TRACE]: Added gRPC method 'PlayAnimationOnLedstrip' to service 'connection.GrpcConnection'. Method type: 'Unary', route pattern: '/connection.GrpcConnection/PlayAnimationOnLedstrip'. 
+ 
+Grpc.AspNetCore.Server.Model.Internal.ServiceRouteBuilder[1 - ] 
+      2022/04/20 22:10:22.012 - [TRACE]: Added gRPC method 'StopAnimationOnLedstrip' to service 'connection.GrpcConnection'. Method type: 'Unary', route pattern: '/connection.GrpcConnection/StopAnimationOnLedstrip'. 
+ 
+Grpc.AspNetCore.Server.Model.Internal.ServiceRouteBuilder[1 - ] 
+      2022/04/20 22:10:22.012 - [TRACE]: Added gRPC method 'TestLedstrip' to service 'connection.GrpcConnection'. Method type: 'Unary', route pattern: '/connection.GrpcConnection/TestLedstrip'. 
+ 
+Grpc.AspNetCore.Server.Model.Internal.ServiceRouteBuilder[1 - ] 
+      2022/04/20 22:10:22.012 - [TRACE]: Added gRPC method 'GetPlayingLedstrips' to service 'connection.GrpcConnection'. Method type: 'ServerStreaming', route pattern: '/connection.GrpcConnection/GetPlayingLedstrips'. 
+ 
+Grpc.AspNetCore.Server.Model.Internal.ServiceRouteBuilder[1 - ] 
+      2022/04/20 22:10:22.012 - [TRACE]: Added gRPC method 'UploadEffectAssembly' to service 'connection.GrpcConnection'. Method type: 'Unary', route pattern: '/connection.GrpcConnection/UploadEffectAssembly'. 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/04/20 22:10:22.055 - [DEBUG]: Hosting starting 
+ 
+Microsoft.AspNetCore.Server.Kestrel[1 - ] 
+      2022/04/20 22:10:22.107 - [WARN]: Overriding address(es) 'http://localhost:5229, https://localhost:7229'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/20 22:10:22.120 - [INFO]: Now listening on: http://0.0.0.0:5000 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/20 22:10:22.120 - [INFO]: Application started. Press Ctrl+C to shut down. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/20 22:10:22.120 - [INFO]: Hosting environment: Development 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/20 22:10:22.120 - [INFO]: Content root path: D:\Projects\LedController_net5\LedController.Controller.Service\ 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/04/20 22:10:22.120 - [DEBUG]: Hosting started 
+ 
+Grpc.AspNetCore.Server.ServerCallHandler[17 - .NET ThreadPool Worker] 
+      2022/04/20 22:10:56.081 - [DEBUG]: Reading message. 
+ 
+Grpc.AspNetCore.Server.ServerCallHandler[17 - .NET ThreadPool Worker] 
+      2022/04/20 22:10:56.085 - [TRACE]: Deserializing 0 byte message to 'Google.Protobuf.WellKnownTypes.Empty'. 
+ 
+Grpc.AspNetCore.Server.ServerCallHandler[17 - .NET ThreadPool Worker] 
+      2022/04/20 22:10:56.085 - [TRACE]: Received message. 
+ 
+LedController.Controller.Service.Services.ServerConnectionService[17 - .NET ThreadPool Worker] 
+      2022/04/20 22:10:56.323 - [INFO]: Portal 127.0.0.1:5000 request to connect. 
+ 
+Grpc.AspNetCore.Server.ServerCallHandler[17 - .NET ThreadPool Worker] 
+      2022/04/20 22:10:56.323 - [DEBUG]: Sending message. 
+ 
+Grpc.AspNetCore.Server.ServerCallHandler[17 - .NET ThreadPool Worker] 
+      2022/04/20 22:10:56.335 - [TRACE]: Serialized 'Google.Protobuf.WellKnownTypes.Empty' to 0 byte message. 
+ 
+Grpc.AspNetCore.Server.ServerCallHandler[17 - .NET ThreadPool Worker] 
+      2022/04/20 22:10:56.335 - [TRACE]: Message sent. 
+ 
+Grpc.AspNetCore.Server.ServerCallHandler[20 - .NET ThreadPool Worker] 
+      2022/04/20 22:11:13.252 - [DEBUG]: Reading message. 
+ 
+Grpc.AspNetCore.Server.ServerCallHandler[20 - .NET ThreadPool Worker] 
+      2022/04/20 22:11:13.252 - [TRACE]: Deserializing 0 byte message to 'Google.Protobuf.WellKnownTypes.Empty'. 
+ 
+Grpc.AspNetCore.Server.ServerCallHandler[20 - .NET ThreadPool Worker] 
+      2022/04/20 22:11:13.252 - [TRACE]: Received message. 
+ 
+LedController.Controller.Service.Services.ServerConnectionService[20 - .NET ThreadPool Worker] 
+      2022/04/20 22:11:13.252 - [INFO]: Portal 127.0.0.1:5000 request to disconnect. 
+ 
+Grpc.AspNetCore.Server.ServerCallHandler[20 - .NET ThreadPool Worker] 
+      2022/04/20 22:11:13.252 - [DEBUG]: Sending message. 
+ 
+Grpc.AspNetCore.Server.ServerCallHandler[20 - .NET ThreadPool Worker] 
+      2022/04/20 22:11:13.252 - [TRACE]: Serialized 'Google.Protobuf.WellKnownTypes.Empty' to 0 byte message. 
+ 
+Grpc.AspNetCore.Server.ServerCallHandler[20 - .NET ThreadPool Worker] 
+      2022/04/20 22:11:13.252 - [TRACE]: Message sent. 
+ 
+Grpc.AspNetCore.Server.ServerCallHandler[21 - .NET ThreadPool Worker] 
+      2022/04/20 22:11:24.335 - [DEBUG]: Reading message. 
+ 
+Grpc.AspNetCore.Server.ServerCallHandler[21 - .NET ThreadPool Worker] 
+      2022/04/20 22:11:24.335 - [TRACE]: Deserializing 0 byte message to 'Google.Protobuf.WellKnownTypes.Empty'. 
+ 
+Grpc.AspNetCore.Server.ServerCallHandler[21 - .NET ThreadPool Worker] 
+      2022/04/20 22:11:24.335 - [TRACE]: Received message. 
+ 
+LedController.Controller.Service.Services.ServerConnectionService[21 - .NET ThreadPool Worker] 
+      2022/04/20 22:11:24.335 - [INFO]: Portal 127.0.0.1:5000 request to connect. 
+ 
+Grpc.AspNetCore.Server.ServerCallHandler[21 - .NET ThreadPool Worker] 
+      2022/04/20 22:11:24.335 - [DEBUG]: Sending message. 
+ 
+Grpc.AspNetCore.Server.ServerCallHandler[21 - .NET ThreadPool Worker] 
+      2022/04/20 22:11:24.335 - [TRACE]: Serialized 'Google.Protobuf.WellKnownTypes.Empty' to 0 byte message. 
+ 
+Grpc.AspNetCore.Server.ServerCallHandler[21 - .NET ThreadPool Worker] 
+      2022/04/20 22:11:24.335 - [TRACE]: Message sent. 
+ 
+Grpc.AspNetCore.Server.ServerCallHandler[29 - .NET ThreadPool Worker] 
+      2022/04/20 22:15:35.116 - [DEBUG]: Reading message. 
+ 
+Grpc.AspNetCore.Server.ServerCallHandler[29 - .NET ThreadPool Worker] 
+      2022/04/20 22:15:35.116 - [TRACE]: Deserializing 0 byte message to 'Google.Protobuf.WellKnownTypes.Empty'. 
+ 
+Grpc.AspNetCore.Server.ServerCallHandler[29 - .NET ThreadPool Worker] 
+      2022/04/20 22:15:35.116 - [TRACE]: Received message. 
+ 
+LedController.Controller.Service.Services.ServerConnectionService[29 - .NET ThreadPool Worker] 
+      2022/04/20 22:15:35.116 - [INFO]: Portal 127.0.0.1:5000 request to disconnect. 
+ 
+Grpc.AspNetCore.Server.ServerCallHandler[29 - .NET ThreadPool Worker] 
+      2022/04/20 22:15:35.116 - [DEBUG]: Sending message. 
+ 
+Grpc.AspNetCore.Server.ServerCallHandler[29 - .NET ThreadPool Worker] 
+      2022/04/20 22:15:35.116 - [TRACE]: Serialized 'Google.Protobuf.WellKnownTypes.Empty' to 0 byte message. 
+ 
+Grpc.AspNetCore.Server.ServerCallHandler[29 - .NET ThreadPool Worker] 
+      2022/04/20 22:15:35.116 - [TRACE]: Message sent. 
+ 
+Grpc.AspNetCore.Server.ServerCallHandler[28 - .NET ThreadPool Worker] 
+      2022/04/20 22:15:36.410 - [DEBUG]: Reading message. 
+ 
+Grpc.AspNetCore.Server.ServerCallHandler[28 - .NET ThreadPool Worker] 
+      2022/04/20 22:15:36.410 - [TRACE]: Deserializing 0 byte message to 'Google.Protobuf.WellKnownTypes.Empty'. 
+ 
+Grpc.AspNetCore.Server.ServerCallHandler[28 - .NET ThreadPool Worker] 
+      2022/04/20 22:15:36.410 - [TRACE]: Received message. 
+ 
+LedController.Controller.Service.Services.ServerConnectionService[28 - .NET ThreadPool Worker] 
+      2022/04/20 22:15:36.410 - [INFO]: Portal 127.0.0.1:5000 request to connect. 
+ 
+Grpc.AspNetCore.Server.ServerCallHandler[28 - .NET ThreadPool Worker] 
+      2022/04/20 22:15:36.410 - [DEBUG]: Sending message. 
+ 
+Grpc.AspNetCore.Server.ServerCallHandler[28 - .NET ThreadPool Worker] 
+      2022/04/20 22:15:36.410 - [TRACE]: Serialized 'Google.Protobuf.WellKnownTypes.Empty' to 0 byte message. 
+ 
+Grpc.AspNetCore.Server.ServerCallHandler[28 - .NET ThreadPool Worker] 
+      2022/04/20 22:15:36.410 - [TRACE]: Message sent. 
+ 
+Grpc.AspNetCore.Server.ServerCallHandler[42 - .NET ThreadPool Worker] 
+      2022/04/20 22:25:41.671 - [DEBUG]: Reading message. 
+ 
+Grpc.AspNetCore.Server.ServerCallHandler[42 - .NET ThreadPool Worker] 
+      2022/04/20 22:25:41.671 - [TRACE]: Deserializing 38 byte message to 'LedController.Controller.Service.EffectAssembly'. 
+ 
+Grpc.AspNetCore.Server.ServerCallHandler[42 - .NET ThreadPool Worker] 
+      2022/04/20 22:25:41.671 - [TRACE]: Received message. 
+ 
+LedController.Controller.Core.Services.EffectService[42 - .NET ThreadPool Worker] 
+      2022/04/20 22:25:41.671 - [TRACE]: Saving effect assembly 00000000-0000-0000-0000-000000000000 to disk. 
+ 
+Grpc.AspNetCore.Server.ServerCallHandler[42 - .NET ThreadPool Worker] 
+      2022/04/20 22:25:41.734 - [ERROR]: Error when executing service method 'UploadEffectAssembly'. 
+ System.ArgumentNullException: Value cannot be null. (Parameter 'path3')
+   at System.IO.Path.Combine(String path1, String path2, String path3)
+   at LedController.Controller.Infrastructure.Device.Providers.EffectAssemblyProvider.ComposeFileName(EffectAssembly effectAssembly) in D:\Projects\LedController_net5\LedController.Controller.Infrastructure.Hardware\Providers\EffectAssemblyProvider.cs:line 93
+   at LedController.Controller.Infrastructure.Device.Providers.EffectAssemblyProvider.SaveAssemblyAsync(EffectAssembly effectAssembly, ReadOnlyMemory`1 buffer, CancellationToken token) in D:\Projects\LedController_net5\LedController.Controller.Infrastructure.Hardware\Providers\EffectAssemblyProvider.cs:line 77
+   at LedController.Controller.Core.Services.EffectService.SaveEffectAssembly(ReadOnlyMemory`1 buffer, EffectAssembly effectAssembly, CancellationToken token) in D:\Projects\LedController_net5\LedController.Controller.Core\Services\EffectService.cs:line 37
+   at LedController.Controller.Service.Services.ServerConnectionService.UploadEffectAssembly(EffectAssembly request, ServerCallContext context) in D:\Projects\LedController_net5\LedController.Controller.Service\Services\ServerConnectionService.cs:line 126
+   at Grpc.Shared.Server.UnaryServerMethodInvoker`3.AwaitInvoker(Task`1 invokerTask, GrpcActivatorHandle`1 serviceHandle)
+   at Grpc.Shared.Server.UnaryServerMethodInvoker`3.AwaitInvoker(Task`1 invokerTask, GrpcActivatorHandle`1 serviceHandle)
+   at Grpc.AspNetCore.Server.Internal.CallHandlers.UnaryServerCallHandler`3.HandleCallAsyncCore(HttpContext httpContext, HttpContextServerCallContext serverCallContext)
+   at Grpc.AspNetCore.Server.Internal.CallHandlers.ServerCallHandlerBase`3.<HandleCallAsync>g__AwaitHandleCall|8_0(HttpContextServerCallContext serverCallContext, Method`2 method, Task handleCall)
+Grpc.AspNetCore.Server.Model.Internal.ServiceRouteBuilder[1 - ] 
+      2022/04/20 22:32:24.143 - [TRACE]: Discovering gRPC methods for LedController.Controller.Service.Services.ServerConnectionService. 
+ 
+Grpc.AspNetCore.Server.Model.Internal.ServiceRouteBuilder[1 - ] 
+      2022/04/20 22:32:24.186 - [TRACE]: Added gRPC method 'Connect' to service 'connection.GrpcConnection'. Method type: 'Unary', route pattern: '/connection.GrpcConnection/Connect'. 
+ 
+Grpc.AspNetCore.Server.Model.Internal.ServiceRouteBuilder[1 - ] 
+      2022/04/20 22:32:24.186 - [TRACE]: Added gRPC method 'Disconnect' to service 'connection.GrpcConnection'. Method type: 'Unary', route pattern: '/connection.GrpcConnection/Disconnect'. 
+ 
+Grpc.AspNetCore.Server.Model.Internal.ServiceRouteBuilder[1 - ] 
+      2022/04/20 22:32:24.186 - [TRACE]: Added gRPC method 'PlayAnimationOnLedstrip' to service 'connection.GrpcConnection'. Method type: 'Unary', route pattern: '/connection.GrpcConnection/PlayAnimationOnLedstrip'. 
+ 
+Grpc.AspNetCore.Server.Model.Internal.ServiceRouteBuilder[1 - ] 
+      2022/04/20 22:32:24.186 - [TRACE]: Added gRPC method 'StopAnimationOnLedstrip' to service 'connection.GrpcConnection'. Method type: 'Unary', route pattern: '/connection.GrpcConnection/StopAnimationOnLedstrip'. 
+ 
+Grpc.AspNetCore.Server.Model.Internal.ServiceRouteBuilder[1 - ] 
+      2022/04/20 22:32:24.186 - [TRACE]: Added gRPC method 'TestLedstrip' to service 'connection.GrpcConnection'. Method type: 'Unary', route pattern: '/connection.GrpcConnection/TestLedstrip'. 
+ 
+Grpc.AspNetCore.Server.Model.Internal.ServiceRouteBuilder[1 - ] 
+      2022/04/20 22:32:24.186 - [TRACE]: Added gRPC method 'GetPlayingLedstrips' to service 'connection.GrpcConnection'. Method type: 'ServerStreaming', route pattern: '/connection.GrpcConnection/GetPlayingLedstrips'. 
+ 
+Grpc.AspNetCore.Server.Model.Internal.ServiceRouteBuilder[1 - ] 
+      2022/04/20 22:32:24.186 - [TRACE]: Added gRPC method 'UploadEffectAssembly' to service 'connection.GrpcConnection'. Method type: 'Unary', route pattern: '/connection.GrpcConnection/UploadEffectAssembly'. 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/04/20 22:32:24.226 - [DEBUG]: Hosting starting 
+ 
+Microsoft.AspNetCore.Server.Kestrel[1 - ] 
+      2022/04/20 22:32:24.276 - [WARN]: Overriding address(es) 'http://localhost:5229, https://localhost:7229'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/20 22:32:24.288 - [INFO]: Now listening on: http://0.0.0.0:5000 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/20 22:32:24.288 - [INFO]: Application started. Press Ctrl+C to shut down. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/20 22:32:24.288 - [INFO]: Hosting environment: Development 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/20 22:32:24.288 - [INFO]: Content root path: D:\Projects\LedController_net5\LedController.Controller.Service\ 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/04/20 22:32:24.288 - [DEBUG]: Hosting started 
+ 
+Grpc.AspNetCore.Server.ServerCallHandler[17 - .NET ThreadPool Worker] 
+      2022/04/20 22:32:56.559 - [DEBUG]: Reading message. 
+ 
+Grpc.AspNetCore.Server.ServerCallHandler[17 - .NET ThreadPool Worker] 
+      2022/04/20 22:32:56.559 - [TRACE]: Deserializing 0 byte message to 'Google.Protobuf.WellKnownTypes.Empty'. 
+ 
+Grpc.AspNetCore.Server.ServerCallHandler[17 - .NET ThreadPool Worker] 
+      2022/04/20 22:32:56.559 - [TRACE]: Received message. 
+ 
+LedController.Controller.Service.Services.ServerConnectionService[17 - .NET ThreadPool Worker] 
+      2022/04/20 22:32:56.800 - [INFO]: Portal 127.0.0.1:5000 request to connect. 
+ 
+Grpc.AspNetCore.Server.ServerCallHandler[17 - .NET ThreadPool Worker] 
+      2022/04/20 22:32:56.811 - [DEBUG]: Sending message. 
+ 
+Grpc.AspNetCore.Server.ServerCallHandler[17 - .NET ThreadPool Worker] 
+      2022/04/20 22:32:56.811 - [TRACE]: Serialized 'Google.Protobuf.WellKnownTypes.Empty' to 0 byte message. 
+ 
+Grpc.AspNetCore.Server.ServerCallHandler[17 - .NET ThreadPool Worker] 
+      2022/04/20 22:32:56.811 - [TRACE]: Message sent. 
+ 
+Grpc.AspNetCore.Server.ServerCallHandler[17 - .NET ThreadPool Worker] 
+      2022/04/20 22:33:02.952 - [DEBUG]: Reading message. 
+ 
+Grpc.AspNetCore.Server.ServerCallHandler[17 - .NET ThreadPool Worker] 
+      2022/04/20 22:33:02.952 - [TRACE]: Deserializing 38 byte message to 'LedController.Controller.Service.EffectAssembly'. 
+ 
+Grpc.AspNetCore.Server.ServerCallHandler[17 - .NET ThreadPool Worker] 
+      2022/04/20 22:33:02.952 - [TRACE]: Received message. 
+ 
+LedController.Controller.Core.Services.EffectService[17 - .NET ThreadPool Worker] 
+      2022/04/20 22:33:02.952 - [TRACE]: Saving effect assembly 00000000-0000-0000-0000-000000000000 to disk. 
+ 
+LedController.Controller.Infrastructure.Device.Providers.EffectAssemblyProvider[17 - .NET ThreadPool Worker] 
+      2022/04/20 22:33:02.952 - [TRACE]: Creating full file name for assembly . FullName will be D:\Projects\LedController_net5\LedController.Controller.Service\assemblies;00000000-0000-0000-0000-000000000000.dll. 
+ 
+LedController.Controller.Infrastructure.Device.Providers.EffectAssemblyProvider[17 - .NET ThreadPool Worker] 
+      2022/04/20 22:33:02.952 - [TRACE]: Saving assembly 00000000-0000-0000-0000-000000000000 to D:\Projects\LedController_net5\LedController.Controller.Service\assemblies;00000000-0000-0000-0000-000000000000.dll. 
+ 
+LedController.Controller.Infrastructure.Device.File.FileService[17 - .NET ThreadPool Worker] 
+      2022/04/20 22:33:02.960 - [TRACE]: Saving file to path D:\Projects\LedController_net5\LedController.Controller.Service\assemblies;00000000-0000-0000-0000-000000000000.dll. 
+ 
+LedController.Controller.Infrastructure.Device.File.FileService[17 - .NET ThreadPool Worker] 
+      2022/04/20 22:33:02.960 - [TRACE]: File was saved successfully. 
+ 
+Grpc.AspNetCore.Server.ServerCallHandler[17 - .NET ThreadPool Worker] 
+      2022/04/20 22:33:03.023 - [ERROR]: Error when executing service method 'UploadEffectAssembly'. 
+ System.InvalidOperationException: No database provider has been configured for this DbContext. A provider can be configured by overriding the 'DbContext.OnConfiguring' method or by using 'AddDbContext' on the application service provider. If 'AddDbContext' is used, then also ensure that your DbContext type accepts a DbContextOptions<TContext> object in its constructor and passes it to the base constructor for DbContext.
+   at Microsoft.EntityFrameworkCore.Internal.DbContextServices.Initialize(IServiceProvider scopedProvider, DbContextOptions contextOptions, DbContext context)
+   at Microsoft.EntityFrameworkCore.DbContext.get_ContextServices()
+   at Microsoft.EntityFrameworkCore.DbContext.get_InternalServiceProvider()
+   at Microsoft.EntityFrameworkCore.DbContext.get_DbContextDependencies()
+   at Microsoft.EntityFrameworkCore.DbContext.Set[TEntity]()
+   at LedController.Controller.Persistence.Sqlite.Stores.EffectStore.GetAsync() in D:\Projects\LedController_net5\LedController.Controller.Persistance.Sqlite\Stores\EffectStore.cs:line 27
+   at LedController.Controller.Core.Services.EffectService.SaveEffectAssembly(ReadOnlyMemory`1 buffer, EffectAssembly effectAssembly, CancellationToken token) in D:\Projects\LedController_net5\LedController.Controller.Core\Services\EffectService.cs:line 39
+   at LedController.Controller.Service.Services.ServerConnectionService.UploadEffectAssembly(EffectAssembly request, ServerCallContext context) in D:\Projects\LedController_net5\LedController.Controller.Service\Services\ServerConnectionService.cs:line 126
+   at Grpc.Shared.Server.UnaryServerMethodInvoker`3.AwaitInvoker(Task`1 invokerTask, GrpcActivatorHandle`1 serviceHandle)
+   at Grpc.Shared.Server.UnaryServerMethodInvoker`3.AwaitInvoker(Task`1 invokerTask, GrpcActivatorHandle`1 serviceHandle)
+   at Grpc.AspNetCore.Server.Internal.CallHandlers.UnaryServerCallHandler`3.HandleCallAsyncCore(HttpContext httpContext, HttpContextServerCallContext serverCallContext)
+   at Grpc.AspNetCore.Server.Internal.CallHandlers.ServerCallHandlerBase`3.<HandleCallAsync>g__AwaitHandleCall|8_0(HttpContextServerCallContext serverCallContext, Method`2 method, Task handleCall)
+Grpc.AspNetCore.Server.Model.Internal.ServiceRouteBuilder[1 - ] 
+      2022/04/20 23:27:33.253 - [TRACE]: Discovering gRPC methods for LedController.Controller.Service.Services.ServerConnectionService. 
+ 
+Grpc.AspNetCore.Server.Model.Internal.ServiceRouteBuilder[1 - ] 
+      2022/04/20 23:27:33.305 - [TRACE]: Added gRPC method 'Connect' to service 'connection.GrpcConnection'. Method type: 'Unary', route pattern: '/connection.GrpcConnection/Connect'. 
+ 
+Grpc.AspNetCore.Server.Model.Internal.ServiceRouteBuilder[1 - ] 
+      2022/04/20 23:27:33.305 - [TRACE]: Added gRPC method 'Disconnect' to service 'connection.GrpcConnection'. Method type: 'Unary', route pattern: '/connection.GrpcConnection/Disconnect'. 
+ 
+Grpc.AspNetCore.Server.Model.Internal.ServiceRouteBuilder[1 - ] 
+      2022/04/20 23:27:33.305 - [TRACE]: Added gRPC method 'PlayAnimationOnLedstrip' to service 'connection.GrpcConnection'. Method type: 'Unary', route pattern: '/connection.GrpcConnection/PlayAnimationOnLedstrip'. 
+ 
+Grpc.AspNetCore.Server.Model.Internal.ServiceRouteBuilder[1 - ] 
+      2022/04/20 23:27:33.305 - [TRACE]: Added gRPC method 'StopAnimationOnLedstrip' to service 'connection.GrpcConnection'. Method type: 'Unary', route pattern: '/connection.GrpcConnection/StopAnimationOnLedstrip'. 
+ 
+Grpc.AspNetCore.Server.Model.Internal.ServiceRouteBuilder[1 - ] 
+      2022/04/20 23:27:33.305 - [TRACE]: Added gRPC method 'TestLedstrip' to service 'connection.GrpcConnection'. Method type: 'Unary', route pattern: '/connection.GrpcConnection/TestLedstrip'. 
+ 
+Grpc.AspNetCore.Server.Model.Internal.ServiceRouteBuilder[1 - ] 
+      2022/04/20 23:27:33.305 - [TRACE]: Added gRPC method 'GetPlayingLedstrips' to service 'connection.GrpcConnection'. Method type: 'ServerStreaming', route pattern: '/connection.GrpcConnection/GetPlayingLedstrips'. 
+ 
+Grpc.AspNetCore.Server.Model.Internal.ServiceRouteBuilder[1 - ] 
+      2022/04/20 23:27:33.305 - [TRACE]: Added gRPC method 'UploadEffectAssembly' to service 'connection.GrpcConnection'. Method type: 'Unary', route pattern: '/connection.GrpcConnection/UploadEffectAssembly'. 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/04/20 23:27:33.350 - [DEBUG]: Hosting starting 
+ 
+Microsoft.AspNetCore.Server.Kestrel[1 - ] 
+      2022/04/20 23:27:33.406 - [WARN]: Overriding address(es) 'http://localhost:5229, https://localhost:7229'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/20 23:27:33.424 - [INFO]: Now listening on: http://0.0.0.0:5000 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/20 23:27:33.424 - [INFO]: Application started. Press Ctrl+C to shut down. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/20 23:27:33.424 - [INFO]: Hosting environment: Development 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/20 23:27:33.424 - [INFO]: Content root path: D:\Projects\LedController_net5\LedController.Controller.Service\ 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/04/20 23:27:33.424 - [DEBUG]: Hosting started 
+ 
+Grpc.AspNetCore.Server.Model.Internal.ServiceRouteBuilder[1 - ] 
+      2022/04/20 23:32:30.467 - [TRACE]: Discovering gRPC methods for LedController.Controller.Service.Services.ServerConnectionService. 
+ 
+Grpc.AspNetCore.Server.Model.Internal.ServiceRouteBuilder[1 - ] 
+      2022/04/20 23:32:30.511 - [TRACE]: Added gRPC method 'Connect' to service 'connection.GrpcConnection'. Method type: 'Unary', route pattern: '/connection.GrpcConnection/Connect'. 
+ 
+Grpc.AspNetCore.Server.Model.Internal.ServiceRouteBuilder[1 - ] 
+      2022/04/20 23:32:30.511 - [TRACE]: Added gRPC method 'Disconnect' to service 'connection.GrpcConnection'. Method type: 'Unary', route pattern: '/connection.GrpcConnection/Disconnect'. 
+ 
+Grpc.AspNetCore.Server.Model.Internal.ServiceRouteBuilder[1 - ] 
+      2022/04/20 23:32:30.511 - [TRACE]: Added gRPC method 'PlayAnimationOnLedstrip' to service 'connection.GrpcConnection'. Method type: 'Unary', route pattern: '/connection.GrpcConnection/PlayAnimationOnLedstrip'. 
+ 
+Grpc.AspNetCore.Server.Model.Internal.ServiceRouteBuilder[1 - ] 
+      2022/04/20 23:32:30.511 - [TRACE]: Added gRPC method 'StopAnimationOnLedstrip' to service 'connection.GrpcConnection'. Method type: 'Unary', route pattern: '/connection.GrpcConnection/StopAnimationOnLedstrip'. 
+ 
+Grpc.AspNetCore.Server.Model.Internal.ServiceRouteBuilder[1 - ] 
+      2022/04/20 23:32:30.511 - [TRACE]: Added gRPC method 'TestLedstrip' to service 'connection.GrpcConnection'. Method type: 'Unary', route pattern: '/connection.GrpcConnection/TestLedstrip'. 
+ 
+Grpc.AspNetCore.Server.Model.Internal.ServiceRouteBuilder[1 - ] 
+      2022/04/20 23:32:30.511 - [TRACE]: Added gRPC method 'GetPlayingLedstrips' to service 'connection.GrpcConnection'. Method type: 'ServerStreaming', route pattern: '/connection.GrpcConnection/GetPlayingLedstrips'. 
+ 
+Grpc.AspNetCore.Server.Model.Internal.ServiceRouteBuilder[1 - ] 
+      2022/04/20 23:32:30.511 - [TRACE]: Added gRPC method 'UploadEffectAssembly' to service 'connection.GrpcConnection'. Method type: 'Unary', route pattern: '/connection.GrpcConnection/UploadEffectAssembly'. 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/04/20 23:32:30.562 - [DEBUG]: Hosting starting 
+ 
+Microsoft.AspNetCore.Server.Kestrel[1 - ] 
+      2022/04/20 23:32:30.623 - [WARN]: Overriding address(es) 'http://localhost:5229, https://localhost:7229'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/20 23:32:30.638 - [INFO]: Now listening on: http://0.0.0.0:5000 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/20 23:32:30.638 - [INFO]: Application started. Press Ctrl+C to shut down. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/20 23:32:30.638 - [INFO]: Hosting environment: Development 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/20 23:32:30.638 - [INFO]: Content root path: D:\Projects\LedController_net5\LedController.Controller.Service\ 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/04/20 23:32:30.638 - [DEBUG]: Hosting started 
+ 
+Grpc.AspNetCore.Server.ServerCallHandler[3 - .NET ThreadPool Worker] 
+      2022/04/20 23:33:25.055 - [DEBUG]: Reading message. 
+ 
+Grpc.AspNetCore.Server.ServerCallHandler[3 - .NET ThreadPool Worker] 
+      2022/04/20 23:33:25.055 - [TRACE]: Deserializing 0 byte message to 'Google.Protobuf.WellKnownTypes.Empty'. 
+ 
+Grpc.AspNetCore.Server.ServerCallHandler[3 - .NET ThreadPool Worker] 
+      2022/04/20 23:33:25.055 - [TRACE]: Received message. 
+ 
+LedController.Controller.Service.Services.ServerConnectionService[3 - .NET ThreadPool Worker] 
+      2022/04/20 23:33:25.356 - [INFO]: Portal 127.0.0.1:5000 request to connect. 
+ 
+Grpc.AspNetCore.Server.ServerCallHandler[3 - .NET ThreadPool Worker] 
+      2022/04/20 23:33:25.368 - [DEBUG]: Sending message. 
+ 
+Grpc.AspNetCore.Server.ServerCallHandler[3 - .NET ThreadPool Worker] 
+      2022/04/20 23:33:25.368 - [TRACE]: Serialized 'Google.Protobuf.WellKnownTypes.Empty' to 0 byte message. 
+ 
+Grpc.AspNetCore.Server.ServerCallHandler[3 - .NET ThreadPool Worker] 
+      2022/04/20 23:33:25.368 - [TRACE]: Message sent. 
+ 
+Grpc.AspNetCore.Server.ServerCallHandler[18 - .NET ThreadPool Worker] 
+      2022/04/20 23:33:31.372 - [DEBUG]: Reading message. 
+ 
+Grpc.AspNetCore.Server.ServerCallHandler[18 - .NET ThreadPool Worker] 
+      2022/04/20 23:33:31.372 - [TRACE]: Deserializing 38 byte message to 'LedController.Controller.Service.EffectAssembly'. 
+ 
+Grpc.AspNetCore.Server.ServerCallHandler[18 - .NET ThreadPool Worker] 
+      2022/04/20 23:33:31.372 - [TRACE]: Received message. 
+ 
+LedController.Controller.Core.Services.EffectService[18 - .NET ThreadPool Worker] 
+      2022/04/20 23:33:31.372 - [TRACE]: Saving effect assembly 00000000-0000-0000-0000-000000000000 to disk. 
+ 
+LedController.Controller.Infrastructure.Device.Providers.EffectAssemblyProvider[18 - .NET ThreadPool Worker] 
+      2022/04/20 23:33:31.372 - [TRACE]: Creating full file name for assembly . FullName will be D:\Projects\LedController_net5\LedController.Controller.Service\assemblies//EffectAssembly-00000000-0000-0000-0000-000000000000.dll. 
+ 
+LedController.Controller.Infrastructure.Device.Providers.EffectAssemblyProvider[18 - .NET ThreadPool Worker] 
+      2022/04/20 23:33:31.372 - [TRACE]: Saving assembly 00000000-0000-0000-0000-000000000000 to D:\Projects\LedController_net5\LedController.Controller.Service\assemblies//EffectAssembly-00000000-0000-0000-0000-000000000000.dll. 
+ 
+LedController.Controller.Infrastructure.Device.File.FileService[18 - .NET ThreadPool Worker] 
+      2022/04/20 23:33:31.372 - [TRACE]: Saving file to path D:\Projects\LedController_net5\LedController.Controller.Service\assemblies//EffectAssembly-00000000-0000-0000-0000-000000000000.dll. 
+ 
+Grpc.AspNetCore.Server.ServerCallHandler[18 - .NET ThreadPool Worker] 
+      2022/04/20 23:33:31.455 - [ERROR]: Error when executing service method 'UploadEffectAssembly'. 
+ System.IO.DirectoryNotFoundException: Could not find a part of the path 'D:\Projects\LedController_net5\LedController.Controller.Service\assemblies\EffectAssembly-00000000-0000-0000-0000-000000000000.dll'.
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategy(FileStream fileStream, String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, Int64 preallocationSize)
+   at System.IO.FileStream..ctor(String path, FileMode mode)
+   at LedController.Controller.Infrastructure.Device.File.FileService.SaveFileAsync(ReadOnlyMemory`1 buffer, String path, CancellationToken token) in D:\Projects\LedController_net5\LedController.Controller.Infrastructure.Hardware\File\FileService.cs:line 33
+   at LedController.Controller.Core.Services.EffectService.SaveEffectAssembly(ReadOnlyMemory`1 buffer, EffectAssembly effectAssembly, CancellationToken token) in D:\Projects\LedController_net5\LedController.Controller.Core\Services\EffectService.cs:line 37
+   at LedController.Controller.Service.Services.ServerConnectionService.UploadEffectAssembly(EffectAssembly request, ServerCallContext context) in D:\Projects\LedController_net5\LedController.Controller.Service\Services\ServerConnectionService.cs:line 126
+   at Grpc.Shared.Server.UnaryServerMethodInvoker`3.AwaitInvoker(Task`1 invokerTask, GrpcActivatorHandle`1 serviceHandle)
+   at Grpc.Shared.Server.UnaryServerMethodInvoker`3.AwaitInvoker(Task`1 invokerTask, GrpcActivatorHandle`1 serviceHandle)
+   at Grpc.AspNetCore.Server.Internal.CallHandlers.UnaryServerCallHandler`3.HandleCallAsyncCore(HttpContext httpContext, HttpContextServerCallContext serverCallContext)
+   at Grpc.AspNetCore.Server.Internal.CallHandlers.ServerCallHandlerBase`3.<HandleCallAsync>g__AwaitHandleCall|8_0(HttpContextServerCallContext serverCallContext, Method`2 method, Task handleCall)
+Grpc.AspNetCore.Server.Model.Internal.ServiceRouteBuilder[1 - ] 
+      2022/04/20 23:38:05.053 - [TRACE]: Discovering gRPC methods for LedController.Controller.Service.Services.ServerConnectionService. 
+ 
+Grpc.AspNetCore.Server.Model.Internal.ServiceRouteBuilder[1 - ] 
+      2022/04/20 23:38:05.101 - [TRACE]: Added gRPC method 'Connect' to service 'connection.GrpcConnection'. Method type: 'Unary', route pattern: '/connection.GrpcConnection/Connect'. 
+ 
+Grpc.AspNetCore.Server.Model.Internal.ServiceRouteBuilder[1 - ] 
+      2022/04/20 23:38:05.101 - [TRACE]: Added gRPC method 'Disconnect' to service 'connection.GrpcConnection'. Method type: 'Unary', route pattern: '/connection.GrpcConnection/Disconnect'. 
+ 
+Grpc.AspNetCore.Server.Model.Internal.ServiceRouteBuilder[1 - ] 
+      2022/04/20 23:38:05.101 - [TRACE]: Added gRPC method 'PlayAnimationOnLedstrip' to service 'connection.GrpcConnection'. Method type: 'Unary', route pattern: '/connection.GrpcConnection/PlayAnimationOnLedstrip'. 
+ 
+Grpc.AspNetCore.Server.Model.Internal.ServiceRouteBuilder[1 - ] 
+      2022/04/20 23:38:05.101 - [TRACE]: Added gRPC method 'StopAnimationOnLedstrip' to service 'connection.GrpcConnection'. Method type: 'Unary', route pattern: '/connection.GrpcConnection/StopAnimationOnLedstrip'. 
+ 
+Grpc.AspNetCore.Server.Model.Internal.ServiceRouteBuilder[1 - ] 
+      2022/04/20 23:38:05.101 - [TRACE]: Added gRPC method 'TestLedstrip' to service 'connection.GrpcConnection'. Method type: 'Unary', route pattern: '/connection.GrpcConnection/TestLedstrip'. 
+ 
+Grpc.AspNetCore.Server.Model.Internal.ServiceRouteBuilder[1 - ] 
+      2022/04/20 23:38:05.101 - [TRACE]: Added gRPC method 'GetPlayingLedstrips' to service 'connection.GrpcConnection'. Method type: 'ServerStreaming', route pattern: '/connection.GrpcConnection/GetPlayingLedstrips'. 
+ 
+Grpc.AspNetCore.Server.Model.Internal.ServiceRouteBuilder[1 - ] 
+      2022/04/20 23:38:05.101 - [TRACE]: Added gRPC method 'UploadEffectAssembly' to service 'connection.GrpcConnection'. Method type: 'Unary', route pattern: '/connection.GrpcConnection/UploadEffectAssembly'. 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/04/20 23:38:05.147 - [DEBUG]: Hosting starting 
+ 
+Microsoft.AspNetCore.Server.Kestrel[1 - ] 
+      2022/04/20 23:38:05.201 - [WARN]: Overriding address(es) 'http://localhost:5229, https://localhost:7229'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/20 23:38:05.215 - [INFO]: Now listening on: http://0.0.0.0:5000 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/20 23:38:05.215 - [INFO]: Application started. Press Ctrl+C to shut down. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/20 23:38:05.215 - [INFO]: Hosting environment: Development 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/20 23:38:05.215 - [INFO]: Content root path: D:\Projects\LedController_net5\LedController.Controller.Service\ 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/04/20 23:38:05.215 - [DEBUG]: Hosting started 
+ 
+Grpc.AspNetCore.Server.ServerCallHandler[6 - .NET ThreadPool Worker] 
+      2022/04/20 23:38:16.674 - [DEBUG]: Reading message. 
+ 
+Grpc.AspNetCore.Server.ServerCallHandler[6 - .NET ThreadPool Worker] 
+      2022/04/20 23:38:16.678 - [TRACE]: Deserializing 0 byte message to 'Google.Protobuf.WellKnownTypes.Empty'. 
+ 
+Grpc.AspNetCore.Server.ServerCallHandler[6 - .NET ThreadPool Worker] 
+      2022/04/20 23:38:16.678 - [TRACE]: Received message. 
+ 
+LedController.Controller.Service.Services.ServerConnectionService[6 - .NET ThreadPool Worker] 
+      2022/04/20 23:38:16.902 - [INFO]: Portal 127.0.0.1:5000 request to connect. 
+ 
+Grpc.AspNetCore.Server.ServerCallHandler[6 - .NET ThreadPool Worker] 
+      2022/04/20 23:38:16.902 - [DEBUG]: Sending message. 
+ 
+Grpc.AspNetCore.Server.ServerCallHandler[6 - .NET ThreadPool Worker] 
+      2022/04/20 23:38:16.914 - [TRACE]: Serialized 'Google.Protobuf.WellKnownTypes.Empty' to 0 byte message. 
+ 
+Grpc.AspNetCore.Server.ServerCallHandler[6 - .NET ThreadPool Worker] 
+      2022/04/20 23:38:16.914 - [TRACE]: Message sent. 
+ 
+Grpc.AspNetCore.Server.ServerCallHandler[13 - .NET ThreadPool Worker] 
+      2022/04/20 23:38:21.895 - [DEBUG]: Reading message. 
+ 
+Grpc.AspNetCore.Server.ServerCallHandler[13 - .NET ThreadPool Worker] 
+      2022/04/20 23:38:21.895 - [TRACE]: Deserializing 38 byte message to 'LedController.Controller.Service.EffectAssembly'. 
+ 
+Grpc.AspNetCore.Server.ServerCallHandler[13 - .NET ThreadPool Worker] 
+      2022/04/20 23:38:21.895 - [TRACE]: Received message. 
+ 
+LedController.Controller.Core.Services.EffectService[13 - .NET ThreadPool Worker] 
+      2022/04/20 23:38:21.899 - [TRACE]: Saving effect assembly 00000000-0000-0000-0000-000000000000 to disk. 
+ 
+LedController.Controller.Infrastructure.Device.Providers.EffectAssemblyProvider[13 - .NET ThreadPool Worker] 
+      2022/04/20 23:38:21.899 - [TRACE]: Creating full file name for assembly . FullName will be D:\Projects\LedController_net5\LedController.Controller.Service\assemblies\EffectAssembly-00000000-0000-0000-0000-000000000000.dll. 
+ 
+LedController.Controller.Infrastructure.Device.Providers.EffectAssemblyProvider[13 - .NET ThreadPool Worker] 
+      2022/04/20 23:38:21.899 - [TRACE]: Saving assembly 00000000-0000-0000-0000-000000000000 to D:\Projects\LedController_net5\LedController.Controller.Service\assemblies\EffectAssembly-00000000-0000-0000-0000-000000000000.dll. 
+ 
+LedController.Controller.Infrastructure.Device.File.FileService[13 - .NET ThreadPool Worker] 
+      2022/04/20 23:38:21.899 - [TRACE]: Saving file to path D:\Projects\LedController_net5\LedController.Controller.Service\assemblies\EffectAssembly-00000000-0000-0000-0000-000000000000.dll. 
+ 
+LedController.Controller.Infrastructure.Device.File.FileService[13 - .NET ThreadPool Worker] 
+      2022/04/20 23:38:21.899 - [TRACE]: File was saved successfully. 
+ 
+Grpc.AspNetCore.Server.ServerCallHandler[13 - .NET ThreadPool Worker] 
+      2022/04/20 23:38:23.166 - [ERROR]: Error when executing service method 'UploadEffectAssembly'. 
+ Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'no such table: EffectAssemblies'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements(Stopwatch timer)+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements(Stopwatch timer)+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at LedController.Shared.Extensions.AsyncEnumerableExtensions.AsEnumerableAsync[T](IAsyncEnumerable`1 enumerable, CancellationToken token) in D:\Projects\LedController_net5\LedController.Shared\Extensions\AsyncEnumerableExtensions.cs:line 18
+   at LedController.Shared.Extensions.AsyncEnumerableExtensions.AsEnumerableAsync[T](IAsyncEnumerable`1 enumerable, CancellationToken token) in D:\Projects\LedController_net5\LedController.Shared\Extensions\AsyncEnumerableExtensions.cs:line 18
+   at LedController.Controller.Core.Services.EffectService.SaveEffectAssembly(ReadOnlyMemory`1 buffer, EffectAssembly effectAssembly, CancellationToken token) in D:\Projects\LedController_net5\LedController.Controller.Core\Services\EffectService.cs:line 39
+   at LedController.Controller.Service.Services.ServerConnectionService.UploadEffectAssembly(EffectAssembly request, ServerCallContext context) in D:\Projects\LedController_net5\LedController.Controller.Service\Services\ServerConnectionService.cs:line 126
+   at Grpc.Shared.Server.UnaryServerMethodInvoker`3.AwaitInvoker(Task`1 invokerTask, GrpcActivatorHandle`1 serviceHandle)
+   at Grpc.Shared.Server.UnaryServerMethodInvoker`3.AwaitInvoker(Task`1 invokerTask, GrpcActivatorHandle`1 serviceHandle)
+   at Grpc.AspNetCore.Server.Internal.CallHandlers.UnaryServerCallHandler`3.HandleCallAsyncCore(HttpContext httpContext, HttpContextServerCallContext serverCallContext)
+   at Grpc.AspNetCore.Server.Internal.CallHandlers.ServerCallHandlerBase`3.<HandleCallAsync>g__AwaitHandleCall|8_0(HttpContextServerCallContext serverCallContext, Method`2 method, Task handleCall)
+Grpc.AspNetCore.Server.Model.Internal.ServiceRouteBuilder[1 - ] 
+      2022/04/20 23:42:20.461 - [TRACE]: Discovering gRPC methods for LedController.Controller.Service.Services.ServerConnectionService. 
+ 
+Grpc.AspNetCore.Server.Model.Internal.ServiceRouteBuilder[1 - ] 
+      2022/04/20 23:42:20.504 - [TRACE]: Added gRPC method 'Connect' to service 'connection.GrpcConnection'. Method type: 'Unary', route pattern: '/connection.GrpcConnection/Connect'. 
+ 
+Grpc.AspNetCore.Server.Model.Internal.ServiceRouteBuilder[1 - ] 
+      2022/04/20 23:42:20.504 - [TRACE]: Added gRPC method 'Disconnect' to service 'connection.GrpcConnection'. Method type: 'Unary', route pattern: '/connection.GrpcConnection/Disconnect'. 
+ 
+Grpc.AspNetCore.Server.Model.Internal.ServiceRouteBuilder[1 - ] 
+      2022/04/20 23:42:20.504 - [TRACE]: Added gRPC method 'PlayAnimationOnLedstrip' to service 'connection.GrpcConnection'. Method type: 'Unary', route pattern: '/connection.GrpcConnection/PlayAnimationOnLedstrip'. 
+ 
+Grpc.AspNetCore.Server.Model.Internal.ServiceRouteBuilder[1 - ] 
+      2022/04/20 23:42:20.504 - [TRACE]: Added gRPC method 'StopAnimationOnLedstrip' to service 'connection.GrpcConnection'. Method type: 'Unary', route pattern: '/connection.GrpcConnection/StopAnimationOnLedstrip'. 
+ 
+Grpc.AspNetCore.Server.Model.Internal.ServiceRouteBuilder[1 - ] 
+      2022/04/20 23:42:20.504 - [TRACE]: Added gRPC method 'TestLedstrip' to service 'connection.GrpcConnection'. Method type: 'Unary', route pattern: '/connection.GrpcConnection/TestLedstrip'. 
+ 
+Grpc.AspNetCore.Server.Model.Internal.ServiceRouteBuilder[1 - ] 
+      2022/04/20 23:42:20.504 - [TRACE]: Added gRPC method 'GetPlayingLedstrips' to service 'connection.GrpcConnection'. Method type: 'ServerStreaming', route pattern: '/connection.GrpcConnection/GetPlayingLedstrips'. 
+ 
+Grpc.AspNetCore.Server.Model.Internal.ServiceRouteBuilder[1 - ] 
+      2022/04/20 23:42:20.504 - [TRACE]: Added gRPC method 'UploadEffectAssembly' to service 'connection.GrpcConnection'. Method type: 'Unary', route pattern: '/connection.GrpcConnection/UploadEffectAssembly'. 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/04/20 23:42:20.543 - [DEBUG]: Hosting starting 
+ 
+Microsoft.AspNetCore.Server.Kestrel[1 - ] 
+      2022/04/20 23:42:20.603 - [WARN]: Overriding address(es) 'http://localhost:5229, https://localhost:7229'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/20 23:42:20.617 - [INFO]: Now listening on: http://0.0.0.0:5000 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/20 23:42:20.617 - [INFO]: Application started. Press Ctrl+C to shut down. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/20 23:42:20.617 - [INFO]: Hosting environment: Development 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/20 23:42:20.617 - [INFO]: Content root path: D:\Projects\LedController_net5\LedController.Controller.Service\ 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/04/20 23:42:20.617 - [DEBUG]: Hosting started 
+ 
+Grpc.AspNetCore.Server.ServerCallHandler[6 - .NET ThreadPool Worker] 
+      2022/04/20 23:42:30.213 - [DEBUG]: Reading message. 
+ 
+Grpc.AspNetCore.Server.ServerCallHandler[6 - .NET ThreadPool Worker] 
+      2022/04/20 23:42:30.213 - [TRACE]: Deserializing 0 byte message to 'Google.Protobuf.WellKnownTypes.Empty'. 
+ 
+Grpc.AspNetCore.Server.ServerCallHandler[6 - .NET ThreadPool Worker] 
+      2022/04/20 23:42:30.213 - [TRACE]: Received message. 
+ 
+LedController.Controller.Service.Services.ServerConnectionService[6 - .NET ThreadPool Worker] 
+      2022/04/20 23:42:31.041 - [INFO]: Portal 127.0.0.1:5000 request to connect. 
+ 
+Grpc.AspNetCore.Server.ServerCallHandler[6 - .NET ThreadPool Worker] 
+      2022/04/20 23:42:31.041 - [DEBUG]: Sending message. 
+ 
+Grpc.AspNetCore.Server.ServerCallHandler[6 - .NET ThreadPool Worker] 
+      2022/04/20 23:42:31.053 - [TRACE]: Serialized 'Google.Protobuf.WellKnownTypes.Empty' to 0 byte message. 
+ 
+Grpc.AspNetCore.Server.ServerCallHandler[6 - .NET ThreadPool Worker] 
+      2022/04/20 23:42:31.053 - [TRACE]: Message sent. 
+ 

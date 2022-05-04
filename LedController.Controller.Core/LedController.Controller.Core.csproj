@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="UnitsNet" Version="4.126.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\LedController.Controller.Domain\LedController.Controller.Domain.csproj" />
+    <ProjectReference Include="..\LedController.Controller.Infrastructure\LedController.Controller.Infrastructure.csproj" />
+    <ProjectReference Include="..\LedController.Controller.Persistance\LedController.Controller.Persistence.csproj" />
+    <ProjectReference Include="..\LedController.Domain\LedController.Domain.csproj" />
+    <ProjectReference Include="..\LedController.Shared\LedController.Shared.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,193 @@
+﻿@page "/controllers"
+
+@using MudBlazor
+@using System.Linq
+@using LedController.Domain.Models
+@using LedController.Shared.Extensions
+@using LedController.WebPortal.Domain.Managers
+@using LedController.WebPortal.Domain.Services
+@using LedController.WebPortal.Web.Dialogs
+
+@using Animation = LedController.Domain.Models.Animation
+
+@inject IAnimationManger _animationManager
+@inject IEffectManager _effectManager
+@inject IControllerManager _controllerManager
+@inject IControllerService _controllerService
+@inject IDialogService _dialogService
+
+<h3>Controllers</h3>
+
+
+
+
+@foreach (Controller controller in LedstripControllers)
+{
+	// Checks if the controller is connected.
+	bool isConnected = _controllerService.IsControllerConnected(controller);
+
+	<div class="col-md-3">
+
+
+        <MudCard>
+            <MudCardHeader>
+                <CardHeaderActions>
+                    <MudIconButton Icon="@Icons.Material.Filled.Settings" Color="Color.Default" onclick="OpenEditControllerDialog(controller)"/>
+                </CardHeaderActions>
+                @*TODO: Add image of controller *@
+            </MudCardHeader>
+            <MudCardContent>
+                <MudText Typo="Typo.h5">@controller.Name</MudText>
+                <MudText Typo="Typo.body2" Color="@(isConnected ? Color.Primary : Color.Error)">@(isConnected ? "Online" : "Offline")</MudText>
+                <MudText Typo="Typo.body2">IP : @controller.EndPoint.Address.ToString()</MudText>
+                <MudText Typo="Typo.body2">Port : @controller.EndPoint.Port</MudText>
+            </MudCardContent>
+            <MudCardActions>
+                @if (!controller.IsConfigured)
+                {
+	                <MudButton Variant="Variant.Filled" Color="Color.Primary" FullWidth="true" @onclick="async () => await ConfigureControllerAsync(controller)">Configure</MudButton>
+                }
+                else
+                {
+	                if (!isConnected)
+	                {
+		                <MudButton Variant="Variant.Filled" Color="Color.Primary" FullWidth="true" @onclick="async () => await ConnectToControllerAsync(controller)">Connect</MudButton>
+	                }
+	                else
+	                {
+		                int numberOfNotSyncedAnimations = NumberOfNotSyncedAnimations(controller);
+		                int numberOfNotSyncedEffects = NumberOfNotSyncedEffects(controller);
+
+		                <MudBadge Content="numberOfNotSyncedAnimations" Overlap="true" Bordered="true">
+                            <MudButton Variant="Variant.Filled" Color="@(numberOfNotSyncedAnimations >= 1 ? Color.Warning : Color.Info)" FullWidth="true" @onclick="() => ShowAnimations(controller)">Synced Animations</MudButton>
+                        </MudBadge>
+
+		                <MudBadge Content="numberOfNotSyncedEffects" Overlap="true" Bordered="true">
+                            <MudButton Variant="Variant.Filled" Color="@(numberOfNotSyncedEffects >= 1 ? Color.Warning : Color.Info)" FullWidth="true" onclick="() => ShowEffects(controller)">Synced EffectDefinitions</MudButton>
+                        </MudBadge>
+	                }
+                }
+            </MudCardActions>
+        </MudCard>
+
+    </div>
+
+}
+
+
+    @code {
+
+        /// <summary>
+        /// The controllers that we know of in the application.
+        /// </summary>
+    public ICollection<Controller> LedstripControllers { get; set; } = new List<Controller>();
+
+
+    /// <summary>
+    /// When the page is initialized.
+    /// </summary>
+    /// <returns></returns>
+    protected override async Task OnInitializedAsync()
+    {
+        LedstripControllers = new List<Controller>(await _controllerManager.GetAsync().AsEnumerableAsync());
+
+        await base.OnInitializedAsync();
+    }
+
+
+    /// <summary>
+    /// Gets the number of not synced animations.
+    /// </summary>
+    /// <param name="controller">The controller.</param>
+    /// <returns></returns>
+    public int NumberOfNotSyncedAnimations(Controller controller)
+    {
+        IEnumerable<Animation> unSyncedAnimations = _controllerService.GetUnSyncedAnimations(controller);
+
+        return unSyncedAnimations.Count();
+    }
+
+    /// <summary>
+    /// Gets the number of not synced effects.
+    /// </summary>
+    /// <param name="controller"></param>
+    /// <returns></returns>
+    public int NumberOfNotSyncedEffects(Controller controller)
+    {
+        IEnumerable<EffectDefinition> unSyncedAnimations = _controllerService.GetUnSyncedEffects(controller);
+
+        return unSyncedAnimations.Count();
+    }
+
+
+
+    /// <summary>
+    /// Opens a edit controller dialog.
+    /// </summary>
+    /// <param name="controller"></param>
+    /// <returns></returns>
+    protected virtual void OpenEditControllerDialog(Controller controller)
+    {
+        DialogParameters parameters = new DialogParameters();
+        parameters.Add("Controller", controller);
+
+        DialogOptions options = new DialogOptions() { CloseButton = true, MaxWidth = MaxWidth.ExtraSmall };
+
+        _dialogService.Show<EditControllerDialog>("Edit", parameters, options);
+    }
+
+    /// <summary>
+    /// Configure the controller if we connect it for the first time.
+    /// </summary>
+    /// <param name="controller"></param>
+    /// <returns></returns>
+    private async Task ConfigureControllerAsync(Controller controller)
+    {
+        // Start syncing all the itesm that need to be synced.
+
+
+    }
+
+    /// <summary>
+    /// Connect to the controller.
+    /// </summary>
+    /// <param name="controller"></param>
+    /// <returns></returns>
+    private async Task ConnectToControllerAsync(Controller controller)
+    {
+        await _controllerService.ConnectToControllerAsync(controller);
+    }
+
+
+    /// <summary>
+    /// Shows the all the effects.
+    /// </summary>
+    /// <param name="controller"></param>
+    /// <returns></returns>
+    private void ShowEffects(Controller controller)
+    {
+	    DialogParameters parameters = new DialogParameters();
+	    parameters.Add("Controller", controller);
+
+	    DialogOptions options = new DialogOptions() { CloseButton = true, MaxWidth = MaxWidth.ExtraSmall };
+
+	    _dialogService.Show<ControllerEffectSynchronizationDialog>("Effects", parameters, options);
+
+
+    }
+
+
+    private void ShowAnimations(Controller controller)
+    {
+        
+	    DialogParameters parameters = new DialogParameters();
+	    parameters.Add("Controller", controller);
+
+	    DialogOptions options = new DialogOptions() { CloseButton = true, MaxWidth = MaxWidth.ExtraSmall };
+
+	    _dialogService.Show<ControllerAnimationSynchronizationDialog>("Animations", parameters, options);
+
+    }
+
+
+}

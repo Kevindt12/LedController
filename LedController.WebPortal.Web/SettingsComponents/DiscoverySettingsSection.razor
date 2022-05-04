@@ -1,0 +1,26 @@
+﻿@using MudBlazor;
+@using LedController.WebPortal.Domain.Enums
+
+
+@* Discovery service *@
+<Row Class="pa-5">
+    <MudPaper Class="pa-5">
+        <MudText Typo="Typo.h4" Class="pa-3">Discovery Service</MudText>
+        <MudText Typo="Typo.body1">Status : <MudText Typo="Typo.body1" @bind-text="ServiceState"></MudText></MudText>
+        <MudDivider Class="pa-4"/>
+        <MudNumericField T="UInt16" DebounceInterval="1000" HideSpinButtons="true" OnDebounceIntervalElapsed="OnDiscoveryPortChangedAsync" @bind-Value="DiscoveryPort" Variant="Variant.Text" Class="pa=4" Label="Discovery Port" />
+
+        @if (IsServiceStatIsRunning)
+        {
+
+            <MudButton Class="pa-4" Color="Color.Error" OnClick="StopServiceAsync" Disabled="IsServiceStateIsInChangingPhase">Stop</MudButton>
+        }
+        else
+        {
+            <MudButton Class="pa-4" Color="Color.Success" OnClick="StartServiceAsync" Disabled="IsServiceStateIsInChangingPhase">Start</MudButton>
+        }
+
+    </MudPaper>
+</Row>
+
+

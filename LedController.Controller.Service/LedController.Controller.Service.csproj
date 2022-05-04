@@ -1,0 +1,53 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="assemblies\**" />
+    <Content Remove="assemblies\**" />
+    <EmbeddedResource Remove="assemblies\**" />
+    <None Remove="assemblies\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Protos\Control.proto" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="11.0.0" />
+    <PackageReference Include="Google.Protobuf" Version="3.19.4" />
+    <PackageReference Include="Google.Protobuf.Tools" Version="3.19.4" />
+    <PackageReference Include="Grpc" Version="2.45.0" />
+    <PackageReference Include="Grpc.AspNetCore" Version="2.44.0" />
+    <PackageReference Include="Grpc.Core" Version="2.45.0" />
+    <PackageReference Include="Grpc.Tools" Version="2.45.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="6.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Logging" Version="6.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Options" Version="6.0.0" />
+    <PackageReference Include="NLog" Version="4.7.13" />
+    <PackageReference Include="NLog.Extensions.Logging" Version="1.7.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\LedController.Controller.Core\LedController.Controller.Core.csproj" />
+    <ProjectReference Include="..\LedController.Controller.Domain\LedController.Controller.Domain.csproj" />
+    <ProjectReference Include="..\LedController.Controller.Infrastructure.Hardware\LedController.Controller.Infrastructure.Device.csproj" />
+    <ProjectReference Include="..\LedController.Controller.Persistance.Sqlite\LedController.Controller.Persistence.Sqlite.csproj" />
+    <ProjectReference Include="..\LedController.Domain\LedController.Domain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Protobuf Include="Protos\Control.proto">
+      <GrpcServices>Server</GrpcServices>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Protobuf>
+  </ItemGroup>
+
+</Project>

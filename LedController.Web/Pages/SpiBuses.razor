@@ -1,0 +1,99 @@
+﻿@page "/Spibuses"
+
+@using LedController.Domain.Models
+
+@using LedController.WebPortal.Domain.Managers
+@inject ISpiBusManager SpiBusManager
+@inject NavigationManager NavigationManager
+
+
+<div class="container-fluid">
+
+
+	<div class="row" style="margin: 20px">
+
+
+		<div class="col-md-10">
+
+			<h3>Spi Buses</h3>
+
+		</div>
+
+		<div class="col-md-2">
+
+			<button class="btn btn-lg btn-primary float-right" @onclick="NavigateToAdd" type="button">+ Add</button>
+
+		</div>
+
+	</div>
+
+	<table class="table" style="margin: 20px">
+		<thead>
+			<tr>
+				<th scope="col">Name</th>
+				<th scope="col">Controller</th>
+				<th scope="col">Bus Id</th>
+				<th scope="col">Chip Select Id</th>
+				<th scope="col">Actions</th>
+			</tr>
+		</thead>
+		<tbody>
+			@foreach (SpiBus spiBus in SpiBusEntries)
+			{
+				<tr>
+					<th scope="row">@spiBus.Controller.Name</th>
+					<td>@spiBus.Name</td>
+					<td>@spiBus.BusId</td>
+					<td>@spiBus.ChipSelectId</td>
+					<td>
+						<button @onclick="() => NavigateToEdit(spiBus.Id)" class="btn btn-primary">Edit</button>
+						<button @onclick="@(async () => await NavigateToDelete(spiBus.Id))" class="btn btn-danger">Delete</button>
+					</td>
+				</tr>
+
+			}
+		</tbody>
+	</table>
+
+</div>
+
+
+@code {
+
+	IEnumerable<SpiBus> SpiBusEntries { get; set; } = new List<SpiBus>();
+
+
+	/// <summary>
+	/// Method invoked when the component is ready to start, having received its
+	/// initial parameters from its parent in the render tree.
+	/// Override this method if you will perform an asynchronous operation and
+	/// want the component to refresh when that operation is completed.
+	/// </summary>
+	/// <returns>A <see cref="T:System.Threading.Tasks.Task" /> representing any asynchronous operation.</returns>
+	protected override async Task OnInitializedAsync()
+	{
+		//SpiBusEntries = await SpiBusManager.GetSpiBuses();
+
+		await base.OnInitializedAsync();
+	}
+
+
+
+	protected virtual void NavigateToEdit(string id)
+	{
+		NavigationManager.NavigateTo($"/EditSpiBus/{id}");
+	}
+
+
+	protected virtual async Task NavigateToDelete(string id)
+	{
+		//await SpiBusManager.DeleteSpiBus(SpiBusEntries.Single(x => x.Id == id));
+	}
+
+
+	protected virtual void NavigateToAdd()
+	{
+		NavigationManager.NavigateTo($"/AddSpiBus");
+	}
+
+}

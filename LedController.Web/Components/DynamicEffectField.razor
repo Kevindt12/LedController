@@ -1,0 +1,79 @@
+﻿@using MudBlazor;
+@using Color = System.Drawing.Color
+
+@* Dynamic fields for the effects property. Looking at the type and thereby creating a field for it.*@
+
+@if (PropertyType == typeof(string))
+{
+    <MudTextField T="string" Label="@Label" Required="@Required" RequiredError="Field is required" @bind-value="Value" />
+}
+
+else if (PropertyType == typeof(int))
+{
+    <MudNumericField T="int" Label="@Label" Required="@Required" RequiredError="Field is required" @bind-value="Value" />
+
+}
+
+else if (PropertyType == typeof(Color))
+{
+    <MudColorPicker Label="@Label" Required="@Required" @bind-value="@Value"></MudColorPicker>
+}
+
+else if (PropertyType == typeof(IList<Color>))
+{
+    IList<Color> colors = (IList<Color>)Value;
+
+    for (int i = 0; i < colors.Count; i++)
+    {
+        <MudCard>
+            <MudCardContent>
+                <MudColorPicker @bind-value="@colors[1]" Label="@($"Color {i}")" PickerVariant="PickerVariant.Static" Rounded="true" Elevation="12" ></MudColorPicker>
+            </MudCardContent>
+        </MudCard>
+    }
+}
+
+
+
+
+
+@code {
+
+    /// <summary>
+    /// The type of the property.
+    /// </summary>
+    [Parameter]
+    public Type PropertyType { get; set; }
+
+    /// <summary>
+    /// The value of the field.
+    /// </summary>
+    [Parameter]
+    public object Value { get; set; }
+
+    /// <summary>
+    /// The property name.
+    /// </summary>
+    [Parameter]
+    public string PropertyName { get; set; }
+
+    /// <summary>
+    /// The label of the field.
+    /// </summary>
+    [Parameter]
+    public string Label { get; set; }
+
+	/// <summary>
+	/// If the field is required.
+	/// </summary>
+	[Parameter]
+	public bool Required { get; set; } = true;
+
+
+
+
+
+
+
+
+}

@@ -1,0 +1,113 @@
+﻿@using System
+@using System.Data.Common
+@using System.Linq
+@using LedController.Domain.Models
+@using LedController.WebPortal.Core.Factories
+@using LedController.WebPortal.Domain.Managers
+@using LedController.WebPortal.Persistence.Exceptions
+@using MudBlazor
+@inject ILogger<EffectFormDialog> _logger
+@inject ISnackbar _snackbar
+
+@inject IEffectManager _effectManager
+@inject EffectFactory _effectFactory
+
+
+<MudDialog>
+    <DialogContent>
+
+        <MudTextField Class="pa-4"
+                      Label="Name"
+                      Required="true"
+                      RequiredError="A name is needed"
+                      @bind-value="_effectName"
+                      T="string"/>
+
+        <MudSwitch @bind-value="_isStatic"
+                   Class="pa-4"
+                   Label="Static Effect"
+                   T="bool"/>
+
+        <MudDivider/>
+    </DialogContent>
+    <DialogActions>
+        <MudButton Class="pa-4"
+                   Color="Color.Primary"
+                   OnClick="SubmitAsync" >
+            Save
+        </MudButton>
+
+        <MudButton Class="pa-4"
+                   OnClick="Cancel" >
+            Cancel
+        </MudButton>
+
+    </DialogActions>
+</MudDialog>
+
+
+@code {
+
+
+	/// <summary>
+	/// The dialog reference.
+	/// </summary>
+	[CascadingParameter]
+	MudDialogInstance? MudDialog { get; set; }
+
+	/// <summary>
+	/// The name of the effect.
+	/// </summary>
+	private string _effectName = String.Empty;
+
+
+	private bool _isStatic;
+
+
+	/// <summary>
+	/// Cancel the current dialog operation
+	/// </summary>
+	private void Cancel()
+	{
+		_logger.LogInformation("");
+		MudDialog!.Cancel();
+	}
+
+
+	/// <summary>
+	/// Submits the result and saves the effect in the database.
+	/// </summary>
+	/// <returns> </returns>
+	public async Task SubmitAsync()
+	{
+		_logger.LogInformation($"Creating a new effect with name {_effectName}.");
+
+	// Creates a new effect
+		Effect effect = _effectFactory.CreateEffect(_effectName, _isStatic);
+
+		try
+		{
+			await _effectManager.Add(effect);
+			_logger.LogInformation("Effect has been saved.");
+			_snackbar.Add("Effect has been saved.", Severity.Success);
+
+	// Send back the effect that we just created.
+			MudDialog!.Close(effect);
+		}
+		catch (PersistenceException persistenceException)
+		{
+			_logger.LogError(persistenceException, "There was a error saving the effect to the database.");
+			_snackbar.Add("There was a problem saving the animation please check logs.");
+
+			MudDialog!.Cancel();
+		}
+		catch (Exception e)
+		{
+			_logger.LogError(e, "There was a error saving the effect.");
+			_snackbar.Add("There was a problem saving the effect please check logs.");
+			throw;
+		}
+	}
+
+
+}

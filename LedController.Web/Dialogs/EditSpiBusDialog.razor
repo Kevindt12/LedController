@@ -1,0 +1,103 @@
+﻿@using MudBlazor
+@using LedController.Domain.Models
+@using LedController.Domain.Enums
+
+
+<MudDialog>
+    <DialogContent>
+
+        <MudText Typo="Typo.h4">Details</MudText>
+        <EditForm Model="@Model" T="EditControllerForm" OnValidSubmit="SubmitAsync">
+            <DataAnnotationsValidator/>
+            <MudHidden @bind-value="Model.Id"></MudHidden>
+            <MudTextField T="string" Label="Name" Required="true" RequiredError="A name is needed" @bind-value="Model.Name"/>
+            <MudNumericField T="int" Label="Spi Bus Id" Required="true" @bind-value="Model.SpiBusId"/>
+            <MudNumericField T="int" Label="Chip Select Id" Required="true" @bind-value="Model.ChipSelectId"/>
+            <br/>
+            <MudSwitch @bind-value="Model.UseLedstripType" @bind-Checked="_useLedstripSettings">Hide <b>position</b> when Breakpoint=Xs</MudSwitch>
+            <MudText Typo="Typo.h5">Settings</MudText>
+			<hr/>
+            <MudTextField T="string" Label="Name" Required="true" RequiredError="A name is needed" @bind-value="Model.Name"/>
+            <MudNumericField T="int" Label="Pixel Count" Required="true"  @bind-value="Model.SpiBusId"/>
+            <MudSelect T="SpiBusDataFlow" Label="Data Flow" AnchorOrigin="Origin.BottomCenter" @bind-value="Model.DataFlow">
+                <MudSelectItem Value="@SpiBusDataFlow.LsbFirst">least significant bit first</MudSelectItem>
+                <MudSelectItem Value="@SpiBusDataFlow.MsbFirst">Most significant bit first</MudSelectItem>
+            </MudSelect>
+            <MudSelect T="SpiMode" Label="Spi Mode" AnchorOrigin="Origin.BottomCenter" @bind-value="Model.SpiMode">
+                <MudSelectItem Value="@SpiMode.Mode0">Mode 0</MudSelectItem>
+                <MudSelectItem Value="@SpiMode.Mode1">Mode 1</MudSelectItem>
+                <MudSelectItem Value="@SpiMode.Mode2">Mode 2</MudSelectItem>
+                <MudSelectItem Value="@SpiMode.Mode3">Mode 3</MudSelectItem>
+            </MudSelect>
+        </EditForm>
+        <MudDivider/>
+
+    </DialogContent>
+    <DialogActions>
+        <MudButton Color="Color.Primary" OnClick="SubmitAsync">Save</MudButton>
+    </DialogActions>
+</MudDialog>
+
+
+
+@code {
+
+
+
+	[CascadingParameter]
+	MudDialogInstance MudDialog { get; set; }
+
+	private bool _useLedstripSettings;
+
+
+	public SpiBus SpiBus { get; set; }
+
+
+	protected EditSpiBusForm Model { get; set; }
+
+
+	private void SubmitAsync()
+	{
+
+	}
+
+	protected record EditSpiBusForm
+	{
+
+		public string Id { get; set; }
+
+
+		public string Name { get; set; }
+
+		public int SpiBusId { get; set; }
+
+		public int ChipSelectId { get; set; }
+
+		public LedstripModel Ledstrip { get; set; }
+
+		public bool UseLedstripType { get; set; }
+
+		// Spi Settings
+
+		public int Frequency { get; set; }
+
+		public int DataLength { get; set; }
+
+		public SpiBusDataFlow DataFlow { get; set; }
+
+		public SpiMode SpiMode { get; set; }
+
+	}
+
+
+
+	protected record LedstripModel
+	{
+		public string Id { get; set; }
+
+		public string Name { get; set; }
+	}
+
+
+
+}

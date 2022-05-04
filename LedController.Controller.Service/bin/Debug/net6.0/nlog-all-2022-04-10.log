@@ -1,0 +1,45 @@
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/10 02:32:13.683 - [INFO]: Now listening on: http://localhost:5229 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/10 02:32:13.706 - [INFO]: Now listening on: https://localhost:7229 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/10 02:32:13.706 - [INFO]: Application started. Press Ctrl+C to shut down. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/10 02:32:13.706 - [INFO]: Hosting environment: Development 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/10 02:32:13.706 - [INFO]: Content root path: D:\Projects\LedController_net5\LedController.Controller.Service\ 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/10 17:21:33.061 - [INFO]: Now listening on: http://localhost:5229 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/10 17:21:33.084 - [INFO]: Now listening on: https://localhost:7229 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/10 17:21:33.085 - [INFO]: Application started. Press Ctrl+C to shut down. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/10 17:21:33.085 - [INFO]: Hosting environment: Development 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/10 17:21:33.085 - [INFO]: Content root path: D:\Projects\LedController_net5\LedController.Controller.Service\ 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/10 17:22:30.924 - [INFO]: Now listening on: http://localhost:5229 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/10 17:22:30.948 - [INFO]: Now listening on: https://localhost:7229 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/10 17:22:30.948 - [INFO]: Application started. Press Ctrl+C to shut down. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/10 17:22:30.948 - [INFO]: Hosting environment: Development 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/10 17:22:30.948 - [INFO]: Content root path: D:\Projects\LedController_net5\LedController.Controller.Service\ 
+ 

@@ -1,0 +1,17 @@
+D:\Projects\LedController_net5\LedController.Portal.Domain\bin\Debug\net6.0\LedController.Portal.Domain.deps.json
+D:\Projects\LedController_net5\LedController.Portal.Domain\bin\Debug\net6.0\LedController.Portal.Domain.dll
+D:\Projects\LedController_net5\LedController.Portal.Domain\bin\Debug\net6.0\ref\LedController.Portal.Domain.dll
+D:\Projects\LedController_net5\LedController.Portal.Domain\bin\Debug\net6.0\LedController.Portal.Domain.pdb
+D:\Projects\LedController_net5\LedController.Portal.Domain\bin\Debug\net6.0\LedController.Domain.dll
+D:\Projects\LedController_net5\LedController.Portal.Domain\bin\Debug\net6.0\LedController.Domain.pdb
+D:\Projects\LedController_net5\LedController.Portal.Domain\obj\Debug\net6.0\LedController.Portal.Domain.csproj.AssemblyReference.cache
+D:\Projects\LedController_net5\LedController.Portal.Domain\obj\Debug\net6.0\LedController.Portal.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\LedController_net5\LedController.Portal.Domain\obj\Debug\net6.0\LedController.Portal.Domain.AssemblyInfoInputs.cache
+D:\Projects\LedController_net5\LedController.Portal.Domain\obj\Debug\net6.0\LedController.Portal.Domain.AssemblyInfo.cs
+D:\Projects\LedController_net5\LedController.Portal.Domain\obj\Debug\net6.0\LedController.Portal.Domain.csproj.CoreCompileInputs.cache
+D:\Projects\LedController_net5\LedController.Portal.Domain\obj\Debug\net6.0\LedController.Portal.Domain.csproj.CopyComplete
+D:\Projects\LedController_net5\LedController.Portal.Domain\obj\Debug\net6.0\LedController.Portal.Domain.dll
+D:\Projects\LedController_net5\LedController.Portal.Domain\obj\Debug\net6.0\ref\LedController.Portal.Domain.dll
+D:\Projects\LedController_net5\LedController.Portal.Domain\obj\Debug\net6.0\LedController.Portal.Domain.pdb
+D:\Projects\LedController_net5\LedController.Portal.Domain\bin\Debug\net6.0\LedController.Shared.dll
+D:\Projects\LedController_net5\LedController.Portal.Domain\bin\Debug\net6.0\LedController.Shared.pdb

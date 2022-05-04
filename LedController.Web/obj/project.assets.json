@@ -1,0 +1,1079 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "BlazorMonaco/2.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Components": "5.0.0",
+          "Microsoft.AspNetCore.Components.Web": "5.0.0"
+        },
+        "compile": {
+          "lib/net5.0/BlazorMonaco.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/BlazorMonaco.dll": {}
+        },
+        "build": {
+          "buildTransitive/BlazorMonaco.props": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/BlazorMonaco.props": {}
+        }
+      },
+      "Microsoft.AspNetCore.Authorization/6.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Metadata": "6.0.1",
+          "Microsoft.Extensions.Logging.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Options": "6.0.0"
+        },
+        "compile": {
+          "lib/net6.0/Microsoft.AspNetCore.Authorization.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.AspNetCore.Authorization.dll": {}
+        }
+      },
+      "Microsoft.AspNetCore.Components/6.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Authorization": "6.0.1",
+          "Microsoft.AspNetCore.Components.Analyzers": "6.0.1"
+        },
+        "compile": {
+          "lib/net6.0/Microsoft.AspNetCore.Components.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.AspNetCore.Components.dll": {}
+        }
+      },
+      "Microsoft.AspNetCore.Components.Analyzers/6.0.1": {
+        "type": "package",
+        "build": {
+          "buildTransitive/netstandard2.0/Microsoft.AspNetCore.Components.Analyzers.targets": {}
+        }
+      },
+      "Microsoft.AspNetCore.Components.Forms/6.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Components": "6.0.1"
+        },
+        "compile": {
+          "lib/net6.0/Microsoft.AspNetCore.Components.Forms.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.AspNetCore.Components.Forms.dll": {}
+        }
+      },
+      "Microsoft.AspNetCore.Components.Web/6.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Components": "6.0.1",
+          "Microsoft.AspNetCore.Components.Forms": "6.0.1",
+          "Microsoft.Extensions.DependencyInjection": "6.0.0",
+          "Microsoft.JSInterop": "6.0.1",
+          "System.IO.Pipelines": "6.0.1"
+        },
+        "compile": {
+          "lib/net6.0/Microsoft.AspNetCore.Components.Web.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.AspNetCore.Components.Web.dll": {}
+        }
+      },
+      "Microsoft.AspNetCore.Metadata/6.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Microsoft.AspNetCore.Metadata.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.AspNetCore.Metadata.dll": {}
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection/6.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
+        },
+        "compile": {
+          "lib/net6.0/Microsoft.Extensions.DependencyInjection.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.Extensions.DependencyInjection.dll": {}
+        },
+        "build": {
+          "buildTransitive/netcoreapp3.1/_._": {}
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/6.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
+        },
+        "build": {
+          "buildTransitive/netcoreapp3.1/_._": {}
+        }
+      },
+      "Microsoft.Extensions.Logging.Abstractions/6.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Microsoft.Extensions.Logging.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.Extensions.Logging.Abstractions.dll": {}
+        },
+        "build": {
+          "buildTransitive/netcoreapp3.1/_._": {}
+        }
+      },
+      "Microsoft.Extensions.Options/6.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Primitives": "6.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.1/Microsoft.Extensions.Options.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/Microsoft.Extensions.Options.dll": {}
+        }
+      },
+      "Microsoft.Extensions.Primitives/6.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
+        },
+        "compile": {
+          "lib/net6.0/Microsoft.Extensions.Primitives.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.Extensions.Primitives.dll": {}
+        },
+        "build": {
+          "buildTransitive/netcoreapp3.1/_._": {}
+        }
+      },
+      "Microsoft.JSInterop/6.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Microsoft.JSInterop.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.JSInterop.dll": {}
+        }
+      },
+      "Microsoft.Toolkit/7.1.2": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/Microsoft.Toolkit.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/Microsoft.Toolkit.dll": {}
+        }
+      },
+      "Microsoft.Toolkit.Diagnostics/7.1.2": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/Microsoft.Toolkit.Diagnostics.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/Microsoft.Toolkit.Diagnostics.dll": {}
+        }
+      },
+      "MudBlazor/6.0.5": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Components": "6.0.1",
+          "Microsoft.AspNetCore.Components.Web": "6.0.1"
+        },
+        "compile": {
+          "lib/net6.0/MudBlazor.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/MudBlazor.dll": {}
+        },
+        "build": {
+          "buildTransitive/MudBlazor.props": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/MudBlazor.props": {}
+        }
+      },
+      "System.CodeDom/5.0.0": {
+        "type": "package",
+        "compile": {
+          "ref/netstandard2.0/System.CodeDom.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.CodeDom.dll": {}
+        }
+      },
+      "System.IO.Pipelines/6.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/System.IO.Pipelines.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/System.IO.Pipelines.dll": {}
+        },
+        "build": {
+          "buildTransitive/netcoreapp3.1/_._": {}
+        }
+      },
+      "System.Runtime.CompilerServices.Unsafe/6.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/System.Runtime.CompilerServices.Unsafe.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/System.Runtime.CompilerServices.Unsafe.dll": {}
+        },
+        "build": {
+          "buildTransitive/netcoreapp3.1/_._": {}
+        }
+      },
+      "LedController.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "LedController.Shared": "1.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "6.0.0",
+          "Microsoft.Toolkit": "7.1.2",
+          "Microsoft.Toolkit.Diagnostics": "7.1.2"
+        },
+        "compile": {
+          "bin/placeholder/LedController.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/LedController.Domain.dll": {}
+        }
+      },
+      "LedController.Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/LedController.Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/LedController.Shared.dll": {}
+        }
+      },
+      "LedController.WebPortal.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "LedController.Shared": "1.0.0",
+          "LedController.WebPortal.Domain": "1.0.0",
+          "LedController.WebPortal.Infrastructure": "1.0.0",
+          "LedController.WebPortal.Persistence": "1.0.0",
+          "System.CodeDom": "5.0.0"
+        },
+        "compile": {
+          "bin/placeholder/LedController.WebPortal.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/LedController.WebPortal.Core.dll": {}
+        }
+      },
+      "LedController.WebPortal.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "LedController.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/LedController.WebPortal.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/LedController.WebPortal.Domain.dll": {}
+        }
+      },
+      "LedController.WebPortal.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "LedController.WebPortal.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/LedController.WebPortal.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/LedController.WebPortal.Infrastructure.dll": {}
+        }
+      },
+      "LedController.WebPortal.Persistence/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "LedController.WebPortal.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/LedController.WebPortal.Persistence.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/LedController.WebPortal.Persistence.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BlazorMonaco/2.1.0": {
+      "sha512": "OWzHwymmcArn4Nn62LwUi0C5O7T5rtcIB71mqCaS7vrHoQP9rJMMSMDytxAxCfOq85Auj84kumOA9CpAWi23FQ==",
+      "type": "package",
+      "path": "blazormonaco/2.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "blazormonaco.2.1.0.nupkg.sha512",
+        "blazormonaco.nuspec",
+        "build/BlazorMonaco.props",
+        "build/Microsoft.AspNetCore.StaticWebAssets.props",
+        "buildMultiTargeting/BlazorMonaco.props",
+        "buildTransitive/BlazorMonaco.props",
+        "icon.png",
+        "lib/net5.0/BlazorMonaco.dll",
+        "lib/netstandard2.0/BlazorMonaco.dll",
+        "staticwebassets/jsInterop.js",
+        "staticwebassets/lib/monaco-editor/min-maps/vs/base/worker/workerMain.js.map",
+        "staticwebassets/lib/monaco-editor/min-maps/vs/editor/editor.main.js.map",
+        "staticwebassets/lib/monaco-editor/min-maps/vs/editor/editor.main.nls.de.js.map",
+        "staticwebassets/lib/monaco-editor/min-maps/vs/editor/editor.main.nls.es.js.map",
+        "staticwebassets/lib/monaco-editor/min-maps/vs/editor/editor.main.nls.fr.js.map",
+        "staticwebassets/lib/monaco-editor/min-maps/vs/editor/editor.main.nls.it.js.map",
+        "staticwebassets/lib/monaco-editor/min-maps/vs/editor/editor.main.nls.ja.js.map",
+        "staticwebassets/lib/monaco-editor/min-maps/vs/editor/editor.main.nls.js.map",
+        "staticwebassets/lib/monaco-editor/min-maps/vs/editor/editor.main.nls.ko.js.map",
+        "staticwebassets/lib/monaco-editor/min-maps/vs/editor/editor.main.nls.ru.js.map",
+        "staticwebassets/lib/monaco-editor/min-maps/vs/editor/editor.main.nls.zh-cn.js.map",
+        "staticwebassets/lib/monaco-editor/min-maps/vs/editor/editor.main.nls.zh-tw.js.map",
+        "staticwebassets/lib/monaco-editor/min-maps/vs/loader.js.map",
+        "staticwebassets/lib/monaco-editor/min/vs/base/browser/ui/codicons/codicon/codicon.ttf",
+        "staticwebassets/lib/monaco-editor/min/vs/base/worker/workerMain.js",
+        "staticwebassets/lib/monaco-editor/min/vs/base/worker/workerMain.min.js",
+        "staticwebassets/lib/monaco-editor/min/vs/basic-languages/abap/abap.js",
+        "staticwebassets/lib/monaco-editor/min/vs/basic-languages/abap/abap.min.js",
+        "staticwebassets/lib/monaco-editor/min/vs/basic-languages/apex/apex.js",
+        "staticwebassets/lib/monaco-editor/min/vs/basic-languages/apex/apex.min.js",
+        "staticwebassets/lib/monaco-editor/min/vs/basic-languages/azcli/azcli.js",
+        "staticwebassets/lib/monaco-editor/min/vs/basic-languages/azcli/azcli.min.js",
+        "staticwebassets/lib/monaco-editor/min/vs/basic-languages/bat/bat.js",
+        "staticwebassets/lib/monaco-editor/min/vs/basic-languages/bat/bat.min.js",
+        "staticwebassets/lib/monaco-editor/min/vs/basic-languages/cameligo/cameligo.js",
+        "staticwebassets/lib/monaco-editor/min/vs/basic-languages/cameligo/cameligo.min.js",
+        "staticwebassets/lib/monaco-editor/min/vs/basic-languages/clojure/clojure.js",
+        "staticwebassets/lib/monaco-editor/min/vs/basic-languages/clojure/clojure.min.js",
+        "staticwebassets/lib/monaco-editor/min/vs/basic-languages/coffee/coffee.js",
+        "staticwebassets/lib/monaco-editor/min/vs/basic-languages/coffee/coffee.min.js",
+        "staticwebassets/lib/monaco-editor/min/vs/basic-languages/cpp/cpp.js",
+        "staticwebassets/lib/monaco-editor/min/vs/basic-languages/cpp/cpp.min.js",
+        "staticwebassets/lib/monaco-editor/min/vs/basic-languages/csharp/csharp.js",
+        "staticwebassets/lib/monaco-editor/min/vs/basic-languages/csharp/csharp.min.js",
+        "staticwebassets/lib/monaco-editor/min/vs/basic-languages/csp/csp.js",
+        "staticwebassets/lib/monaco-editor/min/vs/basic-languages/csp/csp.min.js",
+        "staticwebassets/lib/monaco-editor/min/vs/basic-languages/css/css.js",
+        "staticwebassets/lib/monaco-editor/min/vs/basic-languages/css/css.min.js",
+        "staticwebassets/lib/monaco-editor/min/vs/basic-languages/dart/dart.js",
+        "staticwebassets/lib/monaco-editor/min/vs/basic-languages/dart/dart.min.js",
+        "staticwebassets/lib/monaco-editor/min/vs/basic-languages/dockerfile/dockerfile.js",
+        "staticwebassets/lib/monaco-editor/min/vs/basic-languages/dockerfile/dockerfile.min.js",
+        "staticwebassets/lib/monaco-editor/min/vs/basic-languages/ecl/ecl.js",
+        "staticwebassets/lib/monaco-editor/min/vs/basic-languages/ecl/ecl.min.js",
+        "staticwebassets/lib/monaco-editor/min/vs/basic-languages/fsharp/fsharp.js",
+        "staticwebassets/lib/monaco-editor/min/vs/basic-languages/fsharp/fsharp.min.js",
+        "staticwebassets/lib/monaco-editor/min/vs/basic-languages/go/go.js",
+        "staticwebassets/lib/monaco-editor/min/vs/basic-languages/go/go.min.js",
+        "staticwebassets/lib/monaco-editor/min/vs/basic-languages/graphql/graphql.js",
+        "staticwebassets/lib/monaco-editor/min/vs/basic-languages/graphql/graphql.min.js",
+        "staticwebassets/lib/monaco-editor/min/vs/basic-languages/handlebars/handlebars.js",
+        "staticwebassets/lib/monaco-editor/min/vs/basic-languages/handlebars/handlebars.min.js",
+        "staticwebassets/lib/monaco-editor/min/vs/basic-languages/hcl/hcl.js",
+        "staticwebassets/lib/monaco-editor/min/vs/basic-languages/hcl/hcl.min.js",
+        "staticwebassets/lib/monaco-editor/min/vs/basic-languages/html/html.js",
+        "staticwebassets/lib/monaco-editor/min/vs/basic-languages/html/html.min.js",
+        "staticwebassets/lib/monaco-editor/min/vs/basic-languages/ini/ini.js",
+        "staticwebassets/lib/monaco-editor/min/vs/basic-languages/ini/ini.min.js",
+        "staticwebassets/lib/monaco-editor/min/vs/basic-languages/java/java.js",
+        "staticwebassets/lib/monaco-editor/min/vs/basic-languages/java/java.min.js",
+        "staticwebassets/lib/monaco-editor/min/vs/basic-languages/javascript/javascript.js",
+        "staticwebassets/lib/monaco-editor/min/vs/basic-languages/javascript/javascript.min.js",
+        "staticwebassets/lib/monaco-editor/min/vs/basic-languages/julia/julia.js",
+        "staticwebassets/lib/monaco-editor/min/vs/basic-languages/julia/julia.min.js",
+        "staticwebassets/lib/monaco-editor/min/vs/basic-languages/kotlin/kotlin.js",
+        "staticwebassets/lib/monaco-editor/min/vs/basic-languages/kotlin/kotlin.min.js",
+        "staticwebassets/lib/monaco-editor/min/vs/basic-languages/less/less.js",
+        "staticwebassets/lib/monaco-editor/min/vs/basic-languages/less/less.min.js",
+        "staticwebassets/lib/monaco-editor/min/vs/basic-languages/lexon/lexon.js",
+        "staticwebassets/lib/monaco-editor/min/vs/basic-languages/lexon/lexon.min.js",
+        "staticwebassets/lib/monaco-editor/min/vs/basic-languages/lua/lua.js",
+        "staticwebassets/lib/monaco-editor/min/vs/basic-languages/lua/lua.min.js",
+        "staticwebassets/lib/monaco-editor/min/vs/basic-languages/m3/m3.js",
+        "staticwebassets/lib/monaco-editor/min/vs/basic-languages/m3/m3.min.js",
+        "staticwebassets/lib/monaco-editor/min/vs/basic-languages/markdown/markdown.js",
+        "staticwebassets/lib/monaco-editor/min/vs/basic-languages/markdown/markdown.min.js",
+        "staticwebassets/lib/monaco-editor/min/vs/basic-languages/mips/mips.js",
+        "staticwebassets/lib/monaco-editor/min/vs/basic-languages/mips/mips.min.js",
+        "staticwebassets/lib/monaco-editor/min/vs/basic-languages/msdax/msdax.js",
+        "staticwebassets/lib/monaco-editor/min/vs/basic-languages/msdax/msdax.min.js",
+        "staticwebassets/lib/monaco-editor/min/vs/basic-languages/mysql/mysql.js",
+        "staticwebassets/lib/monaco-editor/min/vs/basic-languages/mysql/mysql.min.js",
+        "staticwebassets/lib/monaco-editor/min/vs/basic-languages/objective-c/objective-c.js",
+        "staticwebassets/lib/monaco-editor/min/vs/basic-languages/objective-c/objective-c.min.js",
+        "staticwebassets/lib/monaco-editor/min/vs/basic-languages/pascal/pascal.js",
+        "staticwebassets/lib/monaco-editor/min/vs/basic-languages/pascal/pascal.min.js",
+        "staticwebassets/lib/monaco-editor/min/vs/basic-languages/pascaligo/pascaligo.js",
+        "staticwebassets/lib/monaco-editor/min/vs/basic-languages/pascaligo/pascaligo.min.js",
+        "staticwebassets/lib/monaco-editor/min/vs/basic-languages/perl/perl.js",
+        "staticwebassets/lib/monaco-editor/min/vs/basic-languages/perl/perl.min.js",
+        "staticwebassets/lib/monaco-editor/min/vs/basic-languages/pgsql/pgsql.js",
+        "staticwebassets/lib/monaco-editor/min/vs/basic-languages/pgsql/pgsql.min.js",
+        "staticwebassets/lib/monaco-editor/min/vs/basic-languages/php/php.js",
+        "staticwebassets/lib/monaco-editor/min/vs/basic-languages/php/php.min.js",
+        "staticwebassets/lib/monaco-editor/min/vs/basic-languages/postiats/postiats.js",
+        "staticwebassets/lib/monaco-editor/min/vs/basic-languages/postiats/postiats.min.js",
+        "staticwebassets/lib/monaco-editor/min/vs/basic-languages/powerquery/powerquery.js",
+        "staticwebassets/lib/monaco-editor/min/vs/basic-languages/powerquery/powerquery.min.js",
+        "staticwebassets/lib/monaco-editor/min/vs/basic-languages/powershell/powershell.js",
+        "staticwebassets/lib/monaco-editor/min/vs/basic-languages/powershell/powershell.min.js",
+        "staticwebassets/lib/monaco-editor/min/vs/basic-languages/pug/pug.js",
+        "staticwebassets/lib/monaco-editor/min/vs/basic-languages/pug/pug.min.js",
+        "staticwebassets/lib/monaco-editor/min/vs/basic-languages/python/python.js",
+        "staticwebassets/lib/monaco-editor/min/vs/basic-languages/python/python.min.js",
+        "staticwebassets/lib/monaco-editor/min/vs/basic-languages/r/r.js",
+        "staticwebassets/lib/monaco-editor/min/vs/basic-languages/r/r.min.js",
+        "staticwebassets/lib/monaco-editor/min/vs/basic-languages/razor/razor.js",
+        "staticwebassets/lib/monaco-editor/min/vs/basic-languages/razor/razor.min.js",
+        "staticwebassets/lib/monaco-editor/min/vs/basic-languages/redis/redis.js",
+        "staticwebassets/lib/monaco-editor/min/vs/basic-languages/redis/redis.min.js",
+        "staticwebassets/lib/monaco-editor/min/vs/basic-languages/redshift/redshift.js",
+        "staticwebassets/lib/monaco-editor/min/vs/basic-languages/redshift/redshift.min.js",
+        "staticwebassets/lib/monaco-editor/min/vs/basic-languages/restructuredtext/restructuredtext.js",
+        "staticwebassets/lib/monaco-editor/min/vs/basic-languages/restructuredtext/restructuredtext.min.js",
+        "staticwebassets/lib/monaco-editor/min/vs/basic-languages/ruby/ruby.js",
+        "staticwebassets/lib/monaco-editor/min/vs/basic-languages/ruby/ruby.min.js",
+        "staticwebassets/lib/monaco-editor/min/vs/basic-languages/rust/rust.js",
+        "staticwebassets/lib/monaco-editor/min/vs/basic-languages/rust/rust.min.js",
+        "staticwebassets/lib/monaco-editor/min/vs/basic-languages/sb/sb.js",
+        "staticwebassets/lib/monaco-editor/min/vs/basic-languages/sb/sb.min.js",
+        "staticwebassets/lib/monaco-editor/min/vs/basic-languages/scala/scala.js",
+        "staticwebassets/lib/monaco-editor/min/vs/basic-languages/scala/scala.min.js",
+        "staticwebassets/lib/monaco-editor/min/vs/basic-languages/scheme/scheme.js",
+        "staticwebassets/lib/monaco-editor/min/vs/basic-languages/scheme/scheme.min.js",
+        "staticwebassets/lib/monaco-editor/min/vs/basic-languages/scss/scss.js",
+        "staticwebassets/lib/monaco-editor/min/vs/basic-languages/scss/scss.min.js",
+        "staticwebassets/lib/monaco-editor/min/vs/basic-languages/shell/shell.js",
+        "staticwebassets/lib/monaco-editor/min/vs/basic-languages/shell/shell.min.js",
+        "staticwebassets/lib/monaco-editor/min/vs/basic-languages/solidity/solidity.js",
+        "staticwebassets/lib/monaco-editor/min/vs/basic-languages/solidity/solidity.min.js",
+        "staticwebassets/lib/monaco-editor/min/vs/basic-languages/sophia/sophia.js",
+        "staticwebassets/lib/monaco-editor/min/vs/basic-languages/sophia/sophia.min.js",
+        "staticwebassets/lib/monaco-editor/min/vs/basic-languages/sql/sql.js",
+        "staticwebassets/lib/monaco-editor/min/vs/basic-languages/sql/sql.min.js",
+        "staticwebassets/lib/monaco-editor/min/vs/basic-languages/st/st.js",
+        "staticwebassets/lib/monaco-editor/min/vs/basic-languages/st/st.min.js",
+        "staticwebassets/lib/monaco-editor/min/vs/basic-languages/swift/swift.js",
+        "staticwebassets/lib/monaco-editor/min/vs/basic-languages/swift/swift.min.js",
+        "staticwebassets/lib/monaco-editor/min/vs/basic-languages/systemverilog/systemverilog.js",
+        "staticwebassets/lib/monaco-editor/min/vs/basic-languages/systemverilog/systemverilog.min.js",
+        "staticwebassets/lib/monaco-editor/min/vs/basic-languages/tcl/tcl.js",
+        "staticwebassets/lib/monaco-editor/min/vs/basic-languages/tcl/tcl.min.js",
+        "staticwebassets/lib/monaco-editor/min/vs/basic-languages/twig/twig.js",
+        "staticwebassets/lib/monaco-editor/min/vs/basic-languages/twig/twig.min.js",
+        "staticwebassets/lib/monaco-editor/min/vs/basic-languages/typescript/typescript.js",
+        "staticwebassets/lib/monaco-editor/min/vs/basic-languages/typescript/typescript.min.js",
+        "staticwebassets/lib/monaco-editor/min/vs/basic-languages/vb/vb.js",
+        "staticwebassets/lib/monaco-editor/min/vs/basic-languages/vb/vb.min.js",
+        "staticwebassets/lib/monaco-editor/min/vs/basic-languages/xml/xml.js",
+        "staticwebassets/lib/monaco-editor/min/vs/basic-languages/xml/xml.min.js",
+        "staticwebassets/lib/monaco-editor/min/vs/basic-languages/yaml/yaml.js",
+        "staticwebassets/lib/monaco-editor/min/vs/basic-languages/yaml/yaml.min.js",
+        "staticwebassets/lib/monaco-editor/min/vs/editor/editor.main.css",
+        "staticwebassets/lib/monaco-editor/min/vs/editor/editor.main.js",
+        "staticwebassets/lib/monaco-editor/min/vs/editor/editor.main.min.css",
+        "staticwebassets/lib/monaco-editor/min/vs/editor/editor.main.nls.de.js",
+        "staticwebassets/lib/monaco-editor/min/vs/editor/editor.main.nls.de.min.js",
+        "staticwebassets/lib/monaco-editor/min/vs/editor/editor.main.nls.es.js",
+        "staticwebassets/lib/monaco-editor/min/vs/editor/editor.main.nls.es.min.js",
+        "staticwebassets/lib/monaco-editor/min/vs/editor/editor.main.nls.fr.js",
+        "staticwebassets/lib/monaco-editor/min/vs/editor/editor.main.nls.fr.min.js",
+        "staticwebassets/lib/monaco-editor/min/vs/editor/editor.main.nls.it.js",
+        "staticwebassets/lib/monaco-editor/min/vs/editor/editor.main.nls.it.min.js",
+        "staticwebassets/lib/monaco-editor/min/vs/editor/editor.main.nls.ja.js",
+        "staticwebassets/lib/monaco-editor/min/vs/editor/editor.main.nls.ja.min.js",
+        "staticwebassets/lib/monaco-editor/min/vs/editor/editor.main.nls.js",
+        "staticwebassets/lib/monaco-editor/min/vs/editor/editor.main.nls.ko.js",
+        "staticwebassets/lib/monaco-editor/min/vs/editor/editor.main.nls.ko.min.js",
+        "staticwebassets/lib/monaco-editor/min/vs/editor/editor.main.nls.min.js",
+        "staticwebassets/lib/monaco-editor/min/vs/editor/editor.main.nls.ru.js",
+        "staticwebassets/lib/monaco-editor/min/vs/editor/editor.main.nls.ru.min.js",
+        "staticwebassets/lib/monaco-editor/min/vs/editor/editor.main.nls.zh-cn.js",
+        "staticwebassets/lib/monaco-editor/min/vs/editor/editor.main.nls.zh-cn.min.js",
+        "staticwebassets/lib/monaco-editor/min/vs/editor/editor.main.nls.zh-tw.js",
+        "staticwebassets/lib/monaco-editor/min/vs/editor/editor.main.nls.zh-tw.min.js",
+        "staticwebassets/lib/monaco-editor/min/vs/language/css/cssMode.js",
+        "staticwebassets/lib/monaco-editor/min/vs/language/css/cssMode.min.js",
+        "staticwebassets/lib/monaco-editor/min/vs/language/css/cssWorker.js",
+        "staticwebassets/lib/monaco-editor/min/vs/language/css/cssWorker.min.js",
+        "staticwebassets/lib/monaco-editor/min/vs/language/html/htmlMode.js",
+        "staticwebassets/lib/monaco-editor/min/vs/language/html/htmlMode.min.js",
+        "staticwebassets/lib/monaco-editor/min/vs/language/html/htmlWorker.js",
+        "staticwebassets/lib/monaco-editor/min/vs/language/html/htmlWorker.min.js",
+        "staticwebassets/lib/monaco-editor/min/vs/language/json/jsonMode.js",
+        "staticwebassets/lib/monaco-editor/min/vs/language/json/jsonMode.min.js",
+        "staticwebassets/lib/monaco-editor/min/vs/language/json/jsonWorker.js",
+        "staticwebassets/lib/monaco-editor/min/vs/language/json/jsonWorker.min.js",
+        "staticwebassets/lib/monaco-editor/min/vs/language/typescript/tsMode.js",
+        "staticwebassets/lib/monaco-editor/min/vs/language/typescript/tsMode.min.js",
+        "staticwebassets/lib/monaco-editor/min/vs/language/typescript/tsWorker.js",
+        "staticwebassets/lib/monaco-editor/min/vs/language/typescript/tsWorker.min.js",
+        "staticwebassets/lib/monaco-editor/min/vs/loader.js",
+        "staticwebassets/lib/monaco-editor/min/vs/loader.min.js"
+      ]
+    },
+    "Microsoft.AspNetCore.Authorization/6.0.1": {
+      "sha512": "4XjeiDdQPmC5eNMFGM9LEcQUxORz6NpUsYD1AmZuk8GBA8IW8kN+o7M7m+rhhrYIWxQ9TADePaMWeomScGhbCQ==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.authorization/6.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/Microsoft.AspNetCore.Authorization.dll",
+        "lib/net461/Microsoft.AspNetCore.Authorization.xml",
+        "lib/net6.0/Microsoft.AspNetCore.Authorization.dll",
+        "lib/net6.0/Microsoft.AspNetCore.Authorization.xml",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Authorization.dll",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Authorization.xml",
+        "microsoft.aspnetcore.authorization.6.0.1.nupkg.sha512",
+        "microsoft.aspnetcore.authorization.nuspec"
+      ]
+    },
+    "Microsoft.AspNetCore.Components/6.0.1": {
+      "sha512": "q2WwEpmuT6tDAURCTo/q0ToWcate6XIGQ3+Yvc/utGFpyAOXynK9OdB+bCHB3BLrMAG/3U9dTt+K7v8ReQ3FKA==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.components/6.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.txt",
+        "lib/net6.0/Microsoft.AspNetCore.Components.dll",
+        "lib/net6.0/Microsoft.AspNetCore.Components.xml",
+        "microsoft.aspnetcore.components.6.0.1.nupkg.sha512",
+        "microsoft.aspnetcore.components.nuspec"
+      ]
+    },
+    "Microsoft.AspNetCore.Components.Analyzers/6.0.1": {
+      "sha512": "5FWCCBrxeY8HGiPULYpqlwCX8TAs3H1p7mVdfymGF/0ak7vY2qbMMxOXMZaqp/V5C9FcnU33+z4h1wNMXVH7PQ==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.components.analyzers/6.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.txt",
+        "analyzers/dotnet/cs/Microsoft.AspNetCore.Components.Analyzers.dll",
+        "build/netstandard2.0/Microsoft.AspNetCore.Components.Analyzers.targets",
+        "buildTransitive/netstandard2.0/Microsoft.AspNetCore.Components.Analyzers.targets",
+        "microsoft.aspnetcore.components.analyzers.6.0.1.nupkg.sha512",
+        "microsoft.aspnetcore.components.analyzers.nuspec"
+      ]
+    },
+    "Microsoft.AspNetCore.Components.Forms/6.0.1": {
+      "sha512": "uXGsVTnyEuj4C8c4M8Kuq5i1CNAAd1C7P0XhBsauJ0aocSq1xUJ9qL6XLZFA7NZUwDvdlPUC+s456eEcbdCIig==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.components.forms/6.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.txt",
+        "lib/net6.0/Microsoft.AspNetCore.Components.Forms.dll",
+        "lib/net6.0/Microsoft.AspNetCore.Components.Forms.xml",
+        "microsoft.aspnetcore.components.forms.6.0.1.nupkg.sha512",
+        "microsoft.aspnetcore.components.forms.nuspec"
+      ]
+    },
+    "Microsoft.AspNetCore.Components.Web/6.0.1": {
+      "sha512": "OhaK9izLH6Jjc1xJ+L0UEhuUcj12iQ80DDsIs/x9rwYyb3fhnttbu5zYQfA75SDlJbURXMt8IyMh1gY5fD2MLw==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.components.web/6.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.txt",
+        "lib/net6.0/Microsoft.AspNetCore.Components.Web.dll",
+        "lib/net6.0/Microsoft.AspNetCore.Components.Web.xml",
+        "microsoft.aspnetcore.components.web.6.0.1.nupkg.sha512",
+        "microsoft.aspnetcore.components.web.nuspec"
+      ]
+    },
+    "Microsoft.AspNetCore.Metadata/6.0.1": {
+      "sha512": "7CquMq2Hb0+0/kKnDf83WBLiEh04UPIOZgxgpjF0NegU1gHZ50llgZupOE3FRARmdzzW7A0AJtt9zobKbMTJkA==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.metadata/6.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/Microsoft.AspNetCore.Metadata.dll",
+        "lib/net461/Microsoft.AspNetCore.Metadata.xml",
+        "lib/net6.0/Microsoft.AspNetCore.Metadata.dll",
+        "lib/net6.0/Microsoft.AspNetCore.Metadata.xml",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Metadata.dll",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Metadata.xml",
+        "microsoft.aspnetcore.metadata.6.0.1.nupkg.sha512",
+        "microsoft.aspnetcore.metadata.nuspec"
+      ]
+    },
+    "Microsoft.Extensions.DependencyInjection/6.0.0": {
+      "sha512": "k6PWQMuoBDGGHOQTtyois2u4AwyVcIwL2LaSLlTZQm2CYcJ1pxbt6jfAnpWmzENA/wfrYRI/X9DTLoUkE4AsLw==",
+      "type": "package",
+      "path": "microsoft.extensions.dependencyinjection/6.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/netcoreapp2.0/Microsoft.Extensions.DependencyInjection.targets",
+        "buildTransitive/netcoreapp3.1/_._",
+        "lib/net461/Microsoft.Extensions.DependencyInjection.dll",
+        "lib/net461/Microsoft.Extensions.DependencyInjection.xml",
+        "lib/net6.0/Microsoft.Extensions.DependencyInjection.dll",
+        "lib/net6.0/Microsoft.Extensions.DependencyInjection.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.xml",
+        "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.dll",
+        "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.xml",
+        "microsoft.extensions.dependencyinjection.6.0.0.nupkg.sha512",
+        "microsoft.extensions.dependencyinjection.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "Microsoft.Extensions.DependencyInjection.Abstractions/6.0.0": {
+      "sha512": "xlzi2IYREJH3/m6+lUrQlujzX8wDitm4QGnUu6kUXTQAWPuZY8i+ticFJbzfqaetLA6KR/rO6Ew/HuYD+bxifg==",
+      "type": "package",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/6.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/netcoreapp2.0/Microsoft.Extensions.DependencyInjection.Abstractions.targets",
+        "buildTransitive/netcoreapp3.1/_._",
+        "lib/net461/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/net461/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+        "microsoft.extensions.dependencyinjection.abstractions.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "Microsoft.Extensions.Logging.Abstractions/6.0.0": {
+      "sha512": "/HggWBbTwy8TgebGSX5DBZ24ndhzi93sHUBDvP1IxbZD7FDokYzdAr6+vbWGjw2XAfR2EJ1sfKUotpjHnFWPxA==",
+      "type": "package",
+      "path": "microsoft.extensions.logging.abstractions/6.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "analyzers/dotnet/roslyn3.11/cs/Microsoft.Extensions.Logging.Generators.dll",
+        "analyzers/dotnet/roslyn3.11/cs/cs/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/de/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/es/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/fr/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/it/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/ja/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/ko/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/pl/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/pt-BR/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/ru/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/tr/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/zh-Hans/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/zh-Hant/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/Microsoft.Extensions.Logging.Generators.dll",
+        "analyzers/dotnet/roslyn4.0/cs/cs/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/de/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/es/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/fr/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/it/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/ja/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/ko/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/pl/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/pt-BR/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/ru/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/tr/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/zh-Hans/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/zh-Hant/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "build/Microsoft.Extensions.Logging.Abstractions.targets",
+        "buildTransitive/netcoreapp2.0/Microsoft.Extensions.Logging.Abstractions.targets",
+        "buildTransitive/netcoreapp3.1/_._",
+        "lib/net461/Microsoft.Extensions.Logging.Abstractions.dll",
+        "lib/net461/Microsoft.Extensions.Logging.Abstractions.xml",
+        "lib/net6.0/Microsoft.Extensions.Logging.Abstractions.dll",
+        "lib/net6.0/Microsoft.Extensions.Logging.Abstractions.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.xml",
+        "microsoft.extensions.logging.abstractions.6.0.0.nupkg.sha512",
+        "microsoft.extensions.logging.abstractions.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "Microsoft.Extensions.Options/6.0.0": {
+      "sha512": "dzXN0+V1AyjOe2xcJ86Qbo233KHuLEY0njf/P2Kw8SfJU+d45HNS2ctJdnEnrWbM9Ye2eFgaC5Mj9otRMU6IsQ==",
+      "type": "package",
+      "path": "microsoft.extensions.options/6.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/Microsoft.Extensions.Options.dll",
+        "lib/net461/Microsoft.Extensions.Options.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Options.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Options.xml",
+        "lib/netstandard2.1/Microsoft.Extensions.Options.dll",
+        "lib/netstandard2.1/Microsoft.Extensions.Options.xml",
+        "microsoft.extensions.options.6.0.0.nupkg.sha512",
+        "microsoft.extensions.options.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "Microsoft.Extensions.Primitives/6.0.0": {
+      "sha512": "9+PnzmQFfEFNR9J2aDTfJGGupShHjOuGw4VUv+JB044biSHrnmCIMD+mJHmb2H7YryrfBEXDurxQ47gJZdCKNQ==",
+      "type": "package",
+      "path": "microsoft.extensions.primitives/6.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/netcoreapp2.0/Microsoft.Extensions.Primitives.targets",
+        "buildTransitive/netcoreapp3.1/_._",
+        "lib/net461/Microsoft.Extensions.Primitives.dll",
+        "lib/net461/Microsoft.Extensions.Primitives.xml",
+        "lib/net6.0/Microsoft.Extensions.Primitives.dll",
+        "lib/net6.0/Microsoft.Extensions.Primitives.xml",
+        "lib/netcoreapp3.1/Microsoft.Extensions.Primitives.dll",
+        "lib/netcoreapp3.1/Microsoft.Extensions.Primitives.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Primitives.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Primitives.xml",
+        "microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+        "microsoft.extensions.primitives.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "Microsoft.JSInterop/6.0.1": {
+      "sha512": "MJ3GtQiAMuu7JtgjlaPxeP5/P2h0hOlYaGhCvsUOyA645+nOnWGSnsNJ4ktCIjQYErOYPDJuV8dHTK7bysI8aQ==",
+      "type": "package",
+      "path": "microsoft.jsinterop/6.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net6.0/Microsoft.JSInterop.dll",
+        "lib/net6.0/Microsoft.JSInterop.xml",
+        "microsoft.jsinterop.6.0.1.nupkg.sha512",
+        "microsoft.jsinterop.nuspec"
+      ]
+    },
+    "Microsoft.Toolkit/7.1.2": {
+      "sha512": "0yBm7zWDU8jI93UySLeXTJnzl1PPl80+E+myEy6W2UIQsEgGpiWSMcKkV5/1F7dfHWcydBMveMjXZKt1/ocV2A==",
+      "type": "package",
+      "path": "microsoft.toolkit/7.1.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "License.md",
+        "ThirdPartyNotices.txt",
+        "lib/net5.0/Microsoft.Toolkit.dll",
+        "lib/net5.0/Microsoft.Toolkit.pdb",
+        "lib/net5.0/Microsoft.Toolkit.xml",
+        "lib/netstandard1.4/Microsoft.Toolkit.dll",
+        "lib/netstandard1.4/Microsoft.Toolkit.pdb",
+        "lib/netstandard1.4/Microsoft.Toolkit.xml",
+        "lib/netstandard2.0/Microsoft.Toolkit.dll",
+        "lib/netstandard2.0/Microsoft.Toolkit.pdb",
+        "lib/netstandard2.0/Microsoft.Toolkit.xml",
+        "lib/netstandard2.1/Microsoft.Toolkit.dll",
+        "lib/netstandard2.1/Microsoft.Toolkit.pdb",
+        "lib/netstandard2.1/Microsoft.Toolkit.xml",
+        "microsoft.toolkit.7.1.2.nupkg.sha512",
+        "microsoft.toolkit.nuspec"
+      ]
+    },
+    "Microsoft.Toolkit.Diagnostics/7.1.2": {
+      "sha512": "W4nhHiYbFbSLuDQGrf+Tpjfa3K0eMO7/G69xb1kZp6Kkst6wF0hZxk3whgDvkuSm2K+advhYB0wkD/ptQs+l/A==",
+      "type": "package",
+      "path": "microsoft.toolkit.diagnostics/7.1.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "License.md",
+        "ThirdPartyNotices.txt",
+        "lib/net5.0/Microsoft.Toolkit.Diagnostics.dll",
+        "lib/net5.0/Microsoft.Toolkit.Diagnostics.pdb",
+        "lib/net5.0/Microsoft.Toolkit.Diagnostics.xml",
+        "lib/netstandard1.4/Microsoft.Toolkit.Diagnostics.dll",
+        "lib/netstandard1.4/Microsoft.Toolkit.Diagnostics.pdb",
+        "lib/netstandard1.4/Microsoft.Toolkit.Diagnostics.xml",
+        "lib/netstandard2.0/Microsoft.Toolkit.Diagnostics.dll",
+        "lib/netstandard2.0/Microsoft.Toolkit.Diagnostics.pdb",
+        "lib/netstandard2.0/Microsoft.Toolkit.Diagnostics.xml",
+        "lib/netstandard2.1/Microsoft.Toolkit.Diagnostics.dll",
+        "lib/netstandard2.1/Microsoft.Toolkit.Diagnostics.pdb",
+        "lib/netstandard2.1/Microsoft.Toolkit.Diagnostics.xml",
+        "microsoft.toolkit.diagnostics.7.1.2.nupkg.sha512",
+        "microsoft.toolkit.diagnostics.nuspec"
+      ]
+    },
+    "MudBlazor/6.0.5": {
+      "sha512": "tw59g9BFGmIUXIjWqmANDIyIvKyEMeVcDrofgvF7a4j+6spNLS7/sSHCoTr+1H+GdH26f+TpaYFxuEJULcNX/Q==",
+      "type": "package",
+      "path": "mudblazor/6.0.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "Nuget.png",
+        "build/Microsoft.AspNetCore.StaticWebAssets.props",
+        "build/MudBlazor.props",
+        "buildMultiTargeting/MudBlazor.props",
+        "buildTransitive/MudBlazor.props",
+        "lib/net6.0/MudBlazor.dll",
+        "lib/net6.0/MudBlazor.xml",
+        "mudblazor.6.0.5.nupkg.sha512",
+        "mudblazor.nuspec",
+        "staticwebassets/MudBlazor.min.css",
+        "staticwebassets/MudBlazor.min.js"
+      ]
+    },
+    "System.CodeDom/5.0.0": {
+      "sha512": "JPJArwA1kdj8qDAkY2XGjSWoYnqiM7q/3yRNkt6n28Mnn95MuEGkZXUbPBf7qc3IjwrGY5ttQon7yqHZyQJmOQ==",
+      "type": "package",
+      "path": "system.codedom/5.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/System.CodeDom.dll",
+        "lib/net461/System.CodeDom.xml",
+        "lib/netstandard2.0/System.CodeDom.dll",
+        "lib/netstandard2.0/System.CodeDom.xml",
+        "ref/net461/System.CodeDom.dll",
+        "ref/net461/System.CodeDom.xml",
+        "ref/netstandard2.0/System.CodeDom.dll",
+        "ref/netstandard2.0/System.CodeDom.xml",
+        "system.codedom.5.0.0.nupkg.sha512",
+        "system.codedom.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.IO.Pipelines/6.0.1": {
+      "sha512": "1j1pZX1ICzEyjafyssU3BzWVxUsaN3zq0wEmGKj3bxINC6NkmS30eEVuZ7k/QX2UKYNCaUch6g46taYKxcpFtw==",
+      "type": "package",
+      "path": "system.io.pipelines/6.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/netcoreapp2.0/System.IO.Pipelines.targets",
+        "buildTransitive/netcoreapp3.1/_._",
+        "lib/net461/System.IO.Pipelines.dll",
+        "lib/net461/System.IO.Pipelines.xml",
+        "lib/net6.0/System.IO.Pipelines.dll",
+        "lib/net6.0/System.IO.Pipelines.xml",
+        "lib/netcoreapp3.1/System.IO.Pipelines.dll",
+        "lib/netcoreapp3.1/System.IO.Pipelines.xml",
+        "lib/netstandard2.0/System.IO.Pipelines.dll",
+        "lib/netstandard2.0/System.IO.Pipelines.xml",
+        "system.io.pipelines.6.0.1.nupkg.sha512",
+        "system.io.pipelines.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "System.Runtime.CompilerServices.Unsafe/6.0.0": {
+      "sha512": "/iUeP3tq1S0XdNNoMz5C9twLSrM/TH+qElHkXWaPvuNOt+99G75NrV0OS2EqHx5wMN7popYjpc8oTjC1y16DLg==",
+      "type": "package",
+      "path": "system.runtime.compilerservices.unsafe/6.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.targets",
+        "buildTransitive/netcoreapp3.1/_._",
+        "lib/net461/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/net461/System.Runtime.CompilerServices.Unsafe.xml",
+        "lib/net6.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/net6.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "lib/netcoreapp3.1/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/netcoreapp3.1/System.Runtime.CompilerServices.Unsafe.xml",
+        "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+        "system.runtime.compilerservices.unsafe.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "LedController.Domain/1.0.0": {
+      "type": "project",
+      "path": "../LedController.Domain/LedController.Domain.csproj",
+      "msbuildProject": "../LedController.Domain/LedController.Domain.csproj"
+    },
+    "LedController.Shared/1.0.0": {
+      "type": "project",
+      "path": "../LedController.Shared/LedController.Shared.csproj",
+      "msbuildProject": "../LedController.Shared/LedController.Shared.csproj"
+    },
+    "LedController.WebPortal.Core/1.0.0": {
+      "type": "project",
+      "path": "../LedController.Portal.Core/LedController.WebPortal.Core.csproj",
+      "msbuildProject": "../LedController.Portal.Core/LedController.WebPortal.Core.csproj"
+    },
+    "LedController.WebPortal.Domain/1.0.0": {
+      "type": "project",
+      "path": "../LedController.Portal.Domain/LedController.WebPortal.Domain.csproj",
+      "msbuildProject": "../LedController.Portal.Domain/LedController.WebPortal.Domain.csproj"
+    },
+    "LedController.WebPortal.Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../LedController.Portal.Infrastucture/LedController.WebPortal.Infrastructure.csproj",
+      "msbuildProject": "../LedController.Portal.Infrastucture/LedController.WebPortal.Infrastructure.csproj"
+    },
+    "LedController.WebPortal.Persistence/1.0.0": {
+      "type": "project",
+      "path": "../LedController.Portal.Persistance/LedController.WebPortal.Persistence.csproj",
+      "msbuildProject": "../LedController.Portal.Persistance/LedController.WebPortal.Persistence.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "BlazorMonaco >= 2.1.0",
+      "LedController.Domain >= 1.0.0",
+      "LedController.Shared >= 1.0.0",
+      "LedController.WebPortal.Core >= 1.0.0",
+      "LedController.WebPortal.Domain >= 1.0.0",
+      "MudBlazor >= 6.0.5"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\kdteu\\.nuget\\packages\\": {},
+    "E:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\Projects\\LedController_net5\\LedController.Web\\LedController.Portal.Web.csproj",
+      "projectName": "LedController.Portal.Web",
+      "projectPath": "D:\\Projects\\LedController_net5\\LedController.Web\\LedController.Portal.Web.csproj",
+      "packagesPath": "C:\\Users\\kdteu\\.nuget\\packages\\",
+      "outputPath": "D:\\Projects\\LedController_net5\\LedController.Web\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "E:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\kdteu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "D:\\Projects\\LedController_net5\\LedController.Domain\\LedController.Domain.csproj": {
+              "projectPath": "D:\\Projects\\LedController_net5\\LedController.Domain\\LedController.Domain.csproj"
+            },
+            "D:\\Projects\\LedController_net5\\LedController.Portal.Core\\LedController.WebPortal.Core.csproj": {
+              "projectPath": "D:\\Projects\\LedController_net5\\LedController.Portal.Core\\LedController.WebPortal.Core.csproj"
+            },
+            "D:\\Projects\\LedController_net5\\LedController.Portal.Domain\\LedController.WebPortal.Domain.csproj": {
+              "projectPath": "D:\\Projects\\LedController_net5\\LedController.Portal.Domain\\LedController.WebPortal.Domain.csproj"
+            },
+            "D:\\Projects\\LedController_net5\\LedController.Shared\\LedController.Shared.csproj": {
+              "projectPath": "D:\\Projects\\LedController_net5\\LedController.Shared\\LedController.Shared.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "dependencies": {
+          "BlazorMonaco": {
+            "target": "Package",
+            "version": "[2.1.0, )"
+          },
+          "MudBlazor": {
+            "target": "Package",
+            "version": "[6.0.5, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

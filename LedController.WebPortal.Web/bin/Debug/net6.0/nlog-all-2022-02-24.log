@@ -1,0 +1,24 @@
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/02/24 18:30:18.175 - [DEBUG]: Hosting starting 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/02/24 18:30:18.332 - [INFO]: Now listening on: http://localhost:5097 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/02/24 18:30:18.336 - [INFO]: Application started. Press Ctrl+C to shut down. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/02/24 18:30:18.336 - [INFO]: Hosting environment: Development 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/02/24 18:30:18.336 - [INFO]: Content root path: D:\Projects\LedController_net5\LedController.WebPortal.Web\ 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/02/24 18:30:18.336 - [DEBUG]: Hosting started 
+ 
+LedController.WebPortal.Web.Pages.ControllersPage[6 - .NET ThreadPool Worker] 
+      2022/02/24 18:30:26.064 - [INFO]: Opening controllers page. 
+ 
+LedController.WebPortal.Web.Pages.ControllersPage[6 - .NET ThreadPool Worker] 
+      2022/02/24 18:30:26.064 - [INFO]: Showing empty page for controllers. There are no controllers in the system. 
+ 

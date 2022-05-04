@@ -1,0 +1,217 @@
+﻿@using LedController.Domain.Models
+@using Microsoft.AspNetCore.Components
+@using MudBlazor
+@using LedController.Domain.Enums
+@using System.Net
+@using LedController.Shared.Extensions
+@using LedController.Shared.Helpers
+@using LedController.WebPortal.Domain.Managers
+@using System.Data.Common
+@using LedController.WebPortal.Domain.Models
+
+
+@inject ILogger<LedstripFormDialog> _logger
+@inject IDialogService _dialogService
+@inject ISnackbar _snackbar
+
+@inject ILedstripManager _ledstripManager
+@inject ISpiBusManager _spiBusManager
+@inject IControllerManager _controllerManager
+
+
+@* TODO list
+
+    * TODO: Add Spi bus selection for the controller that we editing it on.
+
+*@
+
+
+
+@*Edit ledstrip dialog*@
+<MudDialog>
+
+    @*Form*@
+    <DialogContent>
+        <EditForm Class="pa-4" Model="@Ledstrip" T="EditControllerForm" OnValidSubmit="SubmitAsync">
+            <DataAnnotationsValidator />
+            <MudTextField Class="pa-4" T="string" Label="Name" Required="true" RequiredError="A name is needed" @bind-value="Ledstrip!.Name" />
+            <MudNumericField Class="pa-4" T="int" Label="Pixel Count" Required="true" @bind-value="Ledstrip!.PixelCount" />
+            <MudSelect Class="pa-4" T="LedstripProtocol" Label="Chip Type" AnchorOrigin="Origin.BottomCenter" @bind-value="Ledstrip!.Protocol">
+                <MudSelectItem Value="@LedstripProtocol.Custom">Custom</MudSelectItem>
+                <MudSelectItem Value="@LedstripProtocol.NeoPixel">NeoPixel</MudSelectItem>
+            </MudSelect>
+            <MudSelect Class="pa-4" T="SpiBus" Label="Bus" @bind-value="Ledstrip!.SpiBus">
+                @foreach (SpiBus spiBus in SpiBuses)
+                {
+                    <MudSelectItem T="SpiBus" Value="spiBus">@spiBus.Name</MudSelectItem>
+                }
+            </MudSelect>
+        </EditForm>
+
+        <MudDivider />
+    </DialogContent>
+
+    @*Button actions*@
+    <DialogActions>
+        <MudButton Class="pa-4" Color="Color.Primary" OnClick="SubmitAsync">Save</MudButton>
+        @if (!IsNew)
+        {
+            <MudButton Class="pa-5" Color="Color.Error" @onclick="async () => await RemoveLedstripAsync()">Remove</MudButton>
+        }
+    </DialogActions>
+
+</MudDialog>
+
+
+
+@code {
+
+
+    /// <summary>
+    /// Dialog instance.
+    /// </summary>
+    [CascadingParameter]
+    MudDialogInstance? MudDialog { get; set; }
+
+    /// <summary>
+    /// The current led strip that we are editing.
+    /// </summary>
+    [Parameter]
+    public Ledstrip? Ledstrip { get; set; }
+
+    /// <summary>
+    /// A flag indicating weather the current form is for a new controller.
+    /// </summary>
+    public bool IsNew { get; set; }
+
+
+    public IEnumerable<SpiBus> SpiBuses { get; set; } = new List<SpiBus>();
+
+
+
+    /// <inheritdoc />
+    protected override async Task OnInitializedAsync()
+    {
+        _logger.LogInformation($"Opening edit ledstrip dialog. {(IsNew ? "This is a new ledstrip." : "Editing a existing ledstrip.")}");
+
+        SpiBuses = await _spiBusManager.GetAsync().AsEnumerableAsync();
+
+        await base.OnInitializedAsync();
+    }
+
+
+    /// <inheritdoc />
+    protected override void OnParametersSet()
+    {
+        if (Ledstrip == null)
+        {
+            IsNew = true;
+            Ledstrip = CreateLedstrip();
+        }
+    }
+
+
+    /// <summary>
+    /// Creats a new ledstrip that can be used in the application.
+    /// </summary>
+    /// <returns></returns>
+    private Ledstrip CreateLedstrip()
+    {
+        return new Ledstrip();
+    }
+
+
+    /// <summary>
+    /// Submit the current form.
+    /// </summary>
+    /// <returns></returns>
+    private async Task SubmitAsync()
+    {
+        try
+        {
+            // Adding ledsttrip
+            if (IsNew)
+            {
+                await _ledstripManager.Add(Ledstrip!);
+            }
+            else
+            {
+                await _ledstripManager.Update(Ledstrip!);
+            }
+
+            Controller controller = await _controllerManager.GetControllerBySpiBusAsync(Ledstrip!.SpiBus!);
+            controller.Ledstrips.Add(Ledstrip!);
+            await _controllerManager.Update(controller);
+
+
+            _logger.LogInformation($"Saved ledstrip.");
+            _snackbar.Add($"Ledstrip has been Saved.", Severity.Success);
+
+
+        }
+        catch (DbException dbException)
+        {
+            _logger.LogError(dbException, $"There was a exception while executing the code for removing a ledstrip. The following database exception occurred.");
+            _logger.LogError(dbException.InnerException, $"The following inner exception was captured by the database exception.");
+            _snackbar.Add($"A error occurred.", Severity.Error);
+
+            MudDialog!.Cancel();
+        }
+        catch (Exception ex)
+        {
+            _logger.LogError(ex, $"There was a problem with removing a ledstrip.");
+            throw;
+        }
+
+        MudDialog!.Close(DialogResult.Ok(true));
+
+    }
+
+
+
+    /// <summary>
+    /// Asks the user if we want to remove the ledstrip and then remove it.
+    /// </summary>
+    /// <param name="ledstrip">The ledstrip we want to remove.</param>
+    /// <returns></returns>
+    private async Task RemoveLedstripAsync()
+    {
+        bool result = await _dialogService.ShowMessageBox("Remove",
+            "Are you sure you would like to remove this ledstrip.",
+            noText: "No") ?? false;
+
+        // Checking if we want to delete if not then exit.
+        if (result == false) return;
+        _logger.LogInformation($"Removing ledstrip from application.");
+
+
+        // TODO:  stop ledstrip.
+
+
+        try
+        {
+            await _ledstripManager.Remove(Ledstrip);
+            _logger.LogInformation($"Ledstrip has been deleted.");
+        }
+        catch (DbException dbException)
+        {
+            _logger.LogError(dbException, $"There was a exception while executing the code for removing a ledstrip. The following database exception occurred.");
+            _logger.LogError(dbException.InnerException, $"The following inner exception was captured by the database exception.");
+            _snackbar.Add($"A error occurred.", Severity.Error);
+
+            MudDialog!.Cancel();
+        }
+        catch (Exception ex)
+        {
+            _logger.LogError(ex, $"There was a problem with removing a ledstrip.");
+            throw;
+        }
+
+            MudDialog!.Close(DialogResult.Ok(true));
+
+        
+
+
+    }
+
+}

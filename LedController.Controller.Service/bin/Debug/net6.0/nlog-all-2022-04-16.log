@@ -1,0 +1,123 @@
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/16 17:44:38.255 - [INFO]: Now listening on: http://localhost:5229 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/16 17:44:38.278 - [INFO]: Now listening on: https://localhost:7229 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/16 17:44:38.278 - [INFO]: Application started. Press Ctrl+C to shut down. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/16 17:44:38.278 - [INFO]: Hosting environment: Development 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/16 17:44:38.278 - [INFO]: Content root path: D:\Projects\LedController_net5\LedController.Controller.Service\ 
+ 
+Grpc.AspNetCore.Server.Internal.ServerCallHandlerFactory[10 - .NET ThreadPool Worker] 
+      2022/04/16 17:45:01.044 - [INFO]: Service 'connection.GrpcConnection' is unimplemented. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/16 17:52:20.972 - [INFO]: Now listening on: http://localhost:5229 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/16 17:52:20.994 - [INFO]: Now listening on: https://localhost:7229 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/16 17:52:20.994 - [INFO]: Application started. Press Ctrl+C to shut down. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/16 17:52:20.994 - [INFO]: Hosting environment: Development 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/16 17:52:20.994 - [INFO]: Content root path: D:\Projects\LedController_net5\LedController.Controller.Service\ 
+ 
+Grpc.AspNetCore.Server.ServerCallHandler[17 - .NET ThreadPool Worker] 
+      2022/04/16 17:53:23.282 - [ERROR]: Error when executing service method 'Connect'. 
+ System.InvalidOperationException: Unable to resolve service for type 'LedController.Controller.Domain.Managers.IEffectManager' while attempting to activate 'LedController.Controller.Service.Services.ServerConnectionService'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method2(Closure , IServiceProvider , Object[] )
+   at Grpc.AspNetCore.Server.Internal.DefaultGrpcServiceActivator`1.Create(IServiceProvider serviceProvider)
+   at Grpc.Shared.Server.UnaryServerMethodInvoker`3.Invoke(HttpContext httpContext, ServerCallContext serverCallContext, TRequest request)
+--- End of stack trace from previous location ---
+   at Grpc.AspNetCore.Server.Internal.CallHandlers.UnaryServerCallHandler`3.HandleCallAsyncCore(HttpContext httpContext, HttpContextServerCallContext serverCallContext)
+   at Grpc.AspNetCore.Server.Internal.CallHandlers.ServerCallHandlerBase`3.<HandleCallAsync>g__AwaitHandleCall|8_0(HttpContextServerCallContext serverCallContext, Method`2 method, Task handleCall)
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/16 18:24:16.973 - [INFO]: Now listening on: http://localhost:5229 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/16 18:24:16.996 - [INFO]: Now listening on: https://localhost:7229 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/16 18:24:16.996 - [INFO]: Application started. Press Ctrl+C to shut down. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/16 18:24:16.996 - [INFO]: Hosting environment: Development 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/16 18:24:16.996 - [INFO]: Content root path: D:\Projects\LedController_net5\LedController.Controller.Service\ 
+ 
+LedController.Controller.Service.Services.ServerConnectionService[24 - .NET ThreadPool Worker] 
+      2022/04/16 18:27:21.676 - [INFO]: Get request to play animation  on ledstrip . 
+ 
+Grpc.AspNetCore.Server.ServerCallHandler[24 - .NET ThreadPool Worker] 
+      2022/04/16 18:27:21.844 - [ERROR]: Error when executing service method 'PlayAnimationOnLedstrip'. 
+ System.PlatformNotSupportedException: In order to use SpiDevice on Windows with .NET 5.0 it is required for your application to target net5.0-windows10.0.17763.0 or higher. Please add that to your target frameworks in your project file.
+   at System.Device.Spi.SpiDevice.CreateWindows10SpiDevice(SpiConnectionSettings settings)
+   at System.Device.Spi.SpiDevice.Create(SpiConnectionSettings settings)
+   at LedController.Controller.Infrastructure.Device.Proxies.BindingsLedstripProxy..ctor(Ledstrip ledstrip) in D:\Projects\LedController_net5\LedController.Controller.Infrastructure.Hardware\Proxies\BindingsLedstripProxy.cs:line 25
+   at LedController.Controller.Infrastructure.Device.Factories.LedstripFactory.CreateLedstripProxy(Ledstrip ledstrip) in D:\Projects\LedController_net5\LedController.Controller.Infrastructure.Hardware\Factories\LedstripFactory.cs:line 31
+   at LedController.Controller.Core.Services.AnimationService.StartAnimationAsync(Ledstrip ledstrip, Animation animation, CancellationToken token) in D:\Projects\LedController_net5\LedController.Controller.Core\Services\AnimationService.cs:line 59
+   at LedController.Controller.Service.Services.ServerConnectionService.PlayAnimationOnLedstrip(PlayAnimationOnLedstripMessage request, ServerCallContext context) in D:\Projects\LedController_net5\LedController.Controller.Service\Services\PortalService.cs:line 76
+   at Grpc.Shared.Server.UnaryServerMethodInvoker`3.AwaitInvoker(Task`1 invokerTask, GrpcActivatorHandle`1 serviceHandle)
+   at Grpc.Shared.Server.UnaryServerMethodInvoker`3.AwaitInvoker(Task`1 invokerTask, GrpcActivatorHandle`1 serviceHandle)
+   at Grpc.AspNetCore.Server.Internal.CallHandlers.UnaryServerCallHandler`3.HandleCallAsyncCore(HttpContext httpContext, HttpContextServerCallContext serverCallContext)
+   at Grpc.AspNetCore.Server.Internal.CallHandlers.ServerCallHandlerBase`3.<HandleCallAsync>g__AwaitHandleCall|8_0(HttpContextServerCallContext serverCallContext, Method`2 method, Task handleCall)
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/16 18:58:32.162 - [INFO]: Now listening on: http://localhost:5229 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/16 18:58:32.184 - [INFO]: Now listening on: https://localhost:7229 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/16 18:58:32.184 - [INFO]: Application started. Press Ctrl+C to shut down. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/16 18:58:32.184 - [INFO]: Hosting environment: Development 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/16 18:58:32.184 - [INFO]: Content root path: D:\Projects\LedController_net5\LedController.Controller.Service\ 
+ 
+LedController.Controller.Service.Services.ServerConnectionService[18 - .NET ThreadPool Worker] 
+      2022/04/16 18:58:58.834 - [INFO]: Portal 127.0.0.1:5229 request to connect. 
+ 
+LedController.Controller.Service.Services.ServerConnectionService[20 - .NET ThreadPool Worker] 
+      2022/04/16 18:59:36.540 - [INFO]: Request to Test animation on ledstrip b0ece7ef-2ae0-434b-a9c3-1c6177c3616e. 
+ 
+Grpc.AspNetCore.Server.ServerCallHandler[20 - .NET ThreadPool Worker] 
+      2022/04/16 19:00:12.703 - [ERROR]: Error when executing service method 'TestLedstrip'. 
+ System.PlatformNotSupportedException: In order to use SpiDevice on Windows with .NET 5.0 it is required for your application to target net5.0-windows10.0.17763.0 or higher. Please add that to your target frameworks in your project file.
+   at System.Device.Spi.SpiDevice.CreateWindows10SpiDevice(SpiConnectionSettings settings)
+   at System.Device.Spi.SpiDevice.Create(SpiConnectionSettings settings)
+   at LedController.Controller.Infrastructure.Device.Proxies.BindingsLedstripProxy..ctor(Ledstrip ledstrip) in D:\Projects\LedController_net5\LedController.Controller.Infrastructure.Hardware\Proxies\BindingsLedstripProxy.cs:line 25
+   at LedController.Controller.Infrastructure.Device.Factories.LedstripFactory.CreateLedstripProxy(Ledstrip ledstrip) in D:\Projects\LedController_net5\LedController.Controller.Infrastructure.Hardware\Factories\LedstripFactory.cs:line 31
+   at LedController.Controller.Core.Services.AnimationService.TestLedstripAsync(Ledstrip ledstrip, CancellationToken token) in D:\Projects\LedController_net5\LedController.Controller.Core\Services\AnimationService.cs:line 124
+   at LedController.Controller.Service.Services.ServerConnectionService.TestLedstrip(Ledstrip request, ServerCallContext context) in D:\Projects\LedController_net5\LedController.Controller.Service\Services\PortalService.cs:line 111
+   at Grpc.Shared.Server.UnaryServerMethodInvoker`3.AwaitInvoker(Task`1 invokerTask, GrpcActivatorHandle`1 serviceHandle)
+   at Grpc.Shared.Server.UnaryServerMethodInvoker`3.AwaitInvoker(Task`1 invokerTask, GrpcActivatorHandle`1 serviceHandle)
+   at Grpc.AspNetCore.Server.Internal.CallHandlers.UnaryServerCallHandler`3.HandleCallAsyncCore(HttpContext httpContext, HttpContextServerCallContext serverCallContext)
+   at Grpc.AspNetCore.Server.Internal.CallHandlers.ServerCallHandlerBase`3.<HandleCallAsync>g__AwaitHandleCall|8_0(HttpContextServerCallContext serverCallContext, Method`2 method, Task handleCall)
+Microsoft.AspNetCore.Server.Kestrel[1 - ] 
+      2022/04/16 23:30:34.639 - [WARN]: Overriding address(es) 'http://localhost:5229, https://localhost:7229'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/16 23:30:34.725 - [INFO]: Now listening on: https://0.0.0.0:5000 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/16 23:30:34.730 - [INFO]: Application started. Press Ctrl+C to shut down. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/16 23:30:34.730 - [INFO]: Hosting environment: Development 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/16 23:30:34.730 - [INFO]: Content root path: D:\Projects\LedController_net5\LedController.Controller.Service\ 
+ 

@@ -1,0 +1,84 @@
+﻿@using System
+@using System.Linq
+@using LedController.WebPortal.Domain.Managers
+@using LedController.WebPortal.Domain.Services
+@using LedController.WebPortal.Core.Factories
+@using MudBlazor
+
+@using BlazorMonaco
+
+@inject ILogger<EffectEditor> _logger
+
+@inject IEffectManager _effectManager
+@inject EffectFactory _effectFactory
+@inject IEffectService _effectService
+@inject IDialogService _dialogService
+
+@inject ISnackbar _snackbar
+
+
+<MudGrid>
+
+    @* The toolbar *@
+    <MudItem xs="12" > 
+        <MudPaper Width="150vh" Class="d-flex pa-4" Elevation="25" >
+            <MudToolBar>
+                <MudIconButton Icon="@Icons.Material.Outlined.Save" OnClick="SaveEffectAsync" Color="Color.Inherit" Class="mr-5"/>
+                <MudIconButton Icon="@Icons.Material.Outlined.Build" OnClick="BuildEffectAsync" Color="Color.Primary" Class="mr-5" ></MudIconButton>
+                <MudIconButton Icon="@Icons.Material.Outlined.Sync" OnClick="SyncEffectAsync" Color="Color.Primary" Class="mr-5" ></MudIconButton>
+            </MudToolBar>
+        </MudPaper>
+    </MudItem>
+
+
+    <MudItem xs="12" >
+
+        @*The tabs.*@
+        <MudTabs Class="d-flex pa-4" Elevation="2" Rounded="true" ApplyEffectsToContainer="true" PanelClass="pa-6" >
+
+            @*The implementation editor*@
+            <MudTabPanel Text="Implmentation" >
+                <MudGrid>
+                    <MudItem  xs="12" >
+                        <MonacoEditor CssClass="monaco-editor pa-4" Id="@Effect!.Id.ToString()" ConstructionOptions="EditorConstructionOptions" @ref="_editor"/>
+                    </MudItem>
+                </MudGrid>
+            </MudTabPanel>
+
+            @*The parametersBase  for the implmentation. *@
+            <MudTabPanel Text="ParametersBase" >
+                <MudGrid>
+
+                    @* Existing parameter rows.*@
+                    <MudItem xs="12" >
+                        @for (int i = 0; i < Effect.Parameters.Count; i++)
+                        {
+	                        <EffectParameterRow InvalidParameterNames="GetInvalidParameterNames()" EffectParameter="Effect.Parameters[i]" RemoveEffectParameter="RemoveEffectParameterAsync"/>
+	                        <MudDivider/>
+                        }
+                    </MudItem>
+
+                    @* New row *@
+                    <MudItem xs="12" >
+                        <EffectParameterRow @ref="_effectParameterRow" InvalidParameterNames="GetInvalidParameterNames()" AddEffectParameter="AddEffectParameterAsync"/>
+                        <MudDivider/>
+                    </MudItem>
+
+                </MudGrid>
+            </MudTabPanel>
+            <MudTabPanel Text="Build Output" >
+                <MudCard Class="pa-4" Elevation="4" Outlined="true" >
+                    @foreach (string outputLine in _outputLogLines)
+                    {
+                        <MudText></MudText>
+                    }
+
+
+                </MudCard>
+
+
+            </MudTabPanel>
+        </MudTabs>
+    </MudItem>
+
+</MudGrid>

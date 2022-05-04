@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Grpc.Core.Api" Version="2.45.0" />
+    <PackageReference Include="LamarCompiler" Version="6.1.1" />
+    <PackageReference Include="Lokad.ILPack" Version="0.1.7" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="6.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Options" Version="6.0.0" />
+    <PackageReference Include="System.CodeDom" Version="5.0.0" />
+    <PackageReference Include="UnitsNet" Version="4.126.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\LedController.Portal.Domain\LedController.WebPortal.Domain.csproj" />
+    <ProjectReference Include="..\LedController.Portal.Infrastucture\LedController.WebPortal.Infrastructure.csproj" />
+    <ProjectReference Include="..\LedController.Portal.Persistance\LedController.WebPortal.Persistence.csproj" />
+    <ProjectReference Include="..\LedController.Shared\LedController.Shared.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Collections\" />
+  </ItemGroup>
+
+</Project>

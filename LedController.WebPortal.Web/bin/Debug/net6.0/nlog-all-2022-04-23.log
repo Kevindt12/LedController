@@ -1,0 +1,1165 @@
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/04/23 17:57:25.330 - [DEBUG]: Hosting starting 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/23 17:57:25.523 - [DEBUG]: Starting the discovery service. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/23 17:57:25.523 - [DEBUG]: Creating a new UDP client to be used for broadcasting the server information. This wil happen on UDP port 8472. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[6 - .NET ThreadPool Worker] 
+      2022/04/23 17:57:25.538 - [TRACE]: Start sending message to controllers to be discovered. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/23 17:57:25.538 - [DEBUG]: The discovery service has started. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/23 17:57:25.819 - [INFO]: Now listening on: http://localhost:5097 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/23 17:57:25.836 - [INFO]: Application started. Press Ctrl+C to shut down. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/23 17:57:25.836 - [INFO]: Hosting environment: Development 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/23 17:57:25.836 - [INFO]: Content root path: D:\Projects\LedController_net5\LedController.WebPortal.Web\ 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/04/23 17:57:25.836 - [DEBUG]: Hosting started 
+ 
+LedController.WebPortal.Web.Pages.Index[10 - .NET ThreadPool Worker] 
+      2022/04/23 17:57:29.884 - [INFO]: Opening the index page. 
+ 
+Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware[10 - .NET ThreadPool Worker] 
+      2022/04/23 17:57:30.693 - [ERROR]: An unhandled exception has occurred while executing the request. 
+ Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'no such table: ControllerEntityEffectEntity'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements(Stopwatch timer)+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.GetStatements(Stopwatch timer)+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteDataReader.NextResult()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at LedController.WebPortal.Persistence.Sqlite.Stores.StoreBase`2.GetAsync()+MoveNext() in D:\Projects\LedController_net5\LedController.Portal.Persistance.Sqlite\Stores\StoreBase.cs:line 36
+   at LedController.WebPortal.Persistence.Sqlite.Stores.StoreBase`2.GetAsync()+MoveNext() in D:\Projects\LedController_net5\LedController.Portal.Persistance.Sqlite\Stores\StoreBase.cs:line 36
+   at LedController.WebPortal.Persistence.Sqlite.Stores.StoreBase`2.GetAsync()+System.Threading.Tasks.Sources.IValueTaskSource<System.Boolean>.GetResult()
+   at LedController.WebPortal.Web.Pages.Index.OnInitializedAsync() in D:\Projects\LedController_net5\LedController.WebPortal.Web\Pages\Index.razor:line 81
+   at LedController.WebPortal.Web.Pages.Index.OnInitializedAsync() in D:\Projects\LedController_net5\LedController.WebPortal.Web\Pages\Index.razor:line 81
+   at Microsoft.AspNetCore.Components.ComponentBase.RunInitAndSetParametersAsync()
+   at Microsoft.AspNetCore.Components.Rendering.HtmlRenderer.HandleException(Exception exception)
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.HandleExceptionViaErrorBoundary(Exception error, ComponentState errorSourceOrNull)
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.AddToPendingTasks(Task task, ComponentState owningComponentState)
+   at Microsoft.AspNetCore.Components.Rendering.ComponentState.SupplyCombinedParameters(ParameterView directAndCascadingParameters)
+   at Microsoft.AspNetCore.Components.Rendering.ComponentState.SetDirectParameters(ParameterView parameters)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.InitializeNewComponentFrame(DiffContext& diffContext, Int32 frameIndex)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.InitializeNewSubtree(DiffContext& diffContext, Int32 frameIndex)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.InsertNewFrame(DiffContext& diffContext, Int32 newFrameIndex)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.AppendDiffEntriesForRange(DiffContext& diffContext, Int32 oldStartIndex, Int32 oldEndIndexExcl, Int32 newStartIndex, Int32 newEndIndexExcl)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.ComputeDiff(Renderer renderer, RenderBatchBuilder batchBuilder, Int32 componentId, ArrayRange`1 oldTree, ArrayRange`1 newTree)
+   at Microsoft.AspNetCore.Components.Rendering.ComponentState.RenderIntoBatch(RenderBatchBuilder batchBuilder, RenderFragment renderFragment, Exception& renderFragmentException)
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.ProcessRenderQueue()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Components.Rendering.HtmlRenderer.HandleException(Exception exception)
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.ProcessRenderQueue()
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.ProcessPendingRender()
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.AddToRenderQueue(Int32 componentId, RenderFragment renderFragment)
+   at Microsoft.AspNetCore.Components.ComponentBase.StateHasChanged()
+   at Microsoft.AspNetCore.Components.ComponentBase.CallOnParametersSetAsync()
+   at Microsoft.AspNetCore.Components.ComponentBase.RunInitAndSetParametersAsync()
+   at Microsoft.AspNetCore.Components.Rendering.HtmlRenderer.HandleException(Exception exception)
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.HandleExceptionViaErrorBoundary(Exception error, ComponentState errorSourceOrNull)
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.AddToPendingTasks(Task task, ComponentState owningComponentState)
+   at Microsoft.AspNetCore.Components.Rendering.ComponentState.SupplyCombinedParameters(ParameterView directAndCascadingParameters)
+   at Microsoft.AspNetCore.Components.Rendering.ComponentState.SetDirectParameters(ParameterView parameters)
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.RenderRootComponentAsync(Int32 componentId, ParameterView initialParameters)
+   at Microsoft.AspNetCore.Components.Rendering.HtmlRenderer.CreateInitialRenderAsync(Type componentType, ParameterView initialParameters)
+   at Microsoft.AspNetCore.Components.Rendering.HtmlRenderer.RenderComponentAsync(Type componentType, ParameterView initialParameters)
+   at Microsoft.AspNetCore.Components.Rendering.RendererSynchronizationContext.<>c__11`1.<<InvokeAsync>b__11_0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.StaticComponentRenderer.PrerenderComponentAsync(ParameterView parameters, HttpContext httpContext, Type componentType)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ComponentRenderer.PrerenderedServerComponentAsync(HttpContext context, ServerComponentInvocationSequence invocationId, Type type, ParameterView parametersCollection)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ComponentRenderer.RenderComponentAsync(ViewContext viewContext, Type componentType, RenderMode renderMode, Object parameters)
+   at Microsoft.AspNetCore.Mvc.TagHelpers.ComponentTagHelper.ProcessAsync(TagHelperContext context, TagHelperOutput output)
+   at Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperRunner.<RunAsync>g__Awaited|0_0(Task task, TagHelperExecutionContext executionContext, Int32 i, Int32 count)
+   at LedController.WebPortal.Web.Pages.Pages__Host.ExecuteAsync() in D:\Projects\LedController_net5\LedController.WebPortal.Web\Pages\_Host.cshtml:line 8
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/04/23 17:58:25.889 - [DEBUG]: Hosting starting 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/23 17:58:26.006 - [DEBUG]: Starting the discovery service. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/23 17:58:26.006 - [DEBUG]: Creating a new UDP client to be used for broadcasting the server information. This wil happen on UDP port 8472. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/23 17:58:26.023 - [DEBUG]: The discovery service has started. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[10 - .NET ThreadPool Worker] 
+      2022/04/23 17:58:26.023 - [TRACE]: Start sending message to controllers to be discovered. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/23 17:58:26.148 - [INFO]: Now listening on: http://localhost:5097 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/23 17:58:26.148 - [INFO]: Application started. Press Ctrl+C to shut down. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/23 17:58:26.148 - [INFO]: Hosting environment: Development 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/23 17:58:26.148 - [INFO]: Content root path: D:\Projects\LedController_net5\LedController.WebPortal.Web\ 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/04/23 17:58:26.148 - [DEBUG]: Hosting started 
+ 
+LedController.WebPortal.Web.Pages.Index[9 - .NET ThreadPool Worker] 
+      2022/04/23 17:58:28.869 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Pages.Index[10 - .NET ThreadPool Worker] 
+      2022/04/23 17:58:29.969 - [INFO]: Opening the index page. 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/04/23 17:58:57.735 - [DEBUG]: Hosting starting 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/23 17:58:57.835 - [DEBUG]: Starting the discovery service. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/23 17:58:57.850 - [DEBUG]: Creating a new UDP client to be used for broadcasting the server information. This wil happen on UDP port 8472. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/23 17:58:57.850 - [DEBUG]: The discovery service has started. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[6 - .NET ThreadPool Worker] 
+      2022/04/23 17:58:57.850 - [TRACE]: Start sending message to controllers to be discovered. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/23 17:58:57.977 - [INFO]: Now listening on: http://localhost:5097 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/23 17:58:57.977 - [INFO]: Application started. Press Ctrl+C to shut down. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/23 17:58:57.977 - [INFO]: Hosting environment: Development 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/23 17:58:57.977 - [INFO]: Content root path: D:\Projects\LedController_net5\LedController.WebPortal.Web\ 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/04/23 17:58:57.977 - [DEBUG]: Hosting started 
+ 
+LedController.WebPortal.Web.Pages.Index[6 - .NET ThreadPool Worker] 
+      2022/04/23 17:59:01.069 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Pages.Index[10 - .NET ThreadPool Worker] 
+      2022/04/23 17:59:02.147 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Pages.EffectsEditorPage[9 - .NET ThreadPool Worker] 
+      2022/04/23 17:59:07.882 - [INFO]: Loading effects page. 
+ 
+LedController.WebPortal.Web.Pages.ControllersPage[13 - .NET ThreadPool Worker] 
+      2022/04/23 17:59:15.819 - [INFO]: Opening controllers page. 
+ 
+LedController.WebPortal.Web.Pages.ControllersPage[6 - .NET ThreadPool Worker] 
+      2022/04/23 17:59:19.117 - [INFO]: Opening the controller form for controller : None Selected 
+ 
+LedController.WebPortal.Web.Dialogs.ControllerFormDialog[6 - .NET ThreadPool Worker] 
+      2022/04/23 17:59:19.148 - [INFO]: Opening controller form. Controller: None was given as parameter. 
+ 
+LedController.WebPortal.Web.Dialogs.ControllerFormDialog[6 - .NET ThreadPool Worker] 
+      2022/04/23 17:59:19.164 - [INFO]: Opening controller form. Controller: Controller 1652162077 was given as parameter. 
+ 
+LedController.WebPortal.Web.Dialogs.ControllerFormDialog[9 - .NET ThreadPool Worker] 
+      2022/04/23 17:59:32.921 - [INFO]: Saving new controller Controller 1652162077. 
+ 
+LedController.WebPortal.Core.Managers.ControllerManager[9 - .NET ThreadPool Worker] 
+      2022/04/23 17:59:32.936 - [INFO]: Adding new controller. 
+ 
+LedController.WebPortal.Web.Pages.ControllersPage[9 - .NET ThreadPool Worker] 
+      2022/04/23 17:59:33.098 - [INFO]: Controller dialog closed reloading page. 
+ 
+LedController.WebPortal.Web.Pages.ControllersPage[10 - .NET ThreadPool Worker] 
+      2022/04/23 17:59:33.120 - [INFO]: Opening controllers page. 
+ 
+LedController.WebPortal.Web.Pages.ControllersPage[6 - .NET ThreadPool Worker] 
+      2022/04/23 17:59:33.367 - [INFO]: Opening controllers page. 
+ 
+LedController.WebPortal.Web.Pages.ControllersPage[10 - .NET ThreadPool Worker] 
+      2022/04/23 17:59:36.398 - [INFO]: Opening the controller form for controller : Controller 1652162077 
+ 
+LedController.WebPortal.Web.Dialogs.ControllerFormDialog[10 - .NET ThreadPool Worker] 
+      2022/04/23 17:59:36.413 - [INFO]: Opening controller form. Controller: Controller 1652162077 was given as parameter. 
+ 
+LedController.WebPortal.Web.Dialogs.ControllerFormDialog[10 - .NET ThreadPool Worker] 
+      2022/04/23 17:59:36.413 - [INFO]: Opening controller form. Controller: Controller 1652162077 was given as parameter. 
+ 
+LedController.WebPortal.Web.Pages.SpiBusesPage[10 - .NET ThreadPool Worker] 
+      2022/04/23 17:59:41.428 - [INFO]: Opening the spi buses page, and loading the spi buses from the application. 
+ 
+LedController.WebPortal.Web.Pages.SpiBusesPage[29 - .NET ThreadPool Worker] 
+      2022/04/23 17:59:42.182 - [INFO]: Opening the edit spi bus dialog. None Selected. 
+ 
+LedController.WebPortal.Core.Managers.ControllerManager[29 - .NET ThreadPool Worker] 
+      2022/04/23 18:00:09.991 - [DEBUG]: Getting controller by spi bus  
+ 
+Microsoft.AspNetCore.Components.Server.Circuits.RemoteRenderer[29 - .NET ThreadPool Worker] 
+      2022/04/23 18:00:10.128 - [WARN]: Unhandled exception rendering component: An exception was thrown while attempting to evaluate a LINQ query parameter expression. See the inner exception for more information. To show additional information call 'DbContextOptionsBuilder.EnableSensitiveDataLogging'. 
+ System.InvalidOperationException: An exception was thrown while attempting to evaluate a LINQ query parameter expression. See the inner exception for more information. To show additional information call 'DbContextOptionsBuilder.EnableSensitiveDataLogging'.
+ ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at lambda_method210(Closure )
+   at Microsoft.EntityFrameworkCore.Query.Internal.ParameterExtractingExpressionVisitor.GetValue(Expression expression, String& parameterName)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Query.Internal.ParameterExtractingExpressionVisitor.GetValue(Expression expression, String& parameterName)
+   at Microsoft.EntityFrameworkCore.Query.Internal.ParameterExtractingExpressionVisitor.Evaluate(Expression expression, Boolean generateParameter)
+   at Microsoft.EntityFrameworkCore.Query.Internal.ParameterExtractingExpressionVisitor.Visit(Expression expression)
+   at System.Linq.Expressions.ExpressionVisitor.VisitBinary(BinaryExpression node)
+   at Microsoft.EntityFrameworkCore.Query.Internal.ParameterExtractingExpressionVisitor.VisitBinary(BinaryExpression binaryExpression)
+   at Microsoft.EntityFrameworkCore.Query.Internal.ParameterExtractingExpressionVisitor.Visit(Expression expression)
+   at System.Linq.Expressions.ExpressionVisitor.VisitLambda[T](Expression`1 node)
+   at Microsoft.EntityFrameworkCore.Query.Internal.ParameterExtractingExpressionVisitor.Visit(Expression expression)
+   at System.Linq.Expressions.ExpressionVisitor.VisitUnary(UnaryExpression node)
+   at Microsoft.EntityFrameworkCore.Query.Internal.ParameterExtractingExpressionVisitor.Visit(Expression expression)
+   at System.Dynamic.Utils.ExpressionVisitorUtils.VisitArguments(ExpressionVisitor visitor, IArgumentProvider nodes)
+   at System.Linq.Expressions.ExpressionVisitor.VisitMethodCall(MethodCallExpression node)
+   at Microsoft.EntityFrameworkCore.Query.Internal.ParameterExtractingExpressionVisitor.Visit(Expression expression)
+   at Microsoft.EntityFrameworkCore.Query.Internal.ParameterExtractingExpressionVisitor.ExtractParameters(Expression expression, Boolean clearEvaluatedValues)
+   at Microsoft.EntityFrameworkCore.Query.Internal.ParameterExtractingExpressionVisitor.ExtractParameters(Expression expression)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.ExtractParameters(Expression query, IParameterValues parameterValues, IDiagnosticsLogger`1 logger, Boolean parameterize, Boolean generateContextAccessors)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.ExecuteAsync[TResult](Expression query, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.ExecuteAsync[TResult](Expression expression, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ExecuteAsync[TSource,TResult](MethodInfo operatorMethodInfo, IQueryable`1 source, Expression expression, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ExecuteAsync[TSource,TResult](MethodInfo operatorMethodInfo, IQueryable`1 source, LambdaExpression expression, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.SingleAsync[TSource](IQueryable`1 source, Expression`1 predicate, CancellationToken cancellationToken)
+   at LedController.WebPortal.Persistence.Sqlite.Stores.ControllerStore.GetControllerBySpiBusAsync(SpiBus spiBus, CancellationToken token)
+   at LedController.WebPortal.Web.Dialogs.SpiBusFormDialog.OnInitializedAsync() in D:\Projects\LedController_net5\LedController.WebPortal.Web\Dialogs\SpiBusFormDialog.razor:line 98
+   at Microsoft.AspNetCore.Components.ComponentBase.RunInitAndSetParametersAsync()
+Microsoft.AspNetCore.Components.Server.Circuits.CircuitHost[29 - .NET ThreadPool Worker] 
+      2022/04/23 18:00:10.169 - [ERROR]: Unhandled exception in circuit 'jYLSod8JgP8624SgJ9bvPscJFXfy5o_luBAXJZgO8XM'. 
+ System.InvalidOperationException: An exception was thrown while attempting to evaluate a LINQ query parameter expression. See the inner exception for more information. To show additional information call 'DbContextOptionsBuilder.EnableSensitiveDataLogging'.
+ ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at lambda_method210(Closure )
+   at Microsoft.EntityFrameworkCore.Query.Internal.ParameterExtractingExpressionVisitor.GetValue(Expression expression, String& parameterName)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Query.Internal.ParameterExtractingExpressionVisitor.GetValue(Expression expression, String& parameterName)
+   at Microsoft.EntityFrameworkCore.Query.Internal.ParameterExtractingExpressionVisitor.Evaluate(Expression expression, Boolean generateParameter)
+   at Microsoft.EntityFrameworkCore.Query.Internal.ParameterExtractingExpressionVisitor.Visit(Expression expression)
+   at System.Linq.Expressions.ExpressionVisitor.VisitBinary(BinaryExpression node)
+   at Microsoft.EntityFrameworkCore.Query.Internal.ParameterExtractingExpressionVisitor.VisitBinary(BinaryExpression binaryExpression)
+   at Microsoft.EntityFrameworkCore.Query.Internal.ParameterExtractingExpressionVisitor.Visit(Expression expression)
+   at System.Linq.Expressions.ExpressionVisitor.VisitLambda[T](Expression`1 node)
+   at Microsoft.EntityFrameworkCore.Query.Internal.ParameterExtractingExpressionVisitor.Visit(Expression expression)
+   at System.Linq.Expressions.ExpressionVisitor.VisitUnary(UnaryExpression node)
+   at Microsoft.EntityFrameworkCore.Query.Internal.ParameterExtractingExpressionVisitor.Visit(Expression expression)
+   at System.Dynamic.Utils.ExpressionVisitorUtils.VisitArguments(ExpressionVisitor visitor, IArgumentProvider nodes)
+   at System.Linq.Expressions.ExpressionVisitor.VisitMethodCall(MethodCallExpression node)
+   at Microsoft.EntityFrameworkCore.Query.Internal.ParameterExtractingExpressionVisitor.Visit(Expression expression)
+   at Microsoft.EntityFrameworkCore.Query.Internal.ParameterExtractingExpressionVisitor.ExtractParameters(Expression expression, Boolean clearEvaluatedValues)
+   at Microsoft.EntityFrameworkCore.Query.Internal.ParameterExtractingExpressionVisitor.ExtractParameters(Expression expression)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.ExtractParameters(Expression query, IParameterValues parameterValues, IDiagnosticsLogger`1 logger, Boolean parameterize, Boolean generateContextAccessors)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.ExecuteAsync[TResult](Expression query, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.ExecuteAsync[TResult](Expression expression, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ExecuteAsync[TSource,TResult](MethodInfo operatorMethodInfo, IQueryable`1 source, Expression expression, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ExecuteAsync[TSource,TResult](MethodInfo operatorMethodInfo, IQueryable`1 source, LambdaExpression expression, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.SingleAsync[TSource](IQueryable`1 source, Expression`1 predicate, CancellationToken cancellationToken)
+   at LedController.WebPortal.Persistence.Sqlite.Stores.ControllerStore.GetControllerBySpiBusAsync(SpiBus spiBus, CancellationToken token)
+   at LedController.WebPortal.Web.Dialogs.SpiBusFormDialog.OnInitializedAsync() in D:\Projects\LedController_net5\LedController.WebPortal.Web\Dialogs\SpiBusFormDialog.razor:line 98
+   at Microsoft.AspNetCore.Components.ComponentBase.RunInitAndSetParametersAsync()
+Microsoft.AspNetCore.Components.Server.Circuits.RemoteRenderer[29 - .NET ThreadPool Worker] 
+      2022/04/23 18:00:10.178 - [WARN]: Unhandled exception rendering component: Cannot access a disposed object. 
+ System.ObjectDisposedException: Cannot access a disposed object.
+   at Microsoft.AspNetCore.Components.RenderTree.ArrayBuilder`1.ThrowObjectDisposedException()
+   at Microsoft.AspNetCore.Components.RenderTree.ArrayBuilder`1.GrowBuffer(Int32 desiredCapacity)
+   at Microsoft.AspNetCore.Components.RenderTree.ArrayBuilder`1.Append(T[] source, Int32 startIndex, Int32 length)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.InsertNewFrame(DiffContext& diffContext, Int32 newFrameIndex)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.InsertNewFrame(DiffContext& diffContext, Int32 newFrameIndex)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.InsertNewFrame(DiffContext& diffContext, Int32 newFrameIndex)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.AppendDiffEntriesForRange(DiffContext& diffContext, Int32 oldStartIndex, Int32 oldEndIndexExcl, Int32 newStartIndex, Int32 newEndIndexExcl)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.ComputeDiff(Renderer renderer, RenderBatchBuilder batchBuilder, Int32 componentId, ArrayRange`1 oldTree, ArrayRange`1 newTree)
+   at Microsoft.AspNetCore.Components.Rendering.ComponentState.RenderIntoBatch(RenderBatchBuilder batchBuilder, RenderFragment renderFragment, Exception& renderFragmentException)
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.ProcessRenderQueue()
+Microsoft.AspNetCore.Components.Server.Circuits.CircuitHost[29 - .NET ThreadPool Worker] 
+      2022/04/23 18:00:10.178 - [ERROR]: Unhandled exception in circuit 'jYLSod8JgP8624SgJ9bvPscJFXfy5o_luBAXJZgO8XM'. 
+ System.ObjectDisposedException: Cannot access a disposed object.
+   at Microsoft.AspNetCore.Components.RenderTree.ArrayBuilder`1.ThrowObjectDisposedException()
+   at Microsoft.AspNetCore.Components.RenderTree.ArrayBuilder`1.GrowBuffer(Int32 desiredCapacity)
+   at Microsoft.AspNetCore.Components.RenderTree.ArrayBuilder`1.Append(T[] source, Int32 startIndex, Int32 length)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.InsertNewFrame(DiffContext& diffContext, Int32 newFrameIndex)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.InsertNewFrame(DiffContext& diffContext, Int32 newFrameIndex)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.InsertNewFrame(DiffContext& diffContext, Int32 newFrameIndex)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.AppendDiffEntriesForRange(DiffContext& diffContext, Int32 oldStartIndex, Int32 oldEndIndexExcl, Int32 newStartIndex, Int32 newEndIndexExcl)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.ComputeDiff(Renderer renderer, RenderBatchBuilder batchBuilder, Int32 componentId, ArrayRange`1 oldTree, ArrayRange`1 newTree)
+   at Microsoft.AspNetCore.Components.Rendering.ComponentState.RenderIntoBatch(RenderBatchBuilder batchBuilder, RenderFragment renderFragment, Exception& renderFragmentException)
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.ProcessRenderQueue()
+LedController.WebPortal.Web.Pages.SpiBusesPage[32 - .NET ThreadPool Worker] 
+      2022/04/23 18:00:21.602 - [INFO]: Opening the spi buses page, and loading the spi buses from the application. 
+ 
+LedController.WebPortal.Web.Pages.SpiBusesPage[29 - .NET ThreadPool Worker] 
+      2022/04/23 18:00:21.732 - [INFO]: Opening the spi buses page, and loading the spi buses from the application. 
+ 
+LedController.WebPortal.Web.Pages.SpiBusesPage[32 - .NET ThreadPool Worker] 
+      2022/04/23 18:00:24.560 - [INFO]: Opening the edit spi bus dialog. None Selected. 
+ 
+LedController.WebPortal.Core.Managers.ControllerManager[32 - .NET ThreadPool Worker] 
+      2022/04/23 18:00:24.576 - [DEBUG]: Getting controller by spi bus  
+ 
+Microsoft.AspNetCore.Components.Server.Circuits.RemoteRenderer[32 - .NET ThreadPool Worker] 
+      2022/04/23 18:00:24.629 - [WARN]: Unhandled exception rendering component: An exception was thrown while attempting to evaluate a LINQ query parameter expression. See the inner exception for more information. To show additional information call 'DbContextOptionsBuilder.EnableSensitiveDataLogging'. 
+ System.InvalidOperationException: An exception was thrown while attempting to evaluate a LINQ query parameter expression. See the inner exception for more information. To show additional information call 'DbContextOptionsBuilder.EnableSensitiveDataLogging'.
+ ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at lambda_method220(Closure )
+   at Microsoft.EntityFrameworkCore.Query.Internal.ParameterExtractingExpressionVisitor.GetValue(Expression expression, String& parameterName)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Query.Internal.ParameterExtractingExpressionVisitor.GetValue(Expression expression, String& parameterName)
+   at Microsoft.EntityFrameworkCore.Query.Internal.ParameterExtractingExpressionVisitor.Evaluate(Expression expression, Boolean generateParameter)
+   at Microsoft.EntityFrameworkCore.Query.Internal.ParameterExtractingExpressionVisitor.Visit(Expression expression)
+   at System.Linq.Expressions.ExpressionVisitor.VisitBinary(BinaryExpression node)
+   at Microsoft.EntityFrameworkCore.Query.Internal.ParameterExtractingExpressionVisitor.VisitBinary(BinaryExpression binaryExpression)
+   at Microsoft.EntityFrameworkCore.Query.Internal.ParameterExtractingExpressionVisitor.Visit(Expression expression)
+   at System.Linq.Expressions.ExpressionVisitor.VisitLambda[T](Expression`1 node)
+   at Microsoft.EntityFrameworkCore.Query.Internal.ParameterExtractingExpressionVisitor.Visit(Expression expression)
+   at System.Linq.Expressions.ExpressionVisitor.VisitUnary(UnaryExpression node)
+   at Microsoft.EntityFrameworkCore.Query.Internal.ParameterExtractingExpressionVisitor.Visit(Expression expression)
+   at System.Dynamic.Utils.ExpressionVisitorUtils.VisitArguments(ExpressionVisitor visitor, IArgumentProvider nodes)
+   at System.Linq.Expressions.ExpressionVisitor.VisitMethodCall(MethodCallExpression node)
+   at Microsoft.EntityFrameworkCore.Query.Internal.ParameterExtractingExpressionVisitor.Visit(Expression expression)
+   at Microsoft.EntityFrameworkCore.Query.Internal.ParameterExtractingExpressionVisitor.ExtractParameters(Expression expression, Boolean clearEvaluatedValues)
+   at Microsoft.EntityFrameworkCore.Query.Internal.ParameterExtractingExpressionVisitor.ExtractParameters(Expression expression)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.ExtractParameters(Expression query, IParameterValues parameterValues, IDiagnosticsLogger`1 logger, Boolean parameterize, Boolean generateContextAccessors)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.ExecuteAsync[TResult](Expression query, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.ExecuteAsync[TResult](Expression expression, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ExecuteAsync[TSource,TResult](MethodInfo operatorMethodInfo, IQueryable`1 source, Expression expression, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ExecuteAsync[TSource,TResult](MethodInfo operatorMethodInfo, IQueryable`1 source, LambdaExpression expression, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.SingleAsync[TSource](IQueryable`1 source, Expression`1 predicate, CancellationToken cancellationToken)
+   at LedController.WebPortal.Persistence.Sqlite.Stores.ControllerStore.GetControllerBySpiBusAsync(SpiBus spiBus, CancellationToken token)
+   at LedController.WebPortal.Web.Dialogs.SpiBusFormDialog.OnInitializedAsync() in D:\Projects\LedController_net5\LedController.WebPortal.Web\Dialogs\SpiBusFormDialog.razor:line 98
+   at Microsoft.AspNetCore.Components.ComponentBase.RunInitAndSetParametersAsync()
+Microsoft.AspNetCore.Components.Server.Circuits.CircuitHost[32 - .NET ThreadPool Worker] 
+      2022/04/23 18:00:24.629 - [ERROR]: Unhandled exception in circuit 'JHLoLTXMD1uZBy_R2lcm7n7jOFUFSGRwC0HIChOLluc'. 
+ System.InvalidOperationException: An exception was thrown while attempting to evaluate a LINQ query parameter expression. See the inner exception for more information. To show additional information call 'DbContextOptionsBuilder.EnableSensitiveDataLogging'.
+ ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at lambda_method220(Closure )
+   at Microsoft.EntityFrameworkCore.Query.Internal.ParameterExtractingExpressionVisitor.GetValue(Expression expression, String& parameterName)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Query.Internal.ParameterExtractingExpressionVisitor.GetValue(Expression expression, String& parameterName)
+   at Microsoft.EntityFrameworkCore.Query.Internal.ParameterExtractingExpressionVisitor.Evaluate(Expression expression, Boolean generateParameter)
+   at Microsoft.EntityFrameworkCore.Query.Internal.ParameterExtractingExpressionVisitor.Visit(Expression expression)
+   at System.Linq.Expressions.ExpressionVisitor.VisitBinary(BinaryExpression node)
+   at Microsoft.EntityFrameworkCore.Query.Internal.ParameterExtractingExpressionVisitor.VisitBinary(BinaryExpression binaryExpression)
+   at Microsoft.EntityFrameworkCore.Query.Internal.ParameterExtractingExpressionVisitor.Visit(Expression expression)
+   at System.Linq.Expressions.ExpressionVisitor.VisitLambda[T](Expression`1 node)
+   at Microsoft.EntityFrameworkCore.Query.Internal.ParameterExtractingExpressionVisitor.Visit(Expression expression)
+   at System.Linq.Expressions.ExpressionVisitor.VisitUnary(UnaryExpression node)
+   at Microsoft.EntityFrameworkCore.Query.Internal.ParameterExtractingExpressionVisitor.Visit(Expression expression)
+   at System.Dynamic.Utils.ExpressionVisitorUtils.VisitArguments(ExpressionVisitor visitor, IArgumentProvider nodes)
+   at System.Linq.Expressions.ExpressionVisitor.VisitMethodCall(MethodCallExpression node)
+   at Microsoft.EntityFrameworkCore.Query.Internal.ParameterExtractingExpressionVisitor.Visit(Expression expression)
+   at Microsoft.EntityFrameworkCore.Query.Internal.ParameterExtractingExpressionVisitor.ExtractParameters(Expression expression, Boolean clearEvaluatedValues)
+   at Microsoft.EntityFrameworkCore.Query.Internal.ParameterExtractingExpressionVisitor.ExtractParameters(Expression expression)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.ExtractParameters(Expression query, IParameterValues parameterValues, IDiagnosticsLogger`1 logger, Boolean parameterize, Boolean generateContextAccessors)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.ExecuteAsync[TResult](Expression query, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.ExecuteAsync[TResult](Expression expression, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ExecuteAsync[TSource,TResult](MethodInfo operatorMethodInfo, IQueryable`1 source, Expression expression, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ExecuteAsync[TSource,TResult](MethodInfo operatorMethodInfo, IQueryable`1 source, LambdaExpression expression, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.SingleAsync[TSource](IQueryable`1 source, Expression`1 predicate, CancellationToken cancellationToken)
+   at LedController.WebPortal.Persistence.Sqlite.Stores.ControllerStore.GetControllerBySpiBusAsync(SpiBus spiBus, CancellationToken token)
+   at LedController.WebPortal.Web.Dialogs.SpiBusFormDialog.OnInitializedAsync() in D:\Projects\LedController_net5\LedController.WebPortal.Web\Dialogs\SpiBusFormDialog.razor:line 98
+   at Microsoft.AspNetCore.Components.ComponentBase.RunInitAndSetParametersAsync()
+Microsoft.AspNetCore.Components.Server.Circuits.RemoteRenderer[32 - .NET ThreadPool Worker] 
+      2022/04/23 18:00:24.631 - [WARN]: Unhandled exception rendering component: Cannot access a disposed object. 
+ System.ObjectDisposedException: Cannot access a disposed object.
+   at Microsoft.AspNetCore.Components.RenderTree.ArrayBuilder`1.ThrowObjectDisposedException()
+   at Microsoft.AspNetCore.Components.RenderTree.ArrayBuilder`1.GrowBuffer(Int32 desiredCapacity)
+   at Microsoft.AspNetCore.Components.RenderTree.ArrayBuilder`1.Append(T[] source, Int32 startIndex, Int32 length)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.InsertNewFrame(DiffContext& diffContext, Int32 newFrameIndex)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.InsertNewFrame(DiffContext& diffContext, Int32 newFrameIndex)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.InsertNewFrame(DiffContext& diffContext, Int32 newFrameIndex)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.AppendDiffEntriesForRange(DiffContext& diffContext, Int32 oldStartIndex, Int32 oldEndIndexExcl, Int32 newStartIndex, Int32 newEndIndexExcl)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.ComputeDiff(Renderer renderer, RenderBatchBuilder batchBuilder, Int32 componentId, ArrayRange`1 oldTree, ArrayRange`1 newTree)
+   at Microsoft.AspNetCore.Components.Rendering.ComponentState.RenderIntoBatch(RenderBatchBuilder batchBuilder, RenderFragment renderFragment, Exception& renderFragmentException)
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.ProcessRenderQueue()
+Microsoft.AspNetCore.Components.Server.Circuits.CircuitHost[32 - .NET ThreadPool Worker] 
+      2022/04/23 18:00:24.631 - [ERROR]: Unhandled exception in circuit 'JHLoLTXMD1uZBy_R2lcm7n7jOFUFSGRwC0HIChOLluc'. 
+ System.ObjectDisposedException: Cannot access a disposed object.
+   at Microsoft.AspNetCore.Components.RenderTree.ArrayBuilder`1.ThrowObjectDisposedException()
+   at Microsoft.AspNetCore.Components.RenderTree.ArrayBuilder`1.GrowBuffer(Int32 desiredCapacity)
+   at Microsoft.AspNetCore.Components.RenderTree.ArrayBuilder`1.Append(T[] source, Int32 startIndex, Int32 length)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.InsertNewFrame(DiffContext& diffContext, Int32 newFrameIndex)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.InsertNewFrame(DiffContext& diffContext, Int32 newFrameIndex)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.InsertNewFrame(DiffContext& diffContext, Int32 newFrameIndex)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.AppendDiffEntriesForRange(DiffContext& diffContext, Int32 oldStartIndex, Int32 oldEndIndexExcl, Int32 newStartIndex, Int32 newEndIndexExcl)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.ComputeDiff(Renderer renderer, RenderBatchBuilder batchBuilder, Int32 componentId, ArrayRange`1 oldTree, ArrayRange`1 newTree)
+   at Microsoft.AspNetCore.Components.Rendering.ComponentState.RenderIntoBatch(RenderBatchBuilder batchBuilder, RenderFragment renderFragment, Exception& renderFragmentException)
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.ProcessRenderQueue()
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/04/23 18:01:45.561 - [DEBUG]: Hosting starting 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/23 18:01:45.663 - [DEBUG]: Starting the discovery service. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/23 18:01:45.663 - [DEBUG]: Creating a new UDP client to be used for broadcasting the server information. This wil happen on UDP port 8472. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[9 - .NET ThreadPool Worker] 
+      2022/04/23 18:01:45.681 - [TRACE]: Start sending message to controllers to be discovered. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/23 18:01:45.681 - [DEBUG]: The discovery service has started. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/23 18:01:45.803 - [INFO]: Now listening on: http://localhost:5097 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/23 18:01:45.803 - [INFO]: Application started. Press Ctrl+C to shut down. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/23 18:01:45.803 - [INFO]: Hosting environment: Development 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/23 18:01:45.803 - [INFO]: Content root path: D:\Projects\LedController_net5\LedController.WebPortal.Web\ 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/04/23 18:01:45.803 - [DEBUG]: Hosting started 
+ 
+LedController.WebPortal.Web.Pages.Index[13 - .NET ThreadPool Worker] 
+      2022/04/23 18:01:48.460 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Pages.Index[9 - .NET ThreadPool Worker] 
+      2022/04/23 18:01:49.575 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Pages.ControllersPage[6 - .NET ThreadPool Worker] 
+      2022/04/23 18:01:53.964 - [INFO]: Opening controllers page. 
+ 
+LedController.WebPortal.Web.Pages.LedstripsPage[6 - .NET ThreadPool Worker] 
+      2022/04/23 18:01:54.680 - [INFO]: Loading ledstrips page. 
+ 
+LedController.WebPortal.Web.Pages.SpiBusesPage[13 - .NET ThreadPool Worker] 
+      2022/04/23 18:01:58.601 - [INFO]: Opening the spi buses page, and loading the spi buses from the application. 
+ 
+LedController.WebPortal.Web.Pages.SpiBusesPage[9 - .NET ThreadPool Worker] 
+      2022/04/23 18:02:02.745 - [INFO]: Opening the edit spi bus dialog. None Selected. 
+ 
+LedController.WebPortal.Core.Managers.ControllerManager[9 - .NET ThreadPool Worker] 
+      2022/04/23 18:02:02.773 - [DEBUG]: Getting controller by spi bus  
+ 
+Microsoft.AspNetCore.Components.Server.Circuits.RemoteRenderer[9 - .NET ThreadPool Worker] 
+      2022/04/23 18:02:02.876 - [WARN]: Unhandled exception rendering component: An exception was thrown while attempting to evaluate a LINQ query parameter expression. See the inner exception for more information. To show additional information call 'DbContextOptionsBuilder.EnableSensitiveDataLogging'. 
+ System.InvalidOperationException: An exception was thrown while attempting to evaluate a LINQ query parameter expression. See the inner exception for more information. To show additional information call 'DbContextOptionsBuilder.EnableSensitiveDataLogging'.
+ ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at lambda_method142(Closure )
+   at Microsoft.EntityFrameworkCore.Query.Internal.ParameterExtractingExpressionVisitor.GetValue(Expression expression, String& parameterName)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Query.Internal.ParameterExtractingExpressionVisitor.GetValue(Expression expression, String& parameterName)
+   at Microsoft.EntityFrameworkCore.Query.Internal.ParameterExtractingExpressionVisitor.Evaluate(Expression expression, Boolean generateParameter)
+   at Microsoft.EntityFrameworkCore.Query.Internal.ParameterExtractingExpressionVisitor.Visit(Expression expression)
+   at System.Linq.Expressions.ExpressionVisitor.VisitBinary(BinaryExpression node)
+   at Microsoft.EntityFrameworkCore.Query.Internal.ParameterExtractingExpressionVisitor.VisitBinary(BinaryExpression binaryExpression)
+   at Microsoft.EntityFrameworkCore.Query.Internal.ParameterExtractingExpressionVisitor.Visit(Expression expression)
+   at System.Linq.Expressions.ExpressionVisitor.VisitLambda[T](Expression`1 node)
+   at Microsoft.EntityFrameworkCore.Query.Internal.ParameterExtractingExpressionVisitor.Visit(Expression expression)
+   at System.Linq.Expressions.ExpressionVisitor.VisitUnary(UnaryExpression node)
+   at Microsoft.EntityFrameworkCore.Query.Internal.ParameterExtractingExpressionVisitor.Visit(Expression expression)
+   at System.Dynamic.Utils.ExpressionVisitorUtils.VisitArguments(ExpressionVisitor visitor, IArgumentProvider nodes)
+   at System.Linq.Expressions.ExpressionVisitor.VisitMethodCall(MethodCallExpression node)
+   at Microsoft.EntityFrameworkCore.Query.Internal.ParameterExtractingExpressionVisitor.Visit(Expression expression)
+   at Microsoft.EntityFrameworkCore.Query.Internal.ParameterExtractingExpressionVisitor.ExtractParameters(Expression expression, Boolean clearEvaluatedValues)
+   at Microsoft.EntityFrameworkCore.Query.Internal.ParameterExtractingExpressionVisitor.ExtractParameters(Expression expression)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.ExtractParameters(Expression query, IParameterValues parameterValues, IDiagnosticsLogger`1 logger, Boolean parameterize, Boolean generateContextAccessors)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.ExecuteAsync[TResult](Expression query, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.ExecuteAsync[TResult](Expression expression, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ExecuteAsync[TSource,TResult](MethodInfo operatorMethodInfo, IQueryable`1 source, Expression expression, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ExecuteAsync[TSource,TResult](MethodInfo operatorMethodInfo, IQueryable`1 source, LambdaExpression expression, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.SingleAsync[TSource](IQueryable`1 source, Expression`1 predicate, CancellationToken cancellationToken)
+   at LedController.WebPortal.Persistence.Sqlite.Stores.ControllerStore.GetControllerBySpiBusAsync(SpiBus spiBus, CancellationToken token) in D:\Projects\LedController_net5\LedController.Portal.Persistance.Sqlite\Stores\ControllerStore.cs:line 41
+   at LedController.WebPortal.Web.Dialogs.SpiBusFormDialog.OnInitializedAsync() in D:\Projects\LedController_net5\LedController.WebPortal.Web\Dialogs\SpiBusFormDialog.razor:line 98
+   at Microsoft.AspNetCore.Components.ComponentBase.RunInitAndSetParametersAsync()
+Microsoft.AspNetCore.Components.Server.Circuits.CircuitHost[9 - .NET ThreadPool Worker] 
+      2022/04/23 18:02:02.916 - [ERROR]: Unhandled exception in circuit 'qkpahatnfjejnQdOBGLMpIiG8ZgnYLjWrZNwr7OekNc'. 
+ System.InvalidOperationException: An exception was thrown while attempting to evaluate a LINQ query parameter expression. See the inner exception for more information. To show additional information call 'DbContextOptionsBuilder.EnableSensitiveDataLogging'.
+ ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at lambda_method142(Closure )
+   at Microsoft.EntityFrameworkCore.Query.Internal.ParameterExtractingExpressionVisitor.GetValue(Expression expression, String& parameterName)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Query.Internal.ParameterExtractingExpressionVisitor.GetValue(Expression expression, String& parameterName)
+   at Microsoft.EntityFrameworkCore.Query.Internal.ParameterExtractingExpressionVisitor.Evaluate(Expression expression, Boolean generateParameter)
+   at Microsoft.EntityFrameworkCore.Query.Internal.ParameterExtractingExpressionVisitor.Visit(Expression expression)
+   at System.Linq.Expressions.ExpressionVisitor.VisitBinary(BinaryExpression node)
+   at Microsoft.EntityFrameworkCore.Query.Internal.ParameterExtractingExpressionVisitor.VisitBinary(BinaryExpression binaryExpression)
+   at Microsoft.EntityFrameworkCore.Query.Internal.ParameterExtractingExpressionVisitor.Visit(Expression expression)
+   at System.Linq.Expressions.ExpressionVisitor.VisitLambda[T](Expression`1 node)
+   at Microsoft.EntityFrameworkCore.Query.Internal.ParameterExtractingExpressionVisitor.Visit(Expression expression)
+   at System.Linq.Expressions.ExpressionVisitor.VisitUnary(UnaryExpression node)
+   at Microsoft.EntityFrameworkCore.Query.Internal.ParameterExtractingExpressionVisitor.Visit(Expression expression)
+   at System.Dynamic.Utils.ExpressionVisitorUtils.VisitArguments(ExpressionVisitor visitor, IArgumentProvider nodes)
+   at System.Linq.Expressions.ExpressionVisitor.VisitMethodCall(MethodCallExpression node)
+   at Microsoft.EntityFrameworkCore.Query.Internal.ParameterExtractingExpressionVisitor.Visit(Expression expression)
+   at Microsoft.EntityFrameworkCore.Query.Internal.ParameterExtractingExpressionVisitor.ExtractParameters(Expression expression, Boolean clearEvaluatedValues)
+   at Microsoft.EntityFrameworkCore.Query.Internal.ParameterExtractingExpressionVisitor.ExtractParameters(Expression expression)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.ExtractParameters(Expression query, IParameterValues parameterValues, IDiagnosticsLogger`1 logger, Boolean parameterize, Boolean generateContextAccessors)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.ExecuteAsync[TResult](Expression query, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.ExecuteAsync[TResult](Expression expression, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ExecuteAsync[TSource,TResult](MethodInfo operatorMethodInfo, IQueryable`1 source, Expression expression, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ExecuteAsync[TSource,TResult](MethodInfo operatorMethodInfo, IQueryable`1 source, LambdaExpression expression, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.SingleAsync[TSource](IQueryable`1 source, Expression`1 predicate, CancellationToken cancellationToken)
+   at LedController.WebPortal.Persistence.Sqlite.Stores.ControllerStore.GetControllerBySpiBusAsync(SpiBus spiBus, CancellationToken token) in D:\Projects\LedController_net5\LedController.Portal.Persistance.Sqlite\Stores\ControllerStore.cs:line 41
+   at LedController.WebPortal.Web.Dialogs.SpiBusFormDialog.OnInitializedAsync() in D:\Projects\LedController_net5\LedController.WebPortal.Web\Dialogs\SpiBusFormDialog.razor:line 98
+   at Microsoft.AspNetCore.Components.ComponentBase.RunInitAndSetParametersAsync()
+Microsoft.AspNetCore.Components.Server.Circuits.RemoteRenderer[9 - .NET ThreadPool Worker] 
+      2022/04/23 18:02:02.930 - [WARN]: Unhandled exception rendering component: Cannot access a disposed object. 
+ System.ObjectDisposedException: Cannot access a disposed object.
+   at Microsoft.AspNetCore.Components.RenderTree.ArrayBuilder`1.ThrowObjectDisposedException()
+   at Microsoft.AspNetCore.Components.RenderTree.ArrayBuilder`1.GrowBuffer(Int32 desiredCapacity)
+   at Microsoft.AspNetCore.Components.RenderTree.ArrayBuilder`1.Append(T[] source, Int32 startIndex, Int32 length)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.InsertNewFrame(DiffContext& diffContext, Int32 newFrameIndex)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.InsertNewFrame(DiffContext& diffContext, Int32 newFrameIndex)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.InsertNewFrame(DiffContext& diffContext, Int32 newFrameIndex)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.AppendDiffEntriesForRange(DiffContext& diffContext, Int32 oldStartIndex, Int32 oldEndIndexExcl, Int32 newStartIndex, Int32 newEndIndexExcl)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.ComputeDiff(Renderer renderer, RenderBatchBuilder batchBuilder, Int32 componentId, ArrayRange`1 oldTree, ArrayRange`1 newTree)
+   at Microsoft.AspNetCore.Components.Rendering.ComponentState.RenderIntoBatch(RenderBatchBuilder batchBuilder, RenderFragment renderFragment, Exception& renderFragmentException)
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.ProcessRenderQueue()
+Microsoft.AspNetCore.Components.Server.Circuits.CircuitHost[9 - .NET ThreadPool Worker] 
+      2022/04/23 18:02:02.930 - [ERROR]: Unhandled exception in circuit 'qkpahatnfjejnQdOBGLMpIiG8ZgnYLjWrZNwr7OekNc'. 
+ System.ObjectDisposedException: Cannot access a disposed object.
+   at Microsoft.AspNetCore.Components.RenderTree.ArrayBuilder`1.ThrowObjectDisposedException()
+   at Microsoft.AspNetCore.Components.RenderTree.ArrayBuilder`1.GrowBuffer(Int32 desiredCapacity)
+   at Microsoft.AspNetCore.Components.RenderTree.ArrayBuilder`1.Append(T[] source, Int32 startIndex, Int32 length)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.InsertNewFrame(DiffContext& diffContext, Int32 newFrameIndex)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.InsertNewFrame(DiffContext& diffContext, Int32 newFrameIndex)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.InsertNewFrame(DiffContext& diffContext, Int32 newFrameIndex)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.AppendDiffEntriesForRange(DiffContext& diffContext, Int32 oldStartIndex, Int32 oldEndIndexExcl, Int32 newStartIndex, Int32 newEndIndexExcl)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.ComputeDiff(Renderer renderer, RenderBatchBuilder batchBuilder, Int32 componentId, ArrayRange`1 oldTree, ArrayRange`1 newTree)
+   at Microsoft.AspNetCore.Components.Rendering.ComponentState.RenderIntoBatch(RenderBatchBuilder batchBuilder, RenderFragment renderFragment, Exception& renderFragmentException)
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.ProcessRenderQueue()
+LedController.WebPortal.Web.Pages.SpiBusesPage[9 - .NET ThreadPool Worker] 
+      2022/04/23 18:11:20.167 - [INFO]: Opening the spi buses page, and loading the spi buses from the application. 
+ 
+LedController.WebPortal.Web.Pages.SpiBusesPage[6 - .NET ThreadPool Worker] 
+      2022/04/23 18:11:21.424 - [INFO]: Opening the spi buses page, and loading the spi buses from the application. 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/04/23 18:12:31.429 - [DEBUG]: Hosting starting 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/23 18:12:31.570 - [DEBUG]: Starting the discovery service. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/23 18:12:31.570 - [DEBUG]: Creating a new UDP client to be used for broadcasting the server information. This wil happen on UDP port 8472. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[6 - .NET ThreadPool Worker] 
+      2022/04/23 18:12:31.587 - [TRACE]: Start sending message to controllers to be discovered. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/23 18:12:31.587 - [DEBUG]: The discovery service has started. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/23 18:12:31.710 - [INFO]: Now listening on: http://localhost:5097 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/23 18:12:31.725 - [INFO]: Application started. Press Ctrl+C to shut down. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/23 18:12:31.725 - [INFO]: Hosting environment: Development 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/23 18:12:31.725 - [INFO]: Content root path: D:\Projects\LedController_net5\LedController.WebPortal.Web\ 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/04/23 18:12:31.725 - [DEBUG]: Hosting started 
+ 
+LedController.WebPortal.Web.Pages.Index[6 - .NET ThreadPool Worker] 
+      2022/04/23 18:12:34.351 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Pages.Index[12 - .NET ThreadPool Worker] 
+      2022/04/23 18:12:35.459 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Pages.SpiBusesPage[12 - .NET ThreadPool Worker] 
+      2022/04/23 18:12:54.554 - [INFO]: Opening the spi buses page, and loading the spi buses from the application. 
+ 
+LedController.WebPortal.Web.Pages.SpiBusesPage[6 - .NET ThreadPool Worker] 
+      2022/04/23 18:12:55.458 - [INFO]: Opening the edit spi bus dialog. None Selected. 
+ 
+LedController.WebPortal.Core.Managers.ControllerManager[6 - .NET ThreadPool Worker] 
+      2022/04/23 18:12:55.491 - [DEBUG]: Getting controller by spi bus  
+ 
+Microsoft.AspNetCore.Components.Server.Circuits.RemoteRenderer[6 - .NET ThreadPool Worker] 
+      2022/04/23 18:12:55.605 - [WARN]: Unhandled exception rendering component: Sequence contains no elements. 
+ System.InvalidOperationException: Sequence contains no elements.
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at LedController.WebPortal.Persistence.Sqlite.Stores.ControllerStore.GetControllerBySpiBusAsync(SpiBus spiBus, CancellationToken token) in D:\Projects\LedController_net5\LedController.Portal.Persistance.Sqlite\Stores\ControllerStore.cs:line 41
+   at LedController.WebPortal.Web.Dialogs.SpiBusFormDialog.OnParametersSetAsync() in D:\Projects\LedController_net5\LedController.WebPortal.Web\Dialogs\SpiBusFormDialog.razor:line 113
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+Microsoft.AspNetCore.Components.Server.Circuits.CircuitHost[6 - .NET ThreadPool Worker] 
+      2022/04/23 18:12:55.649 - [ERROR]: Unhandled exception in circuit 'ZxWdMWqc5VO6J_PKNYJpkehXk5LmTPPA5h3V8UY6ug8'. 
+ System.InvalidOperationException: Sequence contains no elements.
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at LedController.WebPortal.Persistence.Sqlite.Stores.ControllerStore.GetControllerBySpiBusAsync(SpiBus spiBus, CancellationToken token) in D:\Projects\LedController_net5\LedController.Portal.Persistance.Sqlite\Stores\ControllerStore.cs:line 41
+   at LedController.WebPortal.Web.Dialogs.SpiBusFormDialog.OnParametersSetAsync() in D:\Projects\LedController_net5\LedController.WebPortal.Web\Dialogs\SpiBusFormDialog.razor:line 113
+   at Microsoft.AspNetCore.Components.ComponentBase.CallStateHasChangedOnAsyncCompletion(Task task)
+Microsoft.AspNetCore.Components.Server.Circuits.RemoteRenderer[6 - .NET ThreadPool Worker] 
+      2022/04/23 18:12:55.663 - [WARN]: Unhandled exception rendering component: Cannot access a disposed object. 
+ System.ObjectDisposedException: Cannot access a disposed object.
+   at Microsoft.AspNetCore.Components.RenderTree.ArrayBuilder`1.ThrowObjectDisposedException()
+   at Microsoft.AspNetCore.Components.RenderTree.ArrayBuilder`1.GrowBuffer(Int32 desiredCapacity)
+   at Microsoft.AspNetCore.Components.Rendering.ComponentState.RenderIntoBatch(RenderBatchBuilder batchBuilder, RenderFragment renderFragment, Exception& renderFragmentException)
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.ProcessRenderQueue()
+Microsoft.AspNetCore.Components.Server.Circuits.CircuitHost[6 - .NET ThreadPool Worker] 
+      2022/04/23 18:12:55.663 - [ERROR]: Unhandled exception in circuit 'ZxWdMWqc5VO6J_PKNYJpkehXk5LmTPPA5h3V8UY6ug8'. 
+ System.ObjectDisposedException: Cannot access a disposed object.
+   at Microsoft.AspNetCore.Components.RenderTree.ArrayBuilder`1.ThrowObjectDisposedException()
+   at Microsoft.AspNetCore.Components.RenderTree.ArrayBuilder`1.GrowBuffer(Int32 desiredCapacity)
+   at Microsoft.AspNetCore.Components.Rendering.ComponentState.RenderIntoBatch(RenderBatchBuilder batchBuilder, RenderFragment renderFragment, Exception& renderFragmentException)
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.ProcessRenderQueue()
+LedController.WebPortal.Web.Pages.SpiBusesPage[13 - .NET ThreadPool Worker] 
+      2022/04/23 18:13:27.322 - [INFO]: Opening the spi buses page, and loading the spi buses from the application. 
+ 
+LedController.WebPortal.Web.Pages.SpiBusesPage[40 - .NET ThreadPool Worker] 
+      2022/04/23 18:13:28.654 - [INFO]: Opening the spi buses page, and loading the spi buses from the application. 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/04/23 18:14:58.996 - [DEBUG]: Hosting starting 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/23 18:14:59.134 - [DEBUG]: Starting the discovery service. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/23 18:14:59.147 - [DEBUG]: Creating a new UDP client to be used for broadcasting the server information. This wil happen on UDP port 8472. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[6 - .NET ThreadPool Worker] 
+      2022/04/23 18:14:59.147 - [TRACE]: Start sending message to controllers to be discovered. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/23 18:14:59.147 - [DEBUG]: The discovery service has started. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/23 18:14:59.291 - [INFO]: Now listening on: http://localhost:5097 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/23 18:14:59.307 - [INFO]: Application started. Press Ctrl+C to shut down. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/23 18:14:59.307 - [INFO]: Hosting environment: Development 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/23 18:14:59.307 - [INFO]: Content root path: D:\Projects\LedController_net5\LedController.WebPortal.Web\ 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/04/23 18:14:59.307 - [DEBUG]: Hosting started 
+ 
+LedController.WebPortal.Web.Pages.Index[9 - .NET ThreadPool Worker] 
+      2022/04/23 18:15:01.867 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Pages.Index[9 - .NET ThreadPool Worker] 
+      2022/04/23 18:15:04.513 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Pages.Index[14 - .NET ThreadPool Worker] 
+      2022/04/23 18:15:23.982 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Pages.Index[25 - .NET ThreadPool Worker] 
+      2022/04/23 18:15:24.890 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Pages.SpiBusesPage[9 - .NET ThreadPool Worker] 
+      2022/04/23 18:15:28.422 - [INFO]: Opening the spi buses page, and loading the spi buses from the application. 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/04/23 18:20:42.109 - [DEBUG]: Hosting starting 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/23 18:20:42.225 - [DEBUG]: Starting the discovery service. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/23 18:20:42.225 - [DEBUG]: Creating a new UDP client to be used for broadcasting the server information. This wil happen on UDP port 8472. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[9 - .NET ThreadPool Worker] 
+      2022/04/23 18:20:42.242 - [TRACE]: Start sending message to controllers to be discovered. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/23 18:20:42.242 - [DEBUG]: The discovery service has started. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/23 18:20:42.382 - [INFO]: Now listening on: http://localhost:5097 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/23 18:20:42.382 - [INFO]: Application started. Press Ctrl+C to shut down. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/23 18:20:42.382 - [INFO]: Hosting environment: Development 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/23 18:20:42.382 - [INFO]: Content root path: D:\Projects\LedController_net5\LedController.WebPortal.Web\ 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/04/23 18:20:42.397 - [DEBUG]: Hosting started 
+ 
+LedController.WebPortal.Web.Pages.Index[10 - .NET ThreadPool Worker] 
+      2022/04/23 18:20:45.586 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Pages.Index[10 - .NET ThreadPool Worker] 
+      2022/04/23 18:20:46.823 - [INFO]: Opening the index page. 
+ 
+LedController.WebPortal.Web.Pages.SpiBusesPage[10 - .NET ThreadPool Worker] 
+      2022/04/23 18:20:48.522 - [INFO]: Opening the spi buses page, and loading the spi buses from the application. 
+ 
+LedController.WebPortal.Web.Pages.SpiBusesPage[16 - .NET ThreadPool Worker] 
+      2022/04/23 18:20:50.595 - [INFO]: Opening the edit spi bus dialog. None Selected. 
+ 
+LedController.WebPortal.Web.Dialogs.SpiBusFormDialog[9 - .NET ThreadPool Worker] 
+      2022/04/23 18:21:16.470 - [INFO]: Saving spi bus Test Spi Bus. 
+ 
+LedController.WebPortal.Web.Dialogs.SpiBusFormDialog[9 - .NET ThreadPool Worker] 
+      2022/04/23 18:21:16.670 - [DEBUG]: Spi bus saved. Adding spi bus to controller. 
+ 
+LedController.WebPortal.Web.Dialogs.SpiBusFormDialog[9 - .NET ThreadPool Worker] 
+      2022/04/23 18:21:16.670 - [DEBUG]: Updating controller to modifiy the spi bus controller selection. 
+ 
+LedController.WebPortal.Web.Dialogs.SpiBusFormDialog[9 - .NET ThreadPool Worker] 
+      2022/04/23 18:21:16.748 - [INFO]: spi buses Has been saved! 
+ 
+LedController.WebPortal.Web.Pages.SpiBusesPage[9 - .NET ThreadPool Worker] 
+      2022/04/23 18:21:16.748 - [INFO]: Closing spi bus form. Reloading spi buses page. 
+ 
+LedController.WebPortal.Web.Pages.SpiBusesPage[16 - .NET ThreadPool Worker] 
+      2022/04/23 18:21:16.781 - [INFO]: Opening the spi buses page, and loading the spi buses from the application. 
+ 
+LedController.WebPortal.Web.Pages.SpiBusesPage[20 - .NET ThreadPool Worker] 
+      2022/04/23 18:22:34.892 - [INFO]: Opening the spi buses page, and loading the spi buses from the application. 
+ 
+Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware[16 - .NET ThreadPool Worker] 
+      2022/04/23 18:22:34.933 - [ERROR]: An unhandled exception has occurred while executing the request. 
+ System.InvalidOperationException: Sequence contains no matching element
+   at System.Linq.ThrowHelper.ThrowNoMatchException()
+   at System.Linq.Enumerable.Single[TSource](IEnumerable`1 source, Func`2 predicate)
+   at LedController.WebPortal.Web.Pages.SpiBusesPage.<>c__DisplayClass0_0.<BuildRenderTree>b__11(RenderTreeBuilder __builder6) in D:\Projects\LedController_net5\LedController.WebPortal.Web\Pages\SpiBusesPage.razor:line 43
+   at MudBlazor.MudText.BuildRenderTree(RenderTreeBuilder __builder)
+   at Microsoft.AspNetCore.Components.Rendering.ComponentState.RenderIntoBatch(RenderBatchBuilder batchBuilder, RenderFragment renderFragment, Exception& renderFragmentException)
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Components.Rendering.HtmlRenderer.HandleException(Exception exception)
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.HandleExceptionViaErrorBoundary(Exception error, ComponentState errorSourceOrNull)
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.ProcessRenderQueue()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Components.Rendering.HtmlRenderer.HandleException(Exception exception)
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.ProcessRenderQueue()
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.AddToRenderQueue(Int32 componentId, RenderFragment renderFragment)
+   at Microsoft.AspNetCore.Components.ComponentBase.StateHasChanged()
+   at Microsoft.AspNetCore.Components.ComponentBase.CallOnParametersSetAsync()
+   at Microsoft.AspNetCore.Components.ComponentBase.RunInitAndSetParametersAsync()
+   at Microsoft.AspNetCore.Components.Rendering.HtmlRenderer.HandleException(Exception exception)
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.HandleExceptionViaErrorBoundary(Exception error, ComponentState errorSourceOrNull)
+   at Microsoft.AspNetCore.Components.Rendering.ComponentState.SetDirectParameters(ParameterView parameters)
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.RenderRootComponentAsync(Int32 componentId, ParameterView initialParameters)
+   at Microsoft.AspNetCore.Components.Rendering.HtmlRenderer.CreateInitialRenderAsync(Type componentType, ParameterView initialParameters)
+   at Microsoft.AspNetCore.Components.Rendering.HtmlRenderer.RenderComponentAsync(Type componentType, ParameterView initialParameters)
+   at Microsoft.AspNetCore.Components.Rendering.RendererSynchronizationContext.<>c__11`1.<<InvokeAsync>b__11_0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.StaticComponentRenderer.PrerenderComponentAsync(ParameterView parameters, HttpContext httpContext, Type componentType)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ComponentRenderer.PrerenderedServerComponentAsync(HttpContext context, ServerComponentInvocationSequence invocationId, Type type, ParameterView parametersCollection)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ComponentRenderer.RenderComponentAsync(ViewContext viewContext, Type componentType, RenderMode renderMode, Object parameters)
+   at Microsoft.AspNetCore.Mvc.TagHelpers.ComponentTagHelper.ProcessAsync(TagHelperContext context, TagHelperOutput output)
+   at Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperRunner.<RunAsync>g__Awaited|0_0(Task task, TagHelperExecutionContext executionContext, Int32 i, Int32 count)
+   at LedController.WebPortal.Web.Pages.Pages__Host.ExecuteAsync() in D:\Projects\LedController_net5\LedController.WebPortal.Web\Pages\_Host.cshtml:line 8
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+LedController.WebPortal.Web.Pages.SpiBusesPage[39 - .NET ThreadPool Worker] 
+      2022/04/23 18:22:35.437 - [INFO]: Opening the spi buses page, and loading the spi buses from the application. 
+ 
+LedController.WebPortal.Web.Pages.LedstripsPage[29 - .NET ThreadPool Worker] 
+      2022/04/23 18:22:41.915 - [INFO]: Loading ledstrips page. 
+ 
+LedController.WebPortal.Web.Pages.LedstripsPage[20 - .NET ThreadPool Worker] 
+      2022/04/23 18:22:42.896 - [INFO]: Opening the edit ledstrip dialog. None Selected 
+ 
+LedController.WebPortal.Web.Dialogs.LedstripFormDialog[20 - .NET ThreadPool Worker] 
+      2022/04/23 18:22:42.913 - [INFO]: Opening edit ledstrip dialog. Editing a existing ledstrip. 
+ 
+LedController.WebPortal.Core.Managers.ControllerManager[16 - .NET ThreadPool Worker] 
+      2022/04/23 18:22:58.622 - [DEBUG]: Getting controller by spi bus Test Spi Bus 
+ 
+LedController.WebPortal.Web.Dialogs.LedstripFormDialog[16 - .NET ThreadPool Worker] 
+      2022/04/23 18:22:58.680 - [INFO]: Saved ledstrip. 
+ 
+LedController.WebPortal.Web.Pages.LedstripsPage[16 - .NET ThreadPool Worker] 
+      2022/04/23 18:22:58.680 - [DEBUG]: Ledstrip dialog closed reloading ledstrips page. 
+ 
+LedController.WebPortal.Web.Pages.LedstripsPage[29 - .NET ThreadPool Worker] 
+      2022/04/23 18:22:58.695 - [INFO]: Loading ledstrips page. 
+ 
+LedController.WebPortal.Web.Pages.LedstripsPage[39 - .NET ThreadPool Worker] 
+      2022/04/23 18:22:58.896 - [INFO]: Loading ledstrips page. 
+ 
+LedController.WebPortal.Web.Pages.SpiBusesPage[16 - .NET ThreadPool Worker] 
+      2022/04/23 18:23:00.672 - [INFO]: Opening the spi buses page, and loading the spi buses from the application. 
+ 
+LedController.WebPortal.Web.Pages.SpiBusesPage[20 - .NET ThreadPool Worker] 
+      2022/04/23 18:23:02.226 - [INFO]: Opening the edit spi bus dialog. Test Spi Bus. 
+ 
+LedController.WebPortal.Core.Managers.ControllerManager[20 - .NET ThreadPool Worker] 
+      2022/04/23 18:23:02.226 - [DEBUG]: Getting controller by spi bus Test Spi Bus 
+ 
+LedController.WebPortal.Core.Managers.ControllerManager[20 - .NET ThreadPool Worker] 
+      2022/04/23 18:23:02.226 - [DEBUG]: Getting controller by spi bus Test Spi Bus 
+ 
+LedController.WebPortal.Core.Managers.ControllerManager[20 - .NET ThreadPool Worker] 
+      2022/04/23 18:23:02.226 - [DEBUG]: Getting controller by spi bus Test Spi Bus 
+ 
+LedController.WebPortal.Core.Managers.ControllerManager[20 - .NET ThreadPool Worker] 
+      2022/04/23 18:23:02.226 - [DEBUG]: Getting controller by spi bus Test Spi Bus 
+ 
+LedController.WebPortal.Web.Dialogs.SpiBusFormDialog[29 - .NET ThreadPool Worker] 
+      2022/04/23 18:23:08.352 - [INFO]: Saving spi bus Test Spi Bus. 
+ 
+LedController.WebPortal.Web.Dialogs.SpiBusFormDialog[29 - .NET ThreadPool Worker] 
+      2022/04/23 18:23:08.367 - [DEBUG]: Spi bus saved. Adding spi bus to controller. 
+ 
+LedController.WebPortal.Web.Dialogs.SpiBusFormDialog[29 - .NET ThreadPool Worker] 
+      2022/04/23 18:23:08.367 - [DEBUG]: Updating controller to modifiy the spi bus controller selection. 
+ 
+LedController.WebPortal.Web.Dialogs.SpiBusFormDialog[29 - .NET ThreadPool Worker] 
+      2022/04/23 18:23:08.367 - [INFO]: spi buses Has been saved! 
+ 
+LedController.WebPortal.Web.Pages.SpiBusesPage[29 - .NET ThreadPool Worker] 
+      2022/04/23 18:23:08.367 - [INFO]: Closing spi bus form. Reloading spi buses page. 
+ 
+LedController.WebPortal.Web.Pages.SpiBusesPage[16 - .NET ThreadPool Worker] 
+      2022/04/23 18:23:08.382 - [INFO]: Opening the spi buses page, and loading the spi buses from the application. 
+ 
+LedController.WebPortal.Web.Pages.SpiBusesPage[16 - .NET ThreadPool Worker] 
+      2022/04/23 18:23:08.770 - [INFO]: Opening the spi buses page, and loading the spi buses from the application. 
+ 
+LedController.WebPortal.Web.Pages.LedstripsPage[20 - .NET ThreadPool Worker] 
+      2022/04/23 18:23:19.891 - [INFO]: Loading ledstrips page. 
+ 
+LedController.WebPortal.Web.Pages.ControllersPage[26 - .NET ThreadPool Worker] 
+      2022/04/23 18:23:41.210 - [INFO]: Opening controllers page. 
+ 
+LedController.WebPortal.Web.Pages.ControllersPage[26 - .NET ThreadPool Worker] 
+      2022/04/23 18:23:42.350 - [INFO]: Connecting to controller Controller 1652162077. 
+ 
+LedController.WebPortal.Core.Services.ControllerService[26 - .NET ThreadPool Worker] 
+      2022/04/23 18:23:42.368 - [INFO]: Connecting to controller 14caf429-61ca-401c-bf3a-aacea7452cdf. 
+ 
+LedController.WebPortal.Infrastructure.Connections.Services.GrpcControllerConnectionService[26 - .NET ThreadPool Worker] 
+      2022/04/23 18:23:42.368 - [TRACE]: Start connection with Controller 1652162077. 
+ 
+LedController.WebPortal.Infrastructure.Connections.Connections.GrpcControllerConnection[26 - .NET ThreadPool Worker] 
+      2022/04/23 18:23:42.506 - [TRACE]: Creating connection with Controller 1652162077 
+ 
+Grpc.Net.Client.Internal.GrpcCall[26 - .NET ThreadPool Worker] 
+      2022/04/23 18:23:42.556 - [DEBUG]: Starting gRPC call. Method type: 'Unary', URI: 'http://10.0.3.75:5000/connection.GrpcConnection/Connect'. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[26 - .NET ThreadPool Worker] 
+      2022/04/23 18:23:42.704 - [DEBUG]: Sending message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[26 - .NET ThreadPool Worker] 
+      2022/04/23 18:23:42.711 - [TRACE]: Serialized 'Google.Protobuf.WellKnownTypes.Empty' to 0 byte message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[43 - .NET ThreadPool Worker] 
+      2022/04/23 18:23:42.711 - [TRACE]: Message sent. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[20 - .NET ThreadPool Worker] 
+      2022/04/23 18:23:46.420 - [TRACE]: Response headers received. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[20 - .NET ThreadPool Worker] 
+      2022/04/23 18:23:46.431 - [DEBUG]: Reading message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[20 - .NET ThreadPool Worker] 
+      2022/04/23 18:23:46.431 - [TRACE]: Deserializing 0 byte message to 'Google.Protobuf.WellKnownTypes.Empty'. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[20 - .NET ThreadPool Worker] 
+      2022/04/23 18:23:46.431 - [TRACE]: Received message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[20 - .NET ThreadPool Worker] 
+      2022/04/23 18:23:46.431 - [DEBUG]: Finished gRPC call. 
+ 
+LedController.WebPortal.Infrastructure.Connections.Services.GrpcControllerConnectionService[16 - .NET ThreadPool Worker] 
+      2022/04/23 18:23:46.444 - [TRACE]: Connection with Controller 1652162077 successful! 
+ 
+LedController.WebPortal.Core.Services.ControllerService[16 - .NET ThreadPool Worker] 
+      2022/04/23 18:23:46.444 - [INFO]: The controller has been connected. 
+ 
+LedController.WebPortal.Web.Pages.ControllersPage[16 - .NET ThreadPool Worker] 
+      2022/04/23 18:23:46.444 - [INFO]: Connection with controller Controller 1652162077 successful. 
+ 
+LedController.WebPortal.Web.Pages.LedstripsPage[16 - .NET ThreadPool Worker] 
+      2022/04/23 18:24:02.036 - [INFO]: Loading ledstrips page. 
+ 
+LedController.WebPortal.Web.Pages.LedstripsPage[43 - .NET ThreadPool Worker] 
+      2022/04/23 18:24:03.863 - [INFO]: Testing ledstrip Test Ledstrip. 
+ 
+LedController.WebPortal.Infrastructure.Connections.Services.GrpcControllerConnectionService[43 - .NET ThreadPool Worker] 
+      2022/04/23 18:24:03.882 - [TRACE]: Getting controller connection with Controller 1652162077. 
+ 
+LedController.WebPortal.Infrastructure.Connections.Connections.GrpcControllerConnection[43 - .NET ThreadPool Worker] 
+      2022/04/23 18:24:03.882 - [TRACE]: Sending message to 14caf429-61ca-401c-bf3a-aacea7452cdf, test the strip. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[43 - .NET ThreadPool Worker] 
+      2022/04/23 18:24:03.882 - [DEBUG]: Starting gRPC call. Method type: 'Unary', URI: 'http://10.0.3.75:5000/connection.GrpcConnection/TestLedstrip'. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[59 - .NET ThreadPool Worker] 
+      2022/04/23 18:24:03.882 - [DEBUG]: Sending message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[59 - .NET ThreadPool Worker] 
+      2022/04/23 18:24:03.882 - [TRACE]: Serialized 'LedController.WebPortal.Infrastructure.Connections.Protos.Ledstrip' to 80 byte message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[26 - .NET ThreadPool Worker] 
+      2022/04/23 18:24:03.882 - [TRACE]: Message sent. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[20 - .NET ThreadPool Worker] 
+      2022/04/23 18:24:14.487 - [TRACE]: Response headers received. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[20 - .NET ThreadPool Worker] 
+      2022/04/23 18:24:14.502 - [DEBUG]: Reading message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[20 - .NET ThreadPool Worker] 
+      2022/04/23 18:24:14.502 - [TRACE]: Deserializing 2 byte message to 'LedController.WebPortal.Infrastructure.Connections.Protos.ResultMessage'. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[20 - .NET ThreadPool Worker] 
+      2022/04/23 18:24:14.506 - [TRACE]: Received message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[20 - .NET ThreadPool Worker] 
+      2022/04/23 18:24:14.506 - [DEBUG]: Finished gRPC call. 
+ 
+LedController.WebPortal.Infrastructure.Connections.Connections.GrpcControllerConnection[29 - .NET ThreadPool Worker] 
+      2022/04/23 18:24:14.506 - [TRACE]: Test on ledstrip was successful 
+ 
+LedController.WebPortal.Web.Pages.ControllersPage[16 - .NET ThreadPool Worker] 
+      2022/04/23 18:25:06.151 - [INFO]: Opening controllers page. 
+ 
+LedController.WebPortal.Web.Pages.LedstripsPage[3 - .NET ThreadPool Worker] 
+      2022/04/23 18:25:07.058 - [INFO]: Loading ledstrips page. 
+ 
+LedController.WebPortal.Web.Pages.LedstripsPage[26 - .NET ThreadPool Worker] 
+      2022/04/23 18:25:08.953 - [INFO]: Testing ledstrip Test Ledstrip. 
+ 
+LedController.WebPortal.Infrastructure.Connections.Services.GrpcControllerConnectionService[26 - .NET ThreadPool Worker] 
+      2022/04/23 18:25:08.968 - [TRACE]: Getting controller connection with Controller 1652162077. 
+ 
+LedController.WebPortal.Infrastructure.Connections.Connections.GrpcControllerConnection[26 - .NET ThreadPool Worker] 
+      2022/04/23 18:25:08.968 - [TRACE]: Sending message to 14caf429-61ca-401c-bf3a-aacea7452cdf, test the strip. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[26 - .NET ThreadPool Worker] 
+      2022/04/23 18:25:08.968 - [DEBUG]: Starting gRPC call. Method type: 'Unary', URI: 'http://10.0.3.75:5000/connection.GrpcConnection/TestLedstrip'. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[66 - .NET ThreadPool Worker] 
+      2022/04/23 18:25:08.968 - [DEBUG]: Sending message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[66 - .NET ThreadPool Worker] 
+      2022/04/23 18:25:08.968 - [TRACE]: Serialized 'LedController.WebPortal.Infrastructure.Connections.Protos.Ledstrip' to 80 byte message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[20 - .NET ThreadPool Worker] 
+      2022/04/23 18:25:08.968 - [TRACE]: Message sent. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[16 - .NET ThreadPool Worker] 
+      2022/04/23 18:25:15.114 - [TRACE]: Response headers received. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[16 - .NET ThreadPool Worker] 
+      2022/04/23 18:25:15.130 - [DEBUG]: Reading message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[16 - .NET ThreadPool Worker] 
+      2022/04/23 18:25:15.130 - [TRACE]: Deserializing 2 byte message to 'LedController.WebPortal.Infrastructure.Connections.Protos.ResultMessage'. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[16 - .NET ThreadPool Worker] 
+      2022/04/23 18:25:15.130 - [TRACE]: Received message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[16 - .NET ThreadPool Worker] 
+      2022/04/23 18:25:15.130 - [DEBUG]: Finished gRPC call. 
+ 
+LedController.WebPortal.Infrastructure.Connections.Connections.GrpcControllerConnection[20 - .NET ThreadPool Worker] 
+      2022/04/23 18:25:15.130 - [TRACE]: Test on ledstrip was successful 
+ 
+LedController.WebPortal.Web.Pages.LedstripsPage[16 - .NET ThreadPool Worker] 
+      2022/04/23 18:28:38.263 - [INFO]: Testing ledstrip Test Ledstrip. 
+ 
+LedController.WebPortal.Infrastructure.Connections.Services.GrpcControllerConnectionService[16 - .NET ThreadPool Worker] 
+      2022/04/23 18:28:38.279 - [TRACE]: Getting controller connection with Controller 1652162077. 
+ 
+LedController.WebPortal.Infrastructure.Connections.Connections.GrpcControllerConnection[16 - .NET ThreadPool Worker] 
+      2022/04/23 18:28:38.279 - [TRACE]: Sending message to 14caf429-61ca-401c-bf3a-aacea7452cdf, test the strip. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[16 - .NET ThreadPool Worker] 
+      2022/04/23 18:28:38.279 - [DEBUG]: Starting gRPC call. Method type: 'Unary', URI: 'http://10.0.3.75:5000/connection.GrpcConnection/TestLedstrip'. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[85 - .NET ThreadPool Worker] 
+      2022/04/23 18:28:38.414 - [DEBUG]: Sending message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[85 - .NET ThreadPool Worker] 
+      2022/04/23 18:28:38.414 - [TRACE]: Serialized 'LedController.WebPortal.Infrastructure.Connections.Protos.Ledstrip' to 80 byte message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[20 - .NET ThreadPool Worker] 
+      2022/04/23 18:28:38.414 - [TRACE]: Message sent. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[20 - .NET ThreadPool Worker] 
+      2022/04/23 18:28:44.455 - [TRACE]: Response headers received. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[20 - .NET ThreadPool Worker] 
+      2022/04/23 18:28:44.470 - [DEBUG]: Reading message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[20 - .NET ThreadPool Worker] 
+      2022/04/23 18:28:44.470 - [TRACE]: Deserializing 2 byte message to 'LedController.WebPortal.Infrastructure.Connections.Protos.ResultMessage'. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[20 - .NET ThreadPool Worker] 
+      2022/04/23 18:28:44.470 - [TRACE]: Received message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[20 - .NET ThreadPool Worker] 
+      2022/04/23 18:28:44.470 - [DEBUG]: Finished gRPC call. 
+ 
+LedController.WebPortal.Infrastructure.Connections.Connections.GrpcControllerConnection[16 - .NET ThreadPool Worker] 
+      2022/04/23 18:28:44.470 - [TRACE]: Test on ledstrip was successful 
+ 
+LedController.WebPortal.Web.Pages.LedstripsPage[80 - .NET ThreadPool Worker] 
+      2022/04/23 18:29:07.993 - [INFO]: Testing ledstrip Test Ledstrip. 
+ 
+LedController.WebPortal.Infrastructure.Connections.Services.GrpcControllerConnectionService[80 - .NET ThreadPool Worker] 
+      2022/04/23 18:29:08.008 - [TRACE]: Getting controller connection with Controller 1652162077. 
+ 
+LedController.WebPortal.Infrastructure.Connections.Connections.GrpcControllerConnection[80 - .NET ThreadPool Worker] 
+      2022/04/23 18:29:08.008 - [TRACE]: Sending message to 14caf429-61ca-401c-bf3a-aacea7452cdf, test the strip. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[80 - .NET ThreadPool Worker] 
+      2022/04/23 18:29:08.008 - [DEBUG]: Starting gRPC call. Method type: 'Unary', URI: 'http://10.0.3.75:5000/connection.GrpcConnection/TestLedstrip'. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[16 - .NET ThreadPool Worker] 
+      2022/04/23 18:29:08.008 - [DEBUG]: Sending message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[16 - .NET ThreadPool Worker] 
+      2022/04/23 18:29:08.008 - [TRACE]: Serialized 'LedController.WebPortal.Infrastructure.Connections.Protos.Ledstrip' to 80 byte message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[20 - .NET ThreadPool Worker] 
+      2022/04/23 18:29:08.008 - [TRACE]: Message sent. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[20 - .NET ThreadPool Worker] 
+      2022/04/23 18:29:14.322 - [TRACE]: Response headers received. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[20 - .NET ThreadPool Worker] 
+      2022/04/23 18:29:14.338 - [DEBUG]: Reading message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[20 - .NET ThreadPool Worker] 
+      2022/04/23 18:29:14.338 - [TRACE]: Deserializing 2 byte message to 'LedController.WebPortal.Infrastructure.Connections.Protos.ResultMessage'. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[20 - .NET ThreadPool Worker] 
+      2022/04/23 18:29:14.338 - [TRACE]: Received message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[20 - .NET ThreadPool Worker] 
+      2022/04/23 18:29:14.338 - [DEBUG]: Finished gRPC call. 
+ 
+LedController.WebPortal.Infrastructure.Connections.Connections.GrpcControllerConnection[16 - .NET ThreadPool Worker] 
+      2022/04/23 18:29:14.338 - [TRACE]: Test on ledstrip was successful 
+ 
+LedController.WebPortal.Web.Pages.ControllersPage[80 - .NET ThreadPool Worker] 
+      2022/04/23 18:44:58.751 - [INFO]: Opening controllers page. 
+ 
+LedController.WebPortal.Web.Pages.LedstripsPage[16 - .NET ThreadPool Worker] 
+      2022/04/23 18:45:00.286 - [INFO]: Loading ledstrips page. 
+ 
+LedController.WebPortal.Web.Pages.LedstripsPage[20 - .NET ThreadPool Worker] 
+      2022/04/23 18:45:02.376 - [INFO]: Testing ledstrip Test Ledstrip. 
+ 
+LedController.WebPortal.Infrastructure.Connections.Services.GrpcControllerConnectionService[20 - .NET ThreadPool Worker] 
+      2022/04/23 18:45:02.376 - [TRACE]: Getting controller connection with Controller 1652162077. 
+ 
+LedController.WebPortal.Infrastructure.Connections.Connections.GrpcControllerConnection[20 - .NET ThreadPool Worker] 
+      2022/04/23 18:45:02.376 - [TRACE]: Sending message to 14caf429-61ca-401c-bf3a-aacea7452cdf, test the strip. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[20 - .NET ThreadPool Worker] 
+      2022/04/23 18:45:02.376 - [DEBUG]: Starting gRPC call. Method type: 'Unary', URI: 'http://10.0.3.75:5000/connection.GrpcConnection/TestLedstrip'. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[80 - .NET ThreadPool Worker] 
+      2022/04/23 18:45:02.690 - [DEBUG]: Sending message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[80 - .NET ThreadPool Worker] 
+      2022/04/23 18:45:02.694 - [TRACE]: Serialized 'LedController.WebPortal.Infrastructure.Connections.Protos.Ledstrip' to 80 byte message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[20 - .NET ThreadPool Worker] 
+      2022/04/23 18:45:02.694 - [TRACE]: Message sent. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[20 - .NET ThreadPool Worker] 
+      2022/04/23 18:45:08.695 - [TRACE]: Response headers received. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[20 - .NET ThreadPool Worker] 
+      2022/04/23 18:45:08.752 - [DEBUG]: Reading message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[20 - .NET ThreadPool Worker] 
+      2022/04/23 18:45:08.752 - [TRACE]: Deserializing 2 byte message to 'LedController.WebPortal.Infrastructure.Connections.Protos.ResultMessage'. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[20 - .NET ThreadPool Worker] 
+      2022/04/23 18:45:08.752 - [TRACE]: Received message. 
+ 
+Grpc.Net.Client.Internal.GrpcCall[20 - .NET ThreadPool Worker] 
+      2022/04/23 18:45:08.752 - [DEBUG]: Finished gRPC call. 
+ 
+LedController.WebPortal.Infrastructure.Connections.Connections.GrpcControllerConnection[16 - .NET ThreadPool Worker] 
+      2022/04/23 18:45:08.752 - [TRACE]: Test on ledstrip was successful 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/04/23 22:10:55.404 - [DEBUG]: Hosting starting 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/23 22:10:55.506 - [DEBUG]: Starting the discovery service. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/23 22:10:55.523 - [DEBUG]: Creating a new UDP client to be used for broadcasting the server information. This wil happen on UDP port 8472. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[6 - .NET ThreadPool Worker] 
+      2022/04/23 22:10:55.523 - [TRACE]: Start sending message to controllers to be discovered. 
+ 
+LedController.WebPortal.Core.Services.DiscoveryService[1 - ] 
+      2022/04/23 22:10:55.523 - [DEBUG]: The discovery service has started. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/23 22:10:55.663 - [INFO]: Now listening on: http://localhost:5097 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/23 22:10:55.663 - [INFO]: Application started. Press Ctrl+C to shut down. 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/23 22:10:55.663 - [INFO]: Hosting environment: Development 
+ 
+Microsoft.Hosting.Lifetime[1 - ] 
+      2022/04/23 22:10:55.663 - [INFO]: Content root path: D:\Projects\LedController_net5\LedController.WebPortal.Web\ 
+ 
+Microsoft.Extensions.Hosting.Internal.Host[1 - ] 
+      2022/04/23 22:10:55.663 - [DEBUG]: Hosting started 
+ 
+LedController.WebPortal.Web.Pages.Index[14 - .NET ThreadPool Worker] 
+      2022/04/23 22:10:58.179 - [INFO]: Opening the index page. 
+ 

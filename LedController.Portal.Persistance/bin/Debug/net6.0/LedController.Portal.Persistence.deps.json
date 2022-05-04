@@ -1,0 +1,110 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "LedController.Portal.Persistence/1.0.0": {
+        "dependencies": {
+          "LedController.Portal.Domain": "1.0.0"
+        },
+        "runtime": {
+          "LedController.Portal.Persistence.dll": {}
+        }
+      },
+      "Microsoft.Extensions.Logging.Abstractions/6.0.0": {
+        "runtime": {
+          "lib/net6.0/Microsoft.Extensions.Logging.Abstractions.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.52210"
+          }
+        }
+      },
+      "Microsoft.Toolkit/7.1.2": {
+        "runtime": {
+          "lib/net5.0/Microsoft.Toolkit.dll": {
+            "assemblyVersion": "7.1.0.0",
+            "fileVersion": "7.1.2.1"
+          }
+        }
+      },
+      "Microsoft.Toolkit.Diagnostics/7.1.2": {
+        "runtime": {
+          "lib/net5.0/Microsoft.Toolkit.Diagnostics.dll": {
+            "assemblyVersion": "7.1.0.0",
+            "fileVersion": "7.1.2.1"
+          }
+        }
+      },
+      "LedController.Domain/1.0.0": {
+        "dependencies": {
+          "LedController.Shared": "1.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "6.0.0",
+          "Microsoft.Toolkit": "7.1.2",
+          "Microsoft.Toolkit.Diagnostics": "7.1.2"
+        },
+        "runtime": {
+          "LedController.Domain.dll": {}
+        }
+      },
+      "LedController.Portal.Domain/1.0.0": {
+        "dependencies": {
+          "LedController.Domain": "1.0.0"
+        },
+        "runtime": {
+          "LedController.Portal.Domain.dll": {}
+        }
+      },
+      "LedController.Shared/1.0.0": {
+        "runtime": {
+          "LedController.Shared.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "LedController.Portal.Persistence/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Extensions.Logging.Abstractions/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/HggWBbTwy8TgebGSX5DBZ24ndhzi93sHUBDvP1IxbZD7FDokYzdAr6+vbWGjw2XAfR2EJ1sfKUotpjHnFWPxA==",
+      "path": "microsoft.extensions.logging.abstractions/6.0.0",
+      "hashPath": "microsoft.extensions.logging.abstractions.6.0.0.nupkg.sha512"
+    },
+    "Microsoft.Toolkit/7.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-0yBm7zWDU8jI93UySLeXTJnzl1PPl80+E+myEy6W2UIQsEgGpiWSMcKkV5/1F7dfHWcydBMveMjXZKt1/ocV2A==",
+      "path": "microsoft.toolkit/7.1.2",
+      "hashPath": "microsoft.toolkit.7.1.2.nupkg.sha512"
+    },
+    "Microsoft.Toolkit.Diagnostics/7.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-W4nhHiYbFbSLuDQGrf+Tpjfa3K0eMO7/G69xb1kZp6Kkst6wF0hZxk3whgDvkuSm2K+advhYB0wkD/ptQs+l/A==",
+      "path": "microsoft.toolkit.diagnostics/7.1.2",
+      "hashPath": "microsoft.toolkit.diagnostics.7.1.2.nupkg.sha512"
+    },
+    "LedController.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "LedController.Portal.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "LedController.Shared/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

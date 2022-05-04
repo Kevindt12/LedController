@@ -1,0 +1,5 @@
+D:\Projects\LedController_net5\LedController.Portal.Infrastructure.Connections\obj\Debug\net6.0\LedController.Portal.Infrastructure.Connections.csproj.AssemblyReference.cache
+D:\Projects\LedController_net5\LedController.Portal.Infrastructure.Connections\obj\Debug\net6.0\LedController.Portal.Infrastructure.Connections.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\LedController_net5\LedController.Portal.Infrastructure.Connections\obj\Debug\net6.0\LedController.Portal.Infrastructure.Connections.AssemblyInfoInputs.cache
+D:\Projects\LedController_net5\LedController.Portal.Infrastructure.Connections\obj\Debug\net6.0\LedController.Portal.Infrastructure.Connections.AssemblyInfo.cs
+D:\Projects\LedController_net5\LedController.Portal.Infrastructure.Connections\obj\Debug\net6.0\LedController.Portal.Infrastructure.Connections.csproj.CoreCompileInputs.cache

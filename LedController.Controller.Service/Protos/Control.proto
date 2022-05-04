@@ -1,0 +1,134 @@
+﻿syntax = "proto3";
+
+
+option csharp_namespace = "LedController.Controller.Service";
+
+
+import "google/protobuf/empty.proto";
+import "google/protobuf/any.proto";
+
+
+package connection;
+
+
+
+
+
+service GrpcConnection {
+
+	rpc Connect(google.protobuf.Empty) returns (google.protobuf.Empty);
+
+	rpc Disconnect(google.protobuf.Empty) returns (google.protobuf.Empty);
+
+
+	rpc PlayAnimationOnLedstrip(PlayAnimationOnLedstripMessage) returns (ResultMessage);
+
+	rpc StopAnimationOnLedstrip(LedstripInfo) returns (ResultMessage) ;
+
+	rpc TestLedstrip(Ledstrip) returns (ResultMessage);
+
+	rpc GetPlayingLedstrips(google.protobuf.Empty) returns (stream LedstripAnimationInfo);
+
+	rpc UploadEffectAssembly(EffectAssembly) returns (ResultMessage);
+
+}
+
+
+message ResultMessage {
+	bool success = 1;
+	string errorMessage = 2;
+	string stackTrace = 3;
+}
+
+
+message EffectAssembly {
+	string id = 1;
+	bytes data = 3;
+}
+
+
+
+message LedstripInfo {
+	string ledstripId = 1;
+}
+
+
+message LedstripAnimationInfo {
+	string ledstripId = 1;
+	string animationId = 2;
+}
+
+
+
+message PlayAnimationOnLedstripMessage {
+	Ledstrip ledstrip = 1;
+	Animation animation = 2;
+}
+
+
+
+// The ledstrip model
+message Ledstrip {
+	string id = 1;
+	int32 pixelCount = 3;
+	SpiBus spiBus = 4;
+	LedstripProtocol protocol = 5;
+
+}
+
+// The spi model
+message SpiBus {
+	string id = 1;
+	int32 busId = 3;
+	int32 chipSelectId = 4;
+	SpiBusSettings spiBusSettings = 5;
+
+}
+// The settings of the spi bus 
+message SpiBusSettings {
+	int32 clockSpeed = 1;
+	int32 dataBitLength = 2;
+	int32 DataFlow = 3;
+	int32 mode = 4;
+}
+
+
+// Animation model
+message Animation {
+	string id = 1;
+	repeated AnimationEffect effects = 4;
+}
+
+
+// AnimationEffect model
+message AnimationEffect {
+	string id = 1;
+	Effect effect = 2;
+	double frequency = 3;
+	int64 duration = 4;
+	repeated AnimationEffectParameter parameters = 5;
+}
+
+
+// The animation effect model
+message AnimationEffectParameter {
+	string id = 1;
+	string propertyName = 2;
+	// The value is a object. We cant wrap this in any because we also use arrays and things like System.Drawing.Color wherefore there is no type converter in gRpc.
+	string value = 3;
+}
+
+
+message Effect {
+	string id = 1;
+	bool isStatic = 2;
+	string effectAssemblyId = 3;
+}
+
+
+
+enum LedstripProtocol {
+	CUSTOM = 0;
+	NEOPIXEL = 1;
+}
+
